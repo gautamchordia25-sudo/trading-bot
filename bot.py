@@ -122,10 +122,8 @@ async def fetch_yahoo_direct_async(ticker: str, period: str = "3mo", interval: s
         return None
 
 async def fetch_data_async(tickers: list, period: str = "3mo", interval: str = "1d"):
-    """Optimized parallel network queries using Async methods."""
     primary = tickers[0]
     
-    # Try high-performance async direct queries first
     df = await fetch_yahoo_direct_async(primary, period, interval)
     if df is not None and len(df) >= 3:
         return df, primary
@@ -135,7 +133,6 @@ async def fetch_data_async(tickers: list, period: str = "3mo", interval: str = "
         if df is not None and len(df) >= 3:
             return df, primary
 
-    # Fallback thread pool pool execution for legacy yfinance
     try:
         loop = asyncio.get_running_loop()
         df = await loop.run_in_executor(None, lambda: yf.Ticker(primary).history(period=period, interval=interval, timeout=10))
@@ -180,8 +177,6 @@ def calc_pivots(h, l, c):
 # ─── CORE ENGINE ANALYSIS ─────────────────────────────────────────────────────
 
 async def get_full_analysis_async(tickers):
-    """Fires I/O operations simultaneously instead of blocking execution."""
-    # Run historical daily and intraday calls in parallel!
     tasks = [
         fetch_data_async(tickers, "3mo", "1d"),
         fetch_data_async(tickers, "5d", "15m")
@@ -208,7 +203,6 @@ async def get_full_analysis_async(tickers):
 
     pvt = calc_pivots(float(h.iloc[-2]), float(l.iloc[-2]), float(c.iloc[-2]))
 
-    # Logical Rules Signals Scoring
     score = 0
     if chg > 0: score += 2
     else: score -= 2
@@ -219,7 +213,6 @@ async def get_full_analysis_async(tickers):
     if score >= 2: sig = "BUY 🟢"
     elif score <= -2: sig = "SELL 🔴"
 
-    # Targets & Risk Management setup
     sl = round(px - (atr_15m * 1.5), 2) if "BUY" in sig else round(px + (atr_15m * 1.5), 2)
     t1 = round(px + (atr_15m * 1.5), 2) if "BUY" in sig else round(px - (atr_15m * 1.5), 2)
     t2 = round(px + (atr_15m * 3), 2) if "BUY" in sig else round(px - (atr_15m * 3), 2)
@@ -245,4 +238,73 @@ def fmt_msg(d, name="NIFTY 50"):
 📐 *RSI (14):* `{d['rsi']}`
 
 🎯 *TRADE SETUP*
+return msg.strip()
 
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text("🤖 *Welcome to high-performance AI Trading Bot!* \nUse `/nifty` or `/banknifty` for sub-second updates.", parse_mode="Markdown")
+
+async def nifty_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    msg = await update.message.reply_text("⚡ Processing asynchronous matrix...", parse_mode="Markdown")
+    d = await get_full_analysis_async(NIFTY_TICKERS)
+    if not d:
+        await msg.edit_text("❌ Data Stream Timed Out.")
+        return
+    await msg.edit_text(fmt_msg(d, "NIFTY 50"), parse_mode="Markdown")
+
+async def banknifty_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    msg = await update.message.reply_text("⚡ Processing asynchronous matrix...", parse_mode="Markdown")
+    d = await get_full_analysis_async(BANKNIFTY_TICKERS)
+    if not d:
+        await msg.edit_text("❌ Data Stream Timed Out.")
+        return
+    await msg.edit_text(fmt_msg(d, "BANK NIFTY"), parse_mode="Markdown")
+
+async def sector_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    msg = await update.message.reply_text("🔥 Scanning all sectors concurrently...", parse_mode="Markdown")
+    
+    async def get_sector_avg(tickers):
+        gains = []
+        for t in tickers:
+            df, _ = await fetch_data_async([t], "2d", "1d")
+            if df is not None and len(df) >= 2:
+                pct = (float(df["Close"].iloc[-1]) - float(df["Close"].iloc[-2])) / float(df["Close"].iloc[-2]) * 100
+                gains.append(pct)
+        return sum(gains) / len(gains) if gains else 0
+
+    sector_names = list(SECTORS.keys())
+    tasks = [get_sector_avg(SECTORS[s]) for s in sector_names]
+    results = await asyncio.gather(*tasks)
+
+    lines = ["🗺 *Concurrently Generated Sector Heatmap*\n"]
+    for name, avg in zip(sector_names, results):
+        trend = "▲" if avg >= 0 else "▼"
+        lines.append(f"{name}: `{avg:+.2f}%` {trend}")
+
+    await msg.edit_text("\n".join(lines), parse_mode="Markdown")
+
+# ─── DATABASE INITIALIZATION ──────────────────────────────────────────────────
+
+def db_init():
+    with sqlite3.connect(DB_PATH) as con:
+        con.execute("""
+            CREATE TABLE IF NOT EXISTS trades (
+                id INTEGER PRIMARY KEY AUTOINCREMENT, uid INTEGER, direction TEXT, entry REAL, sl REAL, t1 REAL, status TEXT, ts TEXT
+            );
+        """)
+
+# ─── RUNNER MAIN MAIN ─────────────────────────────────────────────────────────
+
+def main():
+    db_init()
+    app = Application.builder().token(TELEGRAM_TOKEN).build()
+
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(CommandHandler("nifty", nifty_cmd))
+    app.add_handler(CommandHandler("banknifty", banknifty_cmd))
+    app.add_handler(CommandHandler("sector", sector_cmd))
+
+    print("🚀 Bot Server Running on ultra-low latency async loops...")
+    app.run_polling(drop_pending_updates=True)
+
+if __name__ == "__main__":
+    main()
