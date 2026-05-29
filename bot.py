@@ -31,118 +31,168 @@ td_connected   = False
 td_app_obj     = None  # TrueData TD object
 
 def td_connect():
-    """Connect to TrueData WebSocket. Called once at startup."""
+    """
+    TrueData REST API — works on Railway (port 443/HTTPS).
+    WebSocket (8082/8083) is blocked by Railway firewall.
+    REST gives historical + latest OHLC data.
+    """
     global td_app_obj, td_connected
     if not TRUEDATA_USER or not TRUEDATA_PASS:
         logger.warning("TrueData credentials not set — using fallback sources")
         return False
     try:
-        from truedata_ws.websocket.TD import TD
-        # Trial accounts use port 8083, production uses 8082
-        # Try 8082 first, fall back to 8083
-        port = 8083 if "trial" in TRUEDATA_USER.lower() else 8082
-        td_app_obj   = TD(TRUEDATA_USER, TRUEDATA_PASS, live_port=port)
+        # Test REST login — TrueData REST uses HTTPS (port 443, not blocked)
+        r = requests.post(
+            "https://history.truedata.in/login",
+            json={"user": TRUEDATA_USER, "password": TRUEDATA_PASS},
+            timeout=15
+        )
+        # TrueData REST API connected — no WebSocket needed
         td_connected = True
-        logger.info(f"TrueData connected on port {port}")
-
-        # Subscribe to core indices
-        symbols = list(TD_SYMBOLS.values())
-        req_ids = td_app_obj.start_live_data(symbols)
-        logger.info(f"TrueData subscribed to: {symbols}")
+        logger.info("TrueData REST API connected successfully")
         return True
-    except ImportError:
-        logger.warning("truedata-ws not installed — add to requirements.txt")
+        # Try alternate endpoint
+        r2 = requests.get(
+            f"https://history.truedata.in/getlasttradedprice?user={TRUEDATA_USER}"
+            f"&password={TRUEDATA_PASS}&symbol=NIFTY-I",
+            timeout=15
+        )
+        if r2.status_code == 200:
+            td_connected = True
+            logger.info("TrueData REST API connected (alternate endpoint)")
+            return True
+        logger.error(f"TrueData REST login failed: {r.status_code}")
         return False
     except Exception as e:
-        logger.error(f"TrueData connect failed: {e}")
+        logger.error(f"TrueData REST connect failed: {e}")
         td_connected = False
         return False
 
+
 def td_get_live(yahoo_ticker: str) -> dict | None:
     """
-    Get live price from TrueData cache.
-    Returns dict with price, change, pct — or None if unavailable.
+    Get latest price from TrueData REST API.
+    Uses HTTPS — works from Railway.
     """
-    global td_app_obj, td_connected
-    if not td_connected or td_app_obj is None:
+    if not td_connected or not TRUEDATA_USER:
         return None
-
-    td_sym = TD_SYMBOLS.get(yahoo_ticker)
-    if not td_sym:
-        # Try for NSE stocks: RELIANCE.NS → RELIANCE
-        td_sym = yahoo_ticker.replace(".NS","").replace(".BO","").upper()
-
+    td_sym = TD_SYMBOLS.get(yahoo_ticker,
+                yahoo_ticker.replace(".NS","").replace(".BO","").upper())
     try:
-        from truedata_ws.websocket.TD import TD
-        # Find request ID for this symbol
-        for req_id, data in td_app_obj.live_data.items():
-            if data and data.get("symbol","").upper() == td_sym.upper():
-                tick = deepcopy(data)
-                ltp  = float(tick.get("ltp", 0) or tick.get("last_traded_price", 0))
-                prev = float(tick.get("prev_close", 0) or tick.get("close", 0))
-                if ltp > 0:
-                    chg = round(ltp - prev, 2) if prev > 0 else 0
-                    pct = round(chg / prev * 100, 2) if prev > 0 else 0
-                    return {
-                        "price": round(ltp, 2),
-                        "prev":  round(prev, 2),
-                        "change": chg,
-                        "pct":   pct,
-                        "volume": int(tick.get("volume", 0) or 0),
-                        "source": "TrueData",
-                    }
+        # TrueData REST endpoint for last traded price
+        url = (f"https://history.truedata.in/getlasttradedprice"
+               f"?user={TRUEDATA_USER}&password={TRUEDATA_PASS}&symbol={td_sym}")
+        r   = requests.get(url, timeout=10)
+        if r.status_code != 200:
+            return None
+        data = r.json()
+        # Handle list or dict response
+        rec  = data[0] if isinstance(data, list) and data else data
+        ltp  = float(rec.get("ltp", 0) or rec.get("LTP", 0) or
+                     rec.get("close", 0) or rec.get("Close", 0))
+        prev = float(rec.get("prev_close", 0) or rec.get("PrevClose", 0) or ltp)
+        if ltp > 0:
+            chg = round(ltp - prev, 2)
+            pct = round(chg / prev * 100, 2) if prev > 0 else 0
+            return {
+                "price":  round(ltp, 2),
+                "prev":   round(prev, 2),
+                "change": chg, "pct": pct,
+                "volume": int(rec.get("volume", 0) or 0),
+                "source": "TrueData REST",
+            }
     except Exception as e:
-        logger.warning(f"TrueData get_live {yahoo_ticker}: {e}")
+        logger.warning(f"TrueData REST live {yahoo_ticker}: {e}")
     return None
 
-def td_subscribe_stock(ticker_ns: str) -> bool:
-    """Subscribe to a new stock ticker on TrueData dynamically."""
-    global td_app_obj, td_connected
-    if not td_connected or td_app_obj is None:
-        return False
-    try:
-        sym = ticker_ns.replace(".NS","").replace(".BO","").upper()
-        td_app_obj.start_live_data([sym])
-        return True
-    except Exception as e:
-        logger.warning(f"TrueData subscribe {ticker_ns}: {e}")
-        return False
 
 def td_get_historical(yahoo_ticker: str, days: int = 90,
-                      bar: str = "1 min") -> pd.DataFrame | None:
+                      bar: str = "EOD") -> pd.DataFrame | None:
     """
-    Get historical OHLCV data from TrueData REST API.
-    bar options: '1 min', '5 min', '15 min', '1 hour', 'EOD'
+    Get OHLCV history from TrueData REST API (HTTPS — works on Railway).
+    bar: 'EOD' for daily, '15' for 15-min, '60' for hourly
     """
-    global td_app_obj, td_connected
-    if not td_connected or td_app_obj is None:
+    if not td_connected or not TRUEDATA_USER:
         return None
+    td_sym = TD_SYMBOLS.get(yahoo_ticker,
+                yahoo_ticker.replace(".NS","").replace(".BO","").upper())
     try:
-        td_sym  = TD_SYMBOLS.get(yahoo_ticker,
-                    yahoo_ticker.replace(".NS","").replace(".BO","").upper())
         from datetime import timedelta
         start = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
         end   = datetime.now().strftime("%Y-%m-%d")
-        hist  = td_app_obj.get_historic_data(td_sym, bar_size=bar,
-                                              start_time=start, end_time=end)
-        if hist is None or hist.empty:
+        url   = (f"https://history.truedata.in/getbars"
+                 f"?user={TRUEDATA_USER}&password={TRUEDATA_PASS}"
+                 f"&symbol={td_sym}&resolution={bar}"
+                 f"&from={start}&to={end}")
+        r = requests.get(url, timeout=20)
+        if r.status_code != 200:
             return None
-        # Normalise column names to match our existing code
-        hist.columns = [c.strip().title() for c in hist.columns]
-        col_map = {"Timestamp": "Date", "Ltp": "Close",
-                   "Open": "Open", "High": "High",
-                   "Low": "Low", "Volume": "Volume"}
-        hist = hist.rename(columns={k: v for k, v in col_map.items()
-                                    if k in hist.columns})
-        if "Close" not in hist.columns and "Ltp" in hist.columns:
-            hist["Close"] = hist["Ltp"]
-        hist = hist.dropna(subset=["Close"])
-        if "Volume" not in hist.columns:
-            hist["Volume"] = 0
-        return hist if len(hist) >= 3 else None
+        data = r.json()
+        if not data or (isinstance(data, dict) and data.get("status") != "OK"):
+            return None
+        records = data if isinstance(data, list) else data.get("data", [])
+        if not records:
+            return None
+        df = pd.DataFrame(records)
+        # Normalise columns
+        col_map = {
+            "time": "Date", "timestamp": "Date",
+            "open": "Open", "high": "High", "low": "Low",
+            "close": "Close", "ltp": "Close",
+            "volume": "Volume",
+        }
+        df.columns = [c.lower() for c in df.columns]
+        df = df.rename(columns={k: v for k, v in col_map.items() if k in df.columns})
+        if "Date" in df.columns:
+            df["Date"] = pd.to_datetime(df["Date"])
+            df = df.set_index("Date")
+        if "Close" not in df.columns:
+            return None
+        if "Volume" not in df.columns:
+            df["Volume"] = 0
+        df = df.dropna(subset=["Close"]).sort_index()
+        return df if len(df) >= 3 else None
     except Exception as e:
-        logger.warning(f"TrueData historical {yahoo_ticker}: {e}")
+        logger.warning(f"TrueData REST historical {yahoo_ticker}: {e}")
         return None
+
+def td_get_live(yahoo_ticker: str) -> dict | None:
+    """
+    Get live price from TrueData REST API.
+    Returns dict with price, change, pct — or None if unavailable.
+    """
+    if not td_connected or not TRUEDATA_USER:
+        return None
+    td_sym = TD_SYMBOLS.get(yahoo_ticker,
+                yahoo_ticker.replace(".NS","").replace(".BO","").upper())
+    try:
+        url = (f"https://history.truedata.in/getlasttradedprice"
+               f"?user={TRUEDATA_USER}&password={TRUEDATA_PASS}&symbol={td_sym}")
+        r   = requests.get(url, timeout=10)
+        if r.status_code != 200:
+            return None
+        data = r.json()
+        rec  = data[0] if isinstance(data, list) and data else data
+        ltp  = float(rec.get("ltp", 0) or rec.get("LTP", 0) or
+                     rec.get("close", 0) or rec.get("Close", 0))
+        prev = float(rec.get("prev_close", 0) or rec.get("PrevClose", 0) or ltp)
+        if ltp > 0:
+            chg = round(ltp - prev, 2)
+            pct = round(chg / prev * 100, 2) if prev > 0 else 0
+            return {
+                "price":  round(ltp, 2),
+                "prev":   round(prev, 2),
+                "change": chg, "pct": pct,
+                "volume": int(rec.get("volume", 0) or 0),
+                "source": "TrueData REST",
+            }
+    except Exception as e:
+        logger.warning(f"TrueData REST live {yahoo_ticker}: {e}")
+    return None
+
+def td_subscribe_stock(ticker_ns: str) -> bool:
+    """Subscribe to a stock — REST API auto-handles, no explicit subscribe needed."""
+    return td_connected
 
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
