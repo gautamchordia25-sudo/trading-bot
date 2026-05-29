@@ -291,7 +291,6 @@ def db_init():
                 id INTEGER PRIMARY KEY AUTOINCREMENT, uid INTEGER, direction TEXT, entry REAL, sl REAL, t1 REAL, status TEXT, ts TEXT
             );
         """)
-
 # ─── RUNNER MAIN MAIN ─────────────────────────────────────────────────────────
 
 def main():
