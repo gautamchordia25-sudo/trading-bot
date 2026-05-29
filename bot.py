@@ -245,3 +245,4 @@ def fmt_msg(d, name="NIFTY 50"):
 📐 *RSI (14):* `{d['rsi']}`
 
 🎯 *TRADE SETUP*
+
