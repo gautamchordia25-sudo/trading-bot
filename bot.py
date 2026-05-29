@@ -158,7 +158,7 @@ Please provide a structured analysis following your guidelines.
 """
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-opus-4-5",
         max_tokens=1000,
         system=TRADING_SYSTEM_PROMPT,
         messages=[{"role": "user", "content": prompt}]
@@ -352,7 +352,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     msg = await update.message.reply_text("🤔 Thinking...", parse_mode="Markdown")
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-opus-4-5",
         max_tokens=800,
         system=TRADING_SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_text}]
