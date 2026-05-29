@@ -3,7 +3,7 @@ anthropic==0.25.0
 yfinance==0.2.38
 pandas==2.1.4
 numpy==1.26.4
-pandas-ta==0.3.14b1
+pandas-ta @ git+https://github.com/twopirllc/pandas-ta.git
 pytz==2024.1
 requests==2.31.0
 python-dotenv==1.0.0
