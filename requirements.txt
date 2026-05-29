@@ -1,5 +1,4 @@
-# AI Trading Telegram Bot - Requirements
-python-telegram-bot==20.7
+python-telegram-bot==21.3
 anthropic==0.25.0
 yfinance==0.2.38
 requests==2.31.0
