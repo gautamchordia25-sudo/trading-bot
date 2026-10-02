@@ -877,7 +877,7 @@ class TestAtlasIntegration(AtlasCase):
         env_only = {'v36-daycard-render', 'v36-infographic-render', 'v39-toggle', 'v54-internet-contract', 'v58-eventbus'}
         failing = {t['name'] for t in r['tests'] if not t['ok']}
         self.assertLessEqual(failing, env_only, sorted(failing - env_only))
-        self.assertEqual(r['version'], '84.0')
+        self.assertEqual(r['version'], m.VERSION)
 
     def test_capabilities_text(self):
         self.assertIn('Futures Desk 84', m._n82_capabilities())
@@ -899,7 +899,7 @@ class TestAtlasIntegration(AtlasCase):
 
     def test_version_and_update_gate(self):
         src = open(base.NEMO_FILE, encoding='utf-8').read()
-        self.assertEqual(m._extract_version(src), '84.0')
+        self.assertEqual(m._extract_version(src), m.VERSION)
         ok, err = m._compile_check(src)
         self.assertTrue(ok, err)
 
@@ -910,7 +910,8 @@ class TestAdvisoryOnlyGuarantee(unittest.TestCase):
     @staticmethod
     def block():
         src = open(base.NEMO_FILE, encoding='utf-8').read()
-        return src[src.index('# NEMO 84 - ATLAS'):src.index("\nif __name__ == '__main__':")]
+        end = src.index('# NEMO 85 - STEWARD') if '# NEMO 85 - STEWARD' in src else src.index("\nif __name__ == '__main__':")
+        return src[src.index('# NEMO 84 - ATLAS'):end]
 
     def test_v84_block_has_no_order_broker_network_or_shell_identifiers(self):
         import ast
