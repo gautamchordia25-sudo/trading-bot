@@ -685,7 +685,7 @@ class TestBackgroundWorker(CortexCase):
 
 class TestVerification(CortexCase):
     def test_wrong_arithmetic_is_repaired(self):
-        self.fake.when(lambda r, t: 'Arithmetic check failed' in t, 'GST at 18% of 1250 = 225, total 1475.')
+        self.fake.when(lambda r, t: 'check failed' in t, 'GST at 18% of 1250 = 225, total 1475.')
         self.fake.when(lambda r, t: True, 'GST at 18% of 1250 = 250, total 1500.')
         out = m._n83_chat(self.msg('how much GST on 1250 at 18%?'))
         self.assertIn('= 225', out['text'])
@@ -795,7 +795,7 @@ class TestControls(CortexCase):
 
     def test_status_and_why_and_help(self):
         m._n83_dispatch(self.msg('/cortex83'))
-        self.assertIn('NEMO CORTEX 83.0', self.sent[-1][1])
+        self.assertIn('NEMO CORTEX ' + m.VERSION, self.sent[-1][1])
         self.assertIn('Configured is not the same as live-tested', self.sent[-1][1])
         m._n83_dispatch(self.msg('why did you say that'))
         self.assertIn('No Cortex answer to explain yet', self.sent[-1][1])
@@ -842,7 +842,7 @@ class TestHooks(CortexCase):
         rows = [t for t in r['tests'] if t['name'].startswith('v83-')]
         self.assertGreaterEqual(len(rows), 20)
         self.assertEqual([t['name'] for t in rows if not t['ok']], [])
-        self.assertEqual(r['version'], '83.0')
+        self.assertEqual(r['version'], m.VERSION)
 
     def test_no_regressions_vs_baseline_environment_failures(self):
         # The v82 baseline run (before any change) fails exactly these 5 rows in a sandbox without
@@ -890,7 +890,7 @@ class TestSourceHygiene(unittest.TestCase):
         src = open(NEMO_FILE, encoding='utf-8').read()
         self.assertGreater(len(src), 100000)
         self.assertIn('nemotron_bot', src)
-        self.assertEqual(m._extract_version(src), '83.0')
+        self.assertEqual(m._extract_version(src), m.VERSION)
         ok, err = m._compile_check(src)
         self.assertTrue(ok, err)
 
