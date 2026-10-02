@@ -821,7 +821,8 @@ def _layer_source():
     with open(SOURCE_PATH, encoding='utf-8') as fh:
         src = fh.read()
     start = src.index('# NEMO 86 - CANDOR')
-    return src, src[start:src.rindex("if __name__")]
+    end = src.index('# NEMO 87 - RELAY') if '# NEMO 87 - RELAY' in src else src.rindex("if __name__")       # (later layers are checked by their own tests)
+    return src, src[start:end]
 
 
 class TestStructure(unittest.TestCase):
@@ -833,7 +834,7 @@ class TestStructure(unittest.TestCase):
         cls.tree = ast.parse(cls.layer)
 
     def test_the_version_is_distinct(self):
-        self.assertEqual(self.m.VERSION, '86.0')
+        self.assertGreaterEqual(float(self.m.VERSION), 86)
         self.assertIn('NEMO 86.0 CANDOR', self.full)
 
     def test_the_regression_rows_are_green(self):
