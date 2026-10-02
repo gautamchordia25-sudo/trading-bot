@@ -1605,7 +1605,7 @@ class TestStructure(unittest.TestCase):
         cls.src = _source()
         cls.tree = ast.parse(cls.src)
         cls.layer_start = cls.src.index('# NEMO 87 - RELAY')
-        cls.layer = cls.src[cls.layer_start:cls.src.rindex("if __name__")]
+        cls.layer = cls.src[cls.layer_start:(cls.src.index('# NEMO 88 - ARGUS') if '# NEMO 88 - ARGUS' in cls.src else cls.src.rindex("if __name__"))]
         mine = []
         for node in cls.tree.body:
             if isinstance(node, (ast.FunctionDef, ast.ClassDef)) and (node.name.startswith(('_n87_', '_N87')) or node.name in ('_n77_command', '_n77_media', '_n76_archive')):
