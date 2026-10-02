@@ -446,7 +446,9 @@ class TestChatTurn(CortexCase):
             searched.append(q)
             return rows
         with mock.patch.object(m, 'web_search', ws):
-            m._n83_chat(self.msg('latest news about acme corp'))
+            # (v86: a plainly time-sensitive question like "latest news about X" is now planned in code without the scout, so this scout-driven case uses a
+            # message that only the older keyword gate flags)
+            m._n83_chat(self.msg('what should I know about acme corp before I meet them tomorrow'))
         self.assertEqual(searched, ['latest news about acme corp'])           # exactly one outbound query
         self.assertEqual(calls['n'], 2)
 
@@ -777,13 +779,17 @@ class TestControls(CortexCase):
         m._n35_set_fact(self.cid, 'sister', 'Priya')
         self.assertTrue(m._n83_dispatch(self.msg('/memory83')))
         self.assertIn('Priya', self.sent[-1][1])
+        # v86: forgetting is preview -> confirm -> purge (details are tested in tests/test_candor86.py)
         self.assertTrue(m._n83_dispatch(self.msg('/forget83 priya')))
-        self.assertIn('Forgot 1', self.sent[-1][1])
+        self.assertIn('I found 1 item(s)', self.sent[-1][1])
+        self.assertIn('sister', self.facts(), 'nothing is deleted before the owner confirms')
+        self.assertTrue(m._n86_dispatch(self.msg('yes forget it')))
+        self.assertIn('FORGOTTEN', self.sent[-1][1])
         self.assertNotIn('sister', self.facts())
         m._n83_dispatch(self.msg('/forget83 nothing-matches'))
-        self.assertIn('No stored fact matched', self.sent[-1][1])
+        self.assertIn('I found nothing stored', self.sent[-1][1])
         m._n83_dispatch(self.msg('/forget83'))
-        self.assertIn('Usage', self.sent[-1][1])
+        self.assertIn('Forgetting, properly', self.sent[-1][1])
 
     def test_pause_resume_and_flags(self):
         m._n83_dispatch(self.msg('pause memory'))

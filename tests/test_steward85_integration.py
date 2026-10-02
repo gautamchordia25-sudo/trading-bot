@@ -16,7 +16,8 @@ from tests.test_steward85 import StewardCase, setUpModule  # noqa: F401
 def v85_source():
     src = open(base.NEMO_FILE, encoding='utf-8').read()
     start = src.index('# NEMO 85 - STEWARD')
-    return src[start:src.index("\nif __name__ == '__main__':", start)]
+    end = src.index('# NEMO 86 - CANDOR') if '# NEMO 86 - CANDOR' in src else src.index("\nif __name__ == '__main__':", start)
+    return src[start:end]
 
 
 def functions_calling(tree, predicate):
@@ -294,7 +295,7 @@ class TestRegistrationRowsAndStatus(StewardCase):
     def test_version_and_compile_gate(self):
         src = open(base.NEMO_FILE, encoding='utf-8').read()
         self.assertEqual(self.m._extract_version(src), self.m.VERSION)
-        self.assertEqual(self.m.VERSION, '85.0')
+        self.assertGreaterEqual(float(self.m.VERSION), 85)
         ok, err = self.m._compile_check(src)
         self.assertTrue(ok, err)
 
