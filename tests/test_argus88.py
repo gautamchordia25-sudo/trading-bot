@@ -664,7 +664,7 @@ class TestFrontDoorMail(ArgusCase):
             self.assertEqual(self.sent, [], text)
         for chat, sender in (({'id': 999, 'type': 'private'}, 999), ({'id': self.cid, 'type': 'group'}, self.cid), ({'id': self.cid, 'type': 'private'}, 12345)):
             self.passed.clear()
-            self.m.handle({'chat': chat, 'from': {'id': sender}, 'text': 'read my last 5 emails', 'message_id': 1})
+            self.m._N89_HANDLE_PREV({'chat': chat, 'from': {'id': sender}, 'text': 'read my last 5 emails', 'message_id': 1})      # the v88 layer on its own: its own owner check is a second line of defence
             self.assertEqual(self.passed, ['read my last 5 emails'])
         self.assertEqual(self.google.queries(), [], 'nobody but the owner can make Nemo read the owner\'s mail')
 
@@ -1083,7 +1083,7 @@ class TestFlightRecorder(ArgusCase):
         self.assertEqual(self.passed, ['hello there, my pin is %s so remember it' % OTP], 'the message itself is passed on untouched')
 
     def test_other_people_are_recorded_with_their_name_and_chat_tail(self):
-        self.m.handle({'chat': {'id': 777, 'type': 'private'}, 'from': {'id': 777, 'first_name': 'Asha'}, 'text': 'is the shop open today?', 'message_id': 1})
+        self.m._N89_HANDLE_PREV({'chat': {'id': 777, 'type': 'private'}, 'from': {'id': 777, 'first_name': 'Asha'}, 'text': 'is the shop open today?', 'message_id': 1})      # the v88 layer on its own (v89's gate is tested in test_circle89)
         row = self.rows()[-1]
         self.assertEqual((row[0], row[1], row[2]), ('777', 'Asha (chat …777)', 'message'))
         self.assertEqual(self.passed, ['is the shop open today?'])
@@ -1508,7 +1508,7 @@ class TestStructure(unittest.TestCase):
         cls.m = base.m
         cls.src = _source()
         cls.layer_start = cls.src.index('# NEMO 88 - ARGUS')
-        cls.layer = cls.src[cls.layer_start:cls.src.rindex("if __name__")]
+        cls.layer = cls.src[cls.layer_start:(cls.src.index('# NEMO 89 - CIRCLE') if '# NEMO 89 - CIRCLE' in cls.src else cls.src.rindex("if __name__"))]
         cls.tree = ast.parse(cls.layer)
         cls.funcs = {n.name: n for n in cls.tree.body if isinstance(n, (ast.FunctionDef, ast.ClassDef))}
 
@@ -1521,7 +1521,7 @@ class TestStructure(unittest.TestCase):
     def test_the_version_is_distinct_and_documented(self):
         self.assertGreaterEqual(float(self.m.VERSION), 88)
         self.assertIn('NEMO 88.0 ARGUS', self.src)
-        self.assertIn('nemotron_bot.py v88.0 - ARGUS', self.src)
+        self.assertIn('v88.0 - ARGUS', self.src)
 
     def test_the_regression_rows_are_green_and_registered(self):
         rows = self.m._n88_regression_rows()

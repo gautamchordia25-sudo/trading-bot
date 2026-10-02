@@ -1448,7 +1448,7 @@ class TestControls(DriveCase):
         for chat, sender in (({'id': 999, 'type': 'private'}, 999), ({'id': self.cid, 'type': 'group'}, self.cid), ({'id': self.cid, 'type': 'private'}, 12345)):
             self.calls.clear()
             self.sent.clear()
-            self.m.handle({'chat': chat, 'from': {'id': sender}, 'text': 'make my download links private', 'message_id': 1})
+            (self.m._N88_HANDLE_PREV if hasattr(self.m, '_N88_HANDLE_PREV') else self.m.handle)({'chat': chat, 'from': {'id': sender}, 'text': 'make my download links private', 'message_id': 1})      # the v87 layer on its own
             self.assertEqual(self.m._n87_share_mode(), 'link')
             self.assertEqual(self.calls, [('passed on', 'make my download links private')])
 
