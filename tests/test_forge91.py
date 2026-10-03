@@ -1991,6 +1991,207 @@ class TestServerResources(ForgeCase):
         self.assertEqual(self.m._n91_vmstat(), {'pswpin': 1000, 'pswpout': 2000})
 
 
+
+# ===================================================================================================================
+# 12. LEFTOVER MCP SERVERS (found from the owner's screenshot: "/mcp list" said none, yet an MCP filesystem server with access to /root was running)
+# ===================================================================================================================
+class TestLeftoverMcp(ForgeCase):
+    UPTIME = 30 * 3600
+
+    def build(self, entries, own_unit='nemobot.service', clients=()):
+        """entries: pid -> (name, ppid, rss_kb, cmd, unit, age_hours). My own process is added with my real pid."""
+        root = os.path.join(self.tmp.name, 'proc2')
+        shutil.rmtree(root, ignore_errors=True)
+        os.makedirs(os.path.join(root, 'self'))
+        open(os.path.join(root, 'meminfo'), 'w').write('MemTotal: 3984588 kB\nMemAvailable: 2200000 kB\nSwapTotal: 2097152 kB\nSwapFree: 2097152 kB\n')
+        open(os.path.join(root, 'loadavg'), 'w').write('0.10 0.10 0.10 1/1 1\n')
+        open(os.path.join(root, 'uptime'), 'w').write('%d.0 1.0\n' % self.UPTIME)
+        mine = os.getpid()
+        allp = dict(entries)
+        allp[str(mine)] = ('python3', 1, 700000, 'python3\x00nemotron_bot.py\x00', own_unit, 28)
+        for pid, (name, ppid, rss, cmd, unit, age_h) in allp.items():
+            d = os.path.join(root, str(pid))
+            os.makedirs(d, exist_ok=True)
+            open(os.path.join(d, 'status'), 'w').write('Name:\t%s\nPPid:\t%d\nVmRSS:\t %d kB\nThreads:\t3\n' % (name, ppid, rss))
+            open(os.path.join(d, 'cmdline'), 'w').write(cmd)
+            if unit is not None:
+                open(os.path.join(d, 'cgroup'), 'w').write('0::/system.slice/%s\n' % unit)
+            start = int((self.UPTIME - age_h * 3600) * self.m._N91_CLK)
+            open(os.path.join(d, 'stat'), 'w').write('%s (%s) S %d %s\n' % (pid, name, ppid, ' '.join(['0'] * 17 + [str(start), '0', '0'])))
+        shutil.copy(os.path.join(root, str(mine), 'status'), os.path.join(root, 'self', 'status'))
+        if own_unit is not None:
+            open(os.path.join(root, 'self', 'cgroup'), 'w').write('0::/system.slice/%s\n' % own_unit)
+        self.root = root
+        self.start(self.m, '_N91_PROC', root)
+        self.start(self.m._n91_shutil, 'disk_usage', lambda p: type('DU', (), {'total': 77 * GB, 'used': 32 * GB, 'free': 45 * GB})())
+        self.start(self.m._n91_os, 'cpu_count', lambda: 2)
+        self.start(self.m._n91_time, 'sleep', lambda s: None)
+        self.start(self.m, 'MCP_CLIENTS', dict(clients))
+        return root
+
+    def kill_log(self, dies_on=('TERM', 'KILL')):
+        import signal
+        self.killed = []
+
+        def fake_kill(pid, sig):
+            self.killed.append((pid, sig))
+            name = 'TERM' if sig == signal.SIGTERM else 'KILL' if sig == signal.SIGKILL else str(sig)
+            if name in dies_on:
+                shutil.rmtree(os.path.join(self.root, str(pid)), ignore_errors=True)
+        self.start(self.m._n91_os, 'kill', fake_kill)
+
+    FS = 'node\x00/root/.npm/_npx/abc/node_modules/.bin/mcp-server-filesystem\x00/root\x00'
+    NPM = 'npm exec @modelcontextprotocol/server-filesystem /root\x00'
+    OTHER = 'python\x00/root/app5/quantumfx_bot.py\x00'
+
+    def screenshot_server(self):
+        """What the owner's screenshot showed: a node filesystem server and its npm wrapper, plus another application."""
+        self.build({'3001': ('node', 3000, 81920, self.FS, 'nemobot.service', 30), '3000': ('npm exec @model', 1, 75776, self.NPM, 'nemobot.service', 30),
+                    '4001': ('python', 1, 204800, self.OTHER, 'quantumfx.service', 29)})
+
+    def test_the_process_list_says_which_service_owns_each_and_for_how_long(self):
+        self.screenshot_server()
+        text = self.m._n91_resources_text()
+        self.assertIn('python 0.2 GB […/app5/quantumfx_bot.py] (quantumfx.service, up 29 h)', text)
+        self.assertIn('node 80 MB […/.bin/mcp-server-filesystem /root] (nemobot.service, up 30 h)', text)
+        self.assertIn('npm exec @model 74 MB [exec @modelcontextprotocol/server-filesystem] (nemobot.service, up 30 h)', text)
+
+    def test_leftovers_are_only_those_in_my_own_service_that_no_connection_of_mine_owns(self):
+        self.screenshot_server()
+        scan = self.m._n91_mcp_scan()
+        self.assertEqual(scan['own_unit'], 'nemobot.service')
+        self.assertEqual(sorted(x['pid'] for x in scan['mine']), [3000, 3001])
+        self.assertEqual(scan['elsewhere'], [], 'the other application is not an MCP server at all')
+        # the same programs in another service are "elsewhere", never mine
+        self.build({'3001': ('node', 3000, 81920, self.FS, 'otherapp.service', 30), '3000': ('npm exec @model', 1, 75776, self.NPM, 'otherapp.service', 30)})
+        scan = self.m._n91_mcp_scan()
+        self.assertEqual(scan['mine'], [])
+        self.assertEqual(sorted(x['pid'] for x in scan['elsewhere']), [3000, 3001])
+        # a program started from my own connection (and its children) is managed, not a leftover
+        proc = type('P', (), {'pid': 3000, 'poll': lambda self: None})()
+        self.build({'3001': ('node', 3000, 81920, self.FS, 'nemobot.service', 1), '3000': ('npm exec @model', 1, 75776, self.NPM, 'nemobot.service', 1)}, clients={'filesystem': type('C', (), {'proc': proc})()})
+        self.assertEqual(self.m._n91_mcp_scan()['mine'], [])
+        # no service information at all: nothing is ever classified as mine
+        self.build({'3001': ('node', 3000, 81920, self.FS, None, 30)}, own_unit=None)
+        scan = self.m._n91_mcp_scan()
+        self.assertEqual((scan['own_unit'], scan['mine']), ('', []))
+
+    def test_the_status_says_what_it_found_in_plain_words(self):
+        self.screenshot_server()
+        text = self.m._n91_resources_text()
+        self.assertIn('⚠️ 2 leftover MCP server processes (0.2 GB) in my own service (nemobot.service) that I am not connected to. Say “stop leftover mcp”', text)
+        self.build({'3001': ('node', 3000, 81920, self.FS, 'otherapp.service', 30)})
+        text = self.m._n91_resources_text()
+        self.assertIn('ℹ️ 1 MCP server process runs in another service (otherapp.service); I will not touch it.', text)
+        self.assertNotIn('leftover MCP server process', text)
+
+    def test_asking_makes_a_card_and_stops_nothing_until_the_owner_taps(self):
+        self.screenshot_server()
+        self.kill_log()
+        out = self.owner('stop leftover mcp')
+        self.assertEqual(self.killed, [])
+        items = self.pending('forge_stop')
+        self.assertEqual(len(items), 1)
+        card = self.m._n85_card_text(self.m._n85_get(self.cid, items[0]['id']))
+        for part in ('STOP LEFTOVER MCP SERVERS (2 processes, 0.2 GB)', 'process 3001', 'process 3000', 'my own service (nemobot.service)', 'Nothing of another service is touched', 'check again that each one is still a leftover'):
+            self.assertIn(part, card)
+        self.assertNotIn('quantumfx', card)
+        self.assertEqual(self.m._N85_KINDS['forge_stop']['risk'], 'high')
+        self.assertEqual(self.passed, [])
+
+    def test_approving_stops_exactly_those_processes_politely_first(self):
+        import signal
+        self.screenshot_server()
+        self.kill_log()
+        self.owner('clean up mcp')
+        state, text = self.approve(self.pending('forge_stop')[0]['id'])
+        self.assertEqual(state, 'executed', text)
+        self.assertIn('Stopped 2 leftover MCP server processes, freeing about 0.2 GB', text)
+        self.assertEqual(sorted(self.killed), [(3000, signal.SIGTERM), (3001, signal.SIGTERM)])
+        self.assertTrue(os.path.isdir(os.path.join(self.root, '4001')), 'the other application is untouched')
+        self.assertEqual(self.m._N91_STATS['stops'], 2)
+
+    def test_a_process_that_ignores_the_polite_stop_gets_the_forced_one(self):
+        import signal
+        self.screenshot_server()
+        self.kill_log(dies_on=('KILL',))
+        self.owner('stop leftover mcp')
+        state, text = self.approve(self.pending('forge_stop')[0]['id'])
+        self.assertEqual(state, 'executed', text)
+        self.assertEqual(set(self.killed), {(3000, signal.SIGTERM), (3000, signal.SIGKILL), (3001, signal.SIGTERM), (3001, signal.SIGKILL)})
+        self.assertLess(self.killed.index((3000, signal.SIGTERM)), self.killed.index((3000, signal.SIGKILL)), 'polite first')
+
+    def test_one_that_will_not_die_at_all_is_reported_and_nothing_else_is_tried(self):
+        self.build({'3001': ('node', 3000, 81920, self.FS, 'nemobot.service', 30)})
+        self.kill_log(dies_on=())
+        self.owner('stop leftover mcp')
+        state, text = self.approve(self.pending('forge_stop')[0]['id'])
+        self.assertEqual(state, 'failed')
+        self.assertIn('would not stop', text)
+        self.assertEqual(len(self.killed), 2, 'one polite and one forced stop, nothing more')
+
+    def test_right_before_stopping_each_process_is_checked_again(self):
+        self.screenshot_server()
+        self.kill_log()
+        self.owner('stop leftover mcp')
+        pid = self.pending('forge_stop')[0]['id']
+        open(os.path.join(self.root, '3001', 'cmdline'), 'w').write('python\x00app.py\x00')                    # the number now belongs to something else
+        state, text = self.approve(pid)
+        self.assertEqual(state, 'executed', text)
+        self.assertEqual([k[0] for k in self.killed], [3000], 'only the one that is still a leftover')
+        self.assertIn('1 was already gone or no longer a leftover', text)
+
+    def test_a_forged_list_cannot_make_me_stop_anything_else(self):
+        self.screenshot_server()
+        self.kill_log()
+        payload = {'pids': [4001, 1, os.getpid()], 'rows': [], 'unit': 'nemobot.service'}
+        with self.assertRaises(ValueError):
+            self.m._n91_v_stop(payload)                                                    # pid 1 is refused outright
+        ok = self.m._n91_v_stop({'pids': [4001], 'rows': [], 'unit': 'nemobot.service'})
+        out = self.m._n91_x_stop(self.cid, ok)                                             # another service's process: not in the leftover list, so not touched
+        self.assertEqual(self.killed, [])
+        self.assertIn('Stopped 0', out['text'])
+        mine = self.m._n91_v_stop({'pids': [os.getpid()], 'rows': [], 'unit': 'nemobot.service'})
+        self.m._n91_x_stop(self.cid, mine)
+        self.assertEqual(self.killed, [], 'my own process is never a leftover')
+        for bad in ({'pids': []}, {'pids': list(range(2, 14))}, {'pids': [5], 'extra': 1}, {'pids': ['x']}, {'pids': [0]}, 'text'):
+            with self.assertRaises((ValueError, TypeError)):
+                self.m._n91_v_stop(bad)
+
+    def test_nothing_to_clean_or_unknown_service_gets_an_honest_answer_and_no_card(self):
+        self.build({})
+        self.assertIn('No leftover MCP server process belongs to my own service (nemobot.service).', self.owner('stop leftover mcp'))
+        self.build({'3001': ('node', 3000, 81920, self.FS, 'otherapp.service', 30)})
+        out = self.owner('forge cleanup')
+        self.assertIn('No leftover MCP server process belongs to my own service', out)
+        self.assertIn('run in another service (otherapp.service); I do not touch those', out)
+        self.build({'3001': ('node', 3000, 81920, self.FS, None, 30)}, own_unit=None)
+        self.assertIn('cannot tell which service my own processes belong to', self.owner('stop leftover mcp'))
+        self.assertEqual(self.pending('forge_stop'), [])
+
+    def test_only_the_owner_and_only_these_words(self):
+        self.screenshot_server()
+        other = {'chat': {'id': 5552, 'type': 'private'}, 'from': {'id': 5552, 'first_name': 'Asha'}, 'text': 'stop leftover mcp', 'message_id': 3}
+        n = len(self.passed)
+        self.m.handle(other)
+        self.assertEqual(len(self.passed), n + 1)
+        for text in ('remove old servers', 'stop leftover music', 'kill the old process', 'clean up my room'):
+            n = len(self.passed)
+            self.m.handle(self.msg(text))
+            self.assertEqual(len(self.passed), n + 1, text)
+        self.assertEqual(self.pending('forge_stop'), [])
+
+    def test_the_layer_only_ever_sends_a_polite_or_a_forced_stop_to_a_named_process(self):
+        import ast
+        src = layer_source()
+        tree = ast.parse(src)
+        kills = [n for n in ast.walk(tree) if isinstance(n, ast.Call) and isinstance(n.func, ast.Attribute) and n.func.attr in ('kill', 'killpg', 'terminate')]
+        self.assertEqual(len(kills), 2)
+        for k in kills:
+            self.assertEqual(ast.get_source_segment(src, k.args[1]), 'signal.SIGTERM' if 'SIGTERM' in ast.get_source_segment(src, k) else 'signal.SIGKILL')
+        for bad in ('pkill', 'killall', 'killpg', 'kill -9'):
+            self.assertNotIn(bad, src)
+
 # ===================================================================================================================
 # 10. STRUCTURE (what the file itself guarantees) AND MUTATIONS (the tests really would catch a broken guard)
 # ===================================================================================================================
@@ -2004,9 +2205,9 @@ class TestStructure(unittest.TestCase):
         cls.layer = layer_source()
 
     def test_this_is_v91_and_the_version_is_the_last_one_defined(self):
-        self.assertEqual(self.m.VERSION, '91.4')
-        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '91.4')
-        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v91.4 - FORGE'))
+        self.assertEqual(self.m.VERSION, '91.5')
+        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '91.5')
+        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v91.5 - FORGE'))
 
     def test_the_layer_comes_after_studio_and_before_the_main_guard(self):
         self.assertLess(self.src.index('# NEMO 90 - STUDIO'), self.src.index('# NEMO 91 - FORGE'))

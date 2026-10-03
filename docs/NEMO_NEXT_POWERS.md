@@ -42,6 +42,13 @@ You ran the two commands yourself because Nemo could not answer ("I don't have l
 | CPU | **2 cores**, load 1.37 / 0.81 / 0.57 | About 0.7 per core and rising over the last 15 minutes: something is working. The `1vcpu` in the host name is out of date; the plan was resized. |
 | Biggest memory users | Nemo 0.7 GB (37 threads); a `python` process 0.2 GB (unknown); `systemd-journal` 94 MB; `npm exec @model…` 90 MB and `node` 78 MB | The last two are **probably an MCP server started through npx** (Nemo's `filesystem` or `memory` preset), about 170 MB together. v91.4 shows which one, and which tool environment the `python` belongs to. |
 
+**Second reading (v91.4 running), and a finding.** Memory 2.1 GB available, swap 89% but **"not swapping now"** (so it is old unused data, as I guessed), 2 cores at about 0.5 per core, 31.8 GB of disk used. The process list now names things, and it shows two surprises:
+
+1. **`/mcp list` says "No external MCP servers registered", yet `node …/mcp-server-filesystem …//root` (80 MB) and `npm exec @modelcontextprotocol/server-filesystem` (74 MB) are running.** That is a filesystem MCP server pointed at `/root`, about 154 MB, that Nemo says he does not have. A stdio MCP server listens on no network port and only answers the program that started it, so the risk is low, but it is memory you did not know you were spending, and I do not yet know whose it is. (In the code, `MCPClient.stop()` only stops the direct child, and nothing stops MCP servers when Nemo exits; the restart command is `systemctl restart nemobot`.)
+2. **Another application shares the server:** `python …/app5/quantumfx_bot.py`, about 0.2 GB. Anything I add has to leave room for it too.
+
+v91.5 answers "whose is it": each big process now shows the **service it belongs to** and **how long it has been running**, e.g. `node 80 MB […] (nemobot.service, up 30 h)`. If MCP servers belong to Nemo's own service but none of his connections owns them, `server status` says so and `stop leftover mcp` gives you a **card** to stop exactly those processes (a polite stop, then a forced one after 5 seconds, each re-checked just before). Processes of any other service, including `quantumfx_bot.py`, are never offered and never touched.
+
 What to do with that (read-only checks first): ask Nemo `/mcp list` to see which MCP servers are connected, and switch off any you do not use (**especially `filesystem`, which lets a model read and write files under `/root`**). Then say `server status` again.
 
 What I conclude (these change the plan):
