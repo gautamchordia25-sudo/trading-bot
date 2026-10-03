@@ -1916,7 +1916,8 @@ class TestStructure(unittest.TestCase):
         cls.m = base.m
         cls.src = _source()
         cls.layer_start = cls.src.index('# NEMO 89 - CIRCLE')
-        cls.layer = cls.src[cls.layer_start:cls.src.rindex("if __name__")]
+        cls.layer_end = cls.src.index('# NEMO 90 - STUDIO') if '# NEMO 90 - STUDIO' in cls.src else cls.src.rindex("if __name__")       # (later layers are checked by their own tests)
+        cls.layer = cls.src[cls.layer_start:cls.layer_end]
         cls.tree = ast.parse(cls.layer)
         cls.funcs = {n.name: n for n in cls.tree.body if isinstance(n, ast.FunctionDef)}
 
@@ -1928,7 +1929,7 @@ class TestStructure(unittest.TestCase):
 
     def test_the_version_is_distinct_and_documented(self):
         self.assertGreaterEqual(float(self.m.VERSION), 89)
-        self.assertIn('nemotron_bot.py v89.0 - CIRCLE', self.src)
+        self.assertIn('v89.0 - CIRCLE', self.src)
 
     def test_the_new_layer_is_protected_from_live_self_editing(self):
         for name in ('_n89_gate', '_n89_decide', '_n89_classify', '_n89_menu_callback'):
@@ -1941,7 +1942,7 @@ class TestStructure(unittest.TestCase):
         self.assertIsNot(m.handle_inline, m._N89_INLINE_PREV)
         self.assertIs(m.handle.__globals__, m.__dict__)
         for name in ('handle(msg)', 'handle_callback(cq)', 'handle_inline(iq)'):
-            self.assertEqual(self.src.rindex('def %s:' % name), self.layer_start + self.layer.rindex('def %s:' % name), 'the Circle %s is the last definition' % name)
+            self.assertEqual(self.src.rindex('def %s:' % name, 0, self.layer_end), self.layer_start + self.layer.rindex('def %s:' % name), 'the Circle %s is the last definition of its own layer' % name)
 
     def test_handle_passes_to_the_older_layers_in_exactly_two_places(self):
         body = self.text('handle')

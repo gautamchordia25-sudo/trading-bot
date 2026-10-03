@@ -1,4 +1,4 @@
-"""nemotron_bot.py v89.0 - CIRCLE: WHO ELSE MAY USE NEMO AND WHAT THEY MAY DO (one gate in front of every message, button and inline query that is not from the owner; default deny; abilities switched per person and role from a menu or in plain words; first-contact cards; limits; strangers on/off; a private read-only free/busy view for family). + v88.0 - ARGUS: NEMO CAN SEE (read-only eyes for mail, calendar, Drive, tasks, reminders, watchers, what Nemo did and when, server and errors, devices, positions; a live map of its own abilities; one "see" tool for conversation; a flight recorder; an inbox watch; exact reasons when something is not connected). + v87.0 - RELAY: MORE VIDEO SOURCES (yt-dlp with six client profiles, automatic yt-dlp update, Node/Deno runtime, your proxy; then pytubefix, YouTube.js, Piped and Invidious mirrors, Cobalt) in ONE verified, time-boxed chain with a per-source report + DRIVE LINKS YOU CAN OPEN (anyone with the link / one e-mail / private) + natural-language controls (download sources, test youtube download, set up download sources, share my last download). + v86.0 - CANDOR: NO SENSITIVE LOGGING (a rejected value is never stored; logs are masked) + COMPLETE FORGETTING (every recall store, rewritten copies, re-learning blocked, queued jobs cancelled, backup limits stated) + SAFER SELF-DEVELOPMENT (the _n79_feature hook is always offered, relevant bounded shortlist, vague "upgrade yourself ..." asks what you want before any AI call, failures name their stage) + RESEARCH ROUTING (current-information questions are researched, failure and thin evidence are stated) + ONE SHARED DEADLINE (planning, tools, answer, review and fallback; bounded search and background work) + HONEST CHECKS (completed / issues / skipped / failed). + v85.0 - STEWARD: DECISION INBOX (mail/calendar/open loops/showroom -> ranked, grounded proposals as approve/edit/skip cards; nothing runs without a tap; learns from your decisions) + VERIFIED RESEARCH (replans, reads full pages, keeps a claim only if its quote is in the page and its numbers are in the quote) + SANDBOX-TESTED UPDATES (candidate is imported and regression-tested in a network-less sandbox before Apply) + MCP PERMISSION TIERS (read runs, write needs a tap, dangerous blocked) + DOCUMENT INTELLIGENCE (page-cited answers, clause flags, version compare, tables) + SHOWROOM COPILOT (leads, dues, stock, GST invoice drafts) + PAGE WATCHERS (price/stock/keyword/change alerts). + v84.0 - ATLAS: FUTURES DESK (expiry calendar with holiday roll-back, cost-of-carry fair value/basis, roll cost, position sizing, pre-trade check, edge/Kelly/streak maths, owner-reported trade journal + stats, opt-in expiry alerts; advisory only, no orders) + SPEED (zero-model answers for pure arithmetic/date questions, router bypass for plain chat, parallel tool rounds, typing keep-alive, per-stage timings, p50/p95 in /cortex83) + weekday/date audit. + v83.0 - CORTEX: memory bridge (relevant stored facts + safe auto-learning from the owner's own messages, with /memory83 /forget83 controls), grounded IST date/time + exact date maths, bounded read-only tool loop for chat (search/recall/calculate/date, no tool can act), deterministic arithmetic audit + quote-verified critique, rolling conversation summaries, router fast-path for small talk, /why83 transparency, fix for undefined _n60_j in the media failure path. Additive layer over v82; any Cortex failure falls back to the v80 chat path. + v45.0 - YOUTUBE PER OFFICIAL 2026 GUIDE (--js-runtimes deno auto-installed, android_vr-first ladder needing no PO token/cookies, cookies only for tv/mweb, rotation detection, /ytfix) + MEDIA LIBRARY (/library instant resend, Drive) + v44.x RELIABILITY DOCTOR + v43.x YOUTUBE UNBLOCK + RESEARCH DIGEST + v42.0 MEDIA ENGINE + FAMILY MODE + v40.0 COMMAND CENTER + LEARN MODE + v39.0 FAST CORE + v38.0 ATTENTION + v37.0 PHOTO MEMORY + VOICE + v36.x DAY CARD + SELF-AUDIT + v35.0 UNIFIED MIND + v13.35 - PROVIDER DOCTOR + COMPUTER-USE 5.0 BATCH 3: adds diagnostic Groq/Gemini model discovery, non-destructive email/network doctor, browser computer-use sessions with DOM/accessibility/screenshot state, Guardian-protected external-page analysis, action verification and session telemetry. + v13.30 - KNOWLEDGE LAKE 2.0 + HYBRID SEMANTIC RAG + LEARNING CORE 2.0: adds local hybrid retrieval, workflow episode learning and automatic local grounding while retaining v13.29 evaluation/observability. + v13.29 - EVALUATION LAB 2.0 + OBSERVABILITY/FLIGHT RECORDER 2.0: adds request-level tracing, durable request metrics, tool/task correlation for reports/browser/media, percentile latency and failure dashboards, candidate-vs-current regression scoring, critical-function and credential-line integrity checks, evaluation history, and fail-closed deploy recommendations. Existing v13.28 NEMO PRIME FOUNDATION remains. + v13.28 - NEMO PRIME FOUNDATION: Unified Task OS, Central Policy Engine, Flight Recorder, Evaluation Lab, Knowledge Lake, Strategy Learning 2.0, Device Agent generator, Specialist Agent Governor, and Trade State Reconciliation 2.0. Existing v13.27 Publisher Godmode and all prior safety rails remain. + v13.27 - PUBLISHER GODMODE 5.0 / LAYOUT QA: rebuilds the professional artifact renderer around measured text layout instead of fixed-height guesses; filters fake KPI tiles and source/evidence metadata; dynamically wraps risk tables, scenario cards, executive cards and source cards; fixes appendix stripping with or without colons; adds Unicode font support when available; prevents heading/header collisions; strengthens publication QA for leaked metadata, clipping-risk patterns and malformed key-number panels; and keeps the v13.26 evidence/materiality pipeline intact. + v13.26 - CREATION ENGINE / PUBLISHER GODMODE 4.0: adds professional information architecture, materiality-first analysis, improved source authority ontology, cited-evidence grading, compact clickable source appendix, executive snapshot cards, key-number tiles, scenario dashboard, risk heatmap-style matrix, typography/mojibake sanitation, deterministic artifact integrity, and optional PDF visual QA. Analytical reports now fail closed when research/evidence/publication quality is weak. Existing v13.25 research Godmode, v13.24 renderer fixes and v13.23 Learning Core remain. + v13.25 - GODMODE RESEARCH + REPORT INTELLIGENCE 3.0: adds five coordinated upgrades: adaptive multi-query text+news research with retries, source-authority scoring and domain diversity, multi-brain analyst→verifier→editor synthesis, evidence/claim-quality gates that remove unsupported current claims, and a research audit manifest + professional evidence score on every report. /godreport forces the full pipeline; ordinary non-code reports use it automatically. Existing v13.24.2 renderer hotfix and v13.23 Learning Core remain. + v13.24.2 - PROFESSIONAL REPORT STUDIO 2.1 PDF RENDERER HOTFIX: upgrades PDF/report generation with fresh multi-query web research for time-sensitive reports, source-grounded drafting, executive summaries, risk/outlook structure, professional cover/header/footer, section hierarchy, key-takeaway callouts, source appendix, cleaner typography, and removal of random stock-art pages. Reports distinguish sourced facts from analysis and warn when fresh research is unavailable. Existing v13.23 Learning Core remains. + v13.23 - LEARNING CORE 1.0 + EXPERIENCE BRAIN: adds persistent outcome learning, model-performance scoring, experience/error fingerprints, semantic experience recall, feedback controls, lightweight anomaly learning, adaptive model route reordering, training-data export, and Cockpit learning telemetry. Learns from successful/failed AI calls and explicit owner feedback while redacting sensitive-looking text; never grants new money/security authority. Existing v13.22 Offline Mind/Speed/Systematic UI, Device Grid, Cockpit, Mind Core, Cyber Hands, trading rails and secrets are preserved. + v13.22 - OFFLINE MIND + SPEED ROUTER + SYSTEMATIC RESPONSE UI: adds an offline-first knowledge layer (built-in durable reference packs + existing indexed files/library/memory grounding), persistent evergreen answer cache, API-down offline fallback, instant local calculator, automatic FAST/BALANCED/QUALITY routing, reduced unnecessary multi-pass reasoning, and a Telegram-friendly response-format contract with consistent visual sections. New /offline, /speed and /format controls. Existing v13.21 Device Grid, v13.20 Cockpit, v13.19 Mind Core, Cyber Hands, trading/security rails and credentials are preserved. + v13.21 - NEMO DEVICE GRID + REMOTE HANDS 1.0: enrolled-device control plane with owner-created one-time enrollment tokens, per-device bearer secrets, heartbeat/online state, read-only system telemetry, opt-in location reporting, device revocation, audit trail, and Cockpit/API device inventory. No arbitrary-device discovery, covert tracking, credential dumping, or unauthorized remote access. + v13.20 - NEMO COCKPIT 1.0: adds a modern Telegram Mini App/PWA command-center over the existing secure web server: live system/brain/cyber/VPN/trading/task/media panels, responsive mobile-first glass UI, browser human-checkpoint status and latest screenshot, safe read-only quick actions, refreshable JSON telemetry, and an owner-only /cockpit command. When a secure HTTPS public_url is configured, Nemo automatically installs a Telegram Web App menu button that opens the cockpit inside Telegram; otherwise /cockpit gives the local/public dashboard link and /setdomain guidance. Consequential actions stay Telegram-gated; the cockpit does not bypass trading, lockdown, cyber scope, browser-auth or update confirmations. Existing v13.19 Mind Core, Browser Checkpoint 2.0, Cyber Hands, dependency isolation, secrets and trading rails remain. + v13.19 - MIND CORE 2.0 + BROWSER CHECKPOINT 2.0: adds a final-answer compiler that blocks scratchpad/thinking-aloud leakage, strips malformed provider tokens such as <unk>, detects repetition/non-answers, selectively re-verifies calculation/bill/image answers, and rewrites poor drafts before delivery; adds speech-specific sanitization so garbage tokens never become voice audio. Browser human checkpoints now parse natural replies (e.g. email plus “click next”) into a clean field value + action, use semantic page-state fingerprints instead of raw URL equality to detect stuck loops, and stop Google/YouTube automated-login loops early in favor of the user's authenticated session/cookie route. Passwords, OTP/2FA/recovery codes and private keys are no longer requested through Telegram browser checkpoints. Existing v13.18 Cyber Hands, v13.17 dependency isolation, trading rails, secrets, updater and all prior capabilities remain. + v13.18 - CYBER HANDS 1.0: adds an owner-only defensive security operations layer for THIS VPS and explicitly authorized/allowlisted assets: unified /cyber control center, local security audit + score, listening-port/firewall/SSH/log inspection, secret-exposure scan that never prints secret values, source-code static security checks, dependency CVE audit in an isolated tool environment, optional ClamAV scan, file-integrity baseline, continuous low-noise security monitoring, and conservative allowlisted Nmap inventory (top ports/version-light only; no exploitation/bruteforce/evasion). Autonomous agents gain READ-ONLY local cyberaudit/cyberports/cyberlogs hands. Remote scanning is never autonomous and requires an explicit --authorized scope entry. Consequential remediation remains owner-confirmed. + v13.17 - FOUNDATION HARDENING + HANDS 2.0: adds dependency protection/doctor, isolated tool virtual-environments, process control with confirmation, filesystem search/hash/tree, network diagnostics, system snapshots, and exposes these safe hands to the autonomous agent. Core trading/credentials/browser/media behavior is preserved. + v13.16 - VISION RESPONSE VALIDATION + MULTIMODAL FALLBACK: fixes the case where a screenshot successfully reached the vision model but Nemo returned only provider moderation metadata such as "User Safety: safe / Response Safety: safe" instead of analyzing the image. Vision replies are now validated for substantive visual content; safety-only/moderation-only outputs, refusal-shell metadata, empty multipart content and tiny non-answers are treated as a FAILED vision attempt and Nemo automatically tries the next multimodal route (Nano Omni -> openrouter/free) rather than delivering garbage. Image prompts explicitly request actual visual analysis rather than safety labels. ask_ai now detects and sends the real PNG/JPEG/WEBP/GIF/BMP MIME in its OpenRouter data URI (closing the remaining hard-coded JPEG path missed in v13.15). DEBUG records why a vision model was rejected. Text routing, trading, money, browser, VPN, downloader, persistence and secrets are unchanged. + v13.15 - UNIVERSAL IMAGE ATTACHMENTS: Telegram screenshots/images sent as Files/Documents now route into the same vision pipeline as compressed photos. Detects image/* MIME plus PNG/JPG/JPEG/WEBP/GIF/BMP extensions and magic bytes; preserves captions; supports scan/OCR/QR/bill/notes pending modes; and ask_ai now labels the data URI with the real image MIME instead of always claiming JPEG. No trading, money, VPN, browser, downloader, persistence, secrets, or safety behavior changed. + v13.14 - LIVE MODEL ROUTER HOTFIX: OpenRouter retired nvidia/nemotron-3-nano-30b-a3b:free on 24 Aug 2026, so Nemo no longer calls that dead slug. Text routing now uses Nemotron 3 Ultra free -> Super free -> openrouter/free for smart work, Super free -> openrouter/free for fast work, and vision uses ONLY multimodal-capable Nano Omni free -> openrouter/free (no text-only Super fallback on images). ask_ai now safely parses OpenRouter error/unexpected response bodies instead of crashing with KeyError choices, temporarily cools down unavailable/rate-limited models, de-duplicates routes, and keeps the dynamic free router as a resilience fallback. /brain reports the live route and cooldowns. No trading, secrets, browser, media, persistence or safety rails changed. + v13.12 - HONEST UPDATE LABELS (fixing two COSMETIC bugs in my own update-preview that made a perfectly good deploy look scary): when the Boss deployed v13.11, the /update preview said 'this file is v17.0' and 'CHANGES 1 (TOKEN)' - BOTH false alarms from my own code; the file was correct and booted clean as v13.11. Causes + fixes: (1) my version-reader grabbed the FIRST version-assignment string anywhere in the file, and my changelog PROSE happens to mention the 17.0 pattern when describing a ChatGPT file - so it read its own description instead of the real constant. Now it reads only a REAL top-level VERSION assignment (start of line). (2) my credential-change check matched ANY variable whose name merely contained 'TOKEN'/'KEY' - including the harmless 'TOKEN = os.environ.get(BOT_TOKEN)' line inside the downloader-bot template - so it falsely warned of a credential change. Now it checks only the actual named secrets (TELEGRAM_TOKEN, OPENROUTER_KEY, NVIDIA_KEY, ...). Future update previews now show the true version and warn only on a REAL key change. Your keys were never touched - the proof was the bot booting clean and healthy. Additive; all existing suites pass plus a new v13.12 test. + v13.11 - CLAIM LEDGER + LIVE INTEGRITY (from the ChatGPT v24 'five upgrade' file - notable because it was finally built on OUR v13.9 base with the Security Core intact, but its five new layers all crash on first use on the same missing 'uuid' import as v15/v18/v19, and its flagship 'v20 Task Orchestrator' is FAKE: the execute function performs nothing - it stamps every step done with a canned message pointing to a /nemorun24 command that does not exist anywhere in the file. Its other layers duplicate what we already run: structured memory = the v11 knowledge graph + /recall, brain router = ask_ai's existing routing, project manager = /plan + /taskgraph + PROJECTS, observability = /nemo + self_test). The TWO ideas worth keeping, built working: (1) CLAIM LEDGER - /claims [search words] is a persistent, dated audit trail of everything Nemo has fact-checked and researched: every /verify records verified-or-corrected (with the checker's notes) and every /nemoresearch records a research entry, capped at 400, surviving restarts, searchable, also in plain language ('what have you verified', 'claim history'). So 'what has my bot told me, and was it checked?' finally has an answer. (2) LIVE INTEGRITY - /security now also compile-checks the RUNNING source and shows its sha256 fingerprint, so tampering or corruption of the deployed file is visible on demand. Additive; all suites pass plus new v13.11 tests. + v13.10 - DOWNLOADER IN THE BOT FACTORY (Nemo creates the whole bot himself - no file to send): the Boss asked why Nemo can't just CREATE a downloader bot when given a token. He always could create bots (/newbot factory + /env for secrets) - his library just had no downloader type. Now it does: a verified 'ytdl' template (the corrected version of the ChatGPT blueprint, which as written would not run - missing asyncio import, wrong download() return handling, an undefined variable, a zip step that ignored Telegram's ~50MB cap). Create it entirely in chat: /newbot ytdl mydl (or just say 'make me a downloader bot') -> tap Ship -> /env mydl BOT_TOKEN=<fresh @BotFather token> OWNER_ID=<your id> -> the bot is LIVE. The generated bot: downloads a YouTube video or whole playlist (mp4, or mp3 with 'audio'), sends every file under Telegram's cap straight to chat, keeps bigger ones on the server with the path reported, caps items per playlist (MAX_VIDEOS), safe ASCII filenames, owner-locked via OWNER_ID, token ONLY from its locked env - never in code. Same supervised ship rails as every factory bot (compile-check, auto pip-install of requests+yt-dlp, tap-to-start, /app <name> logs|restart|stop|rm). Additive; all suites pass plus new v13.10 tests. + v13.9 - QUANT LENSES (the genuinely-new, working parts of the ChatGPT v19 quant file, rebuilt on our base - READ-ONLY, never places an order): the v19 code was real quant work but sat on the old base and crashed its event log on the same missing 'uuid' import; I kept the good math, dropped the crash and the bits we already have (its plain signal/option dumps duplicate /godmode and /optionchain). Three lenses we DIDN'T have, now added: (1) /regime <symbol> - classifies the market regime (TREND_UP/DOWN, EXPANSION, RANGE, LOW_VOL_RANGE, TRANSITION) from ADX + EMAs + ATR-ratio + slope, with a confidence. (2) /walkforward <symbol> - proper OUT-OF-SAMPLE validation: it picks the best EMA pair on a training window then scores it on the next, unseen window, and reports the average out-of-sample hit-rate (a robustness check, not a guarantee). (3) /quantbacktest <symbol> - an EMA-crossover backtest with profit factor + max-drawdown AND a Monte-Carlo stress test (bootstrapped terminal + drawdown percentiles). Plus /quant <symbol> - a consolidated regime + multi-factor signal + transparent setup-quality grade (explicitly 'NOT win probability'). All owner-only, read-only, honestly labelled; they use Nemo's real market data (get_history) and place no orders. Additive; all existing suites pass plus new v13.9 tests. + v13.8 - MEMORY 3.0 (granular forget) + NO INVENTED COMMANDS: (1) MEMORY - on inspection Nemo's memory was already strong (semantic /recall, durable /remember, the /memory 'second brain', /aboutme and the knowledge graph, all persisted and fed into his answers), so the genuinely missing piece was CONTROL: /forget <thing> now removes the SPECIFIC memories that match - from both the durable facts and the semantic vector store - and tells you exactly what it dropped, instead of the all-or-nothing /forgetme. /remember also dedups and keeps more durable facts (20 -> 60). (2) NO INVENTED COMMANDS - when you sent a command Nemo didn't recognise, his brain used to make up plausible-but-fake command names (exactly what happened with /nemo before it was deployed). Now an unrecognised /command gets a deterministic, HONEST reply listing only REAL commands and never reaches the brain. Additive; all existing suites pass plus new v13.8 tests. + v13.7 - TRADE STATE SURVIVES RESTART (closing the money-safety gap I flagged in v13.2 and deferred): the autonomous trader kept its open position only in memory, so a restart or update mid-trade FORGOT it - and for a plain (non-bracket) position that meant its stop-loss and target were no longer being managed, leaving real money exposed. Now the trader's live state (open position, today's trade count, running P&L, the day, and the daily-loss halt flag) is PERSISTED to memory and RESTORED on boot, so after any restart Nemo picks the position straight back up and keeps managing its stop / target / square-off. On boot, if a position is open, Nemo messages you that it resumed managing it. This pairs with v13.6 self-healing updates: a restart mid-trade no longer abandons your money. (Bracket positions were already protected on-exchange; this closes the gap for plain positions.) Owner-only, additive; all existing suites pass plus new v13.7 tests. + v13.6 - SELF-HEALING UPDATES (took the one real new idea from the ChatGPT v17 file - auto-recovery from a bad update - and built it safely; skipped the rest, which forced its VERSION to 17.0 and added a downgrade-block that would have LOCKED you out of updating to our clean files, and re-did the workflows our v13.4 already has): every /update is now TRANSACTIONAL. When you Apply an update, Nemo records a journal (a hash of the new build, plus a hash + path of the verified backup). On restart it checks that journal FIRST: a healthy boot (Telegram auth succeeds) is confirmed and stands recovery down - but if the new build keeps failing to reach a healthy boot (3 tries within 30 minutes) Nemo automatically RESTORES the previous version (only if that backup still compiles and its hash matches the recorded original) and restarts. So if you ever deploy a build that won't start, it heals itself back to the last working version without you touching the server. /updatecheck now also shows whether the last update auto-rolled-back or booted cleanly. HONEST LIMITS: this catches builds that start but then crash/exit during startup; a crash BEFORE main() even runs (e.g. an import-time error) can't be caught from inside the process - though compile-check already blocks the syntax errors behind most of those. Conservative by design (3 failures, 30-min window, hash+compile-verified backup) so a healthy long-running bot is never rolled back. The normal apply/backup/rollback path and everything else are unchanged; all existing suites pass plus new v13.6 tests. + v13.5 - SAFER UPDATES (took the one good idea from the ChatGPT v16 'updatefix' file - credential-preservation on update - and built it safely on our base; skipped the rest, which sat on the old v12.06 base, carried the broken v15 layer, and hard-overrode VERSION to '16.0' while requiring its own marker that would have BLOCKED updating to our clean files): (1) /updatecheck - preflight a new nemotron_bot.py you've attached WITHOUT applying it: shows its version, size, whether it looks like Nemo, the compile-check result, and - the key part - whether it would CHANGE or DROP any of your credential/config lines (compared by a HASH of each key line; values are NEVER shown). (2) /update now shows that same credential warning right in the Apply prompt, so you can't accidentally deploy a file that wipes your API keys without being told. It WARNS, it does not block - because a legitimate update (like moving keys into the secrets file) also changes those lines and you stay in control. (3) /version shows the running version cleanly. The critical apply/backup/rollback path is unchanged. Owner-only, additive; all existing suites pass plus new v13.5 tests. + v13.4 - ORCHESTRATION (added the genuinely-new capability from the ChatGPT v15 file, built CORRECTLY on our safe v13 base - the v15 code itself was BROKEN: I ran it and it crashed with 'uuid is not defined', plus a _n15_STATE typo and a call to a function that never existed, so its workflow / research / decision commands all failed at runtime). What's new and WORKING here: (1) /nemoworkflow <numbered plan> - runs a multi-step plan ONE checkpointed step at a time, feeding each step's result into the next and saving progress after every step, so it survives a restart; /nemoworkflows lists them and /nemoresume <id> continues from where one stopped. (2) /nemoresearch <question> - a research pass that separates FACTS / INFERENCES / UNKNOWN and refuses to fabricate sources. The REST of v15's command surface is wired to Nemo's EXISTING, more mature systems instead of broken parallel copies: /nemodecision -> the real decision journal (with expected-vs-actual tracking), /nemoevents -> the activity log, /nemoagents -> AGENTSTAT, /nemoarchitecture -> /abilities, /nemo3 -> the /nemo control center. Nothing duplicated, nothing dragged back onto the old insecure base. Owner-only, purely additive; all existing suites pass plus new v13.4 tests. + v13.3 - CONTROL CENTER + FACT-CHECK (folded in the two genuinely-good ideas from the ChatGPT v14 file, onto this safer v13 base - without its duplication or its security rollback): (1) /nemo CONTROL CENTER - one screen showing version, uptime, brains, security posture (are any keys still in source?), money-confirm + lockdown + auto-trade state, work-queue depth and recent activity - built on Nemo's REAL subsystems (secrets_status, MONEYCFG, mm_locked, JOBS/WORK, ACTLOG), not a parallel copy. (2) /verify - or 'double-check that' / 'any hallucinations?' - an explicit fact-check pass: it reviews an answer (the text you give, or my LAST answer) for hallucinations, unsupported claims, wrong numbers/names/dates, missing caveats and contradictions, and if it finds problems it rewrites the answer WITHOUT inventing new facts. Both work by command AND in plain language, owner-only, purely additive. Deliberately NOT copied from the ChatGPT file: its duplicate job-runner (Nemo already has the /work engine), its status-dump 'quant report', and - the important part - that file was built on the OLD v12.06 base, so it still carried the exposed API keys, the deadlock-prone lock, money-confirm OFF, and the lockdown/phantom-exit gaps that v13.0-13.2 fixed here. Behaviour-frozen elsewhere; all existing suites pass plus new v13.3 tests. + v13.2 - TRADING SAFETY (Phase 2 - I traced the real-money route end-to-end, then closed the gaps I found; nothing removed): GOOD NEWS first - the LLM is NOT the final authority on your money. The AI only PROPOSES a direction + a confidence score; ALL risk parameters (which instruments are allowed, position size, stop-loss, target, max-trades/day, daily-loss auto-halt, trading-hours window, buy-only, and shadow-vs-live) are enforced in deterministic code around it, and live autonomous trading is OFF by default. THREE real gaps found + fixed: (1) LOCKDOWN DIDN'T STOP EVERYTHING - the master /lockdown kill-switch blocked manual bracket/cover orders but NOT the autonomous trader and NOT a plain /order. Now lockdown blocks ALL new live entries (manual /order + the auto-agent); open positions still auto-manage and exit, so nothing is stranded. (2) PHANTOM EXIT - the auto-agent's exit SELL ignored its result: if a live exit failed, the bot booked the position as CLOSED while it was still open on the exchange, leaving real money unmanaged. Now a failed live exit keeps the position, alerts you, and retries each tick. (3) plain /order now respects /lockdown like the other order types do. HONESTLY REPORTED, not yet fixed (flagged for a later phase): the auto-agent's OPEN-position state isn't persisted, so a restart mid-trade forgets a plain position (bracket positions stay exchange-protected regardless). Behaviour-frozen for everything else; all existing suites pass plus new Phase-2 tests. + v13.1 - SAFETY CORE (Phase 1 of the audited v13 rebuild - two runtime-safety hardenings, nothing removed): (1) DEADLOCK-PROOF LOCK - Nemo's single global lock is used in 40+ places and locked functions call other locked functions; a plain threading.Lock is NOT re-entrant, so one locked path calling another would freeze him hard. Switched to threading.RLock (re-entrant): identical behaviour for normal use, but the same thread can safely re-acquire, so that entire class of hang is gone. (2) REAL MONEY DEFAULTS TO CONFIRM - manual live orders (/order, /bracket, /cover) now default to a one-tap confirm before they fire, and the setting is finally PERSISTED (before, turning it on was silently forgotten on the next restart - a genuine safety hole). The autonomous trader is unaffected - it keeps its own separate risk gates. Turn the tap off with /confirmtrades off, and now that choice sticks across restarts. CORRECTION to my own Phase-0 audit: the 'six main() functions' I flagged as dead code were a FALSE ALARM - five of them are bot-factory TEMPLATE strings (the source code of the mini-bots Nemo generates), not real definitions; I verified by reading before touching, so nothing was wrongly deleted. Behaviour-frozen elsewhere; all existing test suites still pass. + v13.0 - SECURITY CORE (Phase 0 of the audited v13 rebuild - security FIRST, nothing removed): the bot's API keys (Telegram, OpenRouter, NVIDIA, Gemini) were hard-coded in this source file. Now EVERY secret resolves from an environment variable first, then /root/bot_secrets.json, then the baked-in value only as a last resort - so secrets can live OUTSIDE the code. On boot Nemo AUTO-MIGRATES any still-baked key into the 600-permission secrets file, so the next version can delete those lines from the source and he still starts. New: /security (owner-only) reports exactly which keys are still in the source vs externalised, where each secret loads from, and the money-guard + owner-lock state (never showing any secret value); the weekly self-test gains a 'No API keys exposed in source' check that stays red until they're moved out; save_secret now chmods the secrets file to 600. IMPORTANT ACTION FOR YOU: because these keys sat in the code, treat them as LEAKED - generate new ones and put them in /root/bot_secrets.json (keys: telegram_token, openrouter_key, nvidia_key, gemini_key); v13.1 then removes them from source entirely. Behaviour-frozen: with no env var and no secrets-file entry every secret is exactly what it was, and all existing test suites pass unchanged. One safe phase at a time. + v12.06 - SELF-TEST TELLS THE TRUTH: the weekly report card was FALSE-FAILING on email. It tested email by logging into Gmail's SMTP (465) and IMAP (993) ports directly - but DigitalOcean BLOCKS those ports, so both always showed a red X even though email works perfectly over the Gmail API (HTTPS). Fixed: the drill now checks the REAL path - Gmail API reachable (profile + labels over HTTPS) first, SMTP/IMAP only as a fallback when there's no Google connection - and it runs whenever Google is connected OR an app password is set. So those two systems will now report green (as they should), and the report card reflects reality instead of scaring you with a port block. + v12.05 - RELIABILITY SWEEP (the same rigor, across his OTHER outputs): the invisible-char fix was for Pine; this applies the same 'make the outcome reliable' thinking to code and file outputs. (1) CODE OUTPUTS - /script now guards against the brain 'thinking out loud' (no more 'Let's craft:' / '... code ...' placeholder garbage), SYNTAX-CHECKS delivered Python (ast.parse, with one self-correction) so a .py actually parses, and tells you to use the attached FILE not the chat text (same copy-paste-corruption fix as Pine). (2) TEXT/CSV/MD files get the same scratchpad guard, so they contain the finished content, never the brain's notes. (3) Shared helpers (_looks_scratchpad, _clean_code) so every generator refuses to ship junk and retries. The theme: fewer 'bad results' by hardening the output paths, not adding more features. + v12.04 - THE REAL PINE BUG (invisible characters): the recurring 'Syntax error at input <name>' on code that looks perfect was NOT bad code - it was smart quotes and non-breaking spaces that sneak in when Pine is copied out of a chat message / PDF / phone into TradingView. TradingView can't parse them and throws that exact baffling error, the same on every version. Fixes: (1) _pine_sanitize forces every generated script to PURE ASCII (smart quotes -> straight, non-breaking/other unicode spaces -> normal, en/em dashes -> -, zero-width chars removed); (2) the linter now flags any non-ASCII character; (3) delivery now tells you to use the attached .pine FILE (not copy from the chat bubble), because the file is clean ASCII and the chat text can silently re-corrupt. This is the root cause behind the errors that kept coming back. + v12.03 - COMPLEX PINE: added a genuinely advanced, verified strategy to his library - 'Confluence Regime Rider' (EMA regime + ADX trend-strength + RSI momentum + higher-timeframe confirm + ATR target + ATR trailing stop + a live on-chart stats table), Pine v6 and lint-clean. It backtests automatically in TradingView's Strategy Tester (it is a strategy()), and its exact logic was verified in a Python backtest. So 'a unique pine with buy/sell/target/stop-loss that backtests' is now real, at real complexity, and part of his rotation. + v12.02 - PINE v6 + STAY-CURRENT (he moves with the times, on his own): (1) PINE v6 - TradingView's current version. His whole Pine engine now targets v6 by default: the generator prompt, the deep knowledge base and the 5 verified templates are v6 (correct bool strictness, no 'when=' on strategy.* , '1D'/'1W'/'1M' timeframes, no 'transp='), and the linter gained v6 checks (flags a leftover when=/transp=/'D' timeframe). v5 still compiles and is still accepted; /pinever 5|6 sets the target. (2) STAY-CURRENT WATCH - a weekly self-check (currency_watch) where he RESEARCHES what's changed in his fields (Pine version, SEBI rules, AI tooling), AUTO-applies safe settings himself (e.g. bumps his Pine target the moment a newer version ships), learns the rest into memory, and routes anything code-level to the supervised /selfgrow rail for your one-tap approval - so he keeps himself up to date automatically without ever rewriting himself unsupervised. /current runs it now, /current on|off, /pinever sets the version. This is the honest form of 'update automatically in all fields': safe things on his own, risky code changes proposed for approval. + v12.01 - CONTINUUM FIX (the flood + the garbage code file): the v12.0 work engine ran, but two bugs showed up. (1) DUPLICATE FLOOD - the agent re-called fire-and-forget tools (pdf/docx/chart/web) over and over, because make_pdf returns 'building...' immediately, so the agent never saw a finished file and kept re-making it (7+ identical PDFs per job, the same web search 5x). FIXED: the agent now makes each deliverable EXACTLY ONCE and skips any identical tool+arg repeat, and bails to the report if it gets stuck re-proposing the same step. (2) GARBAGE CODE FILE - '5 best Nifty option strategies' was mis-detected as a CODING request (the word 'strategies'), so it emitted a nonsense nemo_code_out.txt full of the brain's scratchpad instead of a clean report. FIXED: a strict code detector - a trading strategy/option/report/'best'/'top N' request is a REPORT, never code; only real programming asks (python/code/function/sql/pine...) make a code file. So a research job now produces ONE clean PDF, no junk. + v12.0 - CONTINUUM (the real deep upgrade: he KEEPS WORKING, and understands deeper): the honest gap all along was that Nemo ANSWERS, then stops - he never keeps grinding a task on his own. v12.0 fixes that at the core. (1) CONTINUOUS WORK ENGINE - /work <task> (or 'keep working on X', 'add to your work list') queues a job; a background worker wired into his scheduler picks up the next pending job, runs it to completion through his plan->act->verify agent, reports the result, then moves to the NEXT job - one after another, on its own, and the queue is PERSISTED so it survives restarts. Pile up ten jobs and he'll grind through them while you sleep. /jobs shows the queue and status, /stopwork pauses. (2) DEEPER UNDERSTANDING - the THINK loop's comprehension/clarify step now runs on the PREMIUM brain (not the fast free one), so he judges what you actually mean far better before acting; the agent's self-check already verifies on the premium brain. (3) FULL PICTURE - /abilities (or 'what can you do') lays out his entire capability set in one organized map, and everything is reachable in plain language. This is not a risky rewrite - the proven 34-test-suite core is intact; CONTINUUM is the capstone layer that turns a bot that replies into one that works. + v11.31 - PINE MASTER (deep, advanced, CREATIVE - not the same EMA crossover every time): the last fix made Pine error-free but repetitive - every request came back as an EMA crossover, because the one verified template WAS an EMA crossover and it anchored the brain. Now: (1) a DEEP Pine v5 knowledge base rides in the prompt (full ta.*/math.* catalog, request.security multi-timeframe, sessions/time for NIFTY intraday, strategy risk/trailing exits, drawing objects - tables/labels/lines/boxes, plot styles, dynamic alerts, anti-repaint and confluence best-practice) so the code is genuinely advanced; (2) a LIBRARY of FIVE hand-verified, lint-clean advanced strategies (EMA crossover, Supertrend trail, Opening-Range-Breakout for NIFTY, VWAP mean-reversion, RSI + higher-timeframe filter) plus a menu of 14 archetypes (Bollinger squeeze, MACD regime, Donchian, Ichimoku, multi-factor confluence...); (3) ROTATION - a generic 'make me a pine script' now round-robins through the archetypes so no two come out the same, while a NAMED method (supertrend/vwap/orb/rsi/macd...) is honoured; (4) the brain is pushed to be creative, combine 2-3 confluence factors and add a pro touch (stats table / trailing stop / dynamic alerts), and mirror a MATCHING verified reference's syntax - not the EMA one. Still linted + auto-repaired, with the matching verified template as the guaranteed-clean fallback. Storage is no constraint - the knowledge and template library are baked in. + v11.30 - DARK SIDE (edge + ruthless-but-LEGAL power, on the Boss's side): four things. (1) DARK MODE - /dark on (or 'go dark' / 'be brutal') flips his TONE to blunt, sharp and a little savage, built to put you ahead - no hand-holding, no hedging - while he still NEVER lies, fabricates, helps anything harmful/illegal, or targets people. /dark off restores the normal voice. Persisted. (2) RED TEAM - /redteam <plan/idea/trade/text> (or 'attack this', 'find every weakness') attacks it like your smartest enemy and exposes every hole, ending with BIGGEST RISK + FIX FIRST. (3) COMPETITIVE INTEL - /intel <competitor> (or 'dig up on X') builds a hardball brief from PUBLIC sources: what they offer, their weaknesses/complaints, and where to hit them to win. (4) NEGOTIATION + SCAM DEFENSE - /negotiate <situation> gives a hardball (ethical) play with leverage, BATNA, anchors, tactics and exact phrases; /scamcheck <message> flags manipulation tactics + a scam risk rating when someone runs dark tactics on YOU. Deliberately NOT built, and I told the Boss why: malware, hacking others, defeating security/CAPTCHA, fraud/fake docs, surveilling people, spam/fake-account armies, market manipulation, or removing his safety rails - all of it would make HIM the traceable, liable party on his own server, and the 'who sells that' path is scams and stings. This is the dark arts used ethically, for his side. + v11.29 - ERROR-FREE PINE SCRIPT (the real reason it kept failing): unlike Python, Pine can't be compiled on the server, so a small free brain's syntax errors sailed straight through. Now Pine gets a proper pipeline: (1) it's written by the PREMIUM brain (free nano brains are poor at niche languages) using a strict Pine-v5 system prompt; (2) a rule-based LINTER (pine_lint) checks the errors that actually break TradingView - missing //@version=5, more than one declaration, study() vs indicator(), the 'strategy function used in indicator' error, bare sma()/rsi()/atr()/input()/security() that must be ta.*/math.*/request.security()/input.*, unbalanced brackets, and plot/alert stuck inside an if-block; (3) a REPAIR LOOP feeds those errors back and fixes them, up to 3 passes; (4) if it still isn't clean, it falls back to a HAND-VERIFIED template that compiles zero-error (EMA crossover + volume filter + ATR take-profit + % stop-loss, buy/sell markers, alerts). Every 'pine script / tradingview' request (and /pine) now routes here, delivers a .pine file with an honest 'passed my checks' status, and can email it. So a pine-script ask returns code that actually compiles - not a broken brain dump. + v11.28 - CREATE+EMAIL ACTUALLY HAPPENS (the 'it talks about emailing instead of doing it' fix): the root cause was that 'generate a pine script and email it to X' matched NO deterministic route, so it fell to the chat brain - which tried to call a tool by PRINTING <function=...> as text; that leak wasn't recognised, so you got the generic 'tell me the exact thing you want' (and elsewhere, 'here's how to email it / I can send if you want' - talking, not doing). Two fixes: (1) a deterministic CREATE+EMAIL route - 'generate/make/write/build <X> ... and email/mail (it) to <address or my mail>' now ALWAYS builds the thing AND sends it (Word if you said 'word/document', else a PDF - which now contains real code for a pine-script/strategy request, plus the raw .pine file), never touching the chat brain. (2) the tool-leak guard now also HONOURS a leaked email/docx/xlsx/chart/script/code call by actually running it, instead of showing the fallback. Net effect: when you say 'do X and email it', X gets made and the email gets sent - consistently, regardless of which brain is on duty, because the ACTION is deterministic code now, not a brain's guess. + v11.27 - THINK (my way of working, in him): the operating loop that makes an assistant actually effective, not just full of features. /do <task> (or /handle, or 'handle this properly / thoroughly / the way you would') runs Nemo through the same method I use on every real job: UNDERSTAND (restate it, and resolve 'it/that/the file' from the recent chat so a follow-up like 'give me the pdf here' isn't misread) -> CLARIFY (only if ONE essential detail is genuinely missing, ask a single question and resume when you reply - never nitpick) -> GATHER (pull what he already knows: durable memory + your indexed files + a quick web look-up, the way I read before I edit) -> PLAN -> EXECUTE -> VERIFY (his agent self-checks against the goal before finishing) -> honest report. It reuses his autonomous agent for the execute+verify core; the new part is understanding and grounding the task BEFORE acting. A new 'handle' intent + a pending-question resume make it feel like a real back-and-forth. Honest limit: this gives him my METHOD, which makes even a smaller brain far more effective - but his raw reasoning ceiling is still his model's, so it's my way of working in mini form, not a clone. Purely additive; every existing command and the fast one-shot paths are untouched; rails intact. + v11.26 - EMAIL, FOR REAL (fixes the '/email test still fails though Google is connected' trap): the root cause was that Google was linked BEFORE the gmail.send permission existed, so the token can read Gmail but can't SEND - and two things hid this: (a) /email test only pinged the Gmail profile / fell back to the SMTP error (which ALWAYS fails on DigitalOcean), so it never proved SEND and blamed the wrong thing; and (b) /google, once connected, was a DEAD END - it only offered 'relink with client_id/secret' and never a way to re-approve the new permissions. Fixes: (1) /email test now does a REAL test send to your own address via the Gmail API and reports the TRUTH - '✅ works, check your inbox', or, if the token lacks send permission, '⚠️ connected but without Gmail SEND permission - re-authorize in one tap', never again the misleading SMTP 'check your password'. (2) /google, when already linked, now hands you a one-tap RE-AUTHORIZE link built from your ALREADY-SAVED Client ID (open -> Allow -> /gauth <code>) - no need to re-enter anything - so you can grant Gmail send in ~20 seconds. So the fix for you: send this update, then run /google, tap the link, Allow, and /gauth <code>. Email then works over HTTPS (port 443), unaffected by the SMTP block. Purely additive; rails intact. + v11.25 - FIX (the three real problems: email, understanding, and the final result): (1) EMAIL that actually sends - a PDF you ask to be emailed now goes out over the Gmail API (HTTPS/443, which works even though DigitalOcean blocks SMTP), is ATTEMPTED whether or not an SMTP app-password is set, and on failure tells you the REAL reason + 'run /google once to re-grant send permission' instead of the misleading 'check the app password'. (The most likely cause of your failure: your Google sign-in predates the gmail.send scope - one /google re-consent fixes it.) (2) UNDERSTANDING what you asked - the PDF topic is now cleaned properly: 'GENERATE A POWERFUL PINE SCRIPT NEW IN PDF AND EMAIL X' no longer becomes a document titled 'A Powerful Pine Script New In And' (the 'in pdf / and email X / address' tail is stripped cleanly), and 'give me the pdf file here' is understood as a FOLLOW-UP - I resend the last file, or turn my last answer into a PDF - instead of writing a bogus report titled 'Me The File Here'. (3) The FINAL RESULT matches the request - make_pdf no longer forces every PDF into a beginner 'course'. A code/script/strategy/indicator request (e.g. a Pine script) now produces the ACTUAL working code (TradingView Pine v5 for pine) with Overview / CODE / HOW IT WORKS / HOW TO USE, AND the raw .pine (or .txt) file is delivered too; a report request gets a real structured report; only a learn/teach/course request gets a course. Purely additive; rails intact. + v11.24 - MAKER (mini-me abilities: he plans, codes, charts, and hands you real files): the things you said he couldn't do like I can - now his, in mini form. (1) REAL DOCUMENTS - he builds and delivers actual files, not just chat text: a Word .docx ('make me a word doc about X', /doc), an Excel .xlsx spreadsheet with real headers + numeric cells ('put my expenses in a spreadsheet', /excel), and plain .txt / .md / .csv files (/txt). (Illustrated PDFs and PPT decks were already there.) (2) VISUALIZATIONS - /chart (or 'make a bar/line/pie chart of ...') turns data or a described dataset into a real matplotlib chart image and sends it. (3) CODE AS A FILE - /script (or 'write me a python script file') writes a program in the right language and delivers it as a downloadable code file (say 'run it' to execute); the existing /code still WRITES-AND-RUNS and returns the result. (4) VISIBLE PLANNING - /plan (or 'make a plan for ...' / 'break this down') turns a goal into a clear numbered step plan and shows it, then 'do it' hands it to his plan->act->verify agent. All reachable in plain language (fast-paths + the AI intent-router) AND given to the autonomous agent as new tools (docx/xlsx/chart/textfile), so mid-task he can produce a sheet or chart himself. Purely additive; rails intact. + v11.23 - CURIOSITY (he fills the gaps himself + learns from the world): you gave him the internet; now he USES it on his own. When a question needs current or factual knowledge he may not hold (latest/price/news/'who is <name>'/'when is <event>'/a named thing), he quietly looks it up on the web FIRST, grounds his answer in what he found, and then DISTILS 1-2 durable facts into his permanent memory - so next time he already knows it (compounding knowledge, surfaced automatically by mem_recall). No 'please search' needed; he just does it. His autonomous agent gets the same instinct: a RESOURCEFULNESS rule so it researches a missing detail itself (web/fetch/recall) instead of stalling to ask you. And a curiosity 'soul' line in his persona: naturally curious, resourceful, never fabricates. Controls: /curiosity on|off (default ON, persisted), /learned [word] shows exactly what he's taught himself and when. Conservative by design - it does NOT web-search greetings, code, math or timeless 'explain X' questions (no needless latency), and it's a silent no-op if the web is unreachable. Purely additive; rails intact (still never fabricates, owner-only, money/destructive/self-mod still need a tap). + v11.22 - ANY-SITE VIDEO + YOUR PROXY: (1) UNIVERSAL VIDEO DOWNLOAD - /video <url> (aliases /vdl /dlvideo) or just 'download the reel/clip/video from <url>' pulls a video (or 'audio'/'mp3' for just the sound) from ANY of the ~1800 sites yt-dlp supports - Instagram, X/Twitter, TikTok, Facebook, Reddit, Vimeo, Dailymotion, Twitch, news video, most embeds - and sends it over Telegram if it fits (50MB) else saves it on the server (+ your Drive). For sites where you must be logged in, it uses YOUR OWN cookies (export cookies.txt, send /browsercookies) - it uses your session, it does not defeat the login. DRM-locked paid streaming (Netflix, Prime, Hotstar, Disney+, Spotify...) is refused honestly: those streams are encrypted and can't be pulled. YouTube keeps its richer path (summary/notes/playlist). (2) YOUR OWN PROXY / VPN - /proxy set http://user:pass@host:port (or socks5://host:port), /proxy off, /proxy to show. A proxy YOU provide (your subscription or your own box) is then applied to video downloads and web fetches, so he can reach content the server's bare datacenter IP is geo-blocked from, or route privately. This is legitimate access through YOUR endpoint - deliberately NOT a rotating proxy-pool to evade IP bans. Two things you asked for that I did NOT build, and why: a system that DEFEATS a site's bot-check / CAPTCHA / human-verification (that's built to circumvent a security control and is the engine of scraping-abuse, fake-account and credential-stuffing fraud - so it's off the table); and a self-standing 'access everything' ban-evasion VPN/rotator (same reason). The honest path is already here: when the browser agent meets a login/OTP/CAPTCHA it screenshots it and asks YOU to solve it, then continues on your authority (v10.4 human-in-the-loop) - a human does the human-verification. Purely additive; all rails intact. + v11.21 - TALK (no commands, just tell him): you never NEED a slash command again - say what you want in plain words (any language) and he does it. His ~300 abilities are all still there, but plain language is now the front door to ALL of them, not just some. The regex fast-paths already caught the common phrasings ('run df -h', 'read /root/x.py'); v11.21 adds the missing abilities to his AI intent-router so the phrasings the regex MISSES still reach the REAL hand instead of a generic chat reply: new understood intents terminal (run any server command), fetch (read a page's data), download (save a file onto the box), readfile / listfiles (his own files), knowledge (search your indexed documents), api (call any REST endpoint), apex (maximum-power multi-step job), and a catch-all act (ANY imperative 'do this for me' order -> his autonomous plan->act->verify agent). So 'jara dekh to server ka disk kitna bhara hai', 'pull the numbers off that page for me', 'sort out my server and mail me a summary' now DO the thing. Nothing removed, every command still works; the same rails hold inside each (owner-only, audited, money/destructive/self-mod still need a tap). Purely additive. + v11.20 - REACH (longer hands): three big new capabilities that extend what he can touch. (1) UNIVERSAL CONNECTOR - /api <METHOD> <URL> [:: json] calls ANY REST API (GET/POST/PUT/DELETE), and /api save <name> ... stores a named endpoint + auth header so 'call my <name> api' works; the autonomous agent also gets an 'api' tool, so he can reach any external service you have a key for (CRMs, sheets, webhooks, IoT, other bots...). (2) SCHEDULED ACTIONS - /every <interval> <action> and /at HH:MM <action> run ANY of his abilities on a repeat or at a set time ('/every 1h run df -h', '/at 09:15 send me the premarket brief', '/every 1d market brief') - real actions, not just reminders - so his hands work while you sleep; /schedules lists them, /unschedule <id> cancels. Persisted in the kv store (survives updates), fired from the scheduler. (3) DOWNLOAD TO SERVER - /get <url> [name] (or 'download <url> to the server') pulls any web resource onto the box (60MB cap) so he can then /read, /index or send it. All owner-only, audited to the tamper-evident chain, and destructive/system paths still refused. Purely additive. + v11.19 - APEX / GODMODE (the capstone): maximum capability + UNBREAKABLE reliability, within the rails that keep him alive. (1) UNBREAKABLE: ask_ai now has a hard answer-deadline (~40-85s) so when every free brain is jammed it STOPS cycling and replies clearly ('my brains are all busy - try again in a minute, nothing is broken') instead of leaving you on 'Thinking...' for minutes - the exact freeze that just happened can't recur. (2) ONE MIND: the autonomous agent gains a 'recall' tool that searches your knowledge base (indexed files) + durable memory, so his execution draws on everything he knows about you. (3) APEX MODE: /apex <goal> - or just say 'full power', 'use everything', 'unleash', 'go all out', 'maximum power' - runs his MAXIMUM agent: more steps (18), the directive to use EVERY tool (shell, fetch, files, code, web, recall, quote, godmode, pdf...), be exhaustive, cross-check, and VERIFY before finishing. Honest limits kept by design: max ABILITY, but money / destructive shell / system writes / self-modification still need one tap or are refused - that is what stops him bricking himself or leaking your Dhan/Google/root keys. Power that survives. + v11.18 - TOOL-CALL LEAK FIX (the '<tool_call><function=pdf>...' bug): when you asked for a PDF report to your mail, a brain PRINTED the raw function-call markup as a chat message instead of building anything. Fixed two ways: (1) a deterministic route so 'give/make/send me a (complete) report/PDF of X [to my mail]' now ALWAYS builds the PDF via make_pdf and emails it to you - it never reaches the general brain; and (2) a universal guard (_tool_leak / _strip_tags) that catches any leaked <tool_call>/<function=..>/<parameter=..> markup on EVERY channel (chat, web, PWA) - if it recognises the intended ability (pdf/image/slides/web) it actually RUNS it, otherwise it strips the markup so internal syntax is never shown to you again. + v11.17 - DEPTH: reasoning + a knowledge brain + self-running + a visible command center. (1) SMARTER: hard questions (why/how/compare/analyse/plan/decide, long or multi-part) now trigger a private step-by-step REASONING pass before he answers, then the regulator self-checks it - so answers are deeper, not just faster; and a plain 'that's wrong / you missed it' now stores a lasting LESSON (fed into future answers) and redoes it in MAX mode, no /bad needed. (2) KNOWLEDGE BRAIN over your files: /index <path> full-text-indexes your files+PDFs (SQLite FTS5), then /know <question> - or 'search my files for X' - answers across everything with citations. (3) SELF-RUNNING watchdog: every ~10 min he checks each deployed app's service and AUTO-RESTARTS any that CRASHED (failed units only, rate-limited, audited + notified). (4) VISIBLE POWER: a real /dashboard command-center on his web server - live system + server health, apps, activity, what's coming up, and a command box - so the power is something you SEE and drive, not 290 commands to remember. Purely additive. + v11.16 - SMARTER + SAFER HANDS: (1) SECURED TERMINAL - every /shell command and file write is now logged to the v11 tamper-evident audit chain + activity ledger, there's a 25-cmd/min rate guard, and /shell readonly on blocks any command that changes something (reads still work). (2) AGENT GETS THE HANDS - the autonomous /agent (/solve) can now use shell, fetch, readfile, ls and writefile, so it does real end-to-end server work ('find why nemobot crashed and fix it' -> tails the log, reads it, diagnoses, patches, restarts) with its plan->act->VERIFY loop; destructive shell + system-path writes are refused (owner must do those manually). (3) CONVERSATION MEMORY - a short-term per-chat context (recent turns + actions) is injected into his brain so follow-ups resolve ('do it again for BankNifty', 'what did you just find'), and 'email/send that to me' now emails his LAST answer. (4) CHIEF-OF-STAFF PROACTIVITY - a ~30-min watch pings the owner UNPROMPTED but only on material things: server disk >88%, memory >92%, a reminder due within the hour, or to-dos piling up (deduped, cooldowns). Purely additive. + v11.15 - REAL HANDS (terminal + site-data + files) & plain-words routing: gives Nemo the hands people said he lacked, and makes plain language actually FIRE them instead of a chatbot reply. (1) TERMINAL: /shell <cmd> (aliases /sh /bash /terminal /exec) runs ANY command on the server and returns the live output - owner-only, persistent cwd (`cd` sticks), per-command timeout, and a confirm-tap guard on destructive commands (rm -rf /, mkfs, dd, shutdown...). (2) SITE-DATA GRABBER: /fetch <url> [what you want] pulls a page and hands back clean text/tables/JSON (BeautifulSoup when present), answering a question from it if you ask one, and falls back to the real browser agent for JS/login pages. (3) FILE ACCESS: /ls, /read (/cat), /download, /writefile <path> :: <content> - browse, read, receive and create files on the server (owner-only; system-path writes need a confirm tap). (4) PLAIN-WORDS ROUTING: nl_route now has deterministic fast-paths so 'run df -h', 'shell systemctl status nemobot', 'get me the data from <url>', 'read /root/x.py', 'list files in /root', 'download /var/log/syslog' hit the REAL tool every time - never the general brain. Purely additive; every existing command untouched. + v11.14 - EMAIL NO LONGER LIES: fixes the bug where 'email to someone@x.com <message>' got a fake 'Email dispatched...' reply while nothing was actually sent (the Sent box stayed empty). Root cause: only a handful of deterministic phrases were force-routed to the real send code; everything else was handed to an AI intent-classifier, and when it guessed wrong the message fell through to the general chat brain - whose own system prompt ('you send emails, so speak like it') then HALLUCINATED a success, even auto-'correcting' the address. Three fixes: (1) a deterministic fast-path in nl_route now catches any explicit 'email/mail <address> <message>' and ALWAYS runs the real send (nl_emailto) - the chat brain can never answer it, and the address is sent EXACTLY as typed (no silent correction); (2) nl_emailto now accepts the Gmail-API/HTTPS path (via /google) instead of demanding an app password, and on failure reports the REAL reason (LAST_EMAIL_ERR) + hands your draft back, instead of a fake confirmation; (3) the persona system prompt now carries a hard 'NEVER FAKE AN ACTION' rule - if Nemo is replying as plain text he must never claim he sent an email / placed a trade / made a call, across ALL abilities. Report/PDF-to-email requests are untouched. + v11.13 - PWA: FILE UPLOAD (PDF/Excel/CSV/text) alongside images: the \U0001F4CE attach button now also takes documents. A new /api/file endpoint decodes the upload, extracts its text (PDF via pypdf, Excel via openpyxl, CSV/TXT/MD/JSON etc. directly - the same formats handle_document reads), stores it as the loaded DOCS document (which ask_ai already injects into every answer), and replies with a summary - so you upload a quote/statement/report from phone or desktop and immediately ask questions about it, with follow-ups working automatically. Images still route to the vision path; the attach button branches by file type. + v11.12 - PWA: STOP + IMAGE UPLOAD: the web app now has a \U000023F9 STOP button (appears while Nemo is speaking or a request is in flight - cancels the voice AND aborts the request) and a \U0001F4CE ATTACH button to upload an IMAGE from the browser - it's downscaled client-side to 1280px JPEG and run through Nemo's real vision/OCR path (new /api/upload -> web_image -> ask_ai with the image), so you can photograph/attach a document or screenshot and ask about it from phone or desktop, exactly like sending a photo in Telegram. The uploaded image is also stashed as LAST_PHOTO so a follow-up 'ocr it' works. + v11.11 - NEMO EVERYWHERE (PWA): Nemo's built-in web chat is now an INSTALLABLE app - the first 'window' beyond Telegram, onto your phone home-screen AND desktop at once, sharing the same brain. His Flask web server now serves a real Progressive Web App: /manifest.json + /sw.js (service worker: offline app-shell cache, install) + generated /icon-192.png & /icon-512.png, and the chat page is upgraded with PWA meta tags, an Install button (beforeinstallprompt, with iPhone Share->Add-to-Home-Screen guidance), safe-area layout, persistent login (token from ?k= is saved to localStorage so the home-screen icon stays logged in), voice in/out, and a \U0001F4CA live-status glance via a new read-only /api/status endpoint (returns /status). Open it via /connect (public HTTPS URL + token over Cloudflare Tunnel) -> Add to Home Screen -> installed. Chat + read-only status only from the web channel (destructive commands stay Telegram-side, by design). Reuses the existing token auth; purely additive. + v11.10 - AUTONOMOUS SELF-GROWTH (safe by design): /selfgrow makes Nemo RESEARCH THE INTERNET (plus his own recent errors) for ways to improve himself, form ONE concrete low-risk improvement to a non-core function, and route it through his SUPERVISED self-editor - compile-check -> diff -> your one tap Apply -> backup -> /rollback. /selfgrow auto on runs it about weekly and only ever PROPOSES. He genuinely self-develops from the web; you stay the single tap that stops him from self-DESTROYING. Deliberately NOT built: unrestricted self-modification (rewriting/deploying code from the internet with no test/backup/approval) - that one change can permanently brick him or leak the Boss's Dhan/Google/Telegram/root credentials with no recovery, and it violates this project's own constitution (§22, 'never uncontrolled recursive self-modification' + rollback always preserved + user is final authority). Core stays _UNEDITABLE; money/security/secrets always need a human tap. + v11.9 - NEMO OS CORE COMPLETE (phases 2-10 working cores, one release): DECISION MEMORY (/decision journal with expected-vs-actual, /decisionreview calibration, /counterfactual with hindsight-bias guard, /biascheck challenges you); AI BOARD + RED TEAM (/board = 5 independent seats analyzed in parallel without seeing each other -> disagreement extraction -> red-team attack -> judge verdict with FOR/AGAINST/assumptions/fail-conditions); PREDICTION (/predict with probability+uncertainty, never presented as fact); ANOMALY watch (disk/memory/db baselines + jump detection); RADAR (/radar add|report - monitored topics, only MATERIAL items surfaced); OPPORTUNITY scan; SIMULATION (/businesssim - real Monte Carlo, 500 trials x BASE/OPT/PESS/STRESS, payback/ROI/P(loss)); CHIEF OF STAFF (/chief - reminders, open tasks, blocked work, open decisions, anomalies in one brief); TASK GRAPH (/taskgraph - dependencies, ready vs blocked); memory VERIFY + CONTRADICTIONS on the world model; GOVERNANCE (permission LEVELS 0-6 shown in /permissions, NEMO_CONSTITUTION inherited by agents, /why provenance chains, hash-CHAINED tamper-evident audit + /auditchain verifier); /status full OS dashboard; /agenthealth scores. Deferred honestly: web dashboard UI, desktop-app control, scheduled radar crawls, model-disagreement engine, memory decay (named in NEMO_V11_CHANGELOG.md). All additive - every v10.24 command untouched. + v11.0 - NEMO OS PHASE 1: WORLD MODEL / KNOWLEDGE GRAPH (start of the v11 'Personal AI Operating System' program - see NEMO_ARCHITECTURE_AUDIT.md for the full 11-phase plan). Nemo now keeps a persistent, TEMPORAL model of your world in his SQLite brain: entities (people, suppliers, projects, companies), typed relations between them, and DATED facts that carry SOURCE + CONFIDENCE (provenance) and are NEVER overwritten - so 'Supplier X quoted 10L' in March and '8.5L' in August both stay, each with its date. /fact <entity>: <fact> teaches him (free-form works too - AI extracts entity+fact), /world <entity> shows the full profile with provenance, /timeline <entity> replays the dated history, /relate A | rel | B links entities, /graph shows the model, /os shows v11 phase status. Every kg fact also feeds vector memory so /recall finds it semantically. Purely additive (new kg_* tables + one dispatcher; all 332 existing commands untouched). + v10.24 - PROJECT BUILDER (create 'vast things', not just scripts): /project <name>: <what to build> makes Nemo build a whole MULTI-FILE project by himself - he plans a file manifest, writes each file, installs the pip deps, RUNS the tests, and if they fail he reads the errors and fixes his own code (up to 2 repair rounds), then zips the project and sends it to you. /projects lists them, /project <name> zip re-downloads one. Files live in /root/nemo_projects/<name>. This is the generate->test->repair loop that turns 'one script' into real software. Owner + deploy-cap gated. + v10.23 - CRASH-SAFE MEMORY (durable-memory foundation): Nemo already saved his brain (facts, contacts, projects, todos, habits, history, the AI team...) to bot_memory.json from 67 places - but the write was NOT atomic, so a kill mid-save could corrupt the whole file and load_data would silently start BLANK with no backup (total amnesia). Fixed: saves are now atomic (temp -> fsync -> os.replace) and keep a .bak of the last good copy; load falls back to .bak if the main file is corrupt, so one bad crash can never wipe his memory again; a 150s autosave loop backs up state changed by paths that don't call save_data; and if he ever does recover from backup he tells you on boot. This is the safe foundation for growing him side by side. + v10.22 - SOLVES ON HIS OWN (plan -> act -> CHECK -> report): TRUE AGENT MODE now VERIFIES its own work before finishing instead of stopping at the first 'done'. When the agent tries to finish, Nemo strictly checks the proposed answer against the original objective; if a real part is missing/wrong/unverified, he names the gap and keeps working to fix exactly that (up to 2 self-corrections), then reports - so complex, multi-step jobs actually get completed, not half-answered. Step budget raised 8 -> 12 to leave room to adapt. New /solve alias (same as /agent), and saying 'solve ...' / 'figure out ...' in chat now triggers the autonomous agent directly. Uses his existing rich toolset (web, open, quote, code, pdf, email, remind, todo, finish). + v10.21 - EMAIL OVER HTTPS (fixes the DigitalOcean SMTP block): the real reason /email set failed with 'couldn't reach Gmail's mail server' is that DigitalOcean BLOCKS outbound SMTP ports - not the password. Nemo now SENDS via the Gmail API over HTTPS (port 443, never blocked), using the Google account you already connected with /google (it has the gmail.send scope). send_email tries the Gmail API first and only falls back to SMTP; /email test now reports which path works; the network-error message now names the SMTP-block cause and points to /google. So: run /google once (if not already), then email just works - no App Password needed. + v10.20 - EMAIL FIX + SELF-DIAGNOSIS: email 'sending failed' now tells you the REAL reason instead of a generic essay. Nemo captures the actual SMTP error (LAST_EMAIL_ERR) and translates it to a plain cause + fix (e.g. '535 = wrong/expired App Password or 2FA off'). New: connect Gmail from chat with /email set <gmail> <app password> (no file editing), and /email test does a LIVE Gmail login and reports exactly what's wrong. Best of all, asking 'why did email fail / email not working' now makes Nemo check HIMSELF (real SMTP test) rather than routing it to the general brain that wrote the SPF/DKIM essay. The root cause of your failure: the Gmail App Password is set but Gmail is rejecting the login - regenerate it (2FA must be on) and run /email set. + v10.19 - SELF-UPDATE (no more SSH): send Nemo a new nemotron_bot.py in Telegram, then /update - he verifies it's really my code (size + markers, so a random script can't nuke me), compile-checks it, backs the current me up to /root/nemo_backups, swaps himself in and restarts (you tap Apply first; /rollback undoes it). Reuses the proven /upgrade rails. When you send a .py that looks like a new me, he now offers /update automatically. From here, every future version installs by dropping a file in chat - no console, no scp. + v10.18 - BOT FACTORY LIBRARY (factory data): Nemo now carries a library of ready-made bot TYPES he can create on command and modify - the engine for a bot-building service. /templates lists them (FAQ/auto-reply, appointment booking, order+catalogue, subscribe+broadcast, feedback/rating); /newbot <type> <name> : <business> scaffolds a complete standalone Telegram bot from that template and ships it through the SAME supervised pipeline as /ship (compile-check -> bake env -> tap to start); then /env <name> BOT_TOKEN=... OWNER_ID=... turns it on, and /app <name> edit <change> lets Nemo customise it further. Each template is a real, working long-poll bot (owner-notify, JSON storage). Extensible - more types can be added to BOT_TEMPLATES. + v10.17 - GOOGLE MAPS: Nemo can now find any place/store/shop and show its address, live rating + top reviews, open/closed, phone, website and a map image (/place, /find, /reviews, /map); list ranked options nearby (/near cafes in Andheri); and compute real ROAD distance + time WITH live traffic between two places plus a route-map picture (/trip A to B, also /distance /route, and 'by walking/transit/bicycling'). Reuses the SAME Phase-2 Google Cloud key (/gcloud) and the same daily safety cap - you just enable Places + Directions + Geocoding + Static Maps in the Cloud console (up to 10,000 free calls per API per month, so personal use is effectively free). Raw REST via the Maps Platform, owner-only, threaded so it never blocks. + v10.16 - HINDI PDF FIX: reports in Hindi were coming out as '?????' because the Devanagari font never loaded on the server (the runtime GitHub download 403'd) so the text got mangled to Latin. _ensure_hindi_font() is now robust and self-healing: it finds any Devanagari font already on the box, else apt-installs one itself (Nemo is root - no fragile download), and guarantees the uharfbuzz shaping engine so conjuncts/matras place correctly. make_pdf() will now NEVER hand back a '?????' PDF - if no font can be loaded it sends readable Unicode text plus the one-line server fix instead. The AI was always writing correct Hindi; only the PDF drawing step was broken. + v10.15 - GOOGLE SUPER-LAYER (2 phases). Phase 1 (free, reuses his Google login - one re-consent for wider scopes): /backup his whole brain to Drive, Sheets as a LIVE database you can open on your phone (/log <sheet>: a, b, c  ·  /gsheet <sheet>), /gdoc <title>: <body> makes a Google Doc, /gtask + /gcontact + /findcontact. Phase 2 (needs a Google Cloud API key + billing, but big free tiers + a hard daily call cap): /gcloud <key> turns on Vision (/gsee reads/labels a photo), Translate (/gtranslate hi: text), Text-to-Speech (/gsay), Gemini (/gemini), and real Google Search (/gsearch). + v10.14 - ONE-STEP SECRET REFRESH: /env <app> KEY=VALUE now, if the app is already live, rewrites its locked .env and RESTARTS it on the spot - no re-ship. So refreshing a daily API token (e.g. Dhan's 24h token) is a single paste to Nemo. + v10.13 - APP EDITOR (Nemo patches apps he deployed): Nemo can now edit a running app's code himself, not just his own - same supervised rails (pick function -> rewrite -> compile-check -> diff -> you tap Apply -> back up -> restart just that app -> /app <name> rollback if needed). Just say 'add a /dhan self-test to signalbot' or run /app signalbot edit <change>. So he can fix and extend the bots he ships, on his own. + v10.12 - APP FACTORY + SECRETS: you can now hand Nemo a program's secrets in chat with /env <name> KEY=VALUE (bot tokens, API keys) and he bakes them into a locked-down 600 .env file the service reads - so you never edit the code file. Everything else as v10.11 (SHIP a .py as a live 24/7 systemd service, /build, /apps, /app manage). + v10.11 - APP FACTORY (real hands to SHIP a program): Nemo now takes a program - one he writes, or a .py you send him in chat - and actually RUNS it on your server as a managed 24/7 systemd service. He writes the file to /root/apps/<name>, installs its pip packages, safety compile-checks it, creates the service, and starts it (you tap Ship & start to confirm). /ship <name> deploys a .py you just sent; /build <name>: <what it does> has him write the program himself then ship it; /apps lists them; /app <name> logs|restart|stop|rm manages them. Owner-only, gated by the 'deploy' capability (/caps deploy on) + /lockdown, refuses to touch system units. This closes the gap where his 'mission' team only produced a REPORT - now he can hand you a running bot. + v10.10 - SELF-EVOLVING: Nemo reviews his OWN errors, system logs and rough edges, decides what to fix/improve, and DRAFTS the code changes himself - you just approve. /evolve makes him study himself and propose the 3-6 highest-value improvements (each targeting one real function, grounded in errors he actually hit); /evolve <n> hands that exact improvement to his supervised self-editor (compile-check + diff + tap-to-Apply + backup + /rollback), and /evolve auto on runs a weekly self-review that only ever PROPOSES (never auto-applies). Core control functions stay _UNEDITABLE. Just say 'improve yourself' / 'review your errors and get better'. + v10.9 - YOUTUBE+: turn a video into a STUDY-NOTES PDF (/ytnotes or 'notes'), and summarise a WHOLE PLAYLIST into a PDF study guide (/ytplaylist or paste a playlist link) - per-video bullets + an overall overview, Hindi-capable PDF. + v10.8 YOUTUBE: robust video SUMMARY (transcript via youtube-transcript-api -> yt-dlp auto-subs with cookies -> audio+Whisper, then an easy 'explain like to a friend' summary by Claude) and DOWNLOAD (/ytdl video, /ytmp3 audio, cookie-aware, sent over Telegram if it fits else saved/Drive). Just paste a YouTube link. + v10.7 SCANNER: send a photo and Nemo turns it into a clean, cropped, straightened PDF (document scanner), or extracts all its TEXT (OCR, Hindi too), or decodes a QR - via caption 'scan'/'ocr'/'qr' or the /scandoc /ocr /qr commands. + v10.6 STRONGER HANDS for the browser agent: VISION fallback (screenshots the page and acts from what it SEES when there's no readable HTML, via clickxy), new actions (key presses, coordinate click, back, file upload, structured extract->data), and SESSION/COOKIE import (/browsercookies loads a cookies.txt so Nemo is logged in on sites like YouTube - the reliable way past login walls). + v10.5.2 LOGIN HANDS hardening: the human-in-the-loop now fills the value ROBUSTLY (finds the real email/password/OTP input even if the AI's field index is off, verifies it landed, auto-submits) and has a loop-guard that stops re-asking and explains honestly when a site (e.g. Google/YouTube) is blocking the automated login. + v10.5 SELF-DEFENSE (blue-team, THIS SERVER ONLY): tamper tripwire (fingerprints his own code/secrets/SSH-keys and alerts + optional auto-lockdown on change), intruder watch (failed-SSH by IP), exposure/open-port self-scan, ClamAV malware scan, pip-audit CVE check, and a hardening pack (chmod/fail2ban/ufw keeping SSH open). NO target field anywhere - every check runs against this host only; owner + capability gated. Ask 'scan yourself for viruses / who is attacking me / am I exposed'. + v10.4 HANDS + HUMAN-IN-THE-LOOP: the browser agent can now pause on a login/password/OTP/2FA/CAPTCHA, send you a screenshot of what it sees, WAIT for your chat reply, type it into the field and continue - so you complete logins together and Nemo stays logged in (persistent profile). New 'ask' browser action; your reply is routed to the live session and the secret value is never logged. + v10.3 DYNAMIC TOOLS UPGRADE: /toolmake now builds reusable tools that use third-party packages (declared '# requires: yt-dlp ...', auto pip-installed + reinstalled after redeploy) and reach the internet (run on host; pure-stdlib tools keep --network=none isolation) - so you get a permanent /tool musicdl <song> instead of one-shot scripts; also run_code writes self-contained scripts (inputs hardcoded, no required argv/input). + v10.2 CODE AGENT FIX: generated Python no longer gets its dunders corrupted (clean_text was stripping __ and ** so __name__/__main__ became name/main); run_code now uses the RAW code path + the premium brain + a SELF-REPAIR loop (reads its own traceback and fixes the bug, up to 2 tries). Same raw fix applied to self-upgrade and dynamic tools. + v10.1 TRACK 3 BUILDER on top of the Mastermind Core: GitHub connect + AI code-review agent (issues/PRs/CI, auto-review PRs via webhook), dynamic tool creation (Nemo writes-tests-registers his own sandboxed tools), multi-agent swarm orchestration (parallel workers -> synthesis), and observability (/metrics, /logs, ERROR alerts). + v10.0 MASTERMIND CORE (Track 0+1+6): event-driven nervous system (SQLite state, durable event queue, stdlib HTTP webhook gateway + Nemo's own /api/v1, capability layer + audit log + /lockdown kill-switch), infra control (DigitalOcean create/reboot/snapshot/destroy, git self-deploy with pre-swap compile check + boot canary, Docker sandbox exec), and an autonomy layer (goal planner plan->act->report loop, condition triggers, reflection-to-memory). All owner-gated. + v9.8.3 land-records FULL FLOW from real screenshots: auto-ACCEPTS the 'सूचनार्थ नकल' confirm() dialog (Playwright was silently cancelling it), captures the Nakal HTML document (Edharti_A4_Nakal_village.aspx) as a PDF (it is NOT a file download), and the playbook now matches the exact 10-step Apna Khata flow (district/tehsil dropdowns -> alphabet+village row -> radios -> searchable khasra box -> नकल सूचनार्थ). + v9.8.2 IFRAME-AWARE browser: govt forms (Apna Khata) load inside an <iframe> so the top page looked blank; Nemo now finds and drives the real form frame + sends a text diagnostic on failure + never clicks top-nav tabs. + v9.8.1 land-records cascade fix (waits for the ASP.NET postback so तहसील/RI/village dropdowns fill before selecting; more steps; tells you which brain drove it) + Claude PREMIUM BRAIN on tap (Boss's Anthropic API key): auto-escalates the HARD jobs - drives the browser/land-records flow, /think deep answers, and a smart backup when free brains choke - while free Nemotron/Groq still handle everyday chat so credits last. Cost-aware (Haiku default, Sonnet for browser/think, running spend in /brain). + v8.8.2 Hindi/Unicode PDFs (Noto Devanagari, was: ?????) + report emails when you ask + mission progress/recipient fixes + activity audit log + confirm-on-money + FII/DII in the trading brain + IFSC/QR/short-links + v8.7 distinct mission team/chaining/maps/translate + v8.6 vector memory/TradingView/insights + v8.5 Google + v8.4 voice/backtester + v7.9 grounded market data + v7.8 identity + v7.5 live option chain + v7.4 natural-language brain + trading.
+"""nemotron_bot.py v90.0 - STUDIO: MORE IMAGE ENGINES AND TOOLS, EXACT DESIGN AND CHARTS, REPORTS WHOSE NUMBERS ARE CHECKED (verified image chain with nine engines, Pillow tools, posters/cards/logos with exact text, charts from your numbers, a numbers audit for researched reports, data reports from your own files). + v89.0 - CIRCLE: WHO ELSE MAY USE NEMO AND WHAT THEY MAY DO (one gate in front of every message, button and inline query that is not from the owner; default deny; abilities switched per person and role from a menu or in plain words; first-contact cards; limits; strangers on/off; a private read-only free/busy view for family). + v88.0 - ARGUS: NEMO CAN SEE (read-only eyes for mail, calendar, Drive, tasks, reminders, watchers, what Nemo did and when, server and errors, devices, positions; a live map of its own abilities; one "see" tool for conversation; a flight recorder; an inbox watch; exact reasons when something is not connected). + v87.0 - RELAY: MORE VIDEO SOURCES (yt-dlp with six client profiles, automatic yt-dlp update, Node/Deno runtime, your proxy; then pytubefix, YouTube.js, Piped and Invidious mirrors, Cobalt) in ONE verified, time-boxed chain with a per-source report + DRIVE LINKS YOU CAN OPEN (anyone with the link / one e-mail / private) + natural-language controls (download sources, test youtube download, set up download sources, share my last download). + v86.0 - CANDOR: NO SENSITIVE LOGGING (a rejected value is never stored; logs are masked) + COMPLETE FORGETTING (every recall store, rewritten copies, re-learning blocked, queued jobs cancelled, backup limits stated) + SAFER SELF-DEVELOPMENT (the _n79_feature hook is always offered, relevant bounded shortlist, vague "upgrade yourself ..." asks what you want before any AI call, failures name their stage) + RESEARCH ROUTING (current-information questions are researched, failure and thin evidence are stated) + ONE SHARED DEADLINE (planning, tools, answer, review and fallback; bounded search and background work) + HONEST CHECKS (completed / issues / skipped / failed). + v85.0 - STEWARD: DECISION INBOX (mail/calendar/open loops/showroom -> ranked, grounded proposals as approve/edit/skip cards; nothing runs without a tap; learns from your decisions) + VERIFIED RESEARCH (replans, reads full pages, keeps a claim only if its quote is in the page and its numbers are in the quote) + SANDBOX-TESTED UPDATES (candidate is imported and regression-tested in a network-less sandbox before Apply) + MCP PERMISSION TIERS (read runs, write needs a tap, dangerous blocked) + DOCUMENT INTELLIGENCE (page-cited answers, clause flags, version compare, tables) + SHOWROOM COPILOT (leads, dues, stock, GST invoice drafts) + PAGE WATCHERS (price/stock/keyword/change alerts). + v84.0 - ATLAS: FUTURES DESK (expiry calendar with holiday roll-back, cost-of-carry fair value/basis, roll cost, position sizing, pre-trade check, edge/Kelly/streak maths, owner-reported trade journal + stats, opt-in expiry alerts; advisory only, no orders) + SPEED (zero-model answers for pure arithmetic/date questions, router bypass for plain chat, parallel tool rounds, typing keep-alive, per-stage timings, p50/p95 in /cortex83) + weekday/date audit. + v83.0 - CORTEX: memory bridge (relevant stored facts + safe auto-learning from the owner's own messages, with /memory83 /forget83 controls), grounded IST date/time + exact date maths, bounded read-only tool loop for chat (search/recall/calculate/date, no tool can act), deterministic arithmetic audit + quote-verified critique, rolling conversation summaries, router fast-path for small talk, /why83 transparency, fix for undefined _n60_j in the media failure path. Additive layer over v82; any Cortex failure falls back to the v80 chat path. + v45.0 - YOUTUBE PER OFFICIAL 2026 GUIDE (--js-runtimes deno auto-installed, android_vr-first ladder needing no PO token/cookies, cookies only for tv/mweb, rotation detection, /ytfix) + MEDIA LIBRARY (/library instant resend, Drive) + v44.x RELIABILITY DOCTOR + v43.x YOUTUBE UNBLOCK + RESEARCH DIGEST + v42.0 MEDIA ENGINE + FAMILY MODE + v40.0 COMMAND CENTER + LEARN MODE + v39.0 FAST CORE + v38.0 ATTENTION + v37.0 PHOTO MEMORY + VOICE + v36.x DAY CARD + SELF-AUDIT + v35.0 UNIFIED MIND + v13.35 - PROVIDER DOCTOR + COMPUTER-USE 5.0 BATCH 3: adds diagnostic Groq/Gemini model discovery, non-destructive email/network doctor, browser computer-use sessions with DOM/accessibility/screenshot state, Guardian-protected external-page analysis, action verification and session telemetry. + v13.30 - KNOWLEDGE LAKE 2.0 + HYBRID SEMANTIC RAG + LEARNING CORE 2.0: adds local hybrid retrieval, workflow episode learning and automatic local grounding while retaining v13.29 evaluation/observability. + v13.29 - EVALUATION LAB 2.0 + OBSERVABILITY/FLIGHT RECORDER 2.0: adds request-level tracing, durable request metrics, tool/task correlation for reports/browser/media, percentile latency and failure dashboards, candidate-vs-current regression scoring, critical-function and credential-line integrity checks, evaluation history, and fail-closed deploy recommendations. Existing v13.28 NEMO PRIME FOUNDATION remains. + v13.28 - NEMO PRIME FOUNDATION: Unified Task OS, Central Policy Engine, Flight Recorder, Evaluation Lab, Knowledge Lake, Strategy Learning 2.0, Device Agent generator, Specialist Agent Governor, and Trade State Reconciliation 2.0. Existing v13.27 Publisher Godmode and all prior safety rails remain. + v13.27 - PUBLISHER GODMODE 5.0 / LAYOUT QA: rebuilds the professional artifact renderer around measured text layout instead of fixed-height guesses; filters fake KPI tiles and source/evidence metadata; dynamically wraps risk tables, scenario cards, executive cards and source cards; fixes appendix stripping with or without colons; adds Unicode font support when available; prevents heading/header collisions; strengthens publication QA for leaked metadata, clipping-risk patterns and malformed key-number panels; and keeps the v13.26 evidence/materiality pipeline intact. + v13.26 - CREATION ENGINE / PUBLISHER GODMODE 4.0: adds professional information architecture, materiality-first analysis, improved source authority ontology, cited-evidence grading, compact clickable source appendix, executive snapshot cards, key-number tiles, scenario dashboard, risk heatmap-style matrix, typography/mojibake sanitation, deterministic artifact integrity, and optional PDF visual QA. Analytical reports now fail closed when research/evidence/publication quality is weak. Existing v13.25 research Godmode, v13.24 renderer fixes and v13.23 Learning Core remain. + v13.25 - GODMODE RESEARCH + REPORT INTELLIGENCE 3.0: adds five coordinated upgrades: adaptive multi-query text+news research with retries, source-authority scoring and domain diversity, multi-brain analyst→verifier→editor synthesis, evidence/claim-quality gates that remove unsupported current claims, and a research audit manifest + professional evidence score on every report. /godreport forces the full pipeline; ordinary non-code reports use it automatically. Existing v13.24.2 renderer hotfix and v13.23 Learning Core remain. + v13.24.2 - PROFESSIONAL REPORT STUDIO 2.1 PDF RENDERER HOTFIX: upgrades PDF/report generation with fresh multi-query web research for time-sensitive reports, source-grounded drafting, executive summaries, risk/outlook structure, professional cover/header/footer, section hierarchy, key-takeaway callouts, source appendix, cleaner typography, and removal of random stock-art pages. Reports distinguish sourced facts from analysis and warn when fresh research is unavailable. Existing v13.23 Learning Core remains. + v13.23 - LEARNING CORE 1.0 + EXPERIENCE BRAIN: adds persistent outcome learning, model-performance scoring, experience/error fingerprints, semantic experience recall, feedback controls, lightweight anomaly learning, adaptive model route reordering, training-data export, and Cockpit learning telemetry. Learns from successful/failed AI calls and explicit owner feedback while redacting sensitive-looking text; never grants new money/security authority. Existing v13.22 Offline Mind/Speed/Systematic UI, Device Grid, Cockpit, Mind Core, Cyber Hands, trading rails and secrets are preserved. + v13.22 - OFFLINE MIND + SPEED ROUTER + SYSTEMATIC RESPONSE UI: adds an offline-first knowledge layer (built-in durable reference packs + existing indexed files/library/memory grounding), persistent evergreen answer cache, API-down offline fallback, instant local calculator, automatic FAST/BALANCED/QUALITY routing, reduced unnecessary multi-pass reasoning, and a Telegram-friendly response-format contract with consistent visual sections. New /offline, /speed and /format controls. Existing v13.21 Device Grid, v13.20 Cockpit, v13.19 Mind Core, Cyber Hands, trading/security rails and credentials are preserved. + v13.21 - NEMO DEVICE GRID + REMOTE HANDS 1.0: enrolled-device control plane with owner-created one-time enrollment tokens, per-device bearer secrets, heartbeat/online state, read-only system telemetry, opt-in location reporting, device revocation, audit trail, and Cockpit/API device inventory. No arbitrary-device discovery, covert tracking, credential dumping, or unauthorized remote access. + v13.20 - NEMO COCKPIT 1.0: adds a modern Telegram Mini App/PWA command-center over the existing secure web server: live system/brain/cyber/VPN/trading/task/media panels, responsive mobile-first glass UI, browser human-checkpoint status and latest screenshot, safe read-only quick actions, refreshable JSON telemetry, and an owner-only /cockpit command. When a secure HTTPS public_url is configured, Nemo automatically installs a Telegram Web App menu button that opens the cockpit inside Telegram; otherwise /cockpit gives the local/public dashboard link and /setdomain guidance. Consequential actions stay Telegram-gated; the cockpit does not bypass trading, lockdown, cyber scope, browser-auth or update confirmations. Existing v13.19 Mind Core, Browser Checkpoint 2.0, Cyber Hands, dependency isolation, secrets and trading rails remain. + v13.19 - MIND CORE 2.0 + BROWSER CHECKPOINT 2.0: adds a final-answer compiler that blocks scratchpad/thinking-aloud leakage, strips malformed provider tokens such as <unk>, detects repetition/non-answers, selectively re-verifies calculation/bill/image answers, and rewrites poor drafts before delivery; adds speech-specific sanitization so garbage tokens never become voice audio. Browser human checkpoints now parse natural replies (e.g. email plus “click next”) into a clean field value + action, use semantic page-state fingerprints instead of raw URL equality to detect stuck loops, and stop Google/YouTube automated-login loops early in favor of the user's authenticated session/cookie route. Passwords, OTP/2FA/recovery codes and private keys are no longer requested through Telegram browser checkpoints. Existing v13.18 Cyber Hands, v13.17 dependency isolation, trading rails, secrets, updater and all prior capabilities remain. + v13.18 - CYBER HANDS 1.0: adds an owner-only defensive security operations layer for THIS VPS and explicitly authorized/allowlisted assets: unified /cyber control center, local security audit + score, listening-port/firewall/SSH/log inspection, secret-exposure scan that never prints secret values, source-code static security checks, dependency CVE audit in an isolated tool environment, optional ClamAV scan, file-integrity baseline, continuous low-noise security monitoring, and conservative allowlisted Nmap inventory (top ports/version-light only; no exploitation/bruteforce/evasion). Autonomous agents gain READ-ONLY local cyberaudit/cyberports/cyberlogs hands. Remote scanning is never autonomous and requires an explicit --authorized scope entry. Consequential remediation remains owner-confirmed. + v13.17 - FOUNDATION HARDENING + HANDS 2.0: adds dependency protection/doctor, isolated tool virtual-environments, process control with confirmation, filesystem search/hash/tree, network diagnostics, system snapshots, and exposes these safe hands to the autonomous agent. Core trading/credentials/browser/media behavior is preserved. + v13.16 - VISION RESPONSE VALIDATION + MULTIMODAL FALLBACK: fixes the case where a screenshot successfully reached the vision model but Nemo returned only provider moderation metadata such as "User Safety: safe / Response Safety: safe" instead of analyzing the image. Vision replies are now validated for substantive visual content; safety-only/moderation-only outputs, refusal-shell metadata, empty multipart content and tiny non-answers are treated as a FAILED vision attempt and Nemo automatically tries the next multimodal route (Nano Omni -> openrouter/free) rather than delivering garbage. Image prompts explicitly request actual visual analysis rather than safety labels. ask_ai now detects and sends the real PNG/JPEG/WEBP/GIF/BMP MIME in its OpenRouter data URI (closing the remaining hard-coded JPEG path missed in v13.15). DEBUG records why a vision model was rejected. Text routing, trading, money, browser, VPN, downloader, persistence and secrets are unchanged. + v13.15 - UNIVERSAL IMAGE ATTACHMENTS: Telegram screenshots/images sent as Files/Documents now route into the same vision pipeline as compressed photos. Detects image/* MIME plus PNG/JPG/JPEG/WEBP/GIF/BMP extensions and magic bytes; preserves captions; supports scan/OCR/QR/bill/notes pending modes; and ask_ai now labels the data URI with the real image MIME instead of always claiming JPEG. No trading, money, VPN, browser, downloader, persistence, secrets, or safety behavior changed. + v13.14 - LIVE MODEL ROUTER HOTFIX: OpenRouter retired nvidia/nemotron-3-nano-30b-a3b:free on 24 Aug 2026, so Nemo no longer calls that dead slug. Text routing now uses Nemotron 3 Ultra free -> Super free -> openrouter/free for smart work, Super free -> openrouter/free for fast work, and vision uses ONLY multimodal-capable Nano Omni free -> openrouter/free (no text-only Super fallback on images). ask_ai now safely parses OpenRouter error/unexpected response bodies instead of crashing with KeyError choices, temporarily cools down unavailable/rate-limited models, de-duplicates routes, and keeps the dynamic free router as a resilience fallback. /brain reports the live route and cooldowns. No trading, secrets, browser, media, persistence or safety rails changed. + v13.12 - HONEST UPDATE LABELS (fixing two COSMETIC bugs in my own update-preview that made a perfectly good deploy look scary): when the Boss deployed v13.11, the /update preview said 'this file is v17.0' and 'CHANGES 1 (TOKEN)' - BOTH false alarms from my own code; the file was correct and booted clean as v13.11. Causes + fixes: (1) my version-reader grabbed the FIRST version-assignment string anywhere in the file, and my changelog PROSE happens to mention the 17.0 pattern when describing a ChatGPT file - so it read its own description instead of the real constant. Now it reads only a REAL top-level VERSION assignment (start of line). (2) my credential-change check matched ANY variable whose name merely contained 'TOKEN'/'KEY' - including the harmless 'TOKEN = os.environ.get(BOT_TOKEN)' line inside the downloader-bot template - so it falsely warned of a credential change. Now it checks only the actual named secrets (TELEGRAM_TOKEN, OPENROUTER_KEY, NVIDIA_KEY, ...). Future update previews now show the true version and warn only on a REAL key change. Your keys were never touched - the proof was the bot booting clean and healthy. Additive; all existing suites pass plus a new v13.12 test. + v13.11 - CLAIM LEDGER + LIVE INTEGRITY (from the ChatGPT v24 'five upgrade' file - notable because it was finally built on OUR v13.9 base with the Security Core intact, but its five new layers all crash on first use on the same missing 'uuid' import as v15/v18/v19, and its flagship 'v20 Task Orchestrator' is FAKE: the execute function performs nothing - it stamps every step done with a canned message pointing to a /nemorun24 command that does not exist anywhere in the file. Its other layers duplicate what we already run: structured memory = the v11 knowledge graph + /recall, brain router = ask_ai's existing routing, project manager = /plan + /taskgraph + PROJECTS, observability = /nemo + self_test). The TWO ideas worth keeping, built working: (1) CLAIM LEDGER - /claims [search words] is a persistent, dated audit trail of everything Nemo has fact-checked and researched: every /verify records verified-or-corrected (with the checker's notes) and every /nemoresearch records a research entry, capped at 400, surviving restarts, searchable, also in plain language ('what have you verified', 'claim history'). So 'what has my bot told me, and was it checked?' finally has an answer. (2) LIVE INTEGRITY - /security now also compile-checks the RUNNING source and shows its sha256 fingerprint, so tampering or corruption of the deployed file is visible on demand. Additive; all suites pass plus new v13.11 tests. + v13.10 - DOWNLOADER IN THE BOT FACTORY (Nemo creates the whole bot himself - no file to send): the Boss asked why Nemo can't just CREATE a downloader bot when given a token. He always could create bots (/newbot factory + /env for secrets) - his library just had no downloader type. Now it does: a verified 'ytdl' template (the corrected version of the ChatGPT blueprint, which as written would not run - missing asyncio import, wrong download() return handling, an undefined variable, a zip step that ignored Telegram's ~50MB cap). Create it entirely in chat: /newbot ytdl mydl (or just say 'make me a downloader bot') -> tap Ship -> /env mydl BOT_TOKEN=<fresh @BotFather token> OWNER_ID=<your id> -> the bot is LIVE. The generated bot: downloads a YouTube video or whole playlist (mp4, or mp3 with 'audio'), sends every file under Telegram's cap straight to chat, keeps bigger ones on the server with the path reported, caps items per playlist (MAX_VIDEOS), safe ASCII filenames, owner-locked via OWNER_ID, token ONLY from its locked env - never in code. Same supervised ship rails as every factory bot (compile-check, auto pip-install of requests+yt-dlp, tap-to-start, /app <name> logs|restart|stop|rm). Additive; all suites pass plus new v13.10 tests. + v13.9 - QUANT LENSES (the genuinely-new, working parts of the ChatGPT v19 quant file, rebuilt on our base - READ-ONLY, never places an order): the v19 code was real quant work but sat on the old base and crashed its event log on the same missing 'uuid' import; I kept the good math, dropped the crash and the bits we already have (its plain signal/option dumps duplicate /godmode and /optionchain). Three lenses we DIDN'T have, now added: (1) /regime <symbol> - classifies the market regime (TREND_UP/DOWN, EXPANSION, RANGE, LOW_VOL_RANGE, TRANSITION) from ADX + EMAs + ATR-ratio + slope, with a confidence. (2) /walkforward <symbol> - proper OUT-OF-SAMPLE validation: it picks the best EMA pair on a training window then scores it on the next, unseen window, and reports the average out-of-sample hit-rate (a robustness check, not a guarantee). (3) /quantbacktest <symbol> - an EMA-crossover backtest with profit factor + max-drawdown AND a Monte-Carlo stress test (bootstrapped terminal + drawdown percentiles). Plus /quant <symbol> - a consolidated regime + multi-factor signal + transparent setup-quality grade (explicitly 'NOT win probability'). All owner-only, read-only, honestly labelled; they use Nemo's real market data (get_history) and place no orders. Additive; all existing suites pass plus new v13.9 tests. + v13.8 - MEMORY 3.0 (granular forget) + NO INVENTED COMMANDS: (1) MEMORY - on inspection Nemo's memory was already strong (semantic /recall, durable /remember, the /memory 'second brain', /aboutme and the knowledge graph, all persisted and fed into his answers), so the genuinely missing piece was CONTROL: /forget <thing> now removes the SPECIFIC memories that match - from both the durable facts and the semantic vector store - and tells you exactly what it dropped, instead of the all-or-nothing /forgetme. /remember also dedups and keeps more durable facts (20 -> 60). (2) NO INVENTED COMMANDS - when you sent a command Nemo didn't recognise, his brain used to make up plausible-but-fake command names (exactly what happened with /nemo before it was deployed). Now an unrecognised /command gets a deterministic, HONEST reply listing only REAL commands and never reaches the brain. Additive; all existing suites pass plus new v13.8 tests. + v13.7 - TRADE STATE SURVIVES RESTART (closing the money-safety gap I flagged in v13.2 and deferred): the autonomous trader kept its open position only in memory, so a restart or update mid-trade FORGOT it - and for a plain (non-bracket) position that meant its stop-loss and target were no longer being managed, leaving real money exposed. Now the trader's live state (open position, today's trade count, running P&L, the day, and the daily-loss halt flag) is PERSISTED to memory and RESTORED on boot, so after any restart Nemo picks the position straight back up and keeps managing its stop / target / square-off. On boot, if a position is open, Nemo messages you that it resumed managing it. This pairs with v13.6 self-healing updates: a restart mid-trade no longer abandons your money. (Bracket positions were already protected on-exchange; this closes the gap for plain positions.) Owner-only, additive; all existing suites pass plus new v13.7 tests. + v13.6 - SELF-HEALING UPDATES (took the one real new idea from the ChatGPT v17 file - auto-recovery from a bad update - and built it safely; skipped the rest, which forced its VERSION to 17.0 and added a downgrade-block that would have LOCKED you out of updating to our clean files, and re-did the workflows our v13.4 already has): every /update is now TRANSACTIONAL. When you Apply an update, Nemo records a journal (a hash of the new build, plus a hash + path of the verified backup). On restart it checks that journal FIRST: a healthy boot (Telegram auth succeeds) is confirmed and stands recovery down - but if the new build keeps failing to reach a healthy boot (3 tries within 30 minutes) Nemo automatically RESTORES the previous version (only if that backup still compiles and its hash matches the recorded original) and restarts. So if you ever deploy a build that won't start, it heals itself back to the last working version without you touching the server. /updatecheck now also shows whether the last update auto-rolled-back or booted cleanly. HONEST LIMITS: this catches builds that start but then crash/exit during startup; a crash BEFORE main() even runs (e.g. an import-time error) can't be caught from inside the process - though compile-check already blocks the syntax errors behind most of those. Conservative by design (3 failures, 30-min window, hash+compile-verified backup) so a healthy long-running bot is never rolled back. The normal apply/backup/rollback path and everything else are unchanged; all existing suites pass plus new v13.6 tests. + v13.5 - SAFER UPDATES (took the one good idea from the ChatGPT v16 'updatefix' file - credential-preservation on update - and built it safely on our base; skipped the rest, which sat on the old v12.06 base, carried the broken v15 layer, and hard-overrode VERSION to '16.0' while requiring its own marker that would have BLOCKED updating to our clean files): (1) /updatecheck - preflight a new nemotron_bot.py you've attached WITHOUT applying it: shows its version, size, whether it looks like Nemo, the compile-check result, and - the key part - whether it would CHANGE or DROP any of your credential/config lines (compared by a HASH of each key line; values are NEVER shown). (2) /update now shows that same credential warning right in the Apply prompt, so you can't accidentally deploy a file that wipes your API keys without being told. It WARNS, it does not block - because a legitimate update (like moving keys into the secrets file) also changes those lines and you stay in control. (3) /version shows the running version cleanly. The critical apply/backup/rollback path is unchanged. Owner-only, additive; all existing suites pass plus new v13.5 tests. + v13.4 - ORCHESTRATION (added the genuinely-new capability from the ChatGPT v15 file, built CORRECTLY on our safe v13 base - the v15 code itself was BROKEN: I ran it and it crashed with 'uuid is not defined', plus a _n15_STATE typo and a call to a function that never existed, so its workflow / research / decision commands all failed at runtime). What's new and WORKING here: (1) /nemoworkflow <numbered plan> - runs a multi-step plan ONE checkpointed step at a time, feeding each step's result into the next and saving progress after every step, so it survives a restart; /nemoworkflows lists them and /nemoresume <id> continues from where one stopped. (2) /nemoresearch <question> - a research pass that separates FACTS / INFERENCES / UNKNOWN and refuses to fabricate sources. The REST of v15's command surface is wired to Nemo's EXISTING, more mature systems instead of broken parallel copies: /nemodecision -> the real decision journal (with expected-vs-actual tracking), /nemoevents -> the activity log, /nemoagents -> AGENTSTAT, /nemoarchitecture -> /abilities, /nemo3 -> the /nemo control center. Nothing duplicated, nothing dragged back onto the old insecure base. Owner-only, purely additive; all existing suites pass plus new v13.4 tests. + v13.3 - CONTROL CENTER + FACT-CHECK (folded in the two genuinely-good ideas from the ChatGPT v14 file, onto this safer v13 base - without its duplication or its security rollback): (1) /nemo CONTROL CENTER - one screen showing version, uptime, brains, security posture (are any keys still in source?), money-confirm + lockdown + auto-trade state, work-queue depth and recent activity - built on Nemo's REAL subsystems (secrets_status, MONEYCFG, mm_locked, JOBS/WORK, ACTLOG), not a parallel copy. (2) /verify - or 'double-check that' / 'any hallucinations?' - an explicit fact-check pass: it reviews an answer (the text you give, or my LAST answer) for hallucinations, unsupported claims, wrong numbers/names/dates, missing caveats and contradictions, and if it finds problems it rewrites the answer WITHOUT inventing new facts. Both work by command AND in plain language, owner-only, purely additive. Deliberately NOT copied from the ChatGPT file: its duplicate job-runner (Nemo already has the /work engine), its status-dump 'quant report', and - the important part - that file was built on the OLD v12.06 base, so it still carried the exposed API keys, the deadlock-prone lock, money-confirm OFF, and the lockdown/phantom-exit gaps that v13.0-13.2 fixed here. Behaviour-frozen elsewhere; all existing suites pass plus new v13.3 tests. + v13.2 - TRADING SAFETY (Phase 2 - I traced the real-money route end-to-end, then closed the gaps I found; nothing removed): GOOD NEWS first - the LLM is NOT the final authority on your money. The AI only PROPOSES a direction + a confidence score; ALL risk parameters (which instruments are allowed, position size, stop-loss, target, max-trades/day, daily-loss auto-halt, trading-hours window, buy-only, and shadow-vs-live) are enforced in deterministic code around it, and live autonomous trading is OFF by default. THREE real gaps found + fixed: (1) LOCKDOWN DIDN'T STOP EVERYTHING - the master /lockdown kill-switch blocked manual bracket/cover orders but NOT the autonomous trader and NOT a plain /order. Now lockdown blocks ALL new live entries (manual /order + the auto-agent); open positions still auto-manage and exit, so nothing is stranded. (2) PHANTOM EXIT - the auto-agent's exit SELL ignored its result: if a live exit failed, the bot booked the position as CLOSED while it was still open on the exchange, leaving real money unmanaged. Now a failed live exit keeps the position, alerts you, and retries each tick. (3) plain /order now respects /lockdown like the other order types do. HONESTLY REPORTED, not yet fixed (flagged for a later phase): the auto-agent's OPEN-position state isn't persisted, so a restart mid-trade forgets a plain position (bracket positions stay exchange-protected regardless). Behaviour-frozen for everything else; all existing suites pass plus new Phase-2 tests. + v13.1 - SAFETY CORE (Phase 1 of the audited v13 rebuild - two runtime-safety hardenings, nothing removed): (1) DEADLOCK-PROOF LOCK - Nemo's single global lock is used in 40+ places and locked functions call other locked functions; a plain threading.Lock is NOT re-entrant, so one locked path calling another would freeze him hard. Switched to threading.RLock (re-entrant): identical behaviour for normal use, but the same thread can safely re-acquire, so that entire class of hang is gone. (2) REAL MONEY DEFAULTS TO CONFIRM - manual live orders (/order, /bracket, /cover) now default to a one-tap confirm before they fire, and the setting is finally PERSISTED (before, turning it on was silently forgotten on the next restart - a genuine safety hole). The autonomous trader is unaffected - it keeps its own separate risk gates. Turn the tap off with /confirmtrades off, and now that choice sticks across restarts. CORRECTION to my own Phase-0 audit: the 'six main() functions' I flagged as dead code were a FALSE ALARM - five of them are bot-factory TEMPLATE strings (the source code of the mini-bots Nemo generates), not real definitions; I verified by reading before touching, so nothing was wrongly deleted. Behaviour-frozen elsewhere; all existing test suites still pass. + v13.0 - SECURITY CORE (Phase 0 of the audited v13 rebuild - security FIRST, nothing removed): the bot's API keys (Telegram, OpenRouter, NVIDIA, Gemini) were hard-coded in this source file. Now EVERY secret resolves from an environment variable first, then /root/bot_secrets.json, then the baked-in value only as a last resort - so secrets can live OUTSIDE the code. On boot Nemo AUTO-MIGRATES any still-baked key into the 600-permission secrets file, so the next version can delete those lines from the source and he still starts. New: /security (owner-only) reports exactly which keys are still in the source vs externalised, where each secret loads from, and the money-guard + owner-lock state (never showing any secret value); the weekly self-test gains a 'No API keys exposed in source' check that stays red until they're moved out; save_secret now chmods the secrets file to 600. IMPORTANT ACTION FOR YOU: because these keys sat in the code, treat them as LEAKED - generate new ones and put them in /root/bot_secrets.json (keys: telegram_token, openrouter_key, nvidia_key, gemini_key); v13.1 then removes them from source entirely. Behaviour-frozen: with no env var and no secrets-file entry every secret is exactly what it was, and all existing test suites pass unchanged. One safe phase at a time. + v12.06 - SELF-TEST TELLS THE TRUTH: the weekly report card was FALSE-FAILING on email. It tested email by logging into Gmail's SMTP (465) and IMAP (993) ports directly - but DigitalOcean BLOCKS those ports, so both always showed a red X even though email works perfectly over the Gmail API (HTTPS). Fixed: the drill now checks the REAL path - Gmail API reachable (profile + labels over HTTPS) first, SMTP/IMAP only as a fallback when there's no Google connection - and it runs whenever Google is connected OR an app password is set. So those two systems will now report green (as they should), and the report card reflects reality instead of scaring you with a port block. + v12.05 - RELIABILITY SWEEP (the same rigor, across his OTHER outputs): the invisible-char fix was for Pine; this applies the same 'make the outcome reliable' thinking to code and file outputs. (1) CODE OUTPUTS - /script now guards against the brain 'thinking out loud' (no more 'Let's craft:' / '... code ...' placeholder garbage), SYNTAX-CHECKS delivered Python (ast.parse, with one self-correction) so a .py actually parses, and tells you to use the attached FILE not the chat text (same copy-paste-corruption fix as Pine). (2) TEXT/CSV/MD files get the same scratchpad guard, so they contain the finished content, never the brain's notes. (3) Shared helpers (_looks_scratchpad, _clean_code) so every generator refuses to ship junk and retries. The theme: fewer 'bad results' by hardening the output paths, not adding more features. + v12.04 - THE REAL PINE BUG (invisible characters): the recurring 'Syntax error at input <name>' on code that looks perfect was NOT bad code - it was smart quotes and non-breaking spaces that sneak in when Pine is copied out of a chat message / PDF / phone into TradingView. TradingView can't parse them and throws that exact baffling error, the same on every version. Fixes: (1) _pine_sanitize forces every generated script to PURE ASCII (smart quotes -> straight, non-breaking/other unicode spaces -> normal, en/em dashes -> -, zero-width chars removed); (2) the linter now flags any non-ASCII character; (3) delivery now tells you to use the attached .pine FILE (not copy from the chat bubble), because the file is clean ASCII and the chat text can silently re-corrupt. This is the root cause behind the errors that kept coming back. + v12.03 - COMPLEX PINE: added a genuinely advanced, verified strategy to his library - 'Confluence Regime Rider' (EMA regime + ADX trend-strength + RSI momentum + higher-timeframe confirm + ATR target + ATR trailing stop + a live on-chart stats table), Pine v6 and lint-clean. It backtests automatically in TradingView's Strategy Tester (it is a strategy()), and its exact logic was verified in a Python backtest. So 'a unique pine with buy/sell/target/stop-loss that backtests' is now real, at real complexity, and part of his rotation. + v12.02 - PINE v6 + STAY-CURRENT (he moves with the times, on his own): (1) PINE v6 - TradingView's current version. His whole Pine engine now targets v6 by default: the generator prompt, the deep knowledge base and the 5 verified templates are v6 (correct bool strictness, no 'when=' on strategy.* , '1D'/'1W'/'1M' timeframes, no 'transp='), and the linter gained v6 checks (flags a leftover when=/transp=/'D' timeframe). v5 still compiles and is still accepted; /pinever 5|6 sets the target. (2) STAY-CURRENT WATCH - a weekly self-check (currency_watch) where he RESEARCHES what's changed in his fields (Pine version, SEBI rules, AI tooling), AUTO-applies safe settings himself (e.g. bumps his Pine target the moment a newer version ships), learns the rest into memory, and routes anything code-level to the supervised /selfgrow rail for your one-tap approval - so he keeps himself up to date automatically without ever rewriting himself unsupervised. /current runs it now, /current on|off, /pinever sets the version. This is the honest form of 'update automatically in all fields': safe things on his own, risky code changes proposed for approval. + v12.01 - CONTINUUM FIX (the flood + the garbage code file): the v12.0 work engine ran, but two bugs showed up. (1) DUPLICATE FLOOD - the agent re-called fire-and-forget tools (pdf/docx/chart/web) over and over, because make_pdf returns 'building...' immediately, so the agent never saw a finished file and kept re-making it (7+ identical PDFs per job, the same web search 5x). FIXED: the agent now makes each deliverable EXACTLY ONCE and skips any identical tool+arg repeat, and bails to the report if it gets stuck re-proposing the same step. (2) GARBAGE CODE FILE - '5 best Nifty option strategies' was mis-detected as a CODING request (the word 'strategies'), so it emitted a nonsense nemo_code_out.txt full of the brain's scratchpad instead of a clean report. FIXED: a strict code detector - a trading strategy/option/report/'best'/'top N' request is a REPORT, never code; only real programming asks (python/code/function/sql/pine...) make a code file. So a research job now produces ONE clean PDF, no junk. + v12.0 - CONTINUUM (the real deep upgrade: he KEEPS WORKING, and understands deeper): the honest gap all along was that Nemo ANSWERS, then stops - he never keeps grinding a task on his own. v12.0 fixes that at the core. (1) CONTINUOUS WORK ENGINE - /work <task> (or 'keep working on X', 'add to your work list') queues a job; a background worker wired into his scheduler picks up the next pending job, runs it to completion through his plan->act->verify agent, reports the result, then moves to the NEXT job - one after another, on its own, and the queue is PERSISTED so it survives restarts. Pile up ten jobs and he'll grind through them while you sleep. /jobs shows the queue and status, /stopwork pauses. (2) DEEPER UNDERSTANDING - the THINK loop's comprehension/clarify step now runs on the PREMIUM brain (not the fast free one), so he judges what you actually mean far better before acting; the agent's self-check already verifies on the premium brain. (3) FULL PICTURE - /abilities (or 'what can you do') lays out his entire capability set in one organized map, and everything is reachable in plain language. This is not a risky rewrite - the proven 34-test-suite core is intact; CONTINUUM is the capstone layer that turns a bot that replies into one that works. + v11.31 - PINE MASTER (deep, advanced, CREATIVE - not the same EMA crossover every time): the last fix made Pine error-free but repetitive - every request came back as an EMA crossover, because the one verified template WAS an EMA crossover and it anchored the brain. Now: (1) a DEEP Pine v5 knowledge base rides in the prompt (full ta.*/math.* catalog, request.security multi-timeframe, sessions/time for NIFTY intraday, strategy risk/trailing exits, drawing objects - tables/labels/lines/boxes, plot styles, dynamic alerts, anti-repaint and confluence best-practice) so the code is genuinely advanced; (2) a LIBRARY of FIVE hand-verified, lint-clean advanced strategies (EMA crossover, Supertrend trail, Opening-Range-Breakout for NIFTY, VWAP mean-reversion, RSI + higher-timeframe filter) plus a menu of 14 archetypes (Bollinger squeeze, MACD regime, Donchian, Ichimoku, multi-factor confluence...); (3) ROTATION - a generic 'make me a pine script' now round-robins through the archetypes so no two come out the same, while a NAMED method (supertrend/vwap/orb/rsi/macd...) is honoured; (4) the brain is pushed to be creative, combine 2-3 confluence factors and add a pro touch (stats table / trailing stop / dynamic alerts), and mirror a MATCHING verified reference's syntax - not the EMA one. Still linted + auto-repaired, with the matching verified template as the guaranteed-clean fallback. Storage is no constraint - the knowledge and template library are baked in. + v11.30 - DARK SIDE (edge + ruthless-but-LEGAL power, on the Boss's side): four things. (1) DARK MODE - /dark on (or 'go dark' / 'be brutal') flips his TONE to blunt, sharp and a little savage, built to put you ahead - no hand-holding, no hedging - while he still NEVER lies, fabricates, helps anything harmful/illegal, or targets people. /dark off restores the normal voice. Persisted. (2) RED TEAM - /redteam <plan/idea/trade/text> (or 'attack this', 'find every weakness') attacks it like your smartest enemy and exposes every hole, ending with BIGGEST RISK + FIX FIRST. (3) COMPETITIVE INTEL - /intel <competitor> (or 'dig up on X') builds a hardball brief from PUBLIC sources: what they offer, their weaknesses/complaints, and where to hit them to win. (4) NEGOTIATION + SCAM DEFENSE - /negotiate <situation> gives a hardball (ethical) play with leverage, BATNA, anchors, tactics and exact phrases; /scamcheck <message> flags manipulation tactics + a scam risk rating when someone runs dark tactics on YOU. Deliberately NOT built, and I told the Boss why: malware, hacking others, defeating security/CAPTCHA, fraud/fake docs, surveilling people, spam/fake-account armies, market manipulation, or removing his safety rails - all of it would make HIM the traceable, liable party on his own server, and the 'who sells that' path is scams and stings. This is the dark arts used ethically, for his side. + v11.29 - ERROR-FREE PINE SCRIPT (the real reason it kept failing): unlike Python, Pine can't be compiled on the server, so a small free brain's syntax errors sailed straight through. Now Pine gets a proper pipeline: (1) it's written by the PREMIUM brain (free nano brains are poor at niche languages) using a strict Pine-v5 system prompt; (2) a rule-based LINTER (pine_lint) checks the errors that actually break TradingView - missing //@version=5, more than one declaration, study() vs indicator(), the 'strategy function used in indicator' error, bare sma()/rsi()/atr()/input()/security() that must be ta.*/math.*/request.security()/input.*, unbalanced brackets, and plot/alert stuck inside an if-block; (3) a REPAIR LOOP feeds those errors back and fixes them, up to 3 passes; (4) if it still isn't clean, it falls back to a HAND-VERIFIED template that compiles zero-error (EMA crossover + volume filter + ATR take-profit + % stop-loss, buy/sell markers, alerts). Every 'pine script / tradingview' request (and /pine) now routes here, delivers a .pine file with an honest 'passed my checks' status, and can email it. So a pine-script ask returns code that actually compiles - not a broken brain dump. + v11.28 - CREATE+EMAIL ACTUALLY HAPPENS (the 'it talks about emailing instead of doing it' fix): the root cause was that 'generate a pine script and email it to X' matched NO deterministic route, so it fell to the chat brain - which tried to call a tool by PRINTING <function=...> as text; that leak wasn't recognised, so you got the generic 'tell me the exact thing you want' (and elsewhere, 'here's how to email it / I can send if you want' - talking, not doing). Two fixes: (1) a deterministic CREATE+EMAIL route - 'generate/make/write/build <X> ... and email/mail (it) to <address or my mail>' now ALWAYS builds the thing AND sends it (Word if you said 'word/document', else a PDF - which now contains real code for a pine-script/strategy request, plus the raw .pine file), never touching the chat brain. (2) the tool-leak guard now also HONOURS a leaked email/docx/xlsx/chart/script/code call by actually running it, instead of showing the fallback. Net effect: when you say 'do X and email it', X gets made and the email gets sent - consistently, regardless of which brain is on duty, because the ACTION is deterministic code now, not a brain's guess. + v11.27 - THINK (my way of working, in him): the operating loop that makes an assistant actually effective, not just full of features. /do <task> (or /handle, or 'handle this properly / thoroughly / the way you would') runs Nemo through the same method I use on every real job: UNDERSTAND (restate it, and resolve 'it/that/the file' from the recent chat so a follow-up like 'give me the pdf here' isn't misread) -> CLARIFY (only if ONE essential detail is genuinely missing, ask a single question and resume when you reply - never nitpick) -> GATHER (pull what he already knows: durable memory + your indexed files + a quick web look-up, the way I read before I edit) -> PLAN -> EXECUTE -> VERIFY (his agent self-checks against the goal before finishing) -> honest report. It reuses his autonomous agent for the execute+verify core; the new part is understanding and grounding the task BEFORE acting. A new 'handle' intent + a pending-question resume make it feel like a real back-and-forth. Honest limit: this gives him my METHOD, which makes even a smaller brain far more effective - but his raw reasoning ceiling is still his model's, so it's my way of working in mini form, not a clone. Purely additive; every existing command and the fast one-shot paths are untouched; rails intact. + v11.26 - EMAIL, FOR REAL (fixes the '/email test still fails though Google is connected' trap): the root cause was that Google was linked BEFORE the gmail.send permission existed, so the token can read Gmail but can't SEND - and two things hid this: (a) /email test only pinged the Gmail profile / fell back to the SMTP error (which ALWAYS fails on DigitalOcean), so it never proved SEND and blamed the wrong thing; and (b) /google, once connected, was a DEAD END - it only offered 'relink with client_id/secret' and never a way to re-approve the new permissions. Fixes: (1) /email test now does a REAL test send to your own address via the Gmail API and reports the TRUTH - '✅ works, check your inbox', or, if the token lacks send permission, '⚠️ connected but without Gmail SEND permission - re-authorize in one tap', never again the misleading SMTP 'check your password'. (2) /google, when already linked, now hands you a one-tap RE-AUTHORIZE link built from your ALREADY-SAVED Client ID (open -> Allow -> /gauth <code>) - no need to re-enter anything - so you can grant Gmail send in ~20 seconds. So the fix for you: send this update, then run /google, tap the link, Allow, and /gauth <code>. Email then works over HTTPS (port 443), unaffected by the SMTP block. Purely additive; rails intact. + v11.25 - FIX (the three real problems: email, understanding, and the final result): (1) EMAIL that actually sends - a PDF you ask to be emailed now goes out over the Gmail API (HTTPS/443, which works even though DigitalOcean blocks SMTP), is ATTEMPTED whether or not an SMTP app-password is set, and on failure tells you the REAL reason + 'run /google once to re-grant send permission' instead of the misleading 'check the app password'. (The most likely cause of your failure: your Google sign-in predates the gmail.send scope - one /google re-consent fixes it.) (2) UNDERSTANDING what you asked - the PDF topic is now cleaned properly: 'GENERATE A POWERFUL PINE SCRIPT NEW IN PDF AND EMAIL X' no longer becomes a document titled 'A Powerful Pine Script New In And' (the 'in pdf / and email X / address' tail is stripped cleanly), and 'give me the pdf file here' is understood as a FOLLOW-UP - I resend the last file, or turn my last answer into a PDF - instead of writing a bogus report titled 'Me The File Here'. (3) The FINAL RESULT matches the request - make_pdf no longer forces every PDF into a beginner 'course'. A code/script/strategy/indicator request (e.g. a Pine script) now produces the ACTUAL working code (TradingView Pine v5 for pine) with Overview / CODE / HOW IT WORKS / HOW TO USE, AND the raw .pine (or .txt) file is delivered too; a report request gets a real structured report; only a learn/teach/course request gets a course. Purely additive; rails intact. + v11.24 - MAKER (mini-me abilities: he plans, codes, charts, and hands you real files): the things you said he couldn't do like I can - now his, in mini form. (1) REAL DOCUMENTS - he builds and delivers actual files, not just chat text: a Word .docx ('make me a word doc about X', /doc), an Excel .xlsx spreadsheet with real headers + numeric cells ('put my expenses in a spreadsheet', /excel), and plain .txt / .md / .csv files (/txt). (Illustrated PDFs and PPT decks were already there.) (2) VISUALIZATIONS - /chart (or 'make a bar/line/pie chart of ...') turns data or a described dataset into a real matplotlib chart image and sends it. (3) CODE AS A FILE - /script (or 'write me a python script file') writes a program in the right language and delivers it as a downloadable code file (say 'run it' to execute); the existing /code still WRITES-AND-RUNS and returns the result. (4) VISIBLE PLANNING - /plan (or 'make a plan for ...' / 'break this down') turns a goal into a clear numbered step plan and shows it, then 'do it' hands it to his plan->act->verify agent. All reachable in plain language (fast-paths + the AI intent-router) AND given to the autonomous agent as new tools (docx/xlsx/chart/textfile), so mid-task he can produce a sheet or chart himself. Purely additive; rails intact. + v11.23 - CURIOSITY (he fills the gaps himself + learns from the world): you gave him the internet; now he USES it on his own. When a question needs current or factual knowledge he may not hold (latest/price/news/'who is <name>'/'when is <event>'/a named thing), he quietly looks it up on the web FIRST, grounds his answer in what he found, and then DISTILS 1-2 durable facts into his permanent memory - so next time he already knows it (compounding knowledge, surfaced automatically by mem_recall). No 'please search' needed; he just does it. His autonomous agent gets the same instinct: a RESOURCEFULNESS rule so it researches a missing detail itself (web/fetch/recall) instead of stalling to ask you. And a curiosity 'soul' line in his persona: naturally curious, resourceful, never fabricates. Controls: /curiosity on|off (default ON, persisted), /learned [word] shows exactly what he's taught himself and when. Conservative by design - it does NOT web-search greetings, code, math or timeless 'explain X' questions (no needless latency), and it's a silent no-op if the web is unreachable. Purely additive; rails intact (still never fabricates, owner-only, money/destructive/self-mod still need a tap). + v11.22 - ANY-SITE VIDEO + YOUR PROXY: (1) UNIVERSAL VIDEO DOWNLOAD - /video <url> (aliases /vdl /dlvideo) or just 'download the reel/clip/video from <url>' pulls a video (or 'audio'/'mp3' for just the sound) from ANY of the ~1800 sites yt-dlp supports - Instagram, X/Twitter, TikTok, Facebook, Reddit, Vimeo, Dailymotion, Twitch, news video, most embeds - and sends it over Telegram if it fits (50MB) else saves it on the server (+ your Drive). For sites where you must be logged in, it uses YOUR OWN cookies (export cookies.txt, send /browsercookies) - it uses your session, it does not defeat the login. DRM-locked paid streaming (Netflix, Prime, Hotstar, Disney+, Spotify...) is refused honestly: those streams are encrypted and can't be pulled. YouTube keeps its richer path (summary/notes/playlist). (2) YOUR OWN PROXY / VPN - /proxy set http://user:pass@host:port (or socks5://host:port), /proxy off, /proxy to show. A proxy YOU provide (your subscription or your own box) is then applied to video downloads and web fetches, so he can reach content the server's bare datacenter IP is geo-blocked from, or route privately. This is legitimate access through YOUR endpoint - deliberately NOT a rotating proxy-pool to evade IP bans. Two things you asked for that I did NOT build, and why: a system that DEFEATS a site's bot-check / CAPTCHA / human-verification (that's built to circumvent a security control and is the engine of scraping-abuse, fake-account and credential-stuffing fraud - so it's off the table); and a self-standing 'access everything' ban-evasion VPN/rotator (same reason). The honest path is already here: when the browser agent meets a login/OTP/CAPTCHA it screenshots it and asks YOU to solve it, then continues on your authority (v10.4 human-in-the-loop) - a human does the human-verification. Purely additive; all rails intact. + v11.21 - TALK (no commands, just tell him): you never NEED a slash command again - say what you want in plain words (any language) and he does it. His ~300 abilities are all still there, but plain language is now the front door to ALL of them, not just some. The regex fast-paths already caught the common phrasings ('run df -h', 'read /root/x.py'); v11.21 adds the missing abilities to his AI intent-router so the phrasings the regex MISSES still reach the REAL hand instead of a generic chat reply: new understood intents terminal (run any server command), fetch (read a page's data), download (save a file onto the box), readfile / listfiles (his own files), knowledge (search your indexed documents), api (call any REST endpoint), apex (maximum-power multi-step job), and a catch-all act (ANY imperative 'do this for me' order -> his autonomous plan->act->verify agent). So 'jara dekh to server ka disk kitna bhara hai', 'pull the numbers off that page for me', 'sort out my server and mail me a summary' now DO the thing. Nothing removed, every command still works; the same rails hold inside each (owner-only, audited, money/destructive/self-mod still need a tap). Purely additive. + v11.20 - REACH (longer hands): three big new capabilities that extend what he can touch. (1) UNIVERSAL CONNECTOR - /api <METHOD> <URL> [:: json] calls ANY REST API (GET/POST/PUT/DELETE), and /api save <name> ... stores a named endpoint + auth header so 'call my <name> api' works; the autonomous agent also gets an 'api' tool, so he can reach any external service you have a key for (CRMs, sheets, webhooks, IoT, other bots...). (2) SCHEDULED ACTIONS - /every <interval> <action> and /at HH:MM <action> run ANY of his abilities on a repeat or at a set time ('/every 1h run df -h', '/at 09:15 send me the premarket brief', '/every 1d market brief') - real actions, not just reminders - so his hands work while you sleep; /schedules lists them, /unschedule <id> cancels. Persisted in the kv store (survives updates), fired from the scheduler. (3) DOWNLOAD TO SERVER - /get <url> [name] (or 'download <url> to the server') pulls any web resource onto the box (60MB cap) so he can then /read, /index or send it. All owner-only, audited to the tamper-evident chain, and destructive/system paths still refused. Purely additive. + v11.19 - APEX / GODMODE (the capstone): maximum capability + UNBREAKABLE reliability, within the rails that keep him alive. (1) UNBREAKABLE: ask_ai now has a hard answer-deadline (~40-85s) so when every free brain is jammed it STOPS cycling and replies clearly ('my brains are all busy - try again in a minute, nothing is broken') instead of leaving you on 'Thinking...' for minutes - the exact freeze that just happened can't recur. (2) ONE MIND: the autonomous agent gains a 'recall' tool that searches your knowledge base (indexed files) + durable memory, so his execution draws on everything he knows about you. (3) APEX MODE: /apex <goal> - or just say 'full power', 'use everything', 'unleash', 'go all out', 'maximum power' - runs his MAXIMUM agent: more steps (18), the directive to use EVERY tool (shell, fetch, files, code, web, recall, quote, godmode, pdf...), be exhaustive, cross-check, and VERIFY before finishing. Honest limits kept by design: max ABILITY, but money / destructive shell / system writes / self-modification still need one tap or are refused - that is what stops him bricking himself or leaking your Dhan/Google/root keys. Power that survives. + v11.18 - TOOL-CALL LEAK FIX (the '<tool_call><function=pdf>...' bug): when you asked for a PDF report to your mail, a brain PRINTED the raw function-call markup as a chat message instead of building anything. Fixed two ways: (1) a deterministic route so 'give/make/send me a (complete) report/PDF of X [to my mail]' now ALWAYS builds the PDF via make_pdf and emails it to you - it never reaches the general brain; and (2) a universal guard (_tool_leak / _strip_tags) that catches any leaked <tool_call>/<function=..>/<parameter=..> markup on EVERY channel (chat, web, PWA) - if it recognises the intended ability (pdf/image/slides/web) it actually RUNS it, otherwise it strips the markup so internal syntax is never shown to you again. + v11.17 - DEPTH: reasoning + a knowledge brain + self-running + a visible command center. (1) SMARTER: hard questions (why/how/compare/analyse/plan/decide, long or multi-part) now trigger a private step-by-step REASONING pass before he answers, then the regulator self-checks it - so answers are deeper, not just faster; and a plain 'that's wrong / you missed it' now stores a lasting LESSON (fed into future answers) and redoes it in MAX mode, no /bad needed. (2) KNOWLEDGE BRAIN over your files: /index <path> full-text-indexes your files+PDFs (SQLite FTS5), then /know <question> - or 'search my files for X' - answers across everything with citations. (3) SELF-RUNNING watchdog: every ~10 min he checks each deployed app's service and AUTO-RESTARTS any that CRASHED (failed units only, rate-limited, audited + notified). (4) VISIBLE POWER: a real /dashboard command-center on his web server - live system + server health, apps, activity, what's coming up, and a command box - so the power is something you SEE and drive, not 290 commands to remember. Purely additive. + v11.16 - SMARTER + SAFER HANDS: (1) SECURED TERMINAL - every /shell command and file write is now logged to the v11 tamper-evident audit chain + activity ledger, there's a 25-cmd/min rate guard, and /shell readonly on blocks any command that changes something (reads still work). (2) AGENT GETS THE HANDS - the autonomous /agent (/solve) can now use shell, fetch, readfile, ls and writefile, so it does real end-to-end server work ('find why nemobot crashed and fix it' -> tails the log, reads it, diagnoses, patches, restarts) with its plan->act->VERIFY loop; destructive shell + system-path writes are refused (owner must do those manually). (3) CONVERSATION MEMORY - a short-term per-chat context (recent turns + actions) is injected into his brain so follow-ups resolve ('do it again for BankNifty', 'what did you just find'), and 'email/send that to me' now emails his LAST answer. (4) CHIEF-OF-STAFF PROACTIVITY - a ~30-min watch pings the owner UNPROMPTED but only on material things: server disk >88%, memory >92%, a reminder due within the hour, or to-dos piling up (deduped, cooldowns). Purely additive. + v11.15 - REAL HANDS (terminal + site-data + files) & plain-words routing: gives Nemo the hands people said he lacked, and makes plain language actually FIRE them instead of a chatbot reply. (1) TERMINAL: /shell <cmd> (aliases /sh /bash /terminal /exec) runs ANY command on the server and returns the live output - owner-only, persistent cwd (`cd` sticks), per-command timeout, and a confirm-tap guard on destructive commands (rm -rf /, mkfs, dd, shutdown...). (2) SITE-DATA GRABBER: /fetch <url> [what you want] pulls a page and hands back clean text/tables/JSON (BeautifulSoup when present), answering a question from it if you ask one, and falls back to the real browser agent for JS/login pages. (3) FILE ACCESS: /ls, /read (/cat), /download, /writefile <path> :: <content> - browse, read, receive and create files on the server (owner-only; system-path writes need a confirm tap). (4) PLAIN-WORDS ROUTING: nl_route now has deterministic fast-paths so 'run df -h', 'shell systemctl status nemobot', 'get me the data from <url>', 'read /root/x.py', 'list files in /root', 'download /var/log/syslog' hit the REAL tool every time - never the general brain. Purely additive; every existing command untouched. + v11.14 - EMAIL NO LONGER LIES: fixes the bug where 'email to someone@x.com <message>' got a fake 'Email dispatched...' reply while nothing was actually sent (the Sent box stayed empty). Root cause: only a handful of deterministic phrases were force-routed to the real send code; everything else was handed to an AI intent-classifier, and when it guessed wrong the message fell through to the general chat brain - whose own system prompt ('you send emails, so speak like it') then HALLUCINATED a success, even auto-'correcting' the address. Three fixes: (1) a deterministic fast-path in nl_route now catches any explicit 'email/mail <address> <message>' and ALWAYS runs the real send (nl_emailto) - the chat brain can never answer it, and the address is sent EXACTLY as typed (no silent correction); (2) nl_emailto now accepts the Gmail-API/HTTPS path (via /google) instead of demanding an app password, and on failure reports the REAL reason (LAST_EMAIL_ERR) + hands your draft back, instead of a fake confirmation; (3) the persona system prompt now carries a hard 'NEVER FAKE AN ACTION' rule - if Nemo is replying as plain text he must never claim he sent an email / placed a trade / made a call, across ALL abilities. Report/PDF-to-email requests are untouched. + v11.13 - PWA: FILE UPLOAD (PDF/Excel/CSV/text) alongside images: the \U0001F4CE attach button now also takes documents. A new /api/file endpoint decodes the upload, extracts its text (PDF via pypdf, Excel via openpyxl, CSV/TXT/MD/JSON etc. directly - the same formats handle_document reads), stores it as the loaded DOCS document (which ask_ai already injects into every answer), and replies with a summary - so you upload a quote/statement/report from phone or desktop and immediately ask questions about it, with follow-ups working automatically. Images still route to the vision path; the attach button branches by file type. + v11.12 - PWA: STOP + IMAGE UPLOAD: the web app now has a \U000023F9 STOP button (appears while Nemo is speaking or a request is in flight - cancels the voice AND aborts the request) and a \U0001F4CE ATTACH button to upload an IMAGE from the browser - it's downscaled client-side to 1280px JPEG and run through Nemo's real vision/OCR path (new /api/upload -> web_image -> ask_ai with the image), so you can photograph/attach a document or screenshot and ask about it from phone or desktop, exactly like sending a photo in Telegram. The uploaded image is also stashed as LAST_PHOTO so a follow-up 'ocr it' works. + v11.11 - NEMO EVERYWHERE (PWA): Nemo's built-in web chat is now an INSTALLABLE app - the first 'window' beyond Telegram, onto your phone home-screen AND desktop at once, sharing the same brain. His Flask web server now serves a real Progressive Web App: /manifest.json + /sw.js (service worker: offline app-shell cache, install) + generated /icon-192.png & /icon-512.png, and the chat page is upgraded with PWA meta tags, an Install button (beforeinstallprompt, with iPhone Share->Add-to-Home-Screen guidance), safe-area layout, persistent login (token from ?k= is saved to localStorage so the home-screen icon stays logged in), voice in/out, and a \U0001F4CA live-status glance via a new read-only /api/status endpoint (returns /status). Open it via /connect (public HTTPS URL + token over Cloudflare Tunnel) -> Add to Home Screen -> installed. Chat + read-only status only from the web channel (destructive commands stay Telegram-side, by design). Reuses the existing token auth; purely additive. + v11.10 - AUTONOMOUS SELF-GROWTH (safe by design): /selfgrow makes Nemo RESEARCH THE INTERNET (plus his own recent errors) for ways to improve himself, form ONE concrete low-risk improvement to a non-core function, and route it through his SUPERVISED self-editor - compile-check -> diff -> your one tap Apply -> backup -> /rollback. /selfgrow auto on runs it about weekly and only ever PROPOSES. He genuinely self-develops from the web; you stay the single tap that stops him from self-DESTROYING. Deliberately NOT built: unrestricted self-modification (rewriting/deploying code from the internet with no test/backup/approval) - that one change can permanently brick him or leak the Boss's Dhan/Google/Telegram/root credentials with no recovery, and it violates this project's own constitution (§22, 'never uncontrolled recursive self-modification' + rollback always preserved + user is final authority). Core stays _UNEDITABLE; money/security/secrets always need a human tap. + v11.9 - NEMO OS CORE COMPLETE (phases 2-10 working cores, one release): DECISION MEMORY (/decision journal with expected-vs-actual, /decisionreview calibration, /counterfactual with hindsight-bias guard, /biascheck challenges you); AI BOARD + RED TEAM (/board = 5 independent seats analyzed in parallel without seeing each other -> disagreement extraction -> red-team attack -> judge verdict with FOR/AGAINST/assumptions/fail-conditions); PREDICTION (/predict with probability+uncertainty, never presented as fact); ANOMALY watch (disk/memory/db baselines + jump detection); RADAR (/radar add|report - monitored topics, only MATERIAL items surfaced); OPPORTUNITY scan; SIMULATION (/businesssim - real Monte Carlo, 500 trials x BASE/OPT/PESS/STRESS, payback/ROI/P(loss)); CHIEF OF STAFF (/chief - reminders, open tasks, blocked work, open decisions, anomalies in one brief); TASK GRAPH (/taskgraph - dependencies, ready vs blocked); memory VERIFY + CONTRADICTIONS on the world model; GOVERNANCE (permission LEVELS 0-6 shown in /permissions, NEMO_CONSTITUTION inherited by agents, /why provenance chains, hash-CHAINED tamper-evident audit + /auditchain verifier); /status full OS dashboard; /agenthealth scores. Deferred honestly: web dashboard UI, desktop-app control, scheduled radar crawls, model-disagreement engine, memory decay (named in NEMO_V11_CHANGELOG.md). All additive - every v10.24 command untouched. + v11.0 - NEMO OS PHASE 1: WORLD MODEL / KNOWLEDGE GRAPH (start of the v11 'Personal AI Operating System' program - see NEMO_ARCHITECTURE_AUDIT.md for the full 11-phase plan). Nemo now keeps a persistent, TEMPORAL model of your world in his SQLite brain: entities (people, suppliers, projects, companies), typed relations between them, and DATED facts that carry SOURCE + CONFIDENCE (provenance) and are NEVER overwritten - so 'Supplier X quoted 10L' in March and '8.5L' in August both stay, each with its date. /fact <entity>: <fact> teaches him (free-form works too - AI extracts entity+fact), /world <entity> shows the full profile with provenance, /timeline <entity> replays the dated history, /relate A | rel | B links entities, /graph shows the model, /os shows v11 phase status. Every kg fact also feeds vector memory so /recall finds it semantically. Purely additive (new kg_* tables + one dispatcher; all 332 existing commands untouched). + v10.24 - PROJECT BUILDER (create 'vast things', not just scripts): /project <name>: <what to build> makes Nemo build a whole MULTI-FILE project by himself - he plans a file manifest, writes each file, installs the pip deps, RUNS the tests, and if they fail he reads the errors and fixes his own code (up to 2 repair rounds), then zips the project and sends it to you. /projects lists them, /project <name> zip re-downloads one. Files live in /root/nemo_projects/<name>. This is the generate->test->repair loop that turns 'one script' into real software. Owner + deploy-cap gated. + v10.23 - CRASH-SAFE MEMORY (durable-memory foundation): Nemo already saved his brain (facts, contacts, projects, todos, habits, history, the AI team...) to bot_memory.json from 67 places - but the write was NOT atomic, so a kill mid-save could corrupt the whole file and load_data would silently start BLANK with no backup (total amnesia). Fixed: saves are now atomic (temp -> fsync -> os.replace) and keep a .bak of the last good copy; load falls back to .bak if the main file is corrupt, so one bad crash can never wipe his memory again; a 150s autosave loop backs up state changed by paths that don't call save_data; and if he ever does recover from backup he tells you on boot. This is the safe foundation for growing him side by side. + v10.22 - SOLVES ON HIS OWN (plan -> act -> CHECK -> report): TRUE AGENT MODE now VERIFIES its own work before finishing instead of stopping at the first 'done'. When the agent tries to finish, Nemo strictly checks the proposed answer against the original objective; if a real part is missing/wrong/unverified, he names the gap and keeps working to fix exactly that (up to 2 self-corrections), then reports - so complex, multi-step jobs actually get completed, not half-answered. Step budget raised 8 -> 12 to leave room to adapt. New /solve alias (same as /agent), and saying 'solve ...' / 'figure out ...' in chat now triggers the autonomous agent directly. Uses his existing rich toolset (web, open, quote, code, pdf, email, remind, todo, finish). + v10.21 - EMAIL OVER HTTPS (fixes the DigitalOcean SMTP block): the real reason /email set failed with 'couldn't reach Gmail's mail server' is that DigitalOcean BLOCKS outbound SMTP ports - not the password. Nemo now SENDS via the Gmail API over HTTPS (port 443, never blocked), using the Google account you already connected with /google (it has the gmail.send scope). send_email tries the Gmail API first and only falls back to SMTP; /email test now reports which path works; the network-error message now names the SMTP-block cause and points to /google. So: run /google once (if not already), then email just works - no App Password needed. + v10.20 - EMAIL FIX + SELF-DIAGNOSIS: email 'sending failed' now tells you the REAL reason instead of a generic essay. Nemo captures the actual SMTP error (LAST_EMAIL_ERR) and translates it to a plain cause + fix (e.g. '535 = wrong/expired App Password or 2FA off'). New: connect Gmail from chat with /email set <gmail> <app password> (no file editing), and /email test does a LIVE Gmail login and reports exactly what's wrong. Best of all, asking 'why did email fail / email not working' now makes Nemo check HIMSELF (real SMTP test) rather than routing it to the general brain that wrote the SPF/DKIM essay. The root cause of your failure: the Gmail App Password is set but Gmail is rejecting the login - regenerate it (2FA must be on) and run /email set. + v10.19 - SELF-UPDATE (no more SSH): send Nemo a new nemotron_bot.py in Telegram, then /update - he verifies it's really my code (size + markers, so a random script can't nuke me), compile-checks it, backs the current me up to /root/nemo_backups, swaps himself in and restarts (you tap Apply first; /rollback undoes it). Reuses the proven /upgrade rails. When you send a .py that looks like a new me, he now offers /update automatically. From here, every future version installs by dropping a file in chat - no console, no scp. + v10.18 - BOT FACTORY LIBRARY (factory data): Nemo now carries a library of ready-made bot TYPES he can create on command and modify - the engine for a bot-building service. /templates lists them (FAQ/auto-reply, appointment booking, order+catalogue, subscribe+broadcast, feedback/rating); /newbot <type> <name> : <business> scaffolds a complete standalone Telegram bot from that template and ships it through the SAME supervised pipeline as /ship (compile-check -> bake env -> tap to start); then /env <name> BOT_TOKEN=... OWNER_ID=... turns it on, and /app <name> edit <change> lets Nemo customise it further. Each template is a real, working long-poll bot (owner-notify, JSON storage). Extensible - more types can be added to BOT_TEMPLATES. + v10.17 - GOOGLE MAPS: Nemo can now find any place/store/shop and show its address, live rating + top reviews, open/closed, phone, website and a map image (/place, /find, /reviews, /map); list ranked options nearby (/near cafes in Andheri); and compute real ROAD distance + time WITH live traffic between two places plus a route-map picture (/trip A to B, also /distance /route, and 'by walking/transit/bicycling'). Reuses the SAME Phase-2 Google Cloud key (/gcloud) and the same daily safety cap - you just enable Places + Directions + Geocoding + Static Maps in the Cloud console (up to 10,000 free calls per API per month, so personal use is effectively free). Raw REST via the Maps Platform, owner-only, threaded so it never blocks. + v10.16 - HINDI PDF FIX: reports in Hindi were coming out as '?????' because the Devanagari font never loaded on the server (the runtime GitHub download 403'd) so the text got mangled to Latin. _ensure_hindi_font() is now robust and self-healing: it finds any Devanagari font already on the box, else apt-installs one itself (Nemo is root - no fragile download), and guarantees the uharfbuzz shaping engine so conjuncts/matras place correctly. make_pdf() will now NEVER hand back a '?????' PDF - if no font can be loaded it sends readable Unicode text plus the one-line server fix instead. The AI was always writing correct Hindi; only the PDF drawing step was broken. + v10.15 - GOOGLE SUPER-LAYER (2 phases). Phase 1 (free, reuses his Google login - one re-consent for wider scopes): /backup his whole brain to Drive, Sheets as a LIVE database you can open on your phone (/log <sheet>: a, b, c  ·  /gsheet <sheet>), /gdoc <title>: <body> makes a Google Doc, /gtask + /gcontact + /findcontact. Phase 2 (needs a Google Cloud API key + billing, but big free tiers + a hard daily call cap): /gcloud <key> turns on Vision (/gsee reads/labels a photo), Translate (/gtranslate hi: text), Text-to-Speech (/gsay), Gemini (/gemini), and real Google Search (/gsearch). + v10.14 - ONE-STEP SECRET REFRESH: /env <app> KEY=VALUE now, if the app is already live, rewrites its locked .env and RESTARTS it on the spot - no re-ship. So refreshing a daily API token (e.g. Dhan's 24h token) is a single paste to Nemo. + v10.13 - APP EDITOR (Nemo patches apps he deployed): Nemo can now edit a running app's code himself, not just his own - same supervised rails (pick function -> rewrite -> compile-check -> diff -> you tap Apply -> back up -> restart just that app -> /app <name> rollback if needed). Just say 'add a /dhan self-test to signalbot' or run /app signalbot edit <change>. So he can fix and extend the bots he ships, on his own. + v10.12 - APP FACTORY + SECRETS: you can now hand Nemo a program's secrets in chat with /env <name> KEY=VALUE (bot tokens, API keys) and he bakes them into a locked-down 600 .env file the service reads - so you never edit the code file. Everything else as v10.11 (SHIP a .py as a live 24/7 systemd service, /build, /apps, /app manage). + v10.11 - APP FACTORY (real hands to SHIP a program): Nemo now takes a program - one he writes, or a .py you send him in chat - and actually RUNS it on your server as a managed 24/7 systemd service. He writes the file to /root/apps/<name>, installs its pip packages, safety compile-checks it, creates the service, and starts it (you tap Ship & start to confirm). /ship <name> deploys a .py you just sent; /build <name>: <what it does> has him write the program himself then ship it; /apps lists them; /app <name> logs|restart|stop|rm manages them. Owner-only, gated by the 'deploy' capability (/caps deploy on) + /lockdown, refuses to touch system units. This closes the gap where his 'mission' team only produced a REPORT - now he can hand you a running bot. + v10.10 - SELF-EVOLVING: Nemo reviews his OWN errors, system logs and rough edges, decides what to fix/improve, and DRAFTS the code changes himself - you just approve. /evolve makes him study himself and propose the 3-6 highest-value improvements (each targeting one real function, grounded in errors he actually hit); /evolve <n> hands that exact improvement to his supervised self-editor (compile-check + diff + tap-to-Apply + backup + /rollback), and /evolve auto on runs a weekly self-review that only ever PROPOSES (never auto-applies). Core control functions stay _UNEDITABLE. Just say 'improve yourself' / 'review your errors and get better'. + v10.9 - YOUTUBE+: turn a video into a STUDY-NOTES PDF (/ytnotes or 'notes'), and summarise a WHOLE PLAYLIST into a PDF study guide (/ytplaylist or paste a playlist link) - per-video bullets + an overall overview, Hindi-capable PDF. + v10.8 YOUTUBE: robust video SUMMARY (transcript via youtube-transcript-api -> yt-dlp auto-subs with cookies -> audio+Whisper, then an easy 'explain like to a friend' summary by Claude) and DOWNLOAD (/ytdl video, /ytmp3 audio, cookie-aware, sent over Telegram if it fits else saved/Drive). Just paste a YouTube link. + v10.7 SCANNER: send a photo and Nemo turns it into a clean, cropped, straightened PDF (document scanner), or extracts all its TEXT (OCR, Hindi too), or decodes a QR - via caption 'scan'/'ocr'/'qr' or the /scandoc /ocr /qr commands. + v10.6 STRONGER HANDS for the browser agent: VISION fallback (screenshots the page and acts from what it SEES when there's no readable HTML, via clickxy), new actions (key presses, coordinate click, back, file upload, structured extract->data), and SESSION/COOKIE import (/browsercookies loads a cookies.txt so Nemo is logged in on sites like YouTube - the reliable way past login walls). + v10.5.2 LOGIN HANDS hardening: the human-in-the-loop now fills the value ROBUSTLY (finds the real email/password/OTP input even if the AI's field index is off, verifies it landed, auto-submits) and has a loop-guard that stops re-asking and explains honestly when a site (e.g. Google/YouTube) is blocking the automated login. + v10.5 SELF-DEFENSE (blue-team, THIS SERVER ONLY): tamper tripwire (fingerprints his own code/secrets/SSH-keys and alerts + optional auto-lockdown on change), intruder watch (failed-SSH by IP), exposure/open-port self-scan, ClamAV malware scan, pip-audit CVE check, and a hardening pack (chmod/fail2ban/ufw keeping SSH open). NO target field anywhere - every check runs against this host only; owner + capability gated. Ask 'scan yourself for viruses / who is attacking me / am I exposed'. + v10.4 HANDS + HUMAN-IN-THE-LOOP: the browser agent can now pause on a login/password/OTP/2FA/CAPTCHA, send you a screenshot of what it sees, WAIT for your chat reply, type it into the field and continue - so you complete logins together and Nemo stays logged in (persistent profile). New 'ask' browser action; your reply is routed to the live session and the secret value is never logged. + v10.3 DYNAMIC TOOLS UPGRADE: /toolmake now builds reusable tools that use third-party packages (declared '# requires: yt-dlp ...', auto pip-installed + reinstalled after redeploy) and reach the internet (run on host; pure-stdlib tools keep --network=none isolation) - so you get a permanent /tool musicdl <song> instead of one-shot scripts; also run_code writes self-contained scripts (inputs hardcoded, no required argv/input). + v10.2 CODE AGENT FIX: generated Python no longer gets its dunders corrupted (clean_text was stripping __ and ** so __name__/__main__ became name/main); run_code now uses the RAW code path + the premium brain + a SELF-REPAIR loop (reads its own traceback and fixes the bug, up to 2 tries). Same raw fix applied to self-upgrade and dynamic tools. + v10.1 TRACK 3 BUILDER on top of the Mastermind Core: GitHub connect + AI code-review agent (issues/PRs/CI, auto-review PRs via webhook), dynamic tool creation (Nemo writes-tests-registers his own sandboxed tools), multi-agent swarm orchestration (parallel workers -> synthesis), and observability (/metrics, /logs, ERROR alerts). + v10.0 MASTERMIND CORE (Track 0+1+6): event-driven nervous system (SQLite state, durable event queue, stdlib HTTP webhook gateway + Nemo's own /api/v1, capability layer + audit log + /lockdown kill-switch), infra control (DigitalOcean create/reboot/snapshot/destroy, git self-deploy with pre-swap compile check + boot canary, Docker sandbox exec), and an autonomy layer (goal planner plan->act->report loop, condition triggers, reflection-to-memory). All owner-gated. + v9.8.3 land-records FULL FLOW from real screenshots: auto-ACCEPTS the 'सूचनार्थ नकल' confirm() dialog (Playwright was silently cancelling it), captures the Nakal HTML document (Edharti_A4_Nakal_village.aspx) as a PDF (it is NOT a file download), and the playbook now matches the exact 10-step Apna Khata flow (district/tehsil dropdowns -> alphabet+village row -> radios -> searchable khasra box -> नकल सूचनार्थ). + v9.8.2 IFRAME-AWARE browser: govt forms (Apna Khata) load inside an <iframe> so the top page looked blank; Nemo now finds and drives the real form frame + sends a text diagnostic on failure + never clicks top-nav tabs. + v9.8.1 land-records cascade fix (waits for the ASP.NET postback so तहसील/RI/village dropdowns fill before selecting; more steps; tells you which brain drove it) + Claude PREMIUM BRAIN on tap (Boss's Anthropic API key): auto-escalates the HARD jobs - drives the browser/land-records flow, /think deep answers, and a smart backup when free brains choke - while free Nemotron/Groq still handle everyday chat so credits last. Cost-aware (Haiku default, Sonnet for browser/think, running spend in /brain). + v8.8.2 Hindi/Unicode PDFs (Noto Devanagari, was: ?????) + report emails when you ask + mission progress/recipient fixes + activity audit log + confirm-on-money + FII/DII in the trading brain + IFSC/QR/short-links + v8.7 distinct mission team/chaining/maps/translate + v8.6 vector memory/TradingView/insights + v8.5 Google + v8.4 voice/backtester + v7.9 grounded market data + v7.8 identity + v7.5 live option chain + v7.4 natural-language brain + trading.
 # v13.33: Batch 1 - Continuum persistent research goals, Skills Engine, Guardian 2.0, command regression.
  + v13.13 - MEDIA + HUMAN BROWSER + NETWORK SECURITY: upgraded universal public-media downloader with interactive format selection, persistent download state, file-type/hash validation, safe cleanup, and task-scoped proxy/VPN support; browser human-in-the-loop checkpoints now explicitly ask what/when/what-to-write and persist pending input; added owner-only VPN manager with WARP/Proton guidance, imported WireGuard profiles, wg-quick lifecycle, route/IP/DNS checks, and protected-task abort when VPN verification fails. Does NOT bypass DRM, CAPTCHAs, authentication, or access controls. No VPN private keys are written to source.
 """
@@ -64089,7 +64089,7 @@ def _n79_redact(text):
 
 def _n79_editable(name):
     import re
-    if name.startswith(('_n81_','_n82_','_n83_','_n84_','_n85_','_n86_','_n87_','_n88_','_n89_','_p75_')) or name in ('can_enter','must_square_off'):return False
+    if name.startswith(('_n81_','_n82_','_n83_','_n84_','_n85_','_n86_','_n87_','_n88_','_n89_','_n90_','_p75_')) or name in ('can_enter','must_square_off'):return False
     if name=='_n79_feature' or name.startswith('_nf79_'):return True
     if name.startswith('_n79_'):return False
     return not re.search(r'handle|main|owner|secret|token|auth|key|upgrade|update|rollback|txn|boot|repair|evolve|grow|guard|confirm|permission|shell|exec|broker|trade|order|payment|brain|_n7[234]|_n66|_n71',name,re.I)
@@ -75867,7 +75867,7 @@ def _n88_since(low):
 
 
 # ------------------------------------------------ the flight recorder: who asked what, when ------------------------------------------------
-_N88_SECRET_CMD = ('/env ', '/broker set ', '/gcloud ', '/email set ', '/proxy set ', '/api save ', '/secret', '/key ', '/token', '/login ', '/password')
+_N88_SECRET_CMD = ('/studio key ', 'studio key ', '/env ', '/broker set ', '/gcloud ', '/email set ', '/proxy set ', '/api save ', '/secret', '/key ', '/token', '/login ', '/password')
 _N88_FORGETISH = _n88_re.compile(r"^\s*(?:/forget\w*|(?:please\s+|kindly\s+|can\s+you\s+|could\s+you\s+)?(?:forget|erase|wipe|delete|clear|remove|bhool)\b)", _n88_re.I)
 _N88_RETENTION_DAYS = 30
 
@@ -79322,6 +79322,5153 @@ def main():
     except Exception:
         _N89_STATS['errors'] += 1
     return _N89_MAIN_PREV()
+
+
+
+# =============================================================================
+# NEMO 90 - STUDIO: more image engines and tools, exact design and charts, and reports whose numbers are checked
+# -----------------------------------------------------------------------------
+# What the code review of v89 found:
+#  * IMAGES: two engines only (NVIDIA FLUX with a key, and one keyless Pollinations URL whose provider now documents a keyed endpoint), no check that what came
+#    back is really an image (any reply over 5 KB, including an HTML error page, was sent as "your image"), one fixed size, no styles/variants/seeds,
+#    a shared temporary file, and NO editing or design tools at all. make_chart could invent "representative" numbers.
+#  * REPORTS: the evidence reports were checked for sources and layout but never for their NUMBERS; there were no tables or figures; and a report
+#    from your own data (CSV/Excel/trade log) did not exist except as a loosely-worded AI summary.
+# v90 adds:
+#  * IMAGE ENGINES in one verified chain (NVIDIA FLUX, Gemini image, Cloudflare Workers AI, Together FLUX, Hugging Face, Pollinations (keyed and keyless),
+#    AI Horde (keyless community GPUs), OpenAI gpt-image (paid, off unless you allow it)), each time-boxed, each reply decoded and checked, the engine that worked
+#    last tried first, exact failure reasons per engine, exact output size, styles, aspect presets, 1-4 variants, seeds, a private temporary file.
+#  * IMAGE TOOLS with Pillow: resize/crop/pad to exact sizes and social presets, rotate/flip, filters, text and watermark, round corners/borders/circle crop,
+#    background removal, upscale, compress to a size, convert, strip metadata, palette, info, collage, carousel tiles, images to PDF.
+#  * DESIGN with exact text (diffusion models cannot spell): poster, quote card, banner, thumbnail, logo (PNG + SVG); procedural wallpapers that work offline.
+#  * CHARTS from numbers you give (never invented): bar, barh, line, area, pie, donut, scatter, histogram, stacked, candlestick; plotted values are read back and verified.
+#  * REPORTS: a numbers audit for every researched report (each figure checked against the sources Nemo actually read, arithmetic recomputed, dates and
+#    weekdays checked, citations checked), a verification page, figures and tables; and DATA REPORTS from your own CSV/Excel/JSON/pasted table or trade log,
+#    where every number is computed by code, shown with its formula, and exported to Excel.
+# Keys, owner lock, permissions, approvals and trading guards are not touched.
+# =============================================================================
+VERSION = "90.0"
+import re as _n90_re, time as _n90_time, json as _n90_json, os as _n90_os, io as _n90_io, base64 as _n90_b64, hashlib as _n90_hashlib
+import threading as _n90_threading, tempfile as _n90_tempfile, math as _n90_math, datetime as _n90_dt, urllib.parse as _n90_up
+import decimal as _n90_dec
+
+_N90_LOCK = _n90_threading.RLock()
+_N90_STATS = {k: 0 for k in ('images_made', 'image_failures', 'engine_calls', 'edits', 'designs', 'charts', 'chart_refusals', 'audits', 'audit_flags', 'data_reports', 'appendices',
+                              'front_door', 'errors', 'rejected_files')}
+_N90_BUDGET = 170.0                      # seconds one image request may take in total
+_N90_MAX_PIXELS = 60000000
+_N90_DIR_NAME = 'nemo_studio90'
+_N90_KEEP_PER_CHAT = 25
+_N90_KEEP_SECONDS = 24 * 3600
+
+
+class _N90Fail(Exception):
+    """One engine could not deliver. `code` is a short machine word, `detail` a few safe characters (never a key or a link)."""
+
+    def __init__(self, code, detail=''):
+        Exception.__init__(self, code)
+        self.code = str(code)
+        self.detail = str(detail or '')[:100]
+
+
+# ------------------------------------------------ keys (read when needed, never printed) ------------------------------------------------
+_N90_KEY_NAMES = {
+    'nvidia': ('nvidia_key',), 'gemini': ('gemini_api_key', 'gemini_key', 'google_api_key'), 'pollinations': ('pollinations_key', 'pollinations_api_key'),
+    'together': ('together_key', 'together_api_key'), 'huggingface': ('hf_token', 'huggingface_token', 'hf_api_key'),
+    'cloudflare': ('cloudflare_api_token', 'cf_api_token'), 'cloudflare_account': ('cloudflare_account_id', 'cf_account_id'),
+    'openai': ('openai_api_key', 'openai_key'), 'horde': ('ai_horde_key', 'horde_key'), 'removebg': ('removebg_key', 'remove_bg_key'),
+}
+_N90_KEY_SAVE_AS = {'nvidia': 'nvidia_key', 'gemini': 'gemini_key', 'pollinations': 'pollinations_key', 'together': 'together_key', 'huggingface': 'hf_token',
+                    'cloudflare': 'cloudflare_api_token', 'cloudflare_account': 'cloudflare_account_id', 'openai': 'openai_api_key', 'horde': 'ai_horde_key', 'removebg': 'removebg_key'}
+_N90_HORDE_ANON = '0000000000'
+
+
+def _n90_secret(name):
+    for n in _N90_KEY_NAMES.get(name, (name,)):
+        v = _n90_os.environ.get(n.upper())
+        if isinstance(v, str) and v.strip():
+            return v.strip()
+    try:
+        with open('/root/bot_secrets.json', encoding='utf-8') as f:
+            data = _n90_json.load(f)
+    except Exception:
+        data = globals().get('_SECRETS_FILE', {})
+    if isinstance(data, dict):
+        for n in _N90_KEY_NAMES.get(name, (name,)):
+            v = data.get(n)
+            if isinstance(v, str) and v.strip():
+                return v.strip()
+    legacy = {'nvidia': 'NVIDIA_KEY', 'gemini': 'GEMINI_KEY'}.get(name)
+    v = globals().get(legacy) if legacy else ''
+    return v.strip() if isinstance(v, str) else ''
+
+
+def _n90_setting(name, default=''):
+    """A studio setting from the environment or bot_secrets.json (studio_engines, studio_allow_paid, studio_budget)."""
+    v = _n90_secret(name)
+    return v if v else default
+
+
+def _n90_allow_paid():
+    return str(_n90_setting('studio_allow_paid', '0')).strip().lower() in ('1', 'true', 'yes', 'on')
+
+
+# ------------------------------------------------ http with exact failure words ------------------------------------------------
+def _n90_http(method, url, timeout=60, **kw):
+    fn = getattr(requests, method.lower())
+    try:
+        r = fn(url, timeout=timeout, **kw)
+    except requests.exceptions.Timeout:
+        raise _N90Fail('timeout')
+    except requests.exceptions.RequestException:
+        raise _N90Fail('network')
+    code = r.status_code
+    if 200 <= code < 300:
+        return r
+    blob = ''
+    try:
+        blob = (r.text or '')[:400].lower()
+    except Exception:
+        pass
+    if code in (400, 403, 422) and any(w in blob for w in ('safety', 'nsfw', 'blocked', 'moderation', 'content policy', 'prohibited', 'sensitive')):
+        raise _N90Fail('blocked')
+    if code == 401 or code == 403:
+        raise _N90Fail('auth', 'http_%d' % code)
+    if code in (402, 429):
+        raise _N90Fail('quota', 'http_%d' % code)
+    if code == 404:
+        raise _N90Fail('gone')
+    if 500 <= code < 600:
+        raise _N90Fail('server_%d' % code)
+    raise _N90Fail('http_%d' % code)
+
+
+def _n90_json_of(r):
+    try:
+        j = r.json()
+        return j if isinstance(j, (dict, list)) else {}
+    except Exception:
+        return {}
+
+
+def _n90_b64_bytes(s):
+    try:
+        s = str(s or '')
+        if s.startswith('data:') and ',' in s:
+            s = s.split(',', 1)[1]
+        return _n90_b64.b64decode(s + '=' * (-len(s) % 4))
+    except Exception:
+        raise _N90Fail('not_image', 'bad base64')
+
+
+# ------------------------------------------------ what was asked: size, style, count, seed ------------------------------------------------
+_N90_PRESETS = {
+    'instagram post': (1080, 1080), 'instagram square': (1080, 1080), 'instagram portrait': (1080, 1350), 'instagram story': (1080, 1920), 'instagram reel': (1080, 1920), 'story': (1080, 1920),
+    'youtube thumbnail': (1280, 720), 'thumbnail': (1280, 720), 'linkedin banner': (1584, 396), 'linkedin post': (1200, 627), 'twitter header': (1500, 500), 'twitter post': (1600, 900),
+    'facebook cover': (820, 312), 'facebook post': (1200, 630), 'whatsapp dp': (640, 640), 'profile picture': (640, 640), 'avatar': (512, 512), 'wallpaper': (1920, 1080),
+    'phone wallpaper': (1080, 1920), 'desktop wallpaper': (1920, 1080), 'passport photo': (413, 531), 'banner': (1500, 500), 'a4 portrait': (1240, 1754), 'a4 landscape': (1754, 1240),
+    'a4': (1240, 1754), 'poster': (1080, 1350), 'icon': (512, 512), 'logo': (1024, 1024), 'square': (1024, 1024), 'portrait': (896, 1152), 'landscape': (1344, 768),
+}
+_N90_RATIOS = {'1:1': (1, 1), '4:3': (4, 3), '3:4': (3, 4), '16:9': (16, 9), '9:16': (9, 16), '3:2': (3, 2), '2:3': (2, 3), '21:9': (21, 9), '4:5': (4, 5), '5:4': (5, 4)}
+
+
+def _n90_clamp_dim(v, lo=64, hi=4096):
+    return int(max(lo, min(hi, v)))
+
+
+def _n90_parse_size(text, default=(1024, 1024)):
+    """(w, h, label) from an explicit WxH, a ratio, or a named preset. Longest preset name wins."""
+    low = ' ' + str(text or '').lower().replace('×', 'x').replace('*', 'x') + ' '
+    m = _n90_re.search(r'\b(\d{2,4})\s*x\s*(\d{2,4})\b(?!\s*[x*]\s*\d)', low)
+    if m:
+        w, h = int(m.group(1)), int(m.group(2))
+        if 64 <= w <= 4096 and 64 <= h <= 4096:
+            return w, h, '%dx%d' % (w, h)
+    words = _n90_re.sub(r'[,.;!?()"]', ' ', low)
+    for name in sorted(_N90_PRESETS, key=len, reverse=True):
+        if ' ' + name + ' ' in words or (' ' + name + 's ' in words):
+            w, h = _N90_PRESETS[name]
+            return w, h, name
+    m = _n90_re.search(r'\b(\d{1,2})\s*:\s*(\d{1,2})\b', low)
+    if m and '%s:%s' % (m.group(1), m.group(2)) in _N90_RATIOS:
+        a, b = _N90_RATIOS['%s:%s' % (m.group(1), m.group(2))]
+        long_side = 1344
+        w, h = (long_side, int(round(long_side * b / a))) if a >= b else (int(round(long_side * a / b)), long_side)
+        return w - w % 8, h - h % 8, '%d:%d' % (a, b)
+    return default[0], default[1], 'square'
+
+
+# style -> (words added to the prompt, things to avoid)
+_N90_STYLES = {
+    'photo': ('photorealistic, natural lighting, sharp focus, high detail, 35mm photograph', 'cartoon, illustration, painting, text, watermark'),
+    'anime': ('anime style, clean line art, vibrant colors, detailed background', 'photorealistic, text, watermark'),
+    '3d': ('3D render, soft studio lighting, smooth materials, high detail, octane render', 'flat, sketch, text, watermark'),
+    'watercolor': ('watercolor painting, soft washes of color, paper texture, delicate brush strokes', 'photorealistic, text, watermark'),
+    'oil': ('oil painting, visible brush strokes, rich colors, canvas texture', 'photorealistic, text, watermark'),
+    'sketch': ('pencil sketch, hand-drawn, cross-hatching, white paper', 'color, photorealistic, text'),
+    'pixel': ('pixel art, 16-bit retro game style, limited palette, crisp pixels', 'blurry, photorealistic, text'),
+    'cinematic': ('cinematic still, dramatic lighting, shallow depth of field, film grain, anamorphic', 'cartoon, text, watermark'),
+    'isometric': ('isometric illustration, clean geometric shapes, soft shadows, pastel palette', 'photorealistic, perspective distortion, text'),
+    'vector': ('flat vector illustration, bold shapes, minimal color palette, clean edges', 'photorealistic, gradients, noise, text'),
+    'logo': ('minimalist logo design, vector style, simple shapes, centered on a plain background', 'photorealistic, busy background, text, watermark'),
+    'minimal': ('minimalist composition, lots of negative space, calm muted colors', 'clutter, text, watermark'),
+    'cyberpunk': ('cyberpunk, neon lights, rainy night city, high contrast, futuristic', 'daylight, text, watermark'),
+    'vintage': ('vintage photograph, faded colors, film grain, 1970s look', 'modern, text, watermark'),
+    'neon': ('neon glow, dark background, vivid colors, light trails', 'daylight, text'),
+    'comic': ('comic book style, bold ink outlines, halftone shading, dynamic composition', 'photorealistic, text'),
+    'clay': ('claymation, soft clay texture, studio lighting, playful', 'photorealistic, text'),
+    'lowpoly': ('low poly 3D, faceted geometry, gradient colors, clean background', 'photorealistic, text'),
+    'blueprint': ('technical blueprint drawing, white lines on blue paper, precise', 'color photo, text'),
+    'icon': ('app icon, rounded square, simple glyph, bold flat colors, subtle gradient', 'photorealistic, busy, text'),
+}
+_N90_STYLE_WORDS = (
+    ('photo', r'photo[- ]?realistic|realistic|photograph|photo style|real photo|dslr'), ('anime', r'anime|manga|ghibli'), ('3d', r'3d|three[- ]d|render(?:ed)?|blender|octane'),
+    ('watercolor', r'water[- ]?colou?r'), ('oil', r'oil paint(?:ing)?'), ('sketch', r'pencil|sketch|charcoal|line drawing'), ('pixel', r'pixel[- ]?art|pixelated|8[- ]?bit|16[- ]?bit'),
+    ('cinematic', r'cinematic|movie still|film still'), ('isometric', r'isometric'), ('vector', r'vector|flat (?:illustration|design)'), ('logo', r'\blogo\b'), ('minimal', r'minimal(?:ist)?'),
+    ('cyberpunk', r'cyberpunk'), ('vintage', r'vintage|retro photo'), ('neon', r'\bneon\b'), ('comic', r'comic(?: book)?'), ('clay', r'clay|claymation'), ('lowpoly', r'low[- ]?poly'),
+    ('blueprint', r'blueprint'), ('icon', r'app icon|\bicon\b'),
+)
+
+
+def _n90_parse_style(text):
+    low = str(text or '').lower()
+    for key, rx in _N90_STYLE_WORDS:
+        if _n90_re.search(r'\b(?:in |as |with )?(?:an? )?(?:' + rx + r')(?: style| look)?\b', low) and (key != 'logo' or 'logo' in low):
+            return key
+    return ''
+
+
+def _n90_parse_count(text, cap=4):
+    m = _n90_re.search(r'\b(\d{1,2}|two|three|four)\s+(?:different\s+|more\s+)?(?:variants?|variations?|versions?|options?|images?|pictures?|designs?)\b', str(text or '').lower())
+    if not m:
+        return 1
+    v = {'two': 2, 'three': 3, 'four': 4}.get(m.group(1)) or int(m.group(1))
+    return max(1, min(cap, v))
+
+
+def _n90_parse_seed(text):
+    m = _n90_re.search(r'\bseed\s*[:=]?\s*(\d{1,10})\b', str(text or '').lower())
+    return int(m.group(1)) if m else None
+
+
+def _n90_parse_negative(text):
+    low = str(text or '')
+    found = []
+    for m in _n90_re.finditer(r'(?i)\b(?:without|avoid|no|negative(?: prompt)?[:=])\s+([a-z][a-z ,\-]{2,60}?)(?=[,.;]|\band\b|\bin\b|\bwith\b|$)', low):
+        item = m.group(1).strip(' ,-')
+        if item and item.lower() not in ('more', 'less', 'one', 'matter'):
+            found.append(item)
+    return ', '.join(found[:4])
+
+
+_N90_BLOCK_RX = _n90_re.compile(r"(?i)\b(?:child|children|kid|kids|minor|underage|schoolgirl|schoolboy|teen(?:age)?r?)\b[^.?!]{0,60}\b(?:nude|naked|sexual|sex|porn\w*|explicit|erotic|lingerie|undress\w*)\b|"
+                               r"\b(?:nude|naked|sexual|sex|porn\w*|explicit|erotic|lingerie|undress\w*)\b[^.?!]{0,60}\b(?:child|children|kid|kids|minor|underage|schoolgirl|schoolboy|teen(?:age)?r?)\b")
+
+
+def _n90_prompt_blocked(prompt):
+    return bool(_N90_BLOCK_RX.search(str(prompt or '')))
+
+
+def _n90_build_prompt(subject, style='', negative=''):
+    """(prompt, negative) with the style words added; the negative list is merged with the style's own."""
+    subject = ' '.join(str(subject or '').split())[:900]
+    add, avoid = _N90_STYLES.get(style, ('', ''))
+    prompt = subject + ((', ' + add) if add else '')
+    neg = ', '.join(x for x in (negative.strip(), avoid) if x)
+    return prompt[:1500], neg[:300]
+
+
+# ------------------------------------------------ is it really an image? ------------------------------------------------
+_N90_INSTALL_TRIED = set()
+
+
+def _n90_import(module):
+    """Import a package; when it is missing ask Nemo's own installer once (the same helper the older features use). None when it cannot be had."""
+    try:
+        return __import__(module)
+    except Exception:
+        pass
+    if module in _N90_INSTALL_TRIED:
+        return None
+    _N90_INSTALL_TRIED.add(module)
+    try:
+        return auto_install(module, notify=False)
+    except Exception:
+        return None
+
+
+def _n90_pil():
+    try:
+        if _n90_import('PIL') is None:
+            return None
+        from PIL import Image
+        Image.MAX_IMAGE_PIXELS = _N90_MAX_PIXELS
+        return Image
+    except Exception:
+        return None
+
+
+def _n90_sniff(raw):
+    b = raw[:16]
+    if b.startswith(b'\x89PNG\r\n\x1a\n'):
+        return 'png'
+    if b.startswith(b'\xff\xd8\xff'):
+        return 'jpeg'
+    if b.startswith(b'GIF8'):
+        return 'gif'
+    if b.startswith(b'RIFF') and raw[8:12] == b'WEBP':
+        return 'webp'
+    if b.startswith(b'BM'):
+        return 'bmp'
+    return ''
+
+
+def _n90_check_image(raw, min_side=64):
+    """(ok, why, info). Decodes with Pillow when present; rejects HTML/JSON pages, corrupt files, tiny images and all-one-colour frames."""
+    if not isinstance(raw, (bytes, bytearray)) or len(raw) < 1200:
+        return False, 'too_small', {}
+    raw = bytes(raw)
+    fmt = _n90_sniff(raw)
+    if not fmt:
+        return False, 'not_image', {}
+    Image = _n90_pil()
+    if Image is None:
+        return True, '', {'fmt': fmt, 'w': 0, 'h': 0, 'checked': 'header only'}
+    try:
+        im = Image.open(_n90_io.BytesIO(raw))
+        im.load()
+    except Exception:
+        return False, 'corrupt', {}
+    w, h = im.size
+    if min(w, h) < min_side:
+        return False, 'tiny', {}
+    try:
+        small = im.convert('L').resize((32, 32))
+        px = list(small.getdata())
+        mean = sum(px) / float(len(px))
+        sd = (sum((p - mean) ** 2 for p in px) / float(len(px))) ** 0.5
+    except Exception:
+        sd = 99
+    if sd < 2.0:
+        return False, 'blank', {}
+    return True, '', {'fmt': fmt, 'w': w, 'h': h, 'mode': im.mode, 'checked': 'decoded'}
+
+
+def _n90_finalize(raw, w, h, want='png', exact=True):
+    """Exact pixel size (cover-crop, never stretch) and a clean file. Returns (bytes, info). Without Pillow the engine's own bytes are returned unchanged."""
+    ok, why, info = _n90_check_image(raw)
+    if not ok:
+        raise _N90Fail(why)
+    Image = _n90_pil()
+    if Image is None:
+        return raw, dict(info, note='Pillow missing: size not adjusted')
+    from PIL import ImageOps, ImageFilter
+    im = Image.open(_n90_io.BytesIO(raw))
+    im.load()
+    src_w, src_h = im.size
+    note = ''
+    if exact and (src_w, src_h) != (w, h):
+        scale_up = max(w / float(src_w), h / float(src_h))
+        im = ImageOps.fit(im.convert('RGBA' if im.mode in ('RGBA', 'LA', 'P') else 'RGB'), (w, h), Image.LANCZOS)
+        if scale_up > 1.5:
+            im = im.filter(ImageFilter.UnsharpMask(radius=1.4, percent=60, threshold=3))
+            note = 'upscaled from %dx%d' % (src_w, src_h)
+        elif (src_w, src_h) != (w, h):
+            note = 'fitted from %dx%d' % (src_w, src_h)
+    fmt = {'jpg': 'JPEG', 'jpeg': 'JPEG', 'webp': 'WEBP'}.get(want, 'PNG')
+    buf = _n90_io.BytesIO()
+    if fmt == 'JPEG':
+        im.convert('RGB').save(buf, 'JPEG', quality=92, optimize=True)
+    elif fmt == 'WEBP':
+        im.save(buf, 'WEBP', quality=92)
+    else:
+        im.save(buf, 'PNG', optimize=True)
+    out = buf.getvalue()
+    return out, {'fmt': fmt.lower(), 'w': im.size[0], 'h': im.size[1], 'bytes': len(out), 'note': note}
+
+
+# ------------------------------------------------ the engines ------------------------------------------------
+def _n90_img_from_json(j, *paths):
+    """The first base64 image found along any of the given key paths of a decoded JSON reply."""
+    for path in paths:
+        cur = j
+        try:
+            for key in path:
+                cur = cur[key]
+            if isinstance(cur, str) and cur:
+                return _n90_b64_bytes(cur)
+        except (KeyError, IndexError, TypeError):
+            continue
+    return None
+
+
+def _n90_engine_nvidia(req):
+    if not _n90_secret('nvidia'):
+        raise _N90Fail('no_key')
+    fd, path = _n90_tempfile.mkstemp(prefix='studio90_', suffix='.img')
+    _n90_os.close(fd)
+    try:
+        ok = nvidia_image(req['prompt'], path)
+        if not ok:
+            raise _N90Fail('failed', str(globals().get('IMG_DEBUG', {}).get('last', ''))[:90])
+        with open(path, 'rb') as f:
+            return f.read(), 'flux'
+    finally:
+        try:
+            _n90_os.unlink(path)
+        except OSError:
+            pass
+
+
+def _n90_engine_gemini(req):
+    key = _n90_secret('gemini')
+    if not key:
+        raise _N90Fail('no_key')
+    parts = [{'text': req['prompt'] + ((' Avoid: ' + req['negative']) if req.get('negative') else '')}]
+    if req.get('source'):
+        parts.append({'inlineData': {'mimeType': 'image/png', 'data': _n90_b64.b64encode(req['source']).decode()}})
+    body = {'contents': [{'parts': parts}], 'generationConfig': {'responseModalities': ['IMAGE']}}
+    last = None
+    for model in ('gemini-2.5-flash-image', 'gemini-2.0-flash-preview-image-generation'):
+        try:
+            r = _n90_http('post', 'https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent' % model, timeout=75, headers={'x-goog-api-key': key, 'Content-Type': 'application/json'}, json=body)
+        except _N90Fail as exc:
+            last = exc
+            if exc.code in ('gone', 'http_400'):
+                continue
+            raise
+        j = _n90_json_of(r)
+        if isinstance(j, dict) and (j.get('promptFeedback') or {}).get('blockReason'):
+            raise _N90Fail('blocked')
+        for cand in (j.get('candidates') or []) if isinstance(j, dict) else []:
+            for part in ((cand.get('content') or {}).get('parts') or []):
+                data = (part.get('inlineData') or part.get('inline_data') or {}).get('data')
+                if data:
+                    return _n90_b64_bytes(data), model
+            if str(cand.get('finishReason', '')).upper() in ('SAFETY', 'IMAGE_SAFETY', 'PROHIBITED_CONTENT'):
+                raise _N90Fail('blocked')
+        last = _N90Fail('not_image', 'no image part')
+    raise last or _N90Fail('failed')
+
+
+def _n90_engine_cloudflare(req):
+    token, acct = _n90_secret('cloudflare'), _n90_secret('cloudflare_account')
+    if not (token and acct):
+        raise _N90Fail('no_key')
+    base = 'https://api.cloudflare.com/client/v4/accounts/%s/ai/run/' % _n90_up.quote(acct, safe='')
+    hdr = {'Authorization': 'Bearer ' + token}
+    last = None
+    for model, body in (('@cf/black-forest-labs/flux-1-schnell', {'prompt': req['prompt'][:2000], 'steps': 6}),
+                        ('@cf/stabilityai/stable-diffusion-xl-base-1.0', {'prompt': req['prompt'][:2000], 'negative_prompt': req.get('negative', '')[:500], 'width': min(req['w'], 1024), 'height': min(req['h'], 1024),
+                                                                          'num_steps': 20, **({'seed': req['seed']} if req.get('seed') is not None else {})})):
+        try:
+            r = _n90_http('post', base + model, timeout=70, headers=hdr, json=body)
+        except _N90Fail as exc:
+            last = exc
+            if exc.code in ('gone', 'quota'):
+                continue
+            raise
+        ctype = (getattr(r, 'headers', {}) or {}).get('content-type', '') or ''
+        if ctype.startswith('image/'):
+            return r.content, model.split('/')[-1]
+        raw = _n90_img_from_json(_n90_json_of(r), ('result', 'image'), ('image',))
+        if raw:
+            return raw, model.split('/')[-1]
+        last = _N90Fail('not_image', 'no image in reply')
+    raise last or _N90Fail('failed')
+
+
+def _n90_engine_together(req):
+    key = _n90_secret('together')
+    if not key:
+        raise _N90Fail('no_key')
+    last = None
+    for model in ('black-forest-labs/FLUX.1-schnell-Free', 'black-forest-labs/FLUX.1-schnell'):
+        w, h = req['w'] - req['w'] % 16, req['h'] - req['h'] % 16
+        body = {'model': model, 'prompt': req['prompt'][:2000], 'width': _n90_clamp_dim(w, 256, 1440), 'height': _n90_clamp_dim(h, 256, 1440), 'steps': 4, 'n': 1, 'response_format': 'b64_json'}
+        if req.get('seed') is not None:
+            body['seed'] = req['seed']
+        if req.get('negative'):
+            body['negative_prompt'] = req['negative'][:300]
+        try:
+            r = _n90_http('post', 'https://api.together.xyz/v1/images/generations', timeout=70, headers={'Authorization': 'Bearer ' + key}, json=body)
+        except _N90Fail as exc:
+            last = exc
+            if exc.code in ('gone', 'quota', 'http_400', 'http_422'):
+                continue
+            raise
+        raw = _n90_img_from_json(_n90_json_of(r), ('data', 0, 'b64_json'))
+        if raw:
+            return raw, model.split('/')[-1]
+        url = ''
+        try:
+            url = (_n90_json_of(r).get('data') or [{}])[0].get('url') or ''
+        except Exception:
+            pass
+        if url.startswith('https://'):
+            return _n90_http('get', url, timeout=40).content, model.split('/')[-1]
+        last = _N90Fail('not_image', 'no image in reply')
+    raise last or _N90Fail('failed')
+
+
+def _n90_engine_huggingface(req):
+    key = _n90_secret('huggingface')
+    if not key:
+        raise _N90Fail('no_key')
+    params = {'width': req['w'] - req['w'] % 8, 'height': req['h'] - req['h'] % 8}
+    if req.get('negative'):
+        params['negative_prompt'] = req['negative'][:300]
+    if req.get('seed') is not None:
+        params['seed'] = req['seed']
+    last = None
+    for url in ('https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell', 'https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell'):
+        try:
+            r = _n90_http('post', url, timeout=80, headers={'Authorization': 'Bearer ' + key, 'Accept': 'image/png', 'X-Wait-For-Model': 'true'}, json={'inputs': req['prompt'][:1500], 'parameters': params})
+        except _N90Fail as exc:
+            last = exc
+            if exc.code in ('gone',):
+                continue
+            raise
+        ctype = (getattr(r, 'headers', {}) or {}).get('content-type', '') or ''
+        if ctype.startswith('image/') or _n90_sniff(r.content[:16]):
+            return r.content, 'FLUX.1-schnell'
+        raw = _n90_img_from_json(_n90_json_of(r), ('image',), ('data', 0, 'b64_json'))
+        if raw:
+            return raw, 'FLUX.1-schnell'
+        last = _N90Fail('not_image', 'no image in reply')
+    raise last or _N90Fail('failed')
+
+
+def _n90_engine_pollinations_new(req):
+    key = _n90_secret('pollinations')
+    q = {'width': req['w'], 'height': req['h'], 'model': 'flux', 'nologo': 'true'}
+    if req.get('seed') is not None:
+        q['seed'] = req['seed']
+    prompt = req['prompt'] + ((' Avoid: ' + req['negative']) if req.get('negative') else '')
+    hdr = {'Authorization': 'Bearer ' + key} if key else {}
+    r = _n90_http('get', 'https://gen.pollinations.ai/image/' + _n90_up.quote(prompt[:1200], safe=''), timeout=80, params=q, headers=hdr)
+    return r.content, 'flux'
+
+
+def _n90_engine_pollinations_legacy(req):
+    q = {'width': req['w'], 'height': req['h'], 'nologo': 'true', 'enhance': 'false', 'model': 'flux'}
+    if req.get('seed') is not None:
+        q['seed'] = req['seed']
+    prompt = req['prompt'] + ((' Avoid: ' + req['negative']) if req.get('negative') else '')
+    r = _n90_http('get', 'https://image.pollinations.ai/prompt/' + _n90_up.quote(prompt[:1200], safe=''), timeout=80, params=q)
+    return r.content, 'flux'
+
+
+def _n90_engine_openai(req):
+    key = _n90_secret('openai')
+    if not key:
+        raise _N90Fail('no_key')
+    size = '1024x1024' if abs(req['w'] - req['h']) < 0.15 * max(req['w'], req['h']) else ('1536x1024' if req['w'] > req['h'] else '1024x1536')
+    r = _n90_http('post', 'https://api.openai.com/v1/images/generations', timeout=100, headers={'Authorization': 'Bearer ' + key}, json={'model': 'gpt-image-1', 'prompt': req['prompt'][:3000], 'size': size, 'n': 1})
+    raw = _n90_img_from_json(_n90_json_of(r), ('data', 0, 'b64_json'))
+    if not raw:
+        raise _N90Fail('not_image', 'no image in reply')
+    return raw, 'gpt-image-1'
+
+
+def _n90_engine_horde(req):
+    """AI Horde: volunteer GPUs, no account needed (anonymous key), slow and small. Submit, poll, download."""
+    key = _n90_secret('horde') or _N90_HORDE_ANON
+    hdr = {'apikey': key, 'Client-Agent': 'nemo-studio:90:unknown', 'Content-Type': 'application/json'}
+    w, h = max(64, min(576, req['w'])), max(64, min(576, req['h']))
+    ratio = float(req['w']) / float(req['h'])
+    if ratio >= 1:
+        w, h = 576, max(64, int(round(576 / ratio / 64.0)) * 64)
+    else:
+        h, w = 576, max(64, int(round(576 * ratio / 64.0)) * 64)
+    prompt = req['prompt'] + ((' ### ' + req['negative']) if req.get('negative') else '')
+    body = {'prompt': prompt[:900], 'params': {'width': w, 'height': h, 'steps': 25, 'n': 1, 'cfg_scale': 7, 'sampler_name': 'k_euler_a'}, 'nsfw': False, 'censor_nsfw': True,
+            'trusted_workers': False, 'slow_workers': True, 'r2': True, 'shared': False}
+    if req.get('seed') is not None:
+        body['params']['seed'] = str(req['seed'])
+    sub = _n90_json_of(_n90_http('post', 'https://aihorde.net/api/v2/generate/async', timeout=30, headers=hdr, json=body))
+    rid = sub.get('id') if isinstance(sub, dict) else ''
+    if not rid or not _n90_re.fullmatch(r'[A-Za-z0-9\-]{8,64}', str(rid)):
+        raise _N90Fail('failed', 'no request id')
+    deadline = _n90_time.time() + max(20.0, float(req.get('time_left', 120)))
+    while True:
+        chk = _n90_json_of(_n90_http('get', 'https://aihorde.net/api/v2/generate/check/' + rid, timeout=20, headers=hdr))
+        if isinstance(chk, dict) and chk.get('faulted'):
+            raise _N90Fail('faulted')
+        if isinstance(chk, dict) and chk.get('done'):
+            break
+        if _n90_time.time() > deadline:
+            try:
+                _n90_http('delete', 'https://aihorde.net/api/v2/generate/status/' + rid, timeout=10, headers=hdr)
+            except _N90Fail:
+                pass
+            raise _N90Fail('timeout', 'queue %s' % ((chk or {}).get('queue_position', '?') if isinstance(chk, dict) else '?'))
+        _n90_time.sleep(min(4.0, max(0.0, deadline - _n90_time.time())))
+    st = _n90_json_of(_n90_http('get', 'https://aihorde.net/api/v2/generate/status/' + rid, timeout=30, headers=hdr))
+    gens = st.get('generations') if isinstance(st, dict) else None
+    if not gens or not isinstance(gens[0], dict):
+        raise _N90Fail('not_image', 'no generation')
+    img = gens[0].get('img') or ''
+    if str(img).startswith('https://'):
+        return _n90_http('get', img, timeout=40).content, 'community-model'
+    return _n90_b64_bytes(img), 'community-model'
+
+
+# id, label, keys needed, keyless, paid, accepts a source image (edit), per-engine seconds, function
+_N90_ENGINES = (
+    ('nvidia', 'NVIDIA FLUX', ('nvidia',), False, False, False, 150, _n90_engine_nvidia),
+    ('gemini', 'Gemini image', ('gemini',), False, False, True, 80, _n90_engine_gemini),
+    ('cloudflare', 'Cloudflare Workers AI', ('cloudflare', 'cloudflare_account'), False, False, False, 80, _n90_engine_cloudflare),
+    ('together', 'Together FLUX', ('together',), False, False, False, 80, _n90_engine_together),
+    ('huggingface', 'Hugging Face FLUX', ('huggingface',), False, False, False, 90, _n90_engine_huggingface),
+    ('pollinations', 'Pollinations (keyed)', ('pollinations',), False, False, False, 90, _n90_engine_pollinations_new),
+    ('pollinations_free', 'Pollinations (keyless)', (), True, False, False, 90, _n90_engine_pollinations_legacy),
+    ('horde', 'AI Horde (community GPUs)', (), True, False, False, 150, _n90_engine_horde),
+    ('openai', 'OpenAI gpt-image (paid)', ('openai',), False, True, False, 110, _n90_engine_openai),
+)
+_N90_ENGINE_BY_ID = {e[0]: e for e in _N90_ENGINES}
+_N90_REASONS = {
+    'no_key': 'no key saved', 'auth': 'the key was rejected', 'quota': 'free allowance used up or rate limit', 'timeout': 'too slow', 'network': 'could not connect', 'gone': 'endpoint not found',
+    'blocked': 'the provider refused the prompt', 'not_image': 'the reply was not an image', 'corrupt': 'the file was damaged', 'tiny': 'the image was too small', 'blank': 'the image was blank',
+    'too_small': 'the reply was empty', 'faulted': 'the worker failed', 'failed': 'failed', 'cooldown': 'resting after repeated failures', 'paid_off': 'paid engines are switched off',
+    'not_ready': 'not available', 'skipped_edit': 'cannot edit images',
+}
+
+
+def _n90_reason_text(code, detail=''):
+    base = _N90_REASONS.get(code)
+    if base is None:
+        m = _n90_re.fullmatch(r'(?:server|http)_(\d+)', code)
+        base = ('provider error %s' % m.group(1)) if m else code
+    return base + ((' (' + detail + ')') if detail and code in ('timeout', 'failed', 'not_image') else '')
+
+
+# ------------------------------------------------ the ledger: who worked last, who is resting ------------------------------------------------
+_N90_LEDGER = {}
+
+
+def _n90_ledger_load():
+    try:
+        raw = _n36_kv_get('studio90_ledger', '')
+        data = _n90_json.loads(raw) if raw else {}
+        if isinstance(data, dict):
+            for k, v in data.items():
+                if k in _N90_ENGINE_BY_ID and isinstance(v, dict):
+                    _N90_LEDGER[k] = {'ok': int(v.get('ok', 0)), 'fail': int(v.get('fail', 0)), 'last_ok': float(v.get('last_ok', 0)), 'last_fail': float(v.get('last_fail', 0)),
+                                      'streak': int(v.get('streak', 0)), 'why': str(v.get('why', ''))[:60]}
+    except Exception:
+        pass
+
+
+def _n90_ledger_save():
+    try:
+        _n36_kv_set('studio90_ledger', _n90_json.dumps(_N90_LEDGER))
+    except Exception:
+        pass
+
+
+def _n90_ledger_note(engine, ok, why='', now=None):
+    now = now or _n90_time.time()
+    with _N90_LOCK:
+        row = _N90_LEDGER.setdefault(engine, {'ok': 0, 'fail': 0, 'last_ok': 0.0, 'last_fail': 0.0, 'streak': 0, 'why': ''})
+        if ok:
+            row.update(ok=row['ok'] + 1, last_ok=now, streak=0, why='')
+        else:
+            if why not in ('no_key', 'paid_off', 'blocked', 'skipped_edit'):          # a missing key or a refused prompt is not the engine's fault
+                row.update(fail=row['fail'] + 1, last_fail=now, streak=row['streak'] + 1, why=why)
+    _n90_ledger_save()
+
+
+def _n90_engine_state(eid, now=None, editing=False):
+    """('ready'|'no_key'|'paid_off'|'cooldown'|'skipped_edit', detail)."""
+    now = now or _n90_time.time()
+    e = _N90_ENGINE_BY_ID[eid]
+    if editing and not e[5]:
+        return 'skipped_edit', ''
+    if e[4] and not _n90_allow_paid():
+        return 'paid_off', ''
+    for need in e[2]:
+        if not _n90_secret(need):
+            return 'no_key', need
+    row = _N90_LEDGER.get(eid)
+    if row and row['streak'] >= 3 and now - row['last_fail'] < 600:
+        return 'cooldown', row['why']
+    return 'ready', ''
+
+
+def _n90_engine_order(prefer=None, editing=False, now=None):
+    now = now or _n90_time.time()
+    configured = [x.strip().lower() for x in str(_n90_setting('studio_engines', '')).split(',') if x.strip() in _N90_ENGINE_BY_ID]
+    base = configured or [e[0] for e in _N90_ENGINES]
+    if prefer:
+        base = [p for p in prefer if p in _N90_ENGINE_BY_ID] + [b for b in base if b not in prefer]
+    else:
+        good = sorted(((row['last_ok'], eid) for eid, row in _N90_LEDGER.items() if row['last_ok'] and now - row['last_ok'] < 3 * 86400 and eid in base), reverse=True)
+        if good:
+            first = good[0][1]
+            base = [first] + [b for b in base if b != first]
+    return base
+
+
+# ------------------------------------------------ the chain ------------------------------------------------
+def _n90_generate(req, prefer=None, editing=False, deadline=None):
+    """Try the engines in order until one returns a REAL image. Returns {'ok','raw','engine','label','model','tried':[(id, code, detail)],'seconds'}; never raises."""
+    t0 = _n90_time.time()
+    budget = float(_n90_setting('studio_budget', str(_N90_BUDGET)) or _N90_BUDGET)
+    end = deadline or (t0 + max(20.0, budget))
+    tried = []
+    order = _n90_engine_order(prefer, editing)
+    ready = [e for e in order if _n90_engine_state(e, editing=editing)[0] == 'ready']
+    for eid in order:
+        state, detail = _n90_engine_state(eid, editing=editing)
+        e = _N90_ENGINE_BY_ID[eid]
+        if state == 'cooldown' and not any(x for x in ready if x != eid) and eid not in ready:
+            state = 'ready'                                        # nothing else left: try it anyway
+        if state != 'ready':
+            tried.append((eid, state, detail))
+            continue
+        left = end - _n90_time.time()
+        if left < 8:
+            tried.append((eid, 'timeout', 'no time left'))
+            break
+        _N90_STATS['engine_calls'] += 1
+        try:
+            raw, model = e[7](dict(req, time_left=left - 5))
+            ok, why, info = _n90_check_image(raw)
+            if not ok:
+                raise _N90Fail(why)
+        except _N90Fail as exc:
+            tried.append((eid, exc.code, exc.detail))
+            _n90_ledger_note(eid, False, exc.code)
+            continue
+        except Exception as exc:                                  # a bug in one adapter must not stop the others
+            _N90_STATS['errors'] += 1
+            tried.append((eid, 'failed', type(exc).__name__))
+            _n90_ledger_note(eid, False, 'failed')
+            continue
+        _n90_ledger_note(eid, True)
+        return {'ok': True, 'raw': raw, 'engine': eid, 'label': e[1], 'model': model, 'tried': tried, 'seconds': round(_n90_time.time() - t0, 1), 'info': info}
+    return {'ok': False, 'raw': b'', 'engine': '', 'label': '', 'model': '', 'tried': tried, 'seconds': round(_n90_time.time() - t0, 1), 'info': {}}
+
+
+def _n90_failure_text(tried, editing=False):
+    """Every engine with its reason, and what to do next. Never contains a key or a link."""
+    lines = []
+    for eid, code, detail in tried:
+        lines.append('• %s: %s' % (_N90_ENGINE_BY_ID[eid][1], _n90_reason_text(code, detail)))
+    keyless_dead = all(code != 'no_key' for _e, code, _d in tried if _N90_ENGINE_BY_ID[_e][3])
+    tips = []
+    if any(code == 'no_key' for _e, code, _d in tried):
+        tips.append('Add a free key for one more engine: say “studio key together <key>” (also: gemini, cloudflare + account id, huggingface, pollinations).')
+    if keyless_dead:
+        tips.append('The keyless engines are busy or blocked from this server; a key makes this reliable.')
+    return 'I could not make that image. Every engine I tried:\n' + '\n'.join(lines) + ('\n' + ' '.join(tips) if tips else '')
+
+
+# ------------------------------------------------ the replacement for the old one-shot fetch_image ------------------------------------------------
+_N90_FETCH_PREV = fetch_image
+
+
+def fetch_image(prompt, path, w=1600, h=900):
+    """Same contract as before (write the picture to `path`, return True/False) but through the verified chain. Everything that used the old function benefits."""
+    try:
+        if _n90_prompt_blocked(prompt):
+            return False
+        res = _n90_generate({'prompt': str(prompt)[:1500], 'negative': '', 'w': int(w), 'h': int(h), 'seed': None})
+        if not res['ok']:
+            try:
+                IMG_DEBUG['last'] = ' | '.join('%s:%s' % (e, c) for e, c, _d in res['tried'])[:300]
+            except Exception:
+                pass
+            return False
+        out, _info = _n90_finalize(res['raw'], int(w), int(h), want='png' if str(path).lower().endswith('.png') else 'jpg')
+        with open(path, 'wb') as f:
+            f.write(out)
+        _N90_STATS['images_made'] += 1
+        return True
+    except Exception:
+        _N90_STATS['errors'] += 1
+        return False
+
+
+# ------------------------------------------------ images this chat made or was sent (private folder, pruned) ------------------------------------------------
+def _n90_dir():
+    d = _n90_os.path.join(_n90_tempfile.gettempdir(), _N90_DIR_NAME)
+    try:
+        _n90_os.makedirs(d, mode=0o700, exist_ok=True)
+        _n90_os.chmod(d, 0o700)
+    except OSError:
+        pass
+    return d
+
+
+def _n90_db():
+    c = _n35_conn()
+    c.execute('CREATE TABLE IF NOT EXISTS studio90_image(id INTEGER PRIMARY KEY AUTOINCREMENT, chat TEXT, ts REAL, kind TEXT, prompt TEXT, engine TEXT, model TEXT, seed TEXT, w INTEGER, h INTEGER, path TEXT, sha TEXT, parent INTEGER)')
+    c.execute('CREATE INDEX IF NOT EXISTS studio90_image_chat ON studio90_image(chat, ts)')
+    c.commit()
+    return c
+
+
+def _n90_store(cid, raw, kind, prompt='', engine='', model='', seed=None, parent=None, ext=None):
+    """Keep one picture for follow-ups ("make it black and white"). Returns the row id, or 0 when it could not be kept."""
+    try:
+        fmt = ext or _n90_sniff(raw) or 'png'
+        ext = {'jpeg': 'jpg'}.get(fmt, fmt)
+        sha = _n90_hashlib.sha256(raw).hexdigest()[:16]
+        path = _n90_os.path.join(_n90_dir(), '%s_%s_%d.%s' % (_n90_re.sub(r'\D', '', str(cid)) or 'x', sha, int(_n90_time.time() * 1000) % 10**9, ext))
+        with open(path, 'wb') as f:
+            f.write(raw)
+        try:
+            _n90_os.chmod(path, 0o600)
+        except OSError:
+            pass
+        Image = _n90_pil()
+        w = h = 0
+        if Image is not None:
+            try:
+                w, h = Image.open(_n90_io.BytesIO(raw)).size
+            except Exception:
+                pass
+        c = _n90_db()
+        try:
+            cur = c.execute('INSERT INTO studio90_image(chat,ts,kind,prompt,engine,model,seed,w,h,path,sha,parent) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)',
+                            (str(cid), _n90_time.time(), kind, str(prompt)[:300], engine, model, '' if seed is None else str(seed), w, h, path, sha, parent))
+            rid = cur.lastrowid
+            c.commit()
+        finally:
+            c.close()
+        _n90_prune(cid)
+        return rid
+    except Exception:
+        _N90_STATS['errors'] += 1
+        return 0
+
+
+def _n90_prune(cid=None):
+    now = _n90_time.time()
+    try:
+        c = _n90_db()
+        try:
+            old = c.execute('SELECT id,path FROM studio90_image WHERE ts<?', (now - _N90_KEEP_SECONDS,)).fetchall()
+            if cid is not None:
+                extra = c.execute('SELECT id,path FROM studio90_image WHERE chat=? ORDER BY ts DESC LIMIT -1 OFFSET ?', (str(cid), _N90_KEEP_PER_CHAT)).fetchall()
+                old = old + [x for x in extra if x not in old]
+            for rid, path in old:
+                try:
+                    if path and _n90_os.path.dirname(_n90_os.path.abspath(path)) == _n90_os.path.abspath(_n90_dir()):
+                        _n90_os.unlink(path)
+                except OSError:
+                    pass
+                c.execute('DELETE FROM studio90_image WHERE id=?', (rid,))
+            c.commit()
+        finally:
+            c.close()
+    except Exception:
+        _N90_STATS['errors'] += 1
+
+
+def _n90_recent(cid, k=1, max_age=2 * 3600):
+    """The last k pictures of this chat (newest first) as dicts with their bytes; files that vanished are skipped."""
+    out = []
+    try:
+        c = _n90_db()
+        try:
+            rows = c.execute('SELECT id,ts,kind,prompt,engine,model,seed,w,h,path FROM studio90_image WHERE chat=? AND ts>? ORDER BY ts DESC, id DESC LIMIT ?', (str(cid), _n90_time.time() - max_age, int(k) * 3)).fetchall()
+        finally:
+            c.close()
+        for rid, ts, kind, prompt, engine, model, seed, w, h, path in rows:
+            try:
+                with open(path, 'rb') as f:
+                    out.append({'id': rid, 'ts': ts, 'kind': kind, 'prompt': prompt, 'engine': engine, 'model': model, 'seed': seed, 'w': w, 'h': h, 'raw': f.read()})
+            except OSError:
+                continue
+            if len(out) >= k:
+                break
+    except Exception:
+        _N90_STATS['errors'] += 1
+    return out
+
+
+# ------------------------------------------------ colours and fonts ------------------------------------------------
+_N90_COLORS = {
+    'white': (255, 255, 255), 'black': (0, 0, 0), 'red': (220, 38, 38), 'green': (22, 163, 74), 'blue': (37, 99, 235), 'yellow': (250, 204, 21), 'orange': (249, 115, 22),
+    'purple': (126, 34, 206), 'pink': (236, 72, 153), 'gray': (107, 114, 128), 'grey': (107, 114, 128), 'brown': (120, 72, 36), 'gold': (212, 175, 55), 'navy': (15, 23, 66),
+    'teal': (13, 148, 136), 'cyan': (6, 182, 212), 'magenta': (217, 70, 239), 'maroon': (127, 29, 29), 'silver': (192, 192, 192), 'beige': (245, 233, 211), 'lime': (132, 204, 22),
+    'indigo': (79, 70, 229), 'violet': (139, 92, 246), 'turquoise': (45, 212, 191), 'cream': (255, 248, 231), 'charcoal': (38, 42, 51),
+}
+
+
+def _n90_color(word, default=(255, 255, 255)):
+    w = str(word or '').strip().lower()
+    if w in _N90_COLORS:
+        return _N90_COLORS[w]
+    m = _n90_re.fullmatch(r'#?([0-9a-f]{6})', w) or _n90_re.fullmatch(r'#([0-9a-f]{3})', w)
+    if m:
+        h = m.group(1)
+        if len(h) == 3:
+            h = ''.join(c * 2 for c in h)
+        return (int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16))
+    m = _n90_re.fullmatch(r'rgb\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*\)', w)
+    if m and all(int(x) <= 255 for x in m.groups()):
+        return tuple(int(x) for x in m.groups())
+    return default
+
+
+def _n90_luma(rgb):
+    def ch(v):
+        v = v / 255.0
+        return v / 12.92 if v <= 0.03928 else ((v + 0.055) / 1.055) ** 2.4
+    return 0.2126 * ch(rgb[0]) + 0.7152 * ch(rgb[1]) + 0.0722 * ch(rgb[2])
+
+
+def _n90_contrast(a, b):
+    la, lb = _n90_luma(a), _n90_luma(b)
+    hi, lo = max(la, lb), min(la, lb)
+    return (hi + 0.05) / (lo + 0.05)
+
+
+def _n90_readable(fg, bg):
+    """fg unless it is hard to read on bg (WCAG contrast < 4.5), then black or white, whichever reads better."""
+    if _n90_contrast(fg, bg) >= 4.5:
+        return fg
+    return (255, 255, 255) if _n90_contrast((255, 255, 255), bg) >= _n90_contrast((0, 0, 0), bg) else (0, 0, 0)
+
+
+_N90_FONT_DIRS = ('/usr/share/fonts/truetype/dejavu/', '/usr/share/fonts/truetype/liberation/', '/usr/share/fonts/truetype/noto/', '/usr/share/fonts/dejavu/', '/Library/Fonts/', 'C:/Windows/Fonts/')
+_N90_FONT_FILES = {('sans', False): ('DejaVuSans.ttf', 'LiberationSans-Regular.ttf', 'NotoSans-Regular.ttf', 'Arial.ttf', 'arial.ttf'),
+                   ('sans', True): ('DejaVuSans-Bold.ttf', 'LiberationSans-Bold.ttf', 'NotoSans-Bold.ttf', 'Arial Bold.ttf', 'arialbd.ttf'),
+                   ('serif', False): ('DejaVuSerif.ttf', 'LiberationSerif-Regular.ttf', 'NotoSerif-Regular.ttf'),
+                   ('serif', True): ('DejaVuSerif-Bold.ttf', 'LiberationSerif-Bold.ttf', 'NotoSerif-Bold.ttf'),
+                   ('mono', False): ('DejaVuSansMono.ttf', 'LiberationMono-Regular.ttf'), ('mono', True): ('DejaVuSansMono-Bold.ttf', 'LiberationMono-Bold.ttf')}
+_N90_FONT_CACHE = {}
+
+
+def _n90_font_path(bold=False, family='sans', text=''):
+    if _n90_re.search(r'[\u0900-\u097F]', str(text or '')):
+        try:
+            p = _ensure_hindi_font()
+            if p and _n90_os.path.exists(p):
+                return p
+        except Exception:
+            pass
+        for p in ('/usr/share/fonts/truetype/noto/NotoSansDevanagari-Regular.ttf', '/usr/share/fonts/truetype/lohit-devanagari/Lohit-Devanagari.ttf', '/usr/share/fonts/truetype/freefont/FreeSans.ttf'):
+            if _n90_os.path.exists(p):
+                return p
+    for name in _N90_FONT_FILES.get((family, bool(bold)), _N90_FONT_FILES[('sans', bool(bold))]):
+        for d in _N90_FONT_DIRS:
+            p = d + name
+            if _n90_os.path.exists(p):
+                return p
+    return ''
+
+
+def _n90_font(size, bold=False, family='sans', text=''):
+    from PIL import ImageFont
+    size = max(8, int(size))
+    path = _n90_font_path(bold, family, text)
+    key = (path, size)
+    if key in _N90_FONT_CACHE:
+        return _N90_FONT_CACHE[key]
+    try:
+        f = ImageFont.truetype(path, size) if path else ImageFont.load_default(size)
+    except Exception:
+        try:
+            f = ImageFont.load_default(size)
+        except TypeError:
+            f = ImageFont.load_default()
+    _N90_FONT_CACHE[key] = f
+    return f
+
+
+def _n90_text_size(draw, text, font, stroke=0):
+    box = draw.textbbox((0, 0), text, font=font, stroke_width=stroke)
+    return box[2] - box[0], box[3] - box[1]
+
+
+def _n90_wrap(draw, text, font, max_w, stroke=0):
+    """Lines that fit max_w pixels, broken at spaces (a very long word is broken by characters)."""
+    lines = []
+    for para in str(text).replace('\r', '').split('\n'):
+        words = para.split(' ')
+        cur = ''
+        for word in words:
+            trial = (cur + ' ' + word).strip() if cur else word
+            if _n90_text_size(draw, trial, font, stroke)[0] <= max_w or not cur:
+                if _n90_text_size(draw, trial, font, stroke)[0] > max_w and not cur:
+                    piece = ''
+                    for ch in word:
+                        if _n90_text_size(draw, piece + ch, font, stroke)[0] > max_w and piece:
+                            lines.append(piece)
+                            piece = ch
+                        else:
+                            piece += ch
+                    cur = piece
+                else:
+                    cur = trial
+            else:
+                lines.append(cur)
+                cur = word
+        lines.append(cur)
+    return lines or ['']
+
+
+def _n90_fit_text(draw, text, box_w, box_h, bold=True, family='sans', max_size=400, min_size=14, line_gap=0.18, stroke_ratio=0.0):
+    """Largest font size at which the wrapped text fits the box; returns (font, lines, line_height)."""
+    lo, hi, best = min_size, max_size, None
+    while lo <= hi:
+        mid = (lo + hi) // 2
+        font = _n90_font(mid, bold, family, text)
+        stroke = int(mid * stroke_ratio)
+        lines = _n90_wrap(draw, text, font, box_w, stroke)
+        lh = int(mid * (1 + line_gap))
+        total = lh * len(lines)
+        widest = max(_n90_text_size(draw, ln, font, stroke)[0] for ln in lines)
+        if total <= box_h and widest <= box_w:
+            best = (font, lines, lh)
+            lo = mid + 1
+        else:
+            hi = mid - 1
+    if best is None:
+        font = _n90_font(min_size, bold, family, text)
+        lines = _n90_wrap(draw, text, font, box_w)
+        best = (font, lines[: max(1, int(box_h // max(1, int(min_size * (1 + line_gap)))))], int(min_size * (1 + line_gap)))
+    return best
+
+
+# ------------------------------------------------ the source picture: sent now, replied to, or made a moment ago ------------------------------------------------
+def _n90_fetch_telegram_file(file_id, limit=12 * 1024 * 1024):
+    info = tg('getFile', file_id=file_id)
+    fp = (info.get('result') or {}).get('file_path')
+    if not fp:
+        return None
+    r = requests.get('%s/%s' % (TG_FILE, fp), timeout=60)
+    data = r.content
+    return data if data and len(data) <= limit else None
+
+
+def _n90_message_image(msg):
+    """Bytes of the largest image attached to this message (photo, or a document that is an image); None if there is none."""
+    photos = [p for p in (msg.get('photo') or []) if isinstance(p, dict) and p.get('file_id')]
+    if photos:
+        best = None
+        for p in photos:
+            if int(p.get('file_size') or 0) <= 12 * 1024 * 1024:
+                best = p
+        if best:
+            return _n90_fetch_telegram_file(best['file_id'])
+    doc = msg.get('document') or {}
+    if doc.get('file_id') and str(doc.get('mime_type', '')).startswith('image/') and int(doc.get('file_size') or 0) <= 12 * 1024 * 1024:
+        return _n90_fetch_telegram_file(doc['file_id'])
+    return None
+
+
+def _n90_source_image(cid, msg):
+    """(bytes, where). Order: attached to this message, the message it replies to, the last picture of this chat (2 h), the last photo the chat sent."""
+    raw = _n90_message_image(msg)
+    if raw:
+        return raw, 'attached'
+    reply = msg.get('reply_to_message') or {}
+    if reply:
+        raw = _n90_message_image(reply)
+        if raw:
+            return raw, 'replied-to'
+    last = _n90_recent(cid, 1)
+    if last:
+        return last[0]['raw'], 'last-picture'
+    try:
+        b64 = LAST_PHOTO.get(cid)
+        if b64:
+            return _n90_b64.b64decode(b64), 'last-photo'
+    except Exception:
+        pass
+    return None, ''
+
+
+# ------------------------------------------------ parsing "resize it to ... then add text ..." ------------------------------------------------
+def _n90_lower(text):
+    return ''.join(ch.lower() if len(ch.lower()) == 1 else ch for ch in str(text))
+
+
+_N90_PRESET_NAMES = '|'.join(_n90_re.escape(k) for k in sorted(_N90_PRESETS, key=len, reverse=True))
+_N90_COLOR_RX = r'(?:#[0-9a-f]{3,6}|' + '|'.join(sorted(_N90_COLORS, key=len, reverse=True)) + r')'
+_N90_OP_PATTERNS = (
+    ('resize', r'(?:resize|scale|make|change|set)(?: it| this| the image| the picture)?(?: to| into| as)? (\d{2,5}) ?[x×*] ?(\d{2,5})(?: ?px| pixels)?(?: (fit|fill|stretch|pad|crop))?'),
+    ('crop_box', r'crop(?: it| this)?(?: to)? (\d+) ?, ?(\d+) ?, ?(\d+) ?, ?(\d+)'),
+    ('crop', r'crop(?: it| this| the image| the picture)?(?: to)?(?: a)? (square|\d{1,2} ?: ?\d{1,2})'),
+    ('pad', r'pad(?: it| this)?(?: to)? (square|\d{1,2} ?: ?\d{1,2})(?: with (' + _N90_COLOR_RX + r'))?'),
+    ('resize_preset', r'(?:resize|crop|make|fit|format|scale|convert)(?: it| this| the image| the picture| the photo)?(?: to| for| as| into)(?: an?| the)? (' + _N90_PRESET_NAMES + r')\b'),
+    ('resize_pct', r'(?:resize|scale|make)(?: it| this)?(?: to)? (\d{1,3}) ?%|(\d{1,3}) ?% (?:smaller|larger|bigger)'),
+    ('resize_width', r'(?:resize|scale|make)(?: it| this)?(?: to)? (width|height) (\d{2,5})(?: ?px| pixels)?'),
+    ('rotate', r'rotate(?: it| this| the image)?(?: by)? (-?\d{1,3}) ?(?:°|degrees?|deg)?(?!\w)|rotate (left|right)|turn (?:it )?(upside down)'),
+    ('flip', r'(?:flip|mirror)(?: it| this| the image)?(?: (horizontally|vertically|horizontal|vertical))?'),
+    ('grayscale', r'gr[ae]yscale|black (?:and|&|n) white|b ?& ?w\b|monochrome'),
+    ('sepia', r'sepia'),
+    ('invert', r'invert(?: the)? colou?rs|\bnegative effect|\binvert\b'),
+    ('blur', r'(?:blur|soften)(?: it| this| the image)?(?: by| radius)? ?(\d{1,2})?'),
+    ('sharpen', r'sharpen|make it sharper|more sharp'),
+    ('brightness', r'(brighten|brighter|darken|darker|lighten)(?: it)?(?: by)? ?(\d{1,3})? ?%?'),
+    ('contrast', r'(?:(more|increase|boost|add|higher|less|reduce|lower)) contrast(?: by)? ?(\d{1,3})? ?%?|contrast ([+-]\d{1,3}) ?%?'),
+    ('saturation', r'(?:(more|increase|boost|less|reduce|lower)) saturation(?: by)? ?(\d{1,3})? ?%?|saturat\w+ ([+-]\d{1,3}) ?%?|desaturate|more vivid|more colou?rful'),
+    ('vignette', r'vignette'),
+    ('pixelate', r'pixelate(?: it)?(?: by)? ?(\d{1,3})?'),
+    ('vintage', r'vintage (?:look|effect|filter)|retro (?:look|filter)|old photo'),
+    ('round', r'round(?:ed)?(?: the| its)? corners?(?: (?:by|radius))? ?(\d{1,4})?'),
+    ('circle', r'circle crop|circular(?: crop)?|(?:make|crop) (?:it )?(?:a |into a )?(?:circle|round avatar)'),
+    ('border', r'(?:add )?(?:a )?(' + _N90_COLOR_RX + r' )?border(?: of)? ?(\d{1,3}) ?(?:px)?(?: (' + _N90_COLOR_RX + r'))?'),
+    ('text', r'(?:add|write|put|overlay|caption|insert|print)(?: the)?(?: some)?(?: text| caption| words| title| label)?:? ?[\'"“‘]([^\'"”’]{1,200})[\'"”’]'),
+    ('watermark', r'(?:add (?:a )?)?water ?mark(?: it)?(?: with)? ?[\'"“‘]([^\'"”’]{1,80})[\'"”’]|add (?:a )?watermark:? ([^,.;\'"“”‘’]{1,60})'),
+    ('remove_bg', r'remove(?: the)? background|background remov\w+|transparent background|cut ?out(?: the)? (?:subject|person|object)|make (?:the )?background transparent|\bremove bg\b|\bno background\b'),
+    ('upscale', r'upscale(?: it| this)?(?: by| to)? ?(\d)? ?x?|enlarge(?: it)?(?: by)? (\d) ?x|(\d) ?x (?:bigger|larger|upscale|resolution)|increase (?:the )?resolution|make (?:it )?hd'),
+    ('compress', r'(?:compress|reduce|shrink)(?: the| its)?(?: file)?(?: size)?(?: it)?(?: to| under| below| less than| within)? ?(\d{1,5}) ?(kb|mb|k|m)\b|compress(?: it| this| the image)?'),
+    ('convert', r'(?:convert|save|export|send)(?: it| this| the image)?(?: to| as| into) (png|jpe?g|webp|pdf)\b|\bas (png|jpe?g|webp|pdf) file'),
+    ('strip', r'(?:strip|remove|delete|clear)(?: all| the)? (?:metadata|exif(?: data)?|location data|gps)|auto[- ]?orient|fix (?:the )?orientation'),
+    ('palette', r'(?:colou?r )?palette|dominant colou?rs|main colou?rs|extract (?:the )?colou?rs|colou?rs (?:in|of) (?:this|the) (?:image|picture|photo)'),
+    ('info', r'(?:image |picture |photo )?(?:info|details|dimensions)\b|(?:what(?:\'s| is) the |tell me the )(?:size|resolution)|how big is (?:this|it)'),
+    ('collage', r'collage|(?:make a )?grid of (?:my )?(?:last )?(\d{1,2})? ?(?:images|pictures|photos)|combine (?:my )?(?:last )?(\d{1,2})? ?(?:images|pictures|photos)'),
+    ('tiles', r'(?:split|cut|slice|divide)(?: it| this| the image)?(?: into)? (\d) ?[x×] ?(\d)|carousel(?: of)? (\d)|(?:split|cut|slice|divide)(?: it)?(?: into)? (\d) (?:parts|pieces|tiles|slides)'),
+)
+_N90_OP_RX = [(name, _n90_re.compile(rx, _n90_re.I)) for name, rx in _N90_OP_PATTERNS]
+_N90_EDIT_WORDS = _n90_re.compile(r'(?i)\b(?:resize|scale|crop|pad|rotate|flip|mirror|gr[ae]yscale|black (?:and|&) white|sepia|invert|blur|sharpen|brighten|brighter|darken|darker|contrast|saturat\w*|vignette|pixelate|vintage|round(?:ed)?(?: the| its)? corners?|circle crop|'
+                                  r'border|watermark|remove (?:the )?background|transparent background|upscale|enlarge|compress|convert (?:it )?to|strip (?:the )?(?:metadata|exif)|palette|dominant colou?rs|collage|split|carousel|tiles|add (?:the )?text|write ["\'“‘]|'
+                                  r'caption ["\'“‘]|make it (?:hd|bigger|smaller|brighter|darker|sharper)|image info|picture info)\b')
+
+
+def _n90_parse_ops(text):
+    """Ordered list of operations found in the sentence. Matches are taken left to right; overlapping ones are dropped."""
+    raw = str(text or '')
+    low = _n90_lower(raw)
+    found = []
+    for name, rx in _N90_OP_RX:
+        for m in rx.finditer(low):
+            found.append((m.start(), m.end(), name, m))
+    found.sort(key=lambda x: (x[0], -(x[1] - x[0])))
+    ops, end = [], -1
+    for start, stop, name, m in found:
+        if start < end:
+            continue
+        end = stop
+        ops.append(_n90_op_from_match(name, m, raw, low))
+    return [o for o in ops if o]
+
+
+def _n90_op_from_match(name, m, raw, low):
+    g = m.groups()
+    if name == 'resize':
+        return {'op': 'resize', 'w': int(g[0]), 'h': int(g[1]), 'mode': g[2] or 'fill'}
+    if name == 'resize_preset':
+        w, h = _N90_PRESETS[g[0].lower()]
+        return {'op': 'resize', 'w': w, 'h': h, 'mode': 'fill', 'preset': g[0].lower()}
+    if name == 'resize_pct':
+        pct = int(g[0] or g[1])
+        if 'smaller' in m.group(0):
+            pct = 100 - pct
+        elif 'larger' in m.group(0) or 'bigger' in m.group(0):
+            pct = 100 + pct
+        return {'op': 'scale', 'pct': max(5, min(400, pct))}
+    if name == 'resize_width':
+        return {'op': 'resize_side', 'side': g[0], 'px': int(g[1])}
+    if name == 'crop_box':
+        return {'op': 'crop_box', 'x': int(g[0]), 'y': int(g[1]), 'w': int(g[2]), 'h': int(g[3])}
+    if name == 'crop':
+        return {'op': 'crop', 'ratio': g[0].replace(' ', '')}
+    if name == 'pad':
+        return {'op': 'pad', 'ratio': g[0].replace(' ', ''), 'color': _n90_color(g[1], (255, 255, 255))}
+    if name == 'rotate':
+        if g[0] is not None:
+            return {'op': 'rotate', 'deg': int(g[0]) % 360}
+        if g[1]:
+            return {'op': 'rotate', 'deg': 90 if g[1] == 'left' else 270}
+        return {'op': 'rotate', 'deg': 180}
+    if name == 'flip':
+        v = (g[0] or 'horizontal').lower()
+        return {'op': 'flip', 'axis': 'v' if v.startswith('vert') else 'h'}
+    if name in ('grayscale', 'sepia', 'invert', 'sharpen', 'vignette', 'vintage', 'circle'):
+        return {'op': name}
+    if name == 'blur':
+        return {'op': 'blur', 'radius': int(g[0]) if g[0] else 4}
+    if name == 'brightness':
+        word, amt = g[0], int(g[1]) if g[1] else 25
+        return {'op': 'brightness', 'pct': amt if word in ('brighten', 'brighter', 'lighten') else -amt}
+    if name == 'contrast':
+        if g[2]:
+            return {'op': 'contrast', 'pct': int(g[2])}
+        amt = int(g[1]) if g[1] else 25
+        return {'op': 'contrast', 'pct': -amt if g[0] in ('less', 'reduce', 'lower') else amt}
+    if name == 'saturation':
+        whole = m.group(0)
+        if whole == 'desaturate':
+            return {'op': 'saturation', 'pct': -60}
+        if whole in ('more vivid', 'more colorful', 'more colourful'):
+            return {'op': 'saturation', 'pct': 35}
+        if g[2]:
+            return {'op': 'saturation', 'pct': int(g[2])}
+        amt = int(g[1]) if g[1] else 30
+        return {'op': 'saturation', 'pct': -amt if g[0] in ('less', 'reduce', 'lower') else amt}
+    if name == 'pixelate':
+        return {'op': 'pixelate', 'size': int(g[0]) if g[0] else 12}
+    if name == 'round':
+        return {'op': 'round', 'radius': int(g[0]) if g[0] else 0}
+    if name == 'border':
+        px = int(g[1])
+        colour = g[0] or g[2]
+        return {'op': 'border', 'px': max(1, min(200, px)), 'color': _n90_color((colour or 'white').strip(), (255, 255, 255))}
+    if name == 'text':
+        s, e = m.start(1), m.end(1)
+        label = raw[s:e]
+        tail = low[m.end(): m.end() + 80]
+        pos = 'bottom'
+        for words, key in (('top left', 'tl'), ('top right', 'tr'), ('bottom left', 'bl'), ('bottom right', 'br'), ('top', 'top'), ('bottom', 'bottom'), ('center', 'center'), ('middle', 'center'), ('centre', 'center')):
+            if _n90_re.search(r'\b(?:at |in |on )?(?:the )?' + words + r'\b', tail) or _n90_re.search(r'\b(?:at |in |on )?(?:the )?' + words + r'\b', low[max(0, m.start() - 25):m.start()]):
+                pos = key
+                break
+        size = _n90_re.search(r'\bsize (\d{1,4})\b', tail)
+        col = _n90_re.search(r'\b(' + _N90_COLOR_RX + r')(?: text| colou?r)?\b', tail)
+        return {'op': 'text', 'text': label, 'pos': pos, 'size': int(size.group(1)) if size else 0, 'color': _n90_color(col.group(1), (255, 255, 255)) if col else None, 'bold': 'bold' in tail or True}
+    if name == 'watermark':
+        gi = 1 if m.group(1) else 2
+        return {'op': 'watermark', 'text': (raw[m.start(gi):m.end(gi)] if m.group(gi) else '').strip()[:80]}
+    if name == 'remove_bg':
+        return {'op': 'remove_bg'}
+    if name == 'upscale':
+        n = next((int(x) for x in g if x), 2)
+        return {'op': 'upscale', 'factor': max(2, min(4, n))}
+    if name == 'compress':
+        if g[0]:
+            unit = g[1].lower()
+            kb = int(g[0]) * (1024 if unit.startswith('m') else 1)
+            return {'op': 'compress', 'kb': max(5, min(10240, kb))}
+        return {'op': 'compress', 'kb': 0}
+    if name == 'convert':
+        fmt = (g[0] or g[1] or 'png').lower()
+        return {'op': 'convert', 'fmt': 'jpg' if fmt in ('jpeg', 'jpg') else fmt}
+    if name == 'strip':
+        return {'op': 'strip'}
+    if name in ('palette', 'info'):
+        return {'op': name}
+    if name == 'collage':
+        n = next((int(x) for x in g if x), 0)
+        cols = _n90_re.search(r'(\d) ?columns?', low)
+        return {'op': 'collage', 'n': n, 'cols': int(cols.group(1)) if cols else 0}
+    if name == 'tiles':
+        if g[0] and g[1]:
+            return {'op': 'tiles', 'cols': int(g[0]), 'rows': int(g[1])}
+        if g[2]:
+            return {'op': 'tiles', 'cols': int(g[2]), 'rows': 1}
+        return {'op': 'tiles', 'cols': int(g[3]), 'rows': 1}
+    return None
+
+
+# ------------------------------------------------ the operations (Pillow) ------------------------------------------------
+class _N90Ctx:
+    """What the operations leave behind besides the picture: notes, a palette, tiles, the format wanted."""
+
+    def __init__(self, cid):
+        self.cid = cid
+        self.notes = []
+        self.palette = None
+        self.info = None
+        self.tiles = []
+        self.fmt = ''
+        self.max_kb = 0
+        self.transparent = False
+        self.collage_of = None
+        self.removed_with = ''
+
+
+def _n90_ratio_of(text):
+    if text == 'square':
+        return 1, 1
+    a, b = text.split(':')
+    return max(1, int(a)), max(1, int(b))
+
+
+def _n90_to_mode(im, mode):
+    return im if im.mode == mode else im.convert(mode)
+
+
+def _n90_op_resize(im, w, h, mode='fill'):
+    from PIL import Image, ImageOps
+    w, h = _n90_clamp_dim(w, 16, 8000), _n90_clamp_dim(h, 16, 8000)
+    if w * h > _N90_MAX_PIXELS:
+        raise _N90Fail('too_big')
+    base = im if im.mode in ('RGB', 'RGBA', 'L') else im.convert('RGBA' if 'A' in im.mode or im.info.get('transparency') else 'RGB')
+    if mode == 'stretch':
+        return base.resize((w, h), Image.LANCZOS)
+    if mode == 'fit' or mode == 'pad':
+        scale = min(w / float(base.size[0]), h / float(base.size[1]))
+        nw, nh = max(1, int(round(base.size[0] * scale))), max(1, int(round(base.size[1] * scale)))
+        small = base.resize((nw, nh), Image.LANCZOS)
+        canvas = Image.new('RGBA' if small.mode == 'RGBA' else 'RGB', (w, h), (255, 255, 255, 0) if small.mode == 'RGBA' else (255, 255, 255))
+        canvas.paste(small, ((w - nw) // 2, (h - nh) // 2), small if small.mode == 'RGBA' else None)
+        return canvas
+    return ImageOps.fit(base, (w, h), Image.LANCZOS)
+
+
+def _n90_op_crop_ratio(im, ratio):
+    a, b = _n90_ratio_of(ratio)
+    w, h = im.size
+    target = a / float(b)
+    if w / float(h) > target:
+        nw, nh = int(round(h * target)), h
+    else:
+        nw, nh = w, int(round(w / target))
+    x, y = (w - nw) // 2, (h - nh) // 2
+    return im.crop((x, y, x + nw, y + nh))
+
+
+def _n90_op_pad_ratio(im, ratio, color):
+    from PIL import Image
+    a, b = _n90_ratio_of(ratio)
+    w, h = im.size
+    target = a / float(b)
+    if w / float(h) > target:
+        nw, nh = w, int(round(w / target))
+    else:
+        nw, nh = int(round(h * target)), h
+    canvas = Image.new('RGB', (nw, nh), color)
+    base = im.convert('RGBA') if im.mode != 'RGBA' else im
+    canvas.paste(base, ((nw - w) // 2, (nh - h) // 2), base)
+    return canvas
+
+
+def _n90_rounded_mask(size, radius):
+    from PIL import Image, ImageDraw
+    w, h = size
+    radius = max(1, min(int(radius), min(w, h) // 2))
+    scale = 4
+    big = Image.new('L', (w * scale, h * scale), 0)
+    ImageDraw.Draw(big).rounded_rectangle((0, 0, w * scale - 1, h * scale - 1), radius=radius * scale, fill=255)
+    return big.resize((w, h), Image.LANCZOS)
+
+
+def _n90_op_round(im, radius):
+    im = im.convert('RGBA')
+    r = radius or int(min(im.size) * 0.08)
+    mask = _n90_rounded_mask(im.size, r)
+    out = im.copy()
+    out.putalpha(_n90_chops_multiply(im.split()[3], mask))
+    return out
+
+
+def _n90_chops_multiply(a, b):
+    from PIL import ImageChops
+    return ImageChops.multiply(a, b)
+
+
+def _n90_op_circle(im):
+    from PIL import Image, ImageDraw
+    side = min(im.size)
+    sq = im.crop(((im.size[0] - side) // 2, (im.size[1] - side) // 2, (im.size[0] - side) // 2 + side, (im.size[1] - side) // 2 + side)).convert('RGBA')
+    big = Image.new('L', (side * 4, side * 4), 0)
+    ImageDraw.Draw(big).ellipse((0, 0, side * 4 - 1, side * 4 - 1), fill=255)
+    sq.putalpha(_n90_chops_multiply(sq.split()[3], big.resize((side, side), Image.LANCZOS)))
+    return sq
+
+
+def _n90_op_enhance(im, kind, pct):
+    from PIL import ImageEnhance
+    factor = max(0.0, 1.0 + pct / 100.0)
+    alpha = im.split()[3] if im.mode == 'RGBA' else None
+    base = im.convert('RGB')
+    cls = {'brightness': ImageEnhance.Brightness, 'contrast': ImageEnhance.Contrast, 'saturation': ImageEnhance.Color}[kind]
+    out = cls(base).enhance(factor)
+    if alpha is not None:
+        out = out.convert('RGBA')
+        out.putalpha(alpha)
+    return out
+
+
+def _n90_op_sepia(im):
+    from PIL import ImageOps
+    alpha = im.split()[3] if im.mode == 'RGBA' else None
+    g = ImageOps.grayscale(im.convert('RGB'))
+    out = ImageOps.colorize(g, black='#1f1208', mid='#a07850', white='#f6e9cc').convert('RGB')
+    if alpha is not None:
+        out = out.convert('RGBA')
+        out.putalpha(alpha)
+    return out
+
+
+def _n90_op_vignette(im, strength=0.55):
+    from PIL import Image
+    alpha = im.split()[3] if im.mode == 'RGBA' else None
+    base = im.convert('RGB')
+    mask = Image.radial_gradient('L').resize(base.size, Image.BICUBIC)          # 0 centre .. 255 corners
+    mask = mask.point(lambda v: int(max(0, v - 90) * strength * 1.7))
+    dark = Image.new('RGB', base.size, (0, 0, 0))
+    out = Image.composite(dark, base, mask)
+    if alpha is not None:
+        out = out.convert('RGBA')
+        out.putalpha(alpha)
+    return out
+
+
+def _n90_op_pixelate(im, size):
+    from PIL import Image
+    size = max(2, min(200, size))
+    small = im.resize((max(1, im.size[0] // size), max(1, im.size[1] // size)), Image.BILINEAR)
+    return small.resize(im.size, Image.NEAREST)
+
+
+def _n90_anchor_xy(pos, w, h, tw, th, margin):
+    x = {'tl': margin, 'bl': margin, 'tr': w - tw - margin, 'br': w - tw - margin}.get(pos, (w - tw) // 2)
+    y = {'tl': margin, 'tr': margin, 'top': margin, 'bl': h - th - margin, 'br': h - th - margin, 'bottom': h - th - margin}.get(pos, (h - th) // 2)
+    return x, y
+
+
+def _n90_op_text(im, text, pos='bottom', size=0, color=None, bold=True):
+    """Text with an outline so it reads on any picture; the colour is replaced by black/white when its contrast against the area behind it is poor."""
+    from PIL import Image, ImageDraw
+    base = im.convert('RGBA')
+    w, h = base.size
+    draw = ImageDraw.Draw(base)
+    margin = max(8, int(min(w, h) * 0.04))
+    if size:
+        font = _n90_font(size, bold, 'sans', text)
+        stroke = max(1, size // 14)
+        lines = _n90_wrap(draw, text, font, w - 2 * margin, stroke)
+        lh = int(size * 1.2)
+    else:
+        font, lines, lh = _n90_fit_text(draw, text, w - 2 * margin, max(30, int(h * 0.28)), bold, 'sans', max_size=max(24, int(min(w, h) * 0.12)), min_size=14, stroke_ratio=0.07)
+        stroke = max(1, int(getattr(font, 'size', 20) * 0.07))
+    block_h = lh * len(lines)
+    widest = max(_n90_text_size(draw, ln, font, stroke)[0] for ln in lines)
+    x0, y0 = _n90_anchor_xy(pos, w, h, widest, block_h, margin)
+    region = base.crop((max(0, x0), max(0, y0), min(w, x0 + widest), min(h, y0 + block_h))).convert('RGB').resize((1, 1), Image.BOX).getpixel((0, 0))
+    fill = _n90_readable(color or (255, 255, 255), region)
+    outline = (0, 0, 0) if _n90_luma(fill) > 0.5 else (255, 255, 255)
+    y = y0
+    for ln in lines:
+        tw = _n90_text_size(draw, ln, font, stroke)[0]
+        x = {'tl': x0, 'bl': x0, 'tr': x0 + widest - tw, 'br': x0 + widest - tw}.get(pos, x0 + (widest - tw) // 2)
+        draw.text((x, y), ln, font=font, fill=fill, stroke_width=stroke, stroke_fill=outline)
+        y += lh
+    return base
+
+
+def _n90_op_watermark(im, text):
+    from PIL import Image, ImageDraw
+    base = im.convert('RGBA')
+    w, h = base.size
+    layer = Image.new('RGBA', base.size, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(layer)
+    size = max(12, int(min(w, h) * 0.045))
+    font = _n90_font(size, True, 'sans', text)
+    tw, th = _n90_text_size(draw, text, font)
+    margin = max(8, int(min(w, h) * 0.025))
+    region = base.crop((max(0, w - tw - margin), max(0, h - th - margin), w, h)).convert('RGB').resize((1, 1), Image.BOX).getpixel((0, 0))
+    fill = (255, 255, 255) if _n90_luma(region) < 0.5 else (0, 0, 0)
+    draw.text((w - tw - margin, h - th - margin * 1.4), text, font=font, fill=fill + (150,))
+    return Image.alpha_composite(base, layer)
+
+
+def _n90_op_upscale(im, factor):
+    from PIL import Image, ImageFilter
+    w, h = im.size
+    if w * factor * h * factor > _N90_MAX_PIXELS or max(w, h) * factor > 9000:
+        raise _N90Fail('too_big')
+    big = im.convert('RGBA' if im.mode == 'RGBA' else 'RGB').resize((w * factor, h * factor), Image.LANCZOS)
+    return big.filter(ImageFilter.UnsharpMask(radius=1.6, percent=80, threshold=2))
+
+
+def _n90_save_bytes(im, fmt, quality=90):
+    buf = _n90_io.BytesIO()
+    f = {'jpg': 'JPEG', 'jpeg': 'JPEG', 'png': 'PNG', 'webp': 'WEBP', 'pdf': 'PDF'}.get(fmt, 'PNG')
+    if f == 'JPEG':
+        im.convert('RGB').save(buf, 'JPEG', quality=quality, optimize=True)
+    elif f == 'WEBP':
+        im.save(buf, 'WEBP', quality=quality)
+    elif f == 'PDF':
+        im.convert('RGB').save(buf, 'PDF', resolution=150.0)
+    else:
+        im.save(buf, 'PNG', optimize=True)
+    return buf.getvalue()
+
+
+def _n90_compress_to(im, kb):
+    """Smallest-loss JPEG at or under `kb` kilobytes: lower the quality first, then the size. Returns (bytes, note)."""
+    from PIL import Image
+    target = kb * 1024
+    base = im.convert('RGB')
+    scale = 1.0
+    for _ in range(18):
+        cur = base if scale >= 0.999 else base.resize((max(16, int(base.size[0] * scale)), max(16, int(base.size[1] * scale))), Image.LANCZOS)
+        for q in (92, 85, 78, 70, 62, 55, 48, 40, 32):
+            data = _n90_save_bytes(cur, 'jpg', q)
+            if len(data) <= target:
+                return data, 'quality %d%s, %dx%d, %.0f KB' % (q, '' if scale >= 0.999 else ' after shrinking to %d%%' % int(scale * 100), cur.size[0], cur.size[1], len(data) / 1024.0)
+        scale *= 0.85
+    raise _N90Fail('too_big', 'cannot reach %d KB' % kb)
+
+
+def _n90_palette(im, k=6):
+    """The k dominant colours as [(hex, percent)], most common first. Works on a 128-pixel copy, so it is fast and the percentages are approximate."""
+    from PIL import Image
+    small = im.convert('RGB')
+    small.thumbnail((128, 128))
+    q = small.convert('P', palette=Image.ADAPTIVE, colors=k)
+    pal = q.getpalette()[: k * 3]
+    counts = sorted(q.getcolors() or [], reverse=True)
+    total = float(sum(c for c, _i in counts)) or 1.0
+    out = []
+    for count, idx in counts[:k]:
+        r, g, b = pal[idx * 3: idx * 3 + 3]
+        out.append(('#%02X%02X%02X' % (r, g, b), round(100.0 * count / total, 1)))
+    return out
+
+
+def _n90_palette_strip(colors, w=900, h=180):
+    from PIL import Image, ImageDraw
+    img = Image.new('RGB', (w, h), (255, 255, 255))
+    d = ImageDraw.Draw(img)
+    x = 0
+    for hexv, pct in colors:
+        seg = max(1, int(round(w * pct / 100.0)))
+        d.rectangle((x, 0, min(w, x + seg), h - 38), fill=_n90_color(hexv))
+        x += seg
+    font = _n90_font(22, True)
+    step = w // max(1, len(colors))
+    for i, (hexv, pct) in enumerate(colors):
+        d.rectangle((i * step + 8, h - 30, i * step + 30, h - 8), fill=_n90_color(hexv), outline=(80, 80, 80))
+        d.text((i * step + 36, h - 32), hexv, font=font, fill=(30, 30, 30))
+    return img
+
+
+def _n90_image_info(raw, im):
+    exif_gps = False
+    camera = ''
+    try:
+        ex = im.getexif()
+        exif_gps = bool(ex.get_ifd(0x8825))
+        camera = ' '.join(str(ex.get(t, '')).strip() for t in (271, 272) if ex.get(t)).strip()
+    except Exception:
+        pass
+    dpi = im.info.get('dpi')
+    return {'format': (im.format or _n90_sniff(raw) or '?').upper(), 'w': im.size[0], 'h': im.size[1], 'mode': im.mode, 'kb': round(len(raw) / 1024.0, 1), 'dpi': tuple(round(x) for x in dpi) if dpi else None,
+            'alpha': 'A' in im.mode or 'transparency' in im.info, 'megapixels': round(im.size[0] * im.size[1] / 1e6, 2), 'gps': exif_gps, 'camera': camera,
+            'ratio': '%d:%d' % _n90_simplify(im.size[0], im.size[1])}
+
+
+def _n90_simplify(a, b):
+    g = _n90_math.gcd(a, b) or 1
+    a, b = a // g, b // g
+    return (a, b) if a <= 50 and b <= 50 else (int(round(a / float(b) * 10)), 10)
+
+
+# ------------------------------------------------ background removal ------------------------------------------------
+def _n90_remove_bg_local(im, tolerance=38):
+    """Plain-background removal: flood-fill from the border over pixels close to the border colour (done on a small copy, then smoothed up).
+    Refuses (busy_background) when the border is not one colour, because guessing would give a ragged result."""
+    from PIL import Image, ImageFilter
+    from collections import deque
+    rgb = im.convert('RGB')
+    small = rgb.copy()
+    small.thumbnail((420, 420))
+    sw, sh = small.size
+    px = small.load()
+    border = [px[x, 0] for x in range(sw)] + [px[x, sh - 1] for x in range(sw)] + [px[0, y] for y in range(sh)] + [px[sw - 1, y] for y in range(sh)]
+    med = tuple(sorted(c[i] for c in border)[len(border) // 2] for i in range(3))
+
+    def near(c):
+        return (c[0] - med[0]) ** 2 + (c[1] - med[1]) ** 2 + (c[2] - med[2]) ** 2 <= tolerance ** 2
+    if sum(1 for c in border if near(c)) / float(len(border)) < 0.75:
+        raise _N90Fail('busy_background')
+    seen = bytearray(sw * sh)
+    dq = deque()
+    for x in range(sw):
+        for y in (0, sh - 1):
+            if near(px[x, y]) and not seen[y * sw + x]:
+                seen[y * sw + x] = 1
+                dq.append((x, y))
+    for y in range(sh):
+        for x in (0, sw - 1):
+            if near(px[x, y]) and not seen[y * sw + x]:
+                seen[y * sw + x] = 1
+                dq.append((x, y))
+    while dq:
+        x, y = dq.popleft()
+        for nx, ny in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
+            if 0 <= nx < sw and 0 <= ny < sh and not seen[ny * sw + nx] and near(px[nx, ny]):
+                seen[ny * sw + nx] = 1
+                dq.append((nx, ny))
+    bg_share = sum(seen) / float(sw * sh)
+    if bg_share < 0.03:
+        raise _N90Fail('busy_background', 'no background found')
+    if bg_share > 0.97:
+        raise _N90Fail('busy_background', 'nothing left')
+    mask = Image.new('L', (sw, sh), 0)
+    mask.putdata([0 if s else 255 for s in seen])
+    mask = mask.filter(ImageFilter.GaussianBlur(1.1)).resize(im.size, Image.BICUBIC)
+    out = rgb.convert('RGBA')
+    out.putalpha(mask)
+    return out
+
+
+def _n90_remove_bg_rembg(im):
+    try:
+        import rembg
+    except Exception:
+        return None
+    try:
+        return rembg.remove(im.convert('RGBA'))
+    except Exception:
+        return None
+
+
+def _n90_removebg_api(raw):
+    key = _n90_secret('removebg')
+    if not key:
+        return None
+    try:
+        r = _n90_http('post', 'https://api.remove.bg/v1.0/removebg', timeout=60, headers={'X-Api-Key': key}, files={'image_file': ('image.png', raw)}, data={'size': 'auto'})
+        return r.content
+    except _N90Fail:
+        return None
+
+
+def _n90_remove_background(im, raw, ctx):
+    out = _n90_remove_bg_rembg(im)
+    if out is not None:
+        ctx.removed_with = 'rembg (AI model on this server)'
+        return out
+    try:
+        out = _n90_remove_bg_local(im)
+        ctx.removed_with = 'plain-background cut-out (colour based, no AI model)'
+        return out
+    except _N90Fail as exc:
+        if exc.code != 'busy_background':
+            raise
+        data = _n90_removebg_api(raw)
+        if data:
+            from PIL import Image
+            ctx.removed_with = 'remove.bg'
+            return Image.open(_n90_io.BytesIO(data)).convert('RGBA')
+        raise
+
+
+# ------------------------------------------------ collage and tiles ------------------------------------------------
+def _n90_collage(images, cols=0, cell=640, gap=10, bg=(255, 255, 255)):
+    from PIL import Image, ImageOps
+    n = len(images)
+    if n < 2:
+        raise _N90Fail('need_more', 'a collage needs at least two pictures')
+    cols = cols or int(_n90_math.ceil(_n90_math.sqrt(n)))
+    cols = max(1, min(cols, n))
+    rows = int(_n90_math.ceil(n / float(cols)))
+    cell = min(cell, max(160, 2400 // cols))
+    W, H = cols * cell + (cols + 1) * gap, rows * cell + (rows + 1) * gap
+    canvas = Image.new('RGB', (W, H), bg)
+    for i, im in enumerate(images):
+        r, c = divmod(i, cols)
+        tile = ImageOps.fit(im.convert('RGB'), (cell, cell), Image.LANCZOS)
+        canvas.paste(tile, (gap + c * (cell + gap), gap + r * (cell + gap)))
+    return canvas
+
+
+def _n90_tiles(im, cols, rows):
+    cols, rows = max(1, min(cols, 10)), max(1, min(rows, 10))
+    if cols * rows < 2 or cols * rows > 12:
+        raise _N90Fail('bad_tiles', 'between 2 and 12 tiles')
+    w, h = im.size
+    tw, th = w // cols, h // rows
+    if tw < 32 or th < 32:
+        raise _N90Fail('bad_tiles', 'too small to split')
+    out = []
+    for r in range(rows):
+        for c in range(cols):
+            out.append(im.crop((c * tw, r * th, c * tw + tw, r * th + th)))
+    return out, (w - tw * cols, h - th * rows)
+
+
+# ------------------------------------------------ run a list of operations on a picture ------------------------------------------------
+def _n90_apply_ops(raw, ops, ctx):
+    """Run the operations in order. Returns the final PIL image (RGB/RGBA). Side results are left in ctx."""
+    Image = _n90_pil()
+    if Image is None:
+        raise _N90Fail('no_pillow')
+    from PIL import ImageOps, ImageFilter
+    try:
+        im = Image.open(_n90_io.BytesIO(raw))
+        im.load()
+    except Image.DecompressionBombError:
+        raise _N90Fail('too_big')
+    except Exception:
+        raise _N90Fail('not_image')
+    original_raw = raw
+    try:
+        im = ImageOps.exif_transpose(im)
+    except Exception:
+        pass
+    if im.size[0] * im.size[1] > _N90_MAX_PIXELS:
+        raise _N90Fail('too_big')
+    if im.mode not in ('RGB', 'RGBA'):
+        im = im.convert('RGBA' if ('A' in im.mode or im.info.get('transparency')) else 'RGB')
+    for op in ops:
+        kind = op['op']
+        if kind == 'resize':
+            im = _n90_op_resize(im, op['w'], op['h'], op.get('mode', 'fill'))
+            ctx.notes.append('resized to %dx%d%s' % (im.size[0], im.size[1], (' (' + op['preset'] + ')') if op.get('preset') else ''))
+        elif kind == 'scale':
+            im = _n90_op_resize(im, int(im.size[0] * op['pct'] / 100.0), int(im.size[1] * op['pct'] / 100.0), 'stretch')
+            ctx.notes.append('scaled to %d%% (%dx%d)' % (op['pct'], im.size[0], im.size[1]))
+        elif kind == 'resize_side':
+            if op['side'] == 'width':
+                new = (op['px'], max(1, int(round(im.size[1] * op['px'] / float(im.size[0])))))
+            else:
+                new = (max(1, int(round(im.size[0] * op['px'] / float(im.size[1])))), op['px'])
+            im = _n90_op_resize(im, new[0], new[1], 'stretch')
+            ctx.notes.append('resized to %dx%d keeping the shape' % new)
+        elif kind == 'crop_box':
+            x, y, w, h = op['x'], op['y'], op['w'], op['h']
+            if w < 1 or h < 1 or x < 0 or y < 0 or x + w > im.size[0] or y + h > im.size[1]:
+                raise _N90Fail('bad_crop', 'the box must lie inside %dx%d' % im.size)
+            im = im.crop((x, y, x + w, y + h))
+            ctx.notes.append('cropped to %dx%d' % (w, h))
+        elif kind == 'crop':
+            im = _n90_op_crop_ratio(im, op['ratio'])
+            ctx.notes.append('cropped to %s (%dx%d)' % (op['ratio'], im.size[0], im.size[1]))
+        elif kind == 'pad':
+            im = _n90_op_pad_ratio(im, op['ratio'], op['color'])
+            ctx.notes.append('padded to %s (%dx%d)' % (op['ratio'], im.size[0], im.size[1]))
+        elif kind == 'rotate':
+            im = im.rotate(-op['deg'] if op['deg'] in (90, 270) else op['deg'], expand=True, resample=Image.BICUBIC)
+            ctx.notes.append('rotated %d°' % op['deg'])
+        elif kind == 'flip':
+            im = ImageOps.mirror(im) if op['axis'] == 'h' else ImageOps.flip(im)
+            ctx.notes.append('flipped ' + ('horizontally' if op['axis'] == 'h' else 'vertically'))
+        elif kind == 'grayscale':
+            a = im.split()[3] if im.mode == 'RGBA' else None
+            im = ImageOps.grayscale(im.convert('RGB')).convert('RGB')
+            if a is not None:
+                im = im.convert('RGBA')
+                im.putalpha(a)
+            ctx.notes.append('black and white')
+        elif kind == 'sepia':
+            im = _n90_op_sepia(im)
+            ctx.notes.append('sepia')
+        elif kind == 'vintage':
+            im = _n90_op_vignette(_n90_op_enhance(_n90_op_sepia(im), 'contrast', -10), 0.5)
+            ctx.notes.append('vintage look')
+        elif kind == 'invert':
+            a = im.split()[3] if im.mode == 'RGBA' else None
+            im = ImageOps.invert(im.convert('RGB'))
+            if a is not None:
+                im = im.convert('RGBA')
+                im.putalpha(a)
+            ctx.notes.append('colours inverted')
+        elif kind == 'blur':
+            im = im.filter(ImageFilter.GaussianBlur(max(1, min(60, op['radius']))))
+            ctx.notes.append('blur %d' % op['radius'])
+        elif kind == 'sharpen':
+            im = im.filter(ImageFilter.UnsharpMask(radius=2, percent=160, threshold=2))
+            ctx.notes.append('sharpened')
+        elif kind in ('brightness', 'contrast', 'saturation'):
+            im = _n90_op_enhance(im, kind, max(-95, min(300, op['pct'])))
+            ctx.notes.append('%s %+d%%' % (kind, op['pct']))
+        elif kind == 'vignette':
+            im = _n90_op_vignette(im)
+            ctx.notes.append('vignette')
+        elif kind == 'pixelate':
+            im = _n90_op_pixelate(im, op['size'])
+            ctx.notes.append('pixelated')
+        elif kind == 'round':
+            im = _n90_op_round(im, op['radius'])
+            ctx.transparent = True
+            ctx.notes.append('rounded corners')
+        elif kind == 'circle':
+            im = _n90_op_circle(im)
+            ctx.transparent = True
+            ctx.notes.append('circle crop')
+        elif kind == 'border':
+            im = ImageOps.expand(im.convert('RGBA') if im.mode == 'RGBA' else im.convert('RGB'), border=op['px'], fill=op['color'] if im.mode != 'RGBA' else op['color'] + (255,))
+            ctx.notes.append('%d px border' % op['px'])
+        elif kind == 'text':
+            im = _n90_op_text(im, op['text'], op['pos'], op['size'], op['color'], op.get('bold', True))
+            ctx.notes.append('text added')
+        elif kind == 'watermark':
+            im = _n90_op_watermark(im, op['text'])
+            ctx.notes.append('watermark added')
+        elif kind == 'remove_bg':
+            buf = _n90_io.BytesIO()
+            im.save(buf, 'PNG')
+            im = _n90_remove_background(im, buf.getvalue(), ctx)
+            ctx.transparent = True
+            ctx.notes.append('background removed: ' + ctx.removed_with)
+        elif kind == 'upscale':
+            im = _n90_op_upscale(im, op['factor'])
+            ctx.notes.append('enlarged %dx to %dx%d (sharpened; no new detail is invented)' % (op['factor'], im.size[0], im.size[1]))
+        elif kind == 'compress':
+            ctx.max_kb = op['kb']
+        elif kind == 'convert':
+            ctx.fmt = op['fmt']
+        elif kind == 'strip':
+            ctx.notes.append('metadata and location data removed, orientation fixed')
+        elif kind == 'palette':
+            ctx.palette = _n90_palette(im)
+        elif kind == 'info':
+            ctx.info = _n90_image_info(original_raw, Image.open(_n90_io.BytesIO(original_raw)))
+        elif kind == 'tiles':
+            tiles, cut = _n90_tiles(im, op['cols'], op['rows'])
+            ctx.tiles = tiles
+            ctx.notes.append('split into %d tiles (%dx%d each)%s' % (len(tiles), tiles[0].size[0], tiles[0].size[1], ' (%d px trimmed)' % max(cut) if max(cut) else ''))
+        elif kind == 'collage':
+            ctx.collage_of = (op['n'], op['cols'])
+    return im
+
+
+def _n90_render_output(im, ctx, base_fmt='png'):
+    """Final bytes and name for the edited picture: the format asked for, or PNG when transparency matters, else the format it came in."""
+    fmt = ctx.fmt or ('png' if (ctx.transparent or im.mode == 'RGBA') else base_fmt)
+    if fmt == 'jpeg':
+        fmt = 'jpg'
+    note = ''
+    if ctx.max_kb:
+        data, note = _n90_compress_to(im, ctx.max_kb)
+        fmt = 'jpg'
+    else:
+        if fmt in ('jpg', 'webp') and im.mode == 'RGBA':
+            flat = _n90_pil().new('RGB', im.size, (255, 255, 255))
+            flat.paste(im, mask=im.split()[3])
+            im = flat
+        data = _n90_save_bytes(im, fmt)
+    return data, fmt, note
+
+
+# ------------------------------------------------ design with exact text: posters, cards, banners, thumbnails, logos ------------------------------------------------
+import random as _n90_random
+
+# name -> (background 1, background 2, text colour, accent)
+_N90_PALETTES = {
+    'midnight': ((20, 30, 48), (36, 59, 85), (255, 255, 255), (109, 213, 237)),
+    'ocean': ((15, 32, 39), (44, 83, 100), (255, 255, 255), (86, 204, 242)),
+    'sunset': ((255, 94, 98), (255, 195, 113), (40, 20, 20), (255, 255, 255)),
+    'forest': ((19, 78, 94), (113, 178, 128), (255, 255, 255), (245, 224, 130)),
+    'royal': ((44, 24, 100), (101, 62, 188), (255, 255, 255), (250, 204, 21)),
+    'rose': ((190, 24, 93), (251, 113, 133), (255, 255, 255), (254, 240, 138)),
+    'gold': ((24, 24, 24), (56, 48, 30), (245, 222, 160), (212, 175, 55)),
+    'mono': ((17, 17, 17), (68, 68, 68), (255, 255, 255), (200, 200, 200)),
+    'paper': ((250, 244, 230), (238, 228, 205), (36, 34, 30), (176, 70, 50)),
+    'sky': ((125, 211, 252), (224, 242, 254), (12, 40, 80), (14, 116, 144)),
+    'candy': ((244, 114, 182), (167, 139, 250), (255, 255, 255), (254, 249, 195)),
+    'fire': ((127, 29, 29), (249, 115, 22), (255, 255, 255), (254, 240, 138)),
+}
+_N90_PALETTE_WORDS = {'dark': 'midnight', 'night': 'midnight', 'blue': 'ocean', 'sea': 'ocean', 'orange': 'sunset', 'warm': 'sunset', 'green': 'forest', 'nature': 'forest', 'purple': 'royal', 'violet': 'royal',
+                      'pink': 'rose', 'red': 'fire', 'black': 'mono', 'grey': 'mono', 'gray': 'mono', 'white': 'paper', 'light': 'paper', 'luxury': 'gold', 'premium': 'gold', 'yellow': 'sunset', 'pastel': 'candy'}
+
+
+def _n90_pick_palette(text):
+    low = _n90_lower(text)
+    for name in _N90_PALETTES:
+        if _n90_re.search(r'\b' + name + r'\b', low):
+            return name
+    for word, name in _N90_PALETTE_WORDS.items():
+        if _n90_re.search(r'\b' + word + r'\b', low):
+            return name
+    return 'midnight'
+
+
+def _n90_gradient(size, c1, c2, mode='diag'):
+    from PIL import Image, ImageChops
+    g = Image.linear_gradient('L')
+    w, h = size
+    if mode == 'radial':
+        mask = Image.radial_gradient('L').resize(size, Image.BICUBIC)
+        mask = mask.point(lambda v: min(255, int(v * 1.35)))
+        return Image.composite(Image.new('RGB', size, c2), Image.new('RGB', size, c1), mask)
+    vmask = g.resize(size, Image.BICUBIC)
+    hmask = g.rotate(90).resize(size, Image.BICUBIC)
+    mask = vmask if mode == 'vertical' else hmask if mode == 'horizontal' else ImageChops.add(vmask, hmask, scale=2)
+    return Image.composite(Image.new('RGB', size, c2), Image.new('RGB', size, c1), mask)
+
+
+def _n90_art(kind, w, h, seed=None, palette='midnight'):
+    """Procedural pictures that need no network and no AI: gradient, mesh, waves, geometric, clouds. Same seed, same picture."""
+    from PIL import Image, ImageDraw, ImageFilter, ImageOps
+    rng = _n90_random.Random(seed if seed is not None else int(_n90_time.time()) % 100000)
+    c1, c2, tc, ac = _N90_PALETTES.get(palette, _N90_PALETTES['midnight'])
+    w, h = _n90_clamp_dim(w, 64, 4096), _n90_clamp_dim(h, 64, 4096)
+    if kind == 'gradient':
+        return _n90_gradient((w, h), c1, c2, rng.choice(('diag', 'vertical', 'horizontal')))
+    if kind == 'radial':
+        return _n90_gradient((w, h), c1, c2, 'radial')
+    if kind == 'mesh':
+        sw, sh = max(64, w // 8), max(64, h // 8)
+        canvas = Image.new('RGB', (sw, sh), c1)
+        d = ImageDraw.Draw(canvas)
+        cols = [c1, c2, ac, tc if tc != (255, 255, 255) else ac]
+        for _ in range(7):
+            r = rng.randint(min(sw, sh) // 5, min(sw, sh) // 2)
+            x, y = rng.randint(0, sw), rng.randint(0, sh)
+            d.ellipse((x - r, y - r, x + r, y + r), fill=rng.choice(cols))
+        canvas = canvas.filter(ImageFilter.GaussianBlur(max(6, min(sw, sh) // 6)))
+        return canvas.resize((w, h), Image.BICUBIC)
+    if kind == 'waves':
+        img = _n90_gradient((w, h), c1, c2, 'vertical')
+        d = ImageDraw.Draw(img, 'RGBA')
+        layers = 6
+        for i in range(layers):
+            amp = h * rng.uniform(0.04, 0.10)
+            freq = rng.uniform(1.2, 3.0)
+            phase = rng.uniform(0, 6.28)
+            base = h * (0.35 + 0.11 * i)
+            pts = [(x, base + amp * _n90_math.sin(freq * 2 * _n90_math.pi * x / w + phase)) for x in range(0, w + 8, 8)]
+            col = ac if i % 2 else tc
+            d.polygon(pts + [(w, h), (0, h)], fill=col + (38 + 12 * i,))
+        return img
+    if kind == 'geometric':
+        img = _n90_gradient((w, h), c1, c2, 'diag')
+        d = ImageDraw.Draw(img, 'RGBA')
+        cell = max(48, min(w, h) // 8)
+        for gy in range(0, h, cell):
+            for gx in range(0, w, cell):
+                shape = rng.choice(('circle', 'tri', 'sq', 'none'))
+                col = rng.choice((ac, tc, c2)) + (rng.randint(40, 120),)
+                m = cell // 6
+                if shape == 'circle':
+                    d.ellipse((gx + m, gy + m, gx + cell - m, gy + cell - m), fill=col)
+                elif shape == 'tri':
+                    d.polygon([(gx + cell // 2, gy + m), (gx + cell - m, gy + cell - m), (gx + m, gy + cell - m)], fill=col)
+                elif shape == 'sq':
+                    d.rectangle((gx + m, gy + m, gx + cell - m, gy + cell - m), fill=col)
+        return img
+    if kind == 'clouds':
+        sw, sh = max(32, w // 16), max(32, h // 16)
+        noise = Image.frombytes('L', (sw, sh), bytes(rng.randint(0, 255) for _ in range(sw * sh))).filter(ImageFilter.GaussianBlur(2)).resize((w, h), Image.BICUBIC)         # seeded, so the same seed is the same picture
+        noise = ImageOps.autocontrast(noise.filter(ImageFilter.GaussianBlur(max(2, min(w, h) // 80))))
+        return ImageOps.colorize(noise, black=c1, white=c2, mid=ac).convert('RGB')
+    raise _N90Fail('bad_art', 'unknown kind')
+
+
+def _n90_art_kind(text):
+    low = _n90_lower(text)
+    for kind, rx in (('waves', r'wave|ocean|water|flow'), ('geometric', r'geometric|pattern|shapes|tiles|triangle|polka|dots'), ('clouds', r'cloud|smoke|marble|texture|noise'), ('radial', r'radial|spotlight|glow'),
+                     ('gradient', r'gradient|plain|simple'), ('mesh', r'mesh|aurora|abstract|blur|bokeh')):
+        if _n90_re.search(rx, low):
+            return kind
+    return 'mesh'
+
+
+_N90_DESIGN_SIZES = {'quote': (1080, 1080), 'poster': (1080, 1350), 'banner': (1500, 500), 'thumbnail': (1280, 720), 'logo': (1024, 1024), 'card': (1200, 628)}
+
+
+def _n90_strings_from(text):
+    return [s.strip() for s in _n90_re.findall(r'[\'"“‘]([^\'"”’]{1,300})[\'"”’]', str(text or '')) if s.strip()]
+
+
+def _n90_background(size, palette, bg_image=None, dim=0.45):
+    from PIL import Image, ImageOps
+    c1, c2, _tc, _ac = _N90_PALETTES.get(palette, _N90_PALETTES['midnight'])
+    if bg_image is not None:
+        bg = ImageOps.fit(bg_image.convert('RGB'), size, Image.LANCZOS)
+        return Image.blend(bg, Image.new('RGB', size, (0, 0, 0)), dim), True
+    return _n90_gradient(size, c1, c2, 'diag'), False
+
+
+def _n90_design(kind, strings, palette='midnight', size=None, bg_image=None, seed=None):
+    """One designed picture with EXACT text. strings: main text first, then subtitle/author/details. Returns a PIL image (RGB, or RGBA for a logo)."""
+    from PIL import Image, ImageDraw
+    if kind not in _N90_DESIGN_SIZES:
+        raise _N90Fail('bad_design', 'unknown design')
+    strings = [s for s in strings if s]
+    if not strings:
+        raise _N90Fail('no_text', 'put the exact text in quotes')
+    w, h = size or _N90_DESIGN_SIZES[kind]
+    w, h = _n90_clamp_dim(w, 200, 4096), _n90_clamp_dim(h, 120, 4096)
+    c1, c2, tcol, accent = _N90_PALETTES.get(palette, _N90_PALETTES['midnight'])
+    if kind == 'logo':
+        return _n90_logo(strings, palette, (w, h))
+    bg, has_photo = _n90_background((w, h), palette, bg_image)
+    mean = bg.convert('RGB').resize((1, 1), Image.BOX).getpixel((0, 0))
+    fg = _n90_readable(tcol, mean)
+    acc = _n90_readable(accent, mean) if _n90_contrast(accent, mean) < 3 else accent
+    img = bg.convert('RGB')
+    d = ImageDraw.Draw(img)
+    pad = int(min(w, h) * 0.08)
+    if kind == 'quote':
+        font_q = _n90_font(int(h * 0.22), True, 'serif')
+        d.text((pad, int(h * 0.05)), '“', font=font_q, fill=acc)
+        main = strings[0]
+        box_w, box_h = w - 2 * pad, int(h * (0.52 if len(strings) > 1 else 0.62))
+        font, lines, lh = _n90_fit_text(d, main, box_w, box_h, bold=False, family='serif', max_size=int(h * 0.11), min_size=18)
+        y = int(h * 0.26)
+        for ln in lines:
+            d.text((pad, y), ln, font=font, fill=fg)
+            y += lh
+        if len(strings) > 1:
+            d.rectangle((pad, y + lh // 3, pad + int(w * 0.12), y + lh // 3 + max(3, h // 220)), fill=acc)
+            f2 = _n90_font(int(h * 0.04), True, 'sans', strings[1])
+            d.text((pad, y + lh // 2 + 8), '— ' + strings[1], font=f2, fill=fg)
+    elif kind == 'poster':
+        font, lines, lh = _n90_fit_text(d, strings[0], w - 2 * pad, int(h * 0.34), True, 'sans', max_size=int(h * 0.12), min_size=24)
+        y = int(h * 0.12)
+        for ln in lines:
+            tw = _n90_text_size(d, ln, font)[0]
+            d.text(((w - tw) // 2, y), ln, font=font, fill=fg)
+            y += lh
+        d.rectangle(((w - int(w * 0.18)) // 2, y + lh // 4, (w + int(w * 0.18)) // 2, y + lh // 4 + max(4, h // 200)), fill=acc)
+        y += lh // 2 + 10
+        if len(strings) > 1:
+            f2, l2, lh2 = _n90_fit_text(d, strings[1], w - 2 * pad, int(h * 0.16), False, 'sans', max_size=int(h * 0.05), min_size=16)
+            for ln in l2:
+                tw = _n90_text_size(d, ln, f2)[0]
+                d.text(((w - tw) // 2, y), ln, font=f2, fill=fg)
+                y += lh2
+        extra = strings[2:5]
+        if extra:
+            f3 = _n90_font(int(h * 0.032), True, 'sans', ' '.join(extra))
+            yy = h - pad - int(h * 0.05) * len(extra)
+            for s in extra:
+                tw = _n90_text_size(d, s, f3)[0]
+                d.text(((w - tw) // 2, yy), s, font=f3, fill=acc)
+                yy += int(h * 0.05)
+    elif kind in ('banner', 'card'):
+        d.rectangle((0, 0, max(8, w // 90), h), fill=acc)
+        font, lines, lh = _n90_fit_text(d, strings[0], int(w * 0.84), int(h * (0.55 if len(strings) > 1 else 0.7)), True, 'sans', max_size=int(h * 0.30), min_size=18)
+        total = lh * len(lines) + (int(h * 0.20) if len(strings) > 1 else 0)
+        y = (h - total) // 2
+        for ln in lines:
+            d.text((pad, y), ln, font=font, fill=fg)
+            y += lh
+        if len(strings) > 1:
+            f2, l2, lh2 = _n90_fit_text(d, strings[1], int(w * 0.84), int(h * 0.22), False, 'sans', max_size=int(h * 0.12), min_size=12)
+            for ln in l2:
+                d.text((pad, y + 6), ln, font=f2, fill=acc)
+                y += lh2
+    elif kind == 'thumbnail':
+        font, lines, lh = _n90_fit_text(d, strings[0], int(w * 0.86), int(h * 0.68), True, 'sans', max_size=int(h * 0.30), min_size=28, stroke_ratio=0.06)
+        stroke = max(2, int(font.size * 0.06)) if hasattr(font, 'size') else 4
+        total = lh * len(lines)
+        y = (h - total) // 2
+        outline = (0, 0, 0) if _n90_luma(fg) > 0.4 else (255, 255, 255)
+        for ln in lines:
+            tw = _n90_text_size(d, ln, font, stroke)[0]
+            d.text(((w - tw) // 2, y), ln, font=font, fill=fg, stroke_width=stroke, stroke_fill=outline)
+            y += lh
+        if len(strings) > 1:
+            f2 = _n90_font(int(h * 0.07), True, 'sans', strings[1])
+            tw, th = _n90_text_size(d, strings[1], f2)
+            d.rounded_rectangle(((w - tw) // 2 - 18, h - pad - th - 22, (w + tw) // 2 + 18, h - pad + 10), radius=14, fill=acc)
+            d.text(((w - tw) // 2, h - pad - th - 8), strings[1], font=f2, fill=_n90_readable((255, 255, 255), acc))
+    return img
+
+
+def _n90_initials(name):
+    words = [wd for wd in _n90_re.findall(r"[A-Za-z0-9ऀ-ॿ]+", str(name)) if wd]
+    if not words:
+        return '?'
+    if len(words) == 1:
+        return words[0][:2].upper()
+    return ''.join(wd[0] for wd in words[:3]).upper()
+
+
+def _n90_logo(strings, palette, size):
+    """A monogram badge with the name beneath, on a white plate (dark lettering reads on it). The same design as SVG comes from _n90_logo_svg."""
+    from PIL import Image, ImageDraw
+    w, h = size
+    c1, c2, tcol, accent = _N90_PALETTES.get(palette, _N90_PALETTES['midnight'])
+    img = Image.new('RGBA', (w, h), (255, 255, 255, 255))
+    d = ImageDraw.Draw(img)
+    name = strings[0]
+    tagline = strings[1] if len(strings) > 1 else ''
+    r = int(min(w, h) * 0.30)
+    cx, cy = w // 2, int(h * 0.40)
+    badge = _n90_gradient((2 * r, 2 * r), c1, c2, 'diag').convert('RGBA')
+    mask = Image.new('L', (8 * r, 8 * r), 0)
+    ImageDraw.Draw(mask).ellipse((0, 0, 8 * r - 1, 8 * r - 1), fill=255)
+    badge.putalpha(mask.resize((2 * r, 2 * r), Image.LANCZOS))
+    img.paste(badge, (cx - r, cy - r), badge)
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=accent, width=max(3, r // 14))
+    mono = _n90_initials(name)
+    fnt, lines, lh = _n90_fit_text(d, mono, int(r * 1.35), int(r * 1.1), True, 'sans', max_size=int(r * 1.1), min_size=20)
+    tw, th = _n90_text_size(d, mono, fnt)
+    d.text((cx - tw // 2, cy - th // 2 - int(fnt.size * 0.12) if hasattr(fnt, 'size') else cy - th // 2), mono, font=fnt, fill=_n90_readable(tcol, c1))
+    word_col = (31, 41, 55)
+    f2, l2, lh2 = _n90_fit_text(d, name, int(w * 0.86), int(h * 0.15), True, 'sans', max_size=int(h * 0.10), min_size=16)
+    y = int(h * 0.40) + r + int(h * 0.05)
+    for ln in l2:
+        tw2 = _n90_text_size(d, ln, f2)[0]
+        d.text(((w - tw2) // 2, y), ln, font=f2, fill=word_col)
+        y += lh2
+    if tagline:
+        f3 = _n90_font(int(h * 0.04), False, 'sans', tagline)
+        tw3 = _n90_text_size(d, tagline, f3)[0]
+        d.text(((w - tw3) // 2, y + 6), tagline, font=f3, fill=_n90_readable(accent, (255, 255, 255)))
+    return img
+
+
+def _n90_logo_svg(strings, palette, size=(1024, 1024)):
+    """The monogram logo as clean SVG text (shapes and text only)."""
+    esc = lambda s: str(s).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
+    w, h = size
+    c1, c2, tcol, accent = _N90_PALETTES.get(palette, _N90_PALETTES['midnight'])
+    hexv = lambda c: '#%02x%02x%02x' % c
+    r = int(min(w, h) * 0.30)
+    cx, cy = w // 2, int(h * 0.40)
+    name = strings[0]
+    tagline = strings[1] if len(strings) > 1 else ''
+    word_col = '#1f2937'
+    svg = ['<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d">' % (w, h, w, h),
+           '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="%s"/><stop offset="1" stop-color="%s"/></linearGradient></defs>' % (hexv(c1), hexv(c2)),
+           '<circle cx="%d" cy="%d" r="%d" fill="url(#g)" stroke="%s" stroke-width="%d"/>' % (cx, cy, r, hexv(accent), max(3, r // 14)),
+           '<text x="%d" y="%d" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="%d" fill="%s" text-anchor="middle" dominant-baseline="central">%s</text>' % (cx, cy, int(r * 0.9), hexv(_n90_readable(tcol, c1)), esc(_n90_initials(name))),
+           '<text x="%d" y="%d" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="%d" fill="%s" text-anchor="middle">%s</text>' % (cx, int(h * 0.40) + r + int(h * 0.12), int(h * 0.075), word_col, esc(name))]
+    if tagline:
+        svg.append('<text x="%d" y="%d" font-family="DejaVu Sans, Arial, sans-serif" font-size="%d" fill="%s" text-anchor="middle">%s</text>' % (cx, int(h * 0.40) + r + int(h * 0.18), int(h * 0.04), hexv(accent), esc(tagline)))
+    svg.append('</svg>')
+    return '\n'.join(svg)
+
+
+# ------------------------------------------------ charts from the numbers you give (never invented) ------------------------------------------------
+_N90_Dec = _n90_dec.Decimal
+_N90_NUM_RX = r'[-+]?\(?\d[\d,]*(?:\.\d+)?\)?'
+_N90_SUFFIX = {'k': _N90_Dec(1000), 'thousand': _N90_Dec(1000), 'm': _N90_Dec(1000000), 'mn': _N90_Dec(1000000), 'million': _N90_Dec(1000000), 'bn': _N90_Dec(10 ** 9), 'b': _N90_Dec(10 ** 9),
+               'billion': _N90_Dec(10 ** 9), 'lakh': _N90_Dec(100000), 'lakhs': _N90_Dec(100000), 'lac': _N90_Dec(100000), 'cr': _N90_Dec(10 ** 7), 'crore': _N90_Dec(10 ** 7), 'crores': _N90_Dec(10 ** 7), 'tn': _N90_Dec(10 ** 12)}
+
+
+def _n90_num(token):
+    """Decimal from '1,23,456', '(1,200)', '12.5%', '₹5,000', '$3.2m', '4 lakh'. Returns (Decimal, unit) or None. Nothing is guessed: a token with no digits is not a number."""
+    s = str(token or '').strip()
+    unit = ''
+    m = _n90_re.match(r'^([₹$€£]|rs\.?|inr|usd|eur|gbp)?\s*(' + _N90_NUM_RX + r')\s*(%|k|m|mn|bn|b|tn|cr|crore|crores|lakh|lakhs|lac|thousand|million|billion)?\s*$', s, _n90_re.I)
+    if not m:
+        return None
+    cur, body, suf = m.group(1), m.group(2), (m.group(3) or '').lower()
+    neg = body.startswith('-') or (body.startswith('(') and body.endswith(')'))
+    digits = _n90_re.sub(r'[^\d.]', '', body)
+    if not digits or digits.count('.') > 1:
+        return None
+    try:
+        val = _N90_Dec(digits)
+    except _n90_dec.InvalidOperation:
+        return None
+    if suf == '%':
+        unit = '%'
+    elif suf in _N90_SUFFIX:
+        val = val * _N90_SUFFIX[suf]
+        unit = suf
+    if cur:
+        unit = (cur.lower().strip('.') if cur.lower() not in ('₹', '$', '€', '£') else cur) + (unit if unit and unit != '%' else '')
+    return (-val if neg else val), unit
+
+
+_N90_CHART_TYPES = (('candlestick', r'candle(?:stick)?s?|ohlc'), ('donut', r'donut|doughnut'), ('pie', r'\bpie\b'), ('histogram', r'histogram|distribution'), ('scatter', r'scatter'),
+                    ('stacked', r'stacked'), ('area', r'\barea\b'), ('barh', r'horizontal bar|barh|bar ?chart horizontal'), ('line', r'\bline\b|trend|over time'), ('bar', r'\bbar\b|column'))
+
+
+def _n90_chart_type(text, default=''):
+    low = _n90_lower(text)
+    for kind, rx in _N90_CHART_TYPES:
+        if _n90_re.search(rx, low):
+            return kind
+    return default
+
+
+def _n90_split_with(line, delim):
+    import csv
+    if delim == 'ws':
+        return [c.strip() for c in _n90_re.split(r'\s{2,}', line.strip())]
+    try:
+        return [c.strip() for c in next(csv.reader([line], delimiter=delim, skipinitialspace=True))]
+    except Exception:
+        return [line]
+
+
+def _n90_parse_table_block(text):
+    """(header, rows) for 3+ lines that look like a table, else None. The delimiter (tab, pipe, semicolon, comma, 2+ spaces) is the first one that gives the same number of columns on at least 3 lines."""
+    lines = [ln for ln in str(text or '').splitlines() if ln.strip()]
+    lines = [ln for ln in lines if not _n90_re.fullmatch(r'[\s|:\-+=]+', ln)]
+    if len(lines) < 3:
+        return None
+    for delim in ('\t', '|', ';', ',', 'ws'):
+        rows = [_n90_split_with(ln.strip().strip('|') if delim == '|' else ln, delim) for ln in lines]
+        widths = [len(r) for r in rows]
+        common = max(set(widths), key=widths.count)
+        if common < 2 or widths.count(common) < 3:
+            continue
+        rows = [r for r in rows if len(r) == common]
+        header = rows[0]
+        if all(_n90_num(c) is not None for c in header[1:]):
+            return ['Label'] + ['Series %d' % i for i in range(1, common)], rows
+        return header, rows[1:]
+    return None
+
+
+def _n90_series_from_table(header, rows):
+    labels, series = [], [{'name': header[i] or ('Series %d' % i), 'values': [], 'unit': ''} for i in range(1, len(header))]
+    for r in rows:
+        labels.append(r[0])
+        for i in range(1, len(header)):
+            parsed = _n90_num(r[i])
+            if parsed is None:
+                raise _N90Fail('bad_number', '“%s” is not a number' % r[i][:20])
+            series[i - 1]['values'].append(parsed[0])
+            if parsed[1] and not series[i - 1]['unit']:
+                series[i - 1]['unit'] = parsed[1]
+    return labels, series
+
+
+def _n90_parse_pairs(text):
+    """“Jan 120, Feb 150, Mar 90” / “Jan: 120; Feb: 150” / “A=10 B=20” -> (labels, [values], unit). Needs at least two pairs; items that are not label+number are ignored only if the rest is clean."""
+    body = str(text or '')
+    body = _n90_re.sub(r'(?i)\s+(?:in|using)\s+(?:rs\.?|inr|rupees|usd|dollars?|eur|euros?|gbp|pounds?)\s*\.?\s*$', '', body)
+    parts = _n90_re.split(r'[;\n]|,(?!\d)', body)
+    labels, vals, unit = [], [], ''
+    for part in parts:
+        part = part.strip(' .')
+        if not part:
+            continue
+        m = _n90_re.match(r'^(.*?[A-Za-zऀ-ॿ][^:=\d]*?)\s*[:=\-–]?\s*((?:[₹$€£]|rs\.?\s*)?' + _N90_NUM_RX + r'\s*(?:%|k|mn|bn|tn|cr|crore|crores|lakh|lakhs|lac|million|billion|thousand|m|b)?)\s*$', part, _n90_re.I) or \
+            _n90_re.match(r'^(\d{4}|Q[1-4]|\d{1,2}/\d{2,4}|[A-Za-z]{3,9} ?\d{2,4})\s*[:=\-–]?\s*((?:[₹$€£]|rs\.?\s*)?' + _N90_NUM_RX + r'\s*(?:%|k|mn|bn|tn|cr|crore|crores|lakh|lakhs|lac|million|billion|thousand|m|b)?)\s*$', part, _n90_re.I)
+        if not m:
+            continue
+        label = m.group(1).strip(' :=-–')
+        parsed = _n90_num(m.group(2))
+        if not label or parsed is None:
+            continue
+        labels.append(label[:40])
+        vals.append(parsed[0])
+        unit = unit or parsed[1]
+    if len(vals) >= 2 and labels:
+        # the first label may still carry the request ("line chart of sales Jan"): keep as many trailing words as the other labels have
+        counts = [len(x.split()) for x in labels[1:]]
+        n = max(set(counts), key=counts.count) if counts else 1
+        first = labels[0]
+        if _n90_re.search(r'(?i)\b(?:chart|graph|plot|visuali[sz]e|diagram|make|create|draw|show|of|for)\b', first) and len(first.split()) > n:
+            labels[0] = ' '.join(first.replace(':', ' ').split()[-n:])
+    return (labels, vals, unit) if len(vals) >= 2 else None
+
+
+def _n90_currency_hint(text):
+    low = str(text or '').lower()
+    if _n90_re.search(r'\b(?:in|using)\s+(?:rs\.?|inr|rupees)\b|₹', low):
+        return '₹'
+    if _n90_re.search(r'\b(?:in|using)\s+(?:usd|dollars?)\b|\$', low):
+        return '$'
+    if _n90_re.search(r'\b(?:in|using)\s+(?:eur|euros?)\b|€', low):
+        return '€'
+    return ''
+
+
+def _n90_parse_chart_data(text):
+    """Find the numbers in the user's message. Returns {'labels','series':[{'name','values','unit'}]} or None. Never invents anything."""
+    body = str(text or '')
+    m = _n90_re.search(r'(?is)\b(?:x|labels?|categories)\s*[:=]\s*\[?([^\]\n]+?)\]?\s*[;\n ]+\s*(?:y|values?|data)\s*[:=]\s*\[?([^\]\n]+?)\]?\s*$', body)
+    if m:
+        labs = [c.strip() for c in _n90_re.split(r'[,;]', m.group(1)) if c.strip()]
+        vals = []
+        for c in _n90_re.split(r'[,;]', m.group(2)):
+            if c.strip():
+                p = _n90_num(c.strip())
+                if p is None:
+                    raise _N90Fail('bad_number', '“%s” is not a number' % c.strip()[:20])
+                vals.append(p)
+        if len(labs) == len(vals) and len(vals) >= 2:
+            return {'labels': labs, 'series': [{'name': 'Values', 'values': [v for v, _u in vals], 'unit': next((u for _v, u in vals if u), '')}]}
+        raise _N90Fail('mismatch', '%d labels but %d values' % (len(labs), len(vals)))
+    tbl = _n90_parse_table_block(body)
+    if tbl:
+        labels, series = _n90_series_from_table(*tbl)
+        return {'labels': labels, 'series': series}
+    pairs = _n90_parse_pairs(_n90_re.sub(r'(?is)^.*?\b(?:data|values?|numbers?|using)\b\s*[:\-]\s*', '', body, count=1) if _n90_re.search(r'\b(?:data|values?|numbers?|using)\b\s*[:\-]', body, _n90_re.I) else body)
+    if pairs:
+        return {'labels': pairs[0], 'series': [{'name': 'Values', 'values': pairs[1], 'unit': pairs[2] or _n90_currency_hint(body)}]}
+    nums = _n90_re.findall(r'(?<![\w.])[-+]?\d[\d,]*(?:\.\d+)?(?![\w.])', body)
+    plain = [_n90_num(x) for x in nums]
+    if len([p for p in plain if p]) >= 4 and _n90_re.search(r'(?i)\b(?:histogram|distribution|line|scatter|trend)\b', body):
+        vals = [p[0] for p in plain if p]
+        return {'labels': [str(i + 1) for i in range(len(vals))], 'series': [{'name': 'Values', 'values': vals, 'unit': ''}]}
+    return None
+
+
+def _n90_fmt(v, unit='', indian=False, decimals=None):
+    """Number for a label: thousands separators (Indian grouping on request), at most 2 decimals, the unit before or after as is usual."""
+    v = _N90_Dec(v)
+    if decimals is None:
+        decimals = 0 if v == v.to_integral() else (2 if abs(v) < 1000 else 1)
+    q = _N90_Dec(1).scaleb(-decimals)
+    r = v.quantize(q, rounding=_n90_dec.ROUND_HALF_UP)
+    neg = r < 0
+    s = '{:f}'.format(abs(r))
+    ip, _dot, fp = s.partition('.')
+    if indian and len(ip) > 3:
+        head, tail = ip[:-3], ip[-3:]
+        head = _n90_re.sub(r'(\d)(?=(\d\d)+$)', r'\1,', head)
+        ip = head + ',' + tail
+    else:
+        ip = '{:,}'.format(int(ip))
+    s = ip + ('.' + fp if fp else '')
+    sign = '-' if neg else ''
+    if unit == '%':
+        return sign + s + '%'
+    if unit in ('₹', '$', '€', '£'):
+        return sign + unit + s
+    if unit in ('rs', 'inr'):
+        return sign + '₹' + s
+    return sign + s + (' ' + unit if unit and unit not in ('k', 'm', 'mn', 'bn', 'b', 'tn', 'cr', 'crore', 'crores', 'lakh', 'lakhs', 'lac', 'thousand', 'million', 'billion') else '')
+
+
+def _n90_chart_title(text, kind, labels=None):
+    m = _n90_re.search(r'(?i)\btitle[d]?\s*[:=]?\s*[\'"“‘]([^\'"”’]{1,100})[\'"”’]', str(text))
+    if m:
+        return m.group(1).strip()
+    m = _n90_re.search(r'(?i)\b(?:chart|graph|plot|visuali[sz]e)\s+(?:of|for|showing|on)\s+([^:;\n\d]{3,70})', str(text))
+    if m:
+        t = m.group(1)
+        for lab in (labels or [])[:1]:
+            cut = t.lower().find(str(lab).lower())
+            if cut > 0:
+                t = t[:cut]
+        t = _n90_re.sub(r'(?i)\b(?:with|from|using|data|values?|numbers?|in rs|in inr|in usd)\b.*$', '', t).strip(' ,:-')
+        if len(t) >= 3:
+            return t[:60].capitalize()
+    return {'pie': 'Share by category', 'donut': 'Share by category', 'line': 'Trend', 'histogram': 'Distribution', 'scatter': 'Scatter', 'candlestick': 'Price chart'}.get(kind, 'Chart')
+
+
+def _n90_chart_spec(text, default_type=''):
+    """From a sentence with numbers to a chart spec, or None when there are no numbers. Refuses (raises) rather than guessing when the numbers do not line up."""
+    data = _n90_parse_chart_data(text)
+    if not data:
+        return None
+    kind = _n90_chart_type(text, default_type)
+    series = data['series']
+    if not kind:
+        low_labels = ' '.join(data['labels']).lower()
+        timeish = bool(_n90_re.search(r'\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|q[1-4]|20\d\d|mon|tue|wed|thu|fri|sat|sun|week|day|month|year)\b', low_labels)) or len(data['labels']) > 8
+        kind = 'line' if timeish and len(data['labels']) >= 4 else 'bar'
+    if kind == 'candlestick':
+        names = [s['name'].lower() for s in series]
+        want = ('open', 'high', 'low', 'close')
+        if not all(any(n.startswith(w) for n in names) for w in want):
+            raise _N90Fail('need_ohlc', 'a candlestick chart needs open, high, low and close columns')
+    units = [s.get('unit', '') for s in series if s.get('unit')]
+    return {'type': kind, 'title': _n90_chart_title(text, kind, data['labels']), 'labels': data['labels'], 'series': series, 'unit': units[0] if units else '',
+            'indian': bool(_n90_re.search(r'(?i)\b(?:lakh|crore|indian|rs\.?|inr|₹)\b', str(text))), 'dark': bool(_n90_re.search(r'(?i)\bdark (?:mode|theme|background)\b', str(text))),
+            'size': _n90_parse_size(text, (1200, 700))[:2] if _n90_re.search(r'\d{3,4}\s*[x×]\s*\d{3,4}|youtube|instagram|story|wallpaper|a4', str(text).lower()) else (1200, 700)}
+
+
+def _n90_chart_readback(ax, kind):
+    """The numbers actually drawn on the axes, read back from the matplotlib objects (not from our own lists)."""
+    out = []
+    if kind in ('bar', 'stacked', 'histogram'):
+        out = [float(p.get_height()) for p in ax.patches]
+    elif kind == 'barh':
+        out = [float(p.get_width()) for p in ax.patches]
+    elif kind in ('line', 'area'):
+        out = [[float(y) for y in ln.get_ydata()] for ln in ax.lines if len(ln.get_ydata())]
+    elif kind == 'scatter':
+        out = [[float(p[1]) for p in c.get_offsets()] for c in ax.collections if len(c.get_offsets())]
+    elif kind in ('pie', 'donut'):
+        out = [float(w.theta2 - w.theta1) for w in ax.patches]
+    return out
+
+
+def _n90_make_chart(spec):
+    """Draw it with matplotlib, read the plotted numbers back and compare with the input. Returns (png_bytes, info) or raises _N90Fail."""
+    if _n90_import('matplotlib') is None:
+        raise _N90Fail('no_matplotlib')
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    kind = spec['type']
+    labels, series = spec['labels'], spec['series']
+    n = len(labels)
+    if n < 1 or not series:
+        raise _N90Fail('no_data')
+    if n > (20000 if kind == 'histogram' else 60):
+        raise _N90Fail('too_many', 'at most %d points' % (20000 if kind == 'histogram' else 60))
+    for s in series:
+        if len(s['values']) != n:
+            raise _N90Fail('mismatch', '%d labels but %d values in “%s”' % (n, len(s['values']), s['name']))
+    dark = spec.get('dark')
+    bg, fg, grid = ('#111827', '#e5e7eb', '#374151') if dark else ('#ffffff', '#111827', '#e5e7eb')
+    palette = ['#2563eb', '#16a34a', '#dc2626', '#d97706', '#7c3aed', '#0891b2', '#db2777', '#4b5563', '#65a30d', '#ea580c']
+    unit, indian = spec.get('unit', ''), spec.get('indian', False)
+    fw, fh = spec.get('size', (1200, 700))
+    fig, ax = plt.subplots(figsize=(fw / 160.0, fh / 160.0), dpi=160)
+    fig.patch.set_facecolor(bg)
+    ax.set_facecolor(bg)
+    ax.tick_params(colors=fg, labelsize=8)
+    for sp in ax.spines.values():
+        sp.set_color(grid)
+    xs = list(range(n))
+    fvals = [[float(v) for v in s['values']] for s in series]
+    labfmt = lambda v: _n90_fmt(v, unit, indian, spec.get('decimals'))
+    expected = None
+    if kind in ('pie', 'donut'):
+        vals = fvals[0]
+        if any(v < 0 for v in vals) or sum(vals) <= 0:
+            plt.close(fig)
+            raise _N90Fail('bad_pie', 'a pie needs non-negative values that add up to more than zero')
+        wedges, _t, _a = ax.pie(vals, labels=labels, autopct=lambda p: '%.1f%%' % p, startangle=90, counterclock=False, colors=palette[:n] if n <= len(palette) else None,
+                                textprops={'color': fg, 'fontsize': 8}, wedgeprops={'width': 0.42} if kind == 'donut' else None)
+        ax.axis('equal')
+        expected = [360.0 * v / sum(vals) for v in vals]
+    elif kind == 'candlestick':
+        idx = {w: next(i for i, s in enumerate(series) if s['name'].lower().startswith(w)) for w in ('open', 'high', 'low', 'close')}
+        for i in xs:
+            o, hi, lo, c = (fvals[idx[w]][i] for w in ('open', 'high', 'low', 'close'))
+            col = '#16a34a' if c >= o else '#dc2626'
+            ax.plot([i, i], [lo, hi], color=col, linewidth=1.2)
+            ax.add_patch(plt.Rectangle((i - 0.3, min(o, c)), 0.6, max(abs(c - o), 1e-9), facecolor=col, edgecolor=col))
+        ax.set_xlim(-0.8, n - 0.2)
+        ax.set_ylim(min(fvals[idx['low']]) * 0.995 if min(fvals[idx['low']]) > 0 else min(fvals[idx['low']]), max(fvals[idx['high']]) * 1.005 if max(fvals[idx['high']]) > 0 else max(fvals[idx['high']]))
+    elif kind in ('bar', 'stacked'):
+        k = len(series)
+        width = 0.8 / (1 if kind == 'stacked' else k)
+        bottoms = [0.0] * n
+        for j, vals in enumerate(fvals):
+            if kind == 'stacked':
+                ax.bar(xs, vals, width=0.7, bottom=bottoms, color=palette[j % len(palette)], label=series[j]['name'])
+                bottoms = [b + v for b, v in zip(bottoms, vals)]
+            else:
+                ax.bar([x - 0.4 + width * (j + 0.5) for x in xs], vals, width=width, color=palette[j % len(palette)], label=series[j]['name'])
+        if k == 1 and n <= 16:
+            for x, v, raw in zip(xs, fvals[0], series[0]['values']):
+                ax.annotate(labfmt(raw), (x, v), ha='center', va='bottom' if v >= 0 else 'top', fontsize=7, color=fg, xytext=(0, 3 if v >= 0 else -3), textcoords='offset points')
+        expected = [v for vals in fvals for v in vals]
+    elif kind == 'barh':
+        ax.barh(xs, fvals[0], color=palette[0])
+        ax.invert_yaxis()
+        for y, v, raw in zip(xs, fvals[0], series[0]['values']):
+            ax.annotate(labfmt(raw), (v, y), ha='left', va='center', fontsize=7, color=fg, xytext=(3, 0), textcoords='offset points')
+        expected = fvals[0]
+    elif kind == 'histogram':
+        ax.hist(fvals[0], bins=min(20, max(3, int(round(n ** 0.5 * 1.5)))), color=palette[0], edgecolor=bg)
+    elif kind == 'scatter':
+        for j, vals in enumerate(fvals):
+            ax.scatter(xs if len(series) > 1 or not _n90_re.fullmatch(r'-?\d+(?:\.\d+)?', labels[0]) else [float(x) for x in labels], vals, color=palette[j % len(palette)], label=series[j]['name'], s=24)
+    else:                                                                    # line, area
+        for j, vals in enumerate(fvals):
+            if kind == 'area':
+                ax.fill_between(xs, vals, color=palette[j % len(palette)], alpha=0.35)
+            ax.plot(xs, vals, color=palette[j % len(palette)], marker='o', markersize=3, linewidth=1.8, label=series[j]['name'])
+        if n <= 14 and len(series) == 1:
+            for x, v, raw in zip(xs, fvals[0], series[0]['values']):
+                ax.annotate(labfmt(raw), (x, v), ha='center', va='bottom', fontsize=7, color=fg, xytext=(0, 4), textcoords='offset points')
+    if kind not in ('pie', 'donut', 'histogram'):
+        ax.set_xticks(xs if kind != 'barh' else [])
+        if kind == 'barh':
+            ax.set_yticks(xs)
+            ax.set_yticklabels(labels, color=fg, fontsize=8)
+        else:
+            ax.set_xticklabels(labels, rotation=30 if n > 6 else 0, ha='right' if n > 6 else 'center', color=fg, fontsize=8)
+        ax.grid(axis='x' if kind == 'barh' else 'y', color=grid, linewidth=0.6)
+        ax.set_axisbelow(True)
+        ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _p: _n90_fmt(v, unit if unit in ('%', '₹', '$', '€', '£') else '', indian, 0 if abs(v) >= 100 or v == int(v) else 2))) if kind != 'barh' else None
+        if len(series) > 1 and kind != 'candlestick':
+            ax.legend(frameon=False, fontsize=8, labelcolor=fg)
+    ax.set_title(spec.get('title', ''), color=fg, fontsize=12, fontweight='bold', loc='left')
+    foot = ('ILLUSTRATIVE DATA - not real figures. ' if spec.get('illustrative') else '') + (spec.get('source') or 'Data as supplied by you.')
+    fig.text(0.01, 0.005, foot, fontsize=6.5, color=fg, alpha=0.7, ha='left', va='bottom')
+    fig.tight_layout(rect=(0, 0.02, 1, 1))
+    verified = 'not applicable'
+    drawn = _n90_chart_readback(ax, kind)
+    ok = True
+    if kind in ('bar', 'stacked'):
+        sorted_drawn, sorted_exp = sorted(round(x, 6) for x in drawn), sorted(round(x, 6) for x in expected)
+        ok = len(drawn) == len(expected) and all(abs(a - b) <= 1e-6 * max(1.0, abs(b)) for a, b in zip(sorted_drawn, sorted_exp)) if kind == 'bar' else len(drawn) == len(expected)
+        verified = '%d bars read back' % len(drawn)
+    elif kind == 'barh':
+        ok = len(drawn) == n and all(abs(a - b) <= 1e-6 * max(1.0, abs(b)) for a, b in zip(drawn, expected))
+        verified = '%d bars read back' % len(drawn)
+    elif kind in ('line', 'area'):
+        ok = len(drawn) >= len(fvals) and all(any(len(d) == len(v) and all(abs(a - b) <= 1e-6 * max(1.0, abs(b)) for a, b in zip(d, v)) for d in drawn) for v in fvals)
+        verified = '%d points read back' % sum(len(v) for v in fvals)
+    elif kind == 'scatter':
+        ok = len(drawn) == len(fvals) and all(len(d) == len(v) and all(abs(a - b) <= 1e-6 * max(1.0, abs(b)) for a, b in zip(d, v)) for d, v in zip(drawn, fvals))
+        verified = '%d points read back' % sum(len(v) for v in fvals)
+    elif kind in ('pie', 'donut'):
+        ok = len(drawn) == len(expected) and all(abs(abs(a) - b) <= 0.05 for a, b in zip(drawn, expected))
+        verified = '%d slices read back' % len(drawn)
+    elif kind == 'histogram':
+        ok = abs(sum(drawn) - n) < 1e-6
+        verified = 'bin counts add up to %d values' % n
+    elif kind == 'candlestick':
+        verified = '%d candles' % n
+    if not ok:
+        plt.close(fig)
+        raise _N90Fail('verify', 'the drawn values did not match the input')
+    buf = _n90_io.BytesIO()
+    fig.savefig(buf, format='png', facecolor=fig.get_facecolor())
+    plt.close(fig)
+    return buf.getvalue(), {'type': kind, 'points': n * len(series), 'verified': verified, 'title': spec.get('title', '')}
+
+
+def _n90_chart_caption(spec, info):
+    if spec['type'] == 'histogram':
+        vals = [_n90_fmt(v, spec.get('unit', ''), spec.get('indian', False)) for v in spec['series'][0]['values'][:20]]
+        return '📈 %s\n%d values: %s%s\n✔ Plotted exactly as given (%s).' % (spec.get('title', 'Chart'), len(spec['series'][0]['values']), ', '.join(vals), ' …' if len(spec['series'][0]['values']) > 20 else '', info.get('verified', ''))
+    pairs = []
+    for i, lab in enumerate(spec['labels'][:12]):
+        pairs.append('%s %s' % (lab, ' / '.join(_n90_fmt(s['values'][i], spec.get('unit', ''), spec.get('indian', False)) for s in spec['series'][:3])))
+    more = '' if len(spec['labels']) <= 12 else ' … (%d more)' % (len(spec['labels']) - 12)
+    return '📈 %s\nData: %s%s\n✔ Plotted exactly as given (%s).%s' % (spec.get('title', 'Chart'), '; '.join(pairs), more, info.get('verified', ''), '\n⚠ Illustrative data, not real figures.' if spec.get('illustrative') else '')
+
+
+def _n90_illustrative_spec(text, kind):
+    """Only when the person asks for sample/dummy data: a clearly labelled seeded set, never presented as real."""
+    rng = _n90_random.Random(int(_n90_hashlib.sha1(str(text).encode('utf-8', 'ignore')).hexdigest()[:8], 16))
+    labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+    vals = [_N90_Dec(rng.randint(40, 160)) for _ in labels]
+    return {'type': kind or 'bar', 'title': _n90_chart_title(text, kind) + ' (illustrative)', 'labels': labels, 'series': [{'name': 'Sample', 'values': vals, 'unit': ''}], 'unit': '', 'indian': False, 'dark': False,
+            'size': (1200, 700), 'illustrative': True}
+
+
+# =============================================================================
+# THE PRECISION ENGINE: every figure in a report is found, normalised and checked against the sources Nemo actually read
+# =============================================================================
+_N90_MONTHS = {'jan': 1, 'january': 1, 'feb': 2, 'february': 2, 'mar': 3, 'march': 3, 'apr': 4, 'april': 4, 'may': 5, 'jun': 6, 'june': 6, 'jul': 7, 'july': 7, 'aug': 8, 'august': 8,
+               'sep': 9, 'sept': 9, 'september': 9, 'oct': 10, 'october': 10, 'nov': 11, 'november': 11, 'dec': 12, 'december': 12}
+_N90_WEEKDAYS = {'monday': 0, 'mon': 0, 'tuesday': 1, 'tue': 1, 'tues': 1, 'wednesday': 2, 'wed': 2, 'thursday': 3, 'thu': 3, 'thur': 3, 'thurs': 3, 'friday': 4, 'fri': 4, 'saturday': 5, 'sat': 5, 'sunday': 6, 'sun': 6}
+_N90_SCALE_WORDS = {'thousand': 3, 'million': 6, 'billion': 9, 'trillion': 12, 'lakh': 5, 'lakhs': 5, 'lac': 5, 'lacs': 5, 'crore': 7, 'crores': 7, 'bn': 9, 'mn': 6, 'tn': 12, 'cr': 7, 'lakh crore': 12, 'lakh crores': 12, 'lac crore': 12, 'lac crores': 12}
+_N90_SCALE_LETTERS = {'k': 3, 'm': 6, 'b': 9}
+_N90_CHANGE_UP = _n90_re.compile(r'(?i)\b(?:rose|rises?|risen|rising|increas\w+|grew|grow\w*|jump\w*|surg\w+|climb\w*|gain\w*|advanc\w+|expand\w*|higher|up)\b')
+_N90_CHANGE_DOWN = _n90_re.compile(r'(?i)\b(?:fell|falls?|fallen|falling|decreas\w+|dropp\w+|declin\w+|slid\w*|plung\w+|slump\w*|lost|lower|contract\w*|shrank|down)\b')
+_N90_PAST_WORDS = _n90_re.compile(r'(?i)\b(?:reported|announced|said|stated|rose|fell|closed|settled|signed|agreed|launched|published|released|confirmed|recorded|were|was|had)\b')
+_N90_NUM_FIND = _n90_re.compile(
+    r'(?<![\w.\[])(?P<cur>US\$|[$€£₹]|(?:Rs|INR|USD|EUR|GBP)\.?\s?)?\s?(?P<num>\d{1,3}(?:,\d{2,3})+(?:\.\d+)?|\d+(?:\.\d+)?)\s?'
+    r'(?P<scale>thousand|million|billion|trillion|(?:lakhs?|lacs?)\s+crores?|lakhs?|lacs?|crores?|bn|mn|tn|cr(?![a-z])|[kKmMbB](?![A-Za-z]))?\s?(?P<suffix>%|percent(?:age points?)?|per cent|bps|basis points|x(?![A-Za-z])|times)?', _n90_re.I)
+_N90_DATE_TXT = _n90_re.compile(
+    r'(?i)(?:(?P<wd>mon(?:day)?|tue(?:s|sday)?|wed(?:nesday)?|thu(?:r|rs|rsday)?|fri(?:day)?|sat(?:urday)?|sun(?:day)?)\.?,?\s*(?:the\s+)?)?'
+    r'(?:(?P<d1>\d{1,2})(?:st|nd|rd|th)?\s+(?P<m1>jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\.?,?\s+(?P<y1>\d{4})'
+    r'|(?P<m2>jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\.?\s+(?P<d2>\d{1,2})(?:st|nd|rd|th)?,?\s+(?P<y2>\d{4})'
+    r'|(?P<y3>\d{4})-(?P<m3>\d{2})-(?P<d3>\d{2}))(?:\s*\((?P<wd2>mon(?:day)?|tue(?:s|sday)?|wed(?:nesday)?|thu(?:r|rs|rsday)?|fri(?:day)?|sat(?:urday)?|sun(?:day)?)\))?')
+
+
+def _n90_decimals(num_text):
+    return len(num_text.split('.')[1]) if '.' in num_text else 0
+
+
+def _n90_find_dates(text):
+    """[{'iso','valid','weekday_said','weekday_real','span'}] for every full date in the text (day-month-year, month-day-year, ISO)."""
+    out = []
+    for m in _N90_DATE_TXT.finditer(str(text or '')):
+        try:
+            if m.group('y1'):
+                y, mo, d = int(m.group('y1')), _N90_MONTHS[m.group('m1').lower().rstrip('.')[:9] if m.group('m1').lower() in _N90_MONTHS else m.group('m1').lower()[:3]], int(m.group('d1'))
+            elif m.group('y2'):
+                y, mo, d = int(m.group('y2')), _N90_MONTHS[m.group('m2').lower() if m.group('m2').lower() in _N90_MONTHS else m.group('m2').lower()[:3]], int(m.group('d2'))
+            else:
+                y, mo, d = int(m.group('y3')), int(m.group('m3')), int(m.group('d3'))
+        except (KeyError, ValueError):
+            continue
+        wd = (m.group('wd') or m.group('wd2') or '').lower().rstrip('.')
+        valid, real = True, None
+        try:
+            real = _n90_dt.date(y, mo, d).weekday()
+        except ValueError:
+            valid = False
+        out.append({'iso': '%04d-%02d-%02d' % (y, mo, d), 'valid': valid, 'weekday_said': _N90_WEEKDAYS.get(wd) if wd else None, 'weekday_real': real, 'span': m.span(), 'raw': m.group(0).strip()})
+    return out
+
+
+def _n90_extract_numbers(text, skip_spans=(), keep_small=False):
+    """Every figure in the text as a dict: raw, value (Decimal, in base units; percents as percent), kind, currency, decimals, unit (the step of the last digit), span, context."""
+    s = str(text or '')
+    masked = _n90_re.sub(r'https?://\S+', lambda m: ' ' * len(m.group(0)), s)
+    masked = _n90_re.sub(r'\[\d+\]', lambda m: ' ' * len(m.group(0)), masked)
+    if not keep_small:
+        masked = _n90_re.sub(r'(?<![\d.,])\d{1,2}:\d{2}(?::\d{2})?(?:\s?[ap]\.?m\.?)?(?![\d])', lambda m: ' ' * len(m.group(0)), masked, flags=_n90_re.I)         # clock times
+    masked = _n90_re.sub(r'(?m)^[ \t]*[A-Z][A-Z0-9 &/,\-–()]{3,}:?[ \t]*$', lambda m: ' ' * len(m.group(0)), masked)         # section headings such as "OUTLOOK - NEXT 6 TO 24 MONTHS:"
+    for a, b in skip_spans:
+        masked = masked[:a] + ' ' * (b - a) + masked[b:]
+    out = []
+    for m in _N90_NUM_FIND.finditer(masked):
+        num, cur, scale, suffix = m.group('num'), m.group('cur') or '', (m.group('scale') or ''), (m.group('suffix') or '').lower()
+        start = m.start('num') if not cur else m.start('cur')
+        end = max([m.end('num')] + [m.end(g) for g in ('scale', 'suffix') if m.group(g)])
+        before = masked[max(0, start - 1):start]
+        after = masked[end:end + 2]
+        if not keep_small and _n90_re.match(r'^\d{1,2}:\d{2}', masked[m.start('num'):m.start('num') + 5]):
+            continue                                                         # a clock time
+        if _n90_re.match(r'(?i)^(?:st|nd|rd|th)\b', masked[m.end('num'):m.end('num') + 3]):
+            continue                                                         # an ordinal
+        if before in ('v', 'V') or masked[max(0, start - 2):start].lower() in ('no', 'id'):
+            continue
+        if _n90_re.match(r'^\s*[.)]\s', after + ' ') and (start == 0 or masked[:start].rstrip(' \t').endswith('\n') or not masked[:start].strip()):
+            continue                                                         # a list number
+        if scale and len(scale) == 1 and not cur:
+            scale = ''                                                       # "5m" without a currency symbol is not read as millions
+            end = m.end('num')
+            suffix = ''
+        sc = ' '.join(scale.lower().split())
+        power = _N90_SCALE_WORDS.get(sc, _N90_SCALE_LETTERS.get(sc, 0)) if sc else 0
+        digits = num.replace(',', '')
+        try:
+            base = _N90_Dec(digits)
+        except _n90_dec.InvalidOperation:
+            continue
+        dec = _n90_decimals(digits)
+        kind = 'count'
+        value = base.scaleb(power)
+        unit_step = _N90_Dec(1).scaleb(-dec + power)
+        if suffix in ('%', 'percent', 'per cent', 'percentage point', 'percentage points'):
+            kind, value, unit_step = 'percent', base, _N90_Dec(1).scaleb(-dec)
+        elif suffix in ('bps', 'basis points'):
+            kind, value, unit_step = 'percent', base / _N90_Dec(100), _N90_Dec(1).scaleb(-dec) / _N90_Dec(100)
+        elif suffix in ('x', 'times'):
+            kind, value, unit_step = 'multiple', base, _N90_Dec(1).scaleb(-dec)
+        elif cur:
+            kind = 'money'
+        if not keep_small and kind == 'count' and not cur and not power and _n90_re.match(r'(?i)\s*(?:months?|years?|weeks?|days?|quarters?|hours?|minutes?)\b', masked[end:end + 12]):
+            continue                                                         # a duration ("6 to 24 months") is not a figure the sources can confirm
+        if not keep_small and kind == 'count' and not cur and not power and dec == 0 and 1900 <= int(base) <= 2100 and len(digits) == 4:
+            continue                                                         # a bare year
+        if not keep_small and kind == 'count' and not power and dec == 0 and abs(base) < 10 and not cur:
+            continue                                                         # "3 sources", "two"
+        symbol = {'us$': '$', '$': '$', '€': '€', '£': '£', '₹': '₹'}.get(cur.strip().lower() if cur.strip().lower() == 'us$' else cur.strip(), '')
+        if cur and not symbol:
+            symbol = {'rs': '₹', 'inr': '₹', 'usd': '$', 'eur': '€', 'gbp': '£'}.get(cur.strip().lower().rstrip('.'), '')
+        a, b = max(0, start - 55), min(len(s), end + 55)
+        if a > 0 and ' ' in s[a:start]:
+            a += s[a:start].index(' ') + 1                                    # start at a word, not in the middle of one
+        out.append({'raw': s[start:end].strip(), 'value': value, 'kind': kind, 'currency': symbol, 'power': power, 'decimals': dec, 'unit': unit_step, 'span': (start, end), 'context': ' '.join(s[a:b].split())})
+    return out
+
+
+def _n90_split_units(text):
+    """Paragraph (line) and sentence boundaries: [(para_index, sent_start, sent_end, sentence_text)]."""
+    res = []
+    pos = 0
+    for pi, line in enumerate(str(text).split('\n')):
+        stripped = line.strip()
+        if stripped:
+            base = pos + (len(line) - len(line.lstrip()))
+            for m in _n90_re.finditer(r'.+?(?:(?<=[.!?])\s+(?=[A-Z\[•\-])|$)', stripped):
+                seg = m.group(0)
+                if seg.strip():
+                    res.append((pi, base + m.start(), base + m.end(), seg))
+        pos += len(line) + 1
+    return res
+
+
+def _n90_source_texts(sources):
+    """{1: 'title body', 2: ...} from research rows (dicts) or plain strings; ids start at 1 like the [n] markers."""
+    out = {}
+    for i, r in enumerate(sources or [], 1):
+        if isinstance(r, dict):
+            out[i] = ' '.join(str(r.get(k) or '') for k in ('title', 'body', 'snippet', 'description'))
+        else:
+            out[i] = str(r)
+    return out
+
+
+def _n90_values_match(c, e):
+    """'exact' when the claim says what the evidence says (never with more digits than the evidence has), 'overprecise' when the value agrees only after rounding the evidence, else ''."""
+    if c['kind'] != e['kind']:
+        if not ({c['kind'], e['kind']} <= {'count', 'money'}):
+            return ''
+    tol = max(c['unit'], e['unit']) / _N90_Dec(2)
+    gap = c['value'] - e['value']
+    if abs(gap) > tol + _N90_Dec('1e-12'):
+        trunc = c['unit'] > e['unit'] and _N90_Dec(0) <= -gap < c['unit'] and e['value'] >= 0              # 24,310 for 24,310.55 is a truncation, not an error
+        if not trunc:
+            return ''
+    if c['kind'] == e['kind'] == 'percent' and c['unit'] < e['unit'] and abs(c['value'] - e['value']) > c['unit'] / _N90_Dec(2):
+        return 'overprecise'
+    if c['unit'] < e['unit'] and abs(c['value'] - e['value']) > c['unit'] / _N90_Dec(2):
+        return 'overprecise'
+    return 'exact'
+
+
+def _n90_cites_in(text):
+    return {int(x) for x in _n90_re.findall(r'\[(\d{1,3})\]', str(text or ''))}
+
+
+def _n90_audit(content, sources, extra_texts=(), today=None, cite_limit=None):
+    """Check every figure, date and citation in `content`. Returns {'claims','issues','summary','score','grade','block','repair'}.
+    `sources`: research rows or strings (cited as [1], [2] ...). `extra_texts`: other evidence the writer was given (e.g. live market data), counted as source 0."""
+    full = str(content or '')
+    tables = _n90_extract_tables(full)
+    bad_tables = len(_N90_TABLE_RX.findall(full)) - len(tables)
+    text = _n90_strip_tables(full)
+    today = today or _n90_dt.date.today()
+    src = _n90_source_texts(sources)
+    cite_limit = cite_limit if cite_limit is not None else len(src)
+    ev = {sid: _n90_extract_numbers(t) for sid, t in src.items()}
+    if extra_texts:
+        ev[0] = [n for t in extra_texts for n in _n90_extract_numbers(t)]
+    units = _n90_split_units(text)
+    dates = _n90_find_dates(text)
+    date_spans = [d['span'] for d in dates]
+    claims = _n90_extract_numbers(text, date_spans)
+    issues = []
+    para_cites = {}
+    for pi, a, b, seg in units:
+        para_cites.setdefault(pi, set()).update(_n90_cites_in(seg))
+
+    def unit_of(pos):
+        for pi, a, b, seg in units:
+            if a <= pos < b + 1:
+                return pi, a, b, seg
+        return (0, 0, len(text), text)
+    by_sentence = {}
+
+    def judge(c, cites):
+        cited_ids = {i for i in cites if i in ev}
+        status, where, near = 'unsupported', 0, None
+        for sid in sorted(cited_ids):
+            for e in ev[sid]:
+                got = _n90_values_match(c, e)
+                if got == 'exact':
+                    status, where = 'supported', sid
+                    break
+                if got == 'overprecise' and status != 'supported':
+                    status, where, near = 'overprecise', sid, e
+            if status == 'supported':
+                break
+        if status in ('unsupported', 'overprecise'):
+            for sid in sorted(ev):
+                if sid in cited_ids:
+                    continue
+                for e in ev[sid]:
+                    got = _n90_values_match(c, e)
+                    if got == 'exact' and status == 'unsupported':
+                        status, where = 'elsewhere', sid
+                    elif got == 'overprecise' and status == 'unsupported':
+                        status, where, near = 'overprecise', sid, e
+        if status == 'unsupported' and not cites:
+            status = 'uncited_unsupported'
+        c['status'], c['source'] = status, where
+        if near is not None:
+            c['near'] = near['raw']
+    for c in claims:
+        pi, a, b, seg = unit_of(c['span'][0])
+        c['para'], c['sent'] = pi, (a, b)
+        c['cites'] = _n90_cites_in(seg) or para_cites.get(pi, set())
+        by_sentence.setdefault((pi, a), []).append(c)
+        judge(c, c['cites'])
+    table_claims = []
+    for ti, tb in enumerate(tables):
+        cites = _n90_cites_in(tb['source'])
+        if not cites:
+            issues.append({'type': 'table_source', 'severity': 'warn', 'claim': tb['title'], 'context': '', 'note': 'the table names no source marker'})
+        unit = tb['unit'].strip()
+        for lab, raw in zip(tb['labels'], tb['raw']):
+            probe = raw
+            if unit and _n90_re.search(r'%|percent', unit, _n90_re.I) and not _n90_re.search(r'%|percent', raw, _n90_re.I):
+                probe = raw + '%'
+            elif unit and _n90_re.fullmatch(r'(?i)(?:us\$|[$€£₹]|rs\.?|inr|usd|eur|gbp)', unit) and not _n90_re.match(r'(?i)\s*(?:us\$|[$€£₹]|rs|inr|usd|eur|gbp)', raw):
+                probe = unit + raw
+            elif unit and _n90_re.fullmatch(r'(?i)(?:thousand|million|billion|trillion|lakhs?|crores?|lakh crores?|bn|mn)', unit) and not _n90_re.search(r'[A-Za-z]', raw):
+                probe = raw + ' ' + unit
+            got = _n90_extract_numbers(probe, keep_small=True)
+            if not got:
+                continue
+            c = dict(got[0], raw=raw, span=(0, 0), context='table “%s”: %s | %s' % (tb['title'][:40], lab, raw), table=ti, label=lab, para=-1 - ti, sent=(0, 0), cites=cites)
+            judge(c, cites)
+            table_claims.append(c)
+    claims = claims + table_claims
+    # arithmetic: "rose 15% from 80 to 92" ------------------------------------------------------------
+    for (pi, a), group in by_sentence.items():
+        pcts = [c for c in group if c['kind'] == 'percent']
+        others = [c for c in group if c['kind'] in ('money', 'count', 'multiple') and c['kind'] != 'percent']
+        seg = text[a:group[0]['sent'][1]]
+        up, down = bool(_N90_CHANGE_UP.search(seg)), bool(_N90_CHANGE_DOWN.search(seg))
+        if not pcts or len(others) != 2 or not (up or down) or others[0]['value'] == 0 or others[1]['value'] == 0:
+            continue
+        first, second = sorted(others, key=lambda c: c['span'][0])
+        first_value = first['value']
+        if first['power'] == 0 and second['power'] > 0 and not first['currency']:
+            first_value = first_value.scaleb(second['power'])                  # "from 8.0 to 9.0 million": the scale word belongs to both
+        real = (second['value'] - first_value) / first_value * _N90_Dec(100)
+        for p in pcts:
+            tol = p['unit'] / _N90_Dec(2) + _N90_Dec('0.0001')
+            if abs(abs(real) - abs(p['value'])) <= tol + (_N90_Dec('0.06') if p['decimals'] == 0 else _N90_Dec(0)) * 0:
+                ok_direction = (real >= 0 and up and not down) or (real <= 0 and down and not up) or (up and down)
+                if not ok_direction:
+                    issues.append({'type': 'direction', 'severity': 'error', 'claim': p['raw'], 'context': p['context'], 'note': 'the sentence says %s but %s to %s is a %s' % ('up' if up else 'down', first['raw'], second['raw'], 'rise' if real > 0 else 'fall')})
+                    p['status'] = 'direction'
+                else:
+                    p['derived'] = 'ok'
+            else:
+                hard = p['status'] in ('unsupported', 'uncited_unsupported') or any(o['status'] in ('unsupported', 'uncited_unsupported') for o in others)
+                issues.append({'type': 'arithmetic', 'severity': 'error' if hard else 'warn', 'claim': p['raw'], 'context': p['context'],
+                               'note': 'going from %s to %s is %s%%, not %s' % (first['raw'], second['raw'], _n90_fmt(real.quantize(_N90_Dec('0.1')) if abs(real) < 1000 else real.quantize(_N90_Dec(1)), ''), p['raw'].rstrip('% ').strip() + ('%' if '%' in p['raw'] else ''))})
+                p['status'] = 'arithmetic' if hard else p['status']
+    # dates ---------------------------------------------------------------------------------------------
+    for d in dates:
+        ctx = ' '.join(text[max(0, d['span'][0] - 50):d['span'][1] + 50].split())
+        if not d['valid']:
+            issues.append({'type': 'date_invalid', 'severity': 'error', 'claim': d['raw'], 'context': ctx, 'note': 'that date does not exist'})
+            continue
+        if d['weekday_said'] is not None and d['weekday_said'] != d['weekday_real']:
+            names = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+            issues.append({'type': 'weekday', 'severity': 'error', 'claim': d['raw'], 'context': ctx, 'note': '%s was a %s, not a %s' % (d['iso'], names[d['weekday_real']], names[d['weekday_said']])})
+        try:
+            when = _n90_dt.date.fromisoformat(d['iso'])
+        except ValueError:
+            continue
+        around = text[max(0, d['span'][0] - 90):d['span'][1] + 40]
+        if when > today and _N90_PAST_WORDS.search(around) and not _n90_re.search(r'(?i)\b(?:will|expected|scheduled|plans?|due|forecast|by|until|upcoming|to be|would|may|could)\b', around):
+            issues.append({'type': 'date_future', 'severity': 'warn', 'claim': d['raw'], 'context': ctx, 'note': 'a date after today (%s) is described as having happened' % today.isoformat()})
+    if bad_tables > 0:
+        issues.append({'type': 'table_bad', 'severity': 'warn', 'claim': '%d table(s)' % bad_tables, 'context': '', 'note': 'a DATA TABLE had a value that is not a number, so it was left out of the figures'})
+    # citations -----------------------------------------------------------------------------------------
+    cited = _n90_cites_in(full)
+    bad = sorted(i for i in cited if i < 1 or i > cite_limit)
+    for i in bad:
+        issues.append({'type': 'cite_invalid', 'severity': 'error', 'claim': '[%d]' % i, 'context': '', 'note': 'there is no source number %d (only %d were read)' % (i, cite_limit)})
+    # placeholders --------------------------------------------------------------------------------------
+    for m in _n90_re.finditer(r'(?i)\b(?:TBD|TBC|lorem ipsum|to be (?:confirmed|determined))\b|\b(?-i:X{2,})%?(?![A-Za-z0-9])|\bN/A%|\[insert[^\]]*\]', text):
+        issues.append({'type': 'placeholder', 'severity': 'error', 'claim': m.group(0), 'context': ' '.join(text[max(0, m.start() - 40):m.end() + 40].split()), 'note': 'a placeholder was left in the text'})
+    # internal consistency: the same measure given two different values --------------------------------------
+    groups = {}
+    for c in claims:
+        if c.get('table') is not None or _n90_re.search(r'(?i)(?:\bfrom|\bto|\bbetween|\band|\bvs\.?|\bversus|[-–])\s*(?:[$€£₹]|rs\.?|inr|usd)?\s*$', c['context'][:max(0, c['context'].find(c['raw']))]):
+            continue                                                         # one end of "from X to Y" is not a second statement of the same measure
+        sentence = text[c['sent'][0]:c['sent'][1]]
+        if _n90_re.search(r'(?i)\b(?:20\d\d|FY\s?\d+|Q[1-4]|jan\w*|feb\w*|mar\w*|apr\w*|may|jun\w*|jul\w*|aug\w*|sep\w*|oct\w*|nov\w*|dec\w*|compared|versus|vs|than|previous\w*|prior|earlier|last|year|quarter|month|week|between|from|since|forecast\w*|expect\w*|target\w*|projected?)\b', sentence):
+            continue                                                         # a different period, a comparison or a forecast is not a contradiction
+        stop = ('the', 'and', 'for', 'was', 'were', 'has', 'had', 'with', 'that', 'this', 'its', 'are', 'but', 'about', 'around', 'approximately', 'roughly', 'nearly', 'over', 'also', 'later', 'now', 'still', 'then', 'currently', 'rose', 'fell',
+                'grew', 'reached', 'stood', 'hit', 'came', 'stands', 'remains', 'remained', 'is', 'at', 'to', 'of', 'by', 'in', 'on', 'up', 'down', 'only', 'just', 'about')
+        words = [w for w in _n90_re.findall(r'[A-Za-z]{3,}', c['context'][:max(0, c['context'].find(c['raw']))]) if w.lower() not in stop][-1:]
+        if words:
+            groups.setdefault((c['kind'], c['currency'], words[0].lower()), []).append(c)
+    for key in list(groups):
+        if len({(c['para'], c['sent'][0]) for c in groups[key]}) < 2:
+            del groups[key]                                                  # "rose from $80 to $92" is one sentence, not two claims
+    for key, grp in groups.items():
+        vals = {c['value'] for c in grp}
+        if len(vals) >= 2:
+            lo, hi = min(vals), max(vals)
+            if lo != 0 and abs(hi - lo) / abs(lo) > _N90_Dec('0.005') and len(grp) >= 2:
+                issues.append({'type': 'consistency', 'severity': 'warn', 'claim': ' vs '.join(sorted({c['raw'] for c in grp})[:3]), 'context': grp[0]['context'], 'note': 'the same measure (“%s”) is given with different values' % key[2]})
+    # summary and score ---------------------------------------------------------------------------------------
+    cnt = {k: 0 for k in ('supported', 'elsewhere', 'overprecise', 'unsupported', 'uncited_unsupported', 'arithmetic', 'direction')}
+    for c in claims:
+        cnt[c['status']] = cnt.get(c['status'], 0) + 1
+    checkable = len(claims)
+    for c in claims:
+        if c.get('derived') == 'ok' and c['status'] in ('unsupported', 'uncited_unsupported'):
+            c['status'] = 'derived_ok'
+            cnt['unsupported' if c['status'] == 'unsupported' else 'uncited_unsupported'] -= 1
+            cnt['derived_ok'] = cnt.get('derived_ok', 0) + 1
+    errors = [i for i in issues if i['severity'] == 'error']
+    warns = [i for i in issues if i['severity'] == 'warn']
+    good = cnt['supported'] + cnt.get('derived_ok', 0) + 0.6 * cnt['elsewhere'] + 0.6 * cnt['overprecise']
+    base_score = 100.0 * good / checkable if checkable else 100.0
+    score = max(0, int(round(base_score - 12 * len(errors) - 3 * len(warns))))
+    unsupported_total = cnt['unsupported'] + cnt['uncited_unsupported']
+    unsupported_share = unsupported_total / float(checkable) if checkable else 0.0
+    grade = 'A' if score >= 92 and not errors else 'B' if score >= 80 and not errors else 'C' if score >= 60 else 'D'
+    block = bool(errors) or (checkable >= 6 and unsupported_share > 0.30)
+    summary = {'figures': checkable, 'supported': cnt['supported'], 'derived_ok': cnt.get('derived_ok', 0), 'elsewhere': cnt['elsewhere'], 'overprecise': cnt['overprecise'], 'unsupported': unsupported_total,
+               'arithmetic': sum(1 for i in issues if i['type'] in ('arithmetic', 'direction')), 'dates': sum(1 for i in issues if i['type'].startswith('date') or i['type'] == 'weekday'),
+               'citations': sum(1 for i in issues if i['type'] == 'cite_invalid'), 'placeholders': sum(1 for i in issues if i['type'] == 'placeholder'), 'consistency': sum(1 for i in issues if i['type'] == 'consistency'),
+               'dates_checked': len(dates), 'errors': len(errors), 'warnings': len(warns)}
+    return {'claims': claims, 'tables': tables, 'issues': issues, 'summary': summary, 'score': score, 'grade': grade, 'block': block, 'unsupported_share': round(unsupported_share, 3), 'repair': _n90_repair_text(claims, issues)}
+
+
+def _n90_repair_text(claims, issues, limit=10):
+    """What to tell the writer to fix: the exact figures, not a general plea."""
+    lines = []
+    seen = set()
+    for i in [x for x in issues if x['severity'] == 'error']:
+        key = (i['type'], i['claim'], i['note'])
+        if key in seen or len(lines) >= limit:
+            continue
+        seen.add(key)
+        lines.append('%s: “%s” — %s' % (i['type'].replace('_', ' '), i['claim'], i['note']))
+    seen_claims = set()
+    for c in [x for x in claims if x['status'] in ('unsupported', 'uncited_unsupported')]:
+        if len(lines) >= limit or c['raw'] in seen_claims:
+            continue
+        seen_claims.add(c['raw'])
+        lines.append('figure not found in any source: “%s” (…%s…)' % (c['raw'], c['context'][:70]))
+    for c in [x for x in claims if x['status'] == 'overprecise'][: max(0, limit - len(lines))]:
+        lines.append('more precise than the source: “%s” (source says %s)' % (c['raw'], c.get('near', '?')))
+    return '; '.join(lines)
+
+
+def _n90_audit_line(a):
+    s = a['summary']
+    return '🔢 Numbers check: %d figures · %d found in the cited source%s%s%s%s · grade %s (%d/100)' % (
+        s['figures'], s['supported'] + s['derived_ok'], (' · %d in another source' % s['elsewhere']) if s['elsewhere'] else '', (' · %d more precise than the source' % s['overprecise']) if s['overprecise'] else '',
+        (' · %d NOT found anywhere' % s['unsupported']) if s['unsupported'] else '', (' · %d calculation/date/citation problems' % (s['arithmetic'] + s['dates'] + s['citations'])) if (s['arithmetic'] + s['dates'] + s['citations']) else '',
+        a['grade'], a['score'])
+
+
+_N90_STATUS_TEXT = {'supported': 'found in cited source', 'derived_ok': 'calculation checks out', 'elsewhere': 'in another source, not the cited one', 'overprecise': 'more precise than the source',
+                    'unsupported': 'NOT FOUND in any source', 'uncited_unsupported': 'NOT FOUND, no citation', 'arithmetic': 'calculation does not match', 'direction': 'direction does not match'}
+_N90_PRECISION_RULES = (
+    '\n\nPRECISION RULES (checked automatically afterwards against the evidence): every number, percentage, price, date and quantity must come from the evidence above and carry its [n] marker in the same sentence. '
+    'Write each figure with its unit and, for market or economic data, the date it refers to (for example "Brent crude settled at $82.40 a barrel on 3 October 2026 [4]"). '
+    'Copy figures exactly as the source gives them: never round to a more precise value than the source, never convert currencies yourself, never compute a change unless both numbers are in the evidence, and then show both numbers. '
+    'If the evidence has no figure for something, write "no figure found in the sources" instead of estimating. Use exact weekday names only when the evidence gives them. '
+    'Where three or more comparable figures from one source exist, you may add a block: DATA TABLE: <title> | unit: <unit> | source: [n] followed by lines "<label> | <value>" (values exactly as in the source), then END TABLE.')
+_N90_TABLE_RX = _n90_re.compile(r'(?is)^[ \t]*DATA TABLE\s*:\s*([^|\n]{2,120})(?:\|\s*unit\s*:\s*([^|\n]{0,20}))?(?:\|\s*source\s*:\s*(\[\d{1,3}\](?:\s*\[\d{1,3}\])*))?[ \t]*\n(.*?)^[ \t]*END TABLE[ \t]*$', _n90_re.M)
+
+
+def _n90_extract_tables(content):
+    """[{'title','unit','source','labels','values':[Decimal],'raw':[str]}] from the DATA TABLE blocks, or []. A block with a non-numeric value is dropped (never repaired)."""
+    out = []
+    for m in _N90_TABLE_RX.finditer(str(content or '')):
+        labels, vals, raws = [], [], []
+        ok = True
+        for ln in m.group(4).splitlines():
+            if not ln.strip():
+                continue
+            parts = [p.strip() for p in ln.split('|')]
+            if len(parts) != 2:
+                ok = False
+                break
+            parsed = _n90_num(parts[1])
+            if parsed is None:
+                ok = False
+                break
+            labels.append(parts[0][:40])
+            vals.append(parsed[0])
+            raws.append(parts[1])
+        if ok and len(vals) >= 2:
+            out.append({'title': m.group(1).strip(), 'unit': (m.group(2) or '').strip(), 'source': (m.group(3) or '').strip(), 'labels': labels, 'values': vals, 'raw': raws})
+    return out
+
+
+def _n90_strip_tables(content):
+    return _N90_TABLE_RX.sub('', str(content or ''))
+
+
+# =============================================================================
+# THE PRECISION ENGINE INSIDE THE REAL REPORT PIPELINE
+#   prompt rules -> first draft audited (one bounded correction pass) -> gate -> render (DATA TABLE blocks become figures) -> QA -> verification pages merged
+# =============================================================================
+_N90_RUN = _n90_threading.local()
+_N90_OFF_WORDS = ('0', 'false', 'off', 'no')
+
+
+def _n90_precision_on():
+    return str(_n90_setting('studio_precision', '1')).strip().lower() not in _N90_OFF_WORDS
+
+
+def _n90_today():
+    try:
+        return (_n90_dt.datetime.now(_n90_dt.timezone.utc) + _n90_dt.timedelta(seconds=IST_OFFSET)).date()
+    except Exception:
+        return _n90_dt.date.today()
+
+
+def _n90_run_state():
+    return getattr(_N90_RUN, 'st', None)
+
+
+def _n90_new_run(topic=''):
+    return {'topic': str(topic)[:200], 'rows': None, 'packet': '', 'ground': '', 'draft_checked': False, 'draft_before': None, 'draft_after': None, 'repaired': False,
+            'gate_calls': 0, 'audits': {}, 'last': None, 'tables': {}, 'merged': {}, 'renders': [], 'note': '', 'final': None}
+
+
+def _n90_chash(text):
+    return _n90_hashlib.sha1(str(text or '').encode('utf-8', 'ignore')).hexdigest()
+
+
+def _n90_audit_rank(a):
+    """Lower is better: hard errors first, then figures nobody can find, then the score."""
+    s = a['summary']
+    return (s['errors'], s['unsupported'] + s['arithmetic'], s['overprecise'], -a['score'])
+
+
+def _n90_audit_safe(content, rows, st):
+    return _n90_audit(content, rows or [], extra_texts=[st['ground']] if st and st.get('ground') else (), today=_n90_today())
+
+
+# ------------------------------------------------ prompt + first draft ------------------------------------------------
+_N90_PACKET_PREV = _report_source_packet
+
+
+def _report_source_packet(rows):
+    out = _N90_PACKET_PREV(rows)
+    st = _n90_run_state()
+    if st is not None:
+        st['rows'], st['packet'] = list(rows or []), out
+    return out
+
+
+_N90_STRUCT_PREV = _report_structure_prompt
+
+
+def _report_structure_prompt(topic, packet):
+    base = _N90_STRUCT_PREV(topic, packet)
+    if _n90_run_state() is None or not _n90_precision_on():
+        return base
+    return base + _N90_PRECISION_RULES
+
+
+def _n90_repair_prompt(content, problems, packet):
+    return ('Return the COMPLETE corrected report only, with the same headings and format. An automatic numbers check found these problems: ' + problems + '. '
+            'Fix each one: remove or soften any figure that is not in the evidence (write "no figure found in the sources" instead), correct dates, weekdays and calculations from the evidence, '
+            'delete citation markers that do not exist, and remove placeholders. Do not add any new fact or figure.\n\nREPORT:\n' + str(content)[:18000] + '\n\nEVIDENCE:\n' + str(packet)[:18000])
+
+
+def _n90_precision_pass(st, draft):
+    """Audit the first draft; when it has problems make ONE correction call and keep whichever version checks out better."""
+    a1 = _n90_audit_safe(draft, st['rows'], st)
+    st['draft_before'] = dict(a1['summary'], score=a1['score'], grade=a1['grade'])
+    s1 = a1['summary']
+    if not (a1['block'] or s1['unsupported'] + s1['overprecise'] >= 3):
+        return draft
+    chat_id = st.get('chat_id')
+    try:
+        send_text(chat_id, '🔢 Numbers check: the draft has %d figure(s) I cannot match to the sources and %d error(s) in dates, calculations or citations. Correcting them once before the PDF is built…' % (s1['unsupported'] + s1['overprecise'], s1['errors']))
+    except Exception:
+        pass
+    try:
+        fixed = ask_ai(chat_id, _n90_repair_prompt(draft, a1['repair'] or 'figures not found in the sources', st['packet']), remember=False, timeout=240, long_output=True, models_override=SMART_MODELS)
+    except Exception:
+        _N90_STATS['errors'] += 1
+        return draft
+    if not isinstance(fixed, str) or len(fixed) < 0.6 * len(str(draft)):
+        return draft                                                     # a truncated or empty reply is never an improvement
+    a2 = _n90_audit_safe(fixed, st['rows'], st)
+    if _n90_audit_rank(a2) < _n90_audit_rank(a1):
+        st['repaired'], st['draft_after'] = True, dict(a2['summary'], score=a2['score'], grade=a2['grade'])
+        return fixed
+    st['draft_after'] = dict(a1['summary'], score=a1['score'], grade=a1['grade'])
+    return draft
+
+
+_N90_MC_PREV = market_context
+
+
+def market_context(text, max_syms=3):
+    out = _N90_MC_PREV(text, max_syms)
+    st = _n90_run_state()
+    if st is not None and out:
+        st['ground'] = (st.get('ground', '') + '\n' + str(out))[-6000:]      # live market data the writer was given counts as evidence
+    return out
+
+
+_N90_STRIP_PREV = _creation_strip_appendices
+
+
+def _creation_strip_appendices(content):
+    """The first time a finished draft passes through here in a report run it is audited (and corrected once if it fails); every later call is the plain old behaviour."""
+    out = _N90_STRIP_PREV(content)
+    try:
+        st = _n90_run_state()
+        if st is None or st['draft_checked'] or not st['rows'] or not isinstance(out, str) or not _n90_precision_on() or 'EXECUTIVE SUMMARY' not in out.upper():
+            return out
+        st['draft_checked'] = True
+        return _N90_STRIP_PREV(_n90_precision_pass(st, out))
+    except Exception:
+        _N90_STATS['errors'] += 1
+        return out
+
+
+# ------------------------------------------------ the gate ------------------------------------------------
+_N90_GATE_PREV = _creation_report_content_gate
+
+
+def _creation_report_content_gate(content, research):
+    ok, reasons = _N90_GATE_PREV(content, research)
+    st = _n90_run_state()
+    if st is None or not _n90_precision_on():
+        return ok, reasons
+    try:
+        a = _n90_audit_safe(content, research, st)
+    except Exception:
+        _N90_STATS['errors'] += 1
+        st['note'] = 'the numbers check could not run on this report'
+        return ok, reasons
+    _N90_STATS['audits'] += 1
+    st['gate_calls'] += 1
+    st['last'] = a
+    st['audits'][_n90_chash(content)] = a
+    errors = [i for i in a['issues'] if i['severity'] == 'error']
+    mostly_unverified = a['summary']['figures'] >= 6 and a['unsupported_share'] > 0.5          # the draft already had its one correction pass; if most figures are still unverifiable it is not published
+    if errors or mostly_unverified:
+        _N90_STATS['audit_flags'] += 1
+        return False, list(reasons) + ['numbers check: ' + (a['repair'] or 'figures that are not in the sources')]
+    return ok, reasons
+
+
+# ------------------------------------------------ render: DATA TABLE blocks become figures, not stray text ------------------------------------------------
+_N90_RENDER_PREV = _creation_render_pdf
+
+
+def _creation_render_pdf(topic, content, research, quality, out, godmode=True, subtitle="Strategic Intelligence Report"):
+    text = str(content or '')
+    clean = text
+    st = _n90_run_state()
+    if st is not None:
+        st['renders'].append(out)
+    if _N90_TABLE_RX.search(text):
+        tables = _n90_extract_tables(text)
+        clean = _n90_strip_tables(text)
+        if st is not None:
+            st['tables'][out] = tables
+    return _N90_RENDER_PREV(topic, clean, research, quality, out, godmode, subtitle)
+
+
+# ------------------------------------------------ the verification pages ------------------------------------------------
+_N90_FOLD = {'₹': 'Rs ', '“': '"', '”': '"', '‘': "'", '’': "'", '–': '-', '—': '-', '…': '...', '•': '-', '✔': 'OK', '⚠': '!', '×': 'x', '≥': '>=', '≤': '<=', '→': '->', '°': ' deg',
+             '€': 'EUR ', '£': 'GBP ', '·': '|', ' ': ' '}
+
+
+def _n90_pdf_text(text, uni):
+    s = str(text or '').replace('\r', '')
+    if uni:
+        return s
+    for k, v in _N90_FOLD.items():
+        s = s.replace(k, v)
+    return s.encode('latin-1', 'replace').decode('latin-1')
+
+
+def _n90_pdf_new():
+    from fpdf import FPDF
+
+    class _Doc(FPDF):
+        def footer(self):
+            self.set_y(-12)
+            self.set_x(16)
+            self.set_font(self._n90_fam, '', 8)
+            self.set_text_color(115, 121, 132)
+            self.cell(self.w - 32, 8, _n90_pdf_text('Nemo | %s | page %d' % (getattr(self, '_n90_foot', 'Studio'), self.page_no()), self._n90_uni), align='C')
+    pdf = _Doc()
+    pdf.set_margins(16, 18, 16)
+    pdf.set_auto_page_break(True, 16)
+    fam, uni = 'Helvetica', False
+    try:
+        reg, bold = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
+        if _n90_os.path.exists(reg) and _n90_os.path.exists(bold):
+            pdf.add_font('DejaVu', '', reg)
+            pdf.add_font('DejaVu', 'B', bold)
+            fam, uni = 'DejaVu', True
+    except Exception:
+        fam, uni = 'Helvetica', False
+    pdf._n90_fam, pdf._n90_uni = fam, uni
+    return pdf, fam, uni
+
+
+def _n90_trunc(pdf, text, width):
+    s = str(text or '')
+    if pdf.get_string_width(s) <= width:
+        return s
+    while s and pdf.get_string_width(s + '...') > width:
+        s = s[:-1]
+    return s + '...'
+
+
+_N90_STATUS_COLOR = {'supported': (22, 128, 61), 'derived_ok': (22, 128, 61), 'elsewhere': (180, 110, 10), 'overprecise': (180, 110, 10), 'unsupported': (190, 30, 45), 'uncited_unsupported': (190, 30, 45),
+                     'arithmetic': (190, 30, 45), 'direction': (190, 30, 45)}
+_N90_GRADE_TEXT = {'A': 'Every checkable figure matched its source and nothing was wrong.', 'B': 'Nearly all figures matched; small gaps are listed below.',
+                   'C': 'Some figures could not be matched to the sources. Treat those with care.', 'D': 'Many figures could not be verified or there were hard errors. Do not rely on the flagged items.'}
+
+
+def _n90_table_chart(tb):
+    """(png bytes, caption) for one DATA TABLE, or (None, why). The plotted numbers are read back by the chart code."""
+    unit = tb['unit'].strip()
+    chart_unit = unit if unit in ('%', '₹', '$', '€', '£') else ''
+    spec = {'type': 'barh' if len(tb['labels']) > 7 else 'bar', 'title': tb['title'][:70] + ((' (' + unit + ')') if unit and not chart_unit else ''), 'labels': list(tb['labels']),
+            'series': [{'name': 'Values', 'values': list(tb['values']), 'unit': chart_unit}], 'unit': chart_unit, 'indian': False, 'dark': False, 'size': (1400, 700),
+            'decimals': max([len(r.split('.')[1].rstrip('%')) for r in tb['raw'] if '.' in r and r.split('.')[1].rstrip('%').isdigit()] or [0]), 'source': 'Values exactly as given in the report' + ((', source ' + tb['source']) if tb['source'] else '') + '.'}
+    try:
+        png, info = _n90_make_chart(spec)
+        return png, 'Plotted exactly as in the table (%s).' % info.get('verified', 'read back')
+    except Exception as exc:
+        return None, 'chart not drawn (%s)' % (getattr(exc, 'code', '') or type(exc).__name__)
+
+
+def _n90_appendix_pdf(out_path, audit, tables, topic, today=None):
+    """The verification pages as their own PDF: summary and grade, figures with their charts, every figure's status, the problems, and how this was checked."""
+    pdf, fam, uni = _n90_pdf_new()
+    T = lambda s: _n90_pdf_text(s, uni)
+    pdf._n90_foot = 'Numbers and sources check'
+    pw = pdf.w - 32
+    sm = audit['summary']
+    pdf.add_page()
+    pdf.set_fill_color(15, 29, 48)
+    pdf.rect(0, 0, pdf.w, 34, 'F')
+    pdf.set_xy(16, 9)
+    pdf.set_font(fam, 'B', 9)
+    pdf.set_text_color(108, 190, 255)
+    pdf.cell(pw, 5, T('NEMO  /  NUMBERS AND SOURCES CHECK'))
+    pdf.set_xy(16, 17)
+    pdf.set_font(fam, 'B', 15)
+    pdf.set_text_color(255, 255, 255)
+    pdf.multi_cell(pw, 7, T(_n90_trunc(pdf, str(topic or 'Report')[:90], pw)), align='L')
+    pdf.set_xy(16, 40)
+    gcol = {'A': (22, 128, 61), 'B': (22, 128, 61), 'C': (180, 110, 10), 'D': (190, 30, 45)}[audit['grade']]
+    pdf.set_fill_color(*gcol)
+    pdf.rect(16, 40, 26, 22, 'F')
+    pdf.set_xy(16, 42)
+    pdf.set_font(fam, 'B', 24)
+    pdf.set_text_color(255, 255, 255)
+    pdf.cell(26, 12, audit['grade'], align='C')
+    pdf.set_xy(16, 54)
+    pdf.set_font(fam, '', 8)
+    pdf.cell(26, 6, T('%d / 100' % audit['score']), align='C')
+    pdf.set_xy(48, 41)
+    pdf.set_font(fam, 'B', 10)
+    pdf.set_text_color(20, 67, 108)
+    pdf.multi_cell(pw - 32, 5.5, T(_N90_GRADE_TEXT[audit['grade']]), align='L')
+    pdf.set_xy(16, 68)
+    pdf.set_font(fam, '', 9.5)
+    pdf.set_text_color(43, 48, 56)
+    lines = ['%d figures checked against the text of the sources Nemo read%s.' % (sm['figures'], (' on ' + today.strftime('%d %B %Y')) if today else ''),
+             '%d found in the source they cite%s%s.' % (sm['supported'] + sm['derived_ok'], (', %d more in a different source' % sm['elsewhere']) if sm['elsewhere'] else '', (', %d more precise than the source says' % sm['overprecise']) if sm['overprecise'] else ''),
+             '%d not found in any source.' % sm['unsupported'] if sm['unsupported'] else 'No figure is missing from the sources.',
+             '%d calculation, %d date, %d citation and %d placeholder problem(s).' % (sm['arithmetic'], sm['dates'], sm['citations'], sm['placeholders']),
+             '%d date(s) and weekday(s) checked against the calendar.' % sm['dates_checked']]
+    for ln in lines:
+        pdf.set_x(16)
+        pdf.multi_cell(pw, 5.4, T('- ' + ln), align='L')
+    # ---- figures from DATA TABLE blocks
+    if tables:
+        pdf.ln(3)
+        for tb in tables[:3]:
+            if pdf.get_y() > pdf.h - 110:
+                pdf.add_page()
+            pdf.set_x(16)
+            pdf.set_font(fam, 'B', 11)
+            pdf.set_text_color(20, 67, 108)
+            pdf.multi_cell(pw, 6, T('Figure: ' + tb['title'] + ((' (' + tb['unit'] + ')') if tb['unit'] else '') + ((' - source ' + tb['source']) if tb['source'] else '')), align='L')
+            png, cap = _n90_table_chart(tb)
+            if png:
+                tmp = _n90_os.path.join(_n90_dir(), 'fig_%d.png' % int(_n90_time.time() * 1000))
+                with open(tmp, 'wb') as f:
+                    f.write(png)
+                try:
+                    y = pdf.get_y()
+                    pdf.image(tmp, x=16, y=y, w=pw)
+                    pdf.set_y(y + pw * 0.5 + 2)
+                finally:
+                    try:
+                        _n90_os.unlink(tmp)
+                    except OSError:
+                        pass
+            pdf.set_x(16)
+            pdf.set_font(fam, '', 8)
+            pdf.set_text_color(93, 101, 113)
+            pdf.multi_cell(pw, 4.5, T(cap), align='L')
+            pdf.set_font(fam, '', 9)
+            pdf.set_text_color(43, 48, 56)
+            for lab, raw in list(zip(tb['labels'], tb['raw']))[:40]:
+                if pdf.get_y() > pdf.h - 24:
+                    pdf.add_page()
+                pdf.set_x(16)
+                pdf.cell(pw * 0.6, 5, T(_n90_trunc(pdf, lab, pw * 0.58)), border='B')
+                pdf.cell(pw * 0.4, 5, T(raw), border='B', align='R')
+                pdf.ln(5)
+            pdf.ln(4)
+    # ---- every figure with its status
+    pdf.add_page()
+    pdf.set_x(16)
+    pdf.set_font(fam, 'B', 12)
+    pdf.set_text_color(20, 67, 108)
+    pdf.cell(pw, 7, T('Figure by figure'))
+    pdf.ln(8)
+    order = {'unsupported': 0, 'uncited_unsupported': 0, 'arithmetic': 0, 'direction': 0, 'overprecise': 1, 'elsewhere': 2, 'derived_ok': 3, 'supported': 4}
+    claims = sorted(audit['claims'], key=lambda c: (order.get(c['status'], 5), c['span'][0]))[:110]
+    widths = (pw * 0.17, pw * 0.25, pw * 0.1, pw * 0.48)
+    pdf.set_font(fam, 'B', 8)
+    pdf.set_text_color(93, 101, 113)
+    for w, h in zip(widths, ('Figure', 'Result', 'Source', 'Where it appears')):
+        pdf.cell(w, 5, T(h), border='B')
+    pdf.ln(5)
+    for c in claims:
+        if pdf.get_y() > pdf.h - 22:
+            pdf.add_page()
+            pdf.set_font(fam, 'B', 8)
+            pdf.set_text_color(93, 101, 113)
+            for w, h in zip(widths, ('Figure', 'Result', 'Source', 'Where it appears')):
+                pdf.cell(w, 5, T(h), border='B')
+            pdf.ln(5)
+        pdf.set_x(16)
+        pdf.set_font(fam, 'B', 8)
+        pdf.set_text_color(43, 48, 56)
+        pdf.cell(widths[0], 5, T(_n90_trunc(pdf, c['raw'], widths[0] - 1)))
+        pdf.set_text_color(*_N90_STATUS_COLOR.get(c['status'], (43, 48, 56)))
+        pdf.cell(widths[1], 5, T(_n90_trunc(pdf, _N90_STATUS_TEXT.get(c['status'], c['status']), widths[1] - 1)))
+        pdf.set_font(fam, '', 8)
+        pdf.set_text_color(43, 48, 56)
+        pdf.cell(widths[2], 5, T(('[%d]' % c['source']) if c.get('source') else '-'))
+        pdf.set_text_color(93, 101, 113)
+        pdf.cell(widths[3], 5, T(_n90_trunc(pdf, c['context'], widths[3] - 1)))
+        pdf.ln(5)
+    if len(audit['claims']) > len(claims):
+        pdf.set_x(16)
+        pdf.set_font(fam, '', 8)
+        pdf.cell(pw, 5, T('... and %d more figures that matched their sources.' % (len(audit['claims']) - len(claims))))
+        pdf.ln(6)
+    # ---- problems
+    if audit['issues']:
+        pdf.ln(3)
+        if pdf.get_y() > pdf.h - 50:
+            pdf.add_page()
+        pdf.set_x(16)
+        pdf.set_font(fam, 'B', 11)
+        pdf.set_text_color(190, 30, 45)
+        pdf.cell(pw, 6, T('Problems found'))
+        pdf.ln(7)
+        pdf.set_font(fam, '', 9)
+        pdf.set_text_color(43, 48, 56)
+        for i in audit['issues'][:25]:
+            if pdf.get_y() > pdf.h - 24:
+                pdf.add_page()
+            pdf.set_x(16)
+            pdf.multi_cell(pw, 4.8, T('- %s: "%s" - %s' % (i['type'].replace('_', ' '), i['claim'], i['note'])), align='L')
+    # ---- method and limits
+    if pdf.get_y() > pdf.h - 60:
+        pdf.add_page()
+    pdf.ln(3)
+    pdf.set_x(16)
+    pdf.set_font(fam, 'B', 11)
+    pdf.set_text_color(20, 67, 108)
+    pdf.cell(pw, 6, T('How this was checked'))
+    pdf.ln(7)
+    pdf.set_font(fam, '', 8.5)
+    pdf.set_text_color(70, 76, 86)
+    for ln in ('Every number, percentage, price, quantity and date in the report was found automatically and compared with the title and text of the sources Nemo read (and live market data where it was given).',
+               'A figure counts as found when it equals the source figure after rounding to the precision the source uses. A figure written with MORE digits than its source is flagged as more precise than the source.',
+               'Changes such as "rose 15% from 80 to 92" are recomputed from the two numbers. Dates must exist, weekday names must match the calendar, and every [n] marker must point at a source that was read.',
+               'Limits: this checks the text Nemo retrieved, not whole web pages. A figure marked found means the sources say it, not that the sources are right. Qualitative claims and analysis are not covered by this check.'):
+        pdf.set_x(16)
+        pdf.multi_cell(pw, 4.4, T('- ' + ln), align='L')
+        pdf.ln(1)
+    pdf.output(out_path)
+    return out_path
+
+
+def _n90_page_count(path):
+    try:
+        import fitz
+        d = fitz.open(path)
+        try:
+            return len(d)
+        finally:
+            d.close()
+    except Exception:
+        pass
+    from pypdf import PdfReader
+    return len(PdfReader(path).pages)
+
+
+def _n90_merge_pdfs(base, extra):
+    """Append `extra` to `base` in place. Verified by page count; the original is only replaced when the merged file is complete."""
+    want = _n90_page_count(base) + _n90_page_count(extra)
+    tmp = base + '.n90merge'
+    try:
+        try:
+            try:
+                from pypdf import PdfReader, PdfWriter
+            except ImportError:
+                from PyPDF2 import PdfReader, PdfWriter
+            w = PdfWriter()
+            for p in (base, extra):
+                for pg in PdfReader(p).pages:
+                    w.add_page(pg)
+            with open(tmp, 'wb') as f:
+                w.write(f)
+        except ImportError:
+            import fitz
+            d = fitz.open(base)
+            d.insert_pdf(fitz.open(extra))
+            d.save(tmp)
+            d.close()
+        if _n90_page_count(tmp) != want:
+            raise ValueError('merged page count is wrong')
+        _n90_os.replace(tmp, base)
+    finally:
+        try:
+            if _n90_os.path.exists(tmp):
+                _n90_os.unlink(tmp)
+        except OSError:
+            pass
+    return want
+
+
+def _n90_attach_verification(st, path, content, research):
+    a = st['audits'].get(_n90_chash(content)) or st.get('last')
+    if a is None:
+        a = _n90_audit_safe(content, research, st)
+    tables = a.get('tables') or st['tables'].get(path, [])
+    size = _n90_os.path.getsize(path)
+    if st['merged'].get(path) == size:
+        return                                                          # the same file was already given its pages
+    fd, tmp = _n90_tempfile.mkstemp(prefix='studio90_appendix_', suffix='.pdf', dir=_n90_dir())
+    _n90_os.close(fd)
+    try:
+        _n90_appendix_pdf(tmp, a, tables, st.get('topic'), _n90_today())
+        _n90_merge_pdfs(path, tmp)
+    finally:
+        try:
+            _n90_os.unlink(tmp)
+        except OSError:
+            pass
+    st['merged'][path] = _n90_os.path.getsize(path)
+    st['final'] = a
+    _N90_STATS['appendices'] += 1
+
+
+_N90_QA_PREV = _n2023_pdf_qa_contract
+
+
+def _n2023_pdf_qa_contract(path, content, research, quality):
+    ok, issues = _N90_QA_PREV(path, content, research, quality)
+    st = _n90_run_state()
+    if not ok or st is None or not _n90_precision_on():
+        return ok, issues
+    try:
+        _n90_attach_verification(st, path, content, research)           # after the layout QA, so the extra pages never trip its page limits
+    except Exception as exc:
+        _N90_STATS['errors'] += 1
+        st['note'] = 'the verification pages could not be added (%s)' % type(exc).__name__
+    return ok, issues
+
+
+_N90_MANIFEST_PREV = _report_write_manifest
+
+
+def _report_write_manifest(topic, research, quality, content, path):
+    out = _N90_MANIFEST_PREV(topic, research, quality, content, path)
+    try:
+        st = _n90_run_state()
+        a = st['audits'].get(_n90_chash(content)) if st else None
+        if a and _n90_os.path.exists(path):
+            with open(path, encoding='utf-8') as f:
+                manifest = _n90_json.load(f)
+            manifest['numbers_check'] = {'summary': a['summary'], 'grade': a['grade'], 'score': a['score'], 'problems': [{'type': i['type'], 'figure': i['claim'], 'note': i['note']} for i in a['issues'][:30]],
+                                         'not_found': [c['raw'] for c in a['claims'] if c['status'] in ('unsupported', 'uncited_unsupported')][:40]}
+            with open(path, 'w', encoding='utf-8') as f:
+                _n90_json.dump(manifest, f, ensure_ascii=False, indent=1)
+    except Exception:
+        _N90_STATS['errors'] += 1
+    return out
+
+
+_N90_MAKE_PDF_PREV = make_pdf
+
+
+def make_pdf(chat_id, topic, email_to='', godmode=False):
+    outer = _n90_run_state()
+    st = _n90_new_run(topic)
+    st['chat_id'] = chat_id
+    _N90_RUN.st = st
+    try:
+        return _N90_MAKE_PDF_PREV(chat_id, topic, email_to, godmode)
+    finally:
+        _N90_RUN.st = outer
+        try:
+            if LASTFILE.get(chat_id) in st['renders'] and (st['final'] is not None or st['note']):                # only when this run's PDF was really delivered
+                lines = []
+                if st['final'] is not None:
+                    lines.append(_n90_audit_line(st['final']))
+                    if st['repaired'] and st['draft_before'] and st['draft_after']:
+                        lines.append('The first draft had %d unverified figure(s); after one correction pass it has %d.' % (st['draft_before']['unsupported'] + st['draft_before']['overprecise'], st['draft_after']['unsupported'] + st['draft_after']['overprecise']))
+                    lines.append('The last pages of the PDF list every figure and how it was checked.')
+                if st['note']:
+                    lines.append('Note: ' + st['note'] + '.')
+                send_text(chat_id, '\n'.join(lines))
+        except Exception:
+            _N90_STATS['errors'] += 1
+
+
+# =============================================================================
+# DATA REPORTS: a report from the person's OWN file (CSV, Excel, JSON, pasted table, trade log). Every number is computed by code with exact decimals,
+# shown with its formula, and exported to Excel with live formulas. The AI may only word a summary from those numbers, and the wording is checked.
+# =============================================================================
+import csv as _n90_csv, zipfile as _n90_zip, xml.etree.ElementTree as _n90_xml
+
+_N90_DATA_MAX_BYTES = 8 * 1024 * 1024
+_N90_DATA_MAX_ROWS = 200000
+_N90_DATA_MAX_COLS = 60
+_N90_DATE_FORMATS = ('%Y-%m-%d', '%Y/%m/%d', '%d-%m-%Y', '%d/%m/%Y', '%d.%m.%Y', '%d %b %Y', '%d %B %Y', '%b %d, %Y', '%B %d, %Y', '%d-%b-%Y', '%d-%b-%y', '%Y-%m-%d %H:%M:%S',
+                     '%d/%m/%Y %H:%M', '%d-%m-%Y %H:%M', '%Y-%m-%dT%H:%M:%S', '%d/%m/%y')
+_N90_PNL_HEADER = _n90_re.compile(r'(?i)(?:^|[^a-z])(?:net[ _-]?)?(?:p ?[&/n]? ?l|pnl|profit|realised|realized|gain)(?:[^a-z]|$)')
+_N90_AMOUNT_HEADER = _n90_re.compile(r'(?i)\b(?:amount|total|sales?|revenue|value|price|cost|expense|spend|income|turnover|qty|quantity)\b')
+
+
+class _N90DataError(Exception):
+    def __init__(self, msg):
+        Exception.__init__(self, msg)
+        self.msg = msg
+
+
+def _n90_decode(raw):
+    if raw[:2] in (b'\xff\xfe', b'\xfe\xff'):
+        return raw.decode('utf-16', 'replace')
+    for enc in ('utf-8-sig', 'cp1252'):
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            continue
+    return raw.decode('latin-1', 'replace')
+
+
+def _n90_read_csv(text):
+    lines = [ln for ln in text.splitlines() if ln.strip()]
+    if len(lines) < 2:
+        raise _N90DataError('the file has fewer than two lines')
+    best, best_delim = 0, ','
+    for delim in (',', ';', '\t', '|'):
+        counts = [len(ln.split(delim)) for ln in lines[:30]]
+        common = max(set(counts), key=counts.count)
+        score = common if (common > 1 and counts.count(common) >= max(2, int(len(counts) * 0.7))) else 0
+        if score > best:
+            best, best_delim = score, delim
+    rows = [r for r in _n90_csv.reader(lines, delimiter=best_delim)]
+    width = max(len(r) for r in rows)
+    return [[c.strip() for c in r] + [''] * (width - len(r)) for r in rows]
+
+
+def _n90_read_json(text):
+    try:
+        data = _n90_json.loads(text)
+    except ValueError:
+        raise _N90DataError('that is not valid JSON')
+    if isinstance(data, dict):
+        lists = [v for v in data.values() if isinstance(v, list) and v and isinstance(v[0], dict)]
+        if len(lists) == 1:
+            data = lists[0]
+        elif data and all(isinstance(v, list) for v in data.values()):
+            keys = list(data)
+            n = max(len(v) for v in data.values())
+            return [keys] + [[(data[k][i] if i < len(data[k]) else '') for k in keys] for i in range(n)]
+        else:
+            raise _N90DataError('I need a list of records (or columns of values) in the JSON')
+    if not isinstance(data, list) or not data or not all(isinstance(r, dict) for r in data):
+        raise _N90DataError('I need a list of records in the JSON')
+    keys = []
+    for r in data[:2000]:
+        for k in r:
+            if k not in keys:
+                keys.append(str(k))
+    return [keys] + [[('' if r.get(k) is None else (r.get(k) if isinstance(r.get(k), (int, float, str)) else _n90_json.dumps(r.get(k)))) for k in keys] for r in data]
+
+
+def _n90_xlsx_stdlib(raw):
+    """Minimal reader (first sheet, values only) for machines without openpyxl."""
+    ns = {'m': 'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
+    with _n90_zip.ZipFile(_n90_io.BytesIO(raw)) as z:
+        shared = []
+        if 'xl/sharedStrings.xml' in z.namelist():
+            for si in _n90_xml.fromstring(z.read('xl/sharedStrings.xml')).findall('m:si', ns):
+                shared.append(''.join(t.text or '' for t in si.iter('{%s}t' % ns['m'])))
+        sheets = sorted(n for n in z.namelist() if n.startswith('xl/worksheets/sheet') and n.endswith('.xml'))
+        if not sheets:
+            raise _N90DataError('no sheet found in that workbook')
+        rows = []
+        for r in _n90_xml.fromstring(z.read(sheets[0])).iter('{%s}row' % ns['m']):
+            cells = {}
+            for c in r.findall('m:c', ns):
+                ref = c.get('r') or ''
+                col = 0
+                for ch in _n90_re.match(r'[A-Z]+', ref).group(0):
+                    col = col * 26 + ord(ch) - 64
+                v = c.find('m:v', ns)
+                t = c.get('t')
+                if t == 'inlineStr':
+                    val = ''.join(x.text or '' for x in c.iter('{%s}t' % ns['m']))
+                elif v is None:
+                    val = ''
+                elif t == 's':
+                    val = shared[int(v.text)]
+                else:
+                    val = v.text
+                cells[col - 1] = val
+            if cells:
+                rows.append([cells.get(i, '') for i in range(max(cells) + 1)])
+    if not rows:
+        raise _N90DataError('that workbook is empty')
+    return rows
+
+
+def _n90_read_xlsx(raw, sheet=''):
+    try:
+        import openpyxl
+    except ImportError:
+        return _n90_xlsx_stdlib(raw), ''
+    try:
+        wb = openpyxl.load_workbook(_n90_io.BytesIO(raw), read_only=True, data_only=True)
+    except Exception:
+        raise _N90DataError('I could not open that workbook (is it password protected or damaged?)')
+    names = list(wb.sheetnames)
+    pick = next((n for n in names if sheet and n.lower() == sheet.lower()), None)
+    for n in ([pick] if pick else []) + names:
+        rows = [list(r) for r in wb[n].iter_rows(values_only=True) if any(c not in (None, '') for c in r)]
+        if len(rows) >= 2:
+            return [['' if c is None else c for c in r] for r in rows], n
+    raise _N90DataError('every sheet in that workbook has fewer than two rows')
+
+
+def _n90_load_table(raw, name='data', pasted=False, sheet=''):
+    """{'name','sheet','header':[str],'rows':[[cell]],'header_guess':bool} from file bytes (CSV/TSV/TXT/JSON/XLSX) or pasted text."""
+    if len(raw) > _N90_DATA_MAX_BYTES:
+        raise _N90DataError('that file is larger than %d MB' % (_N90_DATA_MAX_BYTES // 1048576))
+    low = str(name).lower()
+    sheet_name = ''
+    if raw[:2] == b'PK' or low.endswith(('.xlsx', '.xlsm')):
+        grid, sheet_name = _n90_read_xlsx(raw, sheet)
+    elif low.endswith(('.xls', '.ods', '.pdf', '.docx', '.zip')):
+        raise _N90DataError('I can read CSV, TSV, JSON and .xlsx files (save this one as .xlsx or .csv and send it again)')
+    else:
+        text = _n90_decode(raw)
+        stripped = text.lstrip()
+        if low.endswith('.json') or stripped[:1] in ('{', '['):
+            grid = _n90_read_json(text)
+        elif pasted:
+            tbl = _n90_parse_table_block(text)
+            if not tbl:
+                raise _N90DataError('I could not find a table in that message (use one row per line with the same separator on every line)')
+            grid = [tbl[0]] + tbl[1]
+        else:
+            grid = _n90_read_csv(text)
+    if len(grid) > _N90_DATA_MAX_ROWS + 1:
+        raise _N90DataError('more than %d rows' % _N90_DATA_MAX_ROWS)
+    width = max(len(r) for r in grid)
+    if width > _N90_DATA_MAX_COLS:
+        raise _N90DataError('more than %d columns' % _N90_DATA_MAX_COLS)
+    grid = [list(r) + [''] * (width - len(r)) for r in grid]
+    first = grid[0]
+    header_like = sum(1 for c in first if str(c).strip() and _n90_cell_num(c) is None and _n90_cell_date(c) is None)
+    guess = header_like < max(1, int(len([c for c in first if str(c).strip()]) * 0.6))
+    if guess:
+        header = ['Column %d' % (i + 1) for i in range(width)]
+        rows = grid
+    else:
+        header, seen = [], {}
+        for i, c in enumerate(first):
+            h = str(c).strip() or 'Column %d' % (i + 1)
+            seen[h] = seen.get(h, 0) + 1
+            header.append(h if seen[h] == 1 else '%s (%d)' % (h, seen[h]))
+        rows = grid[1:]
+    rows = [r for r in rows if any(str(c).strip() for c in r)]
+    totals = []
+    while len(rows) > 3 and len(totals) < 2 and _n90_re.match(r'(?i)^\s*(?:grand\s+)?(?:total|sum|subtotal|average|avg|mean)\b', str(rows[-1][0])):
+        totals.insert(0, (len(rows) + (0 if guess else 1), str(rows[-1][0]).strip(), rows.pop()))      # its row number in the sheet
+    if not rows:
+        raise _N90DataError('there are no data rows under the header')
+    return {'name': str(name)[:80], 'sheet': sheet_name, 'header': header, 'rows': rows, 'header_guess': guess, 'totals': totals}
+
+
+def _n90_cell_num(v):
+    if v is None or isinstance(v, bool):
+        return None
+    if isinstance(v, (int, float, _N90_Dec)):
+        if isinstance(v, float) and (v != v or v in (float('inf'), float('-inf'))):
+            return None
+        return _N90_Dec(str(v)), ''
+    if isinstance(v, (_n90_dt.date, _n90_dt.datetime)):
+        return None
+    s = str(v).strip()
+    if not s or s.lower() in ('na', 'n/a', 'nan', 'null', 'none', '-', '--', '#n/a'):
+        return None
+    return _n90_num(s)
+
+
+def _n90_cell_date(v, dayfirst=True):
+    if isinstance(v, _n90_dt.datetime):
+        return v.date()
+    if isinstance(v, _n90_dt.date):
+        return v
+    s = str(v).strip() if v is not None else ''
+    if len(s) < 6 or not _n90_re.search(r'\d', s) or not _n90_re.search(r'[-/. ,]', s):
+        return None
+    formats = _N90_DATE_FORMATS if dayfirst else ('%m/%d/%Y', '%m-%d-%Y') + _N90_DATE_FORMATS
+    for f in formats:
+        try:
+            return _n90_dt.datetime.strptime(s, f).date()
+        except ValueError:
+            continue
+    return None
+
+
+_N90_NA_TOKENS = ('na', 'n/a', 'nan', 'null', 'none', '-', '--', '#n/a', '#na', '—', '–')
+
+
+def _n90_blank(c):
+    """An empty cell or a missing-value marker: not data, and not counted as an unreadable value either."""
+    if c is None:
+        return True
+    s = str(c).strip()
+    return s == '' or s.lower() in _N90_NA_TOKENS
+
+
+def _n90_infer_columns(table):
+    """Per column: kind (number/date/text), parsed values (Decimal/date/str/None), unit, how many cells were empty or could not be read."""
+    cols = []
+    notes = []
+    for ci, name in enumerate(table['header']):
+        cells = [r[ci] for r in table['rows']]
+        filled = [c for c in cells if not _n90_blank(c)]
+        n = len(filled)
+        col = {'name': name, 'idx': ci, 'kind': 'text', 'values': [], 'unit': '', 'missing': len(cells) - n, 'unparsed': 0}
+        if n:
+            nums = [_n90_cell_num(c) for c in filled]
+            ok_num = sum(1 for x in nums if x is not None)
+            slash = [m for m in (_n90_re.match(r'^(\d{1,2})[/.-](\d{1,2})[/.-]\d{2,4}', str(c).strip()) for c in filled) if m]
+            dayfirst = not any(int(m.group(2)) > 12 for m in slash) or any(int(m.group(1)) > 12 for m in slash)
+            if slash and not any(int(m.group(1)) > 12 or int(m.group(2)) > 12 for m in slash):
+                notes.append('dates in “%s” were read as day/month/year' % name)
+            dates = [_n90_cell_date(c, dayfirst) for c in filled]
+            ok_date = sum(1 for x in dates if x is not None)
+            serial = [x[0] for x in nums if x is not None]
+            if ok_num >= 0.9 * n and _n90_re.search(r'(?i)date|day|time', name) and serial and all(x == x.to_integral() and 20000 <= x <= 70000 for x in serial):
+                col['kind'] = 'date'                                         # an Excel date serial number (a workbook read without its formats)
+                col['values'] = [(_n90_dt.date(1899, 12, 30) + _n90_dt.timedelta(days=int(_n90_cell_num(c)[0]))) if not _n90_blank(c) and _n90_cell_num(c) is not None else None for c in cells]
+                col['unparsed'] = n - ok_num
+                cols.append(col)
+                continue
+            if ok_num >= 0.9 * n and ok_date < 0.9 * n:
+                col['kind'] = 'number'
+                units = [x[1] for x in nums if x is not None and x[1]]
+                col['unit'] = max(set(units), key=units.count) if units else ''
+                if not col['unit']:
+                    hdr = name.lower()
+                    col['unit'] = '₹' if _n90_re.search(r'₹|\brs\b|\binr\b|\(rs', hdr) else '$' if _n90_re.search(r'\$|\busd\b', hdr) else '€' if '€' in hdr else '%' if _n90_re.search(r'%|percent', hdr) else ''
+                col['values'] = [(_n90_cell_num(c) or (None,))[0] if not _n90_blank(c) else None for c in cells]
+                col['unparsed'] = n - ok_num
+            elif ok_date >= 0.9 * n:
+                col['kind'] = 'date'
+                col['values'] = [_n90_cell_date(c, dayfirst) if not _n90_blank(c) else None for c in cells]
+                col['unparsed'] = n - ok_date
+            else:
+                col['values'] = [str(c).strip() if not _n90_blank(c) else None for c in cells]
+        else:
+            col['values'] = [None] * len(cells)
+        cols.append(col)
+    return cols, notes
+
+
+def _n90_quantile(sorted_vals, q):
+    """Excel QUARTILE.INC / PERCENTILE.INC: linear interpolation between closest ranks."""
+    n = len(sorted_vals)
+    if n == 1:
+        return sorted_vals[0]
+    pos = _N90_Dec(q) * (n - 1)
+    lo = int(pos)
+    frac = pos - lo
+    return sorted_vals[lo] + (sorted_vals[min(lo + 1, n - 1)] - sorted_vals[lo]) * frac
+
+
+def _n90_sample_idx(n, limit):
+    """Evenly spaced indexes, always including the first and the last."""
+    if n <= limit:
+        return list(range(n))
+    step = (n - 1) / float(limit - 1)
+    idx = sorted({int(round(i * step)) for i in range(limit)} | {0, n - 1})
+    return idx
+
+
+def _n90_ordinal(k):
+    return '%d%s' % (k, 'th' if 10 <= k % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(k % 10, 'th'))
+
+
+def _n90_numstats(vals):
+    v = [x for x in vals if x is not None]
+    if not v:
+        return None
+    s = sorted(v)
+    n = len(v)
+    total = sum(v, _N90_Dec(0))
+    mean = total / _N90_Dec(n)
+    out = {'count': n, 'sum': total, 'mean': mean, 'min': s[0], 'max': s[-1], 'median': _n90_quantile(s, '0.5'), 'q1': _n90_quantile(s, '0.25'), 'q3': _n90_quantile(s, '0.75')}
+    if n >= 2:
+        var = sum(((x - mean) ** 2 for x in v), _N90_Dec(0)) / _N90_Dec(n - 1)
+        out['stdev'] = var.sqrt()
+    return out
+
+
+def _n90_pearson(xs, ys):
+    pairs = [(float(a), float(b)) for a, b in zip(xs, ys) if a is not None and b is not None]
+    n = len(pairs)
+    if n < 8:
+        return None, n
+    mx, my = sum(p[0] for p in pairs) / n, sum(p[1] for p in pairs) / n
+    sxx = sum((p[0] - mx) ** 2 for p in pairs)
+    syy = sum((p[1] - my) ** 2 for p in pairs)
+    if sxx == 0 or syy == 0:
+        return None, n
+    return sum((p[0] - mx) * (p[1] - my) for p in pairs) / _n90_math.sqrt(sxx * syy), n
+
+
+def _n90_trade_profile(pnl_vals, dates=None):
+    """Plain facts about a list of trade results (file order, or date order when dates are given). No advice."""
+    seq = [(d, v) for d, v in zip(dates or [None] * len(pnl_vals), pnl_vals) if v is not None]
+    if dates:
+        seq = sorted(seq, key=lambda x: (x[0] is None, x[0] or _n90_dt.date.min))
+    vals = [v for _d, v in seq]
+    n = len(vals)
+    if n < 5:
+        return None
+    wins, losses = [v for v in vals if v > 0], [v for v in vals if v < 0]
+    gross_win, gross_loss = sum(wins, _N90_Dec(0)), -sum(losses, _N90_Dec(0))
+    total = sum(vals, _N90_Dec(0))
+    eq, peak, max_dd, cum = _N90_Dec(0), _N90_Dec(0), _N90_Dec(0), []
+    for v in vals:
+        eq += v
+        cum.append(eq)
+        peak = max(peak, eq)
+        max_dd = max(max_dd, peak - eq)
+    streak_w = streak_l = cur_w = cur_l = 0
+    for v in vals:
+        cur_w = cur_w + 1 if v > 0 else 0
+        cur_l = cur_l + 1 if v < 0 else 0
+        streak_w, streak_l = max(streak_w, cur_w), max(streak_l, cur_l)
+    avg_win = gross_win / _N90_Dec(len(wins)) if wins else None
+    avg_loss = gross_loss / _N90_Dec(len(losses)) if losses else None
+    return {'trades': n, 'wins': len(wins), 'losses': len(losses), 'flat': n - len(wins) - len(losses), 'win_rate': _N90_Dec(len(wins)) * 100 / _N90_Dec(n), 'total': total,
+            'expectancy': total / _N90_Dec(n), 'gross_win': gross_win, 'gross_loss': gross_loss, 'avg_win': avg_win, 'avg_loss': avg_loss,
+            'payoff': (avg_win / avg_loss) if avg_win is not None and avg_loss else None, 'profit_factor': (gross_win / gross_loss) if gross_loss else None, 'max_drawdown': max_dd,
+            'best': max(vals), 'worst': min(vals), 'streak_win': streak_w, 'streak_loss': streak_l, 'cumulative': cum}
+
+
+def _n90_pick_primary(cols):
+    nums = [c for c in cols if c['kind'] == 'number']
+    for c in nums:
+        if _N90_PNL_HEADER.search(c['name']):
+            return c, True
+    for c in nums:
+        if _N90_AMOUNT_HEADER.search(c['name']):
+            return c, False
+    nums.sort(key=lambda c: -sum(1 for v in c['values'] if v is not None))
+    return (nums[0] if nums else None), False
+
+
+def _n90_data_report(table, ask=''):
+    """The whole analysis as data: overview, column stats, group tables, trend, outliers, correlations, trade profile, charts and a formula for every figure. Pure computation."""
+    cols, notes = _n90_infer_columns(table)
+    n_rows = len(table['rows'])
+    indian = bool(_n90_re.search(r'(?i)\b(?:lakh|crore|rs\.?|inr|₹)\b', str(ask))) or any(c['unit'] in ('₹', 'rs', 'inr') for c in cols)
+    fmt = lambda v, unit='', d=None: _n90_fmt(v, unit, indian, d if d is not None else (0 if _N90_Dec(v) == _N90_Dec(v).to_integral() else 2))
+    findings, tables, charts, formulas = [], [], [], []
+    nums = [c for c in cols if c['kind'] == 'number']
+    texts = [c for c in cols if c['kind'] == 'text']
+    dcols = [c for c in cols if c['kind'] == 'date']
+    last_row = n_rows + 1
+
+    def col_letter(i):
+        s, i = '', i + 1
+        while i:
+            i, r = divmod(i - 1, 26)
+            s = chr(65 + r) + s
+        return s
+    overview = ['%d rows and %d columns%s.' % (n_rows, len(cols), (' (sheet “%s”)' % table['sheet']) if table.get('sheet') else '')]
+    kinds = []
+    for k, label in (('number', 'number'), ('date', 'date'), ('text', 'text')):
+        names = [c['name'] for c in cols if c['kind'] == k]
+        if names:
+            kinds.append('%d %s column%s (%s)' % (len(names), label, '' if len(names) == 1 else 's', ', '.join(names[:6]) + (' …' if len(names) > 6 else '')))
+    overview.append('Columns: ' + '; '.join(kinds) + '.')
+    if table.get('header_guess'):
+        notes.append('the first row looked like data, not headings, so columns are named Column 1, 2, …')
+    miss = sum(c['missing'] for c in cols)
+    unparsed = sum(c['unparsed'] for c in cols)
+    if miss:
+        overview.append('%d empty cell(s) are left out of the calculations for their column.' % miss)
+    if unparsed:
+        notes.append('%d cell(s) in number or date columns could not be read and were left out' % unparsed)
+    dup = n_rows - len({tuple(str(x) for x in r) for r in table['rows']})
+    if dup:
+        overview.append('%d row(s) are exact duplicates of an earlier row (kept in the totals — remove them first if they are mistakes).' % dup)
+    drange = None
+    if dcols:
+        dv = [v for v in dcols[0]['values'] if v]
+        if dv:
+            drange = (min(dv), max(dv))
+            overview.append('“%s” runs from %s to %s.' % (dcols[0]['name'], drange[0].strftime('%d %b %Y'), drange[1].strftime('%d %b %Y')))
+    # ---- column statistics
+    stat_rows = []
+    for c in nums:
+        st = _n90_numstats(c['values'])
+        if not st:
+            continue
+        c['stats'] = st
+        L = col_letter(c['idx'])
+        rng = 'Data!%s2:%s%d' % (L, L, last_row)
+        stat_rows.append([c['name'], str(st['count']), fmt(st['sum'], c['unit']), fmt(st['mean'], c['unit']), fmt(st['median'], c['unit']), fmt(st['min'], c['unit']), fmt(st['max'], c['unit']), fmt(st['stdev'], c['unit']) if 'stdev' in st else '-'])
+        for label, key, xl in (('Sum', 'sum', '=SUM(%s)' % rng), ('Average', 'mean', '=AVERAGE(%s)' % rng), ('Median', 'median', '=MEDIAN(%s)' % rng), ('Smallest', 'min', '=MIN(%s)' % rng),
+                               ('Largest', 'max', '=MAX(%s)' % rng), ('Count', 'count', '=COUNT(%s)' % rng)):
+            formulas.append({'figure': '%s of “%s”' % (label, c['name']), 'value': st[key], 'text': fmt(st[key], c['unit'] if key != 'count' else ''), 'how': '%s over the %d filled cells of column %s' % (label.lower(), st['count'], L), 'excel': xl})
+        if 'stdev' in st:
+            formulas.append({'figure': 'Standard deviation of “%s”' % c['name'], 'value': st['stdev'], 'text': fmt(st['stdev'], c['unit']), 'how': 'sample standard deviation (n-1) of column %s' % L, 'excel': '=STDEV.S(%s)' % rng})
+    for xr, label, trow in table.get('totals', []):
+        if not _n90_re.search(r'(?i)total|sum', label):
+            notes.append('the row “%s” (row %d) looks like a summary row, so it was left out of the calculations' % (label, xr))
+            continue
+        for c in nums:
+            claimed = _n90_cell_num(trow[c['idx']])
+            if claimed is not None and 'stats' in c:
+                diff = claimed[0] - c['stats']['sum']
+                if diff == 0:
+                    findings.append('The file’s own “%s” row says %s for “%s”; adding the rows gives %s — they agree.' % (label, fmt(claimed[0], c['unit']), c['name'], fmt(c['stats']['sum'], c['unit'])))
+                else:
+                    findings.append('⚠ The file’s own “%s” row says %s for “%s”, but adding the rows gives %s (a difference of %s).' % (label, fmt(claimed[0], c['unit']), c['name'], fmt(c['stats']['sum'], c['unit']), fmt(abs(diff), c['unit'])))
+        notes.append('the row “%s” (row %d) was left out of the calculations and checked against them' % (label, xr))
+    if stat_rows:
+        tables.append({'title': 'Number columns', 'headers': ['Column', 'Count', 'Sum', 'Average', 'Median', 'Smallest', 'Largest', 'Std dev'], 'rows': stat_rows})
+    primary, is_pnl = _n90_pick_primary(cols)
+    # ---- trade log profile
+    trade = None
+    if primary is not None and is_pnl and 'stats' in primary:
+        dcol = dcols[0]['values'] if dcols else None
+        trade = _n90_trade_profile(primary['values'], dcol)
+        if trade:
+            u = primary['unit']
+            T = trade
+            findings.append('%d trades: %d won, %d lost%s. Win rate %s%%. Net result %s (average %s per trade).' % (T['trades'], T['wins'], T['losses'], (', %d flat' % T['flat']) if T['flat'] else '', fmt(T['win_rate'], '', 1), fmt(T['total'], u), fmt(T['expectancy'], u)))
+            if T['profit_factor'] is not None:
+                findings.append('Profit factor %s (gross profit %s ÷ gross loss %s). Average win %s, average loss %s%s.' % (fmt(T['profit_factor'], '', 2), fmt(T['gross_win'], u), fmt(T['gross_loss'], u), fmt(T['avg_win'], u) if T['avg_win'] is not None else '-', fmt(T['avg_loss'], u) if T['avg_loss'] is not None else '-', (', payoff ratio %s' % fmt(T['payoff'], '', 2)) if T['payoff'] is not None else ''))
+            findings.append('Deepest drop from a running peak: %s. Best trade %s, worst trade %s. Longest winning run %d, longest losing run %d.' % (fmt(T['max_drawdown'], u), fmt(T['best'], u), fmt(T['worst'], u), T['streak_win'], T['streak_loss']))
+            for label, val, how in (('Win rate %', T['win_rate'], 'winning trades ÷ all trades × 100'), ('Net result', T['total'], 'sum of every trade'), ('Expectancy per trade', T['expectancy'], 'net result ÷ number of trades'),
+                                    ('Profit factor', T['profit_factor'], 'gross profit ÷ gross loss'), ('Maximum drawdown', T['max_drawdown'], 'largest fall of the running total from its highest earlier value (starting at 0), in %s order' % ('date' if dcol else 'file')),
+                                    ('Gross profit', T['gross_win'], 'sum of the winning trades'), ('Gross loss', T['gross_loss'], 'sum of the losing trades (shown positive)')):
+                if val is not None:
+                    formulas.append({'figure': label, 'value': val, 'text': fmt(val, u if '%' not in label and 'factor' not in label else '', 2 if '%' in label or 'factor' in label else None), 'how': how, 'excel': ''})
+            idx_ = _n90_sample_idx(len(T['cumulative']), 60)
+            charts.append({'type': 'line', 'title': 'Running total of “%s”' % primary['name'], 'labels': [str(i + 1) for i in idx_], 'series': [{'name': 'Running total', 'values': [T['cumulative'][i] for i in idx_], 'unit': u if u in ('%', '₹', '$', '€', '£') else ''}],
+                           'unit': u if u in ('%', '₹', '$', '€', '£') else '', 'indian': indian, 'dark': False, 'size': (1200, 600), 'source': 'Running total in %s order%s.' % ('date' if dcol else 'file', (' (every %s trade shown, first and last included)' % _n90_ordinal(max(1, int(round(len(T['cumulative']) / 60.0))))) if len(idx_) < len(T['cumulative']) else '')})
+            text_sym = next((c for c in texts if _n90_re.search(r'(?i)symbol|instrument|ticker|scrip|stock|name|underlying', c['name'])), None)
+            if text_sym is not None:
+                per = {}
+                for lab, v in zip(text_sym['values'], primary['values']):
+                    if lab is not None and v is not None:
+                        per.setdefault(lab, []).append(v)
+                if 2 <= len(per) <= 60:
+                    rows_ = sorted(((k, sum(v, _N90_Dec(0)), len(v)) for k, v in per.items()), key=lambda x: -x[1])
+                    findings.append('Best %s: %s (%s); weakest: %s (%s).' % (text_sym['name'].lower(), rows_[0][0], fmt(rows_[0][1], u), rows_[-1][0], fmt(rows_[-1][1], u)))
+            notes.append('this describes the past results in the file only; it is not a forecast or advice')
+    # ---- groups
+    if primary is not None and 'stats' in primary and not trade:
+        total = primary['stats']['sum']
+        findings.append('%s: total %s over %d entries, average %s, median %s, from %s to %s.' % (primary['name'], fmt(total, primary['unit']), primary['stats']['count'], fmt(primary['stats']['mean'], primary['unit']), fmt(primary['stats']['median'], primary['unit']), fmt(primary['stats']['min'], primary['unit']), fmt(primary['stats']['max'], primary['unit'])))
+    if primary is not None and 'stats' in primary:
+        groupers = [c for c in texts if 2 <= len({v for v in c['values'] if v is not None}) <= 30 and len({v for v in c['values'] if v is not None}) <= max(2, n_rows // 2)][:2]
+        for g in groupers:
+            per = {}
+            for lab, v in zip(g['values'], primary['values']):
+                if lab is not None and v is not None:
+                    per.setdefault(lab, []).append(v)
+            if len(per) < 2:
+                continue
+            tot = primary['stats']['sum']
+            rows_ = sorted(((k, sum(v, _N90_Dec(0)), len(v)) for k, v in per.items()), key=lambda x: -x[1])
+            share = lambda s: (s * 100 / tot) if tot else None
+            tables.append({'title': '%s by %s' % (primary['name'], g['name']), 'headers': [g['name'], 'Entries', 'Sum', 'Average', 'Share of total'],
+                           'rows': [[k, str(cnt), fmt(s, primary['unit']), fmt(s / _N90_Dec(cnt), primary['unit']), (fmt(share(s), '', 1) + '%') if share(s) is not None else '-'] for k, s, cnt in rows_[:20]]})
+            top = rows_[0]
+            if share(top[1]) is not None and tot > 0 and not trade:
+                findings.append('Largest %s for “%s”: %s with %s (%s%% of the total).' % (g['name'].lower(), primary['name'], top[0], fmt(top[1], primary['unit']), fmt(share(top[1]), '', 1)))
+            formulas.append({'figure': 'Sum of “%s” for %s = %s' % (primary['name'], g['name'], top[0]), 'value': top[1], 'text': fmt(top[1], primary['unit']), 'how': 'sum of the %d rows where %s is “%s”' % (top[2], g['name'], top[0]),
+                             'excel': '=SUMIF(Data!%s2:%s%d,"%s",Data!%s2:%s%d)' % (col_letter(g['idx']), col_letter(g['idx']), last_row, top[0].replace('"', '""'), col_letter(primary['idx']), col_letter(primary['idx']), last_row)})
+            charts.append({'type': 'barh' if len(rows_) > 6 else 'bar', 'title': '%s by %s' % (primary['name'], g['name']), 'labels': [str(k)[:24] for k, _s, _c in rows_[:10]], 'series': [{'name': primary['name'], 'values': [s for _k, s, _c in rows_[:10]], 'unit': primary['unit'] if primary['unit'] in ('%', '₹', '$', '€', '£') else ''}],
+                           'unit': primary['unit'] if primary['unit'] in ('%', '₹', '$', '€', '£') else '', 'indian': indian, 'dark': False, 'size': (1200, 600), 'source': 'Sum of “%s” per %s (top %d).' % (primary['name'], g['name'], min(10, len(rows_)))})
+            break
+        # ---- trend by month
+        if dcols:
+            months = {}
+            for d, v in zip(dcols[0]['values'], primary['values']):
+                if d is not None and v is not None:
+                    months.setdefault(d.strftime('%Y-%m'), []).append(v)
+            if len(months) >= 3:
+                keys = sorted(months)
+                sums = [(k, sum(months[k], _N90_Dec(0))) for k in keys]
+                best, worst = max(sums, key=lambda x: x[1]), min(sums, key=lambda x: x[1])
+                first, last = sums[0][1], sums[-1][1]
+                chg = ((last - first) / first * 100) if (first > 0 and last > 0 and abs((last - first) / first * 100) <= 1000) else None
+                findings.append('By month: best %s (%s), weakest %s (%s)%s.' % (best[0], fmt(best[1], primary['unit']), worst[0], fmt(worst[1], primary['unit']),
+                                 (', %s%% from %s to %s' % (fmt(chg, '', 1), sums[0][0], sums[-1][0])) if chg is not None else ''))
+                tables.append({'title': '%s by month' % primary['name'], 'headers': ['Month', 'Entries', 'Sum'], 'rows': [[k, str(len(months[k])), fmt(s, primary['unit'])] for k, s in sums[-24:]]})
+                if chg is not None:
+                    formulas.append({'figure': 'Change from first to last month', 'value': chg, 'text': fmt(chg, '', 1) + '%', 'how': '(%s − %s) ÷ |%s| × 100' % (fmt(last, primary['unit']), fmt(first, primary['unit']), fmt(first, primary['unit'])), 'excel': ''})
+                charts.append({'type': 'line', 'title': '%s by month' % primary['name'], 'labels': [k for k, _s in sums[-36:]], 'series': [{'name': primary['name'], 'values': [s for _k, s in sums[-36:]], 'unit': primary['unit'] if primary['unit'] in ('%', '₹', '$', '€', '£') else ''}],
+                               'unit': primary['unit'] if primary['unit'] in ('%', '₹', '$', '€', '£') else '', 'indian': indian, 'dark': False, 'size': (1200, 600), 'source': 'Monthly sums of “%s”.' % primary['name']})
+        # ---- outliers (IQR rule)
+        st = primary['stats']
+        if st['count'] >= 8:
+            iqr = st['q3'] - st['q1']
+            lo, hi = st['q1'] - _N90_Dec('1.5') * iqr, st['q3'] + _N90_Dec('1.5') * iqr
+            odd = [(i + 2, v) for i, v in enumerate(primary['values']) if v is not None and (v < lo or v > hi)]
+            if odd and iqr > 0:
+                odd.sort(key=lambda x: -abs(x[1] - st['median']))
+                findings.append('%d unusual value(s) in “%s” (outside %s to %s): %s.' % (len(odd), primary['name'], fmt(lo, primary['unit']), fmt(hi, primary['unit']), ', '.join('%s in row %d' % (fmt(v, primary['unit']), r) for r, v in odd[:5])))
+                formulas.append({'figure': 'Unusual-value limits for “%s”' % primary['name'], 'value': hi, 'text': '%s to %s' % (fmt(lo, primary['unit']), fmt(hi, primary['unit'])), 'how': 'lower = Q1 − 1.5×IQR, upper = Q3 + 1.5×IQR (quartiles as Excel QUARTILE.INC)', 'excel': ''})
+        # ---- histogram
+        if st['count'] >= 12:
+            charts.append({'type': 'histogram', 'title': 'Spread of “%s”' % primary['name'], 'labels': [str(i + 1) for i in range(min(st['count'], 5000))], 'series': [{'name': primary['name'], 'values': [v for v in primary['values'] if v is not None][:5000], 'unit': ''}], 'unit': '', 'indian': indian, 'dark': False, 'size': (1200, 600),
+                           'source': 'All %d values of “%s”.' % (min(st['count'], 5000), primary['name'])})
+    # ---- correlations
+    if len(nums) >= 2:
+        pairs = []
+        for i in range(len(nums)):
+            for j in range(i + 1, min(len(nums), 8)):
+                r, n = _n90_pearson(nums[i]['values'], nums[j]['values'])
+                if r is not None and abs(r) >= 0.6:
+                    pairs.append((abs(r), r, n, nums[i]['name'], nums[j]['name']))
+        pairs.sort(reverse=True)
+        for _a, r, n, a, b in pairs[:3]:
+            findings.append('“%s” and “%s” move %s together (correlation %.2f over %d rows). That shows they go together, not that one causes the other.' % (a, b, 'strongly' if abs(r) >= 0.8 else 'noticeably', r, n))
+            formulas.append({'figure': 'Correlation of “%s” and “%s”' % (a, b), 'value': _N90_Dec(str(round(r, 4))), 'text': '%.2f' % r, 'how': 'Pearson correlation over the %d rows where both are filled' % n, 'excel': ''})
+    if not findings and not tables:
+        raise _N90DataError('I found no numbers I could analyse in that file')
+    facts = [str(x) for x in overview] + findings + [' '.join(r) for t in tables for r in t['rows']] + [f['text'] for f in formulas]
+    for ch in charts:
+        if ch['type'] != 'histogram':
+            ch['decimals'] = 0 if all(_N90_Dec(v) == _N90_Dec(v).to_integral() for s in ch['series'] for v in s['values']) else 2
+    return {'title': ('Data report: ' + table['name'])[:90], 'overview': overview, 'findings': findings, 'tables': tables, 'charts': charts[:4], 'formulas': formulas, 'notes': notes, 'trade': trade,
+            'columns': cols, 'facts': '\n'.join(facts), 'indian': indian, 'rows': n_rows}
+
+
+def _n90_check_narrative(text, facts):
+    """Every figure in a worded summary must be a figure the code computed. Returns (ok, [figures not found])."""
+    evidence = _n90_extract_numbers(facts, keep_small=True)
+    bad = []
+    for c in _n90_extract_numbers(text, keep_small=False):
+        if not any(_n90_values_match(c, e) for e in evidence):
+            bad.append(c['raw'])
+    return (not bad), bad
+
+
+def _n90_data_narrative(chat_id, report, ask=''):
+    """Optional plain-language summary. Used only when the AI wrote it from the computed facts and every figure in it checks out."""
+    try:
+        prompt = ('Write a short plain-language summary (at most 150 words, no headings, no markdown) of this data for the owner. Use ONLY the facts below and copy every number exactly as written. '
+                  'Do not add, round, convert or estimate any number, do not predict, and do not give advice.%s\n\nFACTS:\n%s' % ((' The owner asked: ' + str(ask)[:200]) if ask else '', report['facts'][:6000]))
+        out = ask_ai(chat_id, prompt, remember=False, timeout=90, models_override=SMART_MODELS)
+    except Exception:
+        return '', 'the wording step failed'
+    if not isinstance(out, str) or len(out.strip()) < 40:
+        return '', 'the wording step returned nothing'
+    ok, bad = _n90_check_narrative(out, report['facts'])
+    if not ok:
+        return '', 'the AI summary used figures that were not in the data (%s), so it was left out' % ', '.join(bad[:3])
+    return out.strip(), ''
+
+
+# ------------------------------------------------ PDF + Excel ------------------------------------------------
+def _n90_pdf_table(pdf, fam, T, headers, rows, pw, first_wide=True):
+    n = len(headers)
+    widths = ([pw * (0.34 if n <= 5 else 0.2)] + [pw * (0.66 if n <= 5 else 0.8) / (n - 1)] * (n - 1)) if first_wide and n > 1 else [pw / n] * n
+    pdf.set_font(fam, 'B', 8)
+    pdf.set_text_color(93, 101, 113)
+    pdf.set_x(16)
+    for w, h in zip(widths, headers):
+        pdf.cell(w, 5.5, T(_n90_trunc(pdf, h, w - 1)), border='B')
+    pdf.ln(5.5)
+    pdf.set_font(fam, '', 8)
+    pdf.set_text_color(43, 48, 56)
+    for r in rows:
+        if pdf.get_y() > pdf.h - 22:
+            pdf.add_page()
+        pdf.set_x(16)
+        for i, (w, c) in enumerate(zip(widths, r)):
+            pdf.cell(w, 5, T(_n90_trunc(pdf, c, w - 1)), align='L' if i == 0 else 'R')
+        pdf.ln(5)
+    pdf.ln(3)
+
+
+def _n90_data_pdf(path, report, narrative=''):
+    pdf, fam, uni = _n90_pdf_new()
+    T = lambda s: _n90_pdf_text(s, uni)
+    pdf._n90_foot = 'Data report'
+    pw = pdf.w - 32
+    pdf.add_page()
+    pdf.set_fill_color(15, 29, 48)
+    pdf.rect(0, 0, pdf.w, 34, 'F')
+    pdf.set_xy(16, 9)
+    pdf.set_font(fam, 'B', 9)
+    pdf.set_text_color(108, 190, 255)
+    pdf.cell(pw, 5, T('NEMO  /  DATA REPORT  /  every number computed from your file'))
+    pdf.set_xy(16, 17)
+    pdf.set_font(fam, 'B', 15)
+    pdf.set_text_color(255, 255, 255)
+    pdf.multi_cell(pw, 7, T(_n90_trunc(pdf, report['title'], pw)), align='L')
+    pdf.set_y(40)
+
+    def heading(txt):
+        if pdf.get_y() > pdf.h - 40:
+            pdf.add_page()
+        pdf.set_x(16)
+        pdf.set_font(fam, 'B', 11.5)
+        pdf.set_text_color(20, 67, 108)
+        pdf.cell(pw, 7, T(txt))
+        pdf.ln(8)
+
+    def para(txt, size=9.2, color=(43, 48, 56)):
+        pdf.set_x(16)
+        pdf.set_font(fam, '', size)
+        pdf.set_text_color(*color)
+        pdf.multi_cell(pw, 4.9, T(txt), align='L')
+        pdf.ln(1.2)
+    heading('What is in the file')
+    for ln in report['overview']:
+        para('- ' + ln)
+    if narrative:
+        heading('In plain words')
+        para(narrative)
+    if report['findings']:
+        heading('Key findings')
+        for ln in report['findings']:
+            para('- ' + ln)
+    for tb in report['tables'][:6]:
+        heading(tb['title'])
+        _n90_pdf_table(pdf, fam, T, tb['headers'], tb['rows'], pw)
+    for ch in report['charts'][:4]:
+        try:
+            png, info = _n90_make_chart(ch)
+        except Exception:
+            continue
+        if pdf.get_y() > pdf.h - 110:
+            pdf.add_page()
+        tmp = _n90_os.path.join(_n90_dir(), 'data90_fig_%d.png' % int(_n90_time.time() * 1000000))
+        with open(tmp, 'wb') as f:
+            f.write(png)
+        try:
+            y = pdf.get_y()
+            pdf.image(tmp, x=16, y=y, w=pw)
+            pdf.set_y(y + pw * 0.5 + 2)
+        finally:
+            try:
+                _n90_os.unlink(tmp)
+            except OSError:
+                pass
+        para('Plotted from the computed values (%s).' % info.get('verified', 'read back'), 8, (93, 101, 113))
+    pdf.add_page()
+    heading('How each figure was calculated')
+    for f in report['formulas'][:70]:
+        if pdf.get_y() > pdf.h - 24:
+            pdf.add_page()
+        pdf.set_x(16)
+        pdf.set_font(fam, 'B', 8.5)
+        pdf.set_text_color(43, 48, 56)
+        pdf.multi_cell(pw, 4.6, T('%s = %s' % (f['figure'], f['text'])), align='L')
+        pdf.set_x(20)
+        pdf.set_font(fam, '', 8)
+        pdf.set_text_color(93, 101, 113)
+        pdf.multi_cell(pw - 4, 4.2, T(f['how'] + ((' | Excel: ' + f['excel']) if f['excel'] else '')), align='L')
+    if report['notes']:
+        pdf.ln(3)
+        heading('Notes')
+        for ln in report['notes']:
+            para('- ' + ln, 8.5)
+    pdf.output(path)
+    return path
+
+
+def _n90_data_xlsx(path, report, table):
+    """Excel file: Summary, Columns (with live formulas next to Nemo's values), Formulas, Tables and the original Data. Returns True when written."""
+    try:
+        import openpyxl
+        from openpyxl.styles import Font
+    except ImportError:
+        return False
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.title = 'Summary'
+    ws.append([report['title']])
+    ws['A1'].font = Font(bold=True, size=13)
+    ws.append([])
+    for ln in report['overview'] + report['findings']:
+        ws.append([ln])
+    for ln in report['notes']:
+        ws.append(['Note: ' + ln])
+    ws.column_dimensions['A'].width = 120
+    fx = wb.create_sheet('Formulas')
+    fx.append(['Figure', "Nemo's value", 'Shown as', 'How it was calculated', 'Formula (text)', 'Excel result (live)'])
+    for c in fx[1]:
+        c.font = Font(bold=True)
+    for f in report['formulas']:
+        v = f['value']
+        fx.append([f['figure'], float(v) if isinstance(v, _N90_Dec) else v, f['text'], f['how'], None, None])
+        if f['excel']:
+            cell = fx.cell(row=fx.max_row, column=5, value=f['excel'])
+            cell.data_type = 's'                                         # shown as text so it can be read
+            fx.cell(row=fx.max_row, column=6, value=f['excel'])          # the same formula, live, against the Data sheet
+    for col, w in zip('ABCDEF', (44, 18, 18, 70, 52, 18)):
+        fx.column_dimensions[col].width = w
+    for tb in report['tables']:
+        sh = wb.create_sheet(_n90_re.sub(r'[\[\]:*?/\\]', ' ', tb['title'])[:31])
+        sh.append(tb['headers'])
+        for c in sh[1]:
+            c.font = Font(bold=True)
+        for r in tb['rows']:
+            sh.append(r)
+    data = wb.create_sheet('Data')
+    data.append(table['header'])
+    for c in data[1]:
+        c.font = Font(bold=True)
+    for r, row in enumerate(table['rows'][:60000]):
+        out = []
+        for ci, v in enumerate(row):
+            col = report['columns'][ci]
+            if col['kind'] == 'number':
+                pv = col['values'][r]
+                out.append(float(pv) if pv is not None else None)
+            elif col['kind'] == 'date':
+                out.append(col['values'][r])
+            else:
+                out.append(v if v != '' else None)
+        data.append(out)
+    wb.save(path)
+    return True
+
+
+def _n90_prune_outputs():
+    try:
+        now = _n90_time.time()
+        d = _n90_dir()
+        for n in _n90_os.listdir(d):
+            if n.startswith('data90_'):
+                p = _n90_os.path.join(d, n)
+                if now - _n90_os.path.getmtime(p) > _N90_KEEP_SECONDS:
+                    _n90_os.unlink(p)
+    except Exception:
+        pass
+
+
+def _n90_run_data_report(cid, table, ask=''):
+    """Analyse, build the PDF and the Excel file, send both, and say honestly what was left out. Returns the text of the summary sent (or '' if it failed)."""
+    _n90_prune_outputs()
+    report = _n90_data_report(table, ask)
+    narrative, why = _n90_data_narrative(cid, report, ask)
+    if why:
+        report['notes'].append(why)
+    stamp = '%d' % int(_n90_time.time())
+    base = _n90_os.path.join(_n90_dir(), 'data90_%s_%s' % (_n90_re.sub(r'\D', '', str(cid)) or 'x', stamp))
+    pdf_path, xlsx_path = base + '.pdf', base + '.xlsx'
+    _n90_data_pdf(pdf_path, report, narrative)
+    has_xlsx = False
+    try:
+        has_xlsx = _n90_data_xlsx(xlsx_path, report, table)
+    except Exception:
+        _N90_STATS['errors'] += 1
+    safe = _n90_re.sub(r'[^\w\- ]', '', _n90_os.path.splitext(table['name'])[0]).strip().replace(' ', '_')[:40] or 'data'
+    sent_pdf = send_document(cid, pdf_path, 'Data_report_%s.pdf' % safe, 'application/pdf')
+    if sent_pdf:
+        LASTFILE[cid] = pdf_path
+    sent_x = send_document(cid, xlsx_path, 'Data_report_%s.xlsx' % safe, 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet') if has_xlsx else False
+    _N90_STATS['data_reports'] += 1
+    lines = ['📊 DATA REPORT — %s' % table['name'][:60]] + report['overview'][:2] + ['• ' + f for f in report['findings'][:5]]
+    lines.append('Every number above was computed by code from your file; the PDF shows how each one was calculated' + (', and the Excel file has live formulas you can check.' if sent_x else '.'))
+    if not has_xlsx:
+        lines.append('(Excel export needs the openpyxl package, which is not installed here.)')
+    if narrative:
+        lines.insert(1, narrative)
+    if report['notes']:
+        lines.append('Note: ' + '; '.join(report['notes'][:3]) + '.')
+    text = '\n'.join(lines)
+    send_text(cid, text)
+    return text
+
+
+# =============================================================================
+# THE OWNER'S FRONT DOOR: say it in plain words; Studio does the rest. Everyone else still goes through the Circle gate untouched.
+# =============================================================================
+_N90_SYNC = False                  # tests set this so jobs run inline instead of in a thread
+_N90_PENDING_DATA = {}             # chat id -> the last CSV/Excel/JSON file the owner sent {'file_id','name','size','ts'}
+_N90_SIGNUP = {
+    'nvidia': 'build.nvidia.com', 'gemini': 'aistudio.google.com/apikey', 'cloudflare': 'dash.cloudflare.com (Workers AI: an API token and your account id)', 'together': 'api.together.ai',
+    'huggingface': 'huggingface.co/settings/tokens', 'pollinations': 'enter.pollinations.ai', 'horde': 'works without a key (slower queue); aihorde.net gives a free key that is faster',
+    'openai': 'platform.openai.com (paid per image)', 'pollinations_free': 'no key needed', }
+_N90_KEY_ALIASES = {'hf': 'huggingface', 'huggingface': 'huggingface', 'hugging': 'huggingface', 'google': 'gemini', 'gemini': 'gemini', 'nvidia': 'nvidia', 'together': 'together', 'togetherai': 'together',
+                    'cloudflare': 'cloudflare', 'cf': 'cloudflare', 'cloudflare_account': 'cloudflare_account', 'cloudflare_id': 'cloudflare_account', 'cf_account': 'cloudflare_account', 'openai': 'openai',
+                    'pollinations': 'pollinations', 'horde': 'horde', 'aihorde': 'horde', 'removebg': 'removebg', 'remove.bg': 'removebg'}
+
+
+def _n90_bg(fn, cid, *args):
+    """Run a slow job without blocking the message loop (inline when tests ask for it). An unexpected error becomes one honest message."""
+    def run():
+        try:
+            fn(cid, *args)
+        except Exception as exc:
+            _N90_STATS['errors'] += 1
+            try:
+                send_text(cid, 'Studio hit an unexpected problem (%s). Nothing was changed; please try again.' % type(exc).__name__)
+            except Exception:
+                pass
+    if _N90_SYNC:
+        return run()
+    _n90_threading.Thread(target=run, daemon=True, name='nemo-studio90').start()
+
+
+def _n90_say(cid, text, kb=None):
+    return send_text(cid, str(text)[:3900], kb) if kb else send_text(cid, str(text)[:3900])
+
+
+def _n90_image_kb(rid):
+    return {'inline_keyboard': [[{'text': '🔄 Again', 'callback_data': 's90:again:%d' % rid}, {'text': '⬆ 2x bigger', 'callback_data': 's90:up:%d' % rid}, {'text': '✂ No background', 'callback_data': 's90:nobg:%d' % rid}]]}
+
+
+def _n90_send_image(cid, raw, name, caption='', kb=None, force_file=False):
+    """A picture goes as a photo when Telegram can show it faithfully (PNG/JPEG under 9.5 MB, not transparent), otherwise as a file. Returns True when Telegram accepted it."""
+    kind = _n90_sniff(raw) or ('pdf' if raw[:4] == b'%PDF' else '')
+    mime = {'png': 'image/png', 'jpeg': 'image/jpeg', 'webp': 'image/webp', 'gif': 'image/gif', 'pdf': 'application/pdf'}.get(kind, 'application/octet-stream')
+    as_photo = (not force_file) and kind in ('png', 'jpeg') and len(raw) <= 9.5 * 1024 * 1024
+    if as_photo:
+        Image = _n90_pil()
+        if Image is not None:
+            try:
+                im = Image.open(_n90_io.BytesIO(raw))
+                w, h = im.size
+                if w + h > 9500 or max(w, h) / float(max(1, min(w, h))) > 19 or (im.mode in ('RGBA', 'LA') and im.getchannel('A').getextrema()[0] < 255):
+                    as_photo = False
+            except Exception:
+                as_photo = False
+
+    def post(photo):
+        data = {'chat_id': cid}
+        if caption:
+            data['caption'] = caption[:1000]
+        if kb:
+            data['reply_markup'] = _n90_json.dumps(kb)
+        try:
+            r = requests.post('%s/%s' % (TG, 'sendPhoto' if photo else 'sendDocument'), data=data, files={('photo' if photo else 'document'): (name, raw, mime)}, timeout=120)
+            return bool(r.json().get('ok'))
+        except Exception:
+            return False
+    ok = post(as_photo)
+    if not ok and as_photo:
+        ok = post(False)
+    return ok
+
+
+# ------------------------------------------------ what was asked, in words ------------------------------------------------
+_N90_VERB_RX = _n90_re.compile(r"(?i)^(?:(?:please|pls|hey|hi|ok|okay|nemo)[,\s]+)*(?:(?:can|could|would) you\s+)?(?:please\s+)?(?:i (?:want|need|would like)\s+(?:you to\s+)?)?")
+
+
+def _n90_subject(text):
+    """The thing to draw, without the request words, size, style, count, seed and 'without ...' parts (those become settings, not picture content)."""
+    s = ' '.join(str(text or '').split())
+    s = _n90_re.sub(r'(?i)^/(?:img|image|imagine|draw|picture|pic|photo)\w*(?:@\w+)?\s*', '', s)
+    s = _N90_VERB_RX.sub('', s)
+    s = _n90_re.sub(r"(?i)^(?:draw|paint|sketch|illustrate|render|imagine|generate|create|make|produce|design|show)\s+(?:me\s+)?(?:(?:\d+|two|three|four)\s+)?(?:an?\s+|the\s+)?(?:(?:different|more|new|few)\s+)?"
+                    r"(?:(?:image|picture|photo|pic|illustration|drawing|artwork|painting|wallpaper|portrait|render)s?\s*)?(?:(?:of|showing|with|about|for)\s+)?(?:an?\s+|the\s+)?", '', s)
+    s = _n90_re.sub(r'(?i)\b(?:in|at|size|of)?\s*\d{2,4}\s*[x×]\s*\d{2,4}\b', ' ', s)
+    s = _n90_re.sub(r'(?i)\b(?:in |as |for )?(?:an? )?(?:' + _N90_PRESET_NAMES + r')\b', ' ', s) if _n90_re.search(r'(?i)\b(?:' + _N90_PRESET_NAMES + r')\b', s) and len(s) > 40 else s
+    s = _n90_re.sub(r'(?i)\bseed\s*[:=]?\s*\d{1,10}\b', ' ', s)
+    s = _n90_re.sub(r'(?i)\b(?:\d{1,2}|two|three|four)\s+(?:different\s+|more\s+)?(?:variants?|variations?|versions?|options?)\b', ' ', s)
+    s = _n90_re.sub(r'(?i)\b(?:in|with)\s+(?:an?\s+)?(?:[a-z0-9-]+\s+)?style\b', ' ', s)
+    s = _n90_re.sub(r'(?i)[,;]?\s*\b(?:without|avoid|negative(?: prompt)?[:=])\s+[a-z][a-z ,\-]{2,60}?(?=[,.;]|$)', ' ', s)
+    return ' '.join(s.split()).strip(' ,.;:-')
+
+
+def _n90_ready_engines(editing=False):
+    return [e[0] for e in _N90_ENGINES if _n90_engine_state(e[0], editing=editing)[0] == 'ready']
+
+
+def _n90_ago(ts, now=None):
+    d = max(0, (now or _n90_time.time()) - ts)
+    return 'just now' if d < 90 else '%d min ago' % (d // 60) if d < 3600 else '%d h ago' % (d // 3600) if d < 172800 else '%d days ago' % (d // 86400)
+
+
+# ------------------------------------------------ studio: status, setup, test, keys ------------------------------------------------
+def _n90_status_text(cid=None):
+    now = _n90_time.time()
+    lines = ['🎨 STUDIO 90 — image engines (tried in this order; the one that worked last goes first)']
+    order = _n90_engine_order()
+    for eid in order:
+        e = _N90_ENGINE_BY_ID[eid]
+        state, detail = _n90_engine_state(eid)
+        row = _N90_LEDGER.get(eid) or {}
+        hist = (' · worked %d×, failed %d×' % (row.get('ok', 0), row.get('fail', 0))) if (row.get('ok') or row.get('fail')) else ''
+        if state == 'ready':
+            seen = (' · last worked %s' % _n90_ago(row['last_ok'], now)) if row.get('last_ok') else ' · not tried yet'
+            lines.append('✅ %s — ready%s%s%s' % (e[1], ' (keyless)' if e[3] else '', seen, hist))
+        elif state == 'no_key':
+            lines.append('🔑 %s — no key saved. %s%s' % (e[1], _N90_SIGNUP.get(eid, ''), hist))
+        elif state == 'paid_off':
+            lines.append('⏸ %s — paid; switched off (say “studio paid on” to allow)%s' % (e[1], hist))
+        elif state == 'cooldown':
+            lines.append('😴 %s — resting after repeated failures (%s)%s' % (e[1], _n90_reason_text(detail), hist))
+        else:
+            lines.append('• %s — %s' % (e[1], state))
+    ready = _n90_ready_engines()
+    lines.append('%d of %d engines ready. Free keys make this reliable: “studio setup” shows how; “test image engines” checks each one live.' % (len(ready), len(_N90_ENGINES)))
+    lines.append('Numbers check on reports: %s · paid engines: %s · size: exact (cover-crop) · every picture is decoded and checked before it is sent.' % ('ON' if _n90_precision_on() else 'off', 'allowed' if _n90_allow_paid() else 'off'))
+    lines.append('No key is ever shown here.')
+    return '\n'.join(lines)
+
+
+def _n90_setup_text():
+    return ('🔧 ADD MORE IMAGE ENGINES (each is one message, e.g. “studio key together <your key>”; I delete the message afterwards)\n'
+            '• Gemini image: free key from aistudio.google.com/apikey → studio key gemini <key> (also edits pictures)\n'
+            '• Together FLUX: api.together.ai → studio key together <key>\n'
+            '• Hugging Face: huggingface.co/settings/tokens → studio key huggingface <token>\n'
+            '• Cloudflare Workers AI: an API token and your account id → studio key cloudflare <token>, then studio key cloudflare_account <id>\n'
+            '• Pollinations: enter.pollinations.ai → studio key pollinations <key>\n'
+            '• NVIDIA FLUX: build.nvidia.com → studio key nvidia <key>\n'
+            '• AI Horde: works with no key (community GPUs, can be slow)\n'
+            '• OpenAI gpt-image: paid per image, off until you say “studio paid on”\n'
+            '• remove.bg (only for stubborn backgrounds): studio key removebg <key>\n'
+            'Free tiers and limits change, so check each provider’s page. Keys are saved in the same protected file as your other keys and are read when needed — no restart.')
+
+
+def _n90_test_engine(eid):
+    """One tiny real generation on one engine. Returns (ok, seconds, detail)."""
+    e = _N90_ENGINE_BY_ID[eid]
+    t0 = _n90_time.time()
+    try:
+        raw, model = e[7]({'prompt': 'a simple red circle on a white background, flat illustration', 'negative': '', 'w': 512, 'h': 512, 'seed': 7, 'time_left': float(e[6])})
+        ok, why, info = _n90_check_image(raw)
+        if not ok:
+            raise _N90Fail(why)
+    except _N90Fail as exc:
+        _n90_ledger_note(eid, False, exc.code)
+        return False, _n90_time.time() - t0, _n90_reason_text(exc.code, exc.detail)
+    except Exception as exc:
+        _N90_STATS['errors'] += 1
+        _n90_ledger_note(eid, False, 'failed')
+        return False, _n90_time.time() - t0, 'failed (%s)' % type(exc).__name__
+    _n90_ledger_note(eid, True)
+    return True, _n90_time.time() - t0, '%s, %dx%d' % (model, info.get('w', 0), info.get('h', 0))
+
+
+def _n90_test_job(cid):
+    lines = ['🧪 LIVE TEST — one tiny 512×512 picture per engine that is ready (free ones only; paid engines are skipped unless allowed).']
+    ran = 0
+    for eid in _n90_engine_order():
+        e = _N90_ENGINE_BY_ID[eid]
+        state, detail = _n90_engine_state(eid)
+        if state == 'no_key':
+            lines.append('🔑 %s — skipped, no key saved' % e[1])
+            continue
+        if state == 'paid_off':
+            lines.append('⏸ %s — skipped, paid and switched off' % e[1])
+            continue
+        ran += 1
+        ok, secs, detail = _n90_test_engine(eid)
+        lines.append('%s %s — %s (%.0f s)' % ('✅' if ok else '❌', e[1], detail, secs))
+    if not ran:
+        lines.append('No engine has a key yet. “studio setup” shows how to add one.')
+    lines.append('This is a real call from this server, so it shows what works from here right now.')
+    _n90_say(cid, '\n'.join(lines))
+
+
+def _n90_save_key(cid, msg, word, value):
+    eng = _N90_KEY_ALIASES.get(str(word).lower().replace(' ', ''))
+    if not eng:
+        _n90_say(cid, 'Which engine is that for? One of: gemini, together, huggingface, cloudflare, cloudflare_account, pollinations, nvidia, horde, openai, removebg.')
+        return True
+    value = str(value or '').strip().strip('<>"\'`')
+    if eng == 'cloudflare_account':
+        ok_shape = bool(_n90_re.fullmatch(r'[0-9a-fA-F]{32}', value))
+    else:
+        ok_shape = 8 <= len(value) <= 300 and not _n90_re.search(r'\s', value)
+    if not ok_shape:
+        _n90_say(cid, 'That does not look like a valid %s value, so I did not save it. Nothing was changed.' % ('account id (32 letters/numbers)' if eng == 'cloudflare_account' else 'key'))
+        return True
+    save_secret(_N90_KEY_SAVE_AS[eng], value)
+    saved = _n90_secret(eng) == value
+    gone = False
+    try:
+        mid = msg.get('message_id')
+        gone = bool(mid) and bool(tg('deleteMessage', chat_id=cid, message_id=mid).get('ok'))
+    except Exception:
+        gone = False
+    if saved:
+        _n90_say(cid, '✅ Saved the %s %s in the protected secrets file (it is not shown here). %s Say “test image engines” to check it works from this server.' % (
+            eng.replace('_', ' '), 'value' if eng == 'cloudflare_account' else 'key', 'I deleted your message so it does not stay in the chat history.' if gone else 'Please delete your message above yourself; I could not.'))
+    else:
+        _n90_say(cid, 'I could not save that (the secrets file is not writable). Nothing was changed.')
+    return True
+
+
+def _n90_studio_menu():
+    return ('🎨 STUDIO — just tell me what you want:\n'
+            '• Pictures: “draw a lighthouse at dusk, watercolor, instagram story, 3 variants”\n'
+            '• Edit a picture (send or reply to it): “resize to 1080x1080, black and white, add text \"SALE\" at the top”, “remove the background”, “compress to 200 kb”, “convert to webp”, “color palette”, “split into 3x1”\n'
+            '• Exact-text designs: “make a poster saying \"Diwali Sale\" \"Up to 50% off\"”, quote card, banner, thumbnail, logo (PNG + SVG)\n'
+            '• Wallpapers that need no AI: “gradient wallpaper, ocean” \n'
+            '• Charts from your numbers: “bar chart: Jan 120, Feb 150, Mar 90” (I never invent data)\n'
+            '• Data report from your file (send a CSV, Excel, JSON or trade log, then say “analyse this file”)\n'
+            '• Reports: every figure in a researched report is now checked against its sources, with a verification page at the end.\n'
+            '• Engines: “image engines”, “test image engines”, “studio setup”.')
+
+
+def _n90_studio_cmd(cid, msg, rest):
+    arg = ' '.join(str(rest or '').split())
+    low = arg.lower()
+    if not low:
+        _n90_say(cid, _n90_studio_menu() + '\n\n' + _n90_status_text(cid))
+        return True
+    m = _n90_re.match(r'(?i)^key\s+(\S+)(?:\s+(\S+))?\s*$', arg)
+    if m:
+        if not m.group(2):
+            _n90_say(cid, 'Say: studio key <engine> <key>   (engines: gemini, together, huggingface, cloudflare, cloudflare_account, pollinations, nvidia, horde, openai, removebg)')
+            return True
+        return _n90_save_key(cid, msg, m.group(1), m.group(2))
+    if low in ('status', 'engines', 'image engines'):
+        _n90_say(cid, _n90_status_text(cid))
+    elif low in ('setup', 'keys', 'help setup'):
+        _n90_say(cid, _n90_setup_text())
+    elif low == 'test':
+        _n90_say(cid, '🧪 Testing each ready engine with one tiny picture (this can take a couple of minutes)…')
+        _n90_bg(_n90_test_job, cid)
+    elif low in ('help', 'menu'):
+        _n90_say(cid, _n90_studio_menu())
+    elif _n90_re.match(r'^paid\s+(on|off)$', low):
+        on = low.endswith('on')
+        save_secret('studio_allow_paid', '1' if on else '0')
+        _n90_say(cid, ('💳 Paid engines are now ON: OpenAI gpt-image can be used when the free ones fail (it costs money per picture; I will always say which engine made a picture).' if on
+                       else '⏸ Paid engines are OFF. Only free and keyless engines will be used.'))
+    elif _n90_re.match(r'^precision\s+(on|off)$', low):
+        on = low.endswith('on')
+        save_secret('studio_precision', '1' if on else '0')
+        _n90_say(cid, '🔢 The numbers check on researched reports is now %s.' % ('ON' if on else 'OFF (reports are built as before)'))
+    elif _n90_re.match(r'^engines\s+', low):
+        names = [x.strip() for x in _n90_re.split(r'[,\s]+', low[8:]) if x.strip()]
+        if names == ['auto']:
+            save_secret('studio_engines', '')
+            _n90_say(cid, 'Engine order reset: I try them all, the one that worked last first.')
+        else:
+            bad = [n for n in names if n not in _N90_ENGINE_BY_ID]
+            if bad or not names:
+                _n90_say(cid, 'Unknown engine: %s. Valid: %s, or “auto”.' % (', '.join(bad) or '(none given)', ', '.join(_N90_ENGINE_BY_ID)))
+            else:
+                save_secret('studio_engines', ','.join(names))
+                _n90_say(cid, 'Engine order saved: %s.' % ', '.join(names))
+    elif low in ('clear', 'forget'):
+        n = _n90_clear(cid)
+        _n90_say(cid, 'Removed %d picture(s) and their prompts that Studio kept for follow-ups.' % n)
+    else:
+        _n90_say(cid, _n90_studio_menu())
+    return True
+
+
+def _n90_clear(cid, matcher=None):
+    n = 0
+    try:
+        c = _n90_db()
+        try:
+            rows = c.execute('SELECT id,path,prompt FROM studio90_image WHERE chat=?', (str(cid),)).fetchall()
+            for rid, path, prompt in rows:
+                if matcher is not None and not matcher(prompt or ''):
+                    continue
+                try:
+                    if path and _n90_os.path.dirname(_n90_os.path.abspath(path)) == _n90_os.path.abspath(_n90_dir()):
+                        _n90_os.unlink(path)
+                except OSError:
+                    pass
+                c.execute('DELETE FROM studio90_image WHERE id=?', (rid,))
+                n += 1
+            c.commit()
+        finally:
+            c.close()
+    except Exception:
+        _N90_STATS['errors'] += 1
+    if matcher is None:
+        _N90_PENDING_DATA.pop(cid, None)
+    return n
+
+
+def _n90_st_images(cid, m, apply):
+    """For “forget …”: the pictures and prompts Studio kept for follow-ups."""
+    c = _n90_db()
+    try:
+        rows = c.execute('SELECT prompt FROM studio90_image WHERE chat=?', (str(cid),)).fetchall()
+    finally:
+        c.close()
+    hits = sum(1 for (p,) in rows if m(p or ''))
+    if apply and hits:
+        _n90_clear(cid, m)
+    return hits
+
+
+_N86_STORES = _N86_STORES + (('studio90', 'Studio pictures and prompts', _n90_st_images, ('topic', 'conversation', 'everything')),)
+
+
+# ------------------------------------------------ making pictures ------------------------------------------------
+_N90_FAIL_TEXT = {'bad_number': 'one of the values is not a number', 'mismatch': 'the labels and values do not line up', 'need_ohlc': 'a candlestick chart needs open, high, low and close columns', 'too_many': 'there are too many points',
+                  'no_data': 'there is no data to plot', 'busy_background': 'the background is not plain enough to cut out cleanly (a plain or studio background works; the remove.bg key can do harder ones)', 'no_pillow': 'the image library (Pillow) is not installed here and could not be installed', 'no_matplotlib': 'the charting library (matplotlib) is not installed here and could not be installed',
+                  'too_big': 'the picture is too large to process', 'bad_crop': 'that crop box does not fit the picture', 'bad_tiles': 'the picture cannot be split like that', 'need_more': 'I need more pictures for that',
+                  'no_text': 'put the exact text in quotes', 'bad_design': 'I do not know that kind of design', 'bad_art': 'I do not know that kind of picture'}
+
+
+def _n90_fail_say(cid, exc):
+    code = getattr(exc, 'code', '') or type(exc).__name__
+    detail = getattr(exc, 'detail', '')
+    _n90_say(cid, 'I could not do that: %s%s.' % (_N90_FAIL_TEXT.get(code, code), (' — ' + detail) if detail and detail not in _N90_FAIL_TEXT.get(code, '') else ''))
+
+
+def _n90_generate_job(cid, text, source=None, parent=None):
+    size = _n90_parse_size(text)
+    w, h, label = size
+    style, count, seed = _n90_parse_style(text), _n90_parse_count(text), _n90_parse_seed(text)
+    subject = _n90_subject(text)
+    if len(subject) < 3:
+        _n90_say(cid, 'What should I make? For example: “draw a lighthouse at dusk, watercolor, instagram story”.')
+        return
+    prompt, negative = _n90_build_prompt(subject, style, _n90_parse_negative(text))
+    if _n90_prompt_blocked(subject):
+        _n90_say(cid, 'I will not make that picture.')
+        return
+    ready = _n90_ready_engines()
+    _n90_say(cid, '🎨 Making %s%s at %dx%d%s with %s … (up to about %d seconds)' % ('%d pictures' % count if count > 1 else 'your picture', (' in %s style' % style) if style else '', w, h, (' (' + label + ')') if label not in ('square',) and 'x' not in label else '',
+                                                                             ', '.join(_N90_ENGINE_BY_ID[e][1] for e in ready[:3]) + (' …' if len(ready) > 3 else '') if ready else 'no engine ready', int(float(_n90_setting('studio_budget', str(_N90_BUDGET)) or _N90_BUDGET))))
+    first = None
+    made = 0
+    for i in range(count):
+        req = {'prompt': prompt, 'negative': negative, 'w': w, 'h': h, 'seed': (seed + i) if seed is not None else None}
+        deadline = _n90_time.time() + float(_n90_setting('studio_budget', str(_N90_BUDGET)) or _N90_BUDGET)
+        res = _n90_generate(req, prefer=[first] if first else None, deadline=deadline)
+        if not res['ok']:
+            _N90_STATS['image_failures'] += 1
+            _n90_say(cid, _n90_failure_text(res['tried']) if made == 0 else 'Stopped after %d of %d: the engines stopped answering.' % (made, count))
+            return
+        first = res['engine']
+        try:
+            out, info = _n90_finalize(res['raw'], w, h, want='png')
+        except _N90Fail as exc:
+            _n90_say(cid, 'The picture from %s could not be used (%s).' % (res['label'], _n90_reason_text(exc.code)))
+            return
+        if len(out) > 9.5 * 1024 * 1024:
+            out, info = _n90_finalize(res['raw'], w, h, want='jpg')
+        rid = _n90_store(cid, out, 'image' + ((':' + style) if style else ''), subject, res['engine'], res['model'], seed, parent)
+        made += 1
+        _N90_STATS['images_made'] += 1
+        cap = '🎨 %s\n%dx%d · %s%s%s · %.0f s' % (subject[:140], info['w'], info['h'], res['label'], (' (' + res['model'] + ')') if res.get('model') and res['model'] not in ('community-model',) else '', (' · seed %s' % (seed + i)) if seed is not None else '', res['seconds'])
+        if info.get('note'):
+            cap += '\n(' + info['note'] + ')'
+        if res['tried']:
+            cap += '\nSkipped before it: ' + ', '.join('%s (%s)' % (_N90_ENGINE_BY_ID[e][1], _n90_reason_text(c)) for e, c, _d in res['tried'][:3])
+        ext = 'jpg' if info['fmt'] == 'jpeg' else 'png'
+        if not _n90_send_image(cid, out, 'nemo_image_%d.%s' % (made, ext), cap, _n90_image_kb(rid) if rid else None):
+            _n90_say(cid, 'The picture was made but Telegram would not take it. Try “resize it to 1024x1024”.')
+            return
+    _N90_STATS['front_door'] += 1
+
+
+def _n90_art_job(cid, text):
+    w, h, _l = _n90_parse_size(text, (1920, 1080))
+    kind = _n90_art_kind(text)
+    pal = _n90_pick_palette(text)
+    seed = _n90_parse_seed(text)
+    seed = int(_n90_time.time()) % 100000 if seed is None else seed
+    im = _n90_art(kind, w, h, seed, pal)
+    data = _n90_save_bytes(im, 'png')
+    rid = _n90_store(cid, data, 'art:%s' % kind, text[:200], 'offline', 'procedural', seed)
+    _n90_send_image(cid, data, 'nemo_%s.png' % kind, '🖼 %s wallpaper, %s palette, %dx%d · made offline (no AI), seed %d — say “again, seed %d” for the same one' % (kind, pal, w, h, seed, seed), _n90_image_kb(rid) if rid else None)
+    _N90_STATS['designs'] += 1
+
+
+_N90_DESIGN_NOUNS = r"(poster|quote card|quote image|quote picture|banner|thumbnail|logo|greeting card|birthday card|invitation|business card|cover image)"
+_N90_DESIGN_RX = _n90_re.compile(r"(?i)\b(?:make|create|design|generate|build|prepare|need|want)\b\s+(?:me\s+)?(?:(?:an?|some|new|another)\s+(?:[\w-]+\s+){0,2}?" + _N90_DESIGN_NOUNS + r"\b|" + _N90_DESIGN_NOUNS + r"\s+(?:for|saying|with|titled|called|named|about)\b)")
+_N90_ART_RX = _n90_re.compile(r"(?i)\b(?:make|create|generate|give)\b[^.?!\n]{0,25}?\b(?:(?:gradient|mesh|wave|waves|geometric|abstract|radial|cloud|clouds)\s+(?:wallpaper|background|pattern|art)|(?:wallpaper|background|pattern)s?\s+(?:with|using)\s+(?:a\s+)?(?:gradient|waves|geometric shapes|pattern)|(?:offline|procedural|no ai)\s+(?:wallpaper|background|art))")
+
+
+def _n90_design_job(cid, text, kind_word):
+    kind = {'poster': 'poster', 'banner': 'banner', 'thumbnail': 'thumbnail', 'logo': 'logo', 'cover image': 'banner', 'business card': 'card', 'greeting card': 'card', 'birthday card': 'card', 'invitation': 'card'}.get(kind_word.lower(), 'quote')
+    strings = _n90_strings_from(text)
+    if not strings:
+        m = _n90_re.search(r"(?i)\b(?:saying|that says|with (?:the )?text|titled|called|named|with the words|reads)\b[:\s]+(.+)$", text)
+        if m:
+            strings = [s.strip() for s in _n90_re.split(r'\s*[|;]\s*|\s+and subtitle\s+|\s+subtitle\s*', m.group(1)) if s.strip()][:5]
+    if not strings:
+        _n90_say(cid, 'Put the exact words in quotes so I spell them right, for example: make a poster saying "Diwali Sale" "Up to 50% off" "12-14 Oct".')
+        return
+    pal = _n90_pick_palette(text)
+    size = None
+    if _n90_re.search(r'(?i)\d{3,4}\s*[x×]\s*\d{3,4}|instagram|story|youtube|linkedin|twitter|facebook', text):
+        size = _n90_parse_size(text)[:2]
+    bg = None
+    m = _n90_re.search(r'(?i)\b(?:with|on)\s+(?:an?\s+)?(?:ai\s+|photo\s+)?background\s+(?:of|showing|with)\s+(.{4,120}?)(?:[,.;]|$)', text)
+    note = ''
+    if m and kind != 'logo':
+        sz = size or _N90_DESIGN_SIZES[kind]
+        res = _n90_generate({'prompt': m.group(1) + ', no text, no letters, no watermark', 'negative': 'text, letters, watermark, logo', 'w': sz[0], 'h': sz[1], 'seed': None})
+        if res['ok']:
+            try:
+                Image = _n90_pil()
+                bg = Image.open(_n90_io.BytesIO(res['raw']))
+                bg.load()
+                note = ' · background by %s' % res['label']
+            except Exception:
+                bg = None
+        else:
+            note = ' · the background picture could not be made, so I used a gradient'
+    im = _n90_design(kind, strings, pal, size, bg)
+    data = _n90_save_bytes(im, 'png')
+    rid = _n90_store(cid, data, 'design:%s' % kind, ' | '.join(strings)[:200], 'offline', 'exact-text design')
+    cap = '🖼 %s · %dx%d · the words are drawn by code, so every letter is exactly as you wrote it%s' % (kind, im.size[0], im.size[1], note)
+    _n90_send_image(cid, data, 'nemo_%s.png' % kind, cap, _n90_image_kb(rid) if rid else None, force_file=(kind == 'logo' or im.mode == 'RGBA'))
+    if kind == 'logo':
+        svg = _n90_logo_svg(strings, pal).encode('utf-8')
+        try:
+            requests.post('%s/sendDocument' % TG, data={'chat_id': cid, 'caption': 'The same logo as SVG (scales to any size).'}, files={'document': ('logo.svg', svg, 'image/svg+xml')}, timeout=60)
+        except Exception:
+            pass
+    _N90_STATS['designs'] += 1
+
+
+# ------------------------------------------------ editing pictures ------------------------------------------------
+def _n90_edit_run(cid, raw, text, parent=None, base_fmt='png'):
+    """Apply the operations in `text` to `raw` and send the result. Returns True when something was sent."""
+    ops = _n90_parse_ops(text)
+    if not ops:
+        return False
+    ctx = _N90Ctx(cid)
+    try:
+        im = _n90_apply_ops(raw, ops, ctx)
+    except _N90Fail as exc:
+        _n90_fail_say(cid, exc)
+        return True
+    sent_any = False
+    if ctx.info:
+        i = ctx.info
+        _n90_say(cid, '🔍 IMAGE INFO\n%s · %dx%d (%.2f MP, %s) · %s · %s KB%s%s%s' % (i['format'], i['w'], i['h'], i['megapixels'], i['ratio'], i['mode'], i['kb'], (' · %s dpi' % 'x'.join(str(x) for x in i['dpi'])) if i['dpi'] else '',
+                                                                                  ' · has transparency' if i['alpha'] else '', ('\n⚠ This file carries location (GPS) data. Say “strip metadata” before sharing it.' if i['gps'] else '') + (('\nCamera: ' + i['camera']) if i['camera'] else '')))
+        sent_any = True
+    if ctx.palette:
+        strip = _n90_palette_strip(ctx.palette)
+        _n90_send_image(cid, _n90_save_bytes(strip, 'png'), 'palette.png', '🎨 DOMINANT COLOURS\n' + '\n'.join('%s  %s%%' % (hx, pc) for hx, pc in ctx.palette))
+        sent_any = True
+    if ctx.tiles:
+        for k, t in enumerate(ctx.tiles, 1):
+            _n90_send_image(cid, _n90_save_bytes(t, 'png'), 'tile_%d.png' % k, '%d of %d' % (k, len(ctx.tiles)) + (('\n' + '; '.join(ctx.notes)) if k == 1 and ctx.notes else ''), force_file=True)
+        return True
+    if ctx.collage_of:
+        n, cols = ctx.collage_of
+        rows = _n90_recent(cid, max(2, n), max_age=6 * 3600)
+        Image = _n90_pil()
+        imgs = []
+        for r in rows:
+            try:
+                imgs.append(Image.open(_n90_io.BytesIO(r['raw'])).convert('RGB'))
+            except Exception:
+                continue
+        try:
+            canvas = _n90_collage(imgs, cols)
+        except _N90Fail as exc:
+            _n90_fail_say(cid, exc)
+            return True
+        data = _n90_save_bytes(canvas, 'png')
+        rid = _n90_store(cid, data, 'edit:collage', text[:200], 'offline', 'collage')
+        _n90_send_image(cid, data, 'collage.png', '🧩 Collage of your last %d pictures' % len(imgs), _n90_image_kb(rid) if rid else None)
+        return True
+    only_look = all(o['op'] in ('palette', 'info') for o in ops)
+    if only_look:
+        return sent_any
+    data, fmt, note = _n90_render_output(im, ctx, base_fmt)
+    rid = _n90_store(cid, data, 'edit', text[:200], 'offline', 'pillow', None, parent, ext={'jpg': 'jpg', 'png': 'png', 'webp': 'webp', 'pdf': 'pdf'}.get(fmt, fmt))
+    cap = '🛠 ' + ('; '.join(ctx.notes) if ctx.notes else 'done') + ((' · ' + note) if note else '') + ' · %s, %.0f KB' % (fmt.upper(), len(data) / 1024.0)
+    if not _n90_send_image(cid, data, 'nemo_edit.%s' % fmt, cap, _n90_image_kb(rid) if rid and fmt in ('png', 'jpg') else None, force_file=fmt in ('webp', 'pdf') or ctx.transparent):
+        _n90_say(cid, 'The picture was edited but Telegram would not take it.')
+    _N90_STATS['edits'] += 1
+    return True
+
+
+def _n90_ai_edit(cid, raw, text):
+    """Change what is IN the picture (not just its pixels) with an engine that can edit. Honest about when none can."""
+    eds = _n90_ready_engines(editing=True)
+    if not eds:
+        _n90_say(cid, 'I can do exact edits with no AI (resize, crop, filters, text, background removal, upscale, compress, convert, palette). Changing what is IN the picture needs an engine that edits images: add the free Gemini key (“studio setup”).')
+        return
+    Image = _n90_pil()
+    im = Image.open(_n90_io.BytesIO(raw))
+    w, h = im.size
+    png = _n90_save_bytes(im.convert('RGB'), 'png')
+    _n90_say(cid, '🪄 Editing with %s … (up to about a minute)' % _N90_ENGINE_BY_ID[eds[0]][1])
+    res = _n90_generate({'prompt': text, 'negative': '', 'w': w, 'h': h, 'seed': None, 'source': png}, prefer=eds[:1], editing=True)
+    if not res['ok']:
+        _n90_say(cid, _n90_failure_text(res['tried'], editing=True))
+        return
+    out, info = _n90_finalize(res['raw'], w, h, want='png')
+    rid = _n90_store(cid, out, 'edit:ai', text[:200], res['engine'], res['model'])
+    _n90_send_image(cid, out, 'nemo_edit.png', '🪄 %s · %s · the engine re-draws the picture, so small details can differ from the original' % (text[:120], res['label']), _n90_image_kb(rid) if rid else None)
+    _N90_STATS['edits'] += 1
+
+
+def _n90_edit_job(cid, raw, text, parent=None):
+    if not _n90_edit_run(cid, raw, text, parent):
+        _n90_ai_edit(cid, raw, text)
+
+
+# ------------------------------------------------ charts ------------------------------------------------
+_N90_SAMPLE_RX = _n90_re.compile(r"(?i)\b(?:sample|dummy|demo|example|illustrative|placeholder|made[- ]up|random|fake)\b")
+
+
+def _n90_chart_request(cid, text):
+    """Plot the numbers the person gave. With no numbers: a clearly labelled sample if asked, otherwise ask for them (never invent)."""
+    try:
+        spec = _n90_chart_spec(text)
+    except _N90Fail as exc:
+        _N90_STATS['chart_refusals'] += 1
+        _n90_fail_say(cid, exc)
+        return
+    if spec is None:
+        if _N90_SAMPLE_RX.search(text):
+            spec = _n90_illustrative_spec(text, _n90_chart_type(text, 'bar'))
+        else:
+            _N90_STATS['chart_refusals'] += 1
+            _n90_say(cid, 'I draw charts from numbers you give me and never make data up. Send them like “bar chart: Jan 120, Feb 150, Mar 90”, paste a table, or send a CSV/Excel file and say “chart it”. '
+                          'Say “sample chart” if you only want a clearly labelled demo.')
+            return
+    try:
+        png, info = _n90_make_chart(spec)
+    except _N90Fail as exc:
+        _N90_STATS['chart_refusals'] += 1
+        _n90_fail_say(cid, exc)
+        return
+    rid = _n90_store(cid, png, 'chart:%s' % spec['type'], spec.get('title', '')[:200], 'offline', 'matplotlib')
+    _n90_send_image(cid, png, 'nemo_chart.png', _n90_chart_caption(spec, info)[:1000], _n90_image_kb(rid) if rid else None)
+    _N90_STATS['charts'] += 1
+
+
+_N90_CHART_ASK_RX = _n90_re.compile(r"(?i)\b(?:make|create|draw|plot|build|generate|show|give|prepare|chart|graph|visuali[sz]e)\b[^\n]{0,40}\b(?:chart|graph|plot|histogram|candlestick|pie|donut|doughnut)\b|^\s*/chart\b|^\s*(?:bar|line|pie|donut|area|scatter)\s+(?:chart|graph)\b")
+
+
+# ------------------------------------------------ data reports ------------------------------------------------
+_N90_DATA_INTENT = _n90_re.compile(r"(?i)\b(?:analy[sz]e|analysis|report|summar(?:y|i[sz]e)|insights?|statistics|stats|breakdown|profile|review|dashboard|what(?:'s| is) in)\b")
+_N90_DATA_NOUN = _n90_re.compile(r"(?i)\b(?:csv|excel|xlsx|spreadsheet|sheet|table|dataset|data|file|trades?|trade log|journal|statement|ledger|expenses?|sales|records?)\b")
+_N90_DATA_REF = _n90_re.compile(r"(?i)\b(?:this|that|the|my|attached|uploaded|last|above|it)\b[^.?!\n]{0,20}\b(?:file|csv|excel|sheet|spreadsheet|data|dataset|trades?|trade log|journal|statement|ledger|table)\b|\banaly[sz]e it\b|\bchart it\b")
+
+
+def _n90_is_data_doc(doc):
+    name = str(doc.get('file_name') or '').lower()
+    mime = str(doc.get('mime_type') or '').lower()
+    return name.endswith(('.csv', '.tsv', '.xlsx', '.xlsm', '.json', '.txt')) or mime in ('text/csv', 'application/json', 'text/tab-separated-values', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+
+
+def _n90_data_doc_of(msg, cid):
+    """(doc, where): attached, replied-to, or the last data file this chat sent in the past 2 hours (only when the words clearly point at it)."""
+    d = msg.get('document') or {}
+    if d.get('file_id'):
+        return (d, 'attached') if _n90_is_data_doc(d) else (None, '')          # a file of another kind is never swapped for an older data file
+    rd = (msg.get('reply_to_message') or {}).get('document') or {}
+    if rd.get('file_id'):
+        return (rd, 'replied-to') if _n90_is_data_doc(rd) else (None, '')
+    p = _N90_PENDING_DATA.get(cid)
+    if p and _n90_time.time() - p['ts'] < 2 * 3600:
+        return {'file_id': p['file_id'], 'file_name': p['name'], 'file_size': p['size']}, 'last-file'
+    return None, ''
+
+
+def _n90_data_job(cid, doc, pasted_text, ask):
+    if doc is not None:
+        if int(doc.get('file_size') or 0) > _N90_DATA_MAX_BYTES:
+            _n90_say(cid, 'That file is larger than %d MB. Please send a smaller one or split it.' % (_N90_DATA_MAX_BYTES // 1048576))
+            return
+        raw = _n90_fetch_telegram_file(doc['file_id'], limit=_N90_DATA_MAX_BYTES)
+        if not raw:
+            _N90_STATS['rejected_files'] += 1
+            _n90_say(cid, 'I could not download that file from Telegram. Please send it again.')
+            return
+        name, pasted = doc.get('file_name') or 'data', False
+    else:
+        raw, name, pasted = pasted_text.encode('utf-8'), 'pasted table', True
+    _n90_say(cid, '📊 Reading %s and calculating … (every number is computed by code, not guessed)' % name[:60])
+    try:
+        table = _n90_load_table(raw, name, pasted=pasted)
+        _n90_run_data_report(cid, table, ask)
+    except _N90DataError as exc:
+        _N90_STATS['rejected_files'] += 1
+        _n90_say(cid, 'I could not make a report from that: %s.' % exc.msg)
+
+
+def _n90_data_flow(cid, msg, text):
+    if not (_N90_DATA_INTENT.search(text) and (_N90_DATA_NOUN.search(text) or msg.get('document'))):
+        return False
+    doc, where = _n90_data_doc_of(msg, cid)
+    if doc is not None and where == 'last-file' and not _N90_DATA_REF.search(text):
+        doc = None
+    if doc is not None:
+        _n90_bg(_n90_data_job, cid, doc, '', text)
+        return True
+    lines = [ln for ln in text.splitlines() if ln.strip()]
+    if len(lines) >= 4:
+        tbl = _n90_parse_table_block('\n'.join(lines[1:]))
+        if tbl:
+            _n90_bg(_n90_data_job, cid, None, '\n'.join(lines[1:]), text.splitlines()[0])
+            return True
+    return False
+
+
+# ------------------------------------------------ the router ------------------------------------------------
+_N90_STUDIO_NL = _n90_re.compile(r"(?i)^(?:please\s+)?(?:(?:show|check|what(?:'s| is)|how(?:'s| is))\s+(?:me\s+)?(?:the\s+)?)?(?:(?:image|picture|photo)\s+engines?(?:\s+status)?|studio(?:\s+status)?|which\s+image\s+engines?(?:\s+(?:work|do you have|are ready))?)\s*\??$")
+_N90_TEST_NL = _n90_re.compile(r"(?i)^(?:please\s+)?(?:test|check|try)\s+(?:all\s+|the\s+|my\s+)?(?:image|picture|photo)\s+(?:engines?|generators?|makers?)(?:\s+now)?\s*\??$")
+_N90_SETUP_NL = _n90_re.compile(r"(?i)^(?:please\s+)?(?:(?:how (?:do|can) i |i want to |help me |let'?s )?(?:set ?up|add|get|connect)\s+(?:more\s+|another\s+|an?\s+|free\s+)?(?:image|picture)\s+(?:engines?|generators?|keys?)|studio\s+setup)\s*\??$")
+_N90_GEN_RX = _n90_re.compile(r"(?i)^(?:(?:please|pls|hey|hi|ok|okay|nemo)[,\s]+)*(?:(?:can|could|would) you\s+)?(?:please\s+)?(?:i (?:want|need|would like)\s+(?:you to\s+)?)?(?:"
+                              r"(?:draw|paint|sketch|illustrate|render|imagine)\s+(?:me\s+)?(?!a conclusion|attention|blood|a line|a breath|a lesson|the line|conclusions|inferences|comparisons|a comparison|the conclusion)\S+|"
+                              r"(?:generate|create|make|produce|design|show)\s+(?:me\s+)?(?:(?:\d+|two|three|four)\s+(?:\w+\s+){0,2}?|(?:an?|some)\s+(?:\w+\s+){0,3}?)(?:image|picture|photo|pic|illustration|drawing|artwork|painting|wallpaper|portrait)s?\b)")
+_N90_AI_EDIT_RX = _n90_re.compile(r"(?i)^(?:please\s+)?(?:change|replace|turn|make|add|remove|put|edit|restyle|redraw|paint|colou?rize|fix|swap|give)\b[^.?!]{0,80}\b(?:it|this|the (?:image|picture|photo|background|sky|shirt|hair|dress|face)|him|her|them)\b")
+_N90_IMG_NOUNS = _n90_re.compile(r"(?i)\b(?:image|picture|photo|pic|it|this|that|logo|screenshot)\b")
+_N90_EXPLICIT_IMG = _n90_re.compile(r"(?i)\b(?:image|picture|photo|pic|screenshot|logo|wallpaper|poster)\b")
+_N90_IMAGE_ONLY_OPS = _n90_re.compile(r"(?i)\b(?:gr[ae]yscale|black (?:and|&) white|sepia|vignette|pixelate|round(?:ed)? corners?|circle crop|remove (?:the )?background|transparent background|upscale|enlarge|watermark|palette|dominant colou?rs|collage|carousel|strip (?:the )?(?:metadata|exif))\b")
+
+
+def _n90_message_has_image(msg):
+    return bool(msg.get('photo')) or str((msg.get('document') or {}).get('mime_type', '')).startswith('image/')
+
+
+def _n90_front(msg):
+    chat = msg.get('chat') or {}
+    cid = chat.get('id')
+    if OWNER.get('id') is None or cid != OWNER.get('id') or chat.get('type', 'private') != 'private' or _n89_sender(msg) != cid:
+        return False
+    doc = msg.get('document') or {}
+    if doc.get('file_id') and _n90_is_data_doc(doc):
+        _N90_PENDING_DATA[cid] = {'file_id': doc['file_id'], 'name': str(doc.get('file_name') or 'data')[:80], 'size': int(doc.get('file_size') or 0), 'ts': _n90_time.time()}
+    text = str(msg.get('text') or msg.get('caption') or '').strip()
+    if not text:
+        return False
+    handled = _n90_route(cid, msg, text)
+    if handled:
+        _N90_STATS['front_door'] += 1
+        try:
+            _n88_record(msg)
+        except Exception:
+            pass
+    return handled
+
+
+def _n90_route(cid, msg, text):
+    m = _n90_re.match(r'(?i)^/studio(?:@\w+)?(?:\s+(.*))?$', text) or _n90_re.match(r'(?i)^studio\s+(key\s+.*|paid\s+(?:on|off)|precision\s+(?:on|off)|engines\s+.*|test|setup|status|clear)$', text)
+    if m:
+        return _n90_studio_cmd(cid, msg, m.group(1) or '')
+    if _N90_STUDIO_NL.match(text):
+        _n90_say(cid, _n90_status_text(cid))
+        return True
+    if _N90_SETUP_NL.match(text):
+        _n90_say(cid, _n90_setup_text())
+        return True
+    if _N90_TEST_NL.match(text):
+        _n90_say(cid, '🧪 Testing each ready engine with one tiny picture (this can take a couple of minutes)…')
+        _n90_bg(_n90_test_job, cid)
+        return True
+    if text.startswith('/') and not _n90_re.match(r'(?i)^/(?:chart|img|image|imagine|draw)\b', text):
+        return False
+    if _n90_data_flow(cid, msg, text):
+        return True
+    if _N90_CHART_ASK_RX.search(text) and not _n90_message_has_image(msg):
+        if _n90_re.search(r'\d', text) or _N90_SAMPLE_RX.search(text) or text.lower().startswith('/chart'):
+            _n90_bg(_n90_chart_request, cid, _n90_re.sub(r'(?i)^/chart(?:@\w+)?\s*', '', text))
+            return True
+        if _n90_re.match(r"(?i)^(?:please\s+)?(?:make|create|draw|plot|build|generate)\s+(?:me\s+)?(?:an?\s+)?(?:bar |line |pie |donut )?(?:chart|graph)\b", text):
+            _n90_bg(_n90_chart_request, cid, text)
+            return True
+    if _n90_re.match(r'(?i)^/(?:img|image|imagine|draw)(?:@\w+)?\b', text):
+        _n90_bg(_n90_generate_job, cid, text)
+        return True
+    md = _N90_DESIGN_RX.search(text)
+    if md and not _n90_message_has_image(msg):
+        _n90_bg(_n90_design_job, cid, text, md.group(1))
+        return True
+    if _N90_ART_RX.search(text):
+        _n90_bg(_n90_art_job, cid, text)
+        return True
+    # editing a picture: attached, replied-to, or (when the words point at it) the last one
+    has_img = _n90_message_has_image(msg) or _n90_message_has_image(msg.get('reply_to_message') or {})
+    ops = _n90_parse_ops(text) if _N90_EDIT_WORDS.search(text) else []
+    if ops or (has_img and _N90_AI_EDIT_RX.match(text)):
+        refers = has_img or _N90_IMG_NOUNS.search(text) or _N90_IMAGE_ONLY_OPS.search(text)
+        if refers and not (has_img or _N90_EXPLICIT_IMG.search(text) or _N90_IMAGE_ONLY_OPS.search(text)) and not _n90_recent(cid, 1, max_age=900):
+            refers = False                                              # a bare "it" or "this" means the picture only if one was made or sent in the last 15 minutes
+        reply_doc = (msg.get('reply_to_message') or {}).get('document') or {}
+        if (reply_doc.get('file_id') and not str(reply_doc.get('mime_type', '')).startswith('image/')) or (msg.get('document') and not _n90_message_has_image(msg)):
+            refers = False                                              # "convert it to pdf" about a document is not about a picture
+        if refers and (has_img or _n90_recent(cid, 1) or LAST_PHOTO.get(cid)):
+            _n90_bg(_n90_edit_task, cid, msg, text)
+            return True
+    if _N90_GEN_RX.match(text) and not has_img and not _n90_re.search(r'(?i)\b(?:pdf|report|ppt|presentation|slides?|ebook|document|excel|sheet)\b', text):
+        _n90_bg(_n90_generate_job, cid, text)
+        return True
+    return False
+
+
+def _n90_edit_task(cid, msg, text):
+    raw, where = _n90_source_image(cid, msg)
+    if raw is None:
+        _n90_say(cid, 'Send me the picture (or reply to it) and say what to do with it.')
+        return
+    _n90_edit_job(cid, raw, text)
+
+
+_N90_HANDLE_PREV = handle
+
+
+def handle(msg):
+    try:
+        if _n90_front(msg):
+            return
+    except Exception:
+        _N90_STATS['errors'] += 1
+    return _N90_HANDLE_PREV(msg)
+
+
+# ------------------------------------------------ the buttons under a picture ------------------------------------------------
+def _n90_row(cid, rid):
+    try:
+        c = _n90_db()
+        try:
+            r = c.execute('SELECT kind,prompt,engine,w,h,path,seed FROM studio90_image WHERE id=? AND chat=?', (int(rid), str(cid))).fetchone()
+        finally:
+            c.close()
+        if not r:
+            return None
+        with open(r[5], 'rb') as f:
+            return {'kind': r[0], 'prompt': r[1], 'engine': r[2], 'w': r[3], 'h': r[4], 'raw': f.read(), 'seed': r[6]}
+    except Exception:
+        return None
+
+
+def _n90_button_job(cid, act, rid):
+    row = _n90_row(cid, rid)
+    if row is None:
+        _n90_say(cid, 'That picture is no longer kept (pictures are kept for a day). Send it again or ask for a new one.')
+        return
+    if act == 'again':
+        if row['kind'].startswith('image'):
+            style = row['kind'].split(':', 1)[1] if ':' in row['kind'] else ''
+            _n90_generate_job(cid, 'draw %s%s %dx%d' % (row['prompt'], (' in %s style' % style) if style else '', row['w'], row['h']), None, rid)
+        elif row['kind'].startswith('art'):
+            _n90_art_job(cid, 'make a %s wallpaper %dx%d' % (row['kind'].split(':', 1)[-1], row['w'], row['h']))
+        else:
+            _n90_say(cid, 'For this one, tell me what to change, e.g. “make it dark” or “bar chart: …”.')
+    elif act == 'up':
+        _n90_edit_run(cid, row['raw'], 'upscale 2x', rid)
+    elif act == 'nobg':
+        _n90_edit_run(cid, row['raw'], 'remove the background', rid)
+
+
+def _n90_callback(cq):
+    cid = ((cq.get('message') or {}).get('chat') or {}).get('id')
+    try:
+        tg('answerCallbackQuery', callback_query_id=cq.get('id'))
+    except Exception:
+        pass
+    m = _n90_re.match(r'^s90:(again|up|nobg):(\d{1,12})$', str(cq.get('data') or ''))
+    if not m:
+        return
+    _n90_bg(_n90_button_job, cid, m.group(1), int(m.group(2)))
+
+
+_N90_CALLBACK_PREV = handle_callback
+
+
+def handle_callback(cq):
+    try:
+        data = str(cq.get('data') or '')
+        if data.startswith('s90:'):
+            owner = OWNER.get('id')
+            sender = (cq.get('from') or {}).get('id')
+            chat = ((cq.get('message') or {}).get('chat') or {}).get('id')
+            if owner is not None and sender == owner and chat == owner:
+                _n90_callback(cq)
+                return
+            try:
+                tg('answerCallbackQuery', callback_query_id=cq.get('id'))     # anyone else's press is acknowledged and ignored
+            except Exception:
+                pass
+            return
+    except Exception:
+        _N90_STATS['errors'] += 1
+        return
+    return _N90_CALLBACK_PREV(cq)
+
+
+# ------------------------------------------------ the old chart maker could invent data; this one cannot ------------------------------------------------
+_N90_CHART_PREV = make_chart
+
+
+def make_chart(chat_id, spec):
+    _n90_chart_request(chat_id, str(spec or ''))
+
+
+# ------------------------------------------------ status, capabilities, regression rows ------------------------------------------------
+_N90_CAPS_PREV = _n82_capabilities
+def _n82_capabilities():
+    return (_N90_CAPS_PREV() + '\nStudio 90: pictures from up to nine engines with exact size, styles and variants ("draw a lighthouse, watercolor, instagram story, 3 variants"), edits with no AI '
+            '(resize, crop, text, filters, background removal, upscale, compress, convert, palette, split, collage), exact-text posters/quotes/banners/thumbnails/logos, wallpapers that need no AI, '
+            'charts from YOUR numbers (never invented), data reports from your CSV/Excel/JSON/trade log with every number computed and shown with its formula (+ Excel file), and researched reports whose '
+            'figures, dates and citations are checked against their sources, with a verification page. "studio" shows engines and setup.')
+
+
+_N90_STATUS_PREV = _n83_status_text
+def _n83_status_text(cid):
+    s = _N90_STATS
+    ready = len(_n90_ready_engines())
+    extra = ('\n🎨 STUDIO 90: engines ready %d/%d · pictures %d (failed %d, engine calls %d) · edits %d · designs %d · charts %d (refused %d) · reports audited %d (flagged %d, verification pages %d) · '
+             'data reports %d (files refused %d) · front-door %d · errors %d') % (ready, len(_N90_ENGINES), s['images_made'], s['image_failures'], s['engine_calls'], s['edits'], s['designs'], s['charts'], s['chart_refusals'], s['audits'],
+                                                                               s['audit_flags'], s['appendices'], s['data_reports'], s['rejected_files'], s['front_door'], s['errors'])
+    return (_N90_STATUS_PREV(cid) + extra)[:3990]
+
+
+_N90_ABIL_PREV = _n88_abilities
+def _n88_abilities(cid, live=False):
+    rows = list(_N90_ABIL_PREV(cid, live))
+    try:
+        ready = _n90_ready_engines()
+        rows.append(('Create', 'Pictures, edits, designs, charts', 'ready',
+                     '%d of %d image engines ready (%s); edits, designs, wallpapers and charts need no AI at all' % (len(ready), len(_N90_ENGINES), ', '.join(_N90_ENGINE_BY_ID[e][1] for e in ready[:4]) or 'none yet — add a free key'), '“studio” or “draw a …”'))
+        rows.append(('Create', 'Numbers-checked reports and data reports', 'ready', 'figures, dates and citations are checked against sources; your CSV/Excel/trade log gets exact calculations', '“analyse this file”'))
+    except Exception:
+        pass
+    return rows
+
+
+def _n90_regression_rows():
+    rows = []
+
+    def add(name, fn):
+        try:
+            ok = bool(fn())
+        except Exception:
+            ok = False
+        rows.append({'name': 'v90-' + name, 'ok': ok, 'detail': 'pure contract check; no network, no AI, no paid calls'})
+    add('version', lambda: float(VERSION) >= 90)
+    add('hooks-installed', lambda: handle is not _N90_HANDLE_PREV and handle_callback is not _N90_CALLBACK_PREV and fetch_image is not _N90_FETCH_PREV and make_chart is not _N90_CHART_PREV)
+    add('engine-table', lambda: len(_N90_ENGINES) == 9 and all(len(e) == 8 and callable(e[7]) for e in _N90_ENGINES) and len(_N90_ENGINE_BY_ID) == 9)
+    add('parsers', lambda: _n90_parse_size('instagram story')[:2] == (1080, 1920) and _n90_parse_style('anime style cat') == 'anime' and _n90_parse_ops('resize to 800x600')[0]['op'] == 'resize')
+    add('unreal-images-are-rejected', lambda: not _n90_check_image(b'<html>' + b'x' * 6000)[0] and not _n90_check_image(b'\x89PNG\r\n\x1a\n' + b'0' * 3000)[0])
+    add('audit-catches-bad-weekday', lambda: any(i['type'] == 'weekday' for i in _n90_audit('Markets rose on Friday, 3 October 2026 [1].', ['nothing'], today=_n90_dt.date(2026, 10, 4))['issues']))
+    add('audit-checks-arithmetic', lambda: any(i['type'] in ('arithmetic', 'direction') for i in _n90_audit('Output rose 15% from 80 to 100 [1].', ['Output was 80 then 100.'], today=_n90_dt.date(2026, 10, 4))['issues']))
+    add('chart-never-invents', lambda: _n90_chart_spec('make a bar chart of nothing') is None)
+    add('decimal-statistics', lambda: _n90_numstats([_N90_Dec('0.1'), _N90_Dec('0.2')])['sum'] == _N90_Dec('0.3'))
+    add('keys-are-never-printed', lambda: 'sk-' not in _n90_status_text() and 'Bearer' not in _n90_status_text())
+    return rows
+
+
+_N90_REG_PREV = prime_regression_suite
+def prime_regression_suite():
+    r = _N90_REG_PREV()
+    extra = _n90_regression_rows()
+    if isinstance(r, dict):
+        r['tests'] = list(r.get('tests', [])) + extra
+        r['passed'] = sum(1 for x in r['tests'] if x.get('ok'))
+        r['failed'] = len(r['tests']) - r['passed']
+        r['verdict'] = 'PASS' if not r['failed'] else 'FAIL'
+        r['version'] = VERSION
+        return r
+    return {'id': 'RG90', 'version': VERSION, 'tests': extra, 'passed': sum(1 for x in extra if x['ok']), 'failed': sum(1 for x in extra if not x['ok'])}
+
+
+try:
+    _N90_EVAL_PREV = _n28_eval
+    def _n28_eval():
+        rows = list(_N90_EVAL_PREV())
+        rows.append({'name': 'v90-studio', 'ok': callable(_n90_generate) and callable(_n90_audit), 'detail': 'verified image chain, Pillow tools, exact designs, honest charts, numbers audit and data reports'})
+        return rows
+except Exception:
+    pass
+
+try:
+    _N40_COMMANDS.append(('studio', 'Pictures, designs, charts, data reports'))
+    _N40_MENUS['main'][1].insert(5, [('🎨 Studio', 'c:/studio')])
+except Exception:
+    pass
+
+
+# ------------------------------------------------ bootstrap ------------------------------------------------
+def _n90_bootstrap():
+    c = _n90_db()
+    c.close()
+    _n90_ledger_load()
+    _n90_prune()
+    _n90_prune_outputs()
+    try:
+        _n68_audit('boot', 'nemo', 'boot', 'studio' + VERSION, 'OK', 0, 'image chain, tools, designs, charts, numbers audit and data reports; keys, owner lock, permissions and trading guards unchanged')
+    except Exception:
+        pass
+
+
+_N90_MAIN_PREV = main
+def main():
+    try:
+        _n90_bootstrap()
+    except Exception:
+        _N90_STATS['errors'] += 1
+    return _N90_MAIN_PREV()
 
 
 if __name__ == '__main__':
