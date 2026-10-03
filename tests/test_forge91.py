@@ -71,7 +71,7 @@ class FakeHttp:
         return [c for c in self.calls if fragment in c[0]]
 
 
-def make_wheel(dirpath, name, version, body='VALUE = 42\n', requires=(), scripts=None, native=False, pyreq=None):
+def make_wheel(dirpath, name, version, body='VALUE = 42\n', requires=(), scripts=None, native=False, pyreq=None, data_scripts=None):
     """A real, installable, pure-Python wheel built from scratch."""
     dist = name.replace('-', '_')
     fn = '%s-%s-py3-none-any.whl' % (dist, version)
@@ -83,6 +83,8 @@ def make_wheel(dirpath, name, version, body='VALUE = 42\n', requires=(), scripts
         files['%s-%s.dist-info/entry_points.txt' % (dist, version)] = '[console_scripts]\n' + ''.join('%s = %s:main\n' % (k, v) for k, v in scripts.items())
     if native:
         files['%s/_speedups.so' % dist] = 'not really native'
+    for sname, scontent in (data_scripts or {}).items():                  # programs shipped as plain files, the way ruff does it
+        files['%s-%s.data/scripts/%s' % (dist, version, sname)] = scontent
     rec = []
     for p, c in files.items():
         d = hashlib.sha256(c.encode()).digest()
@@ -92,7 +94,12 @@ def make_wheel(dirpath, name, version, body='VALUE = 42\n', requires=(), scripts
     path = os.path.join(dirpath, fn)
     with zipfile.ZipFile(path, 'w') as z:
         for p, c in files.items():
-            z.writestr(p, c)
+            if '.data/scripts/' in p:                                           # a real wheel marks its programs executable inside the zip
+                zi = zipfile.ZipInfo(p)
+                zi.external_attr = (0o100000 | 0o755) << 16                          # regular file, executable (pip checks both)
+                z.writestr(zi, c)
+            else:
+                z.writestr(p, c)
     return path
 
 
@@ -755,6 +762,24 @@ class TestWheelsAndPlanLimits(ForgeCase):
         self.assertEqual(info['scripts'], ['inspectme', 'other-cmd'])
         self.assertEqual(info['import_names'], ['inspectme'])
         self.assertEqual(info['requires'], ['dep>=1'])
+
+    def test_programs_shipped_as_plain_files_are_found_installed_and_runnable(self):
+        # ruff and a few others ship their program in <name>.data/scripts/ instead of an entry point; without this they could be installed but never run
+        path = make_wheel(self.wheeldir, 'plainprog', '1.0', data_scripts={'plainprog': '#!python\nprint("plain program says hi")\n'})
+        info = self.m._n91_wheel_info(path)
+        self.assertEqual(info['scripts'], ['plainprog'])
+        self.pypi('plainprog', '1.0')
+        self.offer = [os.path.basename(path)]
+        p = self.m._n91_plan('plainprog', None, 'tool', None, 'a plain program')
+        self.assertEqual(p['scripts'], ['plainprog'])
+        self.assertIn('forge run plainprog', self.m._n91_plan_text(p))
+        self.m._n91_do_install(self.cid, p)
+        self.assertEqual(self.m._n91_ledger_rows()[0]['manifest']['scripts'], ['plainprog'])
+        self.assertIn('plain program says hi', self.owner('forge run plainprog plainprog'))
+
+    def test_odd_names_inside_data_scripts_are_not_taken_as_programs(self):
+        path = make_wheel(self.wheeldir, 'oddscripts', '1.0', data_scripts={'good-one': '#!python\n', 'bad name!': 'x'})
+        self.assertEqual(self.m._n91_wheel_info(path)['scripts'], ['good-one'])
 
     def test_a_damaged_or_odd_file_is_refused(self):
         bad = os.path.join(self.wheeldir, 'broken-1.0-py3-none-any.whl')
@@ -1567,9 +1592,9 @@ class TestStructure(unittest.TestCase):
         cls.layer = layer_source()
 
     def test_this_is_v91_and_the_version_is_the_last_one_defined(self):
-        self.assertEqual(self.m.VERSION, '91.0')
-        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '91.0')
-        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v91.0 - FORGE'))
+        self.assertEqual(self.m.VERSION, '91.1')
+        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '91.1')
+        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v91.1 - FORGE'))
 
     def test_the_layer_comes_after_studio_and_before_the_main_guard(self):
         self.assertLess(self.src.index('# NEMO 90 - STUDIO'), self.src.index('# NEMO 91 - FORGE'))
