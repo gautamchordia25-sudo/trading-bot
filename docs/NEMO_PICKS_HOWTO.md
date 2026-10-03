@@ -133,6 +133,23 @@ text = " ".join(s.text for s in segments)
 ```
 * **Not run** (same reason: model download from Hugging Face). Model sizes are approximate: `tiny` about 75 MB, `base` about 145 MB, `small` about 465 MB; bigger is better and slower. On a CPU-only server expect it to be slower than Groq's cloud Whisper, which is why it is a fallback, not a replacement.
 
+## 2b. Will it fit in your server's memory?
+
+Your server has **1.6 GB of memory available and 1.7 of 2.0 GB of swap already in use** (your screenshot), so each job should be small and run one at a time. I measured the real peak memory of a typical job for each library (a separate process, Python 3.11 on a test machine; yours will differ a little). A bare Python process is 8 MB.
+
+| Job | Peak memory | Verdict for your server |
+|---|---|---|
+| ruff / vulture / detect-secrets on the bot file | small (a few tens of MB; not measured separately) | fine |
+| pdfplumber: a one-page 40-row table | **37 MB** | fine (a big, many-page PDF uses more) |
+| trafilatura: one article | **35 MB** | fine |
+| pandas-ta-classic: RSI, ATR, Supertrend on 2,000 candles | **69 MB** | fine |
+| sqlite-vec: 1,000 vectors | **13 MB** | fine |
+| tesseract: one 1200×800 picture | **44 MB** | fine |
+| quantstats: a tear-sheet from 400 days of returns | **208 MB** | fine alone; the heaviest of these |
+| faster-whisper (voice) and fastembed (vectors) | **not measured** (they need a model download my test machine cannot do) | the `tiny`/`base` models are the realistic ones; expect several hundred MB while loaded and a slow 1-core CPU |
+
+The rule for the next version: **one heavy job at a time, in a short-lived separate process, only when enough memory is free**, otherwise "low on memory, try again in a few minutes". That keeps the trading bot out of swap. Check the server yourself any time: say `server status` (v91.3) and Nemo reads memory, swap, disk, CPU and the biggest memory users directly.
+
 ## 3. What the next version would add (so these become real chat commands)
 
 I recommend building these as **v92 "Wire"**. Each is owner-only and read-only, and none touches the broker:

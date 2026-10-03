@@ -1733,7 +1733,7 @@ class TestWiring(ForgeCase):
     def test_the_regression_rows_all_pass(self):
         res = self.m.prime_regression_suite()
         rows = [t for t in res['tests'] if t['name'].startswith('v91-')]
-        self.assertEqual(len(rows), 10)
+        self.assertEqual(len(rows), 11)
         self.assertEqual([t['name'] for t in rows if not t['ok']], [])
         self.assertTrue(any(t['name'] == 'v91-forge' for t in self.m._n28_eval()))
 
@@ -1753,6 +1753,154 @@ class TestWiring(ForgeCase):
         self.assertEqual(self.m._N91_STATS['errors'], 1)
 
 
+
+# ===================================================================================================================
+# 11. THE SERVER'S OWN NUMBERS (found from the owner's screenshots: Nemo said he had no live memory or disk figures)
+# ===================================================================================================================
+GB = 1073741824
+
+
+class TestServerResources(ForgeCase):
+    """Fake /proc and a fake disk shaped like the owner's real server: 3.8 GB memory, 2.0 GB swap with 1.7 GB used, 77 GB disk with 45 GB free."""
+
+    def make_proc(self, total_kb=3984588, avail_kb=1677721, swap_total_kb=2097152, swap_free_kb=314572, load='0.35 0.40 0.50 1/200 999', procs=None, uptime='1053000.5 4000.1'):
+        root = os.path.join(self.tmp.name, 'proc')
+        shutil.rmtree(root, ignore_errors=True)
+        os.makedirs(os.path.join(root, 'self'))
+        open(os.path.join(root, 'meminfo'), 'w').write('MemTotal: %d kB\nMemFree: 700000 kB\nMemAvailable: %d kB\nBuffers: 1000 kB\nCached: 1200000 kB\nSwapTotal: %d kB\nSwapFree: %d kB\n' % (total_kb, avail_kb, swap_total_kb, swap_free_kb))
+        open(os.path.join(root, 'loadavg'), 'w').write(load + '\n')
+        open(os.path.join(root, 'uptime'), 'w').write(uptime + '\n')
+        open(os.path.join(root, 'self', 'status'), 'w').write('Name:\tpython3\nVmRSS:\t  655360 kB\nThreads:\t38\n')
+        mine = str(os.getpid())
+        entries = {mine: ('python3', 655360), '2222': ('chrome', 317440), '3333': ('sshd', 9216), '4444': ('kworker', 0)} if procs is None else procs
+        for pid, (name, rss) in entries.items():
+            os.makedirs(os.path.join(root, pid), exist_ok=True)
+            open(os.path.join(root, pid, 'status'), 'w').write('Name:\t%s\n%sThreads:\t3\n' % (name, ('VmRSS:\t %d kB\n' % rss) if rss else ''))
+            open(os.path.join(root, pid, 'cmdline'), 'w').write('%s\x00--token=%s\x00' % (name, 'SECRET-IN-COMMAND-LINE'))
+        self.start(self.m, '_N91_PROC', root)
+        return root
+
+    def make_disk(self, total=77, used=32, free=45, cpus=1):
+        du = type('DU', (), {'total': total * GB, 'used': used * GB, 'free': free * GB})()
+        self.start(self.m._n91_shutil, 'disk_usage', lambda p: du)
+        self.start(self.m._n91_os, 'cpu_count', lambda: cpus)
+
+    def setUp(self):
+        super().setUp()
+        self.make_proc()
+        self.make_disk()
+        self.start(self.m, '_n91_run', lambda *a, **k: (_ for _ in ()).throw(AssertionError('reading the server must never start a program')))
+
+    def test_it_reads_the_owners_real_numbers_and_says_what_they_mean(self):
+        text = self.m._n91_resources_text()
+        for part in ('Memory: 3.8 GB total · 2.2 GB used · 1.6 GB available', 'Swap: 2.0 GB · 1.7 GB used (85%) ⚠️', 'Disk (/): 77.0 GB · 32.0 GB used (42%) · 45.0 GB free ✅',
+                     'CPU: 1 core · load 0.35 0.40 0.50', 'Server up 12 days', 'Nemo uses 0.6 GB of memory, 38 threads', 'Biggest memory users: python3 0.6 GB (Nemo) · chrome 0.3 GB · sshd 9 MB',
+                     'more than half of the swap is in use', 'only very small models (under about 1 GB) are realistic', 'read directly from the server'):
+            self.assertIn(part, text)
+        self.assertNotIn('kworker', text, 'a process using no memory is not listed')
+
+    def test_only_names_are_read_never_command_lines_so_no_secret_can_leak(self):
+        text = self.m._n91_resources_text()
+        self.assertNotIn('SECRET-IN-COMMAND-LINE', text)
+        self.assertNotIn('--token', text)
+        src = layer_source()
+        self.assertNotIn("'cmdline'", src.replace("'(?:Name|VmRSS|Threads)", ''))
+
+    def test_a_healthy_server_gets_no_warning(self):
+        self.make_proc(avail_kb=int(7.5 * GB / 1024), total_kb=int(8 * GB / 1024), swap_free_kb=2097152)
+        self.make_disk(total=200, used=40, free=160, cpus=4)
+        text = self.m._n91_resources_text()
+        self.assertIn('✅ Nothing is short right now.', text)
+        self.assertNotIn('⚠️', text)
+        self.assertIn('a 7B model (about 4-5 GB) could fit', text)
+
+    def test_each_kind_of_shortage_is_named(self):
+        self.make_proc(avail_kb=300000, swap_free_kb=2097152, load='4.00 3.00 2.00 1/1 1')
+        self.make_disk(total=77, used=75, free=2, cpus=1)
+        text = self.m._n91_resources_text()
+        for part in ('less than 0.5 GB of memory is really free', 'less than 5 GB of disk is free', 'the processor is overloaded (load 4.00 on 1 core)', '⚠️ LOW'):
+            self.assertIn(part, text)
+        self.assertNotIn('half of the swap', text)
+
+    def test_the_machine_with_a_3_gb_budget_is_told_a_small_model_could_fit(self):
+        self.make_proc(avail_kb=int(3.4 * GB / 1024), swap_free_kb=2097152)
+        self.assertIn('a 3B model (about 2 GB) could fit', self.m._n91_resources_text())
+
+    def test_the_compact_line_is_one_short_line(self):
+        line = self.m._n91_resources_text(compact=True)
+        self.assertNotIn('\n', line)
+        self.assertEqual(line, '🖥 Server: memory 1.6 GB available of 3.8 GB · swap 85% used ⚠️ · disk 45.0 GB free · 1 core')
+
+    def test_a_system_that_does_not_say_is_not_guessed(self):
+        self.start(self.m, '_N91_PROC', os.path.join(self.tmp.name, 'no-such-proc'))
+        self.assertIn('I cannot read this server', self.m._n91_resources_text())
+        self.assertEqual(self.m._n91_resources()['mem_total'], 0)
+        self.assertEqual(self.m._n91_resources()['top'], [])
+
+    def test_the_question_from_the_screenshot_is_answered_with_real_numbers_without_the_ai(self):
+        out = self.owner('How much memory and disk does your server have?')
+        self.assertIn('Memory: 3.8 GB total', out)
+        self.assertIn('Disk (/): 77.0 GB', out)
+        self.assertNotIn('free -h', out)
+        self.assertNotIn('run these commands', out)
+        self.assertEqual(self.passed, [], 'the AI layers are never asked')
+        self.assertEqual(self.m._N91_STATS['front_door'], 1)
+
+    def test_other_ways_of_asking_all_work(self):
+        for text in ('server status', 'Server Resources', 'how much ram do you have', 'is the server low on memory', 'how much disk space is left', 'show me the vps memory and disk',
+                     'check your memory', 'what is your disk usage', 'how full is the disk', '/server', 'forge server', 'how much swap is used on the server'):
+            n = len(self.sent)
+            self.owner(text)
+            self.assertIn('Memory:', '\n'.join(t for c, t in self.sent[n:]), text)
+        self.assertEqual(self.passed, [])
+
+    def test_other_sentences_about_memory_or_disk_are_left_to_normal_chat(self):
+        for text in ('how much memory does my phone have', 'what is the memory of an elephant', 'add memory to my notes', 'remember my disk password', 'confirm do it', 'clear my google drive storage',
+                     'how much storage is left in my gmail', 'what is a swap trade', 'show me my laptop ram', 'the memory of the game is full'):
+            n = len(self.passed)
+            self.m.handle(self.msg(text))
+            self.assertEqual(len(self.passed), n + 1, text)
+
+    def test_nobody_but_the_owner_in_a_private_chat_can_ask(self):
+        other = {'chat': {'id': 5552, 'type': 'private'}, 'from': {'id': 5552, 'first_name': 'Asha'}, 'text': 'how much memory and disk does your server have?', 'message_id': 3}
+        n = len(self.passed)
+        self.m.handle(other)
+        self.assertEqual(len(self.passed), n + 1)
+        self.assertEqual([t for c, t in self.sent if c == 5552], [])
+        group = {'chat': {'id': -100, 'type': 'group'}, 'from': {'id': OWNER_ID}, 'text': 'server status', 'message_id': 1}
+        n = len(self.passed)
+        self.m.handle(group)
+        self.assertEqual(len(self.passed), n + 1)
+
+    def test_forge_status_carries_the_server_line_and_the_menu_lists_the_command(self):
+        status = self.owner('forge status')
+        self.assertIn('🖥 Server: memory 1.6 GB available of 3.8 GB', status)
+        self.assertIn('server', [c[0] for c in self.m._N40_COMMANDS])
+        self.assertIn('server', self.m._N91_SUBCOMMANDS)
+
+    def test_the_see_tool_shows_the_numbers_too_for_the_conversation(self):
+        out = self.m._n88_see_tool(self.cid, 'system')
+        self.assertIn('Server and Nemo health', out)
+        self.assertIn('🖥 Server: memory 1.6 GB available of 3.8 GB', out)
+        rec = self.m._n83_run_one(self.cid, {'tool': 'see', 'input': 'system'}, True)
+        self.assertTrue(rec['ok'])
+
+    def test_the_scout_and_the_capability_text_tell_the_model_not_to_hand_the_job_back(self):
+        scout = self.m._n85_scout_extra(True)
+        self.assertIn('memory, RAM, swap, disk space, CPU or load', scout)
+        self.assertIn('Never say you have no live figures', scout)
+        caps = self.m._n82_capabilities()
+        self.assertIn('server status', caps)
+        self.assertIn('I do not run shell commands from chat', caps)
+
+    def test_the_numbers_helpers(self):
+        self.assertEqual(self.m._n91_gb(1073741824), '1.0 GB')
+        self.assertEqual(self.m._n91_gb(5 * 1048576), '5 MB')
+        self.assertEqual(self.m._n91_kb('1024 kB'), 1048576)
+        self.assertEqual(self.m._n91_kb('junk'), 0)
+        mi = self.m._n91_meminfo()
+        self.assertEqual((mi['MemTotal'], mi['SwapTotal']), (3984588 * 1024, 2097152 * 1024))
+
 # ===================================================================================================================
 # 10. STRUCTURE (what the file itself guarantees) AND MUTATIONS (the tests really would catch a broken guard)
 # ===================================================================================================================
@@ -1766,9 +1914,9 @@ class TestStructure(unittest.TestCase):
         cls.layer = layer_source()
 
     def test_this_is_v91_and_the_version_is_the_last_one_defined(self):
-        self.assertEqual(self.m.VERSION, '91.2')
-        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '91.2')
-        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v91.2 - FORGE'))
+        self.assertEqual(self.m.VERSION, '91.3')
+        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '91.3')
+        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v91.3 - FORGE'))
 
     def test_the_layer_comes_after_studio_and_before_the_main_guard(self):
         self.assertLess(self.src.index('# NEMO 90 - STUDIO'), self.src.index('# NEMO 91 - FORGE'))

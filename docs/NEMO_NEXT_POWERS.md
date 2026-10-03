@@ -22,6 +22,24 @@ You asked what more we can add for more offline and online control, more web kno
 
 Everything else Nemo has (search, MCP presets, document work, watchers, Circle roles for family, Forge) is not repeated below.
 
+## 1b. Your server (from your own screenshots)
+
+You ran the two commands yourself because Nemo could not answer ("I don't have live memory-or-disk figures"; v91.3 fixes that, he now reads it himself: say `server status`). What they show **[ran by you]**:
+
+| What | Value | What it means |
+|---|---|---|
+| Memory | 3.8 GB total, 2.2 GB used, **1.6 GB available** | Enough for the bot and one small job at a time, not for several heavy things together. |
+| Swap | 2.0 GB, **1.7 GB used (85%)** | **The server is already leaning on swap before any new add-on runs.** Swapping makes everything slow, and an out-of-memory kill of the bot would also stop the trading assistant. |
+| Disk | 77 GB, 32 GB used, **45 GB free (42%)** | Plenty. Models, offline Wikipedia files and backups fit easily. |
+| CPU | the host name says `1vcpu`, but memory is 3.8 GB, so the plan was probably changed | Unknown until `server status` prints the cores; with 1 core, local speech-to-text and embeddings are slow. |
+
+What I conclude (these change the plan):
+
+1. **A local AI brain (B3) is not realistic on this server.** Even a small 3B model needs about 2 GB free and you have 1.6 GB, with swap already in use. I drop it. The cloud fallback chain Nemo already has (several providers) stays the fallback. If you later want local models, the sensible route is a bigger plan or a second small machine, not this one.
+2. **Heavy add-ons must be polite.** The v92 "Wire" work will run each heavy library (voice model, embeddings, report builder) in a **short-lived child process, one at a time**, and only when enough memory is free; otherwise Nemo says "low on memory, try later" instead of pushing the bot into swap. Nothing heavy stays loaded inside the bot.
+3. **Disk is not the problem,** so the offline encyclopaedia (B4) and local models of the small kind (speech-to-text `tiny`/`base`) are fine from the disk side.
+4. **Find out what is eating the memory first.** `server status` now lists the biggest memory users. My guess (not verified) is the bot itself plus a browser started by Playwright; if a browser process is left running, that is the first thing to fix.
+
 ## 2. Principles I would keep
 
 1. **Private by default, two doors.** An *owner door* (everything, strongly authenticated) and, only if you want one, a *public door* (read-only, rate-limited, no keys, no trading, no mail, no Forge).
@@ -52,7 +70,7 @@ Effort: S = a few hours, M = about a day, L = several days. Risk is for your VPS
 |---|---|---|---|---|
 | B1 | **Use what is already installed offline:** local OCR (tesseract), local speech-to-text (faster-whisper), local semantic memory (sqlite-vec + fastembed), local PDF tables (pdfplumber). | Voice notes, pictures, PDFs and "search my files" keep working with no internet or key. | **[ran]** OCR English and Hindi, PDF tables, vector search. The two model-based ones need the models downloaded once. | M / low (this is v92 "Wire") |
 | B2 | **An offline mode switch:** Nemo notices the internet or all AI providers are down, says so, queues non-urgent work, and uses only local tools; "go offline" / "go online" by hand. | No silent failures. | **[idea]** Nemo's brain router and health tracking exist **[code]**. | M / low |
-| B3 | **A local brain as a last resort:** a small model on the server (`llama.cpp`'s server, MIT, about 130k stars, plain CPU, OpenAI-compatible; or Ollama, MIT, about 182k stars). | Nemo can still answer simple things when every cloud provider fails. | **[page]** both. **[search]** a 7B model at 4-bit needs about 5.5 GB of RAM and gives roughly 5–15 words a second on 8 CPU cores; a 3B model is "comfortable". **[ran]** Forge refuses `llama-cpp-python` (source only), and the `ollama` Python client (3 MB) installs fine, but the **server programs are not wheels**: they need a new Forge lane (below) or a manual install. Depends on your server's RAM. | M–L / medium |
+| B3 | **A local brain as a last resort:** a small model on the server (`llama.cpp`'s server, MIT, about 130k stars, plain CPU, OpenAI-compatible; or Ollama, MIT, about 182k stars). | Nemo can still answer simple things when every cloud provider fails. | **[page]** both. **[search]** a 7B model at 4-bit needs about 5.5 GB of RAM and gives roughly 5–15 words a second on 8 CPU cores; a 3B model is "comfortable". **[ran]** Forge refuses `llama-cpp-python` (source only), and the `ollama` Python client (3 MB) installs fine, but the **server programs are not wheels**: they need a new Forge lane (below) or a manual install. **On your server (1.6 GB available, swap in use) this is not realistic: dropped.** | M–L / medium |
 | B4 | **Offline encyclopaedia:** Kiwix (Wikipedia, Stack Exchange and more as compressed `.zim` files). Nemo reads them with the small `libzim` package, or serves them with `kiwix-serve`. | Facts with no internet. | **[ran]** `kiwix-tools` 3.5.0 exists in Ubuntu 24.04's apt; `libzim` has a 10 MB wheel. **[search]** the full English Wikipedia with pictures is about 100+ GB, smaller no-picture editions are much smaller (check sizes before downloading). | M / low (disk is the cost) |
 
 ### C. Web knowledge (online)
@@ -83,19 +101,21 @@ Forge installs only Python wheels. The best offline and web tools (llama.cpp, ki
 |---|---|---|---|
 | **v92** | **Wire** | Everything you installed becomes a chat command (`NEMO_PICKS_HOWTO.md` section 3): update-gate checks, PDF tables, OCR, clean article reading, indicators, NSE data, journal tear-sheets, local voice fallback, local semantic memory | You already paid the install cost; nothing else is blocked on it |
 | **v93** | **Doors** | Website hardening (A1 Telegram login, A2 server, rate limits, cockpit audit); guide for A3(a) Tailscale | Fixes the real weaknesses before adding anything public |
-| **v94** | **Offline** | B2 offline mode, B1 fully local tools, B4 offline encyclopaedia; B3 local brain if your server has the RAM | Needs v92 |
+| **v94** | **Offline** | B2 offline mode, B1 fully local tools, B4 offline encyclopaedia; B3 local brain only after the server has more memory | Needs v92 |
 | **v95** | **Knowledge** | C1 cited research pipeline, C4 feeds, C5 page diffs | Needs v92 (trafilatura, sqlite-vec) |
 | **v96** | **Site** | A4 richer owner app, optional A5 public showroom and A6 OpenAI-compatible API, D1 GitHub webhook | Only after the doors are safe |
 | **v97** | **Apps lane** | E, then C2 SearXNG and any local brain | Biggest and riskiest |
 
 ## 5. Four answers I need from you (they change the plan)
 
-1. **How much memory and disk does the server have?** (Ask Nemo for the server status.) It decides whether a local brain (B3) is realistic.
+1. ~~How much memory and disk does the server have?~~ **Answered by your screenshots** (section 1b). New question: how many CPU cores? (`server status` will show it.)
 2. **Do you own a domain name?** Needed for a stable Cloudflare address (A3b); not needed for Tailscale (A3a).
 3. **Who else should use the website?** Only you, family (Circle roles), or the public/customers?
 4. **Should Nemo ever act from the web page,** or only show and answer (my recommendation: only show and answer, with actions staying as Telegram cards)?
 
 ## 6. What I did not verify
+
+* **What is using your memory** (the swap at 85%). I only know the totals from your screenshot.
 
 * **Your server:** its memory, CPU, disk, Python version, firewall, and whether it can reach `huggingface.co`, `nseindia.com`, `files.pythonhosted.org`.
 * **Local-model speed and quality** on your hardware, **Kiwix sizes**, and **Cloudflare Access's free limits**: web-search hints only.
