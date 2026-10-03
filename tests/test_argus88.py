@@ -1267,7 +1267,7 @@ class TestSeeTool(ArgusCase):
         self.m._n83_chat(self.msg('what is in my inbox from Rahul regarding the lease?'))
         scout_call = [c for c in self.fake.calls if scout(c['text'])][0]['text']
         self.assertIn('- see: look at the owner\'s own accounts and at Nemo itself (read-only, private)', scout_call)
-        self.assertIn('"tool":"search|recall|calculate|date|futures|docs|mcp|see"', scout_call)
+        self.assertIn('"tool":"search|recall|calculate|date|futures|docs|mcp|see', scout_call)       # (later versions append their own tools to the list)
 
     def test_the_planned_search_shortcut_does_not_swallow_a_see_request(self):
         text = 'any new mail about the latest price changes today'
@@ -1535,7 +1535,7 @@ class TestStructure(unittest.TestCase):
             self.assertFalse(self.m._n79_editable(name), name)
 
     def test_the_edits_to_older_layers_are_exactly_the_tool_plumbing(self):
-        self.assertIn("_N83_TOOLS = ('search', 'recall', 'calculate', 'date', 'futures', 'docs', 'mcp', 'see')", self.src)
+        self.assertIn("_N83_TOOLS = ('search', 'recall', 'calculate', 'date', 'futures', 'docs', 'mcp', 'see'", self.src)       # (later versions append their own tools after it)
         self.assertEqual(self.src.count("elif tool == 'see':"), 2)
         self.assertEqual(self.src.count("e.get('tool') in ('search', 'see') for e in evidence"), 1)
         self.assertIn('see', self.m._N83_TOOLS)

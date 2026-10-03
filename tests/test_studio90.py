@@ -2374,7 +2374,8 @@ class TestStructure(unittest.TestCase):
         cls.m = base.m
         cls.src = _source()
         cls.layer_start = cls.src.index('# NEMO 90 - STUDIO')
-        cls.layer = cls.src[cls.layer_start:cls.src.rindex("if __name__")]
+        cls.layer_end = cls.src.index('# NEMO 91 - FORGE') if '# NEMO 91 - FORGE' in cls.src else cls.src.rindex("if __name__")       # (later layers are checked by their own tests)
+        cls.layer = cls.src[cls.layer_start:cls.layer_end]
         cls.tree = ast.parse(cls.layer)
         cls.funcs = {n.name: n for n in cls.tree.body if isinstance(n, ast.FunctionDef)}
 
@@ -2386,8 +2387,7 @@ class TestStructure(unittest.TestCase):
 
     def test_the_version_is_distinct_and_documented(self):
         self.assertGreaterEqual(float(self.m.VERSION), 90)
-        self.assertTrue(self.src.startswith('"""nemotron_bot.py v90.2 - STUDIO'))
-        self.assertEqual(self.m.VERSION, '90.2')
+        self.assertIn('v90.2 - STUDIO', self.src[:3000], 'the Studio version stays documented')
         self.assertIn('+ v89.0 - CIRCLE', self.src[:3000], 'the older versions stay documented')
 
     def test_the_new_layer_is_protected_from_live_self_editing(self):
@@ -2397,7 +2397,7 @@ class TestStructure(unittest.TestCase):
     def test_the_hooks_are_installed_and_are_the_outermost_ones(self):
         m = self.m
         for name in ('handle(msg)', 'handle_callback(cq)'):
-            self.assertEqual(self.src.rindex('def %s:' % name), self.layer_start + self.layer.rindex('def %s:' % name), 'the Studio %s is the last definition' % name)
+            self.assertEqual(self.src[:self.layer_end].rindex('def %s:' % name), self.layer_start + self.layer.rindex('def %s:' % name), 'the Studio %s is the last definition of its layer' % name)
         self.assertIsNot(m.handle, m._N90_HANDLE_PREV)
         self.assertIs(m.handle.__globals__, m.__dict__)
 
