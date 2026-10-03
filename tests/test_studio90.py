@@ -462,6 +462,71 @@ class TestImageChain(StudioCase):
         self.assertEqual(len(self.http.calls), 1, 'with 9 seconds given, one model that takes 6 leaves too little for a second')
         self.assertIn('no time left', cm.exception.detail)
 
+    def pydantic_422(self, field, kind, **ctx):
+        return HttpResp(422, text=json.dumps({'detail': [{'type': kind, 'loc': ['body', field], 'msg': 'Input should be ok', 'input': 30, 'ctx': ctx}]}))
+
+    def test_the_klein_model_is_asked_for_its_four_steps_from_the_start(self):
+        self.store['nvidia_key'] = KEY_A
+        self.http.on('ai.api.nvidia.com', self.nvidia_ok())
+        self.m._n90_engine_nvidia({'prompt': 'x', 'time_left': 100})
+        steps = {c[1].rsplit('/', 1)[-1]: c[2]['json']['steps'] for c in self.http.to('ai.api.nvidia.com')}
+        self.assertEqual(steps['flux.1-dev'], 30)
+        self.http.calls.clear()
+        self.http.routes.clear()
+        self.http.on('flux.1-dev', HttpResp(500, content=b'x'))
+        self.http.on('flux.1-schnell', HttpResp(500, content=b'x'))
+        self.http.on('flux.2-klein-4b', self.nvidia_ok())
+        before = dict(self.m.NVIDIA_GOOD)
+        try:
+            self.m._n90_engine_nvidia({'prompt': 'x', 'time_left': 100})
+        finally:
+            self.m.NVIDIA_GOOD.clear()
+            self.m.NVIDIA_GOOD.update(before)
+        steps = {c[1].rsplit('/', 1)[-1]: c[2]['json']['steps'] for c in self.http.to('ai.api.nvidia.com')}
+        self.assertEqual((steps['flux.1-schnell'], steps['flux.2-klein-4b']), (4, 4))
+
+    def test_when_a_provider_says_what_to_change_the_request_is_corrected_once(self):
+        self.store['nvidia_key'] = KEY_A
+        calls = []
+
+        def klein(method, url, kw):
+            calls.append(dict(kw['json']))
+            return self.pydantic_422('steps', 'less_than_equal', le=3) if kw['json']['steps'] > 3 else self.nvidia_ok()
+        self.http.on('ai.api.nvidia.com', klein)
+        before = dict(self.m.NVIDIA_GOOD)
+        try:
+            raw, model = self.m._n90_engine_nvidia({'prompt': 'x', 'time_left': 100})
+        finally:
+            self.m.NVIDIA_GOOD.clear()
+            self.m.NVIDIA_GOOD.update(before)
+        self.assertEqual([c['steps'] for c in calls], [30, 3], 'the second call uses the limit the provider named')
+        self.assertTrue(self.m._n90_check_image(raw)[0])
+
+    def test_a_field_the_provider_does_not_accept_is_dropped_and_a_correction_that_still_fails_is_reported(self):
+        self.store['nvidia_key'] = KEY_A
+        calls = []
+
+        def picky(method, url, kw):
+            calls.append(dict(kw['json']))
+            return self.pydantic_422('mode', 'extra_forbidden') if 'mode' in kw['json'] else HttpResp(422, text='{"detail":[{"type":"value_error","loc":["body","prompt"],"msg":"too long"}]}')
+        self.http.on('ai.api.nvidia.com', picky)
+        with self.assertRaises(self.m._N90Fail) as cm:
+            self.m._n90_engine_nvidia({'prompt': 'x', 'time_left': 100})
+        self.assertEqual(len(calls), 6, 'two calls per model and no more')
+        self.assertNotIn('mode', calls[1])
+        self.assertIn('after correcting: dropped mode', cm.exception.detail)
+        self.assertEqual(self.m._n90_fix_payload({'a': 1}, 'not json'), (None, ''))
+        self.assertEqual(self.m._n90_fix_payload({'a': 1}, '{"detail": "text"}'), (None, ''))
+        self.assertEqual(self.m._n90_fix_payload({'steps': 30}, json.dumps({'detail': [{'type': 'greater_than_equal', 'loc': ['body', 'steps'], 'ctx': {'ge': 8}}]})), ({'steps': 8}, 'steps to 8'))
+        self.assertEqual(self.m._n90_fix_payload({'steps': 30}, json.dumps({'detail': [{'type': 'less_than', 'loc': ['body', 'unknown'], 'ctx': {'lt': 5}}]})), (None, ''), 'only fields that were sent are touched')
+
+    def test_nothing_that_is_not_a_request_complaint_is_ever_retried(self):
+        self.store['nvidia_key'] = KEY_A
+        self.http.on('ai.api.nvidia.com', HttpResp(500, content=b'oops'))
+        with self.assertRaises(self.m._N90Fail):
+            self.m._n90_engine_nvidia({'prompt': 'x', 'time_left': 100})
+        self.assertEqual(len(self.http.to('ai.api.nvidia.com')), 3, 'a server error is one call per model')
+
     def test_nvidia_with_a_rejected_key_stops_at_the_first_model(self):
         self.store['nvidia_key'] = KEY_A
         self.http.on('ai.api.nvidia.com', HttpResp(401, js={'error': 'x'}))
@@ -2321,8 +2386,8 @@ class TestStructure(unittest.TestCase):
 
     def test_the_version_is_distinct_and_documented(self):
         self.assertGreaterEqual(float(self.m.VERSION), 90)
-        self.assertTrue(self.src.startswith('"""nemotron_bot.py v90.1 - STUDIO'))
-        self.assertEqual(self.m.VERSION, '90.1')
+        self.assertTrue(self.src.startswith('"""nemotron_bot.py v90.2 - STUDIO'))
+        self.assertEqual(self.m.VERSION, '90.2')
         self.assertIn('+ v89.0 - CIRCLE', self.src[:3000], 'the older versions stay documented')
 
     def test_the_new_layer_is_protected_from_live_self_editing(self):
