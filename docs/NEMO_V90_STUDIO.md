@@ -1,4 +1,4 @@
-# Nemo v90.0 "Studio": more image engines and tools, exact designs and honest charts, reports whose numbers are checked
+# Nemo v90.1 "Studio": more image engines and tools, exact designs and honest charts, reports whose numbers are checked
 
 You asked for more image creation tools and abilities, and for more precise report making.
 Everything from v89 (Circle) and earlier is kept. Your credentials, owner lock, trading and holiday guards, approvals, backup and rollback are untouched
@@ -23,11 +23,11 @@ Everything from v89 (Circle) and earlier is kept. Your credentials, owner lock, 
 
 ### 2.1 Pictures: nine engines in one verified chain
 
-Tried in order; the engine that worked last goes first; one that fails three times in a row rests for 10 minutes; one shared time budget (170 s); each engine is time-boxed.
+Tried in this order: engines that worked lately and are quick (30 s or less, quickest first), then engines never tried yet, then slow ones (for example a community queue), then ones that failed lately. An order you set yourself with `studio engines …` is kept exactly. One that fails three times in a row rests for 10 minutes; one shared time budget (170 s); each engine is time-boxed.
 
 | Engine | Key (saved with `studio key …`) | Cost | Notes |
 |---|---|---|---|
-| NVIDIA FLUX | `nvidia` (your existing key is used) | your plan | uses the existing NVIDIA helper |
+| NVIDIA FLUX | `nvidia` (your existing key is used) | your plan | tries each model with its own time cap (45 s) and keeps the provider's own complaint when it refuses |
 | Gemini image | `gemini` | free tier at the time of writing, check limits | **also edits pictures** ("change the background to a beach") |
 | Cloudflare Workers AI | `cloudflare` + `cloudflare_account` | free tier at the time of writing | FLUX schnell, then SDXL |
 | Together FLUX | `together` | free model at the time of writing | |
@@ -91,6 +91,16 @@ Send a **CSV, TSV, Excel (.xlsx) or JSON** file (a trade log, expenses, sales, a
 
 Everyday sentences are not taken: "draw a conclusion", "make the logo public", "make a pdf about …", "report on oil prices", "convert it to pdf" about a document, "resize it" when no picture was sent or made in the last 15 minutes are all passed on to the old code untouched (tested).
 
+### 2.7 v90.1: fixes from your first live engine test
+
+Your `test image engines` run on the real server showed Pollinations (keyless) working in 5 s, AI Horde working in 78 s, Gemini out of free allowance, and NVIDIA failing in 219 s (`flux.1-dev` server error 500, `flux.1-schnell` timeout, `flux.2-klein-4b` rejected with 422). That exposed three problems in v90.0, now fixed:
+
+1. **A slow engine could be put first.** "The one that worked last goes first" would have put the 78-second community queue ahead of the 5-second engine just because it was tested last. The order now prefers quick engines that worked lately (see 2.1) and remembers how long each usually takes (shown in `studio`, for example "usually 5 s").
+2. **NVIDIA was not held to its time.** The old NVIDIA helper had its own long timeouts, so one engine could use far more than its share of the 170-second budget. The NVIDIA engine now makes each call itself, one model after another, never more than 45 s per model and never more than the time it was given.
+3. **A refusal told you nothing.** A 400 or 422 reply now keeps a short plain-words version of the provider's complaint (letters and digits only, long token-like strings removed, 70 characters), for example `flux.2-klein-4b:http_422 …`, so the request format can be corrected. The 422 for `flux.2-klein-4b` is a request-format rejection; it needs that complaint text to fix, which the next `test image engines` will show.
+
+Not changed: Gemini's "free allowance used up or rate limit" is the provider's answer for your key (check its quota in Google AI Studio); AI Horde pictures are made at about 576 px and are enlarged to the size you asked for, so they are soft.
+
 ## 3. Behaviour changes to be aware of
 
 * **A picture request that cannot be made now fails with the reason for each engine** instead of one vague line, and a provider's error page is never sent as a picture.
@@ -107,8 +117,8 @@ All offline: a scripted HTTP fake for every image engine and every Telegram uplo
 | Suite | Tests | Result |
 |---|---|---|
 | v83 Cortex · v84 Atlas · v85 Steward · v86 Candor · v87 Relay · v88 Argus · v89 Circle (existing) | 1089 | pass (v89's structure tests now stop at the v90 layer boundary; their assertions are unchanged) |
-| **v90 Studio** (`tests/test_studio90.py`) | 226 | pass |
-| **Total** | **1315** | see the final result in the delivery message |
+| **v90.1 Studio** (`tests/test_studio90.py`) | 235 | pass |
+| **Total** | **1324** | see the final result in the delivery message |
 
 Studio tests cover: the nine engines (each real adapter run against scripted replies: Gemini, Cloudflare JSON and binary, Together, Hugging Face, Pollinations, OpenAI, NVIDIA helper, the AI Horde submit/poll/download/cancel), key and paid gating, last-good-first and the 10-minute rest, a crashing adapter, the shared time budget, **an HTML page / damaged / tiny / blank reply each rejected**, exact failure words, exact output size, no key or link in any message or URL; the parsers (sizes, presets with punctuation, styles, counts, seeds, subject extraction) and the child-safety filter; every picture operation (exact pixels, ordering, case-exact text and watermark, transparency, compression, formats, GPS, tiles, background removal vs a busy background, a decompression bomb, a non-image); designs and wallpapers (exact sizes, deterministic, readable on every palette, SVG escaping); charts (parsing incl. Indian grouping, refusals, read-back, every chart type, labelled sample data); **number extraction, matching, over-precision, truncation, arithmetic, direction, weekday and date checks, citations, placeholders, consistency, tables, scoring and a 200-case fuzz**; the **real report pipeline** (real fpdf2/PyMuPDF): clean, flawed-then-corrected, still-wrong-refused, worse-correction ignored, soft findings delivered and listed, check switched off, a failed merge, a crashing audit, manifest, tables as figures; data loading (every separator, BOM, cp1252, JSON, pasted, Excel with a stdlib fallback reader, types, dates, units, missing values, totals rows); the maths against independent calculations (decimals, Excel quartiles, trade profile by hand, group shares, outliers, correlations); the AI-wording check; the PDF and Excel files with **every Excel formula range re-evaluated against the Data sheet**; the front door (routing, owner-only, no hijacking of ordinary sentences, edits from a photo / reply / last picture, AI edit with and without Gemini, design, charts, data files, pasted tables); keys (stored, message deleted, never repeated or logged, shape checks, unwritable secrets file); the live test; buttons (owner only, others ignored); forgetting and pruning; status, capabilities, regression rows, command and menu button; and **structure checks** (owner check before any route; only owner-side code saves keys; secrets read in one place; named providers over https only; no shell/eval/pickle/process; files only in the private folder; one table; heavy libraries imported where used; `ask_ai` not wrapped). **Mutation checks** put the old behaviour back one piece at a time (an image check that accepts anything, unenforced size, an always-on paid engine, engines that never rest, a filter that lets blocked prompts through, an audit that finds nothing, a matcher that accepts every figure, a gate that ignores the numbers, the check always off, verification pages never attached, a chart maker that invents data, a front door open to everyone, buttons obeyed from anyone, a key echoed back, a status that prints keys, an unchecked AI summary, floating-point statistics, a wrong drawdown, a double-counted totals row, edits that do nothing, text not drawn by code, a hijacking router) and the matching test goes red (all do).
 

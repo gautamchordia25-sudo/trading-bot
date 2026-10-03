@@ -400,20 +400,128 @@ class TestImageChain(StudioCase):
         self.assertFalse(self.m.fetch_image('a naked child', out))
         self.assertEqual(self.http.calls, [])
 
-    def test_the_old_nvidia_helper_is_used_for_the_nvidia_engine_and_its_key_is_checked_first(self):
-        with mock.patch.object(self.m, 'nvidia_image', side_effect=AssertionError('must not be called without a key')):
-            with self.assertRaises(self.m._N90Fail) as cm:
-                self.m._n90_engine_nvidia({'prompt': 'x'})
-        self.assertEqual(cm.exception.code, 'no_key')
+    def nvidia_ok(self, image=None):
+        import base64
+        return HttpResp(200, js={'artifacts': [{'base64': base64.b64encode(image or png()).decode()}]})
 
-        def fake_nvidia(prompt, path):
-            with open(path, 'wb') as fh:
-                fh.write(png())
-            return True
+    def test_nvidia_needs_its_key_and_the_key_goes_in_a_header(self):
+        with self.assertRaises(self.m._N90Fail) as cm:
+            self.m._n90_engine_nvidia({'prompt': 'x'})
+        self.assertEqual(cm.exception.code, 'no_key')
         self.store['nvidia_key'] = KEY_A
-        with mock.patch.object(self.m, 'nvidia_image', fake_nvidia):
-            raw, model = self.m._n90_engine_nvidia({'prompt': 'x'})
+        self.http.on('ai.api.nvidia.com', self.nvidia_ok())
+        raw, model = self.m._n90_engine_nvidia({'prompt': 'x', 'seed': 4, 'time_left': 100})
         self.assertTrue(self.m._n90_check_image(raw)[0])
+        method, url, kw = self.http.to('ai.api.nvidia.com')[0]
+        self.assertNotIn(KEY_A, url)
+        self.assertEqual(kw['headers']['Authorization'], 'Bearer ' + KEY_A)
+        self.assertEqual(kw['json']['seed'], 4)
+
+    def test_nvidia_tries_each_model_with_its_own_cap_and_keeps_what_the_provider_complained_about(self):
+        import requests
+        self.store['nvidia_key'] = KEY_A
+        self.http.on('flux.1-dev', HttpResp(500, content=b'oops'))
+        self.http.on('flux.1-schnell', requests.exceptions.ReadTimeout('slow'))
+        self.http.on('flux.2-klein-4b', HttpResp(422, text='{"detail":[{"loc":["body","mode"],"msg":"extra fields not permitted"}]} ' + 'A' * 40))
+        with self.assertRaises(self.m._N90Fail) as cm:
+            self.m._n90_engine_nvidia({'prompt': 'x', 'time_left': 120})
+        self.assertEqual(cm.exception.code, 'failed')
+        d = cm.exception.detail
+        for part in ('flux.1-dev:server_500', 'flux.1-schnell:timeout', 'flux.2-klein-4b:http_422', 'extra fields not permitted'):
+            self.assertIn(part, d)
+        self.assertNotIn('A' * 24, d, 'a long token-like string from an error body is never kept')
+        self.assertTrue(all(c[2]['timeout'] <= 45 for c in self.http.to('ai.api.nvidia.com')), 'no single model can use more than 45 seconds')
+        self.assertIn('flux.1-dev', self.m._n90_reason_text('failed', d))
+
+    def test_nvidia_stays_inside_the_time_it_was_given_and_remembers_the_model_that_worked(self):
+        self.store['nvidia_key'] = KEY_A
+        self.http.on('flux.1-dev', HttpResp(500, content=b'oops'))
+        self.http.on('flux.1-schnell', self.nvidia_ok())
+        before = dict(self.m.NVIDIA_GOOD)
+        try:
+            raw, model = self.m._n90_engine_nvidia({'prompt': 'x', 'time_left': 100})
+            self.assertEqual(model, 'flux.1-schnell')
+            self.assertTrue(self.m.NVIDIA_GOOD['url'].endswith('flux.1-schnell'))
+            self.http.calls.clear()
+            self.m._n90_engine_nvidia({'prompt': 'x', 'time_left': 100})
+            self.assertTrue(self.http.calls[0][1].endswith('flux.1-schnell'), 'the model that worked is asked first next time')
+        finally:
+            self.m.NVIDIA_GOOD.clear()
+            self.m.NVIDIA_GOOD.update(before)
+        self.http.calls.clear()
+        self.http.routes.clear()
+        clock = [1000.0]
+
+        def slow_failure(method, url, kw):
+            clock[0] += 6
+            return HttpResp(500, content=b'oops')
+        self.http.on('ai.api.nvidia.com', slow_failure)
+        with mock.patch.object(self.m._n90_time, 'time', lambda: clock[0]):
+            with self.assertRaises(self.m._N90Fail) as cm:
+                self.m._n90_engine_nvidia({'prompt': 'x', 'time_left': 9})
+        self.assertEqual(len(self.http.calls), 1, 'with 9 seconds given, one model that takes 6 leaves too little for a second')
+        self.assertIn('no time left', cm.exception.detail)
+
+    def test_nvidia_with_a_rejected_key_stops_at_the_first_model(self):
+        self.store['nvidia_key'] = KEY_A
+        self.http.on('ai.api.nvidia.com', HttpResp(401, js={'error': 'x'}))
+        with self.assertRaises(self.m._N90Fail) as cm:
+            self.m._n90_engine_nvidia({'prompt': 'x', 'time_left': 100})
+        self.assertEqual(cm.exception.code, 'auth')
+        self.assertEqual(len(self.http.to('ai.api.nvidia.com')), 1)
+
+    def test_provider_complaints_are_reduced_to_plain_words(self):
+        f = self.m._n90_safe_detail
+        self.assertEqual(f('{"detail":"mode: extra fields not permitted"}'), 'detail : mode: extra fields not permitted')
+        self.assertNotIn('{', f('{"a":"b"}'))
+        self.assertNotIn(KEY_A.replace('-', ''), f('bad key ' + KEY_A.replace('-', '') + ' used'))
+        self.assertLessEqual(len(f('word ' * 100)), 70)
+
+    def test_http_400_and_422_keep_a_short_reason_but_a_refused_prompt_is_still_blocked(self):
+        self.give_keys('together')
+        self.http.on('api.together.xyz', HttpResp(422, text='{"error":"width must be a multiple of 16"}'))
+        with self.assertRaises(self.m._N90Fail) as cm:
+            self.m._n90_engine_together({'prompt': 'x', 'negative': '', 'w': 320, 'h': 200, 'seed': None})
+        self.assertEqual(cm.exception.code, 'http_422')
+        self.assertIn('multiple of 16', cm.exception.detail)
+        self.http.routes.clear()
+        self.http.on('api.together.xyz', HttpResp(400, text='{"error":"blocked by safety filter"}'))
+        with self.assertRaises(self.m._N90Fail) as cm:
+            self.m._n90_engine_together({'prompt': 'x', 'negative': '', 'w': 320, 'h': 200, 'seed': None})
+        self.assertEqual(cm.exception.code, 'blocked')
+
+    def test_quick_engines_that_worked_lately_go_first_then_untried_ones_then_slow_ones(self):
+        m = self.m
+        self.give_keys('together', 'gemini')
+        now = m._n90_time.time()
+        m._N90_LEDGER.update({'horde': {'ok': 2, 'fail': 0, 'last_ok': now - 5, 'last_fail': 0.0, 'streak': 0, 'why': '', 'secs': 78.0},
+                              'pollinations_free': {'ok': 2, 'fail': 0, 'last_ok': now - 60, 'last_fail': 0.0, 'streak': 0, 'why': '', 'secs': 5.0},
+                              'nvidia': {'ok': 0, 'fail': 3, 'last_ok': 0.0, 'last_fail': now - 10, 'streak': 3, 'why': 'timeout', 'secs': 0.0}})
+        order = m._n90_engine_order()
+        self.assertEqual(order[0], 'pollinations_free', 'a 5 second engine beats a 78 second one even though the slow one worked more recently')
+        self.assertLess(order.index('gemini'), order.index('horde'), 'a key that was never tried comes before a slow community queue')
+        self.assertLess(order.index('together'), order.index('horde'))
+        self.assertGreater(order.index('nvidia'), order.index('horde'), 'an engine that keeps failing goes last')
+
+    def test_an_order_you_set_yourself_is_kept_exactly(self):
+        m = self.m
+        self.store['studio_engines'] = 'horde,together'
+        m._N90_LEDGER['pollinations_free'] = {'ok': 9, 'fail': 0, 'last_ok': m._n90_time.time(), 'last_fail': 0.0, 'streak': 0, 'why': '', 'secs': 2.0}
+        self.assertEqual(m._n90_engine_order(), ['horde', 'together'])
+
+    def test_how_long_an_engine_usually_takes_is_remembered_and_shown(self):
+        m = self.m
+        m._n90_ledger_note('together', True, secs=10)
+        m._n90_ledger_note('together', True, secs=20)
+        self.assertEqual(m._N90_LEDGER['together']['secs'], 14.0)
+        self.give_keys('together')
+        self.assertIn('usually 14 s', m._n90_status_text())
+
+    def test_a_real_request_records_the_seconds_each_engine_took(self):
+        self.give_keys('together')
+        self.script_together(png(400, 300))
+        self.m._n90_generate({'prompt': 'x', 'negative': '', 'w': 320, 'h': 200, 'seed': None})
+        self.assertIn('secs', self.m._N90_LEDGER['together'])
 
     def test_the_ai_horde_engine_submits_polls_and_downloads(self):
         import base64
@@ -2213,7 +2321,8 @@ class TestStructure(unittest.TestCase):
 
     def test_the_version_is_distinct_and_documented(self):
         self.assertGreaterEqual(float(self.m.VERSION), 90)
-        self.assertTrue(self.src.startswith('"""nemotron_bot.py v90.0 - STUDIO'))
+        self.assertTrue(self.src.startswith('"""nemotron_bot.py v90.1 - STUDIO'))
+        self.assertEqual(self.m.VERSION, '90.1')
         self.assertIn('+ v89.0 - CIRCLE', self.src[:3000], 'the older versions stay documented')
 
     def test_the_new_layer_is_protected_from_live_self_editing(self):
@@ -2280,7 +2389,7 @@ class TestStructure(unittest.TestCase):
     def test_network_calls_are_few_and_named(self):
         self.assertEqual(self.users_of('requests.'), {'_n90_http', '_n90_send_image', '_n90_design_job', '_n90_fetch_telegram_file'})
         self.assertEqual(set(re.findall(r'requests\.(\w+)\(', self.layer)), {'get', 'post'})
-        self.assertEqual(self.users_of('_n90_http('), {'_n90_http', '_n90_engine_gemini', '_n90_engine_cloudflare', '_n90_engine_together', '_n90_engine_huggingface', '_n90_engine_pollinations_new',
+        self.assertEqual(self.users_of('_n90_http('), {'_n90_http', '_n90_engine_nvidia', '_n90_engine_gemini', '_n90_engine_cloudflare', '_n90_engine_together', '_n90_engine_huggingface', '_n90_engine_pollinations_new',
                                                        '_n90_engine_pollinations_legacy', '_n90_engine_openai', '_n90_engine_horde', '_n90_removebg_api'})
         self.assertEqual(self.users_of('sendPhoto'), {'_n90_send_image'})
         self.assertEqual(self.users_of('sendDocument'), {'_n90_send_image', '_n90_design_job'})
@@ -2314,7 +2423,7 @@ class TestStructure(unittest.TestCase):
         os_calls = set(re.findall(r'_n90_os\.(\w+)', self.layer))
         self.assertEqual(os_calls, {'unlink', 'replace', 'listdir', 'chmod', 'path', 'makedirs', 'close', 'environ'})
         openers = {name for name, fn in self.funcs.items() if any(isinstance(n, ast.Call) and isinstance(n.func, ast.Name) and n.func.id == 'open' for n in ast.walk(fn))}
-        self.assertEqual(openers, {'_n90_appendix_pdf', '_n90_data_pdf', '_n90_engine_nvidia', '_n90_merge_pdfs', '_n90_recent', '_n90_row', '_n90_secret', '_n90_store', '_report_write_manifest', 'fetch_image'})
+        self.assertEqual(openers, {'_n90_appendix_pdf', '_n90_data_pdf', '_n90_merge_pdfs', '_n90_recent', '_n90_row', '_n90_secret', '_n90_store', '_report_write_manifest', 'fetch_image'})
         for name in ('_n90_prune', '_n90_clear'):
             self.assertIn('_n90_os.path.dirname(_n90_os.path.abspath(path)) == _n90_os.path.abspath(_n90_dir())', self.text(name), 'only files inside the Studio folder are ever deleted')
         self.assertIn('os.chmod' if False else '_n90_os.chmod(d, 0o700)', self.text('_n90_dir'))
