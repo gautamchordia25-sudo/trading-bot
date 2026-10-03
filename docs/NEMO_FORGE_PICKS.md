@@ -81,7 +81,8 @@ install pandas-ta-classic into yourself
 install jugaad-data into yourself
 ```
 The card says **"INTO MY OWN PYTHON (nothing already installed is changed)"** and lists what is already there and left alone. After you approve, Nemo checks the import and replies "import check passed". No restart is needed.
-If a card ever says it would change something already installed, **do not worry: Forge refuses it by design**, and tells you which package clashed.
+**If Nemo answers "its requirements clash with packages that are already installed"** (this happened with `trafilatura` on the first version of Forge): the newest release of a library often wants *newer* versions of core packages than your server has (trafilatura 2.3.0 asks for `charset_normalizer>=3.5.2`, `lxml>=6.1.3` and `urllib3>=2.8.0`), and Forge never changes what is already installed. **From v91.2 Forge no longer stops there:** it asks pip for the **newest release that fits** your server and shows it on the card with a warning, for example "the newest release (2.3.0) needs newer packages than this server has; this is the newest release that fits: 1.12.2". That older release goes through the same safety checks as any other. On a test server with older pinned core packages this installed trafilatura 1.12.2 and left every existing package exactly as it was.
+If no release fits, the message now names the package in the way ("trafilatura 2.3.0 needs charset_normalizer>=3.5.2, this server has 3.3.2") and offers `install NAME as a tool` (its own environment, which cannot clash, but my own code cannot import from there). If a card says it would change something already installed, Forge refuses that by design and says which package clashed. If you ask for something that is already in Nemo, he says so instead of making an empty card.
 
 OCR (needs one system program, so two steps):
 ```

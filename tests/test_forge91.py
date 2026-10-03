@@ -130,6 +130,7 @@ class ForgeCase(st.StewardCase):
         os.makedirs(self.wheeldir)
         self.offer = []                   # wheel file names a fake "pip download" delivers
         self.download_error = None
+        self.real_resolver = False        # True: "pip download" is the REAL pip (and its real resolver) looking only at the wheels in self.wheeldir
         self.apt_script = None
         self.runs = []
         self.passed = []
@@ -180,6 +181,8 @@ class ForgeCase(st.StewardCase):
     def fake_run(self, argv, timeout=120, env=None, cwd=None):
         self.runs.append({'argv': [str(a) for a in argv], 'env': env, 'cwd': cwd})
         a = [str(x) for x in argv]
+        if 'pip' in a and 'download' in a and self.real_resolver:
+            return self.real_run(a + ['--no-index', '--find-links', self.wheeldir], timeout, env, cwd)
         if 'pip' in a and 'download' in a:
             if self.download_error:
                 return 1, '', self.download_error
@@ -993,6 +996,177 @@ class TestRuntimeInstall(ForgeCase):
             self.assertTrue(self.m._n91_is_protected(name), name)
 
 
+
+class TestNewestReleaseThatFits(ForgeCase):
+    """The owner's real failure: "install trafilatura into yourself" said the requirements clash with what is installed. The newest release needed newer
+    versions of protected packages than the server has. Now pip's resolver is asked for the newest release that FITS (the real pip is used here, offline)."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.venv = tempfile.mkdtemp(prefix='forge91-fit-')
+        subprocess.run([sys.executable, '-m', 'venv', cls.venv], check=True, capture_output=True)
+        cls.py = os.path.join(cls.venv, 'bin', 'python')
+        cls.seed = tempfile.mkdtemp(prefix='forge91-fitseed-')
+        make_wheel(cls.seed, 'basepkg', '1.0', body='VERSION = "1.0"\n')
+        subprocess.run([cls.py, '-m', 'pip', 'install', '--no-index', '--find-links', cls.seed, 'basepkg==1.0', '--disable-pip-version-check'], check=True, capture_output=True)
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.venv, ignore_errors=True)
+        shutil.rmtree(cls.seed, ignore_errors=True)
+
+    def setUp(self):
+        super().setUp()
+        self.start(self.m, '_n91_runtime_python', lambda: self.py)
+        self.real_resolver = True
+
+    def tearDown(self):
+        extra = [k for k in self.m._n91_pip_list(self.py) if k not in ('basepkg', 'pip', 'setuptools', 'wheel')]
+        if extra:
+            subprocess.run([self.py, '-m', 'pip', 'uninstall', '-y', '--disable-pip-version-check'] + extra, capture_output=True)
+        super().tearDown()
+
+    def two_releases(self, name='fitlib', newest='2.0', older='1.5', older_doc=None):
+        """newest needs basepkg>=2 (the server has 1.0); the older one needs only basepkg>=1"""
+        self.wheel(name, newest, requires=['basepkg>=2'])
+        self.wheel('basepkg', '2.0')
+        self.wheel('basepkg', '1.0', body='VERSION = "1.0"\n')
+        self.wheel(name, older, requires=['basepkg>=1'], body='import basepkg\nOK = 1\n')
+        self.pypi(name, newest)
+        self.http.on('pypi.org/pypi/%s/%s/json' % (name, older), HttpResp(200, js=older_doc or pypi_doc(name, older)))
+
+    def downloads(self):
+        return [r['argv'] for r in self.runs if 'download' in r['argv']]
+
+    def test_the_conflict_in_pips_own_words_becomes_a_plain_sentence(self):
+        real = ("ERROR: Cannot install trafilatura==2.3.0 because these package versions have conflicting dependencies.\n\nThe conflict is caused by:\n"
+                "    trafilatura 2.3.0 depends on charset_normalizer>=3.5.2\n    The user requested (constraint) charset-normalizer==3.3.2\n\n"
+                "To fix this you could try to:\n1. loosen the range\n\nERROR: ResolutionImpossible: for help visit https://pip.pypa.io/\n")
+        self.assertTrue(self.m._n91_is_conflict(real))
+        self.assertEqual(self.m._n91_conflict_words(real), 'trafilatura 2.3.0 needs charset_normalizer>=3.5.2, this server has 3.3.2')
+        self.assertIn('(trafilatura 2.3.0 needs charset_normalizer>=3.5.2, this server has 3.3.2)', self.m._n91_pip_failure_words(real))
+        self.assertEqual(self.m._n91_conflict_words('some other error'), '')
+        self.assertFalse(self.m._n91_is_conflict('No matching distribution found'))
+
+    def test_the_newest_release_that_fits_is_chosen_and_the_card_says_why(self):
+        self.two_releases()
+        p = self.m._n91_plan('fitlib', None, 'runtime', None, 'for tests')
+        self.assertEqual((p['name'], p['version']), ('fitlib', '1.5'))
+        self.assertEqual([w['name'] for w in p['wheels']], ['fitlib'])
+        self.assertEqual(p['skipped'], ['basepkg 1.0'])
+        warn = [t for lv, t in p['flags'] if lv == 'warn']
+        self.assertEqual(len(warn), 1)
+        for part in ('newest release (2.0)', 'never change what is already installed', 'newest release that fits: 1.5', 'basepkg>=2', 'has 1.0'.replace('has', 'this server has')):
+            self.assertIn(part, warn[0])
+        text = self.m._n91_plan_text(p)
+        self.assertIn('INSTALL fitlib 1.5', text)
+        self.assertIn('newest release that fits', text)
+        calls = self.downloads()
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(calls[0][-1], 'fitlib==2.0')
+        self.assertEqual(calls[1][-1], 'fitlib', 'the second try lets pip look for the newest release that fits')
+        for c in calls:
+            self.assertIn('-c', c, 'both tries are pinned to what is installed')
+            self.assertIn('--only-binary=:all:', c)
+        self.assertEqual(self.m._N91_STATS['plans'], 1)
+
+    def test_installing_that_release_changes_nothing_that_was_there(self):
+        self.two_releases()
+        before = self.m._n91_pip_list(self.py)
+        p = self.m._n91_plan('fitlib', None, 'runtime')
+        out = self.m._n91_do_install(self.cid, p)
+        self.assertIn('Installed fitlib 1.5', out['text'])
+        after = self.m._n91_pip_list(self.py)
+        self.assertEqual(after['fitlib'], '1.5')
+        self.assertEqual({k: v for k, v in after.items() if k != 'fitlib'}, before)
+        self.assertEqual(self.m._n91_ledger_rows()[0]['version'], '1.5')
+
+    def test_the_whole_owner_flow_shows_a_card_with_the_warning_and_installs_on_approval(self):
+        self.two_releases()
+        out = self.owner('install fitlib into yourself')
+        self.assertIn('Checking fitlib', out)
+        self.assertNotIn('could not fetch', out)
+        items = self.pending()
+        self.assertEqual(len(items), 1)
+        card = self.m._n85_card_text(self.m._n85_get(self.cid, items[0]['id']))
+        self.assertIn('INSTALL fitlib 1.5', card)
+        self.assertIn('newest release that fits: 1.5', card)
+        state, text = self.approve(items[0]['id'])
+        self.assertEqual(state, 'executed', text)
+        self.assertEqual(self.m._n91_pip_list(self.py)['fitlib'], '1.5')
+
+    def test_the_older_release_gets_the_same_safety_checks_as_any_other(self):
+        bad = pypi_doc('fitlib', '1.5', yanked=True)
+        self.two_releases(older_doc=bad)
+        with self.assertRaises(self.m._N91Err) as cm:
+            self.m._n91_plan('fitlib', None, 'runtime')
+        self.assertEqual(cm.exception.code, 'refused')
+        self.assertIn('the one that does (1.5) is not safe', cm.exception.msg)
+        self.assertIn('withdrawn', cm.exception.msg)
+        self.assertEqual(self.staged(), [])
+        vuln = pypi_doc('fitlib', '1.5', vulns=[{'id': 'PYSEC-9', 'summary': 'bad'}])
+        self.http.routes = [r for r in self.http.routes if '/1.5/json' not in r[0]]
+        self.http.on('pypi.org/pypi/fitlib/1.5/json', HttpResp(200, js=vuln))
+        self.m._N91_CACHE.clear()                                               # (look-ups are cached for two minutes)
+        p = self.m._n91_plan('fitlib', None, 'runtime')
+        self.assertTrue(any('PYSEC-9' in t for lv, t in p['flags']), 'a known problem in the older release is shown')
+
+    def test_when_no_release_fits_it_says_which_package_is_in_the_way_and_offers_the_isolated_route(self):
+        self.wheel('stuck', '2.0', requires=['basepkg>=2'])
+        self.wheel('stuck', '1.0', requires=['basepkg>=1.5'])
+        self.wheel('basepkg', '2.0')
+        self.pypi('stuck', '2.0')
+        with self.assertRaises(self.m._N91Err) as cm:
+            self.m._n91_plan('stuck', None, 'runtime')
+        msg = cm.exception.msg
+        self.assertEqual(cm.exception.code, 'download_failed')
+        for part in ('its newest release (2.0) needs newer packages than this server has', 'basepkg>=2', 'this server has 1.0', 'no older release fits either', 'did not touch anything', 'install stuck as a tool'):
+            self.assertIn(part, msg)
+        self.assertEqual(self.staged(), [])
+        self.assertEqual(self.m._n91_pip_list(self.py).get('basepkg'), '1.0')
+        self.assertIn('install stuck as a tool', self.owner('install stuck into yourself'))
+
+    def test_a_version_the_owner_pinned_is_never_swapped_for_another(self):
+        self.two_releases()
+        with self.assertRaises(self.m._N91Err) as cm:
+            self.m._n91_plan('fitlib', '2.0', 'runtime')
+        self.assertEqual(len(self.downloads()), 1, 'one try only')
+        self.assertIn('clash', cm.exception.msg)
+        self.assertIn('basepkg>=2', cm.exception.msg)
+
+    def test_other_failures_are_not_retried_and_the_isolated_target_never_needs_the_fallback(self):
+        self.pypi('nowheelhere', '1.0')
+        self.real_resolver = False
+        self.download_error = 'ERROR: No matching distribution found for nowheelhere==1.0'
+        with self.assertRaises(self.m._N91Err):
+            self.m._n91_plan('nowheelhere', None, 'runtime')
+        self.assertEqual(len(self.downloads()), 1)
+        self.runs.clear()
+        self.real_resolver = True
+        self.two_releases('toollib')
+        p = self.m._n91_plan('toollib', None, 'tool')
+        self.assertEqual(p['version'], '2.0', 'an isolated environment has nothing to clash with: the newest release is used')
+        self.assertEqual(len(self.downloads()), 1)
+
+    def test_asking_again_for_what_is_already_in_me_says_so_instead_of_making_an_empty_card(self):
+        self.two_releases()
+        p = self.m._n91_plan('fitlib', None, 'runtime')
+        self.m._n91_do_install(self.cid, p)
+        with self.assertRaises(self.m._N91Err) as cm:
+            self.m._n91_plan('fitlib', None, 'runtime')
+        self.assertEqual(cm.exception.code, 'already')
+        self.assertIn('fitlib 1.5 is already installed in me', cm.exception.msg)
+        self.assertEqual(self.staged(), [])
+        self.assertIn('already installed in me', self.owner('install fitlib into yourself'))
+        self.assertEqual(self.pending(), [])
+
+    def test_a_payload_with_the_older_release_note_still_passes_validation(self):
+        self.two_releases()
+        p = self.m._n91_plan('fitlib', None, 'runtime')
+        clean = self.m._n91_v_install(json.loads(json.dumps(p)))
+        self.assertEqual(clean['version'], '1.5')
+        self.assertTrue(any(lv == 'warn' for lv, _t in clean['flags']))
+
 # ===================================================================================================================
 # 5. APPROVAL CARDS (the existing v85 engine) AND THE ALLOW-LIST
 # ===================================================================================================================
@@ -1592,9 +1766,9 @@ class TestStructure(unittest.TestCase):
         cls.layer = layer_source()
 
     def test_this_is_v91_and_the_version_is_the_last_one_defined(self):
-        self.assertEqual(self.m.VERSION, '91.1')
-        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '91.1')
-        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v91.1 - FORGE'))
+        self.assertEqual(self.m.VERSION, '91.2')
+        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '91.2')
+        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v91.2 - FORGE'))
 
     def test_the_layer_comes_after_studio_and_before_the_main_guard(self):
         self.assertLess(self.src.index('# NEMO 90 - STUDIO'), self.src.index('# NEMO 91 - FORGE'))
