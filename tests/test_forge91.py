@@ -1763,22 +1763,42 @@ GB = 1073741824
 class TestServerResources(ForgeCase):
     """Fake /proc and a fake disk shaped like the owner's real server: 3.8 GB memory, 2.0 GB swap with 1.7 GB used, 77 GB disk with 45 GB free."""
 
-    def make_proc(self, total_kb=3984588, avail_kb=1677721, swap_total_kb=2097152, swap_free_kb=314572, load='0.35 0.40 0.50 1/200 999', procs=None, uptime='1053000.5 4000.1'):
+    def make_proc(self, total_kb=3984588, avail_kb=1677721, swap_total_kb=2097152, swap_free_kb=314572, load='0.35 0.40 0.50 1/200 999', procs=None, uptime='1053000.5 4000.1', psi='0.00', vmstat=True):
         root = os.path.join(self.tmp.name, 'proc')
         shutil.rmtree(root, ignore_errors=True)
         os.makedirs(os.path.join(root, 'self'))
+        os.makedirs(os.path.join(root, 'pressure'))
         open(os.path.join(root, 'meminfo'), 'w').write('MemTotal: %d kB\nMemFree: 700000 kB\nMemAvailable: %d kB\nBuffers: 1000 kB\nCached: 1200000 kB\nSwapTotal: %d kB\nSwapFree: %d kB\n' % (total_kb, avail_kb, swap_total_kb, swap_free_kb))
         open(os.path.join(root, 'loadavg'), 'w').write(load + '\n')
         open(os.path.join(root, 'uptime'), 'w').write(uptime + '\n')
+        if psi is not None:
+            open(os.path.join(root, 'pressure', 'memory'), 'w').write('some avg10=%s avg60=0.00 avg300=0.00 total=1\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=1\n' % psi)
+        self.vm = {'pswpin': 1000, 'pswpout': 2000}
+        self.vm_delta = (0, 0)
+        if vmstat:
+            self.write_vmstat(root)
         open(os.path.join(root, 'self', 'status'), 'w').write('Name:\tpython3\nVmRSS:\t  655360 kB\nThreads:\t38\n')
         mine = str(os.getpid())
-        entries = {mine: ('python3', 655360), '2222': ('chrome', 317440), '3333': ('sshd', 9216), '4444': ('kworker', 0)} if procs is None else procs
-        for pid, (name, rss) in entries.items():
+        entries = {mine: ('python3', 655360, None, 'python3\x00nemotron_bot.py\x00'), '2222': ('chrome', 317440, None, 'chrome\x00--type=renderer\x00--token=SECRET-IN-COMMAND-LINE\x00'),
+                   '3333': ('sshd', 9216, None, 'sshd\x00'), '4444': ('kworker', 0, None, '')} if procs is None else procs
+        for pid, (name, rss, exe, cmd) in entries.items():
             os.makedirs(os.path.join(root, pid), exist_ok=True)
             open(os.path.join(root, pid, 'status'), 'w').write('Name:\t%s\n%sThreads:\t3\n' % (name, ('VmRSS:\t %d kB\n' % rss) if rss else ''))
-            open(os.path.join(root, pid, 'cmdline'), 'w').write('%s\x00--token=%s\x00' % (name, 'SECRET-IN-COMMAND-LINE'))
+            open(os.path.join(root, pid, 'cmdline'), 'w').write(cmd)
+            if exe:
+                os.symlink(exe, os.path.join(root, pid, 'exe'))
+        self.root = root
         self.start(self.m, '_N91_PROC', root)
+
+        def fake_sleep(sec):
+            self.vm = {'pswpin': self.vm['pswpin'] + self.vm_delta[0], 'pswpout': self.vm['pswpout'] + self.vm_delta[1]}
+            if vmstat:
+                self.write_vmstat(root)
+        self.start(self.m._n91_time, 'sleep', fake_sleep)
         return root
+
+    def write_vmstat(self, root):
+        open(os.path.join(root, 'vmstat'), 'w').write('nr_free_pages 100\npswpin %d\npswpout %d\npgfault 5\n' % (self.vm['pswpin'], self.vm['pswpout']))
 
     def make_disk(self, total=77, used=32, free=45, cpus=1):
         du = type('DU', (), {'total': total * GB, 'used': used * GB, 'free': free * GB})()
@@ -1793,18 +1813,81 @@ class TestServerResources(ForgeCase):
 
     def test_it_reads_the_owners_real_numbers_and_says_what_they_mean(self):
         text = self.m._n91_resources_text()
-        for part in ('Memory: 3.8 GB total · 2.2 GB used · 1.6 GB available', 'Swap: 2.0 GB · 1.7 GB used (85%) ⚠️', 'Disk (/): 77.0 GB · 32.0 GB used (42%) · 45.0 GB free ✅',
+        for part in ('Memory: 3.8 GB total · 2.2 GB used · 1.6 GB available', 'Swap: 2.0 GB · 1.7 GB used (85%) · not swapping now', 'Disk (/): 77.0 GB · 32.0 GB used (42%) · 45.0 GB free ✅',
                      'CPU: 1 core · load 0.35 0.40 0.50', 'Server up 12 days', 'Nemo uses 0.6 GB of memory, 38 threads', 'Biggest memory users: python3 0.6 GB (Nemo) · chrome 0.3 GB · sshd 9 MB',
-                     'more than half of the swap is in use', 'only very small models (under about 1 GB) are realistic', 'read directly from the server'):
+                     'ℹ️ Swap is 85% full, but memory is available and the server is not swapping right now, so it holds old unused data', '✅ Nothing is short right now.',
+                     'only very small models (under about 1 GB) are realistic', 'read directly from the server'):
             self.assertIn(part, text)
         self.assertNotIn('kworker', text, 'a process using no memory is not listed')
+        self.assertNotIn('⚠️', text, 'old data in swap is not a warning when memory is free and nothing is being swapped')
 
-    def test_only_names_are_read_never_command_lines_so_no_secret_can_leak(self):
+    def test_the_owners_live_status_is_read_as_old_swap_not_as_trouble(self):
+        """The real `server status` the owner pasted: 2.2 GB available, swap 89% used, 2 cores."""
+        self.make_proc(total_kb=3984588, avail_kb=int(2.2 * GB / 1024), swap_free_kb=int(0.22 * GB / 1024), load='1.37 0.81 0.57 2/300 12', uptime=str(30 * 3600))
+        self.make_disk(total=76.4, used=31.8, free=44.6, cpus=2)
+        text = self.m._n91_resources_text()
+        for part in ('Memory: 3.8 GB total · 1.6 GB used · 2.2 GB available', 'Swap: 2.0 GB · 1.8 GB used (89%) · not swapping now', 'Disk (/): 76.4 GB · 31.8 GB used (42%) · 44.6 GB free ✅',
+                     'CPU: 2 cores · load 1.37 0.81 0.57', 'Server up 30 h', 'holds old unused data', '✅ Nothing is short right now.'):
+            self.assertIn(part, text)
+        self.assertNotIn('short of memory', text)
+
+    def test_swap_that_is_filling_while_memory_is_short_or_the_server_is_swapping_is_a_warning(self):
+        self.make_proc(avail_kb=int(2.2 * GB / 1024), swap_free_kb=int(0.22 * GB / 1024))
+        self.vm_delta = (30, 70)                                                      # pages swapped in/out during the one-second sample (rate = delta / 0.2 s here)
+        text = self.m._n91_resources_text()
+        self.assertIn('Swap: 2.0 GB · 1.8 GB used (89%) ⚠️ · swapping now: 150 in, 350 out pages/s', text)
+        self.assertIn('⚠️ swap is 89% full and it is swapping right now: the server is short of memory and slows down.', text)
+        self.assertNotIn('holds old unused data', text)
+        self.make_proc(avail_kb=int(0.7 * GB / 1024), swap_free_kb=int(0.22 * GB / 1024))
+        text = self.m._n91_resources_text()
+        self.assertIn('swap is 89% full and memory is short', text)
+        self.assertIn('less than 0.5 GB' if 0.7 < 0.5 else 'swap is 89% full', text)
+        self.make_proc(avail_kb=int(2.2 * GB / 1024), swap_free_kb=int(0.22 * GB / 1024), psi='12.50')
+        self.assertIn('programs are waiting for memory', self.m._n91_resources_text())
+
+    def test_when_activity_cannot_be_measured_it_says_so_instead_of_guessing(self):
+        self.make_proc(avail_kb=int(2.2 * GB / 1024), swap_free_kb=int(0.22 * GB / 1024), psi=None, vmstat=False)
+        text = self.m._n91_resources_text()
+        self.assertIn('I could not measure whether it is swapping right now', text)
+        self.assertNotIn('⚠️', text)
+        self.assertNotIn('not swapping now', text)
+        self.assertEqual(self.m._n91_swap_state(self.m._n91_resources()), 'unclear')
+
+    def test_the_swap_states(self):
+        base = {'mem_total': 4 * GB, 'mem_avail': 2 * GB, 'swap_total': 2 * GB, 'swap_used': 1.8 * GB, 'swap_rate': {'in': 0, 'out': 0}, 'psi': {'some': 0.0}}
+        st = self.m._n91_swap_state
+        self.assertEqual(st(dict(base)), 'stale')
+        self.assertEqual(st(dict(base, swap_used=0.5 * GB)), 'none')
+        self.assertEqual(st(dict(base, swap_total=0, swap_used=0)), 'none')
+        self.assertEqual(st(dict(base, mem_avail=0.5 * GB)), 'pressure')
+        self.assertEqual(st(dict(base, swap_rate={'in': 40, 'out': 20})), 'pressure')
+        self.assertEqual(st(dict(base, swap_rate={'in': 10, 'out': 20})), 'stale')
+        self.assertEqual(st(dict(base, psi={'some': 6.0})), 'pressure')
+        self.assertEqual(st(dict(base, swap_rate=None, psi=None)), 'unclear')
+
+    def test_the_biggest_processes_say_what_they_are_without_showing_options_or_keys(self):
+        mine = str(os.getpid())
+        self.make_proc(procs={
+            mine: ('python3', 655360, None, 'python3\x00nemotron_bot.py\x00'),
+            '2001': ('python', 204800, '/root/nemo_envs/cyber/bin/python3.11', 'python\x00-m\x00mcp_server_fetch\x00--api-key=TOPSECRETVALUE\x00'),
+            '2002': ('npm exec @model', 92160, None, 'npm exec @modelcontextprotocol/server-memory\x00'),
+            '2003': ('node', 79872, None, 'node\x00/root/.npm/_npx/abc/node_modules/.bin/mcp-server-memory\x00'),
+            '2004': ('python', 60000, None, 'python\x00app.py\x00Ab12Cd34Ef56Gh78Ij90Kl12Mn34Op56\x00token=XYZ\x00')})
+        text = self.m._n91_resources_text()
+        self.assertIn('python 0.2 GB [env cyber · mcp_server_fetch]', text)
+        self.assertIn('npm exec @model 90 MB [exec @modelcontextprotocol/server-memory]', text)
+        self.assertIn('node 78 MB […/.bin/mcp-server-memory]', text)
+        self.assertIn('python 59 MB [app.py]', text)
+        for secret in ('TOPSECRETVALUE', '--api-key', 'Ab12Cd34Ef56Gh78Ij90Kl12Mn34Op56', 'token=XYZ', 'XYZ'):
+            self.assertNotIn(secret, text)
+        self.assertNotIn('[python3', text, 'Nemo himself is labelled (Nemo), not hinted')
+
+    def test_secrets_in_command_lines_never_reach_the_answer(self):
         text = self.m._n91_resources_text()
         self.assertNotIn('SECRET-IN-COMMAND-LINE', text)
         self.assertNotIn('--token', text)
-        src = layer_source()
-        self.assertNotIn("'cmdline'", src.replace("'(?:Name|VmRSS|Threads)", ''))
+        self.assertNotIn('--type', text)
+        self.assertIn('_n91_untrusted(', layer_source().split('def _n91_proc_hint')[1].split('def _n91_kb')[0], 'the hint is masked like any other text')
 
     def test_a_healthy_server_gets_no_warning(self):
         self.make_proc(avail_kb=int(7.5 * GB / 1024), total_kb=int(8 * GB / 1024), swap_free_kb=2097152)
@@ -1820,22 +1903,26 @@ class TestServerResources(ForgeCase):
         text = self.m._n91_resources_text()
         for part in ('less than 0.5 GB of memory is really free', 'less than 5 GB of disk is free', 'the processor is overloaded (load 4.00 on 1 core)', '⚠️ LOW'):
             self.assertIn(part, text)
-        self.assertNotIn('half of the swap', text)
+        self.assertNotIn('holds old unused data', text)
 
     def test_the_machine_with_a_3_gb_budget_is_told_a_small_model_could_fit(self):
         self.make_proc(avail_kb=int(3.4 * GB / 1024), swap_free_kb=2097152)
         self.assertIn('a 3B model (about 2 GB) could fit', self.m._n91_resources_text())
 
-    def test_the_compact_line_is_one_short_line(self):
+    def test_the_compact_line_is_one_short_line_and_does_not_wait_for_a_sample(self):
+        self.start(self.m._n91_time, 'sleep', lambda s: (_ for _ in ()).throw(AssertionError('the short line must not sleep')))
         line = self.m._n91_resources_text(compact=True)
         self.assertNotIn('\n', line)
-        self.assertEqual(line, '🖥 Server: memory 1.6 GB available of 3.8 GB · swap 85% used ⚠️ · disk 45.0 GB free · 1 core')
+        self.assertEqual(line, '🖥 Server: memory 1.6 GB available of 3.8 GB · swap 85% used · disk 45.0 GB free · 1 core')
+        self.make_proc(avail_kb=int(0.5 * GB / 1024), swap_free_kb=int(0.22 * GB / 1024))
+        self.start(self.m._n91_time, 'sleep', lambda s: (_ for _ in ()).throw(AssertionError('the short line must not sleep')))
+        self.assertIn('swap 89% used ⚠️', self.m._n91_resources_text(compact=True))
 
     def test_a_system_that_does_not_say_is_not_guessed(self):
         self.start(self.m, '_N91_PROC', os.path.join(self.tmp.name, 'no-such-proc'))
         self.assertIn('I cannot read this server', self.m._n91_resources_text())
-        self.assertEqual(self.m._n91_resources()['mem_total'], 0)
-        self.assertEqual(self.m._n91_resources()['top'], [])
+        r = self.m._n91_resources()
+        self.assertEqual((r['mem_total'], r['top'], r['psi'], r['swap_rate']), (0, [], None, None))
 
     def test_the_question_from_the_screenshot_is_answered_with_real_numbers_without_the_ai(self):
         out = self.owner('How much memory and disk does your server have?')
@@ -1900,6 +1987,9 @@ class TestServerResources(ForgeCase):
         self.assertEqual(self.m._n91_kb('junk'), 0)
         mi = self.m._n91_meminfo()
         self.assertEqual((mi['MemTotal'], mi['SwapTotal']), (3984588 * 1024, 2097152 * 1024))
+        self.assertEqual(self.m._n91_psi(), {'some': 0.0, 'full': 0.0})
+        self.assertEqual(self.m._n91_vmstat(), {'pswpin': 1000, 'pswpout': 2000})
+
 
 # ===================================================================================================================
 # 10. STRUCTURE (what the file itself guarantees) AND MUTATIONS (the tests really would catch a broken guard)
@@ -1914,9 +2004,9 @@ class TestStructure(unittest.TestCase):
         cls.layer = layer_source()
 
     def test_this_is_v91_and_the_version_is_the_last_one_defined(self):
-        self.assertEqual(self.m.VERSION, '91.3')
-        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '91.3')
-        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v91.3 - FORGE'))
+        self.assertEqual(self.m.VERSION, '91.4')
+        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '91.4')
+        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v91.4 - FORGE'))
 
     def test_the_layer_comes_after_studio_and_before_the_main_guard(self):
         self.assertLess(self.src.index('# NEMO 90 - STUDIO'), self.src.index('# NEMO 91 - FORGE'))

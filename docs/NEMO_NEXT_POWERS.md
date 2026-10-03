@@ -33,9 +33,20 @@ You ran the two commands yourself because Nemo could not answer ("I don't have l
 | Disk | 77 GB, 32 GB used, **45 GB free (42%)** | Plenty. Models, offline Wikipedia files and backups fit easily. |
 | CPU | the host name says `1vcpu`, but memory is 3.8 GB, so the plan was probably changed | Unknown until `server status` prints the cores; with 1 core, local speech-to-text and embeddings are slow. |
 
+**Update: your live `server status` (v91.3 running on the server).** The real numbers, read by Nemo himself:
+
+| What | Value | How I read it |
+|---|---|---|
+| Memory | 3.8 GB total, 1.6 GB used, **2.2 GB available** | Better than the first screenshot (1.6 GB available); not short right now. |
+| Swap | 2.0 GB, 1.8 GB used (**89%**) | With 2.2 GB of memory free this is **most likely old, unused data sitting in swap, not an active slowdown**. v91.3 called it a warning anyway; that was too blunt, and v91.4 measures whether the server is swapping *right now* before it warns. |
+| CPU | **2 cores**, load 1.37 / 0.81 / 0.57 | About 0.7 per core and rising over the last 15 minutes: something is working. The `1vcpu` in the host name is out of date; the plan was resized. |
+| Biggest memory users | Nemo 0.7 GB (37 threads); a `python` process 0.2 GB (unknown); `systemd-journal` 94 MB; `npm exec @model…` 90 MB and `node` 78 MB | The last two are **probably an MCP server started through npx** (Nemo's `filesystem` or `memory` preset), about 170 MB together. v91.4 shows which one, and which tool environment the `python` belongs to. |
+
+What to do with that (read-only checks first): ask Nemo `/mcp list` to see which MCP servers are connected, and switch off any you do not use (**especially `filesystem`, which lets a model read and write files under `/root`**). Then say `server status` again.
+
 What I conclude (these change the plan):
 
-1. **A local AI brain (B3) is not realistic on this server.** Even a small 3B model needs about 2 GB free and you have 1.6 GB, with swap already in use. I drop it. The cloud fallback chain Nemo already has (several providers) stays the fallback. If you later want local models, the sensible route is a bigger plan or a second small machine, not this one.
+1. **A local AI brain (B3) is not realistic on this server.** Even a small 3B model needs about 2 GB free and you have 2.2 GB at best, shared with the bot, and the swap is nearly full. I drop it. The cloud fallback chain Nemo already has (several providers) stays the fallback. If you later want local models, the sensible route is a bigger plan or a second small machine, not this one.
 2. **Heavy add-ons must be polite.** The v92 "Wire" work will run each heavy library (voice model, embeddings, report builder) in a **short-lived child process, one at a time**, and only when enough memory is free; otherwise Nemo says "low on memory, try later" instead of pushing the bot into swap. Nothing heavy stays loaded inside the bot.
 3. **Disk is not the problem,** so the offline encyclopaedia (B4) and local models of the small kind (speech-to-text `tiny`/`base`) are fine from the disk side.
 4. **Find out what is eating the memory first.** `server status` now lists the biggest memory users. My guess (not verified) is the bot itself plus a browser started by Playwright; if a browser process is left running, that is the first thing to fix.
