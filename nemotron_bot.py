@@ -1,4 +1,4 @@
-"""nemotron_bot.py v93.2 - SCOUT: TRADE IDEAS FOR STOCKS AND NIFTY/BANKNIFTY OPTIONS FROM NEWS AND NEMO'S MARKET TOOLS, WITH THE WORKINGS SHOWN, THE SIZE AT THE OWNER'S RISK LIMIT AND AN HONEST TRACK RECORD (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v92.0 - WIRE: THE INSTALLED LIBRARIES BECOME CHAT COMMANDS, RUN SAFELY (tables from a PDF, text in a picture, clean article text, indicators on daily candles, a risk report of the journal, NSE history, local voice fallback, extra checks next to the update pre-flight; one heavy job at a time and only when memory is free; MCP servers stop together with Nemo). + v91.5 - FORGE: NEMO CAN USE GITHUB AND INSTALL WHAT HE NEEDS (search and inspect GitHub, a static scan of any repo, PyPI risk checks, hash-pinned wheel-only installs into isolated environments or additively into his own Python, owner approval cards, health checks with automatic rollback, an install ledger, upgrade from the owner's own GitHub repo through the existing update gate). + v90.2 - STUDIO: MORE IMAGE ENGINES AND TOOLS, EXACT DESIGN AND CHARTS, REPORTS WHOSE NUMBERS ARE CHECKED (verified image chain with nine engines, Pillow tools, posters/cards/logos with exact text, charts from your numbers, a numbers audit for researched reports, data reports from your own files). + v89.0 - CIRCLE: WHO ELSE MAY USE NEMO AND WHAT THEY MAY DO (one gate in front of every message, button and inline query that is not from the owner; default deny; abilities switched per person and role from a menu or in plain words; first-contact cards; limits; strangers on/off; a private read-only free/busy view for family). + v88.0 - ARGUS: NEMO CAN SEE (read-only eyes for mail, calendar, Drive, tasks, reminders, watchers, what Nemo did and when, server and errors, devices, positions; a live map of its own abilities; one "see" tool for conversation; a flight recorder; an inbox watch; exact reasons when something is not connected). + v87.0 - RELAY: MORE VIDEO SOURCES (yt-dlp with six client profiles, automatic yt-dlp update, Node/Deno runtime, your proxy; then pytubefix, YouTube.js, Piped and Invidious mirrors, Cobalt) in ONE verified, time-boxed chain with a per-source report + DRIVE LINKS YOU CAN OPEN (anyone with the link / one e-mail / private) + natural-language controls (download sources, test youtube download, set up download sources, share my last download). + v86.0 - CANDOR: NO SENSITIVE LOGGING (a rejected value is never stored; logs are masked) + COMPLETE FORGETTING (every recall store, rewritten copies, re-learning blocked, queued jobs cancelled, backup limits stated) + SAFER SELF-DEVELOPMENT (the _n79_feature hook is always offered, relevant bounded shortlist, vague "upgrade yourself ..." asks what you want before any AI call, failures name their stage) + RESEARCH ROUTING (current-information questions are researched, failure and thin evidence are stated) + ONE SHARED DEADLINE (planning, tools, answer, review and fallback; bounded search and background work) + HONEST CHECKS (completed / issues / skipped / failed). + v85.0 - STEWARD: DECISION INBOX (mail/calendar/open loops/showroom -> ranked, grounded proposals as approve/edit/skip cards; nothing runs without a tap; learns from your decisions) + VERIFIED RESEARCH (replans, reads full pages, keeps a claim only if its quote is in the page and its numbers are in the quote) + SANDBOX-TESTED UPDATES (candidate is imported and regression-tested in a network-less sandbox before Apply) + MCP PERMISSION TIERS (read runs, write needs a tap, dangerous blocked) + DOCUMENT INTELLIGENCE (page-cited answers, clause flags, version compare, tables) + SHOWROOM COPILOT (leads, dues, stock, GST invoice drafts) + PAGE WATCHERS (price/stock/keyword/change alerts). + v84.0 - ATLAS: FUTURES DESK (expiry calendar with holiday roll-back, cost-of-carry fair value/basis, roll cost, position sizing, pre-trade check, edge/Kelly/streak maths, owner-reported trade journal + stats, opt-in expiry alerts; advisory only, no orders) + SPEED (zero-model answers for pure arithmetic/date questions, router bypass for plain chat, parallel tool rounds, typing keep-alive, per-stage timings, p50/p95 in /cortex83) + weekday/date audit. + v83.0 - CORTEX: memory bridge (relevant stored facts + safe auto-learning from the owner's own messages, with /memory83 /forget83 controls), grounded IST date/time + exact date maths, bounded read-only tool loop for chat (search/recall/calculate/date, no tool can act), deterministic arithmetic audit + quote-verified critique, rolling conversation summaries, router fast-path for small talk, /why83 transparency, fix for undefined _n60_j in the media failure path. Additive layer over v82; any Cortex failure falls back to the v80 chat path. + v45.0 - YOUTUBE PER OFFICIAL 2026 GUIDE (--js-runtimes deno auto-installed, android_vr-first ladder needing no PO token/cookies, cookies only for tv/mweb, rotation detection, /ytfix) + MEDIA LIBRARY (/library instant resend, Drive) + v44.x RELIABILITY DOCTOR + v43.x YOUTUBE UNBLOCK + RESEARCH DIGEST + v42.0 MEDIA ENGINE + FAMILY MODE + v40.0 COMMAND CENTER + LEARN MODE + v39.0 FAST CORE + v38.0 ATTENTION + v37.0 PHOTO MEMORY + VOICE + v36.x DAY CARD + SELF-AUDIT + v35.0 UNIFIED MIND + v13.35 - PROVIDER DOCTOR + COMPUTER-USE 5.0 BATCH 3: adds diagnostic Groq/Gemini model discovery, non-destructive email/network doctor, browser computer-use sessions with DOM/accessibility/screenshot state, Guardian-protected external-page analysis, action verification and session telemetry. + v13.30 - KNOWLEDGE LAKE 2.0 + HYBRID SEMANTIC RAG + LEARNING CORE 2.0: adds local hybrid retrieval, workflow episode learning and automatic local grounding while retaining v13.29 evaluation/observability. + v13.29 - EVALUATION LAB 2.0 + OBSERVABILITY/FLIGHT RECORDER 2.0: adds request-level tracing, durable request metrics, tool/task correlation for reports/browser/media, percentile latency and failure dashboards, candidate-vs-current regression scoring, critical-function and credential-line integrity checks, evaluation history, and fail-closed deploy recommendations. Existing v13.28 NEMO PRIME FOUNDATION remains. + v13.28 - NEMO PRIME FOUNDATION: Unified Task OS, Central Policy Engine, Flight Recorder, Evaluation Lab, Knowledge Lake, Strategy Learning 2.0, Device Agent generator, Specialist Agent Governor, and Trade State Reconciliation 2.0. Existing v13.27 Publisher Godmode and all prior safety rails remain. + v13.27 - PUBLISHER GODMODE 5.0 / LAYOUT QA: rebuilds the professional artifact renderer around measured text layout instead of fixed-height guesses; filters fake KPI tiles and source/evidence metadata; dynamically wraps risk tables, scenario cards, executive cards and source cards; fixes appendix stripping with or without colons; adds Unicode font support when available; prevents heading/header collisions; strengthens publication QA for leaked metadata, clipping-risk patterns and malformed key-number panels; and keeps the v13.26 evidence/materiality pipeline intact. + v13.26 - CREATION ENGINE / PUBLISHER GODMODE 4.0: adds professional information architecture, materiality-first analysis, improved source authority ontology, cited-evidence grading, compact clickable source appendix, executive snapshot cards, key-number tiles, scenario dashboard, risk heatmap-style matrix, typography/mojibake sanitation, deterministic artifact integrity, and optional PDF visual QA. Analytical reports now fail closed when research/evidence/publication quality is weak. Existing v13.25 research Godmode, v13.24 renderer fixes and v13.23 Learning Core remain. + v13.25 - GODMODE RESEARCH + REPORT INTELLIGENCE 3.0: adds five coordinated upgrades: adaptive multi-query text+news research with retries, source-authority scoring and domain diversity, multi-brain analyst→verifier→editor synthesis, evidence/claim-quality gates that remove unsupported current claims, and a research audit manifest + professional evidence score on every report. /godreport forces the full pipeline; ordinary non-code reports use it automatically. Existing v13.24.2 renderer hotfix and v13.23 Learning Core remain. + v13.24.2 - PROFESSIONAL REPORT STUDIO 2.1 PDF RENDERER HOTFIX: upgrades PDF/report generation with fresh multi-query web research for time-sensitive reports, source-grounded drafting, executive summaries, risk/outlook structure, professional cover/header/footer, section hierarchy, key-takeaway callouts, source appendix, cleaner typography, and removal of random stock-art pages. Reports distinguish sourced facts from analysis and warn when fresh research is unavailable. Existing v13.23 Learning Core remains. + v13.23 - LEARNING CORE 1.0 + EXPERIENCE BRAIN: adds persistent outcome learning, model-performance scoring, experience/error fingerprints, semantic experience recall, feedback controls, lightweight anomaly learning, adaptive model route reordering, training-data export, and Cockpit learning telemetry. Learns from successful/failed AI calls and explicit owner feedback while redacting sensitive-looking text; never grants new money/security authority. Existing v13.22 Offline Mind/Speed/Systematic UI, Device Grid, Cockpit, Mind Core, Cyber Hands, trading rails and secrets are preserved. + v13.22 - OFFLINE MIND + SPEED ROUTER + SYSTEMATIC RESPONSE UI: adds an offline-first knowledge layer (built-in durable reference packs + existing indexed files/library/memory grounding), persistent evergreen answer cache, API-down offline fallback, instant local calculator, automatic FAST/BALANCED/QUALITY routing, reduced unnecessary multi-pass reasoning, and a Telegram-friendly response-format contract with consistent visual sections. New /offline, /speed and /format controls. Existing v13.21 Device Grid, v13.20 Cockpit, v13.19 Mind Core, Cyber Hands, trading/security rails and credentials are preserved. + v13.21 - NEMO DEVICE GRID + REMOTE HANDS 1.0: enrolled-device control plane with owner-created one-time enrollment tokens, per-device bearer secrets, heartbeat/online state, read-only system telemetry, opt-in location reporting, device revocation, audit trail, and Cockpit/API device inventory. No arbitrary-device discovery, covert tracking, credential dumping, or unauthorized remote access. + v13.20 - NEMO COCKPIT 1.0: adds a modern Telegram Mini App/PWA command-center over the existing secure web server: live system/brain/cyber/VPN/trading/task/media panels, responsive mobile-first glass UI, browser human-checkpoint status and latest screenshot, safe read-only quick actions, refreshable JSON telemetry, and an owner-only /cockpit command. When a secure HTTPS public_url is configured, Nemo automatically installs a Telegram Web App menu button that opens the cockpit inside Telegram; otherwise /cockpit gives the local/public dashboard link and /setdomain guidance. Consequential actions stay Telegram-gated; the cockpit does not bypass trading, lockdown, cyber scope, browser-auth or update confirmations. Existing v13.19 Mind Core, Browser Checkpoint 2.0, Cyber Hands, dependency isolation, secrets and trading rails remain. + v13.19 - MIND CORE 2.0 + BROWSER CHECKPOINT 2.0: adds a final-answer compiler that blocks scratchpad/thinking-aloud leakage, strips malformed provider tokens such as <unk>, detects repetition/non-answers, selectively re-verifies calculation/bill/image answers, and rewrites poor drafts before delivery; adds speech-specific sanitization so garbage tokens never become voice audio. Browser human checkpoints now parse natural replies (e.g. email plus “click next”) into a clean field value + action, use semantic page-state fingerprints instead of raw URL equality to detect stuck loops, and stop Google/YouTube automated-login loops early in favor of the user's authenticated session/cookie route. Passwords, OTP/2FA/recovery codes and private keys are no longer requested through Telegram browser checkpoints. Existing v13.18 Cyber Hands, v13.17 dependency isolation, trading rails, secrets, updater and all prior capabilities remain. + v13.18 - CYBER HANDS 1.0: adds an owner-only defensive security operations layer for THIS VPS and explicitly authorized/allowlisted assets: unified /cyber control center, local security audit + score, listening-port/firewall/SSH/log inspection, secret-exposure scan that never prints secret values, source-code static security checks, dependency CVE audit in an isolated tool environment, optional ClamAV scan, file-integrity baseline, continuous low-noise security monitoring, and conservative allowlisted Nmap inventory (top ports/version-light only; no exploitation/bruteforce/evasion). Autonomous agents gain READ-ONLY local cyberaudit/cyberports/cyberlogs hands. Remote scanning is never autonomous and requires an explicit --authorized scope entry. Consequential remediation remains owner-confirmed. + v13.17 - FOUNDATION HARDENING + HANDS 2.0: adds dependency protection/doctor, isolated tool virtual-environments, process control with confirmation, filesystem search/hash/tree, network diagnostics, system snapshots, and exposes these safe hands to the autonomous agent. Core trading/credentials/browser/media behavior is preserved. + v13.16 - VISION RESPONSE VALIDATION + MULTIMODAL FALLBACK: fixes the case where a screenshot successfully reached the vision model but Nemo returned only provider moderation metadata such as "User Safety: safe / Response Safety: safe" instead of analyzing the image. Vision replies are now validated for substantive visual content; safety-only/moderation-only outputs, refusal-shell metadata, empty multipart content and tiny non-answers are treated as a FAILED vision attempt and Nemo automatically tries the next multimodal route (Nano Omni -> openrouter/free) rather than delivering garbage. Image prompts explicitly request actual visual analysis rather than safety labels. ask_ai now detects and sends the real PNG/JPEG/WEBP/GIF/BMP MIME in its OpenRouter data URI (closing the remaining hard-coded JPEG path missed in v13.15). DEBUG records why a vision model was rejected. Text routing, trading, money, browser, VPN, downloader, persistence and secrets are unchanged. + v13.15 - UNIVERSAL IMAGE ATTACHMENTS: Telegram screenshots/images sent as Files/Documents now route into the same vision pipeline as compressed photos. Detects image/* MIME plus PNG/JPG/JPEG/WEBP/GIF/BMP extensions and magic bytes; preserves captions; supports scan/OCR/QR/bill/notes pending modes; and ask_ai now labels the data URI with the real image MIME instead of always claiming JPEG. No trading, money, VPN, browser, downloader, persistence, secrets, or safety behavior changed. + v13.14 - LIVE MODEL ROUTER HOTFIX: OpenRouter retired nvidia/nemotron-3-nano-30b-a3b:free on 24 Aug 2026, so Nemo no longer calls that dead slug. Text routing now uses Nemotron 3 Ultra free -> Super free -> openrouter/free for smart work, Super free -> openrouter/free for fast work, and vision uses ONLY multimodal-capable Nano Omni free -> openrouter/free (no text-only Super fallback on images). ask_ai now safely parses OpenRouter error/unexpected response bodies instead of crashing with KeyError choices, temporarily cools down unavailable/rate-limited models, de-duplicates routes, and keeps the dynamic free router as a resilience fallback. /brain reports the live route and cooldowns. No trading, secrets, browser, media, persistence or safety rails changed. + v13.12 - HONEST UPDATE LABELS (fixing two COSMETIC bugs in my own update-preview that made a perfectly good deploy look scary): when the Boss deployed v13.11, the /update preview said 'this file is v17.0' and 'CHANGES 1 (TOKEN)' - BOTH false alarms from my own code; the file was correct and booted clean as v13.11. Causes + fixes: (1) my version-reader grabbed the FIRST version-assignment string anywhere in the file, and my changelog PROSE happens to mention the 17.0 pattern when describing a ChatGPT file - so it read its own description instead of the real constant. Now it reads only a REAL top-level VERSION assignment (start of line). (2) my credential-change check matched ANY variable whose name merely contained 'TOKEN'/'KEY' - including the harmless 'TOKEN = os.environ.get(BOT_TOKEN)' line inside the downloader-bot template - so it falsely warned of a credential change. Now it checks only the actual named secrets (TELEGRAM_TOKEN, OPENROUTER_KEY, NVIDIA_KEY, ...). Future update previews now show the true version and warn only on a REAL key change. Your keys were never touched - the proof was the bot booting clean and healthy. Additive; all existing suites pass plus a new v13.12 test. + v13.11 - CLAIM LEDGER + LIVE INTEGRITY (from the ChatGPT v24 'five upgrade' file - notable because it was finally built on OUR v13.9 base with the Security Core intact, but its five new layers all crash on first use on the same missing 'uuid' import as v15/v18/v19, and its flagship 'v20 Task Orchestrator' is FAKE: the execute function performs nothing - it stamps every step done with a canned message pointing to a /nemorun24 command that does not exist anywhere in the file. Its other layers duplicate what we already run: structured memory = the v11 knowledge graph + /recall, brain router = ask_ai's existing routing, project manager = /plan + /taskgraph + PROJECTS, observability = /nemo + self_test). The TWO ideas worth keeping, built working: (1) CLAIM LEDGER - /claims [search words] is a persistent, dated audit trail of everything Nemo has fact-checked and researched: every /verify records verified-or-corrected (with the checker's notes) and every /nemoresearch records a research entry, capped at 400, surviving restarts, searchable, also in plain language ('what have you verified', 'claim history'). So 'what has my bot told me, and was it checked?' finally has an answer. (2) LIVE INTEGRITY - /security now also compile-checks the RUNNING source and shows its sha256 fingerprint, so tampering or corruption of the deployed file is visible on demand. Additive; all suites pass plus new v13.11 tests. + v13.10 - DOWNLOADER IN THE BOT FACTORY (Nemo creates the whole bot himself - no file to send): the Boss asked why Nemo can't just CREATE a downloader bot when given a token. He always could create bots (/newbot factory + /env for secrets) - his library just had no downloader type. Now it does: a verified 'ytdl' template (the corrected version of the ChatGPT blueprint, which as written would not run - missing asyncio import, wrong download() return handling, an undefined variable, a zip step that ignored Telegram's ~50MB cap). Create it entirely in chat: /newbot ytdl mydl (or just say 'make me a downloader bot') -> tap Ship -> /env mydl BOT_TOKEN=<fresh @BotFather token> OWNER_ID=<your id> -> the bot is LIVE. The generated bot: downloads a YouTube video or whole playlist (mp4, or mp3 with 'audio'), sends every file under Telegram's cap straight to chat, keeps bigger ones on the server with the path reported, caps items per playlist (MAX_VIDEOS), safe ASCII filenames, owner-locked via OWNER_ID, token ONLY from its locked env - never in code. Same supervised ship rails as every factory bot (compile-check, auto pip-install of requests+yt-dlp, tap-to-start, /app <name> logs|restart|stop|rm). Additive; all suites pass plus new v13.10 tests. + v13.9 - QUANT LENSES (the genuinely-new, working parts of the ChatGPT v19 quant file, rebuilt on our base - READ-ONLY, never places an order): the v19 code was real quant work but sat on the old base and crashed its event log on the same missing 'uuid' import; I kept the good math, dropped the crash and the bits we already have (its plain signal/option dumps duplicate /godmode and /optionchain). Three lenses we DIDN'T have, now added: (1) /regime <symbol> - classifies the market regime (TREND_UP/DOWN, EXPANSION, RANGE, LOW_VOL_RANGE, TRANSITION) from ADX + EMAs + ATR-ratio + slope, with a confidence. (2) /walkforward <symbol> - proper OUT-OF-SAMPLE validation: it picks the best EMA pair on a training window then scores it on the next, unseen window, and reports the average out-of-sample hit-rate (a robustness check, not a guarantee). (3) /quantbacktest <symbol> - an EMA-crossover backtest with profit factor + max-drawdown AND a Monte-Carlo stress test (bootstrapped terminal + drawdown percentiles). Plus /quant <symbol> - a consolidated regime + multi-factor signal + transparent setup-quality grade (explicitly 'NOT win probability'). All owner-only, read-only, honestly labelled; they use Nemo's real market data (get_history) and place no orders. Additive; all existing suites pass plus new v13.9 tests. + v13.8 - MEMORY 3.0 (granular forget) + NO INVENTED COMMANDS: (1) MEMORY - on inspection Nemo's memory was already strong (semantic /recall, durable /remember, the /memory 'second brain', /aboutme and the knowledge graph, all persisted and fed into his answers), so the genuinely missing piece was CONTROL: /forget <thing> now removes the SPECIFIC memories that match - from both the durable facts and the semantic vector store - and tells you exactly what it dropped, instead of the all-or-nothing /forgetme. /remember also dedups and keeps more durable facts (20 -> 60). (2) NO INVENTED COMMANDS - when you sent a command Nemo didn't recognise, his brain used to make up plausible-but-fake command names (exactly what happened with /nemo before it was deployed). Now an unrecognised /command gets a deterministic, HONEST reply listing only REAL commands and never reaches the brain. Additive; all existing suites pass plus new v13.8 tests. + v13.7 - TRADE STATE SURVIVES RESTART (closing the money-safety gap I flagged in v13.2 and deferred): the autonomous trader kept its open position only in memory, so a restart or update mid-trade FORGOT it - and for a plain (non-bracket) position that meant its stop-loss and target were no longer being managed, leaving real money exposed. Now the trader's live state (open position, today's trade count, running P&L, the day, and the daily-loss halt flag) is PERSISTED to memory and RESTORED on boot, so after any restart Nemo picks the position straight back up and keeps managing its stop / target / square-off. On boot, if a position is open, Nemo messages you that it resumed managing it. This pairs with v13.6 self-healing updates: a restart mid-trade no longer abandons your money. (Bracket positions were already protected on-exchange; this closes the gap for plain positions.) Owner-only, additive; all existing suites pass plus new v13.7 tests. + v13.6 - SELF-HEALING UPDATES (took the one real new idea from the ChatGPT v17 file - auto-recovery from a bad update - and built it safely; skipped the rest, which forced its VERSION to 17.0 and added a downgrade-block that would have LOCKED you out of updating to our clean files, and re-did the workflows our v13.4 already has): every /update is now TRANSACTIONAL. When you Apply an update, Nemo records a journal (a hash of the new build, plus a hash + path of the verified backup). On restart it checks that journal FIRST: a healthy boot (Telegram auth succeeds) is confirmed and stands recovery down - but if the new build keeps failing to reach a healthy boot (3 tries within 30 minutes) Nemo automatically RESTORES the previous version (only if that backup still compiles and its hash matches the recorded original) and restarts. So if you ever deploy a build that won't start, it heals itself back to the last working version without you touching the server. /updatecheck now also shows whether the last update auto-rolled-back or booted cleanly. HONEST LIMITS: this catches builds that start but then crash/exit during startup; a crash BEFORE main() even runs (e.g. an import-time error) can't be caught from inside the process - though compile-check already blocks the syntax errors behind most of those. Conservative by design (3 failures, 30-min window, hash+compile-verified backup) so a healthy long-running bot is never rolled back. The normal apply/backup/rollback path and everything else are unchanged; all existing suites pass plus new v13.6 tests. + v13.5 - SAFER UPDATES (took the one good idea from the ChatGPT v16 'updatefix' file - credential-preservation on update - and built it safely on our base; skipped the rest, which sat on the old v12.06 base, carried the broken v15 layer, and hard-overrode VERSION to '16.0' while requiring its own marker that would have BLOCKED updating to our clean files): (1) /updatecheck - preflight a new nemotron_bot.py you've attached WITHOUT applying it: shows its version, size, whether it looks like Nemo, the compile-check result, and - the key part - whether it would CHANGE or DROP any of your credential/config lines (compared by a HASH of each key line; values are NEVER shown). (2) /update now shows that same credential warning right in the Apply prompt, so you can't accidentally deploy a file that wipes your API keys without being told. It WARNS, it does not block - because a legitimate update (like moving keys into the secrets file) also changes those lines and you stay in control. (3) /version shows the running version cleanly. The critical apply/backup/rollback path is unchanged. Owner-only, additive; all existing suites pass plus new v13.5 tests. + v13.4 - ORCHESTRATION (added the genuinely-new capability from the ChatGPT v15 file, built CORRECTLY on our safe v13 base - the v15 code itself was BROKEN: I ran it and it crashed with 'uuid is not defined', plus a _n15_STATE typo and a call to a function that never existed, so its workflow / research / decision commands all failed at runtime). What's new and WORKING here: (1) /nemoworkflow <numbered plan> - runs a multi-step plan ONE checkpointed step at a time, feeding each step's result into the next and saving progress after every step, so it survives a restart; /nemoworkflows lists them and /nemoresume <id> continues from where one stopped. (2) /nemoresearch <question> - a research pass that separates FACTS / INFERENCES / UNKNOWN and refuses to fabricate sources. The REST of v15's command surface is wired to Nemo's EXISTING, more mature systems instead of broken parallel copies: /nemodecision -> the real decision journal (with expected-vs-actual tracking), /nemoevents -> the activity log, /nemoagents -> AGENTSTAT, /nemoarchitecture -> /abilities, /nemo3 -> the /nemo control center. Nothing duplicated, nothing dragged back onto the old insecure base. Owner-only, purely additive; all existing suites pass plus new v13.4 tests. + v13.3 - CONTROL CENTER + FACT-CHECK (folded in the two genuinely-good ideas from the ChatGPT v14 file, onto this safer v13 base - without its duplication or its security rollback): (1) /nemo CONTROL CENTER - one screen showing version, uptime, brains, security posture (are any keys still in source?), money-confirm + lockdown + auto-trade state, work-queue depth and recent activity - built on Nemo's REAL subsystems (secrets_status, MONEYCFG, mm_locked, JOBS/WORK, ACTLOG), not a parallel copy. (2) /verify - or 'double-check that' / 'any hallucinations?' - an explicit fact-check pass: it reviews an answer (the text you give, or my LAST answer) for hallucinations, unsupported claims, wrong numbers/names/dates, missing caveats and contradictions, and if it finds problems it rewrites the answer WITHOUT inventing new facts. Both work by command AND in plain language, owner-only, purely additive. Deliberately NOT copied from the ChatGPT file: its duplicate job-runner (Nemo already has the /work engine), its status-dump 'quant report', and - the important part - that file was built on the OLD v12.06 base, so it still carried the exposed API keys, the deadlock-prone lock, money-confirm OFF, and the lockdown/phantom-exit gaps that v13.0-13.2 fixed here. Behaviour-frozen elsewhere; all existing suites pass plus new v13.3 tests. + v13.2 - TRADING SAFETY (Phase 2 - I traced the real-money route end-to-end, then closed the gaps I found; nothing removed): GOOD NEWS first - the LLM is NOT the final authority on your money. The AI only PROPOSES a direction + a confidence score; ALL risk parameters (which instruments are allowed, position size, stop-loss, target, max-trades/day, daily-loss auto-halt, trading-hours window, buy-only, and shadow-vs-live) are enforced in deterministic code around it, and live autonomous trading is OFF by default. THREE real gaps found + fixed: (1) LOCKDOWN DIDN'T STOP EVERYTHING - the master /lockdown kill-switch blocked manual bracket/cover orders but NOT the autonomous trader and NOT a plain /order. Now lockdown blocks ALL new live entries (manual /order + the auto-agent); open positions still auto-manage and exit, so nothing is stranded. (2) PHANTOM EXIT - the auto-agent's exit SELL ignored its result: if a live exit failed, the bot booked the position as CLOSED while it was still open on the exchange, leaving real money unmanaged. Now a failed live exit keeps the position, alerts you, and retries each tick. (3) plain /order now respects /lockdown like the other order types do. HONESTLY REPORTED, not yet fixed (flagged for a later phase): the auto-agent's OPEN-position state isn't persisted, so a restart mid-trade forgets a plain position (bracket positions stay exchange-protected regardless). Behaviour-frozen for everything else; all existing suites pass plus new Phase-2 tests. + v13.1 - SAFETY CORE (Phase 1 of the audited v13 rebuild - two runtime-safety hardenings, nothing removed): (1) DEADLOCK-PROOF LOCK - Nemo's single global lock is used in 40+ places and locked functions call other locked functions; a plain threading.Lock is NOT re-entrant, so one locked path calling another would freeze him hard. Switched to threading.RLock (re-entrant): identical behaviour for normal use, but the same thread can safely re-acquire, so that entire class of hang is gone. (2) REAL MONEY DEFAULTS TO CONFIRM - manual live orders (/order, /bracket, /cover) now default to a one-tap confirm before they fire, and the setting is finally PERSISTED (before, turning it on was silently forgotten on the next restart - a genuine safety hole). The autonomous trader is unaffected - it keeps its own separate risk gates. Turn the tap off with /confirmtrades off, and now that choice sticks across restarts. CORRECTION to my own Phase-0 audit: the 'six main() functions' I flagged as dead code were a FALSE ALARM - five of them are bot-factory TEMPLATE strings (the source code of the mini-bots Nemo generates), not real definitions; I verified by reading before touching, so nothing was wrongly deleted. Behaviour-frozen elsewhere; all existing test suites still pass. + v13.0 - SECURITY CORE (Phase 0 of the audited v13 rebuild - security FIRST, nothing removed): the bot's API keys (Telegram, OpenRouter, NVIDIA, Gemini) were hard-coded in this source file. Now EVERY secret resolves from an environment variable first, then /root/bot_secrets.json, then the baked-in value only as a last resort - so secrets can live OUTSIDE the code. On boot Nemo AUTO-MIGRATES any still-baked key into the 600-permission secrets file, so the next version can delete those lines from the source and he still starts. New: /security (owner-only) reports exactly which keys are still in the source vs externalised, where each secret loads from, and the money-guard + owner-lock state (never showing any secret value); the weekly self-test gains a 'No API keys exposed in source' check that stays red until they're moved out; save_secret now chmods the secrets file to 600. IMPORTANT ACTION FOR YOU: because these keys sat in the code, treat them as LEAKED - generate new ones and put them in /root/bot_secrets.json (keys: telegram_token, openrouter_key, nvidia_key, gemini_key); v13.1 then removes them from source entirely. Behaviour-frozen: with no env var and no secrets-file entry every secret is exactly what it was, and all existing test suites pass unchanged. One safe phase at a time. + v12.06 - SELF-TEST TELLS THE TRUTH: the weekly report card was FALSE-FAILING on email. It tested email by logging into Gmail's SMTP (465) and IMAP (993) ports directly - but DigitalOcean BLOCKS those ports, so both always showed a red X even though email works perfectly over the Gmail API (HTTPS). Fixed: the drill now checks the REAL path - Gmail API reachable (profile + labels over HTTPS) first, SMTP/IMAP only as a fallback when there's no Google connection - and it runs whenever Google is connected OR an app password is set. So those two systems will now report green (as they should), and the report card reflects reality instead of scaring you with a port block. + v12.05 - RELIABILITY SWEEP (the same rigor, across his OTHER outputs): the invisible-char fix was for Pine; this applies the same 'make the outcome reliable' thinking to code and file outputs. (1) CODE OUTPUTS - /script now guards against the brain 'thinking out loud' (no more 'Let's craft:' / '... code ...' placeholder garbage), SYNTAX-CHECKS delivered Python (ast.parse, with one self-correction) so a .py actually parses, and tells you to use the attached FILE not the chat text (same copy-paste-corruption fix as Pine). (2) TEXT/CSV/MD files get the same scratchpad guard, so they contain the finished content, never the brain's notes. (3) Shared helpers (_looks_scratchpad, _clean_code) so every generator refuses to ship junk and retries. The theme: fewer 'bad results' by hardening the output paths, not adding more features. + v12.04 - THE REAL PINE BUG (invisible characters): the recurring 'Syntax error at input <name>' on code that looks perfect was NOT bad code - it was smart quotes and non-breaking spaces that sneak in when Pine is copied out of a chat message / PDF / phone into TradingView. TradingView can't parse them and throws that exact baffling error, the same on every version. Fixes: (1) _pine_sanitize forces every generated script to PURE ASCII (smart quotes -> straight, non-breaking/other unicode spaces -> normal, en/em dashes -> -, zero-width chars removed); (2) the linter now flags any non-ASCII character; (3) delivery now tells you to use the attached .pine FILE (not copy from the chat bubble), because the file is clean ASCII and the chat text can silently re-corrupt. This is the root cause behind the errors that kept coming back. + v12.03 - COMPLEX PINE: added a genuinely advanced, verified strategy to his library - 'Confluence Regime Rider' (EMA regime + ADX trend-strength + RSI momentum + higher-timeframe confirm + ATR target + ATR trailing stop + a live on-chart stats table), Pine v6 and lint-clean. It backtests automatically in TradingView's Strategy Tester (it is a strategy()), and its exact logic was verified in a Python backtest. So 'a unique pine with buy/sell/target/stop-loss that backtests' is now real, at real complexity, and part of his rotation. + v12.02 - PINE v6 + STAY-CURRENT (he moves with the times, on his own): (1) PINE v6 - TradingView's current version. His whole Pine engine now targets v6 by default: the generator prompt, the deep knowledge base and the 5 verified templates are v6 (correct bool strictness, no 'when=' on strategy.* , '1D'/'1W'/'1M' timeframes, no 'transp='), and the linter gained v6 checks (flags a leftover when=/transp=/'D' timeframe). v5 still compiles and is still accepted; /pinever 5|6 sets the target. (2) STAY-CURRENT WATCH - a weekly self-check (currency_watch) where he RESEARCHES what's changed in his fields (Pine version, SEBI rules, AI tooling), AUTO-applies safe settings himself (e.g. bumps his Pine target the moment a newer version ships), learns the rest into memory, and routes anything code-level to the supervised /selfgrow rail for your one-tap approval - so he keeps himself up to date automatically without ever rewriting himself unsupervised. /current runs it now, /current on|off, /pinever sets the version. This is the honest form of 'update automatically in all fields': safe things on his own, risky code changes proposed for approval. + v12.01 - CONTINUUM FIX (the flood + the garbage code file): the v12.0 work engine ran, but two bugs showed up. (1) DUPLICATE FLOOD - the agent re-called fire-and-forget tools (pdf/docx/chart/web) over and over, because make_pdf returns 'building...' immediately, so the agent never saw a finished file and kept re-making it (7+ identical PDFs per job, the same web search 5x). FIXED: the agent now makes each deliverable EXACTLY ONCE and skips any identical tool+arg repeat, and bails to the report if it gets stuck re-proposing the same step. (2) GARBAGE CODE FILE - '5 best Nifty option strategies' was mis-detected as a CODING request (the word 'strategies'), so it emitted a nonsense nemo_code_out.txt full of the brain's scratchpad instead of a clean report. FIXED: a strict code detector - a trading strategy/option/report/'best'/'top N' request is a REPORT, never code; only real programming asks (python/code/function/sql/pine...) make a code file. So a research job now produces ONE clean PDF, no junk. + v12.0 - CONTINUUM (the real deep upgrade: he KEEPS WORKING, and understands deeper): the honest gap all along was that Nemo ANSWERS, then stops - he never keeps grinding a task on his own. v12.0 fixes that at the core. (1) CONTINUOUS WORK ENGINE - /work <task> (or 'keep working on X', 'add to your work list') queues a job; a background worker wired into his scheduler picks up the next pending job, runs it to completion through his plan->act->verify agent, reports the result, then moves to the NEXT job - one after another, on its own, and the queue is PERSISTED so it survives restarts. Pile up ten jobs and he'll grind through them while you sleep. /jobs shows the queue and status, /stopwork pauses. (2) DEEPER UNDERSTANDING - the THINK loop's comprehension/clarify step now runs on the PREMIUM brain (not the fast free one), so he judges what you actually mean far better before acting; the agent's self-check already verifies on the premium brain. (3) FULL PICTURE - /abilities (or 'what can you do') lays out his entire capability set in one organized map, and everything is reachable in plain language. This is not a risky rewrite - the proven 34-test-suite core is intact; CONTINUUM is the capstone layer that turns a bot that replies into one that works. + v11.31 - PINE MASTER (deep, advanced, CREATIVE - not the same EMA crossover every time): the last fix made Pine error-free but repetitive - every request came back as an EMA crossover, because the one verified template WAS an EMA crossover and it anchored the brain. Now: (1) a DEEP Pine v5 knowledge base rides in the prompt (full ta.*/math.* catalog, request.security multi-timeframe, sessions/time for NIFTY intraday, strategy risk/trailing exits, drawing objects - tables/labels/lines/boxes, plot styles, dynamic alerts, anti-repaint and confluence best-practice) so the code is genuinely advanced; (2) a LIBRARY of FIVE hand-verified, lint-clean advanced strategies (EMA crossover, Supertrend trail, Opening-Range-Breakout for NIFTY, VWAP mean-reversion, RSI + higher-timeframe filter) plus a menu of 14 archetypes (Bollinger squeeze, MACD regime, Donchian, Ichimoku, multi-factor confluence...); (3) ROTATION - a generic 'make me a pine script' now round-robins through the archetypes so no two come out the same, while a NAMED method (supertrend/vwap/orb/rsi/macd...) is honoured; (4) the brain is pushed to be creative, combine 2-3 confluence factors and add a pro touch (stats table / trailing stop / dynamic alerts), and mirror a MATCHING verified reference's syntax - not the EMA one. Still linted + auto-repaired, with the matching verified template as the guaranteed-clean fallback. Storage is no constraint - the knowledge and template library are baked in. + v11.30 - DARK SIDE (edge + ruthless-but-LEGAL power, on the Boss's side): four things. (1) DARK MODE - /dark on (or 'go dark' / 'be brutal') flips his TONE to blunt, sharp and a little savage, built to put you ahead - no hand-holding, no hedging - while he still NEVER lies, fabricates, helps anything harmful/illegal, or targets people. /dark off restores the normal voice. Persisted. (2) RED TEAM - /redteam <plan/idea/trade/text> (or 'attack this', 'find every weakness') attacks it like your smartest enemy and exposes every hole, ending with BIGGEST RISK + FIX FIRST. (3) COMPETITIVE INTEL - /intel <competitor> (or 'dig up on X') builds a hardball brief from PUBLIC sources: what they offer, their weaknesses/complaints, and where to hit them to win. (4) NEGOTIATION + SCAM DEFENSE - /negotiate <situation> gives a hardball (ethical) play with leverage, BATNA, anchors, tactics and exact phrases; /scamcheck <message> flags manipulation tactics + a scam risk rating when someone runs dark tactics on YOU. Deliberately NOT built, and I told the Boss why: malware, hacking others, defeating security/CAPTCHA, fraud/fake docs, surveilling people, spam/fake-account armies, market manipulation, or removing his safety rails - all of it would make HIM the traceable, liable party on his own server, and the 'who sells that' path is scams and stings. This is the dark arts used ethically, for his side. + v11.29 - ERROR-FREE PINE SCRIPT (the real reason it kept failing): unlike Python, Pine can't be compiled on the server, so a small free brain's syntax errors sailed straight through. Now Pine gets a proper pipeline: (1) it's written by the PREMIUM brain (free nano brains are poor at niche languages) using a strict Pine-v5 system prompt; (2) a rule-based LINTER (pine_lint) checks the errors that actually break TradingView - missing //@version=5, more than one declaration, study() vs indicator(), the 'strategy function used in indicator' error, bare sma()/rsi()/atr()/input()/security() that must be ta.*/math.*/request.security()/input.*, unbalanced brackets, and plot/alert stuck inside an if-block; (3) a REPAIR LOOP feeds those errors back and fixes them, up to 3 passes; (4) if it still isn't clean, it falls back to a HAND-VERIFIED template that compiles zero-error (EMA crossover + volume filter + ATR take-profit + % stop-loss, buy/sell markers, alerts). Every 'pine script / tradingview' request (and /pine) now routes here, delivers a .pine file with an honest 'passed my checks' status, and can email it. So a pine-script ask returns code that actually compiles - not a broken brain dump. + v11.28 - CREATE+EMAIL ACTUALLY HAPPENS (the 'it talks about emailing instead of doing it' fix): the root cause was that 'generate a pine script and email it to X' matched NO deterministic route, so it fell to the chat brain - which tried to call a tool by PRINTING <function=...> as text; that leak wasn't recognised, so you got the generic 'tell me the exact thing you want' (and elsewhere, 'here's how to email it / I can send if you want' - talking, not doing). Two fixes: (1) a deterministic CREATE+EMAIL route - 'generate/make/write/build <X> ... and email/mail (it) to <address or my mail>' now ALWAYS builds the thing AND sends it (Word if you said 'word/document', else a PDF - which now contains real code for a pine-script/strategy request, plus the raw .pine file), never touching the chat brain. (2) the tool-leak guard now also HONOURS a leaked email/docx/xlsx/chart/script/code call by actually running it, instead of showing the fallback. Net effect: when you say 'do X and email it', X gets made and the email gets sent - consistently, regardless of which brain is on duty, because the ACTION is deterministic code now, not a brain's guess. + v11.27 - THINK (my way of working, in him): the operating loop that makes an assistant actually effective, not just full of features. /do <task> (or /handle, or 'handle this properly / thoroughly / the way you would') runs Nemo through the same method I use on every real job: UNDERSTAND (restate it, and resolve 'it/that/the file' from the recent chat so a follow-up like 'give me the pdf here' isn't misread) -> CLARIFY (only if ONE essential detail is genuinely missing, ask a single question and resume when you reply - never nitpick) -> GATHER (pull what he already knows: durable memory + your indexed files + a quick web look-up, the way I read before I edit) -> PLAN -> EXECUTE -> VERIFY (his agent self-checks against the goal before finishing) -> honest report. It reuses his autonomous agent for the execute+verify core; the new part is understanding and grounding the task BEFORE acting. A new 'handle' intent + a pending-question resume make it feel like a real back-and-forth. Honest limit: this gives him my METHOD, which makes even a smaller brain far more effective - but his raw reasoning ceiling is still his model's, so it's my way of working in mini form, not a clone. Purely additive; every existing command and the fast one-shot paths are untouched; rails intact. + v11.26 - EMAIL, FOR REAL (fixes the '/email test still fails though Google is connected' trap): the root cause was that Google was linked BEFORE the gmail.send permission existed, so the token can read Gmail but can't SEND - and two things hid this: (a) /email test only pinged the Gmail profile / fell back to the SMTP error (which ALWAYS fails on DigitalOcean), so it never proved SEND and blamed the wrong thing; and (b) /google, once connected, was a DEAD END - it only offered 'relink with client_id/secret' and never a way to re-approve the new permissions. Fixes: (1) /email test now does a REAL test send to your own address via the Gmail API and reports the TRUTH - '✅ works, check your inbox', or, if the token lacks send permission, '⚠️ connected but without Gmail SEND permission - re-authorize in one tap', never again the misleading SMTP 'check your password'. (2) /google, when already linked, now hands you a one-tap RE-AUTHORIZE link built from your ALREADY-SAVED Client ID (open -> Allow -> /gauth <code>) - no need to re-enter anything - so you can grant Gmail send in ~20 seconds. So the fix for you: send this update, then run /google, tap the link, Allow, and /gauth <code>. Email then works over HTTPS (port 443), unaffected by the SMTP block. Purely additive; rails intact. + v11.25 - FIX (the three real problems: email, understanding, and the final result): (1) EMAIL that actually sends - a PDF you ask to be emailed now goes out over the Gmail API (HTTPS/443, which works even though DigitalOcean blocks SMTP), is ATTEMPTED whether or not an SMTP app-password is set, and on failure tells you the REAL reason + 'run /google once to re-grant send permission' instead of the misleading 'check the app password'. (The most likely cause of your failure: your Google sign-in predates the gmail.send scope - one /google re-consent fixes it.) (2) UNDERSTANDING what you asked - the PDF topic is now cleaned properly: 'GENERATE A POWERFUL PINE SCRIPT NEW IN PDF AND EMAIL X' no longer becomes a document titled 'A Powerful Pine Script New In And' (the 'in pdf / and email X / address' tail is stripped cleanly), and 'give me the pdf file here' is understood as a FOLLOW-UP - I resend the last file, or turn my last answer into a PDF - instead of writing a bogus report titled 'Me The File Here'. (3) The FINAL RESULT matches the request - make_pdf no longer forces every PDF into a beginner 'course'. A code/script/strategy/indicator request (e.g. a Pine script) now produces the ACTUAL working code (TradingView Pine v5 for pine) with Overview / CODE / HOW IT WORKS / HOW TO USE, AND the raw .pine (or .txt) file is delivered too; a report request gets a real structured report; only a learn/teach/course request gets a course. Purely additive; rails intact. + v11.24 - MAKER (mini-me abilities: he plans, codes, charts, and hands you real files): the things you said he couldn't do like I can - now his, in mini form. (1) REAL DOCUMENTS - he builds and delivers actual files, not just chat text: a Word .docx ('make me a word doc about X', /doc), an Excel .xlsx spreadsheet with real headers + numeric cells ('put my expenses in a spreadsheet', /excel), and plain .txt / .md / .csv files (/txt). (Illustrated PDFs and PPT decks were already there.) (2) VISUALIZATIONS - /chart (or 'make a bar/line/pie chart of ...') turns data or a described dataset into a real matplotlib chart image and sends it. (3) CODE AS A FILE - /script (or 'write me a python script file') writes a program in the right language and delivers it as a downloadable code file (say 'run it' to execute); the existing /code still WRITES-AND-RUNS and returns the result. (4) VISIBLE PLANNING - /plan (or 'make a plan for ...' / 'break this down') turns a goal into a clear numbered step plan and shows it, then 'do it' hands it to his plan->act->verify agent. All reachable in plain language (fast-paths + the AI intent-router) AND given to the autonomous agent as new tools (docx/xlsx/chart/textfile), so mid-task he can produce a sheet or chart himself. Purely additive; rails intact. + v11.23 - CURIOSITY (he fills the gaps himself + learns from the world): you gave him the internet; now he USES it on his own. When a question needs current or factual knowledge he may not hold (latest/price/news/'who is <name>'/'when is <event>'/a named thing), he quietly looks it up on the web FIRST, grounds his answer in what he found, and then DISTILS 1-2 durable facts into his permanent memory - so next time he already knows it (compounding knowledge, surfaced automatically by mem_recall). No 'please search' needed; he just does it. His autonomous agent gets the same instinct: a RESOURCEFULNESS rule so it researches a missing detail itself (web/fetch/recall) instead of stalling to ask you. And a curiosity 'soul' line in his persona: naturally curious, resourceful, never fabricates. Controls: /curiosity on|off (default ON, persisted), /learned [word] shows exactly what he's taught himself and when. Conservative by design - it does NOT web-search greetings, code, math or timeless 'explain X' questions (no needless latency), and it's a silent no-op if the web is unreachable. Purely additive; rails intact (still never fabricates, owner-only, money/destructive/self-mod still need a tap). + v11.22 - ANY-SITE VIDEO + YOUR PROXY: (1) UNIVERSAL VIDEO DOWNLOAD - /video <url> (aliases /vdl /dlvideo) or just 'download the reel/clip/video from <url>' pulls a video (or 'audio'/'mp3' for just the sound) from ANY of the ~1800 sites yt-dlp supports - Instagram, X/Twitter, TikTok, Facebook, Reddit, Vimeo, Dailymotion, Twitch, news video, most embeds - and sends it over Telegram if it fits (50MB) else saves it on the server (+ your Drive). For sites where you must be logged in, it uses YOUR OWN cookies (export cookies.txt, send /browsercookies) - it uses your session, it does not defeat the login. DRM-locked paid streaming (Netflix, Prime, Hotstar, Disney+, Spotify...) is refused honestly: those streams are encrypted and can't be pulled. YouTube keeps its richer path (summary/notes/playlist). (2) YOUR OWN PROXY / VPN - /proxy set http://user:pass@host:port (or socks5://host:port), /proxy off, /proxy to show. A proxy YOU provide (your subscription or your own box) is then applied to video downloads and web fetches, so he can reach content the server's bare datacenter IP is geo-blocked from, or route privately. This is legitimate access through YOUR endpoint - deliberately NOT a rotating proxy-pool to evade IP bans. Two things you asked for that I did NOT build, and why: a system that DEFEATS a site's bot-check / CAPTCHA / human-verification (that's built to circumvent a security control and is the engine of scraping-abuse, fake-account and credential-stuffing fraud - so it's off the table); and a self-standing 'access everything' ban-evasion VPN/rotator (same reason). The honest path is already here: when the browser agent meets a login/OTP/CAPTCHA it screenshots it and asks YOU to solve it, then continues on your authority (v10.4 human-in-the-loop) - a human does the human-verification. Purely additive; all rails intact. + v11.21 - TALK (no commands, just tell him): you never NEED a slash command again - say what you want in plain words (any language) and he does it. His ~300 abilities are all still there, but plain language is now the front door to ALL of them, not just some. The regex fast-paths already caught the common phrasings ('run df -h', 'read /root/x.py'); v11.21 adds the missing abilities to his AI intent-router so the phrasings the regex MISSES still reach the REAL hand instead of a generic chat reply: new understood intents terminal (run any server command), fetch (read a page's data), download (save a file onto the box), readfile / listfiles (his own files), knowledge (search your indexed documents), api (call any REST endpoint), apex (maximum-power multi-step job), and a catch-all act (ANY imperative 'do this for me' order -> his autonomous plan->act->verify agent). So 'jara dekh to server ka disk kitna bhara hai', 'pull the numbers off that page for me', 'sort out my server and mail me a summary' now DO the thing. Nothing removed, every command still works; the same rails hold inside each (owner-only, audited, money/destructive/self-mod still need a tap). Purely additive. + v11.20 - REACH (longer hands): three big new capabilities that extend what he can touch. (1) UNIVERSAL CONNECTOR - /api <METHOD> <URL> [:: json] calls ANY REST API (GET/POST/PUT/DELETE), and /api save <name> ... stores a named endpoint + auth header so 'call my <name> api' works; the autonomous agent also gets an 'api' tool, so he can reach any external service you have a key for (CRMs, sheets, webhooks, IoT, other bots...). (2) SCHEDULED ACTIONS - /every <interval> <action> and /at HH:MM <action> run ANY of his abilities on a repeat or at a set time ('/every 1h run df -h', '/at 09:15 send me the premarket brief', '/every 1d market brief') - real actions, not just reminders - so his hands work while you sleep; /schedules lists them, /unschedule <id> cancels. Persisted in the kv store (survives updates), fired from the scheduler. (3) DOWNLOAD TO SERVER - /get <url> [name] (or 'download <url> to the server') pulls any web resource onto the box (60MB cap) so he can then /read, /index or send it. All owner-only, audited to the tamper-evident chain, and destructive/system paths still refused. Purely additive. + v11.19 - APEX / GODMODE (the capstone): maximum capability + UNBREAKABLE reliability, within the rails that keep him alive. (1) UNBREAKABLE: ask_ai now has a hard answer-deadline (~40-85s) so when every free brain is jammed it STOPS cycling and replies clearly ('my brains are all busy - try again in a minute, nothing is broken') instead of leaving you on 'Thinking...' for minutes - the exact freeze that just happened can't recur. (2) ONE MIND: the autonomous agent gains a 'recall' tool that searches your knowledge base (indexed files) + durable memory, so his execution draws on everything he knows about you. (3) APEX MODE: /apex <goal> - or just say 'full power', 'use everything', 'unleash', 'go all out', 'maximum power' - runs his MAXIMUM agent: more steps (18), the directive to use EVERY tool (shell, fetch, files, code, web, recall, quote, godmode, pdf...), be exhaustive, cross-check, and VERIFY before finishing. Honest limits kept by design: max ABILITY, but money / destructive shell / system writes / self-modification still need one tap or are refused - that is what stops him bricking himself or leaking your Dhan/Google/root keys. Power that survives. + v11.18 - TOOL-CALL LEAK FIX (the '<tool_call><function=pdf>...' bug): when you asked for a PDF report to your mail, a brain PRINTED the raw function-call markup as a chat message instead of building anything. Fixed two ways: (1) a deterministic route so 'give/make/send me a (complete) report/PDF of X [to my mail]' now ALWAYS builds the PDF via make_pdf and emails it to you - it never reaches the general brain; and (2) a universal guard (_tool_leak / _strip_tags) that catches any leaked <tool_call>/<function=..>/<parameter=..> markup on EVERY channel (chat, web, PWA) - if it recognises the intended ability (pdf/image/slides/web) it actually RUNS it, otherwise it strips the markup so internal syntax is never shown to you again. + v11.17 - DEPTH: reasoning + a knowledge brain + self-running + a visible command center. (1) SMARTER: hard questions (why/how/compare/analyse/plan/decide, long or multi-part) now trigger a private step-by-step REASONING pass before he answers, then the regulator self-checks it - so answers are deeper, not just faster; and a plain 'that's wrong / you missed it' now stores a lasting LESSON (fed into future answers) and redoes it in MAX mode, no /bad needed. (2) KNOWLEDGE BRAIN over your files: /index <path> full-text-indexes your files+PDFs (SQLite FTS5), then /know <question> - or 'search my files for X' - answers across everything with citations. (3) SELF-RUNNING watchdog: every ~10 min he checks each deployed app's service and AUTO-RESTARTS any that CRASHED (failed units only, rate-limited, audited + notified). (4) VISIBLE POWER: a real /dashboard command-center on his web server - live system + server health, apps, activity, what's coming up, and a command box - so the power is something you SEE and drive, not 290 commands to remember. Purely additive. + v11.16 - SMARTER + SAFER HANDS: (1) SECURED TERMINAL - every /shell command and file write is now logged to the v11 tamper-evident audit chain + activity ledger, there's a 25-cmd/min rate guard, and /shell readonly on blocks any command that changes something (reads still work). (2) AGENT GETS THE HANDS - the autonomous /agent (/solve) can now use shell, fetch, readfile, ls and writefile, so it does real end-to-end server work ('find why nemobot crashed and fix it' -> tails the log, reads it, diagnoses, patches, restarts) with its plan->act->VERIFY loop; destructive shell + system-path writes are refused (owner must do those manually). (3) CONVERSATION MEMORY - a short-term per-chat context (recent turns + actions) is injected into his brain so follow-ups resolve ('do it again for BankNifty', 'what did you just find'), and 'email/send that to me' now emails his LAST answer. (4) CHIEF-OF-STAFF PROACTIVITY - a ~30-min watch pings the owner UNPROMPTED but only on material things: server disk >88%, memory >92%, a reminder due within the hour, or to-dos piling up (deduped, cooldowns). Purely additive. + v11.15 - REAL HANDS (terminal + site-data + files) & plain-words routing: gives Nemo the hands people said he lacked, and makes plain language actually FIRE them instead of a chatbot reply. (1) TERMINAL: /shell <cmd> (aliases /sh /bash /terminal /exec) runs ANY command on the server and returns the live output - owner-only, persistent cwd (`cd` sticks), per-command timeout, and a confirm-tap guard on destructive commands (rm -rf /, mkfs, dd, shutdown...). (2) SITE-DATA GRABBER: /fetch <url> [what you want] pulls a page and hands back clean text/tables/JSON (BeautifulSoup when present), answering a question from it if you ask one, and falls back to the real browser agent for JS/login pages. (3) FILE ACCESS: /ls, /read (/cat), /download, /writefile <path> :: <content> - browse, read, receive and create files on the server (owner-only; system-path writes need a confirm tap). (4) PLAIN-WORDS ROUTING: nl_route now has deterministic fast-paths so 'run df -h', 'shell systemctl status nemobot', 'get me the data from <url>', 'read /root/x.py', 'list files in /root', 'download /var/log/syslog' hit the REAL tool every time - never the general brain. Purely additive; every existing command untouched. + v11.14 - EMAIL NO LONGER LIES: fixes the bug where 'email to someone@x.com <message>' got a fake 'Email dispatched...' reply while nothing was actually sent (the Sent box stayed empty). Root cause: only a handful of deterministic phrases were force-routed to the real send code; everything else was handed to an AI intent-classifier, and when it guessed wrong the message fell through to the general chat brain - whose own system prompt ('you send emails, so speak like it') then HALLUCINATED a success, even auto-'correcting' the address. Three fixes: (1) a deterministic fast-path in nl_route now catches any explicit 'email/mail <address> <message>' and ALWAYS runs the real send (nl_emailto) - the chat brain can never answer it, and the address is sent EXACTLY as typed (no silent correction); (2) nl_emailto now accepts the Gmail-API/HTTPS path (via /google) instead of demanding an app password, and on failure reports the REAL reason (LAST_EMAIL_ERR) + hands your draft back, instead of a fake confirmation; (3) the persona system prompt now carries a hard 'NEVER FAKE AN ACTION' rule - if Nemo is replying as plain text he must never claim he sent an email / placed a trade / made a call, across ALL abilities. Report/PDF-to-email requests are untouched. + v11.13 - PWA: FILE UPLOAD (PDF/Excel/CSV/text) alongside images: the \U0001F4CE attach button now also takes documents. A new /api/file endpoint decodes the upload, extracts its text (PDF via pypdf, Excel via openpyxl, CSV/TXT/MD/JSON etc. directly - the same formats handle_document reads), stores it as the loaded DOCS document (which ask_ai already injects into every answer), and replies with a summary - so you upload a quote/statement/report from phone or desktop and immediately ask questions about it, with follow-ups working automatically. Images still route to the vision path; the attach button branches by file type. + v11.12 - PWA: STOP + IMAGE UPLOAD: the web app now has a \U000023F9 STOP button (appears while Nemo is speaking or a request is in flight - cancels the voice AND aborts the request) and a \U0001F4CE ATTACH button to upload an IMAGE from the browser - it's downscaled client-side to 1280px JPEG and run through Nemo's real vision/OCR path (new /api/upload -> web_image -> ask_ai with the image), so you can photograph/attach a document or screenshot and ask about it from phone or desktop, exactly like sending a photo in Telegram. The uploaded image is also stashed as LAST_PHOTO so a follow-up 'ocr it' works. + v11.11 - NEMO EVERYWHERE (PWA): Nemo's built-in web chat is now an INSTALLABLE app - the first 'window' beyond Telegram, onto your phone home-screen AND desktop at once, sharing the same brain. His Flask web server now serves a real Progressive Web App: /manifest.json + /sw.js (service worker: offline app-shell cache, install) + generated /icon-192.png & /icon-512.png, and the chat page is upgraded with PWA meta tags, an Install button (beforeinstallprompt, with iPhone Share->Add-to-Home-Screen guidance), safe-area layout, persistent login (token from ?k= is saved to localStorage so the home-screen icon stays logged in), voice in/out, and a \U0001F4CA live-status glance via a new read-only /api/status endpoint (returns /status). Open it via /connect (public HTTPS URL + token over Cloudflare Tunnel) -> Add to Home Screen -> installed. Chat + read-only status only from the web channel (destructive commands stay Telegram-side, by design). Reuses the existing token auth; purely additive. + v11.10 - AUTONOMOUS SELF-GROWTH (safe by design): /selfgrow makes Nemo RESEARCH THE INTERNET (plus his own recent errors) for ways to improve himself, form ONE concrete low-risk improvement to a non-core function, and route it through his SUPERVISED self-editor - compile-check -> diff -> your one tap Apply -> backup -> /rollback. /selfgrow auto on runs it about weekly and only ever PROPOSES. He genuinely self-develops from the web; you stay the single tap that stops him from self-DESTROYING. Deliberately NOT built: unrestricted self-modification (rewriting/deploying code from the internet with no test/backup/approval) - that one change can permanently brick him or leak the Boss's Dhan/Google/Telegram/root credentials with no recovery, and it violates this project's own constitution (§22, 'never uncontrolled recursive self-modification' + rollback always preserved + user is final authority). Core stays _UNEDITABLE; money/security/secrets always need a human tap. + v11.9 - NEMO OS CORE COMPLETE (phases 2-10 working cores, one release): DECISION MEMORY (/decision journal with expected-vs-actual, /decisionreview calibration, /counterfactual with hindsight-bias guard, /biascheck challenges you); AI BOARD + RED TEAM (/board = 5 independent seats analyzed in parallel without seeing each other -> disagreement extraction -> red-team attack -> judge verdict with FOR/AGAINST/assumptions/fail-conditions); PREDICTION (/predict with probability+uncertainty, never presented as fact); ANOMALY watch (disk/memory/db baselines + jump detection); RADAR (/radar add|report - monitored topics, only MATERIAL items surfaced); OPPORTUNITY scan; SIMULATION (/businesssim - real Monte Carlo, 500 trials x BASE/OPT/PESS/STRESS, payback/ROI/P(loss)); CHIEF OF STAFF (/chief - reminders, open tasks, blocked work, open decisions, anomalies in one brief); TASK GRAPH (/taskgraph - dependencies, ready vs blocked); memory VERIFY + CONTRADICTIONS on the world model; GOVERNANCE (permission LEVELS 0-6 shown in /permissions, NEMO_CONSTITUTION inherited by agents, /why provenance chains, hash-CHAINED tamper-evident audit + /auditchain verifier); /status full OS dashboard; /agenthealth scores. Deferred honestly: web dashboard UI, desktop-app control, scheduled radar crawls, model-disagreement engine, memory decay (named in NEMO_V11_CHANGELOG.md). All additive - every v10.24 command untouched. + v11.0 - NEMO OS PHASE 1: WORLD MODEL / KNOWLEDGE GRAPH (start of the v11 'Personal AI Operating System' program - see NEMO_ARCHITECTURE_AUDIT.md for the full 11-phase plan). Nemo now keeps a persistent, TEMPORAL model of your world in his SQLite brain: entities (people, suppliers, projects, companies), typed relations between them, and DATED facts that carry SOURCE + CONFIDENCE (provenance) and are NEVER overwritten - so 'Supplier X quoted 10L' in March and '8.5L' in August both stay, each with its date. /fact <entity>: <fact> teaches him (free-form works too - AI extracts entity+fact), /world <entity> shows the full profile with provenance, /timeline <entity> replays the dated history, /relate A | rel | B links entities, /graph shows the model, /os shows v11 phase status. Every kg fact also feeds vector memory so /recall finds it semantically. Purely additive (new kg_* tables + one dispatcher; all 332 existing commands untouched). + v10.24 - PROJECT BUILDER (create 'vast things', not just scripts): /project <name>: <what to build> makes Nemo build a whole MULTI-FILE project by himself - he plans a file manifest, writes each file, installs the pip deps, RUNS the tests, and if they fail he reads the errors and fixes his own code (up to 2 repair rounds), then zips the project and sends it to you. /projects lists them, /project <name> zip re-downloads one. Files live in /root/nemo_projects/<name>. This is the generate->test->repair loop that turns 'one script' into real software. Owner + deploy-cap gated. + v10.23 - CRASH-SAFE MEMORY (durable-memory foundation): Nemo already saved his brain (facts, contacts, projects, todos, habits, history, the AI team...) to bot_memory.json from 67 places - but the write was NOT atomic, so a kill mid-save could corrupt the whole file and load_data would silently start BLANK with no backup (total amnesia). Fixed: saves are now atomic (temp -> fsync -> os.replace) and keep a .bak of the last good copy; load falls back to .bak if the main file is corrupt, so one bad crash can never wipe his memory again; a 150s autosave loop backs up state changed by paths that don't call save_data; and if he ever does recover from backup he tells you on boot. This is the safe foundation for growing him side by side. + v10.22 - SOLVES ON HIS OWN (plan -> act -> CHECK -> report): TRUE AGENT MODE now VERIFIES its own work before finishing instead of stopping at the first 'done'. When the agent tries to finish, Nemo strictly checks the proposed answer against the original objective; if a real part is missing/wrong/unverified, he names the gap and keeps working to fix exactly that (up to 2 self-corrections), then reports - so complex, multi-step jobs actually get completed, not half-answered. Step budget raised 8 -> 12 to leave room to adapt. New /solve alias (same as /agent), and saying 'solve ...' / 'figure out ...' in chat now triggers the autonomous agent directly. Uses his existing rich toolset (web, open, quote, code, pdf, email, remind, todo, finish). + v10.21 - EMAIL OVER HTTPS (fixes the DigitalOcean SMTP block): the real reason /email set failed with 'couldn't reach Gmail's mail server' is that DigitalOcean BLOCKS outbound SMTP ports - not the password. Nemo now SENDS via the Gmail API over HTTPS (port 443, never blocked), using the Google account you already connected with /google (it has the gmail.send scope). send_email tries the Gmail API first and only falls back to SMTP; /email test now reports which path works; the network-error message now names the SMTP-block cause and points to /google. So: run /google once (if not already), then email just works - no App Password needed. + v10.20 - EMAIL FIX + SELF-DIAGNOSIS: email 'sending failed' now tells you the REAL reason instead of a generic essay. Nemo captures the actual SMTP error (LAST_EMAIL_ERR) and translates it to a plain cause + fix (e.g. '535 = wrong/expired App Password or 2FA off'). New: connect Gmail from chat with /email set <gmail> <app password> (no file editing), and /email test does a LIVE Gmail login and reports exactly what's wrong. Best of all, asking 'why did email fail / email not working' now makes Nemo check HIMSELF (real SMTP test) rather than routing it to the general brain that wrote the SPF/DKIM essay. The root cause of your failure: the Gmail App Password is set but Gmail is rejecting the login - regenerate it (2FA must be on) and run /email set. + v10.19 - SELF-UPDATE (no more SSH): send Nemo a new nemotron_bot.py in Telegram, then /update - he verifies it's really my code (size + markers, so a random script can't nuke me), compile-checks it, backs the current me up to /root/nemo_backups, swaps himself in and restarts (you tap Apply first; /rollback undoes it). Reuses the proven /upgrade rails. When you send a .py that looks like a new me, he now offers /update automatically. From here, every future version installs by dropping a file in chat - no console, no scp. + v10.18 - BOT FACTORY LIBRARY (factory data): Nemo now carries a library of ready-made bot TYPES he can create on command and modify - the engine for a bot-building service. /templates lists them (FAQ/auto-reply, appointment booking, order+catalogue, subscribe+broadcast, feedback/rating); /newbot <type> <name> : <business> scaffolds a complete standalone Telegram bot from that template and ships it through the SAME supervised pipeline as /ship (compile-check -> bake env -> tap to start); then /env <name> BOT_TOKEN=... OWNER_ID=... turns it on, and /app <name> edit <change> lets Nemo customise it further. Each template is a real, working long-poll bot (owner-notify, JSON storage). Extensible - more types can be added to BOT_TEMPLATES. + v10.17 - GOOGLE MAPS: Nemo can now find any place/store/shop and show its address, live rating + top reviews, open/closed, phone, website and a map image (/place, /find, /reviews, /map); list ranked options nearby (/near cafes in Andheri); and compute real ROAD distance + time WITH live traffic between two places plus a route-map picture (/trip A to B, also /distance /route, and 'by walking/transit/bicycling'). Reuses the SAME Phase-2 Google Cloud key (/gcloud) and the same daily safety cap - you just enable Places + Directions + Geocoding + Static Maps in the Cloud console (up to 10,000 free calls per API per month, so personal use is effectively free). Raw REST via the Maps Platform, owner-only, threaded so it never blocks. + v10.16 - HINDI PDF FIX: reports in Hindi were coming out as '?????' because the Devanagari font never loaded on the server (the runtime GitHub download 403'd) so the text got mangled to Latin. _ensure_hindi_font() is now robust and self-healing: it finds any Devanagari font already on the box, else apt-installs one itself (Nemo is root - no fragile download), and guarantees the uharfbuzz shaping engine so conjuncts/matras place correctly. make_pdf() will now NEVER hand back a '?????' PDF - if no font can be loaded it sends readable Unicode text plus the one-line server fix instead. The AI was always writing correct Hindi; only the PDF drawing step was broken. + v10.15 - GOOGLE SUPER-LAYER (2 phases). Phase 1 (free, reuses his Google login - one re-consent for wider scopes): /backup his whole brain to Drive, Sheets as a LIVE database you can open on your phone (/log <sheet>: a, b, c  ·  /gsheet <sheet>), /gdoc <title>: <body> makes a Google Doc, /gtask + /gcontact + /findcontact. Phase 2 (needs a Google Cloud API key + billing, but big free tiers + a hard daily call cap): /gcloud <key> turns on Vision (/gsee reads/labels a photo), Translate (/gtranslate hi: text), Text-to-Speech (/gsay), Gemini (/gemini), and real Google Search (/gsearch). + v10.14 - ONE-STEP SECRET REFRESH: /env <app> KEY=VALUE now, if the app is already live, rewrites its locked .env and RESTARTS it on the spot - no re-ship. So refreshing a daily API token (e.g. Dhan's 24h token) is a single paste to Nemo. + v10.13 - APP EDITOR (Nemo patches apps he deployed): Nemo can now edit a running app's code himself, not just his own - same supervised rails (pick function -> rewrite -> compile-check -> diff -> you tap Apply -> back up -> restart just that app -> /app <name> rollback if needed). Just say 'add a /dhan self-test to signalbot' or run /app signalbot edit <change>. So he can fix and extend the bots he ships, on his own. + v10.12 - APP FACTORY + SECRETS: you can now hand Nemo a program's secrets in chat with /env <name> KEY=VALUE (bot tokens, API keys) and he bakes them into a locked-down 600 .env file the service reads - so you never edit the code file. Everything else as v10.11 (SHIP a .py as a live 24/7 systemd service, /build, /apps, /app manage). + v10.11 - APP FACTORY (real hands to SHIP a program): Nemo now takes a program - one he writes, or a .py you send him in chat - and actually RUNS it on your server as a managed 24/7 systemd service. He writes the file to /root/apps/<name>, installs its pip packages, safety compile-checks it, creates the service, and starts it (you tap Ship & start to confirm). /ship <name> deploys a .py you just sent; /build <name>: <what it does> has him write the program himself then ship it; /apps lists them; /app <name> logs|restart|stop|rm manages them. Owner-only, gated by the 'deploy' capability (/caps deploy on) + /lockdown, refuses to touch system units. This closes the gap where his 'mission' team only produced a REPORT - now he can hand you a running bot. + v10.10 - SELF-EVOLVING: Nemo reviews his OWN errors, system logs and rough edges, decides what to fix/improve, and DRAFTS the code changes himself - you just approve. /evolve makes him study himself and propose the 3-6 highest-value improvements (each targeting one real function, grounded in errors he actually hit); /evolve <n> hands that exact improvement to his supervised self-editor (compile-check + diff + tap-to-Apply + backup + /rollback), and /evolve auto on runs a weekly self-review that only ever PROPOSES (never auto-applies). Core control functions stay _UNEDITABLE. Just say 'improve yourself' / 'review your errors and get better'. + v10.9 - YOUTUBE+: turn a video into a STUDY-NOTES PDF (/ytnotes or 'notes'), and summarise a WHOLE PLAYLIST into a PDF study guide (/ytplaylist or paste a playlist link) - per-video bullets + an overall overview, Hindi-capable PDF. + v10.8 YOUTUBE: robust video SUMMARY (transcript via youtube-transcript-api -> yt-dlp auto-subs with cookies -> audio+Whisper, then an easy 'explain like to a friend' summary by Claude) and DOWNLOAD (/ytdl video, /ytmp3 audio, cookie-aware, sent over Telegram if it fits else saved/Drive). Just paste a YouTube link. + v10.7 SCANNER: send a photo and Nemo turns it into a clean, cropped, straightened PDF (document scanner), or extracts all its TEXT (OCR, Hindi too), or decodes a QR - via caption 'scan'/'ocr'/'qr' or the /scandoc /ocr /qr commands. + v10.6 STRONGER HANDS for the browser agent: VISION fallback (screenshots the page and acts from what it SEES when there's no readable HTML, via clickxy), new actions (key presses, coordinate click, back, file upload, structured extract->data), and SESSION/COOKIE import (/browsercookies loads a cookies.txt so Nemo is logged in on sites like YouTube - the reliable way past login walls). + v10.5.2 LOGIN HANDS hardening: the human-in-the-loop now fills the value ROBUSTLY (finds the real email/password/OTP input even if the AI's field index is off, verifies it landed, auto-submits) and has a loop-guard that stops re-asking and explains honestly when a site (e.g. Google/YouTube) is blocking the automated login. + v10.5 SELF-DEFENSE (blue-team, THIS SERVER ONLY): tamper tripwire (fingerprints his own code/secrets/SSH-keys and alerts + optional auto-lockdown on change), intruder watch (failed-SSH by IP), exposure/open-port self-scan, ClamAV malware scan, pip-audit CVE check, and a hardening pack (chmod/fail2ban/ufw keeping SSH open). NO target field anywhere - every check runs against this host only; owner + capability gated. Ask 'scan yourself for viruses / who is attacking me / am I exposed'. + v10.4 HANDS + HUMAN-IN-THE-LOOP: the browser agent can now pause on a login/password/OTP/2FA/CAPTCHA, send you a screenshot of what it sees, WAIT for your chat reply, type it into the field and continue - so you complete logins together and Nemo stays logged in (persistent profile). New 'ask' browser action; your reply is routed to the live session and the secret value is never logged. + v10.3 DYNAMIC TOOLS UPGRADE: /toolmake now builds reusable tools that use third-party packages (declared '# requires: yt-dlp ...', auto pip-installed + reinstalled after redeploy) and reach the internet (run on host; pure-stdlib tools keep --network=none isolation) - so you get a permanent /tool musicdl <song> instead of one-shot scripts; also run_code writes self-contained scripts (inputs hardcoded, no required argv/input). + v10.2 CODE AGENT FIX: generated Python no longer gets its dunders corrupted (clean_text was stripping __ and ** so __name__/__main__ became name/main); run_code now uses the RAW code path + the premium brain + a SELF-REPAIR loop (reads its own traceback and fixes the bug, up to 2 tries). Same raw fix applied to self-upgrade and dynamic tools. + v10.1 TRACK 3 BUILDER on top of the Mastermind Core: GitHub connect + AI code-review agent (issues/PRs/CI, auto-review PRs via webhook), dynamic tool creation (Nemo writes-tests-registers his own sandboxed tools), multi-agent swarm orchestration (parallel workers -> synthesis), and observability (/metrics, /logs, ERROR alerts). + v10.0 MASTERMIND CORE (Track 0+1+6): event-driven nervous system (SQLite state, durable event queue, stdlib HTTP webhook gateway + Nemo's own /api/v1, capability layer + audit log + /lockdown kill-switch), infra control (DigitalOcean create/reboot/snapshot/destroy, git self-deploy with pre-swap compile check + boot canary, Docker sandbox exec), and an autonomy layer (goal planner plan->act->report loop, condition triggers, reflection-to-memory). All owner-gated. + v9.8.3 land-records FULL FLOW from real screenshots: auto-ACCEPTS the 'सूचनार्थ नकल' confirm() dialog (Playwright was silently cancelling it), captures the Nakal HTML document (Edharti_A4_Nakal_village.aspx) as a PDF (it is NOT a file download), and the playbook now matches the exact 10-step Apna Khata flow (district/tehsil dropdowns -> alphabet+village row -> radios -> searchable khasra box -> नकल सूचनार्थ). + v9.8.2 IFRAME-AWARE browser: govt forms (Apna Khata) load inside an <iframe> so the top page looked blank; Nemo now finds and drives the real form frame + sends a text diagnostic on failure + never clicks top-nav tabs. + v9.8.1 land-records cascade fix (waits for the ASP.NET postback so तहसील/RI/village dropdowns fill before selecting; more steps; tells you which brain drove it) + Claude PREMIUM BRAIN on tap (Boss's Anthropic API key): auto-escalates the HARD jobs - drives the browser/land-records flow, /think deep answers, and a smart backup when free brains choke - while free Nemotron/Groq still handle everyday chat so credits last. Cost-aware (Haiku default, Sonnet for browser/think, running spend in /brain). + v8.8.2 Hindi/Unicode PDFs (Noto Devanagari, was: ?????) + report emails when you ask + mission progress/recipient fixes + activity audit log + confirm-on-money + FII/DII in the trading brain + IFSC/QR/short-links + v8.7 distinct mission team/chaining/maps/translate + v8.6 vector memory/TradingView/insights + v8.5 Google + v8.4 voice/backtester + v7.9 grounded market data + v7.8 identity + v7.5 live option chain + v7.4 natural-language brain + trading.
+"""nemotron_bot.py v94.0 - CLEAR + SCOUT INTEL + STUDIO PLUS: EVERY MARKET REPLY AND DATA DUMP IN PLAIN WORDS, NSE RESULTS/BAN/FLOW CHECKS AND A VOLATILITY FORECAST FOR SCOUT, AI UPSCALING, BACKGROUND REMOVAL AND CHARTS FOR PICTURES (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v93.2 - SCOUT: TRADE IDEAS FOR STOCKS AND NIFTY/BANKNIFTY OPTIONS FROM NEWS AND NEMO'S MARKET TOOLS, WITH THE WORKINGS SHOWN, THE SIZE AT THE OWNER'S RISK LIMIT AND AN HONEST TRACK RECORD (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v92.0 - WIRE: THE INSTALLED LIBRARIES BECOME CHAT COMMANDS, RUN SAFELY (tables from a PDF, text in a picture, clean article text, indicators on daily candles, a risk report of the journal, NSE history, local voice fallback, extra checks next to the update pre-flight; one heavy job at a time and only when memory is free; MCP servers stop together with Nemo). + v91.5 - FORGE: NEMO CAN USE GITHUB AND INSTALL WHAT HE NEEDS (search and inspect GitHub, a static scan of any repo, PyPI risk checks, hash-pinned wheel-only installs into isolated environments or additively into his own Python, owner approval cards, health checks with automatic rollback, an install ledger, upgrade from the owner's own GitHub repo through the existing update gate). + v90.2 - STUDIO: MORE IMAGE ENGINES AND TOOLS, EXACT DESIGN AND CHARTS, REPORTS WHOSE NUMBERS ARE CHECKED (verified image chain with nine engines, Pillow tools, posters/cards/logos with exact text, charts from your numbers, a numbers audit for researched reports, data reports from your own files). + v89.0 - CIRCLE: WHO ELSE MAY USE NEMO AND WHAT THEY MAY DO (one gate in front of every message, button and inline query that is not from the owner; default deny; abilities switched per person and role from a menu or in plain words; first-contact cards; limits; strangers on/off; a private read-only free/busy view for family). + v88.0 - ARGUS: NEMO CAN SEE (read-only eyes for mail, calendar, Drive, tasks, reminders, watchers, what Nemo did and when, server and errors, devices, positions; a live map of its own abilities; one "see" tool for conversation; a flight recorder; an inbox watch; exact reasons when something is not connected). + v87.0 - RELAY: MORE VIDEO SOURCES (yt-dlp with six client profiles, automatic yt-dlp update, Node/Deno runtime, your proxy; then pytubefix, YouTube.js, Piped and Invidious mirrors, Cobalt) in ONE verified, time-boxed chain with a per-source report + DRIVE LINKS YOU CAN OPEN (anyone with the link / one e-mail / private) + natural-language controls (download sources, test youtube download, set up download sources, share my last download). + v86.0 - CANDOR: NO SENSITIVE LOGGING (a rejected value is never stored; logs are masked) + COMPLETE FORGETTING (every recall store, rewritten copies, re-learning blocked, queued jobs cancelled, backup limits stated) + SAFER SELF-DEVELOPMENT (the _n79_feature hook is always offered, relevant bounded shortlist, vague "upgrade yourself ..." asks what you want before any AI call, failures name their stage) + RESEARCH ROUTING (current-information questions are researched, failure and thin evidence are stated) + ONE SHARED DEADLINE (planning, tools, answer, review and fallback; bounded search and background work) + HONEST CHECKS (completed / issues / skipped / failed). + v85.0 - STEWARD: DECISION INBOX (mail/calendar/open loops/showroom -> ranked, grounded proposals as approve/edit/skip cards; nothing runs without a tap; learns from your decisions) + VERIFIED RESEARCH (replans, reads full pages, keeps a claim only if its quote is in the page and its numbers are in the quote) + SANDBOX-TESTED UPDATES (candidate is imported and regression-tested in a network-less sandbox before Apply) + MCP PERMISSION TIERS (read runs, write needs a tap, dangerous blocked) + DOCUMENT INTELLIGENCE (page-cited answers, clause flags, version compare, tables) + SHOWROOM COPILOT (leads, dues, stock, GST invoice drafts) + PAGE WATCHERS (price/stock/keyword/change alerts). + v84.0 - ATLAS: FUTURES DESK (expiry calendar with holiday roll-back, cost-of-carry fair value/basis, roll cost, position sizing, pre-trade check, edge/Kelly/streak maths, owner-reported trade journal + stats, opt-in expiry alerts; advisory only, no orders) + SPEED (zero-model answers for pure arithmetic/date questions, router bypass for plain chat, parallel tool rounds, typing keep-alive, per-stage timings, p50/p95 in /cortex83) + weekday/date audit. + v83.0 - CORTEX: memory bridge (relevant stored facts + safe auto-learning from the owner's own messages, with /memory83 /forget83 controls), grounded IST date/time + exact date maths, bounded read-only tool loop for chat (search/recall/calculate/date, no tool can act), deterministic arithmetic audit + quote-verified critique, rolling conversation summaries, router fast-path for small talk, /why83 transparency, fix for undefined _n60_j in the media failure path. Additive layer over v82; any Cortex failure falls back to the v80 chat path. + v45.0 - YOUTUBE PER OFFICIAL 2026 GUIDE (--js-runtimes deno auto-installed, android_vr-first ladder needing no PO token/cookies, cookies only for tv/mweb, rotation detection, /ytfix) + MEDIA LIBRARY (/library instant resend, Drive) + v44.x RELIABILITY DOCTOR + v43.x YOUTUBE UNBLOCK + RESEARCH DIGEST + v42.0 MEDIA ENGINE + FAMILY MODE + v40.0 COMMAND CENTER + LEARN MODE + v39.0 FAST CORE + v38.0 ATTENTION + v37.0 PHOTO MEMORY + VOICE + v36.x DAY CARD + SELF-AUDIT + v35.0 UNIFIED MIND + v13.35 - PROVIDER DOCTOR + COMPUTER-USE 5.0 BATCH 3: adds diagnostic Groq/Gemini model discovery, non-destructive email/network doctor, browser computer-use sessions with DOM/accessibility/screenshot state, Guardian-protected external-page analysis, action verification and session telemetry. + v13.30 - KNOWLEDGE LAKE 2.0 + HYBRID SEMANTIC RAG + LEARNING CORE 2.0: adds local hybrid retrieval, workflow episode learning and automatic local grounding while retaining v13.29 evaluation/observability. + v13.29 - EVALUATION LAB 2.0 + OBSERVABILITY/FLIGHT RECORDER 2.0: adds request-level tracing, durable request metrics, tool/task correlation for reports/browser/media, percentile latency and failure dashboards, candidate-vs-current regression scoring, critical-function and credential-line integrity checks, evaluation history, and fail-closed deploy recommendations. Existing v13.28 NEMO PRIME FOUNDATION remains. + v13.28 - NEMO PRIME FOUNDATION: Unified Task OS, Central Policy Engine, Flight Recorder, Evaluation Lab, Knowledge Lake, Strategy Learning 2.0, Device Agent generator, Specialist Agent Governor, and Trade State Reconciliation 2.0. Existing v13.27 Publisher Godmode and all prior safety rails remain. + v13.27 - PUBLISHER GODMODE 5.0 / LAYOUT QA: rebuilds the professional artifact renderer around measured text layout instead of fixed-height guesses; filters fake KPI tiles and source/evidence metadata; dynamically wraps risk tables, scenario cards, executive cards and source cards; fixes appendix stripping with or without colons; adds Unicode font support when available; prevents heading/header collisions; strengthens publication QA for leaked metadata, clipping-risk patterns and malformed key-number panels; and keeps the v13.26 evidence/materiality pipeline intact. + v13.26 - CREATION ENGINE / PUBLISHER GODMODE 4.0: adds professional information architecture, materiality-first analysis, improved source authority ontology, cited-evidence grading, compact clickable source appendix, executive snapshot cards, key-number tiles, scenario dashboard, risk heatmap-style matrix, typography/mojibake sanitation, deterministic artifact integrity, and optional PDF visual QA. Analytical reports now fail closed when research/evidence/publication quality is weak. Existing v13.25 research Godmode, v13.24 renderer fixes and v13.23 Learning Core remain. + v13.25 - GODMODE RESEARCH + REPORT INTELLIGENCE 3.0: adds five coordinated upgrades: adaptive multi-query text+news research with retries, source-authority scoring and domain diversity, multi-brain analyst→verifier→editor synthesis, evidence/claim-quality gates that remove unsupported current claims, and a research audit manifest + professional evidence score on every report. /godreport forces the full pipeline; ordinary non-code reports use it automatically. Existing v13.24.2 renderer hotfix and v13.23 Learning Core remain. + v13.24.2 - PROFESSIONAL REPORT STUDIO 2.1 PDF RENDERER HOTFIX: upgrades PDF/report generation with fresh multi-query web research for time-sensitive reports, source-grounded drafting, executive summaries, risk/outlook structure, professional cover/header/footer, section hierarchy, key-takeaway callouts, source appendix, cleaner typography, and removal of random stock-art pages. Reports distinguish sourced facts from analysis and warn when fresh research is unavailable. Existing v13.23 Learning Core remains. + v13.23 - LEARNING CORE 1.0 + EXPERIENCE BRAIN: adds persistent outcome learning, model-performance scoring, experience/error fingerprints, semantic experience recall, feedback controls, lightweight anomaly learning, adaptive model route reordering, training-data export, and Cockpit learning telemetry. Learns from successful/failed AI calls and explicit owner feedback while redacting sensitive-looking text; never grants new money/security authority. Existing v13.22 Offline Mind/Speed/Systematic UI, Device Grid, Cockpit, Mind Core, Cyber Hands, trading rails and secrets are preserved. + v13.22 - OFFLINE MIND + SPEED ROUTER + SYSTEMATIC RESPONSE UI: adds an offline-first knowledge layer (built-in durable reference packs + existing indexed files/library/memory grounding), persistent evergreen answer cache, API-down offline fallback, instant local calculator, automatic FAST/BALANCED/QUALITY routing, reduced unnecessary multi-pass reasoning, and a Telegram-friendly response-format contract with consistent visual sections. New /offline, /speed and /format controls. Existing v13.21 Device Grid, v13.20 Cockpit, v13.19 Mind Core, Cyber Hands, trading/security rails and credentials are preserved. + v13.21 - NEMO DEVICE GRID + REMOTE HANDS 1.0: enrolled-device control plane with owner-created one-time enrollment tokens, per-device bearer secrets, heartbeat/online state, read-only system telemetry, opt-in location reporting, device revocation, audit trail, and Cockpit/API device inventory. No arbitrary-device discovery, covert tracking, credential dumping, or unauthorized remote access. + v13.20 - NEMO COCKPIT 1.0: adds a modern Telegram Mini App/PWA command-center over the existing secure web server: live system/brain/cyber/VPN/trading/task/media panels, responsive mobile-first glass UI, browser human-checkpoint status and latest screenshot, safe read-only quick actions, refreshable JSON telemetry, and an owner-only /cockpit command. When a secure HTTPS public_url is configured, Nemo automatically installs a Telegram Web App menu button that opens the cockpit inside Telegram; otherwise /cockpit gives the local/public dashboard link and /setdomain guidance. Consequential actions stay Telegram-gated; the cockpit does not bypass trading, lockdown, cyber scope, browser-auth or update confirmations. Existing v13.19 Mind Core, Browser Checkpoint 2.0, Cyber Hands, dependency isolation, secrets and trading rails remain. + v13.19 - MIND CORE 2.0 + BROWSER CHECKPOINT 2.0: adds a final-answer compiler that blocks scratchpad/thinking-aloud leakage, strips malformed provider tokens such as <unk>, detects repetition/non-answers, selectively re-verifies calculation/bill/image answers, and rewrites poor drafts before delivery; adds speech-specific sanitization so garbage tokens never become voice audio. Browser human checkpoints now parse natural replies (e.g. email plus “click next”) into a clean field value + action, use semantic page-state fingerprints instead of raw URL equality to detect stuck loops, and stop Google/YouTube automated-login loops early in favor of the user's authenticated session/cookie route. Passwords, OTP/2FA/recovery codes and private keys are no longer requested through Telegram browser checkpoints. Existing v13.18 Cyber Hands, v13.17 dependency isolation, trading rails, secrets, updater and all prior capabilities remain. + v13.18 - CYBER HANDS 1.0: adds an owner-only defensive security operations layer for THIS VPS and explicitly authorized/allowlisted assets: unified /cyber control center, local security audit + score, listening-port/firewall/SSH/log inspection, secret-exposure scan that never prints secret values, source-code static security checks, dependency CVE audit in an isolated tool environment, optional ClamAV scan, file-integrity baseline, continuous low-noise security monitoring, and conservative allowlisted Nmap inventory (top ports/version-light only; no exploitation/bruteforce/evasion). Autonomous agents gain READ-ONLY local cyberaudit/cyberports/cyberlogs hands. Remote scanning is never autonomous and requires an explicit --authorized scope entry. Consequential remediation remains owner-confirmed. + v13.17 - FOUNDATION HARDENING + HANDS 2.0: adds dependency protection/doctor, isolated tool virtual-environments, process control with confirmation, filesystem search/hash/tree, network diagnostics, system snapshots, and exposes these safe hands to the autonomous agent. Core trading/credentials/browser/media behavior is preserved. + v13.16 - VISION RESPONSE VALIDATION + MULTIMODAL FALLBACK: fixes the case where a screenshot successfully reached the vision model but Nemo returned only provider moderation metadata such as "User Safety: safe / Response Safety: safe" instead of analyzing the image. Vision replies are now validated for substantive visual content; safety-only/moderation-only outputs, refusal-shell metadata, empty multipart content and tiny non-answers are treated as a FAILED vision attempt and Nemo automatically tries the next multimodal route (Nano Omni -> openrouter/free) rather than delivering garbage. Image prompts explicitly request actual visual analysis rather than safety labels. ask_ai now detects and sends the real PNG/JPEG/WEBP/GIF/BMP MIME in its OpenRouter data URI (closing the remaining hard-coded JPEG path missed in v13.15). DEBUG records why a vision model was rejected. Text routing, trading, money, browser, VPN, downloader, persistence and secrets are unchanged. + v13.15 - UNIVERSAL IMAGE ATTACHMENTS: Telegram screenshots/images sent as Files/Documents now route into the same vision pipeline as compressed photos. Detects image/* MIME plus PNG/JPG/JPEG/WEBP/GIF/BMP extensions and magic bytes; preserves captions; supports scan/OCR/QR/bill/notes pending modes; and ask_ai now labels the data URI with the real image MIME instead of always claiming JPEG. No trading, money, VPN, browser, downloader, persistence, secrets, or safety behavior changed. + v13.14 - LIVE MODEL ROUTER HOTFIX: OpenRouter retired nvidia/nemotron-3-nano-30b-a3b:free on 24 Aug 2026, so Nemo no longer calls that dead slug. Text routing now uses Nemotron 3 Ultra free -> Super free -> openrouter/free for smart work, Super free -> openrouter/free for fast work, and vision uses ONLY multimodal-capable Nano Omni free -> openrouter/free (no text-only Super fallback on images). ask_ai now safely parses OpenRouter error/unexpected response bodies instead of crashing with KeyError choices, temporarily cools down unavailable/rate-limited models, de-duplicates routes, and keeps the dynamic free router as a resilience fallback. /brain reports the live route and cooldowns. No trading, secrets, browser, media, persistence or safety rails changed. + v13.12 - HONEST UPDATE LABELS (fixing two COSMETIC bugs in my own update-preview that made a perfectly good deploy look scary): when the Boss deployed v13.11, the /update preview said 'this file is v17.0' and 'CHANGES 1 (TOKEN)' - BOTH false alarms from my own code; the file was correct and booted clean as v13.11. Causes + fixes: (1) my version-reader grabbed the FIRST version-assignment string anywhere in the file, and my changelog PROSE happens to mention the 17.0 pattern when describing a ChatGPT file - so it read its own description instead of the real constant. Now it reads only a REAL top-level VERSION assignment (start of line). (2) my credential-change check matched ANY variable whose name merely contained 'TOKEN'/'KEY' - including the harmless 'TOKEN = os.environ.get(BOT_TOKEN)' line inside the downloader-bot template - so it falsely warned of a credential change. Now it checks only the actual named secrets (TELEGRAM_TOKEN, OPENROUTER_KEY, NVIDIA_KEY, ...). Future update previews now show the true version and warn only on a REAL key change. Your keys were never touched - the proof was the bot booting clean and healthy. Additive; all existing suites pass plus a new v13.12 test. + v13.11 - CLAIM LEDGER + LIVE INTEGRITY (from the ChatGPT v24 'five upgrade' file - notable because it was finally built on OUR v13.9 base with the Security Core intact, but its five new layers all crash on first use on the same missing 'uuid' import as v15/v18/v19, and its flagship 'v20 Task Orchestrator' is FAKE: the execute function performs nothing - it stamps every step done with a canned message pointing to a /nemorun24 command that does not exist anywhere in the file. Its other layers duplicate what we already run: structured memory = the v11 knowledge graph + /recall, brain router = ask_ai's existing routing, project manager = /plan + /taskgraph + PROJECTS, observability = /nemo + self_test). The TWO ideas worth keeping, built working: (1) CLAIM LEDGER - /claims [search words] is a persistent, dated audit trail of everything Nemo has fact-checked and researched: every /verify records verified-or-corrected (with the checker's notes) and every /nemoresearch records a research entry, capped at 400, surviving restarts, searchable, also in plain language ('what have you verified', 'claim history'). So 'what has my bot told me, and was it checked?' finally has an answer. (2) LIVE INTEGRITY - /security now also compile-checks the RUNNING source and shows its sha256 fingerprint, so tampering or corruption of the deployed file is visible on demand. Additive; all suites pass plus new v13.11 tests. + v13.10 - DOWNLOADER IN THE BOT FACTORY (Nemo creates the whole bot himself - no file to send): the Boss asked why Nemo can't just CREATE a downloader bot when given a token. He always could create bots (/newbot factory + /env for secrets) - his library just had no downloader type. Now it does: a verified 'ytdl' template (the corrected version of the ChatGPT blueprint, which as written would not run - missing asyncio import, wrong download() return handling, an undefined variable, a zip step that ignored Telegram's ~50MB cap). Create it entirely in chat: /newbot ytdl mydl (or just say 'make me a downloader bot') -> tap Ship -> /env mydl BOT_TOKEN=<fresh @BotFather token> OWNER_ID=<your id> -> the bot is LIVE. The generated bot: downloads a YouTube video or whole playlist (mp4, or mp3 with 'audio'), sends every file under Telegram's cap straight to chat, keeps bigger ones on the server with the path reported, caps items per playlist (MAX_VIDEOS), safe ASCII filenames, owner-locked via OWNER_ID, token ONLY from its locked env - never in code. Same supervised ship rails as every factory bot (compile-check, auto pip-install of requests+yt-dlp, tap-to-start, /app <name> logs|restart|stop|rm). Additive; all suites pass plus new v13.10 tests. + v13.9 - QUANT LENSES (the genuinely-new, working parts of the ChatGPT v19 quant file, rebuilt on our base - READ-ONLY, never places an order): the v19 code was real quant work but sat on the old base and crashed its event log on the same missing 'uuid' import; I kept the good math, dropped the crash and the bits we already have (its plain signal/option dumps duplicate /godmode and /optionchain). Three lenses we DIDN'T have, now added: (1) /regime <symbol> - classifies the market regime (TREND_UP/DOWN, EXPANSION, RANGE, LOW_VOL_RANGE, TRANSITION) from ADX + EMAs + ATR-ratio + slope, with a confidence. (2) /walkforward <symbol> - proper OUT-OF-SAMPLE validation: it picks the best EMA pair on a training window then scores it on the next, unseen window, and reports the average out-of-sample hit-rate (a robustness check, not a guarantee). (3) /quantbacktest <symbol> - an EMA-crossover backtest with profit factor + max-drawdown AND a Monte-Carlo stress test (bootstrapped terminal + drawdown percentiles). Plus /quant <symbol> - a consolidated regime + multi-factor signal + transparent setup-quality grade (explicitly 'NOT win probability'). All owner-only, read-only, honestly labelled; they use Nemo's real market data (get_history) and place no orders. Additive; all existing suites pass plus new v13.9 tests. + v13.8 - MEMORY 3.0 (granular forget) + NO INVENTED COMMANDS: (1) MEMORY - on inspection Nemo's memory was already strong (semantic /recall, durable /remember, the /memory 'second brain', /aboutme and the knowledge graph, all persisted and fed into his answers), so the genuinely missing piece was CONTROL: /forget <thing> now removes the SPECIFIC memories that match - from both the durable facts and the semantic vector store - and tells you exactly what it dropped, instead of the all-or-nothing /forgetme. /remember also dedups and keeps more durable facts (20 -> 60). (2) NO INVENTED COMMANDS - when you sent a command Nemo didn't recognise, his brain used to make up plausible-but-fake command names (exactly what happened with /nemo before it was deployed). Now an unrecognised /command gets a deterministic, HONEST reply listing only REAL commands and never reaches the brain. Additive; all existing suites pass plus new v13.8 tests. + v13.7 - TRADE STATE SURVIVES RESTART (closing the money-safety gap I flagged in v13.2 and deferred): the autonomous trader kept its open position only in memory, so a restart or update mid-trade FORGOT it - and for a plain (non-bracket) position that meant its stop-loss and target were no longer being managed, leaving real money exposed. Now the trader's live state (open position, today's trade count, running P&L, the day, and the daily-loss halt flag) is PERSISTED to memory and RESTORED on boot, so after any restart Nemo picks the position straight back up and keeps managing its stop / target / square-off. On boot, if a position is open, Nemo messages you that it resumed managing it. This pairs with v13.6 self-healing updates: a restart mid-trade no longer abandons your money. (Bracket positions were already protected on-exchange; this closes the gap for plain positions.) Owner-only, additive; all existing suites pass plus new v13.7 tests. + v13.6 - SELF-HEALING UPDATES (took the one real new idea from the ChatGPT v17 file - auto-recovery from a bad update - and built it safely; skipped the rest, which forced its VERSION to 17.0 and added a downgrade-block that would have LOCKED you out of updating to our clean files, and re-did the workflows our v13.4 already has): every /update is now TRANSACTIONAL. When you Apply an update, Nemo records a journal (a hash of the new build, plus a hash + path of the verified backup). On restart it checks that journal FIRST: a healthy boot (Telegram auth succeeds) is confirmed and stands recovery down - but if the new build keeps failing to reach a healthy boot (3 tries within 30 minutes) Nemo automatically RESTORES the previous version (only if that backup still compiles and its hash matches the recorded original) and restarts. So if you ever deploy a build that won't start, it heals itself back to the last working version without you touching the server. /updatecheck now also shows whether the last update auto-rolled-back or booted cleanly. HONEST LIMITS: this catches builds that start but then crash/exit during startup; a crash BEFORE main() even runs (e.g. an import-time error) can't be caught from inside the process - though compile-check already blocks the syntax errors behind most of those. Conservative by design (3 failures, 30-min window, hash+compile-verified backup) so a healthy long-running bot is never rolled back. The normal apply/backup/rollback path and everything else are unchanged; all existing suites pass plus new v13.6 tests. + v13.5 - SAFER UPDATES (took the one good idea from the ChatGPT v16 'updatefix' file - credential-preservation on update - and built it safely on our base; skipped the rest, which sat on the old v12.06 base, carried the broken v15 layer, and hard-overrode VERSION to '16.0' while requiring its own marker that would have BLOCKED updating to our clean files): (1) /updatecheck - preflight a new nemotron_bot.py you've attached WITHOUT applying it: shows its version, size, whether it looks like Nemo, the compile-check result, and - the key part - whether it would CHANGE or DROP any of your credential/config lines (compared by a HASH of each key line; values are NEVER shown). (2) /update now shows that same credential warning right in the Apply prompt, so you can't accidentally deploy a file that wipes your API keys without being told. It WARNS, it does not block - because a legitimate update (like moving keys into the secrets file) also changes those lines and you stay in control. (3) /version shows the running version cleanly. The critical apply/backup/rollback path is unchanged. Owner-only, additive; all existing suites pass plus new v13.5 tests. + v13.4 - ORCHESTRATION (added the genuinely-new capability from the ChatGPT v15 file, built CORRECTLY on our safe v13 base - the v15 code itself was BROKEN: I ran it and it crashed with 'uuid is not defined', plus a _n15_STATE typo and a call to a function that never existed, so its workflow / research / decision commands all failed at runtime). What's new and WORKING here: (1) /nemoworkflow <numbered plan> - runs a multi-step plan ONE checkpointed step at a time, feeding each step's result into the next and saving progress after every step, so it survives a restart; /nemoworkflows lists them and /nemoresume <id> continues from where one stopped. (2) /nemoresearch <question> - a research pass that separates FACTS / INFERENCES / UNKNOWN and refuses to fabricate sources. The REST of v15's command surface is wired to Nemo's EXISTING, more mature systems instead of broken parallel copies: /nemodecision -> the real decision journal (with expected-vs-actual tracking), /nemoevents -> the activity log, /nemoagents -> AGENTSTAT, /nemoarchitecture -> /abilities, /nemo3 -> the /nemo control center. Nothing duplicated, nothing dragged back onto the old insecure base. Owner-only, purely additive; all existing suites pass plus new v13.4 tests. + v13.3 - CONTROL CENTER + FACT-CHECK (folded in the two genuinely-good ideas from the ChatGPT v14 file, onto this safer v13 base - without its duplication or its security rollback): (1) /nemo CONTROL CENTER - one screen showing version, uptime, brains, security posture (are any keys still in source?), money-confirm + lockdown + auto-trade state, work-queue depth and recent activity - built on Nemo's REAL subsystems (secrets_status, MONEYCFG, mm_locked, JOBS/WORK, ACTLOG), not a parallel copy. (2) /verify - or 'double-check that' / 'any hallucinations?' - an explicit fact-check pass: it reviews an answer (the text you give, or my LAST answer) for hallucinations, unsupported claims, wrong numbers/names/dates, missing caveats and contradictions, and if it finds problems it rewrites the answer WITHOUT inventing new facts. Both work by command AND in plain language, owner-only, purely additive. Deliberately NOT copied from the ChatGPT file: its duplicate job-runner (Nemo already has the /work engine), its status-dump 'quant report', and - the important part - that file was built on the OLD v12.06 base, so it still carried the exposed API keys, the deadlock-prone lock, money-confirm OFF, and the lockdown/phantom-exit gaps that v13.0-13.2 fixed here. Behaviour-frozen elsewhere; all existing suites pass plus new v13.3 tests. + v13.2 - TRADING SAFETY (Phase 2 - I traced the real-money route end-to-end, then closed the gaps I found; nothing removed): GOOD NEWS first - the LLM is NOT the final authority on your money. The AI only PROPOSES a direction + a confidence score; ALL risk parameters (which instruments are allowed, position size, stop-loss, target, max-trades/day, daily-loss auto-halt, trading-hours window, buy-only, and shadow-vs-live) are enforced in deterministic code around it, and live autonomous trading is OFF by default. THREE real gaps found + fixed: (1) LOCKDOWN DIDN'T STOP EVERYTHING - the master /lockdown kill-switch blocked manual bracket/cover orders but NOT the autonomous trader and NOT a plain /order. Now lockdown blocks ALL new live entries (manual /order + the auto-agent); open positions still auto-manage and exit, so nothing is stranded. (2) PHANTOM EXIT - the auto-agent's exit SELL ignored its result: if a live exit failed, the bot booked the position as CLOSED while it was still open on the exchange, leaving real money unmanaged. Now a failed live exit keeps the position, alerts you, and retries each tick. (3) plain /order now respects /lockdown like the other order types do. HONESTLY REPORTED, not yet fixed (flagged for a later phase): the auto-agent's OPEN-position state isn't persisted, so a restart mid-trade forgets a plain position (bracket positions stay exchange-protected regardless). Behaviour-frozen for everything else; all existing suites pass plus new Phase-2 tests. + v13.1 - SAFETY CORE (Phase 1 of the audited v13 rebuild - two runtime-safety hardenings, nothing removed): (1) DEADLOCK-PROOF LOCK - Nemo's single global lock is used in 40+ places and locked functions call other locked functions; a plain threading.Lock is NOT re-entrant, so one locked path calling another would freeze him hard. Switched to threading.RLock (re-entrant): identical behaviour for normal use, but the same thread can safely re-acquire, so that entire class of hang is gone. (2) REAL MONEY DEFAULTS TO CONFIRM - manual live orders (/order, /bracket, /cover) now default to a one-tap confirm before they fire, and the setting is finally PERSISTED (before, turning it on was silently forgotten on the next restart - a genuine safety hole). The autonomous trader is unaffected - it keeps its own separate risk gates. Turn the tap off with /confirmtrades off, and now that choice sticks across restarts. CORRECTION to my own Phase-0 audit: the 'six main() functions' I flagged as dead code were a FALSE ALARM - five of them are bot-factory TEMPLATE strings (the source code of the mini-bots Nemo generates), not real definitions; I verified by reading before touching, so nothing was wrongly deleted. Behaviour-frozen elsewhere; all existing test suites still pass. + v13.0 - SECURITY CORE (Phase 0 of the audited v13 rebuild - security FIRST, nothing removed): the bot's API keys (Telegram, OpenRouter, NVIDIA, Gemini) were hard-coded in this source file. Now EVERY secret resolves from an environment variable first, then /root/bot_secrets.json, then the baked-in value only as a last resort - so secrets can live OUTSIDE the code. On boot Nemo AUTO-MIGRATES any still-baked key into the 600-permission secrets file, so the next version can delete those lines from the source and he still starts. New: /security (owner-only) reports exactly which keys are still in the source vs externalised, where each secret loads from, and the money-guard + owner-lock state (never showing any secret value); the weekly self-test gains a 'No API keys exposed in source' check that stays red until they're moved out; save_secret now chmods the secrets file to 600. IMPORTANT ACTION FOR YOU: because these keys sat in the code, treat them as LEAKED - generate new ones and put them in /root/bot_secrets.json (keys: telegram_token, openrouter_key, nvidia_key, gemini_key); v13.1 then removes them from source entirely. Behaviour-frozen: with no env var and no secrets-file entry every secret is exactly what it was, and all existing test suites pass unchanged. One safe phase at a time. + v12.06 - SELF-TEST TELLS THE TRUTH: the weekly report card was FALSE-FAILING on email. It tested email by logging into Gmail's SMTP (465) and IMAP (993) ports directly - but DigitalOcean BLOCKS those ports, so both always showed a red X even though email works perfectly over the Gmail API (HTTPS). Fixed: the drill now checks the REAL path - Gmail API reachable (profile + labels over HTTPS) first, SMTP/IMAP only as a fallback when there's no Google connection - and it runs whenever Google is connected OR an app password is set. So those two systems will now report green (as they should), and the report card reflects reality instead of scaring you with a port block. + v12.05 - RELIABILITY SWEEP (the same rigor, across his OTHER outputs): the invisible-char fix was for Pine; this applies the same 'make the outcome reliable' thinking to code and file outputs. (1) CODE OUTPUTS - /script now guards against the brain 'thinking out loud' (no more 'Let's craft:' / '... code ...' placeholder garbage), SYNTAX-CHECKS delivered Python (ast.parse, with one self-correction) so a .py actually parses, and tells you to use the attached FILE not the chat text (same copy-paste-corruption fix as Pine). (2) TEXT/CSV/MD files get the same scratchpad guard, so they contain the finished content, never the brain's notes. (3) Shared helpers (_looks_scratchpad, _clean_code) so every generator refuses to ship junk and retries. The theme: fewer 'bad results' by hardening the output paths, not adding more features. + v12.04 - THE REAL PINE BUG (invisible characters): the recurring 'Syntax error at input <name>' on code that looks perfect was NOT bad code - it was smart quotes and non-breaking spaces that sneak in when Pine is copied out of a chat message / PDF / phone into TradingView. TradingView can't parse them and throws that exact baffling error, the same on every version. Fixes: (1) _pine_sanitize forces every generated script to PURE ASCII (smart quotes -> straight, non-breaking/other unicode spaces -> normal, en/em dashes -> -, zero-width chars removed); (2) the linter now flags any non-ASCII character; (3) delivery now tells you to use the attached .pine FILE (not copy from the chat bubble), because the file is clean ASCII and the chat text can silently re-corrupt. This is the root cause behind the errors that kept coming back. + v12.03 - COMPLEX PINE: added a genuinely advanced, verified strategy to his library - 'Confluence Regime Rider' (EMA regime + ADX trend-strength + RSI momentum + higher-timeframe confirm + ATR target + ATR trailing stop + a live on-chart stats table), Pine v6 and lint-clean. It backtests automatically in TradingView's Strategy Tester (it is a strategy()), and its exact logic was verified in a Python backtest. So 'a unique pine with buy/sell/target/stop-loss that backtests' is now real, at real complexity, and part of his rotation. + v12.02 - PINE v6 + STAY-CURRENT (he moves with the times, on his own): (1) PINE v6 - TradingView's current version. His whole Pine engine now targets v6 by default: the generator prompt, the deep knowledge base and the 5 verified templates are v6 (correct bool strictness, no 'when=' on strategy.* , '1D'/'1W'/'1M' timeframes, no 'transp='), and the linter gained v6 checks (flags a leftover when=/transp=/'D' timeframe). v5 still compiles and is still accepted; /pinever 5|6 sets the target. (2) STAY-CURRENT WATCH - a weekly self-check (currency_watch) where he RESEARCHES what's changed in his fields (Pine version, SEBI rules, AI tooling), AUTO-applies safe settings himself (e.g. bumps his Pine target the moment a newer version ships), learns the rest into memory, and routes anything code-level to the supervised /selfgrow rail for your one-tap approval - so he keeps himself up to date automatically without ever rewriting himself unsupervised. /current runs it now, /current on|off, /pinever sets the version. This is the honest form of 'update automatically in all fields': safe things on his own, risky code changes proposed for approval. + v12.01 - CONTINUUM FIX (the flood + the garbage code file): the v12.0 work engine ran, but two bugs showed up. (1) DUPLICATE FLOOD - the agent re-called fire-and-forget tools (pdf/docx/chart/web) over and over, because make_pdf returns 'building...' immediately, so the agent never saw a finished file and kept re-making it (7+ identical PDFs per job, the same web search 5x). FIXED: the agent now makes each deliverable EXACTLY ONCE and skips any identical tool+arg repeat, and bails to the report if it gets stuck re-proposing the same step. (2) GARBAGE CODE FILE - '5 best Nifty option strategies' was mis-detected as a CODING request (the word 'strategies'), so it emitted a nonsense nemo_code_out.txt full of the brain's scratchpad instead of a clean report. FIXED: a strict code detector - a trading strategy/option/report/'best'/'top N' request is a REPORT, never code; only real programming asks (python/code/function/sql/pine...) make a code file. So a research job now produces ONE clean PDF, no junk. + v12.0 - CONTINUUM (the real deep upgrade: he KEEPS WORKING, and understands deeper): the honest gap all along was that Nemo ANSWERS, then stops - he never keeps grinding a task on his own. v12.0 fixes that at the core. (1) CONTINUOUS WORK ENGINE - /work <task> (or 'keep working on X', 'add to your work list') queues a job; a background worker wired into his scheduler picks up the next pending job, runs it to completion through his plan->act->verify agent, reports the result, then moves to the NEXT job - one after another, on its own, and the queue is PERSISTED so it survives restarts. Pile up ten jobs and he'll grind through them while you sleep. /jobs shows the queue and status, /stopwork pauses. (2) DEEPER UNDERSTANDING - the THINK loop's comprehension/clarify step now runs on the PREMIUM brain (not the fast free one), so he judges what you actually mean far better before acting; the agent's self-check already verifies on the premium brain. (3) FULL PICTURE - /abilities (or 'what can you do') lays out his entire capability set in one organized map, and everything is reachable in plain language. This is not a risky rewrite - the proven 34-test-suite core is intact; CONTINUUM is the capstone layer that turns a bot that replies into one that works. + v11.31 - PINE MASTER (deep, advanced, CREATIVE - not the same EMA crossover every time): the last fix made Pine error-free but repetitive - every request came back as an EMA crossover, because the one verified template WAS an EMA crossover and it anchored the brain. Now: (1) a DEEP Pine v5 knowledge base rides in the prompt (full ta.*/math.* catalog, request.security multi-timeframe, sessions/time for NIFTY intraday, strategy risk/trailing exits, drawing objects - tables/labels/lines/boxes, plot styles, dynamic alerts, anti-repaint and confluence best-practice) so the code is genuinely advanced; (2) a LIBRARY of FIVE hand-verified, lint-clean advanced strategies (EMA crossover, Supertrend trail, Opening-Range-Breakout for NIFTY, VWAP mean-reversion, RSI + higher-timeframe filter) plus a menu of 14 archetypes (Bollinger squeeze, MACD regime, Donchian, Ichimoku, multi-factor confluence...); (3) ROTATION - a generic 'make me a pine script' now round-robins through the archetypes so no two come out the same, while a NAMED method (supertrend/vwap/orb/rsi/macd...) is honoured; (4) the brain is pushed to be creative, combine 2-3 confluence factors and add a pro touch (stats table / trailing stop / dynamic alerts), and mirror a MATCHING verified reference's syntax - not the EMA one. Still linted + auto-repaired, with the matching verified template as the guaranteed-clean fallback. Storage is no constraint - the knowledge and template library are baked in. + v11.30 - DARK SIDE (edge + ruthless-but-LEGAL power, on the Boss's side): four things. (1) DARK MODE - /dark on (or 'go dark' / 'be brutal') flips his TONE to blunt, sharp and a little savage, built to put you ahead - no hand-holding, no hedging - while he still NEVER lies, fabricates, helps anything harmful/illegal, or targets people. /dark off restores the normal voice. Persisted. (2) RED TEAM - /redteam <plan/idea/trade/text> (or 'attack this', 'find every weakness') attacks it like your smartest enemy and exposes every hole, ending with BIGGEST RISK + FIX FIRST. (3) COMPETITIVE INTEL - /intel <competitor> (or 'dig up on X') builds a hardball brief from PUBLIC sources: what they offer, their weaknesses/complaints, and where to hit them to win. (4) NEGOTIATION + SCAM DEFENSE - /negotiate <situation> gives a hardball (ethical) play with leverage, BATNA, anchors, tactics and exact phrases; /scamcheck <message> flags manipulation tactics + a scam risk rating when someone runs dark tactics on YOU. Deliberately NOT built, and I told the Boss why: malware, hacking others, defeating security/CAPTCHA, fraud/fake docs, surveilling people, spam/fake-account armies, market manipulation, or removing his safety rails - all of it would make HIM the traceable, liable party on his own server, and the 'who sells that' path is scams and stings. This is the dark arts used ethically, for his side. + v11.29 - ERROR-FREE PINE SCRIPT (the real reason it kept failing): unlike Python, Pine can't be compiled on the server, so a small free brain's syntax errors sailed straight through. Now Pine gets a proper pipeline: (1) it's written by the PREMIUM brain (free nano brains are poor at niche languages) using a strict Pine-v5 system prompt; (2) a rule-based LINTER (pine_lint) checks the errors that actually break TradingView - missing //@version=5, more than one declaration, study() vs indicator(), the 'strategy function used in indicator' error, bare sma()/rsi()/atr()/input()/security() that must be ta.*/math.*/request.security()/input.*, unbalanced brackets, and plot/alert stuck inside an if-block; (3) a REPAIR LOOP feeds those errors back and fixes them, up to 3 passes; (4) if it still isn't clean, it falls back to a HAND-VERIFIED template that compiles zero-error (EMA crossover + volume filter + ATR take-profit + % stop-loss, buy/sell markers, alerts). Every 'pine script / tradingview' request (and /pine) now routes here, delivers a .pine file with an honest 'passed my checks' status, and can email it. So a pine-script ask returns code that actually compiles - not a broken brain dump. + v11.28 - CREATE+EMAIL ACTUALLY HAPPENS (the 'it talks about emailing instead of doing it' fix): the root cause was that 'generate a pine script and email it to X' matched NO deterministic route, so it fell to the chat brain - which tried to call a tool by PRINTING <function=...> as text; that leak wasn't recognised, so you got the generic 'tell me the exact thing you want' (and elsewhere, 'here's how to email it / I can send if you want' - talking, not doing). Two fixes: (1) a deterministic CREATE+EMAIL route - 'generate/make/write/build <X> ... and email/mail (it) to <address or my mail>' now ALWAYS builds the thing AND sends it (Word if you said 'word/document', else a PDF - which now contains real code for a pine-script/strategy request, plus the raw .pine file), never touching the chat brain. (2) the tool-leak guard now also HONOURS a leaked email/docx/xlsx/chart/script/code call by actually running it, instead of showing the fallback. Net effect: when you say 'do X and email it', X gets made and the email gets sent - consistently, regardless of which brain is on duty, because the ACTION is deterministic code now, not a brain's guess. + v11.27 - THINK (my way of working, in him): the operating loop that makes an assistant actually effective, not just full of features. /do <task> (or /handle, or 'handle this properly / thoroughly / the way you would') runs Nemo through the same method I use on every real job: UNDERSTAND (restate it, and resolve 'it/that/the file' from the recent chat so a follow-up like 'give me the pdf here' isn't misread) -> CLARIFY (only if ONE essential detail is genuinely missing, ask a single question and resume when you reply - never nitpick) -> GATHER (pull what he already knows: durable memory + your indexed files + a quick web look-up, the way I read before I edit) -> PLAN -> EXECUTE -> VERIFY (his agent self-checks against the goal before finishing) -> honest report. It reuses his autonomous agent for the execute+verify core; the new part is understanding and grounding the task BEFORE acting. A new 'handle' intent + a pending-question resume make it feel like a real back-and-forth. Honest limit: this gives him my METHOD, which makes even a smaller brain far more effective - but his raw reasoning ceiling is still his model's, so it's my way of working in mini form, not a clone. Purely additive; every existing command and the fast one-shot paths are untouched; rails intact. + v11.26 - EMAIL, FOR REAL (fixes the '/email test still fails though Google is connected' trap): the root cause was that Google was linked BEFORE the gmail.send permission existed, so the token can read Gmail but can't SEND - and two things hid this: (a) /email test only pinged the Gmail profile / fell back to the SMTP error (which ALWAYS fails on DigitalOcean), so it never proved SEND and blamed the wrong thing; and (b) /google, once connected, was a DEAD END - it only offered 'relink with client_id/secret' and never a way to re-approve the new permissions. Fixes: (1) /email test now does a REAL test send to your own address via the Gmail API and reports the TRUTH - '✅ works, check your inbox', or, if the token lacks send permission, '⚠️ connected but without Gmail SEND permission - re-authorize in one tap', never again the misleading SMTP 'check your password'. (2) /google, when already linked, now hands you a one-tap RE-AUTHORIZE link built from your ALREADY-SAVED Client ID (open -> Allow -> /gauth <code>) - no need to re-enter anything - so you can grant Gmail send in ~20 seconds. So the fix for you: send this update, then run /google, tap the link, Allow, and /gauth <code>. Email then works over HTTPS (port 443), unaffected by the SMTP block. Purely additive; rails intact. + v11.25 - FIX (the three real problems: email, understanding, and the final result): (1) EMAIL that actually sends - a PDF you ask to be emailed now goes out over the Gmail API (HTTPS/443, which works even though DigitalOcean blocks SMTP), is ATTEMPTED whether or not an SMTP app-password is set, and on failure tells you the REAL reason + 'run /google once to re-grant send permission' instead of the misleading 'check the app password'. (The most likely cause of your failure: your Google sign-in predates the gmail.send scope - one /google re-consent fixes it.) (2) UNDERSTANDING what you asked - the PDF topic is now cleaned properly: 'GENERATE A POWERFUL PINE SCRIPT NEW IN PDF AND EMAIL X' no longer becomes a document titled 'A Powerful Pine Script New In And' (the 'in pdf / and email X / address' tail is stripped cleanly), and 'give me the pdf file here' is understood as a FOLLOW-UP - I resend the last file, or turn my last answer into a PDF - instead of writing a bogus report titled 'Me The File Here'. (3) The FINAL RESULT matches the request - make_pdf no longer forces every PDF into a beginner 'course'. A code/script/strategy/indicator request (e.g. a Pine script) now produces the ACTUAL working code (TradingView Pine v5 for pine) with Overview / CODE / HOW IT WORKS / HOW TO USE, AND the raw .pine (or .txt) file is delivered too; a report request gets a real structured report; only a learn/teach/course request gets a course. Purely additive; rails intact. + v11.24 - MAKER (mini-me abilities: he plans, codes, charts, and hands you real files): the things you said he couldn't do like I can - now his, in mini form. (1) REAL DOCUMENTS - he builds and delivers actual files, not just chat text: a Word .docx ('make me a word doc about X', /doc), an Excel .xlsx spreadsheet with real headers + numeric cells ('put my expenses in a spreadsheet', /excel), and plain .txt / .md / .csv files (/txt). (Illustrated PDFs and PPT decks were already there.) (2) VISUALIZATIONS - /chart (or 'make a bar/line/pie chart of ...') turns data or a described dataset into a real matplotlib chart image and sends it. (3) CODE AS A FILE - /script (or 'write me a python script file') writes a program in the right language and delivers it as a downloadable code file (say 'run it' to execute); the existing /code still WRITES-AND-RUNS and returns the result. (4) VISIBLE PLANNING - /plan (or 'make a plan for ...' / 'break this down') turns a goal into a clear numbered step plan and shows it, then 'do it' hands it to his plan->act->verify agent. All reachable in plain language (fast-paths + the AI intent-router) AND given to the autonomous agent as new tools (docx/xlsx/chart/textfile), so mid-task he can produce a sheet or chart himself. Purely additive; rails intact. + v11.23 - CURIOSITY (he fills the gaps himself + learns from the world): you gave him the internet; now he USES it on his own. When a question needs current or factual knowledge he may not hold (latest/price/news/'who is <name>'/'when is <event>'/a named thing), he quietly looks it up on the web FIRST, grounds his answer in what he found, and then DISTILS 1-2 durable facts into his permanent memory - so next time he already knows it (compounding knowledge, surfaced automatically by mem_recall). No 'please search' needed; he just does it. His autonomous agent gets the same instinct: a RESOURCEFULNESS rule so it researches a missing detail itself (web/fetch/recall) instead of stalling to ask you. And a curiosity 'soul' line in his persona: naturally curious, resourceful, never fabricates. Controls: /curiosity on|off (default ON, persisted), /learned [word] shows exactly what he's taught himself and when. Conservative by design - it does NOT web-search greetings, code, math or timeless 'explain X' questions (no needless latency), and it's a silent no-op if the web is unreachable. Purely additive; rails intact (still never fabricates, owner-only, money/destructive/self-mod still need a tap). + v11.22 - ANY-SITE VIDEO + YOUR PROXY: (1) UNIVERSAL VIDEO DOWNLOAD - /video <url> (aliases /vdl /dlvideo) or just 'download the reel/clip/video from <url>' pulls a video (or 'audio'/'mp3' for just the sound) from ANY of the ~1800 sites yt-dlp supports - Instagram, X/Twitter, TikTok, Facebook, Reddit, Vimeo, Dailymotion, Twitch, news video, most embeds - and sends it over Telegram if it fits (50MB) else saves it on the server (+ your Drive). For sites where you must be logged in, it uses YOUR OWN cookies (export cookies.txt, send /browsercookies) - it uses your session, it does not defeat the login. DRM-locked paid streaming (Netflix, Prime, Hotstar, Disney+, Spotify...) is refused honestly: those streams are encrypted and can't be pulled. YouTube keeps its richer path (summary/notes/playlist). (2) YOUR OWN PROXY / VPN - /proxy set http://user:pass@host:port (or socks5://host:port), /proxy off, /proxy to show. A proxy YOU provide (your subscription or your own box) is then applied to video downloads and web fetches, so he can reach content the server's bare datacenter IP is geo-blocked from, or route privately. This is legitimate access through YOUR endpoint - deliberately NOT a rotating proxy-pool to evade IP bans. Two things you asked for that I did NOT build, and why: a system that DEFEATS a site's bot-check / CAPTCHA / human-verification (that's built to circumvent a security control and is the engine of scraping-abuse, fake-account and credential-stuffing fraud - so it's off the table); and a self-standing 'access everything' ban-evasion VPN/rotator (same reason). The honest path is already here: when the browser agent meets a login/OTP/CAPTCHA it screenshots it and asks YOU to solve it, then continues on your authority (v10.4 human-in-the-loop) - a human does the human-verification. Purely additive; all rails intact. + v11.21 - TALK (no commands, just tell him): you never NEED a slash command again - say what you want in plain words (any language) and he does it. His ~300 abilities are all still there, but plain language is now the front door to ALL of them, not just some. The regex fast-paths already caught the common phrasings ('run df -h', 'read /root/x.py'); v11.21 adds the missing abilities to his AI intent-router so the phrasings the regex MISSES still reach the REAL hand instead of a generic chat reply: new understood intents terminal (run any server command), fetch (read a page's data), download (save a file onto the box), readfile / listfiles (his own files), knowledge (search your indexed documents), api (call any REST endpoint), apex (maximum-power multi-step job), and a catch-all act (ANY imperative 'do this for me' order -> his autonomous plan->act->verify agent). So 'jara dekh to server ka disk kitna bhara hai', 'pull the numbers off that page for me', 'sort out my server and mail me a summary' now DO the thing. Nothing removed, every command still works; the same rails hold inside each (owner-only, audited, money/destructive/self-mod still need a tap). Purely additive. + v11.20 - REACH (longer hands): three big new capabilities that extend what he can touch. (1) UNIVERSAL CONNECTOR - /api <METHOD> <URL> [:: json] calls ANY REST API (GET/POST/PUT/DELETE), and /api save <name> ... stores a named endpoint + auth header so 'call my <name> api' works; the autonomous agent also gets an 'api' tool, so he can reach any external service you have a key for (CRMs, sheets, webhooks, IoT, other bots...). (2) SCHEDULED ACTIONS - /every <interval> <action> and /at HH:MM <action> run ANY of his abilities on a repeat or at a set time ('/every 1h run df -h', '/at 09:15 send me the premarket brief', '/every 1d market brief') - real actions, not just reminders - so his hands work while you sleep; /schedules lists them, /unschedule <id> cancels. Persisted in the kv store (survives updates), fired from the scheduler. (3) DOWNLOAD TO SERVER - /get <url> [name] (or 'download <url> to the server') pulls any web resource onto the box (60MB cap) so he can then /read, /index or send it. All owner-only, audited to the tamper-evident chain, and destructive/system paths still refused. Purely additive. + v11.19 - APEX / GODMODE (the capstone): maximum capability + UNBREAKABLE reliability, within the rails that keep him alive. (1) UNBREAKABLE: ask_ai now has a hard answer-deadline (~40-85s) so when every free brain is jammed it STOPS cycling and replies clearly ('my brains are all busy - try again in a minute, nothing is broken') instead of leaving you on 'Thinking...' for minutes - the exact freeze that just happened can't recur. (2) ONE MIND: the autonomous agent gains a 'recall' tool that searches your knowledge base (indexed files) + durable memory, so his execution draws on everything he knows about you. (3) APEX MODE: /apex <goal> - or just say 'full power', 'use everything', 'unleash', 'go all out', 'maximum power' - runs his MAXIMUM agent: more steps (18), the directive to use EVERY tool (shell, fetch, files, code, web, recall, quote, godmode, pdf...), be exhaustive, cross-check, and VERIFY before finishing. Honest limits kept by design: max ABILITY, but money / destructive shell / system writes / self-modification still need one tap or are refused - that is what stops him bricking himself or leaking your Dhan/Google/root keys. Power that survives. + v11.18 - TOOL-CALL LEAK FIX (the '<tool_call><function=pdf>...' bug): when you asked for a PDF report to your mail, a brain PRINTED the raw function-call markup as a chat message instead of building anything. Fixed two ways: (1) a deterministic route so 'give/make/send me a (complete) report/PDF of X [to my mail]' now ALWAYS builds the PDF via make_pdf and emails it to you - it never reaches the general brain; and (2) a universal guard (_tool_leak / _strip_tags) that catches any leaked <tool_call>/<function=..>/<parameter=..> markup on EVERY channel (chat, web, PWA) - if it recognises the intended ability (pdf/image/slides/web) it actually RUNS it, otherwise it strips the markup so internal syntax is never shown to you again. + v11.17 - DEPTH: reasoning + a knowledge brain + self-running + a visible command center. (1) SMARTER: hard questions (why/how/compare/analyse/plan/decide, long or multi-part) now trigger a private step-by-step REASONING pass before he answers, then the regulator self-checks it - so answers are deeper, not just faster; and a plain 'that's wrong / you missed it' now stores a lasting LESSON (fed into future answers) and redoes it in MAX mode, no /bad needed. (2) KNOWLEDGE BRAIN over your files: /index <path> full-text-indexes your files+PDFs (SQLite FTS5), then /know <question> - or 'search my files for X' - answers across everything with citations. (3) SELF-RUNNING watchdog: every ~10 min he checks each deployed app's service and AUTO-RESTARTS any that CRASHED (failed units only, rate-limited, audited + notified). (4) VISIBLE POWER: a real /dashboard command-center on his web server - live system + server health, apps, activity, what's coming up, and a command box - so the power is something you SEE and drive, not 290 commands to remember. Purely additive. + v11.16 - SMARTER + SAFER HANDS: (1) SECURED TERMINAL - every /shell command and file write is now logged to the v11 tamper-evident audit chain + activity ledger, there's a 25-cmd/min rate guard, and /shell readonly on blocks any command that changes something (reads still work). (2) AGENT GETS THE HANDS - the autonomous /agent (/solve) can now use shell, fetch, readfile, ls and writefile, so it does real end-to-end server work ('find why nemobot crashed and fix it' -> tails the log, reads it, diagnoses, patches, restarts) with its plan->act->VERIFY loop; destructive shell + system-path writes are refused (owner must do those manually). (3) CONVERSATION MEMORY - a short-term per-chat context (recent turns + actions) is injected into his brain so follow-ups resolve ('do it again for BankNifty', 'what did you just find'), and 'email/send that to me' now emails his LAST answer. (4) CHIEF-OF-STAFF PROACTIVITY - a ~30-min watch pings the owner UNPROMPTED but only on material things: server disk >88%, memory >92%, a reminder due within the hour, or to-dos piling up (deduped, cooldowns). Purely additive. + v11.15 - REAL HANDS (terminal + site-data + files) & plain-words routing: gives Nemo the hands people said he lacked, and makes plain language actually FIRE them instead of a chatbot reply. (1) TERMINAL: /shell <cmd> (aliases /sh /bash /terminal /exec) runs ANY command on the server and returns the live output - owner-only, persistent cwd (`cd` sticks), per-command timeout, and a confirm-tap guard on destructive commands (rm -rf /, mkfs, dd, shutdown...). (2) SITE-DATA GRABBER: /fetch <url> [what you want] pulls a page and hands back clean text/tables/JSON (BeautifulSoup when present), answering a question from it if you ask one, and falls back to the real browser agent for JS/login pages. (3) FILE ACCESS: /ls, /read (/cat), /download, /writefile <path> :: <content> - browse, read, receive and create files on the server (owner-only; system-path writes need a confirm tap). (4) PLAIN-WORDS ROUTING: nl_route now has deterministic fast-paths so 'run df -h', 'shell systemctl status nemobot', 'get me the data from <url>', 'read /root/x.py', 'list files in /root', 'download /var/log/syslog' hit the REAL tool every time - never the general brain. Purely additive; every existing command untouched. + v11.14 - EMAIL NO LONGER LIES: fixes the bug where 'email to someone@x.com <message>' got a fake 'Email dispatched...' reply while nothing was actually sent (the Sent box stayed empty). Root cause: only a handful of deterministic phrases were force-routed to the real send code; everything else was handed to an AI intent-classifier, and when it guessed wrong the message fell through to the general chat brain - whose own system prompt ('you send emails, so speak like it') then HALLUCINATED a success, even auto-'correcting' the address. Three fixes: (1) a deterministic fast-path in nl_route now catches any explicit 'email/mail <address> <message>' and ALWAYS runs the real send (nl_emailto) - the chat brain can never answer it, and the address is sent EXACTLY as typed (no silent correction); (2) nl_emailto now accepts the Gmail-API/HTTPS path (via /google) instead of demanding an app password, and on failure reports the REAL reason (LAST_EMAIL_ERR) + hands your draft back, instead of a fake confirmation; (3) the persona system prompt now carries a hard 'NEVER FAKE AN ACTION' rule - if Nemo is replying as plain text he must never claim he sent an email / placed a trade / made a call, across ALL abilities. Report/PDF-to-email requests are untouched. + v11.13 - PWA: FILE UPLOAD (PDF/Excel/CSV/text) alongside images: the \U0001F4CE attach button now also takes documents. A new /api/file endpoint decodes the upload, extracts its text (PDF via pypdf, Excel via openpyxl, CSV/TXT/MD/JSON etc. directly - the same formats handle_document reads), stores it as the loaded DOCS document (which ask_ai already injects into every answer), and replies with a summary - so you upload a quote/statement/report from phone or desktop and immediately ask questions about it, with follow-ups working automatically. Images still route to the vision path; the attach button branches by file type. + v11.12 - PWA: STOP + IMAGE UPLOAD: the web app now has a \U000023F9 STOP button (appears while Nemo is speaking or a request is in flight - cancels the voice AND aborts the request) and a \U0001F4CE ATTACH button to upload an IMAGE from the browser - it's downscaled client-side to 1280px JPEG and run through Nemo's real vision/OCR path (new /api/upload -> web_image -> ask_ai with the image), so you can photograph/attach a document or screenshot and ask about it from phone or desktop, exactly like sending a photo in Telegram. The uploaded image is also stashed as LAST_PHOTO so a follow-up 'ocr it' works. + v11.11 - NEMO EVERYWHERE (PWA): Nemo's built-in web chat is now an INSTALLABLE app - the first 'window' beyond Telegram, onto your phone home-screen AND desktop at once, sharing the same brain. His Flask web server now serves a real Progressive Web App: /manifest.json + /sw.js (service worker: offline app-shell cache, install) + generated /icon-192.png & /icon-512.png, and the chat page is upgraded with PWA meta tags, an Install button (beforeinstallprompt, with iPhone Share->Add-to-Home-Screen guidance), safe-area layout, persistent login (token from ?k= is saved to localStorage so the home-screen icon stays logged in), voice in/out, and a \U0001F4CA live-status glance via a new read-only /api/status endpoint (returns /status). Open it via /connect (public HTTPS URL + token over Cloudflare Tunnel) -> Add to Home Screen -> installed. Chat + read-only status only from the web channel (destructive commands stay Telegram-side, by design). Reuses the existing token auth; purely additive. + v11.10 - AUTONOMOUS SELF-GROWTH (safe by design): /selfgrow makes Nemo RESEARCH THE INTERNET (plus his own recent errors) for ways to improve himself, form ONE concrete low-risk improvement to a non-core function, and route it through his SUPERVISED self-editor - compile-check -> diff -> your one tap Apply -> backup -> /rollback. /selfgrow auto on runs it about weekly and only ever PROPOSES. He genuinely self-develops from the web; you stay the single tap that stops him from self-DESTROYING. Deliberately NOT built: unrestricted self-modification (rewriting/deploying code from the internet with no test/backup/approval) - that one change can permanently brick him or leak the Boss's Dhan/Google/Telegram/root credentials with no recovery, and it violates this project's own constitution (§22, 'never uncontrolled recursive self-modification' + rollback always preserved + user is final authority). Core stays _UNEDITABLE; money/security/secrets always need a human tap. + v11.9 - NEMO OS CORE COMPLETE (phases 2-10 working cores, one release): DECISION MEMORY (/decision journal with expected-vs-actual, /decisionreview calibration, /counterfactual with hindsight-bias guard, /biascheck challenges you); AI BOARD + RED TEAM (/board = 5 independent seats analyzed in parallel without seeing each other -> disagreement extraction -> red-team attack -> judge verdict with FOR/AGAINST/assumptions/fail-conditions); PREDICTION (/predict with probability+uncertainty, never presented as fact); ANOMALY watch (disk/memory/db baselines + jump detection); RADAR (/radar add|report - monitored topics, only MATERIAL items surfaced); OPPORTUNITY scan; SIMULATION (/businesssim - real Monte Carlo, 500 trials x BASE/OPT/PESS/STRESS, payback/ROI/P(loss)); CHIEF OF STAFF (/chief - reminders, open tasks, blocked work, open decisions, anomalies in one brief); TASK GRAPH (/taskgraph - dependencies, ready vs blocked); memory VERIFY + CONTRADICTIONS on the world model; GOVERNANCE (permission LEVELS 0-6 shown in /permissions, NEMO_CONSTITUTION inherited by agents, /why provenance chains, hash-CHAINED tamper-evident audit + /auditchain verifier); /status full OS dashboard; /agenthealth scores. Deferred honestly: web dashboard UI, desktop-app control, scheduled radar crawls, model-disagreement engine, memory decay (named in NEMO_V11_CHANGELOG.md). All additive - every v10.24 command untouched. + v11.0 - NEMO OS PHASE 1: WORLD MODEL / KNOWLEDGE GRAPH (start of the v11 'Personal AI Operating System' program - see NEMO_ARCHITECTURE_AUDIT.md for the full 11-phase plan). Nemo now keeps a persistent, TEMPORAL model of your world in his SQLite brain: entities (people, suppliers, projects, companies), typed relations between them, and DATED facts that carry SOURCE + CONFIDENCE (provenance) and are NEVER overwritten - so 'Supplier X quoted 10L' in March and '8.5L' in August both stay, each with its date. /fact <entity>: <fact> teaches him (free-form works too - AI extracts entity+fact), /world <entity> shows the full profile with provenance, /timeline <entity> replays the dated history, /relate A | rel | B links entities, /graph shows the model, /os shows v11 phase status. Every kg fact also feeds vector memory so /recall finds it semantically. Purely additive (new kg_* tables + one dispatcher; all 332 existing commands untouched). + v10.24 - PROJECT BUILDER (create 'vast things', not just scripts): /project <name>: <what to build> makes Nemo build a whole MULTI-FILE project by himself - he plans a file manifest, writes each file, installs the pip deps, RUNS the tests, and if they fail he reads the errors and fixes his own code (up to 2 repair rounds), then zips the project and sends it to you. /projects lists them, /project <name> zip re-downloads one. Files live in /root/nemo_projects/<name>. This is the generate->test->repair loop that turns 'one script' into real software. Owner + deploy-cap gated. + v10.23 - CRASH-SAFE MEMORY (durable-memory foundation): Nemo already saved his brain (facts, contacts, projects, todos, habits, history, the AI team...) to bot_memory.json from 67 places - but the write was NOT atomic, so a kill mid-save could corrupt the whole file and load_data would silently start BLANK with no backup (total amnesia). Fixed: saves are now atomic (temp -> fsync -> os.replace) and keep a .bak of the last good copy; load falls back to .bak if the main file is corrupt, so one bad crash can never wipe his memory again; a 150s autosave loop backs up state changed by paths that don't call save_data; and if he ever does recover from backup he tells you on boot. This is the safe foundation for growing him side by side. + v10.22 - SOLVES ON HIS OWN (plan -> act -> CHECK -> report): TRUE AGENT MODE now VERIFIES its own work before finishing instead of stopping at the first 'done'. When the agent tries to finish, Nemo strictly checks the proposed answer against the original objective; if a real part is missing/wrong/unverified, he names the gap and keeps working to fix exactly that (up to 2 self-corrections), then reports - so complex, multi-step jobs actually get completed, not half-answered. Step budget raised 8 -> 12 to leave room to adapt. New /solve alias (same as /agent), and saying 'solve ...' / 'figure out ...' in chat now triggers the autonomous agent directly. Uses his existing rich toolset (web, open, quote, code, pdf, email, remind, todo, finish). + v10.21 - EMAIL OVER HTTPS (fixes the DigitalOcean SMTP block): the real reason /email set failed with 'couldn't reach Gmail's mail server' is that DigitalOcean BLOCKS outbound SMTP ports - not the password. Nemo now SENDS via the Gmail API over HTTPS (port 443, never blocked), using the Google account you already connected with /google (it has the gmail.send scope). send_email tries the Gmail API first and only falls back to SMTP; /email test now reports which path works; the network-error message now names the SMTP-block cause and points to /google. So: run /google once (if not already), then email just works - no App Password needed. + v10.20 - EMAIL FIX + SELF-DIAGNOSIS: email 'sending failed' now tells you the REAL reason instead of a generic essay. Nemo captures the actual SMTP error (LAST_EMAIL_ERR) and translates it to a plain cause + fix (e.g. '535 = wrong/expired App Password or 2FA off'). New: connect Gmail from chat with /email set <gmail> <app password> (no file editing), and /email test does a LIVE Gmail login and reports exactly what's wrong. Best of all, asking 'why did email fail / email not working' now makes Nemo check HIMSELF (real SMTP test) rather than routing it to the general brain that wrote the SPF/DKIM essay. The root cause of your failure: the Gmail App Password is set but Gmail is rejecting the login - regenerate it (2FA must be on) and run /email set. + v10.19 - SELF-UPDATE (no more SSH): send Nemo a new nemotron_bot.py in Telegram, then /update - he verifies it's really my code (size + markers, so a random script can't nuke me), compile-checks it, backs the current me up to /root/nemo_backups, swaps himself in and restarts (you tap Apply first; /rollback undoes it). Reuses the proven /upgrade rails. When you send a .py that looks like a new me, he now offers /update automatically. From here, every future version installs by dropping a file in chat - no console, no scp. + v10.18 - BOT FACTORY LIBRARY (factory data): Nemo now carries a library of ready-made bot TYPES he can create on command and modify - the engine for a bot-building service. /templates lists them (FAQ/auto-reply, appointment booking, order+catalogue, subscribe+broadcast, feedback/rating); /newbot <type> <name> : <business> scaffolds a complete standalone Telegram bot from that template and ships it through the SAME supervised pipeline as /ship (compile-check -> bake env -> tap to start); then /env <name> BOT_TOKEN=... OWNER_ID=... turns it on, and /app <name> edit <change> lets Nemo customise it further. Each template is a real, working long-poll bot (owner-notify, JSON storage). Extensible - more types can be added to BOT_TEMPLATES. + v10.17 - GOOGLE MAPS: Nemo can now find any place/store/shop and show its address, live rating + top reviews, open/closed, phone, website and a map image (/place, /find, /reviews, /map); list ranked options nearby (/near cafes in Andheri); and compute real ROAD distance + time WITH live traffic between two places plus a route-map picture (/trip A to B, also /distance /route, and 'by walking/transit/bicycling'). Reuses the SAME Phase-2 Google Cloud key (/gcloud) and the same daily safety cap - you just enable Places + Directions + Geocoding + Static Maps in the Cloud console (up to 10,000 free calls per API per month, so personal use is effectively free). Raw REST via the Maps Platform, owner-only, threaded so it never blocks. + v10.16 - HINDI PDF FIX: reports in Hindi were coming out as '?????' because the Devanagari font never loaded on the server (the runtime GitHub download 403'd) so the text got mangled to Latin. _ensure_hindi_font() is now robust and self-healing: it finds any Devanagari font already on the box, else apt-installs one itself (Nemo is root - no fragile download), and guarantees the uharfbuzz shaping engine so conjuncts/matras place correctly. make_pdf() will now NEVER hand back a '?????' PDF - if no font can be loaded it sends readable Unicode text plus the one-line server fix instead. The AI was always writing correct Hindi; only the PDF drawing step was broken. + v10.15 - GOOGLE SUPER-LAYER (2 phases). Phase 1 (free, reuses his Google login - one re-consent for wider scopes): /backup his whole brain to Drive, Sheets as a LIVE database you can open on your phone (/log <sheet>: a, b, c  ·  /gsheet <sheet>), /gdoc <title>: <body> makes a Google Doc, /gtask + /gcontact + /findcontact. Phase 2 (needs a Google Cloud API key + billing, but big free tiers + a hard daily call cap): /gcloud <key> turns on Vision (/gsee reads/labels a photo), Translate (/gtranslate hi: text), Text-to-Speech (/gsay), Gemini (/gemini), and real Google Search (/gsearch). + v10.14 - ONE-STEP SECRET REFRESH: /env <app> KEY=VALUE now, if the app is already live, rewrites its locked .env and RESTARTS it on the spot - no re-ship. So refreshing a daily API token (e.g. Dhan's 24h token) is a single paste to Nemo. + v10.13 - APP EDITOR (Nemo patches apps he deployed): Nemo can now edit a running app's code himself, not just his own - same supervised rails (pick function -> rewrite -> compile-check -> diff -> you tap Apply -> back up -> restart just that app -> /app <name> rollback if needed). Just say 'add a /dhan self-test to signalbot' or run /app signalbot edit <change>. So he can fix and extend the bots he ships, on his own. + v10.12 - APP FACTORY + SECRETS: you can now hand Nemo a program's secrets in chat with /env <name> KEY=VALUE (bot tokens, API keys) and he bakes them into a locked-down 600 .env file the service reads - so you never edit the code file. Everything else as v10.11 (SHIP a .py as a live 24/7 systemd service, /build, /apps, /app manage). + v10.11 - APP FACTORY (real hands to SHIP a program): Nemo now takes a program - one he writes, or a .py you send him in chat - and actually RUNS it on your server as a managed 24/7 systemd service. He writes the file to /root/apps/<name>, installs its pip packages, safety compile-checks it, creates the service, and starts it (you tap Ship & start to confirm). /ship <name> deploys a .py you just sent; /build <name>: <what it does> has him write the program himself then ship it; /apps lists them; /app <name> logs|restart|stop|rm manages them. Owner-only, gated by the 'deploy' capability (/caps deploy on) + /lockdown, refuses to touch system units. This closes the gap where his 'mission' team only produced a REPORT - now he can hand you a running bot. + v10.10 - SELF-EVOLVING: Nemo reviews his OWN errors, system logs and rough edges, decides what to fix/improve, and DRAFTS the code changes himself - you just approve. /evolve makes him study himself and propose the 3-6 highest-value improvements (each targeting one real function, grounded in errors he actually hit); /evolve <n> hands that exact improvement to his supervised self-editor (compile-check + diff + tap-to-Apply + backup + /rollback), and /evolve auto on runs a weekly self-review that only ever PROPOSES (never auto-applies). Core control functions stay _UNEDITABLE. Just say 'improve yourself' / 'review your errors and get better'. + v10.9 - YOUTUBE+: turn a video into a STUDY-NOTES PDF (/ytnotes or 'notes'), and summarise a WHOLE PLAYLIST into a PDF study guide (/ytplaylist or paste a playlist link) - per-video bullets + an overall overview, Hindi-capable PDF. + v10.8 YOUTUBE: robust video SUMMARY (transcript via youtube-transcript-api -> yt-dlp auto-subs with cookies -> audio+Whisper, then an easy 'explain like to a friend' summary by Claude) and DOWNLOAD (/ytdl video, /ytmp3 audio, cookie-aware, sent over Telegram if it fits else saved/Drive). Just paste a YouTube link. + v10.7 SCANNER: send a photo and Nemo turns it into a clean, cropped, straightened PDF (document scanner), or extracts all its TEXT (OCR, Hindi too), or decodes a QR - via caption 'scan'/'ocr'/'qr' or the /scandoc /ocr /qr commands. + v10.6 STRONGER HANDS for the browser agent: VISION fallback (screenshots the page and acts from what it SEES when there's no readable HTML, via clickxy), new actions (key presses, coordinate click, back, file upload, structured extract->data), and SESSION/COOKIE import (/browsercookies loads a cookies.txt so Nemo is logged in on sites like YouTube - the reliable way past login walls). + v10.5.2 LOGIN HANDS hardening: the human-in-the-loop now fills the value ROBUSTLY (finds the real email/password/OTP input even if the AI's field index is off, verifies it landed, auto-submits) and has a loop-guard that stops re-asking and explains honestly when a site (e.g. Google/YouTube) is blocking the automated login. + v10.5 SELF-DEFENSE (blue-team, THIS SERVER ONLY): tamper tripwire (fingerprints his own code/secrets/SSH-keys and alerts + optional auto-lockdown on change), intruder watch (failed-SSH by IP), exposure/open-port self-scan, ClamAV malware scan, pip-audit CVE check, and a hardening pack (chmod/fail2ban/ufw keeping SSH open). NO target field anywhere - every check runs against this host only; owner + capability gated. Ask 'scan yourself for viruses / who is attacking me / am I exposed'. + v10.4 HANDS + HUMAN-IN-THE-LOOP: the browser agent can now pause on a login/password/OTP/2FA/CAPTCHA, send you a screenshot of what it sees, WAIT for your chat reply, type it into the field and continue - so you complete logins together and Nemo stays logged in (persistent profile). New 'ask' browser action; your reply is routed to the live session and the secret value is never logged. + v10.3 DYNAMIC TOOLS UPGRADE: /toolmake now builds reusable tools that use third-party packages (declared '# requires: yt-dlp ...', auto pip-installed + reinstalled after redeploy) and reach the internet (run on host; pure-stdlib tools keep --network=none isolation) - so you get a permanent /tool musicdl <song> instead of one-shot scripts; also run_code writes self-contained scripts (inputs hardcoded, no required argv/input). + v10.2 CODE AGENT FIX: generated Python no longer gets its dunders corrupted (clean_text was stripping __ and ** so __name__/__main__ became name/main); run_code now uses the RAW code path + the premium brain + a SELF-REPAIR loop (reads its own traceback and fixes the bug, up to 2 tries). Same raw fix applied to self-upgrade and dynamic tools. + v10.1 TRACK 3 BUILDER on top of the Mastermind Core: GitHub connect + AI code-review agent (issues/PRs/CI, auto-review PRs via webhook), dynamic tool creation (Nemo writes-tests-registers his own sandboxed tools), multi-agent swarm orchestration (parallel workers -> synthesis), and observability (/metrics, /logs, ERROR alerts). + v10.0 MASTERMIND CORE (Track 0+1+6): event-driven nervous system (SQLite state, durable event queue, stdlib HTTP webhook gateway + Nemo's own /api/v1, capability layer + audit log + /lockdown kill-switch), infra control (DigitalOcean create/reboot/snapshot/destroy, git self-deploy with pre-swap compile check + boot canary, Docker sandbox exec), and an autonomy layer (goal planner plan->act->report loop, condition triggers, reflection-to-memory). All owner-gated. + v9.8.3 land-records FULL FLOW from real screenshots: auto-ACCEPTS the 'सूचनार्थ नकल' confirm() dialog (Playwright was silently cancelling it), captures the Nakal HTML document (Edharti_A4_Nakal_village.aspx) as a PDF (it is NOT a file download), and the playbook now matches the exact 10-step Apna Khata flow (district/tehsil dropdowns -> alphabet+village row -> radios -> searchable khasra box -> नकल सूचनार्थ). + v9.8.2 IFRAME-AWARE browser: govt forms (Apna Khata) load inside an <iframe> so the top page looked blank; Nemo now finds and drives the real form frame + sends a text diagnostic on failure + never clicks top-nav tabs. + v9.8.1 land-records cascade fix (waits for the ASP.NET postback so तहसील/RI/village dropdowns fill before selecting; more steps; tells you which brain drove it) + Claude PREMIUM BRAIN on tap (Boss's Anthropic API key): auto-escalates the HARD jobs - drives the browser/land-records flow, /think deep answers, and a smart backup when free brains choke - while free Nemotron/Groq still handle everyday chat so credits last. Cost-aware (Haiku default, Sonnet for browser/think, running spend in /brain). + v8.8.2 Hindi/Unicode PDFs (Noto Devanagari, was: ?????) + report emails when you ask + mission progress/recipient fixes + activity audit log + confirm-on-money + FII/DII in the trading brain + IFSC/QR/short-links + v8.7 distinct mission team/chaining/maps/translate + v8.6 vector memory/TradingView/insights + v8.5 Google + v8.4 voice/backtester + v7.9 grounded market data + v7.8 identity + v7.5 live option chain + v7.4 natural-language brain + trading.
 # v13.33: Batch 1 - Continuum persistent research goals, Skills Engine, Guardian 2.0, command regression.
  + v13.13 - MEDIA + HUMAN BROWSER + NETWORK SECURITY: upgraded universal public-media downloader with interactive format selection, persistent download state, file-type/hash validation, safe cleanup, and task-scoped proxy/VPN support; browser human-in-the-loop checkpoints now explicitly ask what/when/what-to-write and persist pending input; added owner-only VPN manager with WARP/Proton guidance, imported WireGuard profiles, wg-quick lifecycle, route/IP/DNS checks, and protected-task abort when VPN verification fails. Does NOT bypass DRM, CAPTCHAs, authentication, or access controls. No VPN private keys are written to source.
 """
@@ -53239,6 +53239,8 @@ def _n55_option_chain_struct(symbol='NIFTY',strikes=12,expiry_ts=None,persist=Tr
     exp=expiries[0] if expiries else {'label':'','timestamp':None};ets=_n55_parse_expiry_ts(exp.get('label'),exp.get('timestamp'));days=max(0.001,(ets-_n55_time.time())/86400.0) if ets else None
     out={'ok':True,'symbol':sym,'underlying':und,'spot':spot,'atm':atm,'pcr_oi':round(pcr,4) if pcr is not None else None,'expiry':exp.get('label') or 'nearest','expiry_ts':ets,'days_to_expiry':round(days,4) if days is not None else None,'expiries':expiries,'rows':flat,'strikes':allst,'source':'FYERS authenticated option-chain read','fetched_at':_n55_time.time(),'previous_snapshot_ts':prev_ts}
     out['quality']={'grade':'A' if spot and len(flat)>=6 else 'B','issues':[] if spot else ['underlying spot unavailable']}
+    try:out['iv_solved']=_n94_fill_iv_rows(flat,spot,days)       # v94: the broker feed can send no implied volatility; solve it from the prices so Greeks, the IV surface and the snapshot comparison work
+    except Exception:out['iv_solved']=0
     if persist:
         sid='OC55-'+_n55_uuid.uuid4().hex[:10].upper()
         try:
@@ -64099,7 +64101,7 @@ def _n79_redact(text):
 
 def _n79_editable(name):
     import re
-    if name.startswith(('_n81_','_n82_','_n83_','_n84_','_n85_','_n86_','_n87_','_n88_','_n89_','_n90_','_n91_','_n92_','_n93_','_p75_')) or name in ('can_enter','must_square_off'):return False
+    if name.startswith(('_n81_','_n82_','_n83_','_n84_','_n85_','_n86_','_n87_','_n88_','_n89_','_n90_','_n91_','_n92_','_n93_','_n94_','_p75_')) or name in ('can_enter','must_square_off'):return False
     if name=='_n79_feature' or name.startswith('_nf79_'):return True
     if name.startswith('_n79_'):return False
     return not re.search(r'handle|main|owner|secret|token|auth|key|upgrade|update|rollback|txn|boot|repair|evolve|grow|guard|confirm|permission|shell|exec|broker|trade|order|payment|brain|_n7[234]|_n66|_n71',name,re.I)
@@ -80869,6 +80871,9 @@ def _n90_op_upscale(im, factor):
     w, h = im.size
     if w * factor * h * factor > _N90_MAX_PIXELS or max(w, h) * factor > 9000:
         raise _N90Fail('too_big')
+    ai = _n94_upscale_ai(im, factor)             # v94: Real-ESRGAN in a separate program when it is installed, switched on and the server has the memory
+    if ai is not None:
+        return ai
     big = im.convert('RGBA' if im.mode == 'RGBA' else 'RGB').resize((w * factor, h * factor), Image.LANCZOS)
     return big.filter(ImageFilter.UnsharpMask(radius=1.6, percent=80, threshold=2))
 
@@ -81008,11 +81013,7 @@ def _n90_remove_bg_local(im, tolerance=38):
 
 def _n90_remove_bg_rembg(im):
     try:
-        import rembg
-    except Exception:
-        return None
-    try:
-        return rembg.remove(im.convert('RGBA'))
+        return _n94_rembg(im)                    # v94: runs in a separate program (about 0.8 GB for a few seconds), never inside the bot
     except Exception:
         return None
 
@@ -81029,23 +81030,23 @@ def _n90_removebg_api(raw):
 
 
 def _n90_remove_background(im, raw, ctx):
-    out = _n90_remove_bg_rembg(im)
-    if out is not None:
-        ctx.removed_with = 'rembg (AI model on this server)'
-        return out
     try:
-        out = _n90_remove_bg_local(im)
+        out = _n90_remove_bg_local(im)           # v94: a plain background is cut out by colour first (free and instant); the AI model is for busy backgrounds
         ctx.removed_with = 'plain-background cut-out (colour based, no AI model)'
         return out
     except _N90Fail as exc:
         if exc.code != 'busy_background':
             raise
-        data = _n90_removebg_api(raw)
-        if data:
-            from PIL import Image
-            ctx.removed_with = 'remove.bg'
-            return Image.open(_n90_io.BytesIO(data)).convert('RGBA')
-        raise
+    out = _n90_remove_bg_rembg(im)
+    if out is not None:
+        ctx.removed_with = 'rembg AI model (silueta), run on this server, no key needed'
+        return out
+    data = _n90_removebg_api(raw)
+    if data:
+        from PIL import Image
+        ctx.removed_with = 'remove.bg'
+        return Image.open(_n90_io.BytesIO(data)).convert('RGBA')
+    raise _N90Fail('busy_background')
 
 
 # ------------------------------------------------ collage and tiles ------------------------------------------------
@@ -81198,7 +81199,7 @@ def _n90_apply_ops(raw, ops, ctx):
             ctx.notes.append('background removed: ' + ctx.removed_with)
         elif kind == 'upscale':
             im = _n90_op_upscale(im, op['factor'])
-            ctx.notes.append('enlarged %dx to %dx%d (sharpened; no new detail is invented)' % (op['factor'], im.size[0], im.size[1]))
+            ctx.notes.append(_n94_upscale_note(op['factor'], im.size))
         elif kind == 'compress':
             ctx.max_kb = op['kb']
         elif kind == 'convert':
@@ -89566,6 +89567,7 @@ def _n93_index_view(sym, ctx, news, now=None):
         if not moved:
             notes.append('only %.1f days are left on the nearest expiry and the next expiry could not be loaded, so time decay is steep' % (ch.get('days_to_expiry') or 0.0))
     ch, solved = _n93_fill_iv(ch)
+    solved = solved or int(ch.get('iv_solved') or 0)
     if solved:
         notes.append('implied volatility was solved from the option prices because the broker feed sends none (%d contracts)' % solved)
     spot = ch.get('spot')
@@ -89974,12 +89976,19 @@ def _n93_scan(cid, scope='all', symbols=None, quiet=False, deadline=170.0):
             head.append('⚠️ No news could be read (%s): any idea below is technical-only, capped at 64 and so only a watch unless you lower your minimum score.' % (', '.join(news['errors'][:3]) or 'no feed answered'))
         if mctx['notes']:
             head.append('Not read: ' + '; '.join(mctx['notes'][:3]))
+        try:
+            _il = _n94_scan_line(cand, idx)
+            if _il:
+                head.append(_il)
+        except Exception:
+            _N94_STATS['errors'] += 1
         head.append('Looked at %d stock%s%s: %d idea%s at score %d or more%s.' % (len(cand), '' if len(cand) == 1 else 's', ' and %s options' % '/'.join(idx) if idx else '', len(issued), '' if len(issued) == 1 else 's', cfg['min_score'],
                                                                                  ('' if not cfg['capital_is_default'] else ' (sizes use the default capital ₹%s: say “scout config capital=5L”)' % _n93_inr(cfg['capital']))))
         if issued or not quiet:
             _n91_say(cid, '\n'.join(head))
         for i in issued:
             _n91_say(cid, _n93_card(i, cfg))
+            _n94_chart_after(cid, i)
         if not issued and not quiet:
             _n91_say(cid, 'No idea passed every check right now. That is a result too: Scout would rather say nothing than push a weak trade.')
         if radar and not quiet:
@@ -90024,6 +90033,7 @@ def _n93_symbol_job(cid, sym):
             _n93_save(i, now)
             _N93_STATS['ideas'] += 1
             _n91_say(cid, _n93_card(i, cfg))
+            _n94_chart_after(cid, i)
         else:
             i['id'] = 'not saved'
             _n91_say(cid, '👀 A watch, not an idea: score %d is under your %d line, so it is not kept or tracked.\n%s' % (i['score'], cfg['min_score'], _n93_card(i, cfg)))
@@ -90395,6 +90405,2114 @@ def main(*a, **k):
     except Exception:
         _N93_STATS['errors'] += 1
     return _N93_MAIN_PREV(*a, **k)
+
+# =============================================================================
+# NEMO 94 - CLEAR + SCOUT INTEL + STUDIO PLUS
+# -----------------------------------------------------------------------------
+# Why: the owner could not read the reply to /chain55 NIFTY: it was a raw data dump ({"ok": true, "spot": 22421.95, ... "iv": null ...}) with no words, no reading of what the numbers say and the first
+# 12 of 50 rows only (the cheapest strikes, not the ones near the price). The same was true of 25 MarketOS commands and of about a hundred diagnostic commands that print JSON.
+#  * CLEAR: every MarketOS reply is now plain words: what the numbers are, what they say, what to watch, in rupees and lakh/crore, with an "in plain words" line and an honest caveat. A safety net turns any
+#    other JSON dump Nemo sends into readable lines (humanised names, rounded numbers, no braces). "plain off" brings the raw data back, "plain on" restores it. "what is PCR" explains a trading word at once
+#    (no AI call, no cost). The option-chain reader fills the implied volatility the broker leaves out, so Greeks, the IV surface and the before/after price breakdown work on this server too.
+#  * SCOUT INTEL: results dates, F&O ban list, corporate actions, FII/DII flows, a holiday cross-check and a volatility forecast (GARCH) next to the option's implied volatility. They run in a short-lived
+#    separate program (never inside the trading bot), are cached, and when a source cannot be reached Nemo says so; it never guesses.
+#  * STUDIO PLUS: real AI upscaling (Real-ESRGAN), key-free background removal (rembg) and a chart under every Scout idea. Each runs in a separate program only when the server has the memory; the old
+#    path stays as the fallback.
+# Nothing here places, changes or simulates an order, and nothing touches the trading agent, the guards, the owner lock or the credentials.
+# =============================================================================
+VERSION = "94.0"
+
+_N94_STATS = {k: 0 for k in ('clear_market', 'clear_json', 'clear_fallback', 'glossary', 'errors', 'intel_jobs', 'intel_cached', 'intel_failed', 'upscale_ai', 'upscale_fallback', 'rembg', 'rembg_fallback',
+                             'charts', 'chart_failed', 'front_door')}
+_N94_IST = _N93_IST
+
+
+# ------------------------------------------------ settings (one tiny table in the file Nemo already uses) ------------------------------------------------
+def _n94_db():
+    c = _n35_conn()
+    c.execute('CREATE TABLE IF NOT EXISTS clear94_setting(key TEXT PRIMARY KEY, value TEXT)')
+    c.commit()
+    return c
+
+
+def _n94_q(sql, args=(), write=False):
+    """One short statement, always closed; never raises (a broken table must not break a message)."""
+    try:
+        c = _n94_db()
+        try:
+            cur = c.execute(sql, args)
+            if write:
+                c.commit()
+                return cur.rowcount
+            return cur.fetchall()
+        finally:
+            c.close()
+    except Exception:
+        _N94_STATS['errors'] += 1
+        return 0 if write else []
+
+
+def _n94_get(key, default=''):
+    rows = _n94_q('SELECT value FROM clear94_setting WHERE key=?', (key,))
+    return rows[0][0] if rows else default
+
+
+def _n94_put(key, value):
+    _n94_q('INSERT OR REPLACE INTO clear94_setting(key, value) VALUES(?,?)', (key, str(value)), write=True)
+
+
+def _n94_plain_on():
+    return _n94_get('plain', 'on') != 'off'
+
+
+# ------------------------------------------------ small formatting helpers ------------------------------------------------
+def _n94_float(v):
+    try:
+        x = float(v)
+    except (TypeError, ValueError):
+        return None
+    return x if x == x and abs(x) != float('inf') else None
+
+
+def _n94_px(v, d=2):
+    """22421.95 -> 22,421.95 ; 24500.0 -> 24,500 ; None -> n/a (Indian digit grouping)."""
+    x = _n94_float(v)
+    if x is None:
+        return 'n/a'
+    s = _n93_inr(x, d)
+    return s.rstrip('0').rstrip('.') if '.' in s else s
+
+
+def _n94_rs(v, d=2):
+    x = _n94_float(v)
+    return 'n/a' if x is None else ('-₹' if x < 0 else '₹') + _n93_inr(abs(x), d)
+
+
+def _n94_big(v):
+    """Open interest and volumes the way Indian traders say them: 965,000 -> 9.65 lakh ; 12,300,000 -> 1.23 crore."""
+    x = _n94_float(v)
+    if x is None:
+        return 'n/a'
+    a = abs(x)
+    sign = '-' if x < 0 else ''
+    if a >= 1e7:
+        return '%s%.2f crore' % (sign, a / 1e7)
+    if a >= 1e5:
+        return '%s%.2f lakh' % (sign, a / 1e5)
+    return sign + _n93_inr(a, 0)
+
+
+def _n94_pct(v, d=1, sign=False):
+    x = _n94_float(v)
+    if x is None:
+        return 'n/a'
+    return ('%+.*f%%' if sign else '%.*f%%') % (d, x)
+
+
+def _n94_when(ts, with_time=True):
+    x = _n94_float(ts)
+    if x is None or not 9e8 < x < 4.2e9:
+        return 'n/a'
+    d = _n91_dt.datetime.fromtimestamp(x, _N94_IST)
+    return d.strftime('%d %b %Y, %H:%M') if with_time else d.strftime('%d %b %Y')
+
+
+_N94_WORDS = {'oi': 'OI', 'iv': 'IV', 'ltp': 'Price', 'atm': 'ATM', 'itm': 'ITM', 'otm': 'OTM', 'ema': 'EMA', 'rsi': 'RSI', 'adx': 'ADX', 'atr': 'ATR', 'vwap': 'VWAP', 'pcr': 'PCR', 'gex': 'GEX', 'id': 'ID',
+              'url': 'URL', 'ts': 'time', 'poc': 'Most-traded price', 'val': 'Value area low', 'vah': 'Value area high', 'fvg': 'Gap', 'mtf': 'Multi-timeframe', 'pct': '%', 'ce': 'Call', 'pe': 'Put',
+              'nse': 'NSE', 'fyers': 'Fyers', 'ai': 'AI', 'api': 'API', 'ok': 'OK', 'sl': 'Stop', 'tp': 'Target', 'rr': 'Reward/risk', 'fii': 'FII', 'dii': 'DII', 'vix': 'VIX', 'cpu': 'CPU', 'ram': 'RAM',
+              'mb': 'MB', 'gb': 'GB', 'pnl': 'P&L', 'sec': 'sec', 'ms': 'ms', 'db': 'database', 'ui': 'UI', 'llm': 'AI model', 'rc': 'exit code', 'sip': 'SIP', 'emi': 'EMI', 'gst': 'GST', 'tds': 'TDS',
+              'ist': 'IST', 'utc': 'UTC', 'ip': 'IP', 'os': 'OS', 'pdf': 'PDF', 'csv': 'CSV', 'json': 'JSON', 'html': 'HTML', 'ocr': 'OCR', 'mcp': 'MCP', 'vps': 'server'}
+
+
+def _n94_label(key):
+    """call_oi_total -> Call OI total ; atm_iv_pct -> ATM IV % ; theta_per_day -> Theta per day."""
+    words = [w for w in _n91_re.split(r'[_\s]+', str(key).strip()) if w]
+    if not words:
+        return str(key)
+    out = [_N94_WORDS.get(w.lower(), w.lower()) for w in words]
+    s = ' '.join(out)
+    return s[:1].upper() + s[1:]
+
+
+_N94_TIME_KEY = _n91_re.compile(r'(?:^|_)(?:ts|time|timestamp|at|since|until|expires?|created|updated|fetched_at|expiry_ts)$', _n91_re.I)
+
+
+def _n94_val(key, v):
+    """One scalar in plain words."""
+    if v is None:
+        return 'not available'
+    if isinstance(v, bool):
+        return 'yes' if v else 'no'
+    if isinstance(v, (int, float)):
+        x = float(v)
+        if _N94_TIME_KEY.search(str(key)) and 9e8 < x < 4.2e9:
+            return _n94_when(x)
+        a = abs(x)
+        if a >= 1000 or x == int(x):
+            return _n93_inr(x, 0 if (a >= 1000 or x == int(x)) else 2)
+        if a >= 1:
+            return ('%.2f' % x).rstrip('0').rstrip('.')
+        if a >= 0.001:
+            return ('%.4f' % x).rstrip('0').rstrip('.')
+        return '%.3g' % x if x else '0'
+    s = str(v)
+    return s if len(s) <= 300 else s[:297] + '…'
+
+
+def _n94_inline(d, limit=7):
+    """One short line for one record: Name value · Name value."""
+    bits = []
+    lead = next((k for k in ('name', 'symbol', 'title', 'id', 'label', 'sector', 'strike') if k in d and not isinstance(d[k], (dict, list)) and d[k] not in (None, '')), None)
+    if lead:
+        bits.append(_n94_val(lead, d[lead]))
+    for k, v in d.items():
+        if k == lead or isinstance(v, (dict, list)) or v in (None, ''):
+            continue
+        bits.append('%s %s' % (_n94_label(k), _n94_val(k, v)))
+        if len(bits) >= limit:
+            break
+    return ' · '.join(bits)
+
+
+def _n94_lines(obj, pad=0, depth=0):
+    out = []
+    sp = '  ' * pad
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            lab = _n94_label(k)
+            if k == 'ok' and isinstance(v, bool):
+                if not v:
+                    out.append('%sResult: did not succeed' % sp)
+                continue
+            if isinstance(v, dict):
+                if not v:
+                    continue
+                if depth >= 3:
+                    out.append('%s%s: %s' % (sp, lab, _n94_inline(v, 6)))
+                else:
+                    out.append('%s%s:' % (sp, lab))
+                    out.extend(_n94_lines(v, pad + 1, depth + 1))
+            elif isinstance(v, list):
+                if not v:
+                    continue
+                if all(not isinstance(i, (dict, list)) for i in v):
+                    shown = ', '.join(_n94_val(k, i) for i in v[:12])
+                    out.append('%s%s: %s%s' % (sp, lab, shown, '' if len(v) <= 12 else ' … (+%d more)' % (len(v) - 12)))
+                else:
+                    out.append('%s%s (%d):' % (sp, lab, len(v)))
+                    for n, i in enumerate(v[:6], 1):
+                        out.append('%s  %d. %s' % (sp, n, _n94_inline(i, 7) if isinstance(i, dict) else _n94_val(k, i) if not isinstance(i, list) else '…'))
+                    if len(v) > 6:
+                        out.append('%s  … and %d more' % (sp, len(v) - 6))
+            else:
+                out.append('%s%s: %s' % (sp, lab, _n94_val(k, v)))
+    elif isinstance(obj, list):
+        for n, i in enumerate(obj[:12], 1):
+            out.append('%s%d. %s' % (sp, n, _n94_inline(i, 7) if isinstance(i, dict) else _n94_val('', i)))
+        if len(obj) > 12:
+            out.append('%s… and %d more' % (sp, len(obj) - 12))
+    return out
+
+
+def _n94_humanize(obj, head='', limit=3800):
+    """Any JSON-like value as readable lines (no braces, no quotes, rounded numbers, Indian grouping, dates for epoch times)."""
+    lines = _n94_lines(obj)
+    text = '\n'.join(([head] if head else []) + lines)
+    return text if len(text) <= limit else text[:limit - 30].rstrip() + '\n… (shortened)'
+
+
+# ------------------------------------------------ turning a JSON dump (even a cut-off one) into words ------------------------------------------------
+def _n94_json_loose(body):
+    """(value, was_cut). A JSON text parsed as is, or, when it was cut short, closed at the last complete item. (None, False) when it is not JSON."""
+    try:
+        return _n91_jsonlib.loads(body), False
+    except ValueError:
+        pass
+    stack, in_str, esc, marks = [], False, False, []
+    for i, ch in enumerate(body):
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == '\\':
+                esc = True
+            elif ch == '"':
+                in_str = False
+            continue
+        if ch == '"':
+            in_str = True
+        elif ch in '{[':
+            stack.append('}' if ch == '{' else ']')
+        elif ch in '}]':
+            if not stack:
+                return None, False
+            stack.pop()
+        elif ch == ',' and stack:
+            marks.append((i, ''.join(reversed(stack))))
+    if not stack and not in_str:                       # complete brackets but still not JSON (trailing text, a code fence): not a cut-off dump, leave it alone
+        return None, False
+    for pos, closers in reversed(marks[-6:]):
+        try:
+            return _n91_jsonlib.loads(body[:pos] + closers), True
+        except ValueError:
+            continue
+    return None, False
+
+
+_N94_JSON_AT = _n91_re.compile(r'(?m)(?:^|(?<=[:\s]))[{\[]')
+
+
+def _n94_dejson(text):
+    """Readable text when `text` is (an optional short title and) a JSON object or list; None when it is anything else, so ordinary messages are never touched."""
+    t = str(text or '').strip()
+    if len(t) < 40 or len(t) > 60000:
+        return None
+    m = _N94_JSON_AT.search(t[:140])
+    if not m:
+        return None
+    head, body = t[:m.start()].rstrip(), t[m.start():]
+    if len(head) > 110 or head.count('\n') > 1 or '{' in head or '[' in head:
+        return None
+    val, cut = _n94_json_loose(body)
+    if isinstance(val, dict) and (len(val) >= 2 or cut):
+        pass
+    elif isinstance(val, list) and val and all(isinstance(i, dict) for i in val[:3]):
+        pass
+    else:
+        return None
+    clean_head = head.rstrip(':').strip()
+    text = _n94_humanize(val, clean_head)
+    if cut:
+        text += '\n… (the rest was cut to fit one message)'
+    return text
+
+
+# ------------------------------------------------ the words behind a failed command ------------------------------------------------
+_N94_WHY = (
+    ('fyers is not connected', 'Nemo is not logged in to Fyers right now, so there is no live market data. Nemo logs in by itself at 8:20 AM on trading days. To link it again now, send /brokerurl.'),
+    ('option chain returned no contracts', 'Fyers sent no option contracts for this name. The market may be closed, or the name is not an index or stock with options.'),
+    ('option chain contained no ce/pe rows', 'Fyers sent an option chain with no call or put rows.'),
+    ('need at least two option-chain snapshots', 'This compares two option-chain readings taken at different times. Send /chain55 NIFTY now, wait a few minutes, then ask again.'),
+    ('contract/iv not present', 'That contract was not in both readings, or its volatility could not be worked out. Try a strike close to the current price.'),
+    ('strike/type not found', 'That strike is not in the option chain. Check the number, for example: /greeks55 NIFTY 24500 CE'),
+    ('iv unavailable', 'The broker sent no implied volatility for that contract and Nemo could not work it out from the price (the price may have no time value left).'),
+    ('insufficient daily history', 'Not enough daily price history for this name yet.'),
+    ('insufficient daily volume history', 'Not enough daily volume history to judge unusual activity for this name.'),
+    ('daily/intraday data unavailable', 'Price data for today is not available yet (the market may not have opened).'),
+    ('no market source returned usable candles', 'No price data came back from any source for this name.'),
+    ('need >=55 candles', 'Not enough price history to read the trend.'),
+)
+
+
+def _n94_why(err):
+    e = str(err or '').strip()
+    low = e.lower()
+    for key, words in _N94_WHY:
+        if key in low:
+            return words
+    return _n91_clip(e, 220) if e else 'No reason was given.'
+
+
+def _n94_err_text(x):
+    sym = x.get('symbol')
+    head = '⚠️ I could not get that%s.' % (' for %s' % sym if sym else '')
+    return '%s\n%s\nNothing was changed and no order was sent.' % (head, _n94_why(x.get('error')))
+
+
+# ------------------------------------------------ MarketOS replies in plain words ------------------------------------------------
+_N94_REGIME = {'STRONG_TREND_UP': 'strong uptrend', 'TREND_UP': 'uptrend', 'RANGE': 'sideways (no clear direction)', 'TREND_DOWN': 'downtrend', 'STRONG_TREND_DOWN': 'strong downtrend',
+               'EXPANSION_UP': 'sharp move up (volatility rising)', 'EXPANSION_DOWN': 'sharp move down (volatility rising)', 'COMPRESSION': 'quiet and squeezing (a bigger move often follows)',
+               'LOW_VOL_RANGE': 'very quiet sideways', 'TRANSITION': 'changing (unclear)', 'UNKNOWN': 'not enough data'}
+_N94_INTERVAL = {'1m': '1-minute', '5m': '5-minute', '15m': '15-minute', '30m': '30-minute', '60m': '1-hour', '1h': '1-hour', '1d': 'daily', 'D': 'daily', '1D': 'daily'}
+_N94_FOOT = 'ℹ️ Information only. Nemo placed no order and nothing was changed.'
+
+
+def _n94_sym(x, default='the market'):
+    return str(x.get('symbol') or x.get('index') or default)
+
+
+def _n94_iv_word(iv):
+    if iv is None:
+        return ''
+    if iv < 12:
+        return 'low: options are cheap'
+    if iv < 18:
+        return 'normal'
+    if iv < 25:
+        return 'high-ish: options are pricey'
+    return 'very high: options are expensive'
+
+
+def _n94_chain_by_strike(rows):
+    by = {}
+    for r in rows or []:
+        if isinstance(r, dict) and r.get('strike') is not None and str(r.get('type')).upper() in ('CE', 'PE'):
+            by.setdefault(float(r['strike']), {})[str(r['type']).upper()] = r
+    return by
+
+
+def _n94_pcr_words(p):
+    if p is None:
+        return ''
+    if p >= 1.3:
+        return 'many more puts than calls are open: traders often read this as support (a lean to the upside), though a very high number can also mean heavy hedging against a fall'
+    if p >= 1.0:
+        return 'slightly more puts than calls: balanced to mildly supportive'
+    if p >= 0.7:
+        return 'slightly more calls than puts: balanced to mildly cautious'
+    return 'many more calls than puts are open: traders often read this as a ceiling (a lean to the downside)'
+
+
+def _n94_f_chain(x):
+    sym = _n94_sym(x, 'the index')
+    spot, atm = _n94_float(x.get('spot')), _n94_float(x.get('atm'))
+    by = _n94_chain_by_strike(x.get('rows'))
+    strikes = sorted(by)
+    if not strikes:
+        return _n94_err_text({'symbol': sym, 'error': 'option chain contained no CE/PE rows'})
+    if atm is None or atm not in by:
+        atm = min(strikes, key=lambda k: abs(k - (spot if spot is not None else strikes[len(strikes) // 2])))
+    L = ['📊 %s OPTION CHAIN, in plain words' % sym.upper(), '']
+    L.append('Index now: %s · nearest strike to it (“at the money”): %s' % (_n94_px(spot), _n94_px(atm)))
+    days = _n94_float(x.get('days_to_expiry'))
+    L.append('Expiry: %s%s' % (x.get('expiry') or 'nearest', ' · about %s day%s left' % (('%.1f' % days).rstrip('0').rstrip('.'), '' if days == 1 else 's') if days is not None else ''))
+    ce_tot = sum((r.get('oi') or 0) for k in by for t, r in by[k].items() if t == 'CE')
+    pe_tot = sum((r.get('oi') or 0) for k in by for t, r in by[k].items() if t == 'PE')
+    pcr = _n94_float(x.get('pcr_oi')) or ((pe_tot / ce_tot) if ce_tot else None)
+    if pcr is not None:
+        L.append('Put/Call ratio: %.2f (open puts %s vs open calls %s) → %s.' % (pcr, _n94_big(pe_tot), _n94_big(ce_tot), _n94_pcr_words(pcr)))
+    i = strikes.index(atm)
+    window = strikes[max(0, i - 5):i + 6]
+    L += ['', 'Strikes around the price (prices are ₹ per unit; OI = contracts still open):']
+    for k in window:
+        c, p = by[k].get('CE') or {}, by[k].get('PE') or {}
+
+        def cell(r, name):
+            if not r:
+                return '%s —' % name
+            ch = _n94_float(r.get('oi_change'))
+            return '%s %s · OI %s%s' % (name, _n94_rs(r.get('ltp')), _n94_big(r.get('oi')), (' (%s today)' % ('%+d' % round(ch) if abs(ch) < 1e5 else ('+' if ch > 0 else '-') + _n94_big(abs(ch)))) if ch else '')
+        L.append('%s%s │ %s │ %s' % (_n94_px(k), ' ◀ price' if k == atm else '', cell(c, 'Call'), cell(p, 'Put')))
+    up = [(by[k]['CE'].get('oi') or 0, k) for k in by if k >= atm and 'CE' in by[k]]
+    dn = [(by[k]['PE'].get('oi') or 0, k) for k in by if k <= atm and 'PE' in by[k]]
+    top_c, top_p = max(up, default=(0, None)), max(dn, default=(0, None))
+    if top_c[1] is not None and top_c[0] > 0:
+        L += ['', 'Most open call contracts above the price: %s (%s). Traders often treat this as a ceiling.' % (_n94_px(top_c[1]), _n94_big(top_c[0]))]
+    if top_p[1] is not None and top_p[0] > 0:
+        L.append('Most open put contracts below the price: %s (%s). Traders often treat this as a floor.' % (_n94_px(top_p[1]), _n94_big(top_p[0])))
+    if top_c[1] is not None and top_p[1] is not None and top_c[1] != top_p[1] and top_c[0] > 0 and top_p[0] > 0:
+        L.append('So many traders are set up for %s to stay between %s and %s. That is a tendency, not a promise.' % (sym.upper(), _n94_px(top_p[1]), _n94_px(top_c[1])))
+    ca, pa = by[atm].get('CE') or {}, by[atm].get('PE') or {}
+    if ca.get('ltp') and pa.get('ltp'):
+        stra = ca['ltp'] + pa['ltp']
+        L += ['', 'A call and a put at %s together cost %s. That is how far the market expects the index to move by expiry: about ±%s points (±%s).' % (_n94_px(atm), _n94_rs(stra), _n94_px(stra, 0), _n94_pct(stra / spot * 100 if spot else None))]
+    ivs = [r.get('iv') for r in (ca, pa) if _n94_float(r.get('iv'))]
+    if ivs:
+        iv = sum(ivs) / len(ivs)
+        L.append('Implied volatility at the money: %.1f%% (%s)%s' % (iv, _n94_iv_word(iv), ' · worked out by Nemo from the option prices, because the broker did not send it' if x.get('iv_solved') else ''))
+    others = [e.get('label') for e in (x.get('expiries') or [])[1:4] if isinstance(e, dict) and e.get('label')]
+    if others:
+        L.append('Later expiries: %s' % ', '.join(others))
+    L += ['', 'How to read it: a Call gains when the index rises, a Put gains when it falls. Option prices lose value every day (time decay), faster near expiry. Ask “what is OI” or “what is PCR” for more.', _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_mdata(x):
+    cs = x.get('candles') or []
+    sym, iv = _n94_sym(x), _N94_INTERVAL.get(str(x.get('interval')), str(x.get('interval')))
+    if not cs:
+        return _n94_err_text({'symbol': sym, 'error': 'no market source returned usable candles'})
+    hi, lo = max(c['h'] for c in cs), min(c['l'] for c in cs)
+    first, last = cs[0], cs[-1]
+    chg = (last['c'] / first['o'] - 1) * 100 if first.get('o') else None
+    q = x.get('quality') or {}
+    L = ['📈 %s: %s prices' % (sym, iv), '', '%d candles, from %s to %s' % (len(cs), _n94_when(first['ts']), _n94_when(last['ts'])),
+         'Latest close: %s · highest %s · lowest %s' % (_n94_px(last['c']), _n94_px(hi), _n94_px(lo)),
+         'Change over this stretch: %s (%s)' % (_n94_pct(chg, 2, True), 'up' if (chg or 0) > 0 else 'down' if (chg or 0) < 0 else 'flat'), '', 'The last 5 candles (open · high · low · close):']
+    for c in cs[-5:]:
+        L.append('%s │ %s · %s · %s · %s' % (_n94_when(c['ts']), _n94_px(c['o']), _n94_px(c['h']), _n94_px(c['l']), _n94_px(c['c'])))
+    L += ['', 'Source: %s · data quality %s (A is best)%s' % (x.get('source') or 'unknown', q.get('grade', '?'), ' · ' + '; '.join(map(str, q.get('issues') or [])) if q.get('issues') else ''), _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_mguard(x):
+    q = x.get('quality') or {}
+    iv = _N94_INTERVAL.get(str(x.get('interval')), str(x.get('interval')))
+    g = q.get('grade', '?')
+    verdict = {'A': 'good: safe to use', 'B': 'usable, with small gaps', 'C': 'patchy: use with care', 'D': 'poor', 'F': 'unusable'}.get(g, 'unknown')
+    L = ['🛡 DATA CHECK: %s (%s)' % (_n94_sym(x), iv), '', 'Quality grade: %s (%s)' % (g, verdict), 'Candles received: %s' % _n94_val('', x.get('candles')), 'Source: %s' % (x.get('source') or 'unknown')]
+    L.append('Problems found: %s' % ('; '.join(map(str, q.get('issues'))) if q.get('issues') else 'none'))
+    L += ['', 'In plain words: Nemo checks the price feed before trusting it. Grade A means complete, recent and in order.']
+    return '\n'.join(L)
+
+
+def _n94_f_mclock(x):
+    st = str(x.get('state') or '').upper()
+    state = {'OPEN': 'OPEN', 'CLOSED': 'CLOSED', 'PRE_OPEN': 'PRE-OPEN', 'HOLIDAY': 'CLOSED (holiday)', 'WEEKEND': 'CLOSED (weekend)'}.get(st, st or 'unknown')
+    L = ['🕘 MARKET CLOCK', '', 'NSE is %s · %s, %s' % (state, x.get('weekday') or '', _n91_dt.date.fromisoformat(x['date']).strftime('%d %b %Y') if x.get('date') else '')]
+    L.append('Trading hours now: %s' % ('yes' if x.get('market_open') else 'no'))
+    L.append('New trades allowed by the guards now: %s' % ('yes' if x.get('entry_open') else 'no'))
+    if x.get('holiday'):
+        L.append('Holiday: %s' % x['holiday'])
+    L += ['', 'In plain words: the guards use this clock, so Nemo will not open trades when the market is shut or in the last minutes of the day.']
+    return '\n'.join(L)
+
+
+def _n94_f_breadth(x):
+    n = int(x.get('constituents') or 0)
+    sym = _n94_sym(x)
+    if not n:
+        return '⚠️ I could not read the stocks inside %s right now (no prices came back). If you are not logged in to Fyers, send /brokerurl. Nothing was changed.' % sym
+    adv, dec, unch = x.get('advancers') or 0, x.get('decliners') or 0, x.get('unchanged') or 0
+    bp = _n94_float(x.get('breadth_pct')) or 0.0
+    mood = 'broad strength: most stocks are rising' if bp >= 40 else 'mildly positive' if bp >= 10 else 'mixed' if bp > -10 else 'mildly weak' if bp > -40 else 'broad weakness: most stocks are falling'
+    L = ['🌡 MARKET BREADTH: %s (%d stocks checked)' % (sym, n), '', 'Rising: %d · Falling: %d · Unchanged: %d' % (adv, dec, unch), 'Breadth score: %s (from −100 all falling to +100 all rising) → %s' % (_n94_pct(bp, 1, True), mood)]
+    if x.get('advance_decline_ratio') is not None:
+        L.append('For every stock falling, %s are rising.' % _n94_val('', x.get('advance_decline_ratio')))
+    for title, key in (('Strongest', 'leaders'), ('Weakest', 'laggards')):
+        rows = x.get(key) or []
+        if rows:
+            L += ['', title + ' today:'] + ['%d. %s %s (%s)' % (i, r.get('symbol'), _n94_pct(r.get('change_pct'), 2, True), _n94_px(r.get('last'))) for i, r in enumerate(rows[:5], 1)]
+    L += ['', 'In plain words: when the index rises but only a few stocks rise with it, the move is fragile. When most rise together, it is healthier.', _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_mtf(x):
+    L = ['🧭 TREND ON EVERY TIMEFRAME: %s' % _n94_sym(x), '']
+    al = str(x.get('alignment') or '')
+    L.append('Overall: %s (score %s: from −9 all bearish to +9 all bullish)' % ({'BULLISH_ALIGNED': 'most timeframes agree on UP', 'BEARISH_ALIGNED': 'most timeframes agree on DOWN', 'MIXED': 'timeframes disagree, so no clear direction'}.get(al, al.lower()), _n94_val('', x.get('alignment_score'))))
+    L.append('')
+    for f in x.get('frames') or []:
+        iv = _N94_INTERVAL.get(str(f.get('timeframe')), str(f.get('timeframe')))
+        reg = _N94_REGIME.get(str(f.get('regime')), str(f.get('regime')).lower())
+        if f.get('regime') == 'UNKNOWN' or f.get('price') is None:
+            L.append('%s: %s' % (iv, reg))
+            continue
+        adx = _n94_float(f.get('adx'))
+        L.append('%s: %s · sure at %s%% · RSI %s · trend strength %s (%s)' % (iv, reg, _n94_val('', f.get('confidence')), _n94_val('', f.get('rsi')), _n94_val('', adx), 'weak' if adx is not None and adx < 18 else 'moderate' if adx is not None and adx < 25 else 'strong' if adx is not None else '?'))
+    L += ['', 'In plain words: short timeframes show what is happening now, long ones show the bigger picture. The best set-ups are when they agree.', _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_greeks(x):
+    k = 'Call' if str(x.get('kind')).upper() == 'CE' else 'Put'
+    d, th, ve, ga = _n94_float(x.get('delta')), _n94_float(x.get('theta_per_day')), _n94_float(x.get('vega_per_iv_point')), _n94_float(x.get('gamma'))
+    L = ['🔬 %s %s %s: how its price reacts' % (_n94_px(x.get('strike')), k, '(%s)' % x.get('expiry') if x.get('expiry') else ''), '',
+         'Index now %s · implied volatility %s · %s days to expiry' % (_n94_px(x.get('spot')), _n94_pct(x.get('iv_pct')), _n94_val('', x.get('days'))),
+         'Fair price by the model: %s%s' % (_n94_rs(x.get('theoretical')), ' · market price %s' % _n94_rs(x.get('market_ltp')) if x.get('market_ltp') else ''), '']
+    if d is not None:
+        L.append('Delta %.2f: if the index moves ₹100, this option moves about ₹%.0f in the same direction%s.' % (d, abs(d) * 100, '' if k == 'Call' else ' (a put moves the opposite way)'))
+    if th is not None:
+        L.append('Theta %s per day: just by time passing, it loses about ₹%s a day, if nothing else changes.' % (_n94_val('', th), _n94_px(abs(th), 1)))
+    if ve is not None:
+        L.append('Vega %s: if implied volatility rises 1 point, the price rises about ₹%s.' % (_n94_val('', ve), _n94_px(ve, 1)))
+    if ga is not None:
+        L.append('Gamma %s: how fast delta itself changes. Higher near the money and close to expiry.' % _n94_val('', ga))
+    L += ['', 'This is a model estimate (Black-Scholes); real prices can differ a little. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_atm_iv(points, spot):
+    pts = [p for p in points if p.get('iv') and p.get('strike') is not None]
+    if not pts or not spot:
+        return None, None, None
+    near = sorted(pts, key=lambda p: abs(p['strike'] - spot))[:2]
+    atm = sum(p['iv'] for p in near) / len(near)
+
+    def at(frac, typ):
+        c = [p for p in pts if p.get('type') == typ]
+        return min(c, key=lambda p: abs(p['strike'] - spot * frac))['iv'] if c else None
+    return atm, at(0.97, 'PE'), at(1.03, 'CE')
+
+
+def _n94_f_iv(x):
+    sl = x.get('surface') or []
+    L = ['🌊 IMPLIED VOLATILITY (how expensive options are): %s' % _n94_sym(x), '']
+    shown = 0
+    for s in sl:
+        atm, lowput, highcall = _n94_atm_iv(s.get('points') or [], _n94_float(s.get('spot')))
+        if atm is None:
+            continue
+        shown += 1
+        d = _n94_float(s.get('days'))
+        L.append('Expiry %s (%s days): at the money %.1f%% → %s' % (s.get('expiry'), _n94_val('', round(d, 1)) if d is not None else '?', atm, _n94_iv_word(atm)))
+        if lowput and highcall:
+            L.append('   a put 3%% below the price: %.1f%% · a call 3%% above: %.1f%% → %s' % (lowput, highcall, 'puts cost more: the market is paying extra for protection against a fall' if lowput > highcall + 1 else 'calls cost more: the market is paying extra for upside' if highcall > lowput + 1 else 'both sides priced about the same'))
+    if not shown:
+        L.append('No implied volatility could be read: the broker sent none and the prices had no usable time value. Say “scout nifty” and Nemo will work it out when he plans an option trade.')
+    L += ['', 'In plain words: high volatility = options are expensive, so buyers need a bigger move to profit; low volatility = cheap. It tends to fall after big events pass.', _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_wall_lines(rows, label):
+    out = []
+    for r in rows[:5]:
+        ch = _n94_float(r.get('oi_change'))
+        out.append('%s %s: %s open%s' % (_n94_px(r.get('strike')), label, _n94_big(r.get('oi')), (' (%s today)' % ('+' if ch > 0 else '-') + _n94_big(abs(ch))) if ch else ''))
+    return out
+
+
+def _n94_f_oi(x):
+    pcr = _n94_float(x.get('pcr_oi'))
+    L = ['🧱 OPEN INTEREST (where traders have positioned): %s' % _n94_sym(x), '', 'Index now %s · at the money %s' % (_n94_px(x.get('spot')), _n94_px(x.get('atm'))),
+         'Open calls %s · open puts %s · Put/Call ratio %s' % (_n94_big(x.get('call_oi_total')), _n94_big(x.get('put_oi_total')), _n94_val('', pcr)), '→ ' + _n94_pcr_words(pcr), '']
+    cw, pw = sorted(x.get('call_walls') or [], key=lambda r: -(r.get('oi') or 0)), sorted(x.get('put_walls') or [], key=lambda r: -(r.get('oi') or 0))
+    if cw:
+        L += ['Biggest call positions (often a ceiling):'] + ['  ' + s for s in _n94_wall_lines(cw, 'Call')]
+    if pw:
+        L += ['Biggest put positions (often a floor):'] + ['  ' + s for s in _n94_wall_lines(pw, 'Put')]
+    flow = str(x.get('oi_flow') or '')
+    if flow and not any(w in flow.lower() for w in ('none', 'unknown', 'n/a', 'unavailable')):
+        L += ['', 'Change since the last reading: %s' % flow.replace('_', ' ').lower()]
+    L += ['', 'In plain words: open interest shows where money is already committed. It does not say who is buying or selling, and a “wall” can break. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_move(x):
+    spot = _n94_float(x.get('spot'))
+    st, s1 = _n94_float(x.get('atm_straddle')), _n94_float(x.get('iv_one_sigma_move'))
+    L = ['↔️ HOW FAR THE MARKET EXPECTS %s TO MOVE' % _n94_sym(x).upper(), '', 'Index now %s · expiry %s (%s days)' % (_n94_px(spot), x.get('expiry'), _n94_val('', x.get('days')))]
+    if st:
+        L.append('From the price of a call + put at the money (%s): about ±%s points (±%s) by expiry.' % (_n94_rs(st), _n94_px(st, 0), _n94_pct(x.get('straddle_move_pct'), 2)))
+        if spot:
+            L.append('   Range: %s to %s' % (_n94_px(spot - st, 0), _n94_px(spot + st, 0)))
+    if s1:
+        L.append('From implied volatility (%s): about ±%s points (±%s). The index ends inside this range roughly 2 times out of 3.' % (_n94_pct(x.get('atm_iv_pct')), _n94_px(s1, 0), _n94_pct(x.get('iv_one_sigma_pct'), 2)))
+        if spot:
+            L.append('   Range: %s to %s' % (_n94_px(spot - s1, 0), _n94_px(spot + s1, 0)))
+    L += ['', 'In plain words: if you buy an option, the index has to move more than this for you to profit on average. A guide, not a limit. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_gex(x):
+    net = _n94_float(x.get('net_gex_heuristic'))
+    flip = _n94_float(x.get('gamma_balance_transition'))
+    spot = _n94_float(x.get('spot'))
+    L = ['🧲 GAMMA MAP (rough estimate): %s' % _n94_sym(x).upper(), '', 'Index now %s · expiry %s' % (_n94_px(spot), x.get('expiry'))]
+    if net is not None and net != 0:
+        L.append('Net gamma looks %s → %s' % ('positive' if net > 0 else 'negative', 'big option sellers are more likely to calm moves (sideways, mean-reverting)' if net > 0 else 'big option sellers are more likely to speed moves up (bigger swings)'))
+    if flip is not None:
+        L.append('Switch level: %s. %s' % (_n94_px(flip), 'Above it moves tend to be calmer; below it, bigger.' if spot and spot > flip else 'The index is below it, where moves tend to be bigger.' if spot else ''))
+    mg = x.get('major_gamma_strikes') or []
+    if mg:
+        L += ['', 'Strikes with the most gamma (price is often pulled toward them):', '  ' + ', '.join(_n94_px(m.get('strike')) for m in mg[:6])]
+    L += ['', 'This is a guess: it assumes sellers hold the calls and buyers hold the puts, and nobody can see real positions. Use it as colour, not as a signal. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_expiry(x):
+    mp, spot, ps = _n94_float(x.get('max_pain')), _n94_float(x.get('spot')), _n94_float(x.get('pin_proximity_score'))
+    L = ['📅 EXPIRY VIEW: %s' % _n94_sym(x).upper(), '', 'Expiry %s · %s days left · index now %s' % (x.get('expiry'), _n94_val('', x.get('days')), _n94_px(spot))]
+    if mp is not None:
+        L.append('“Max pain” strike: %s. This is the price where option buyers as a group lose the most on expiry day.' % _n94_px(mp))
+        if spot:
+            L.append('The index is %s points %s it.' % (_n94_px(abs(spot - mp), 0), 'above' if spot > mp else 'below' if spot < mp else 'on'))
+    if ps is not None:
+        L.append('Pull toward that level (0–100): %s → %s' % (_n94_val('', ps), 'strong' if ps >= 70 else 'some' if ps >= 40 else 'weak'))
+    em = x.get('expected_move') or {}
+    if em.get('atm_straddle'):
+        L.append('Expected move by expiry: about ±%s points (±%s).' % (_n94_px(em['atm_straddle'], 0), _n94_pct(em.get('straddle_pct'), 2)))
+    L += ['', 'In plain words: on expiry day prices sometimes drift toward the max-pain strike. It is a tendency seen in some weeks, not a rule. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_strike(x):
+    d = str(x.get('direction') or '')
+    L = ['🎯 CONTRACTS THAT FIT A %s %s VIEW: %s' % (d.upper(), str(x.get('style') or '').upper(), _n94_sym(x).upper()), '', 'Aiming for a delta of about %s (how much the option moves with the index). Best fit first:' % _n94_val('', x.get('target_delta')), '']
+    for i, r in enumerate((x.get('ranked') or [])[:6], 1):
+        L.append('%d. %s %s · price %s · delta %s · time decay %s/day · spread %s · liquidity %s/100 · fit %s/100' % (i, _n94_px(r.get('strike')), 'Call' if r.get('type') == 'CE' else 'Put', _n94_rs(r.get('ltp')), _n94_val('', r.get('delta')), _n94_rs(abs(r.get('theta_per_day') or 0), 1), _n94_pct(r.get('spread_pct'), 1), _n94_val('', r.get('liquidity_score')), _n94_val('', r.get('fit_score'))))
+    L += ['', 'In plain words: “spread” is how much you lose just entering and leaving (smaller is better); liquidity says how easily it trades. This ranks contracts for study; it is not a buy call. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_liq(x):
+    rows = [r for r in (x.get('rows') or []) if isinstance(r, dict)]
+    L = ['💧 HOW EASILY THE OPTIONS TRADE: %s' % _n94_sym(x).upper(), '', 'Index now %s · expiry %s' % (_n94_px(x.get('spot')), x.get('expiry'))]
+    grades = {}
+    for r in rows:
+        grades[r.get('liquidity_grade')] = grades.get(r.get('liquidity_grade'), 0) + 1
+    L.append('Contracts checked: %d (%s)' % (len(rows), ', '.join('%s: %d' % (g, n) for g, n in sorted(grades.items(), key=lambda kv: str(kv[0])))))
+    best = sorted(rows, key=lambda r: -(r.get('liquidity_score') or 0))[:6]
+    L += ['', 'Easiest to trade:'] + ['  %s %s · price %s · spread %s · score %s/100' % (_n94_px(r.get('strike')), 'Call' if r.get('type') == 'CE' else 'Put', _n94_rs(r.get('ltp')), _n94_pct(r.get('spread_pct'), 1), _n94_val('', r.get('liquidity_score'))) for r in best]
+    worst = [r for r in sorted(rows, key=lambda r: (r.get('liquidity_score') or 0))[:3] if (r.get('liquidity_score') or 0) < 50]
+    if worst:
+        L += ['', 'Hard to trade (wide spread or few contracts open), best avoided:'] + ['  %s %s · spread %s' % (_n94_px(r.get('strike')), 'Call' if r.get('type') == 'CE' else 'Put', _n94_pct(r.get('spread_pct'), 1)) for r in worst]
+    L += ['', 'In plain words: a wide spread is a hidden cost. Near-the-money contracts are usually the easiest. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_decomp(x):
+    def s(k):
+        v = _n94_float(x.get(k))
+        return 'n/a' if v is None else ('%+.2f' % v)
+    L = ['🧮 WHY THE OPTION PRICE MOVED', '', 'Total change in the option price: %s' % s('actual_change'), '',
+         '  from the index moving (delta): %s' % s('delta_effect'), '  from the move speeding up (gamma): %s' % s('gamma_effect'),
+         '  from volatility changing (vega): %s' % s('vega_effect'), '  from time passing (theta): %s' % s('theta_effect'), '  unexplained (spread, rounding, model error): %s' % s('residual'), '',
+         'In plain words: the biggest number is what mattered most. If theta is large and negative, time decay ate your gain. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_structure(x):
+    ev = str(x.get('event') or 'NONE')
+    ev_w = {'BOS_UP': 'price broke above the last swing high: an upward move is continuing', 'BOS_DOWN': 'price broke below the last swing low: a downward move is continuing',
+            'CHOCH_UP': 'price broke above a lower high while falling: the downtrend may be turning', 'CHOCH_DOWN': 'price broke below a higher low while rising: the uptrend may be turning', 'NONE': 'nothing new: price is still inside the recent swings'}.get(ev, ev)
+    tr = {'HH_HL_UP': 'uptrend (higher highs and higher lows)', 'LH_LL_DOWN': 'downtrend (lower highs and lower lows)', 'MIXED': 'mixed (no clean pattern)', 'UNKNOWN': 'unknown'}.get(str(x.get('trend_structure')), str(x.get('trend_structure')))
+    L = ['🏗 PRICE STRUCTURE: %s (%s candles)' % (_n94_sym(x), _N94_INTERVAL.get(str(x.get('interval')), x.get('interval'))), '', 'Pattern: %s' % tr, 'Latest event: %s' % ev_w, 'Last close: %s' % _n94_px(x.get('last_close'))]
+    sh, sl = x.get('last_swing_highs') or [], x.get('last_swing_lows') or []
+    if sh:
+        L.append('Recent swing highs (resistance): %s' % ', '.join(_n94_px(p.get('price')) for p in sh[-3:]))
+    if sl:
+        L.append('Recent swing lows (support): %s' % ', '.join(_n94_px(p.get('price')) for p in sl[-3:]))
+    gaps = x.get('recent_fvg') or []
+    if gaps:
+        g = gaps[-1]
+        L.append('Latest price gap (price often returns to fill it): %s, between %s and %s' % ('bullish' if 'bull' in str(g.get('type')).lower() else 'bearish', _n94_px(g.get('from')), _n94_px(g.get('to'))))
+    L += ['', 'In plain words: these are rule-based chart patterns. They describe what price did; they do not prove what big players intend. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_sweep(x):
+    ev = str(x.get('event') or 'NONE')
+    w = {'HIGH_SWEEP_REJECTION': 'Price poked above the recent high and fell back. Stops above the high may have been hit; a drop can follow.',
+         'LOW_SWEEP_REJECTION': 'Price poked below the recent low and bounced back. Stops below the low may have been hit; a rise can follow.', 'NONE': 'No sweep: price has not tricked above the recent high or below the recent low.'}.get(ev, ev)
+    L = ['🪤 STOP-HUNT CHECK: %s (%s)' % (_n94_sym(x), _N94_INTERVAL.get(str(x.get('interval')), x.get('interval'))), '', w, 'Recent high %s · recent low %s' % (_n94_px(x.get('prior_high')), _n94_px(x.get('prior_low')))]
+    if ev != 'NONE':
+        L.append('Strength: %s/100' % _n94_val('', x.get('strength')))
+    L += ['', 'In plain words: this is a price pattern only; nobody can see who traded. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_vwap(x):
+    st = str(x.get('state'))
+    L = ['⚖️ VWAP (today’s volume-weighted average price): %s' % _n94_sym(x), '', 'VWAP %s · price %s' % (_n94_px(x.get('vwap')), _n94_px(x.get('price'))),
+         {'ABOVE_VWAP': 'Price is above VWAP (%s): buyers have been in control today.', 'BELOW_VWAP': 'Price is below VWAP (%s): sellers have been in control today.', 'AT_VWAP': 'Price is right at VWAP (%s): balanced.'}.get(st, '%s') % _n94_pct(x.get('distance_pct'), 2, True)]
+    L += ['', 'In plain words: VWAP is the average price paid today, weighted by volume. Big traders compare themselves to it, so it often acts like a magnet or a line. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_profile(x):
+    L = ['📊 WHERE THE VOLUME TRADED: %s (%s)' % (_n94_sym(x), _N94_INTERVAL.get(str(x.get('interval')), x.get('interval'))), '', 'Most traded price: %s' % _n94_px(x.get('poc')),
+         'Fair-value zone (about 70%% of volume): %s to %s' % (_n94_px(x.get('val')), _n94_px(x.get('vah'))), 'Range covered: %s to %s' % (_n94_px(x.get('range_low')), _n94_px(x.get('range_high'))),
+         '', 'In plain words: prices where a lot of trading happened tend to act as support or resistance later. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_open(x):
+    g = _n94_float(x.get('gap_pct')) or 0.0
+    size = 'flat' if abs(g) < 0.15 else 'small' if abs(g) < 0.5 else 'medium' if abs(g) < 1 else 'large'
+    st = {'ABOVE_OR': 'above the opening range (the first %s minutes): buyers pushed past the morning high' % x.get('opening_minutes'), 'BELOW_OR': 'below the opening range: sellers pushed past the morning low',
+          'INSIDE_OR': 'inside the opening range: no breakout yet'}.get(str(x.get('opening_state')), str(x.get('opening_state')))
+    L = ['🌅 TODAY’S OPENING: %s' % _n94_sym(x), '', 'Yesterday’s close %s → today’s open %s: %s %s gap (%s)' % (_n94_px(x.get('previous_close')), _n94_px(x.get('open')), size, 'up' if g > 0 else 'down' if g < 0 else '', _n94_pct(g, 2, True)),
+         'Opening range: %s to %s · price now %s' % (_n94_px(x.get('opening_low')), _n94_px(x.get('opening_high')), _n94_px(x.get('current'))), 'Now: %s' % st, '',
+         'In plain words: a break of the first 15 minutes’ range with volume is a common signal; wait for a candle to close beyond it. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_scan_rows(rows, n=5):
+    out = []
+    for i, r in enumerate(rows[:n], 1):
+        flag = ' · 20-day breakout' if r.get('breakout20') else ' · 20-day breakdown' if r.get('breakdown20') else ''
+        vr = _n94_float(r.get('volume_ratio'))
+        out.append('%d. %s %s · 5-day %s · 20-day %s · RSI %s%s%s · score %s' % (i, r.get('symbol'), _n94_rs(r.get('price')), _n94_pct(r.get('ret5'), 1, True), _n94_pct(r.get('ret20'), 1, True), _n94_val('', r.get('rsi')),
+                                                                              ' · volume %.1f× normal' % vr if vr else '', flag, _n94_val('', r.get('scanner_score'))))
+    return out
+
+
+def _n94_f_scan(x):
+    if not (x.get('leaders') or x.get('laggards')):
+        return '⚠️ The scanner found no stocks to rank: no prices came back. If you are not logged in to Fyers, send /brokerurl. Nothing was changed.'
+    L = ['📡 STOCK SCANNER: %s (%s stocks checked)' % (_n94_sym(x), x.get('scanned', '?')), '', 'Strongest:'] + _n94_scan_rows(x.get('leaders') or []) + ['', 'Weakest:'] + _n94_scan_rows(x.get('laggards') or [])
+    L += ['', 'In plain words: the score mixes recent gain, volume, trend and RSI. A high score means strong, not “buy”. For reasoned ideas with a stop and a size, say “scout”. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_rs(x):
+    st = str(x.get('state'))
+    L = ['🆚 %s vs %s' % (_n94_sym(x), x.get('benchmark')), '', '%s is %s the benchmark (score %s).' % (_n94_sym(x), {'OUTPERFORMING': 'doing better than', 'UNDERPERFORMING': 'doing worse than', 'NEUTRAL': 'keeping pace with'}.get(st, st.lower()), _n94_val('', x.get('relative_score'))), '']
+    for p in x.get('periods') or []:
+        L.append('Last %s days: %s %s vs %s %s → %s points' % (p.get('period_days'), _n94_sym(x), _n94_pct(p.get('asset_return_pct'), 1, True), x.get('benchmark'), _n94_pct(p.get('benchmark_return_pct'), 1, True), _n94_val('', p.get('relative_pct_points'))))
+    L += ['', 'In plain words: leaders that keep beating the index tend to keep doing so for a while. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_sectors(x):
+    secs = sorted([s for s in (x.get('sectors') or []) if isinstance(s, dict)], key=lambda s: -(s.get('relative_score') or 0))
+    L = ['🏭 WHICH SECTORS ARE LEADING (against NIFTY)', '']
+    for i, s in enumerate(secs[:12], 1):
+        L.append('%d. %s: score %s%s%s' % (i, s.get('sector'), _n94_val('', s.get('relative_score')), ' · 5-day %s' % _n94_pct(s.get('ret5'), 1, True) if s.get('ret5') is not None else '', ' · 20-day %s' % _n94_pct(s.get('ret20'), 1, True) if s.get('ret20') is not None else ''))
+    L += ['', 'In plain words: money moves between sectors. The top ones are being bought; the bottom ones are being sold. A positive score means better than NIFTY. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_unusual(x):
+    sc = _n94_float(x.get('unusual_score')) or 0.0
+    L = ['🔔 UNUSUAL ACTIVITY: %s' % _n94_sym(x), '', 'Score %s/100 → %s' % (_n94_val('', sc), 'very unusual' if sc >= 70 else 'somewhat unusual' if sc >= 40 else 'normal')]
+    if x.get('relative_volume') is not None:
+        L.append('Volume today is %s× its usual level.' % _n94_val('', x.get('relative_volume')))
+    if x.get('return_pct') is not None:
+        L.append('Price moved %s today; the day’s range is %s of the price (%s× its usual range).' % (_n94_pct(x.get('return_pct'), 2, True), _n94_pct(x.get('range_pct'), 2), _n94_val('', x.get('range_vs_atr'))))
+    if x.get('flags'):
+        L.append('Flags: %s' % '; '.join(map(str, x['flags'])))
+    L += ['', 'In plain words: this finds statistical oddities in volume and range. It cannot tell who traded or why. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_f_footprint(x):
+    lab = str(x.get('institutional_activity_evidence') or '')
+    L = ['🐘 SIGNS OF BIG-PLAYER ACTIVITY: %s' % _n94_sym(x), '', 'Evidence: %s (score %s/100)' % (lab.replace('_EVIDENCE', '').lower(), _n94_val('', x.get('score')))]
+    if x.get('evidence'):
+        L += ['Because:'] + ['  • ' + str(e) for e in x['evidence']]
+    L += ['', 'In plain words: this only measures unusual volume and price behaviour. It cannot name an institution or prove manipulation. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+_N94_SHAPES = (
+    (lambda x: 'institutional_activity_evidence' in x, _n94_f_footprint), (lambda x: 'max_pain' in x, _n94_f_expiry), (lambda x: 'net_gex_heuristic' in x, _n94_f_gex), (lambda x: 'ranked' in x, _n94_f_strike),
+    (lambda x: 'unusual_score' in x, _n94_f_unusual), (lambda x: 'vwap' in x and 'state' in x, _n94_f_vwap), (lambda x: 'poc' in x, _n94_f_profile), (lambda x: 'prior_high' in x and 'event' in x, _n94_f_sweep),
+    (lambda x: 'trend_structure' in x, _n94_f_structure), (lambda x: 'opening_state' in x, _n94_f_open), (lambda x: 'periods' in x and 'benchmark' in x, _n94_f_rs),
+    (lambda x: 'scanned' in x or ('leaders' in x and 'laggards' in x and 'advancers' not in x and 'sectors' not in x), _n94_f_scan), (lambda x: 'sectors' in x and 'surface' not in x, _n94_f_sectors), (lambda x: 'advancers' in x, _n94_f_breadth), (lambda x: 'frames' in x, _n94_f_mtf),
+    (lambda x: 'surface' in x, _n94_f_iv), (lambda x: 'call_walls' in x, _n94_f_oi), (lambda x: 'atm_straddle' in x, _n94_f_move), (lambda x: 'delta_effect' in x, _n94_f_decomp),
+    (lambda x: 'theta_per_day' in x and 'kind' in x, _n94_f_greeks), (lambda x: isinstance(x.get('rows'), list) and any('liquidity_grade' in r for r in x['rows'][:3] if isinstance(r, dict)), _n94_f_liq),
+    (lambda x: isinstance(x.get('rows'), list) and 'atm' in x, _n94_f_chain), (lambda x: 'market_open' in x, _n94_f_mclock), (lambda x: isinstance(x.get('candles'), int) and 'quality' in x, _n94_f_mguard),
+    (lambda x: isinstance(x.get('candles'), list), _n94_f_mdata),
+)
+
+
+def _n94_clear_market(x):
+    """A MarketOS result as plain words, or None when its shape is not one I know (the caller then falls back)."""
+    if not isinstance(x, dict):
+        return None
+    if x.get('ok') is False or (x.get('error') and not x.get('ok')):
+        return _n94_err_text(x)
+    for test, fn in _N94_SHAPES:
+        try:
+            if test(x):
+                return fn(x)
+        except Exception:
+            _N94_STATS['errors'] += 1
+            return None
+    return None
+
+
+# ------------------------------------------------ the wrappers: MarketOS replies and every other JSON dump ------------------------------------------------
+_N94_TRIM_PREV = _n55_trim_result
+
+
+def _n55_trim_result(x):
+    if not _n94_plain_on():
+        return _N94_TRIM_PREV(x)
+    try:
+        t = _n94_clear_market(x)
+        if t is None and isinstance(x, dict):
+            t = _n94_humanize(x, limit=3600)
+        if t:
+            _N94_STATS['clear_market'] += 1
+            return t[:3900]
+    except Exception:
+        _N94_STATS['errors'] += 1
+    _N94_STATS['clear_fallback'] += 1
+    return _N94_TRIM_PREV(x)
+
+
+_N94_SEND_PREV = send_text
+
+
+def send_text(chat_id, text, kb=None):
+    """Every reply passes here. A JSON dump becomes readable lines; anything else is left exactly as it is."""
+    try:
+        t = str(text or '')
+        if len(t) >= 40 and ('{' in t[:140] or '[' in t[:140]) and '"' in t[:400] and _n94_plain_on():
+            nt = _n94_dejson(t)
+            if nt:
+                _N94_STATS['clear_json'] += 1
+                text = nt[:3900]
+    except Exception:
+        _N94_STATS['errors'] += 1
+    return _N94_SEND_PREV(chat_id, text, kb) if kb is not None else _N94_SEND_PREV(chat_id, text)
+
+
+def _n94_fill_iv_rows(rows, spot, days):
+    """The broker's option-chain feed can send no implied volatility (it did on the owner's server). Solve it from each row's own price, in place; rows that have one keep it. Returns how many were solved."""
+    n = 0
+    if not spot or not days:
+        return 0
+    for r in rows or []:
+        if r.get('iv'):
+            continue
+        v = _n93_implied_vol(_n93_quote_price(r), spot, r['strike'], days, r['type'])
+        if v is not None and 3.0 <= v <= 150.0:
+            r['iv'] = round(v, 4)
+            n += 1
+    return n
+
+
+# ------------------------------------------------ trading words in plain English (instant, no AI call, no cost) ------------------------------------------------
+_N94_GLOSSARY = {
+    'pcr': ('Put/Call ratio (PCR)', 'Open put contracts divided by open call contracts. Above about 1.3, many puts are open (often read as support: a lean to the upside); below about 0.7, many calls are open (often read as a ceiling). '
+            'It is a mood gauge, not a signal.'),
+    'oi': ('Open interest (OI)', 'The number of option or futures contracts that are still open (not closed and not expired). Rising OI with a rising price means new money is coming in; OI alone does not say whether that money is buying or selling.'),
+    'oi change': ('Change in open interest', 'How many contracts were added or removed since the last reading. Price up + OI up = fresh buying; price up + OI down = shorts closing; price down + OI up = fresh selling; price down + OI down = longs leaving.'),
+    'iv': ('Implied volatility (IV)', 'How big a move the option price is already expecting, as a yearly percentage. Higher IV = dearer options. For NIFTY, roughly 11-14% is calm and above 20% is tense. Buying options when IV is high means you pay extra, and IV often falls after big events.'),
+    'vix': ('India VIX', 'The market’s fear gauge: the yearly swing in NIFTY that option prices imply. Roughly under 13 is calm, 13-18 normal, above 20 fearful. It tends to jump when markets fall.'),
+    'atm': ('At the money (ATM)', 'The strike closest to the current price. Example: NIFTY at 22,421 → the 22,400 strike is at the money.'),
+    'itm': ('In the money (ITM)', 'An option that already has value if exercised now: a call whose strike is below the price, or a put whose strike is above it.'),
+    'otm': ('Out of the money (OTM)', 'An option with no value if exercised now: a call whose strike is above the price, or a put whose strike is below it. Cheaper, but needs a bigger move.'),
+    'delta': ('Delta', 'How much the option price moves when the index moves ₹1. A delta of 0.5 means about ₹0.50. Calls have positive delta, puts negative. Near-the-money options are around 0.5; far out-of-the-money ones are near 0.'),
+    'gamma': ('Gamma', 'How fast delta changes as the index moves. It is highest near the money and close to expiry, which is why those options can move very fast.'),
+    'theta': ('Theta (time decay)', 'How much value the option loses each day just from time passing. It is the cost of holding an option. It gets faster in the last days before expiry.'),
+    'vega': ('Vega', 'How much the option price changes if implied volatility moves by 1 point. Long options gain when volatility rises and lose when it falls.'),
+    'premium': ('Premium', 'The price of an option, in rupees per unit. Multiply by the lot size for the cost of one lot.'),
+    'strike': ('Strike price', 'The price level written in the option contract. A 22,500 call pays off if the index ends above 22,500 (before its cost).'),
+    'expiry': ('Expiry', 'The last day the option exists. After it, the option is worth only what it is worth at that moment (intrinsic value), so time runs out fast near expiry.'),
+    'lot': ('Lot size', 'The smallest quantity you can trade in futures and options. NSE sets it and changes it from time to time; Nemo reads the current one from the broker’s data.'),
+    'spread': ('Bid-ask spread', 'The gap between the best price a buyer offers (bid) and a seller asks (ask). You lose about this gap just entering and leaving. Narrow is good; wide is a hidden cost.'),
+    'liquidity': ('Liquidity', 'How easily you can buy or sell without moving the price. Near-the-money NIFTY options are very liquid; far strikes and small stocks are not.'),
+    'straddle': ('Straddle', 'Buying a call and a put at the same strike. It gains if the index moves a lot in either direction. Its price is also the market’s guess of the expected move.'),
+    'spread trade': ('Debit spread', 'Buying one option and selling a cheaper one further away. It costs less than a plain option and limits both the loss and the gain. Scout uses it when options are expensive.'),
+    'max pain': ('Max pain', 'The strike where option buyers as a group would lose the most at expiry. Prices sometimes drift toward it on expiry day; it is a tendency, not a rule.'),
+    'gex': ('Gamma exposure (GEX)', 'A rough estimate of whether big option sellers will calm the market or speed it up. Nobody can see their real positions, so Nemo labels it a guess.'),
+    'vwap': ('VWAP', 'The average price paid today, weighted by volume. Price above VWAP means buyers have been in control today; below means sellers. Big traders measure themselves against it.'),
+    'atr': ('ATR (average true range)', 'How far a price usually moves in a day. Scout sets stops about 1.5 ATR away so normal noise does not stop you out.'),
+    'rsi': ('RSI', 'A 0-100 gauge of recent strength. Above 70 = stretched upward, below 30 = stretched downward, around 50 = neutral. In a strong trend it can stay high for long.'),
+    'adx': ('ADX', 'How strong a trend is, whichever way it points. Under 18 = weak or sideways, 22-30 = trending, above 30 = strong trend.'),
+    'ema': ('EMA (moving average)', 'An average of recent prices that reacts quickly. EMA20 is the last 20 candles. Price above a rising EMA20 and EMA50 is an uptrend.'),
+    'support': ('Support', 'A price level where falls have stopped before, because buyers step in. It can break.'),
+    'resistance': ('Resistance', 'A price level where rises have stopped before, because sellers step in. It can break.'),
+    'breakout': ('Breakout', 'Price closing above its recent high (or below its recent low) with extra volume. A breakout with no volume often fails.'),
+    'stop loss': ('Stop loss', 'The price at which you leave a trade to limit the loss. Decide it before you enter. Scout puts it where the idea would be proven wrong.'),
+    'target': ('Target', 'The price at which you plan to take profit. Scout shows two: one for part of the position and one further away.'),
+    'risk reward': ('Risk-reward', 'How much you can gain compared with how much you can lose. 2 means a ₹2 gain for each ₹1 risked. Scout wants at least about 1.4.'),
+    'r': ('R (risk multiple)', 'One R is the amount you risk on a trade. A trade that makes twice the risk is +2R; a stopped-out trade is -1R. Scout’s record is counted in R, so trades of different sizes can be compared.'),
+    'position size': ('Position size', 'How many shares or lots to buy so that hitting the stop loses only the amount you chose (for example 1% of capital). Scout rounds the size down, never up.'),
+    'slippage': ('Slippage', 'The difference between the price you expected and the price you got. It is bigger in thin or fast markets.'),
+    'gap': ('Gap', 'Today’s open is well away from yesterday’s close, so no trades happened in between. A stop loss cannot protect you from a gap.'),
+    'opening range': ('Opening range', 'The high and low of the first 15 minutes. A close beyond it with volume is a common signal.'),
+    'breadth': ('Market breadth', 'How many stocks rise versus fall. An index rise with narrow breadth is fragile; with broad breadth it is healthier.'),
+    'relative strength': ('Relative strength', 'How a stock or sector is doing compared with the index. Positive means it is beating NIFTY.'),
+    'regime': ('Market regime', 'The kind of market it is now: trending up, trending down, sideways or squeezing. Different set-ups work in different regimes.'),
+    'bos': ('Break of structure (BOS)', 'Price breaks the last swing high (or low) in the direction of the trend: the trend is continuing. CHoCH (change of character) is a break against the trend: a possible reversal.'),
+    'choch': ('Change of character (CHoCH)', 'Price breaks the last swing high while in a downtrend (or the last swing low in an uptrend): the trend may be turning.'),
+    'fvg': ('Fair value gap (FVG)', 'A price gap left inside three candles where little trading happened. Price often comes back to fill it.'),
+    'sweep': ('Liquidity sweep', 'Price pokes above a recent high (or below a recent low) and snaps back. It may have triggered other people’s stops. Nobody can see who traded.'),
+    'poc': ('Point of control (POC)', 'The price where the most volume traded in the period. It often acts as a magnet or a line of support or resistance.'),
+    'f&o ban': ('F&O ban period', 'When too many contracts are open in one stock (over 95% of the market-wide limit), NSE stops new positions in its futures and options until the number falls. Expect sharp moves.'),
+    'fii': ('FII / FPI', 'Foreign institutional investors. Their buying and selling, and their positions in index futures, are watched as a sign of big-money mood. The data is published after the close, so it is one day old.'),
+    'dii': ('DII', 'Domestic institutional investors (mutual funds, insurers). They often buy when foreign investors sell.'),
+    'circuit': ('Circuit limit', 'The most a stock may rise or fall in one day (for example 5%, 10% or 20%). Trading stops at the limit, so you may be unable to exit.'),
+    'paper trade': ('Paper trade', 'A pretend trade recorded at real prices without real money, to test an idea. Nemo’s paper lab never sends an order to your broker.'),
+    'backtest': ('Backtest', 'Replaying a rule on past prices to see what it would have done. It can flatter a rule, so Nemo also tracks every live idea’s real result in “scout stats”.'),
+    'drawdown': ('Drawdown', 'The fall from the highest value your account (or a strategy) reached to the lowest point after it. It tells you how much pain to expect.'),
+    'win rate': ('Win rate', 'The share of trades that made money. A low win rate can still be profitable if the wins are bigger than the losses; a high one can lose money if one loss wipes out many wins.'),
+    'expectancy': ('Expectancy', 'The average result per trade in R. Positive means the method makes money on average over many trades; it needs at least 30 trades to mean anything.'),
+    'time decay': ('Time decay', 'See theta: an option loses value as expiry gets closer, even if the index does not move.'),
+    'hedge': ('Hedge', 'A second position that offsets part of the risk of the first, such as a put bought against shares you hold.'),
+}
+_N94_ALIASES = {'put call ratio': 'pcr', 'put-call ratio': 'pcr', 'put/call ratio': 'pcr', 'put call': 'pcr', 'open interest': 'oi', 'change in oi': 'oi change', 'oi buildup': 'oi change', 'implied volatility': 'iv', 'volatility': 'iv',
+                'india vix': 'vix', 'at the money': 'atm', 'in the money': 'itm', 'out of the money': 'otm', 'time value': 'time decay', 'strike price': 'strike', 'lot size': 'lot', 'bid ask': 'spread', 'bid-ask spread': 'spread',
+                'bid ask spread': 'spread', 'debit spread': 'spread trade', 'bull call spread': 'spread trade', 'gamma exposure': 'gex', 'average true range': 'atr', 'moving average': 'ema', 'sma': 'ema', 'stoploss': 'stop loss',
+                'sl': 'stop loss', 'risk reward': 'risk reward', 'risk-reward': 'risk reward', 'rr': 'risk reward', 'r multiple': 'r', 'r-multiple': 'r', 'sizing': 'position size', 'opening range breakout': 'opening range',
+                'orb': 'opening range', 'market breadth': 'breadth', 'rs': 'relative strength', 'market regime': 'regime', 'break of structure': 'bos', 'change of character': 'choch', 'fair value gap': 'fvg',
+                'liquidity sweep': 'sweep', 'stop hunt': 'sweep', 'point of control': 'poc', 'volume profile': 'poc', 'ban period': 'f&o ban', 'fno ban': 'f&o ban', 'f&o ban period': 'f&o ban', 'fpi': 'fii',
+                'circuit limit': 'circuit', 'upper circuit': 'circuit', 'lower circuit': 'circuit', 'paper trading': 'paper trade', 'back test': 'backtest', 'backtesting': 'backtest', 'draw down': 'drawdown', 'winrate': 'win rate',
+                'theta decay': 'theta', 'greeks': 'delta', 'the greeks': 'delta', 'call option': 'strike', 'put option': 'strike', 'ce': 'strike', 'pe': 'strike', 'ltp': 'premium', 'iv percentile': 'vix'}
+
+_N94_RX_WHAT = _n91_re.compile(r"(?i)^/?(?:what(?:'s|s)\s+(?:an?\s+|the\s+)?|what\s+(?:is|are|does|do)\s+(?:an?\s+|the\s+)?|explain\s+(?:an?\s+|the\s+)?|meaning\s+of\s+(?:an?\s+|the\s+)?|define\s+(?:an?\s+|the\s+)?|tell\s+me\s+(?:about|what)\s+(?:an?\s+|the\s+)?)"
+                               r"(.{1,40}?)(?:\s+(?:mean|means|meaning|stand\s+for))?\s*\??$")
+_N94_RX_GLOSS = _n91_re.compile(r'(?i)^/?(?:glossary|trading\s+words|trading\s+terms)\s*\??$')
+_N94_RX_GUIDE = _n91_re.compile(r'(?i)^/?(?:guide|nemo\s+guide|quick\s+guide|start\s+here|how\s+do\s+i\s+use\s+(?:nemo|you)|what\s+can\s+i\s+(?:say|ask))\s*\??$')
+_N94_RX_PLAIN = _n91_re.compile(r'(?i)^/?(?:plain(?:\s+words?)?(?:\s+(on|off|status))?|(?:turn|switch)\s+(?:the\s+)?plain\s+words?\s+(on|off)|show\s+(?:me\s+)?(?:the\s+)?(raw)\s+data|show\s+(?:me\s+)?(?:the\s+)?(plain)\s+words)\s*\.?$')
+
+
+def _n94_term(text):
+    t = _n91_re.sub(r'[^a-z0-9&/\- ]', ' ', str(text or '').lower())
+    t = _n91_re.sub(r'\s+', ' ', t).strip()
+    t = _n91_re.sub(r'^(?:an?|the)\s+', '', t)
+    if len(t) < 2:
+        return None
+    t = _N94_ALIASES.get(t, t)
+    if t in _N94_GLOSSARY:
+        return t
+    t2 = t[:-1] if t.endswith('s') else t
+    t2 = _N94_ALIASES.get(t2, t2)
+    return t2 if t2 in _N94_GLOSSARY else None
+
+
+def _n94_define(key):
+    name, text = _N94_GLOSSARY[key]
+    return '📘 %s\n%s\n\nSay “glossary” to see every word I can explain.' % (name, text)
+
+
+def _n94_glossary_list():
+    names = sorted(n for n, _t in _N94_GLOSSARY.values())
+    return '📘 TRADING WORDS I CAN EXPLAIN (say “what is PCR”, “what is theta” …)\n\n' + ', '.join(names) + '\n\nThe answer is instant and free: no AI is used.'
+
+
+def _n94_guide_text():
+    return ('📖 NEMO IN PLAIN WORDS: what you can say\n\n'
+            '💹 Trade ideas (advice only: you place every order)\n'
+            '• “trade ideas”: news + market tools → ideas with the reason, stop, target and size\n'
+            '• “scout nifty”: a NIFTY options idea · “scout RELIANCE”: one stock\n'
+            '• “scout stats”: my honest track record · “holiday check”: market holidays\n\n'
+            '📊 Understand the market (replies are in plain words)\n'
+            '• /chain55 NIFTY: option chain · /oi55 · /move55 · /mtf55 · /vwap55 · /sectors55 · /breadth55\n'
+            '• “what is PCR” (or OI, delta, theta, IV …): the meaning, instantly · “glossary”: all words\n'
+            '• “plain off” shows the raw data instead; “plain on” brings the words back\n\n'
+            '🖼 Pictures and reports\n'
+            '• send a picture with “make it bigger / sharper / remove background / passport photo”\n'
+            '• “studio status”: what picture tools are ready\n\n'
+            '🛠 Server and safety\n'
+            '• “server status” · “doctor” (health check) · “what can you do” · “install NAME into yourself” (you approve a card)\n'
+            '• /brokerurl links Fyers again if market data says “not connected”\n\n'
+            'I never place an order. Everything that changes something asks you first.')
+
+
+def _n94_clear_route(cid, text):
+    """The owner's plain-words messages: glossary, guide and the plain on/off switch. Anything else is left alone."""
+    t = str(text or '').strip()
+    m = _N94_RX_PLAIN.match(t)
+    if m:
+        want = (m.group(1) or m.group(2) or '').lower() or ('off' if m.group(3) else 'on' if m.group(4) else '')
+        if want == 'off':
+            _n94_put('plain', 'off')
+            _n91_say(cid, 'Plain words are OFF: market commands and data dumps show the raw data again. Say “plain on” to bring the words back.')
+        elif want == 'on':
+            _n94_put('plain', 'on')
+            _n91_say(cid, 'Plain words are ON: market replies and data dumps are shown in words. Say “plain off” if you ever want the raw data.')
+        else:
+            _n91_say(cid, 'Plain words are %s. Say “plain on” or “plain off” to change it.' % ('ON' if _n94_plain_on() else 'OFF'))
+        return True
+    if _N94_RX_GUIDE.match(t):
+        _n91_say(cid, _n94_guide_text())
+        return True
+    if _N94_RX_GLOSS.match(t):
+        _N94_STATS['glossary'] += 1
+        _n91_say(cid, _n94_glossary_list())
+        return True
+    m = _N94_RX_WHAT.match(t)
+    if m:
+        key = _n94_term(m.group(1))
+        if key:
+            _N94_STATS['glossary'] += 1
+            _n91_say(cid, _n94_define(key))
+            return True
+    return False
+
+
+# ------------------------------------------------ SCOUT INTEL: what NSE publishes (results dates, F&O ban list, corporate actions, FII flows), a holiday cross-check and a volatility forecast ------------------------------------------------
+# Each source runs in a short-lived separate Python (never inside the trading bot), niced, with a clean environment, one at a time and only when memory is free. The answers are cached; a failure is cached for a
+# while too (so a blocked website cannot slow every scan). Whatever could not be read is said; it is never guessed.
+_N94_PROG = r'''
+import sys, json, datetime as dt
+kind = sys.argv[1]
+a = json.loads(sys.argv[2]) if len(sys.argv) > 2 else {}
+def out(o):
+    print(json.dumps(o, default=str))
+def recs(df):
+    rows = []
+    for r in df.to_dict('records'):
+        rows.append({str(k).strip(): ('' if v is None or (isinstance(v, float) and v != v) else str(v).strip()) for k, v in r.items()})
+    return rows
+if kind in ('events', 'actions', 'ban', 'flows'):
+    from nselib import capital_market as cm, derivatives as dv
+    d0 = dt.date.fromisoformat(a['today'])
+    f = lambda d: d.strftime('%d-%m-%Y')
+    try:
+        if kind == 'events':
+            df = cm.event_calendar_for_equity(from_date=f(d0), to_date=f(d0 + dt.timedelta(days=int(a.get('days', 21)))))
+            out({'ok': True, 'rows': recs(df)[:5000]})
+        elif kind == 'actions':
+            df = cm.corporate_actions_for_equity(from_date=f(d0), to_date=f(d0 + dt.timedelta(days=int(a.get('days', 21)))))
+            out({'ok': True, 'rows': recs(df)[:5000]})
+        elif kind == 'ban':
+            out({'ok': True, 'date': d0.isoformat(), 'symbols': [str(s).strip() for s in dv.fno_security_in_ban_period(f(d0))]})
+        else:
+            res = {'ok': True, 'fii_stats': None, 'part_oi': None, 'errors': []}
+            for back in range(0, 7):
+                d = d0 - dt.timedelta(days=back)
+                if d.weekday() >= 5:
+                    continue
+                if res['fii_stats'] is None:
+                    try:
+                        res['fii_stats'] = {'date': d.isoformat(), 'rows': recs(dv.fii_derivatives_statistics(f(d)))}
+                    except Exception as e:
+                        res['errors'].append('FII figures: ' + str(e)[:160])
+                if res['part_oi'] is None:
+                    try:
+                        res['part_oi'] = {'date': d.isoformat(), 'rows': recs(dv.participant_wise_open_interest(f(d)))}
+                    except Exception as e:
+                        res['errors'].append('participant positions: ' + str(e)[:160])
+                if res['fii_stats'] and res['part_oi']:
+                    break
+            out(res)
+    except ImportError:
+        raise
+    except Exception as e:
+        out({'ok': False, 'error': type(e).__name__ + ': ' + str(e)[:200]})
+elif kind == 'cal':
+    import exchange_calendars as xc, pandas as pd
+    c = xc.get_calendar('XBOM')
+    end = min(pd.Timestamp(a['end']), c.last_session)
+    sess = set(d.date() for d in c.sessions_in_range(a['start'], end))
+    days = [d.date() for d in pd.bdate_range(a['start'], end)]
+    out({'ok': True, 'holidays': [d.isoformat() for d in days if d not in sess], 'checked_to': str(end.date()), 'calendar_ends': str(c.last_session.date())})
+elif kind == 'vol':
+    import numpy as np
+    from arch import arch_model
+    closes = np.array(a['closes'], dtype=float)
+    r = 100.0 * np.diff(np.log(closes))
+    if len(r) < 120 or not np.all(np.isfinite(r)):
+        out({'ok': False, 'error': 'too little clean history (%d daily returns; 120 needed)' % len(r)})
+    else:
+        h = max(1, int(a.get('horizon', 5)))
+        res = arch_model(r, vol='GARCH', p=1, q=1, dist='t', rescale=False).fit(disp='off')
+        var = res.forecast(horizon=h).variance.values[-1]
+        p = res.params
+        out({'ok': True, 'forecast_vol_pct': float(np.sqrt(np.mean(var) * 252.0)), 'horizon': h, 'n': int(len(r)), 'persistence': float(p.get('alpha[1]', 0) + p.get('beta[1]', 0)),
+             'recent_vol_pct': float(res.conditional_volatility[-1] * np.sqrt(252.0))})
+else:
+    out({'ok': False, 'error': 'unknown kind'})
+'''
+_N94_NEED = {'events': 250, 'actions': 250, 'ban': 250, 'flows': 300, 'cal': 200, 'vol': 250}
+_N94_NEEDS_LIB = {'events': 'nselib', 'actions': 'nselib', 'ban': 'nselib', 'flows': 'nselib', 'cal': 'exchange_calendars', 'vol': 'arch'}
+_N94_PIP = {'nselib': 'nselib', 'exchange_calendars': 'exchange-calendars', 'arch': 'arch'}
+_N94_INTEL = {}                       # (kind, key) -> (time, data or None, error text or None)
+_N94_TTL = {'events': 6 * 3600.0, 'actions': 6 * 3600.0, 'ban': 3 * 3600.0, 'flows': 6 * 3600.0, 'cal': 24 * 3600.0, 'vol': 12 * 3600.0}
+_N94_FAIL_TTL = 1800.0
+_N94_TRANSIENT = ('busy', 'low_memory', 'not_installed')
+_N94_IST_TZ = _N93_IST
+
+
+def _n94_intel_on():
+    return _n94_get('intel', 'on') != 'off'
+
+
+def _n94_today(now=None):
+    return _n91_dt.datetime.fromtimestamp(now if now is not None else _n91_time.time(), _N94_IST_TZ).date()
+
+
+def _n94_install_hint(lib):
+    return 'It needs %s, which is not installed in me yet. Say “install %s into yourself” (you get a card to approve).' % (_N94_PIP.get(lib, lib), _N94_PIP.get(lib, lib))
+
+
+def _n94_job(kind, payload, now=None, force=False):
+    """(data, None) or (None, plain reason). Cached; a failure is cached too."""
+    now = now if now is not None else _n91_time.time()
+    lib = _N94_NEEDS_LIB[kind]
+    if not _n92_have(lib):
+        return None, _n94_install_hint(lib)
+    key = (kind, _n91_jsonlib.dumps(payload, sort_keys=True)[:200])
+    hit = _N94_INTEL.get(key)
+    if hit and not force and now - hit[0] < (_N94_TTL[kind] if hit[1] is not None else _N94_FAIL_TTL):
+        _N94_STATS['intel_cached'] += 1
+        return hit[1], hit[2]
+    try:
+        _N94_STATS['intel_jobs'] += 1
+        data = _n92_child(_N94_PROG, [kind, _n91_jsonlib.dumps(payload)], need_mb=_N94_NEED[kind], timeout=70 if kind != 'vol' else 45)
+        if not data.get('ok'):
+            raise _N92Err('source', 'The source answered with an error: %s' % _n91_clip(str(data.get('error')), 160))
+        _N94_INTEL[key] = (now, data, None)
+        return data, None
+    except _N91Err as exc:
+        _N94_STATS['intel_failed'] += 1
+        _N94_INTEL[key] = (now - (_N94_FAIL_TTL - 60.0 if exc.code in _N94_TRANSIENT else 0.0), None, exc.msg)       # busy / low memory: ask again in a minute, not in half an hour
+        return None, exc.msg
+    except Exception as exc:
+        _N94_STATS['intel_failed'] += 1
+        msg = 'The helper failed (%s).' % type(exc).__name__
+        _N94_INTEL[key] = (now, None, msg)
+        return None, msg
+
+
+def _n94_cached(kind, payload):
+    key = (kind, _n91_jsonlib.dumps(payload, sort_keys=True)[:200])
+    hit = _N94_INTEL.get(key)
+    return hit[1] if hit and hit[1] is not None and _n91_time.time() - hit[0] < _N94_TTL[kind] * 2 else None
+
+
+# ---- reading what came back (NSE's column names are matched without regard to case and spaces, because they have changed before)
+def _n94_low(rec):
+    return {_n91_re.sub(r'[^a-z0-9]', '', str(k).lower()): v for k, v in (rec or {}).items()}
+
+
+def _n94_pick(low, *names):
+    for n in names:
+        v = low.get(n)
+        if v not in (None, ''):
+            return v
+    return ''
+
+
+def _n94_parse_date(s):
+    s = str(s or '').strip()
+    for cand in (s, s.split(' ')[0] if s else ''):
+        for fmt in ('%d-%b-%Y', '%d-%m-%Y', '%Y-%m-%d', '%d %b %Y', '%d/%m/%Y', '%d-%B-%Y', '%d-%b-%y'):
+            try:
+                return _n91_dt.datetime.strptime(cand, fmt).date()
+            except ValueError:
+                continue
+    return None
+
+
+def _n94_sessions_between(d0, d1):
+    """Trading sessions after d0 up to and including d1 (weekends and the holidays Nemo knows are skipped)."""
+    n, d = 0, d0
+    while d < d1 and n < 400:
+        d += _n91_dt.timedelta(days=1)
+        try:
+            st = _n81_session(_n91_dt.datetime(d.year, d.month, d.day, 11, 0, tzinfo=_N94_IST_TZ)).get('state')
+        except Exception:
+            st = 'OPEN'
+        if st in ('CLOSED_HOLIDAY', 'CLOSED_WEEKEND') or (st == 'CALENDAR_UNVERIFIED' and d.weekday() >= 5):
+            continue
+        n += 1
+    return n
+
+
+def _n94_events_map(rows, today):
+    """{SYMBOL: {'date': date, 'purpose': text, 'sessions': n, 'other': [...]}}: the earliest results date on or after today for each symbol, with its other events."""
+    out, memo = {}, {}
+    for r in rows or []:
+        low = _n94_low(r)
+        sym = str(_n94_pick(low, 'symbol')).strip().upper()
+        d = _n94_parse_date(_n94_pick(low, 'date', 'bmdate', 'broadcastdate', 'eventdate'))
+        if not sym or d is None or d < today:
+            continue
+        purpose = str(_n94_pick(low, 'purpose', 'subject')).strip()
+        desc = str(_n94_pick(low, 'bmdesc', 'description', 'details')).strip()
+        text = (purpose + ' ' + desc).lower()
+        e = out.setdefault(sym, {'date': None, 'purpose': '', 'sessions': None, 'other': []})
+        if 'result' in text or 'financial' in text or 'quarter' in text:
+            if e['date'] is None or d < e['date']:
+                e['date'], e['purpose'] = d, _n91_clip(purpose or 'Financial results', 60)
+        else:
+            e['other'].append((d, _n91_clip(purpose or desc or 'event', 60)))
+    for e in out.values():
+        if e['date'] is not None:
+            if e['date'] not in memo:                       # a few dozen distinct dates for thousands of companies
+                memo[e['date']] = _n94_sessions_between(today, e['date'])
+            e['sessions'] = memo[e['date']]
+        e['other'] = sorted(e['other'])[:3]
+    return out
+
+
+def _n94_actions_map(rows, today):
+    """{SYMBOL: [(ex_date, kind, text)]} for ex-dates on or after today; kind is split / bonus / dividend / rights / merger / other."""
+    out = {}
+    for r in rows or []:
+        low = _n94_low(r)
+        sym = str(_n94_pick(low, 'symbol')).strip().upper()
+        d = _n94_parse_date(_n94_pick(low, 'exdate', 'exdt', 'recdate', 'date'))
+        subj = str(_n94_pick(low, 'subject', 'purpose', 'action')).strip()
+        if not sym or d is None or d < today or not subj:
+            continue
+        s = subj.lower()
+        kind = 'split' if ('split' in s or 'sub-division' in s or 'subdivision' in s) else 'bonus' if 'bonus' in s else 'dividend' if 'dividend' in s else 'rights' if 'rights' in s else \
+               'merger' if ('merger' in s or 'amalgamation' in s or 'demerger' in s or 'arrangement' in s) else 'other'
+        out.setdefault(sym, []).append((d, kind, _n91_clip(subj, 70)))
+    for v in out.values():
+        v.sort()
+    return out
+
+
+def _n94_num(x):
+    try:
+        return float(str(x).replace(',', '').strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def _n94_flow_summary(res):
+    """What FII index-futures flow and position say, as {'date', 'signal' -1..1 or None, 'words', 'lines'}; None when nothing could be read."""
+    if not res:
+        return None
+    lines, parts, date = [], [], None
+    fs = res.get('fii_stats')
+    if fs:
+        for r in fs.get('rows') or []:
+            low = _n94_low(r)
+            name = str(_n94_pick(low, 'fiiderivatives', 'category', 'name')).upper()
+            if 'INDEX' in name and 'FUTURE' in name:
+                buy, sell = _n94_num(_n94_pick(low, 'buyvalueincr', 'buyvalue')), _n94_num(_n94_pick(low, 'sellvalueincr', 'sellvalue'))
+                oi = _n94_num(_n94_pick(low, 'opencontracts', 'openinterest'))
+                if buy is not None and sell is not None:
+                    net = buy - sell
+                    parts.append(_n93_clamp(net / 3000.0, -1.0, 1.0))
+                    lines.append('FII index futures that day: bought ₹%s cr, sold ₹%s cr → net %s ₹%s cr' % (_n93_inr(buy, 1), _n93_inr(sell, 1), 'buying' if net > 0 else 'selling', _n93_inr(abs(net), 1)))
+                    date = date or fs.get('date')
+                if oi is not None:
+                    lines.append('FII open index-futures contracts: %s' % _n94_big(oi))
+                break
+    po = res.get('part_oi')
+    share = None
+    if po:
+        for r in po.get('rows') or []:
+            low = _n94_low(r)
+            who = str(_n94_pick(low, 'clienttype')).strip().upper()
+            if who in ('FII', 'DII', 'PRO', 'CLIENT'):
+                lg = next((_n94_num(v) for k, v in low.items() if 'futureindexlong' in k), None)
+                sh = next((_n94_num(v) for k, v in low.items() if 'futureindexshort' in k), None)
+                if lg is not None and sh is not None and (lg + sh) > 0:
+                    sp = lg / (lg + sh)
+                    if who == 'FII':
+                        share = sp
+                        parts.append(_n93_clamp((sp - 0.5) / 0.25, -1.0, 1.0))
+                        lines.append('FII are %.0f%% long in index futures (%s long, %s short) → %s' % (sp * 100, _n94_big(lg), _n94_big(sh), 'leaning bullish' if sp >= 0.6 else 'leaning bearish' if sp <= 0.4 else 'balanced'))
+                    else:
+                        lines.append('%s: %.0f%% long in index futures' % ({'DII': 'DII', 'PRO': 'Proprietary traders', 'CLIENT': 'Retail clients'}[who], sp * 100))
+                    date = date or po.get('date')
+    if not lines:
+        return None
+    sig = _n93_clamp(sum(parts) / len(parts), -1.0, 1.0) if parts else None
+    words = 'FII flow%s: %s' % (' (%s)' % date if date else '', '; '.join(lines[:2]))
+    return {'date': date, 'signal': sig, 'words': words, 'lines': lines, 'fii_long_share': share}
+
+
+# ---- the getters the scan uses (cache first; a job only when nothing is cached)
+def _n94_get_events(now=None, force=False):
+    now = now if now is not None else _n91_time.time()
+    data, err = _n94_job('events', {'today': _n94_today(now).isoformat(), 'days': 21}, now, force)
+    return (_n94_events_map(data['rows'], _n94_today(now)) if data else None), err
+
+
+def _n94_get_actions(now=None, force=False):
+    now = now if now is not None else _n91_time.time()
+    data, err = _n94_job('actions', {'today': _n94_today(now).isoformat(), 'days': 21}, now, force)
+    return (_n94_actions_map(data['rows'], _n94_today(now)) if data else None), err
+
+
+def _n94_get_ban(now=None, force=False):
+    now = now if now is not None else _n91_time.time()
+    data, err = _n94_job('ban', {'today': _n94_today(now).isoformat()}, now, force)
+    return ({str(s).upper() for s in data['symbols'] if str(s).strip()} if data else None), err
+
+
+def _n94_get_flows(now=None, force=False):
+    now = now if now is not None else _n91_time.time()
+    payload = {'today': _n94_today(now).isoformat()}
+    data, err = _n94_job('flows', payload, now, force)
+    if not data:
+        return None, err
+    fl = _n94_flow_summary(data)
+    if fl is None:
+        msgs = ' '.join(str(e) for e in (data.get('errors') or []))
+        err = ('The FII table is an old Excel file, so it also needs xlrd: say “install xlrd into yourself”.' if 'xlrd' in msgs.lower() else
+               'NSE had no FII/DII figures for the last few trading days%s.' % (' (%s)' % _n91_clip(msgs, 120) if msgs else ''))
+        _N94_INTEL[('flows', _n91_jsonlib.dumps(payload, sort_keys=True)[:200])] = (now, None, err)       # asked again in half an hour, not at every scan
+        return None, err
+    return fl, None
+
+
+def _n94_prefetch(now=None, budget=110.0, kinds=('events', 'ban', 'actions', 'flows')):
+    """Load the NSE sources for a scan, stopping when the time budget is spent. Returns {name: error or None}."""
+    res = {}
+    if not _n94_intel_on() or not _n92_have('nselib'):
+        return res
+    t0 = _n91_time.time()
+    for name, fn in (('events', _n94_get_events), ('ban', _n94_get_ban), ('actions', _n94_get_actions), ('flows', _n94_get_flows)):
+        if name not in kinds:
+            continue
+        if _n91_time.time() - t0 > budget:
+            res[name] = 'time budget spent'
+            continue
+        _v, err = fn(now)
+        res[name] = err
+    return res
+
+
+def _n94_need_fetch(kinds, now=None):
+    today = _n94_today(now).isoformat()
+    keys = {'events': {'today': today, 'days': 21}, 'actions': {'today': today, 'days': 21}, 'ban': {'today': today}, 'flows': {'today': today}}
+    return any(_n94_cached(k, keys[k]) is None for k in kinds)
+
+
+_N94_SCAN_PREV = _n93_scan
+def _n93_scan(cid, scope='all', symbols=None, quiet=False, deadline=170.0):
+    try:
+        if _n94_intel_on() and _n92_have('nselib'):
+            kinds = ('flows',) if scope == 'options' else ('events', 'ban', 'actions', 'flows')
+            if _n94_need_fetch(kinds):
+                if not quiet:
+                    _n91_say(cid, '📋 Scout is reading NSE’s results calendar, F&O ban list and flow figures first (they are kept for hours) …')
+                _n94_prefetch(None, 110.0, kinds)
+    except Exception:
+        _N94_STATS['errors'] += 1
+    return _N94_SCAN_PREV(cid, scope, symbols, quiet, deadline)
+
+
+_N94_SYMJOB_PREV = _n93_symbol_job
+def _n93_symbol_job(cid, sym):
+    try:
+        if _n94_intel_on() and _n92_have('nselib'):
+            kinds = ('flows',) if sym in _N93_INDEXES else ('events', 'ban', 'actions')
+            if _n94_need_fetch(kinds):
+                _n94_prefetch(None, 110.0, kinds)
+    except Exception:
+        _N94_STATS['errors'] += 1
+    return _N94_SYMJOB_PREV(cid, sym)
+
+
+def _n94_scan_line(cand, idx):
+    """One line for the top of a Scout scan, from the caches only; '' when nothing was read."""
+    if not _n94_intel_on():
+        return ''
+    today = _n94_today()
+    bits = []
+    ev = _n94_cached('events', {'today': today.isoformat(), 'days': 21})
+    if ev is not None:
+        m = _n94_events_map(ev['rows'], today)
+        soon = sorted((s, m[s]['date']) for s in cand if s in m and m[s]['date'] is not None and (m[s]['sessions'] or 0) <= 4)
+        bits.append('NSE results dates read' + (' (%s)' % ', '.join('%s %s' % (s, d.strftime('%d %b')) for s, d in soon[:4]) if soon else ': none due for these names'))
+    bn = _n94_cached('ban', {'today': today.isoformat()})
+    if bn is not None:
+        names = {str(s).upper() for s in bn['symbols'] if str(s).strip()}
+        hit = sorted(s for s in cand if s in names)
+        bits.append('F&O ban list read' + (' (%s in ban)' % ', '.join(hit) if hit else ''))
+    fl = _n94_cached('flows', {'today': today.isoformat()})
+    if fl is not None and idx:
+        s = _n94_flow_summary(fl)
+        if s:
+            bits.append('FII flow of %s read' % (s['date'] or 'the last day'))
+    if bits:
+        return '📋 Intel: ' + '; '.join(bits) + '.'
+    if _n92_have('nselib'):
+        bad = [v[2] for k, v in _N94_INTEL.items() if v[1] is None and v[2] and k[0] in ('events', 'ban', 'actions', 'flows')]
+        if bad:
+            return '📋 Intel: NSE could not be read just now (%s), so results dates, the F&O ban list and flows were NOT checked. Say “scout intel” for details.' % _n91_clip(bad[0], 90)
+    return ''
+
+
+# ---- joining the intel to Scout's stock ideas, index bias and option plans (wrappers; Scout's own code is not changed)
+def _n94_add_score(idea, delta, note):
+    idea['score'] = int(max(0, min(100, idea['score'] + delta)))
+    idea['band'] = _n93_band(idea['score'])
+    idea['comps'] = dict(idea.get('comps') or {}, event=round((idea.get('comps') or {}).get('event', 0.0) + delta, 1))
+    idea.setdefault('bad', []).append(note)
+
+
+_N94_EVAL_PREV = _n93_eval_stock
+def _n93_eval_stock(sym, news, mctx, sectors, cfg, now):
+    if not _n94_intel_on():
+        return _N94_EVAL_PREV(sym, news, mctx, sectors, cfg, now)
+    today = _n94_today(now)
+    ev = _n94_cached('events', {'today': today.isoformat(), 'days': 21})
+    bn = _n94_cached('ban', {'today': today.isoformat()})
+    ac = _n94_cached('actions', {'today': today.isoformat(), 'days': 21})
+    emap = _n94_events_map(ev['rows'], today) if ev is not None else None
+    bset = {str(s).upper() for s in bn['symbols'] if str(s).strip()} if bn is not None else None
+    amap = _n94_actions_map(ac['rows'], today) if ac is not None else None
+    e = (emap or {}).get(sym)
+    news2 = news
+    if e and e.get('date') is not None:
+        if e['sessions'] <= 1:
+            return None, '%s: results on %s (%s): a stop cannot protect against a results gap, so Scout skips new ideas the day before' % (sym, e['date'].strftime('%d %b'), 'today' if e['sessions'] == 0 else 'the next session')
+        if e['sessions'] <= 4:
+            news2 = dict(news or {}, flags=sorted(set((news or {}).get('flags') or []) | {'results_due'}))
+    idea, why = _N94_EVAL_PREV(sym, news2, mctx, sectors, cfg, now)
+    if not idea:
+        return idea, why
+    lines, checked = [], []
+    if emap is not None:
+        checked.append('results dates')
+        lines.append('Results: ' + ('%s (%s, in %d trading session%s)' % (e['date'].strftime('%d %b'), e['purpose'], e['sessions'], '' if e['sessions'] == 1 else 's') if e and e.get('date') else 'none on NSE’s calendar in the next 21 days'))
+    if bset is not None:
+        checked.append('F&O ban')
+        if sym in bset:
+            lines.append('F&O ban: YES, new futures/options positions are blocked and moves can be sharp')
+            _n94_add_score(idea, -6, 'the stock is in the F&O ban period (crowded positions: sharp moves either way)')
+        else:
+            lines.append('F&O ban: no')
+    if amap is not None:
+        checked.append('corporate actions')
+        acts = amap.get(sym) or []
+        near = [a for a in acts if _n94_sessions_between(today, a[0]) <= 6]
+        if near:
+            lines.append('Corporate action: ' + '; '.join('%s ex-date %s' % (a[2], a[0].strftime('%d %b')) for a in near[:2]))
+            if any(a[1] in ('split', 'bonus', 'merger') for a in near):
+                _n94_add_score(idea, -4, 'a split/bonus/merger ex-date falls inside the trade window: the price will be adjusted and a stop set now will be wrong')
+        else:
+            lines.append('Corporate action: none in the next 21 days')
+    if lines:
+        idea['intel'] = lines
+        idea['intel_checked'] = checked
+    return idea, why
+
+
+_N94_PARTS_PREV = _n93_bias_parts
+def _n93_bias_parts(view):
+    parts = _N94_PARTS_PREV(view)
+    try:
+        if _n94_intel_on():
+            fl = _n94_flow_summary(_n94_cached('flows', {'today': _n94_today().isoformat()}))
+            if fl and fl.get('signal') is not None:
+                parts.append(('institutional flow', fl['signal'], 0.15, fl['words']))
+    except Exception:
+        _N94_STATS['errors'] += 1
+    return parts
+
+
+def _n94_atm_iv_of(view):
+    rows, spot = (view.get('chain') or {}).get('rows') or [], view.get('spot')
+    if not rows or not spot:
+        return None
+    near = sorted([r for r in rows if r.get('iv')], key=lambda r: abs(r['strike'] - spot))[:2]
+    return sum(r['iv'] for r in near) / len(near) if near else None
+
+
+def _n94_vol_verdict(implied, forecast):
+    r = implied / forecast if forecast else None
+    if r is None:
+        return ''
+    return 'options look DEAR: they price more movement than recent behaviour suggests' if r > 1.25 else 'options look CHEAP: they price less movement than recent behaviour suggests' if r < 0.85 else 'options are priced about right for recent behaviour'
+
+
+_N94_PLAN_PREV = _n93_option_plan
+def _n93_option_plan(view, cfg):
+    plan = _N94_PLAN_PREV(view, cfg)
+    if not plan.get('ok') or not _n94_intel_on() or not _n92_have('arch'):
+        return plan
+    try:
+        cs, _info = _n93_candles(view['sym'], '1d')
+        closes = [float(c['c']) for c in cs[-520:]] if cs else []
+        horizon = max(1, int(round(view.get('days') or 5)))
+        data, err = _n94_vol_job(closes, horizon)
+        iv = _n94_atm_iv_of(view)
+        if data and iv:
+            fc = data['forecast_vol_pct']
+            verdict = _n94_vol_verdict(iv, fc)
+            plan['intel'] = ['Volatility forecast: recent behaviour points to about %.1f%% a year over the next %d day%s (GARCH on %d daily moves); the option is priced at %.1f%% → %s' % (fc, horizon, '' if horizon == 1 else 's', data['n'], iv, verdict)]
+            plan['intel_checked'] = ['volatility forecast']
+            if 'DEAR' in verdict and plan.get('plan', {}).get('structure') == 'LONG':
+                plan.setdefault('bad', []).append('options are dear against recent volatility (implied %.1f%% vs forecast %.1f%%): the buyer pays for movement that may not come' % (iv, fc))
+            elif 'CHEAP' in verdict:
+                plan.setdefault('good', []).append('options are cheap against recent volatility (implied %.1f%% vs forecast %.1f%%)' % (iv, fc))
+    except Exception:
+        _N94_STATS['errors'] += 1
+    return plan
+
+
+def _n94_vol_job(closes, horizon, force=False):
+    """(forecast dict, None) or (None, reason). Two years of closes are sent to the helper as its argument (about 4 KB)."""
+    if len(closes) < 130:
+        return None, 'only %d daily closes are available (130 needed)' % len(closes)
+    key_payload = {'n': len(closes), 'last': round(closes[-1], 2), 'first': round(closes[0], 2), 'h': int(horizon)}
+    key = ('vol', _n91_jsonlib.dumps(key_payload, sort_keys=True))
+    now = _n91_time.time()
+    hit = _N94_INTEL.get(key)
+    if hit and not force and now - hit[0] < (_N94_TTL['vol'] if hit[1] is not None else _N94_FAIL_TTL):
+        _N94_STATS['intel_cached'] += 1
+        return hit[1], hit[2]
+    if not _n92_have('arch'):
+        return None, _n94_install_hint('arch')
+    try:
+        _N94_STATS['intel_jobs'] += 1
+        data = _n92_child(_N94_PROG, ['vol', _n91_jsonlib.dumps({'closes': [round(c, 4) for c in closes], 'horizon': int(horizon)})], need_mb=_N94_NEED['vol'], timeout=45)
+        if not data.get('ok'):
+            raise _N92Err('source', 'The forecast helper said: %s' % _n91_clip(str(data.get('error')), 160))
+        _N94_INTEL[key] = (now, data, None)
+        return data, None
+    except _N91Err as exc:
+        _N94_STATS['intel_failed'] += 1
+        _N94_INTEL[key] = (now - (_N94_FAIL_TTL - 60.0 if exc.code in _N94_TRANSIENT else 0.0), None, exc.msg)
+        return None, exc.msg
+
+
+_N94_CARD_PREV = _n93_card
+def _n93_card(i, cfg):
+    text = _N94_CARD_PREV(i, cfg)
+    try:
+        lines = list(i.get('intel') or [])
+        if lines:
+            marker = '\nNot checked: '
+            at = text.find(marker)
+            block = '\n'.join(('📋 ' if n == 0 else '   ') + x for n, x in enumerate(lines))
+            text = (text[:at] + '\n' + block + text[at:]) if at >= 0 else text + '\n' + block
+            for chk, phrase in (('results dates', 'results dates, '), ('corporate actions', 'corporate actions, ')):
+                if chk in (i.get('intel_checked') or []):
+                    text = text.replace(phrase, '', 1)
+        return text[:3990]
+    except Exception:
+        _N94_STATS['errors'] += 1
+        return text
+
+
+# ---- the owner's questions about it
+def _n94_text_results(sym):
+    today = _n94_today()
+    m, err = _n94_get_events()
+    if m is None:
+        return '⚠️ I could not read NSE’s results calendar. %s' % err
+    e = m.get(sym)
+    if not e or (e['date'] is None and not e['other']):
+        return '📅 %s: no results or other event on NSE’s calendar in the next 21 days. Companies sometimes announce a date only about a week before.' % sym
+    L = ['📅 %s on NSE’s calendar (read from NSE, %s)' % (sym, today.strftime('%d %b %Y')), '']
+    if e['date'] is not None:
+        d = (e['date'] - today).days
+        L.append('Results: %s (%s) · %s · %d trading session%s away' % (e['date'].strftime('%A %d %b %Y'), e['purpose'], 'today' if d == 0 else 'in %d day%s' % (d, '' if d == 1 else 's'), e['sessions'], '' if e['sessions'] == 1 else 's'))
+        L.append('Scout skips new ideas on this stock %s and marks it as event risk for 4 sessions before.' % ('from today (results are the next session at the latest)' if e['sessions'] <= 1 else 'the day before results'))
+    for d, p in e['other']:
+        L.append('Also: %s on %s' % (p, d.strftime('%d %b')))
+    L += ['', 'In plain words: on results day a stock can jump or fall several percent in minutes, and a stop loss may be skipped over. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_text_ban():
+    s, err = _n94_get_ban()
+    if s is None:
+        return '⚠️ I could not read NSE’s F&O ban list. %s' % err
+    if not s:
+        return '🚫 F&O ban list (%s): no stock is in the ban list, or NSE has not published today’s list yet.\n\nIn plain words: a stock enters the ban when too many of its contracts are open. Then no new futures or options positions are allowed, only closing trades. %s' % (_n94_today().strftime('%d %b %Y'), _N94_FOOT)
+    return '🚫 F&O BAN LIST (%s): %d stock%s\n\n%s\n\nIn plain words: in the ban period no new futures or options positions are allowed, only closing trades. Moves can be sharp. Scout lowers the score of any idea on these names. %s' % (
+        _n94_today().strftime('%d %b %Y'), len(s), '' if len(s) == 1 else 's', ', '.join(sorted(s)), _N94_FOOT)
+
+
+def _n94_text_flows():
+    fl, err = _n94_get_flows()
+    if fl is None:
+        return '⚠️ I could not read the FII/DII figures. %s' % (err or 'NSE had nothing for the last few trading days.')
+    L = ['🏦 FOREIGN AND DOMESTIC FLOW (NSE, as of %s)' % (fl['date'] or 'the last published day'), ''] + ['• ' + x for x in fl['lines']]
+    if fl.get('signal') is not None:
+        L += ['', 'Reading: %s (%+.2f on a scale from −1 to +1). Scout uses it as one small part (15%%) of its NIFTY view.' % ('mildly bullish' if fl['signal'] > 0.25 else 'mildly bearish' if fl['signal'] < -0.25 else 'neutral', fl['signal'])]
+    L += ['', 'In plain words: this data is published after the close, so it is one day old, and foreign selling in futures is sometimes a hedge, not a view. Treat it as colour. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_text_vol(sym):
+    cs, info = _n93_candles(sym, '1d')
+    if not cs:
+        return '⚠️ I could not read daily prices for %s (%s).' % (sym, info.get('error') or 'no data')
+    closes = [float(c['c']) for c in cs[-520:]]
+    horizon = 5
+    data, err = _n94_vol_job(closes, horizon)
+    if data is None:
+        return '⚠️ I could not work out the volatility forecast for %s. %s' % (sym, err)
+    fc = data['forecast_vol_pct']
+    L = ['🌡 VOLATILITY FORECAST: %s' % sym, '', 'Recent behaviour (GARCH on %d daily moves) points to about %.1f%% a year over the next %d trading days (the latest reading was %.1f%%).' % (data['n'], fc, horizon, data['recent_vol_pct'])]
+    try:
+        ch = _n55_option_chain_struct(sym, 8, persist=False)
+        if ch.get('ok'):
+            rows = [r for r in ch['rows'] if r.get('iv')]
+            if rows:
+                near = sorted(rows, key=lambda r: abs(r['strike'] - ch['spot']))[:2]
+                iv = sum(r['iv'] for r in near) / len(near)
+                L.append('The options at the money are priced at %.1f%% → %s.' % (iv, _n94_vol_verdict(iv, fc)))
+    except Exception:
+        pass
+    L += ['', 'In plain words: if options price more movement than the market has recently delivered, buyers are paying extra. Volatility forecasts are wrong often, so this is one input, not a rule. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_text_holidays(now=None):
+    now = now if now is not None else _n91_time.time()
+    today = _n94_today(now)
+    end = today + _n91_dt.timedelta(days=120)
+    data, err = _n94_job('cal', {'start': today.isoformat(), 'end': end.isoformat()}, now)
+    L = ['📆 MARKET HOLIDAYS CHECK', '']
+    own = {d: _N81_HOLIDAYS_2026.get(d) for d in sorted(_N81_HOLIDAYS_2026) if today.isoformat() <= d <= end.isoformat()}
+    own_week = {d: n for d, n in own.items() if _n91_dt.date.fromisoformat(d).weekday() < 5}
+    L.append('My own table (NSE’s published 2026 list), next 120 days: %s' % (', '.join('%s (%s)' % (_n91_dt.date.fromisoformat(d).strftime('%d %b'), n.split(';')[0]) for d, n in own_week.items()) or 'none'))
+    if data is None:
+        L.append('Cross-check not done: %s' % err)
+    else:
+        theirs = set(data['holidays'])
+        checked_to = data['checked_to']
+        mine = {d for d in own_week if d <= checked_to}
+        only_theirs = sorted(d for d in theirs if d not in mine and d <= '2026-12-31')
+        only_mine = sorted(d for d in mine if d not in theirs)
+        L.append('Cross-check with the exchange-calendars library (BSE’s calendar, which matches NSE on almost every day), up to %s: %s' % (checked_to, 'the same days.' if not only_theirs and not only_mine else 'DIFFERENT:'))
+        for d in only_theirs:
+            L.append('  • the library says CLOSED on %s but my table says open: check NSE’s list' % d)
+        for d in only_mine:
+            L.append('  • my table says CLOSED on %s but the library says open (it can be an NSE-only holiday)' % d)
+        if checked_to < end.isoformat():
+            L.append('The library knows holidays only up to %s.' % data['calendar_ends'])
+    L += ['', '⚠️ My table covers 2026 only. From 1 Jan 2027 my guards treat the calendar as “unverified” and keep NEW trade entries closed until it is updated. NSE usually publishes the next year’s list in December: say “holiday check” then, and I will compare. ' + _N94_FOOT]
+    return '\n'.join(L)
+
+
+def _n94_text_intel_status():
+    L = ['📋 SCOUT INTEL: what I can read besides news and prices', '']
+    for name, lib, what in (('NSE data', 'nselib', 'results dates, F&O ban list, corporate actions, FII/DII flow'), ('Holiday cross-check', 'exchange_calendars', 'compares my holiday table with a calendar library'), ('Volatility forecast', 'arch', 'what the options should cost, from recent movement')):
+        L.append('%s %s: %s%s' % ('✅' if _n92_have(lib) else '❌', name, what, '' if _n92_have(lib) else ' · not installed: say “install %s into yourself”' % _N94_PIP[lib]))
+    L.append('')
+    L.append('Switch: %s (say “scout intel on” or “scout intel off”)' % ('ON' if _n94_intel_on() else 'OFF'))
+    now = _n91_time.time()
+    last = [(k[0], v) for k, v in _N94_INTEL.items()]
+    if last:
+        L.append('Last reads: ' + '; '.join('%s %s ago%s' % (k, _n91_dur(now - v[0]), '' if v[1] is not None else ' (failed)') for k, v in sorted(last, key=lambda x: -x[1][0])[:5]))
+    L += ['', 'Each read runs in a separate short-lived program, one at a time and only when the server has memory to spare. If NSE cannot be reached (some servers are blocked), I say so and carry on without it. Nothing here places an order. Try: “results RELIANCE”, “ban list”, “fii flow”, “volatility forecast nifty”, “holiday check”.']
+    return '\n'.join(L)
+
+
+# ------------------------------------------------ STUDIO PLUS: real AI enlarging (Real-ESRGAN), key-free background removal (rembg) and a chart under every Scout idea ------------------------------------------------
+# Both AI tools run in a separate short-lived program (never inside the bot, which has about 3.8 GB on a small server), only when they are installed, switched on and the server has the memory. When they
+# cannot run, the older Studio path is used and the reply says which was used. A picture is only ever read from and written to a private job folder that is deleted afterwards.
+_N94_UP = _n91_threading.local()                                   # the way the last enlarging was done, for the note under the picture
+_N94_AI_LIMITS = {2: (1280, 450, 180), 4: (320, 2000, 240)}        # factor -> (longest input side in pixels, memory in MB the job needs, seconds allowed)
+_N94_ESRGAN_MODEL = {2: 0, 4: 4}                                   # Real-ESRGAN animevideo x2 (art and general), Real-ESRGAN x4plus (photos)
+
+_N94_PROG_ESRGAN = r'''
+import sys, json
+from PIL import Image
+from realesrgan_ncnn_py import Realesrgan
+src, dst, model, tile = sys.argv[1], sys.argv[2], int(sys.argv[3]), int(sys.argv[4])
+im = Image.open(src).convert('RGB')
+out = Realesrgan(gpuid=-1, model=model, tilesize=tile).process_pil(im)
+out.save(dst, 'PNG')
+print(json.dumps({'ok': True, 'w': out.size[0], 'h': out.size[1]}))
+'''
+_N94_PROG_REMBG = r'''
+import sys, json
+from PIL import Image
+from rembg import remove, new_session
+src, dst = sys.argv[1], sys.argv[2]
+im = Image.open(src).convert('RGB')
+small = im.copy()
+small.thumbnail((1024, 1024))
+mask = remove(small, session=new_session('silueta'), only_mask=True)
+if mask.size != im.size:
+    mask = mask.resize(im.size, Image.LANCZOS)
+out = im.convert('RGBA')
+out.putalpha(mask.convert('L'))
+out.save(dst, 'PNG')
+print(json.dumps({'ok': True, 'w': out.size[0], 'h': out.size[1]}))
+'''
+
+
+def _n94_py_for(module, tool):
+    """The Python that can import `module`: this one when it was installed into me, else the isolated tool environment Forge made for `tool`; '' when neither."""
+    if _n92_have(module):
+        return _n92_python()
+    try:
+        row = _n91_ledger_find(tool)
+        if row and row['target'] == 'tool':
+            p = _n91_os.path.join(_n91_env_dir(row['env']), 'bin', 'python')
+            if _n91_os.path.isfile(p):
+                return p
+    except Exception:
+        pass
+    return ''
+
+
+def _n94_child_py(py, code, args=(), need_mb=400, timeout=120, job=None):
+    """_n92_child for any Python (this one or a tool environment's): same memory check, one heavy job at a time, clean environment. Returns the child's one JSON line as a dict; raises _N92Err."""
+    ok, why = _n92_guard(need_mb)
+    if not ok:
+        _N92_STATS['refused_memory'] += 1
+        raise _N92Err('low_memory', why)
+    if not _N92_LOCK.acquire(blocking=False):
+        _N92_STATS['refused_busy'] += 1
+        raise _N92Err('busy', 'Another heavy job is running; ask again in a minute.')
+    try:
+        _N92_STATS['jobs'] += 1
+        env = _n91_env({'PATH': _n91_os.path.dirname(py) + ':' + _n91_env()['PATH']}) if py != _n92_python() else _n91_env()
+        env = {k: v for k, v in env.items() if not k.startswith('PIP_')}
+        argv = (['nice', '-n', '10'] if _n91_shutil.which('nice') else []) + [py, '-c', code] + [str(a) for a in args]
+        rc, out, err = _n91_run(argv, timeout, env, job)
+    finally:
+        _N92_LOCK.release()
+    if rc != 0:
+        _N92_STATS['failed'] += 1
+        blob = (err or '') + (out or '')
+        if 'libvulkan' in blob or 'libomp' in blob:
+            raise _N92Err('system_libs', 'The AI enlarger needs two system libraries that are not on this server. Say “forge apt allow libomp5 libvulkan1” and then “forge apt libomp5 libvulkan1” (you get a card to approve each).')
+        raise _n92_failure(rc, out, err)
+    lines = [ln for ln in str(out).split('\n') if ln.strip()]
+    try:
+        data = _n91_jsonlib.loads(lines[-1])
+    except (IndexError, ValueError):
+        raise _N92Err('bad_output', 'The helper finished but gave me nothing I could read.')
+    if not isinstance(data, dict) or not data.get('ok'):
+        raise _N92Err('bad_output', 'The helper finished but gave me nothing I could read.')
+    return data
+
+
+def _n94_ai_enabled():
+    return _n94_get('studio_ai', 'on') != 'off'
+
+
+def _n94_upscale_ai(im, factor):
+    """The enlarged picture made by Real-ESRGAN, or None (and the reason in _N94_UP.reason) so the caller uses the older, plain enlarging."""
+    _N94_UP.ai = False
+    _N94_UP.reason = ''
+    if not _n94_ai_enabled():
+        _N94_UP.reason = 'AI enlarging is switched off (“studio ai on” turns it on)'
+        return None
+    if factor not in _N94_AI_LIMITS:
+        _N94_UP.reason = 'the AI enlarger is set up for 2x and 4x only'
+        return None
+    py = _n94_py_for('realesrgan_ncnn_py', 'realesrgan-ncnn-py')
+    if not py:
+        return None
+    side, need, secs = _N94_AI_LIMITS[factor]
+    if max(im.size) > side:
+        _N94_UP.reason = 'this picture is too big for the AI enlarger at %dx on this server (limit %d px on the long side)' % (factor, side)
+        return None
+    Image = _n90_pil()
+    job = _n92_new_job()
+    try:
+        src, dst = _n91_os.path.join(job, 'in.png'), _n91_os.path.join(job, 'out.png')
+        im.convert('RGB').save(src, 'PNG')
+        _n94_child_py(py, _N94_PROG_ESRGAN, [src, dst, _N94_ESRGAN_MODEL[factor], 128], need_mb=need, timeout=secs, job=job)
+        out = Image.open(dst)
+        out.load()
+        out = out.convert('RGB')
+        if out.size != (im.size[0] * factor, im.size[1] * factor):
+            out = out.resize((im.size[0] * factor, im.size[1] * factor), Image.LANCZOS)
+        if im.mode == 'RGBA':
+            out = out.convert('RGBA')
+            out.putalpha(im.getchannel('A').resize(out.size, Image.LANCZOS))
+        _N94_STATS['upscale_ai'] += 1
+        _N94_UP.ai = True
+        return out
+    except _N91Err as exc:
+        _N94_STATS['upscale_fallback'] += 1
+        _N94_UP.reason = exc.msg
+        return None
+    except Exception as exc:
+        _N94_STATS['upscale_fallback'] += 1
+        _N94_UP.reason = 'the AI enlarger failed (%s)' % type(exc).__name__
+        return None
+    finally:
+        _n92_rm_job(job)
+
+
+def _n94_upscale_note(factor, size):
+    if getattr(_N94_UP, 'ai', False):
+        return 'enlarged %dx to %dx%d with Real-ESRGAN (an AI model: it adds plausible detail, so the result can differ from the real scene; do not use it for evidence or documents)' % (factor, size[0], size[1])
+    why = getattr(_N94_UP, 'reason', '')
+    return 'enlarged %dx to %dx%d (sharpened; no new detail is invented)%s' % (factor, size[0], size[1], (' · plain method used: ' + why) if why else '')
+
+
+
+
+def _n94_rembg(im):
+    """The picture with its background cut out by the rembg AI model (silueta) run in a separate program, or None."""
+    if not _n94_ai_enabled():
+        return None
+    py = _n94_py_for('rembg', 'rembg')
+    if not py:
+        return None
+    Image = _n90_pil()
+    job = _n92_new_job()
+    try:
+        src, dst = _n91_os.path.join(job, 'in.png'), _n91_os.path.join(job, 'out.png')
+        im.convert('RGB').save(src, 'PNG')
+        _n94_child_py(py, _N94_PROG_REMBG, [src, dst], need_mb=1100, timeout=150, job=job)
+        out = Image.open(dst)
+        out.load()
+        _N94_STATS['rembg'] += 1
+        return out.convert('RGBA')
+    except Exception as exc:
+        _N94_STATS['rembg_fallback'] += 1
+        _N94_UP.rembg_reason = exc.msg if isinstance(exc, _N91Err) else 'the cut-out helper failed (%s)' % type(exc).__name__
+        return None
+    finally:
+        _n92_rm_job(job)
+
+
+
+
+
+
+# ------------------------------------------------ a chart under every Scout idea (drawn here with Pillow: no extra program, no extra install) ------------------------------------------------
+def _n94_charts_on():
+    return _n94_get('charts', 'on') != 'off'
+
+
+def _n94_ema(values, n):
+    k, out, e = 2.0 / (n + 1), [], None
+    for v in values:
+        e = v if e is None else e + k * (v - e)
+        out.append(e)
+    return out
+
+
+def _n94_chart_png(i, candles, bars=60):
+    """PNG bytes of the last `bars` daily candles with the idea's levels drawn on, or None when Pillow or the candles are missing."""
+    Image = _n90_pil()
+    cs = [c for c in (candles or []) if all(k in c for k in ('o', 'h', 'l', 'c'))][-bars:]
+    if Image is None or len(cs) < 15:
+        return None
+    from PIL import ImageDraw
+    W, H, L, R, T, B = 1000, 580, 78, 150, 70, 54
+    img = Image.new('RGB', (W, H), (255, 255, 255))
+    d = ImageDraw.Draw(img)
+    f_s, f_m, f_b = _n90_font(15), _n90_font(18), _n90_font(24, True)
+    levels = [('Entry', float(i['entry']), (30, 90, 200)), ('Stop', float(i['stop']), (200, 40, 40)), ('T1', float(i['t1']), (30, 150, 70))]
+    if i.get('t2'):
+        levels.append(('T2', float(i['t2']), (30, 150, 70)))
+    hi = max([c['h'] for c in cs] + [v for _n, v, _c in levels] + [float(i.get('entry_hi') or 0)])
+    lo = min([c['l'] for c in cs] + [v for _n, v, _c in levels])
+    pad = (hi - lo) * 0.06 or hi * 0.02
+    hi, lo = hi + pad, lo - pad
+    plot_w, plot_h = W - L - R, H - T - B
+
+    def y(p):
+        return T + (hi - p) / (hi - lo) * plot_h
+    for k in range(6):
+        p = lo + (hi - lo) * k / 5.0
+        d.line([(L, y(p)), (W - R, y(p))], fill=(232, 232, 232), width=1)
+        d.text((6, y(p) - 9), _n93_inr(p, 2 if hi < 1000 else 0), fill=(90, 90, 90), font=f_s)
+    if i.get('entry_hi') and abs(float(i['entry_hi']) - float(i['entry'])) > 1e-9:
+        a, b = sorted((y(float(i['entry'])), y(float(i['entry_hi']))))
+        d.rectangle([L, a, W - R, b], fill=(222, 234, 252))
+    step = plot_w / float(len(cs))
+    bw = max(2, int(step * 0.62))
+    for n, c in enumerate(cs):
+        x = L + step * (n + 0.5)
+        up = c['c'] >= c['o']
+        col = (30, 150, 70) if up else (200, 40, 40)
+        d.line([(x, y(c['h'])), (x, y(c['l']))], fill=col, width=1)
+        top, bot = sorted((y(c['o']), y(c['c'])))
+        d.rectangle([x - bw / 2.0, top, x + bw / 2.0, max(bot, top + 1)], fill=col)
+    ema = _n94_ema([c['c'] for c in cs], 20)
+    d.line([(L + step * (n + 0.5), y(v)) for n, v in enumerate(ema)], fill=(240, 150, 30), width=2)
+    for name, v, col in levels:
+        x = L
+        while x < W - R:
+            d.line([(x, y(v)), (min(x + 9, W - R), y(v))], fill=col, width=2)
+            x += 15
+        d.text((W - R + 8, y(v) - 10), '%s %s' % (name, _n93_inr(v, 2 if v < 1000 else 0)), fill=col, font=f_m)
+    side = '%s %s' % (i.get('side', ''), i.get('symbol', ''))
+    d.text((L, 12), '%s · %s · score %s' % (i.get('id', 'idea'), side, i.get('score', '?')), fill=(20, 20, 20), font=f_b)
+    d.text((L, 44), '%s · daily candles, orange line = 20-day average%s' % (str(i.get('setup', '')).replace('_', ' ').lower(), ' · levels are on the index (the option follows it)' if i.get('kind') == 'option' else ''), fill=(100, 100, 100), font=f_s)
+    d.text((L, H - 30), 'Scout idea: decision support, not advice. Nothing was ordered. Last candle %s.' % _n94_when(cs[-1].get('ts', 0), False), fill=(120, 120, 120), font=f_s)
+    buf = _n90_io.BytesIO()
+    img.save(buf, 'PNG', optimize=True)
+    return buf.getvalue()
+
+
+def _n94_chart_send(cid, i):
+    """Draw and send the chart of one idea. Never raises; one chart that cannot be drawn costs nothing else."""
+    try:
+        cs, _info = _n93_candles(i['symbol'], '1d')
+        png = _n94_chart_png(i, cs)
+        if not png:
+            _N94_STATS['chart_failed'] += 1
+            return False
+        ok = _n90_send_image(cid, png, 'scout-%s.png' % i.get('id', 'idea'), '%s %s: levels on the daily chart' % (i.get('side', ''), i.get('symbol', '')))
+        _N94_STATS['charts'] += 1 if ok else 0
+        return bool(ok)
+    except Exception:
+        _N94_STATS['chart_failed'] += 1
+        return False
+
+
+def _n94_chart_after(cid, i):
+    """Right after an idea's card (when charts are on)."""
+    return _n94_chart_send(cid, i) if _n94_charts_on() else False
+
+
+def _n94_chart_cmd(cid, iid):
+    i = _n93_row(iid)
+    if not i:
+        _n91_say(cid, 'I do not have an idea called %s.' % _n91_clip(iid, 20))
+    elif not _n94_chart_send(cid, i):
+        _n91_say(cid, 'I could not draw the chart for %s (no daily candles right now, or Pillow is missing). The card itself is still valid: “scout show %s”.' % (iid, iid))
+
+
+def _n94_studio_plus_text():
+    """The Studio+ lines for the Studio status: what is ready and what to say to get the rest."""
+    e_py = _n94_py_for('realesrgan_ncnn_py', 'realesrgan-ncnn-py')
+    r_py = _n94_py_for('rembg', 'rembg')
+    L = ['Studio+ (v94):',
+         '%s AI enlarging (Real-ESRGAN): %s' % ('✅' if e_py else '❌', 'ready for 2x (up to 1280 px) and 4x (up to 320 px)' if e_py else 'not installed: say “install realesrgan-ncnn-py into yourself”, then “forge apt allow libomp5 libvulkan1” and “forge apt libomp5 libvulkan1”'),
+         '%s AI background removal (rembg, no key needed): %s' % ('✅' if r_py else '❌', 'ready (used when the background is busy; a plain background is cut out by colour first)' if r_py else 'not installed: say “install rembg”'),
+         '%s Charts under Scout ideas: %s' % ('✅' if _n94_charts_on() else '⏸', 'on (say “scout charts off” to stop)' if _n94_charts_on() else 'off (say “scout charts on”)'),
+         'AI tools switch: %s (say “studio ai on” or “studio ai off”). Both run in a separate program only when the server has the memory; otherwise the older method is used and the reply says so.' % ('ON' if _n94_ai_enabled() else 'OFF')]
+    return '\n'.join(L)
+
+
+# ------------------------------------------------ the owner's front door for v94 ------------------------------------------------
+_N94_SYM = r'([A-Za-z&][A-Za-z&\-]{1,14})'
+_N94_RX_INTEL = _n91_re.compile(r'(?i)^/?(?:scout\s+intel|nse\s+data|nse\s+intel)(?:\s+(on|off|status))?\s*\??$')
+_N94_RX_RESULTS = _n91_re.compile(r'(?i)^/?(?:scout\s+)?(?:when\s+(?:are|is)\s+' + _N94_SYM + r"(?:'s)?\s+(?:results?|earnings)|results?\s+(?:date\s+)?(?:of\s+|for\s+)?" + _N94_SYM + r'|' + _N94_SYM + r"(?:'s)?\s+results?\s+date)\s*\??$")
+_N94_RX_BAN = _n91_re.compile(r'(?i)^/?(?:scout\s+)?(?:(?:f\s*&\s*o|fno|f\s+and\s+o)\s+ban(?:\s+(?:list|period))?|ban\s+list|stocks?\s+in\s+(?:the\s+)?(?:f\s*&\s*o\s+)?ban(?:\s+period)?)\s*\??$')
+_N94_RX_FLOW = _n91_re.compile(r'(?i)^/?(?:scout\s+)?(?:fii(?:\s*/?\s*dii)?(?:\s+(?:flow|flows|data|activity|positions?))?|dii\s+flow|institutional\s+(?:flow|flows)|foreign\s+(?:flow|flows|investors?))\s*\??$')
+_N94_RX_VOL = _n91_re.compile(r'(?i)^/?(?:scout\s+)?(?:(?:volatility|vol)\s+forecast|forecast\s+(?:volatility|vol)|garch)(?:\s+(?:for\s+|of\s+)?' + _N94_SYM + r')?\s*\??$')
+_N94_RX_HOL = _n91_re.compile(r'(?i)^/?(?:holiday\s+check|check\s+(?:the\s+)?holidays?|(?:market|nse|trading)\s+holidays?(?:\s+check)?|holidays)\s*\??$')
+_N94_RX_CHART = _n91_re.compile(r'(?i)^/?(?:scout\s+)?chart\s+(SC93-[0-9A-F]{6})$')
+_N94_RX_CHARTS = _n91_re.compile(r'(?i)^/?scout\s+charts?\s+(on|off)$')
+_N94_RX_STUDIO_AI = _n91_re.compile(r'(?i)^/?studio\s+ai\s+(on|off)$')
+
+
+def _n94_text_job(cid, kind, arg=''):
+    """The slow answers (they read NSE or run a helper) are built in the background and sent when ready."""
+    if kind == 'results':
+        text = _n94_text_results(arg)
+    elif kind == 'ban':
+        text = _n94_text_ban()
+    elif kind == 'flow':
+        text = _n94_text_flows()
+    elif kind == 'vol':
+        text = _n94_text_vol(arg or 'NIFTY')
+    else:
+        text = _n94_text_holidays()
+    _n91_say(cid, text)
+
+
+def _n94_route(cid, text):
+    t = _n91_norm(text)
+    if _n94_clear_route(cid, t):
+        return True
+    m = _N94_RX_INTEL.match(t)
+    if m:
+        want = (m.group(1) or 'status').lower()
+        if want in ('on', 'off'):
+            _n94_put('intel', want)
+            _n91_say(cid, 'Scout intel is %s.%s' % (want.upper(), ' Scans read NSE’s results calendar, F&O ban list and flow figures when they are available.' if want == 'on' else ' Scans use only news and prices, as before.'))
+        else:
+            _n91_say(cid, _n94_text_intel_status())
+        return True
+    m = _N94_RX_RESULTS.match(t)
+    if m:
+        raw = next(g for g in m.groups() if g)
+        if raw.isupper() or _n93_universe_known(raw):                # “results today” is not a company
+            _n91_bg(_n94_text_job, cid, 'results', raw.upper())
+            return True
+    if _N94_RX_BAN.match(t):
+        _n91_bg(_n94_text_job, cid, 'ban')
+        return True
+    if _N94_RX_FLOW.match(t):
+        _n91_bg(_n94_text_job, cid, 'flow')
+        return True
+    m = _N94_RX_VOL.match(t)
+    if m:
+        sym = (m.group(1) or 'NIFTY').upper().replace(' ', '')
+        _n91_bg(_n94_text_job, cid, 'vol', 'BANKNIFTY' if sym in ('BANKNIFTY', 'BANK') else sym)
+        return True
+    if _N94_RX_HOL.match(t):
+        _n91_bg(_n94_text_job, cid, 'holidays')
+        return True
+    m = _N94_RX_CHART.match(t)
+    if m:
+        _n91_bg(_n94_chart_cmd, cid, m.group(1).upper())
+        return True
+    m = _N94_RX_CHARTS.match(t)
+    if m:
+        _n94_put('charts', m.group(1).lower())
+        _n91_say(cid, 'Charts under Scout ideas are %s.%s' % (m.group(1).upper(), ' Say “scout chart SC93-XXXXXX” to draw one for an older idea.' if m.group(1).lower() == 'off' else ''))
+        return True
+    m = _N94_RX_STUDIO_AI.match(t)
+    if m:
+        _n94_put('studio_ai', m.group(1).lower())
+        _n91_say(cid, 'Studio AI tools are %s. %s' % (m.group(1).upper(), 'AI enlarging and AI background removal run when they are installed and the server has the memory.' if m.group(1).lower() == 'on' else 'Pictures use the plain methods only.'))
+        return True
+    return False
+
+
+def _n94_front(msg):
+    cid = _n92_owner(msg)
+    if cid is None:
+        return False
+    text = _n92_asked_for(msg)
+    if not text or msg.get('photo') or msg.get('document'):
+        return False
+    handled = _n94_route(cid, text)
+    if handled:
+        _N94_STATS['front_door'] = _N94_STATS.get('front_door', 0) + 1
+        try:
+            _n88_record(msg)
+        except Exception:
+            pass
+    return handled
+
+
+_N94_HANDLE_PREV = handle
+def handle(msg):
+    try:
+        if _n94_front(msg):
+            return
+    except Exception:
+        _N94_STATS['errors'] += 1
+    return _N94_HANDLE_PREV(msg)
+
+
+# ------------------------------------------------ capabilities, status, studio status, abilities, regression rows, commands, boot ------------------------------------------------
+_N94_CAPS_PREV = _n82_capabilities
+def _n82_capabilities():
+    return (_N94_CAPS_PREV() + '\nClear 94: market replies and data dumps are in plain words (“plain off” shows the raw data), “what is PCR” explains a trading word at once, “guide” lists what you can say. '
+            'Scout intel reads NSE’s results dates, F&O ban list and FII flows when installed (“results RELIANCE”, “ban list”, “fii flow”, “holiday check”). Studio+ adds AI enlarging, key-free background removal and a chart under each Scout idea.')
+
+
+_N94_STATUS_PREV = _n83_status_text
+def _n83_status_text(cid):
+    s = _N94_STATS
+    return (_N94_STATUS_PREV(cid) + '\n🧭 CLEAR 94: market replies in words %d · data dumps turned into words %d · glossary answers %d · intel jobs %d (cached %d, failed %d) · AI enlarges %d (fell back %d) · AI cut-outs %d · charts %d · errors %d · plain words %s' % (
+        s['clear_market'], s['clear_json'], s['glossary'], s['intel_jobs'], s['intel_cached'], s['intel_failed'], s['upscale_ai'], s['upscale_fallback'], s['rembg'], s['charts'], s['errors'], 'on' if _n94_plain_on() else 'off'))[:3990]
+
+
+_N94_STUDIO_STATUS_PREV = _n90_status_text
+def _n90_status_text(cid=None):
+    base = _N94_STUDIO_STATUS_PREV(cid)
+    try:
+        plus = _n94_studio_plus_text()
+        return str(base)[:max(0, 3990 - len(plus) - 2)] + '\n\n' + plus          # the new lines are never the part that gets cut
+    except Exception:
+        return base
+
+
+_N94_ABIL_PREV = _n88_abilities
+def _n88_abilities(cid, live=False):
+    rows = list(_N94_ABIL_PREV(cid, live))
+    try:
+        rows.append(('Understanding', 'Plain words', 'ready', 'market replies and data in words; trading words explained instantly; plain %s' % ('on' if _n94_plain_on() else 'off'), '“what is PCR”, “guide”'))
+        rows.append(('Trading', 'Scout intel (NSE)', 'ready' if _n92_have('nselib') else 'needs install', 'results dates, F&O ban list, FII flows, holiday cross-check, volatility forecast', '“ban list”, “results TCS”'))
+        rows.append(('Pictures', 'AI enlarge and cut-out', 'ready' if (_n94_py_for('realesrgan_ncnn_py', 'realesrgan-ncnn-py') or _n94_py_for('rembg', 'rembg')) else 'needs install', 'Real-ESRGAN enlarging and rembg background removal in a separate program', '“studio status”'))
+    except Exception:
+        pass
+    return rows
+
+
+def _n94_regression_rows():
+    rows = []
+
+    def add(name, fn):
+        try:
+            ok = bool(fn())
+        except Exception:
+            ok = False
+        rows.append({'name': 'v94-' + name, 'ok': ok, 'detail': 'pure contract check; no network, no broker, no order'})
+    add('version', lambda: float(VERSION) >= 94)
+    add('hooks-installed', lambda: handle is not _N94_HANDLE_PREV and send_text is not _N94_SEND_PREV)
+    add('chain-in-words', lambda: '{' not in _n94_f_chain({'ok': True, 'symbol': 'NIFTY', 'spot': 22421.95, 'atm': 22400.0, 'days_to_expiry': 2.0, 'expiry': '06-10-2026', 'pcr_oi': 1.1,
+                                                          'rows': [{'type': 'CE', 'strike': 22400.0, 'ltp': 120.0, 'oi': 100000.0}, {'type': 'PE', 'strike': 22400.0, 'ltp': 110.0, 'oi': 90000.0}]}) and 'Put/Call ratio' in _n94_f_chain(
+        {'ok': True, 'symbol': 'NIFTY', 'spot': 22421.95, 'atm': 22400.0, 'pcr_oi': 1.1, 'rows': [{'type': 'CE', 'strike': 22400.0, 'ltp': 120.0, 'oi': 100000.0}, {'type': 'PE', 'strike': 22400.0, 'ltp': 110.0, 'oi': 90000.0}]}))
+    add('json-to-words', lambda: _n94_dejson('Result: ' + _n91_jsonlib.dumps({'status': 'ok', 'items': [{'name': 'a', 'n': 1.5}], 'count': 12345678})) is not None and _n94_dejson('Hello, here is [one] {thing} that is not data at all, honestly just words.') is None)
+    add('indian-numbers', lambda: _n94_big(965000) == '9.65 lakh' and _n94_big(12300000) == '1.23 crore' and _n94_px(22421.95) == '22,421.95')
+    add('glossary', lambda: _n94_term('PCR') == 'pcr' and _n94_term('what') is None and len(_N94_GLOSSARY) >= 40)
+    add('intel-dates', lambda: _n94_parse_date('17-Oct-2025') == _n91_dt.date(2025, 10, 17) and _n94_parse_date('nonsense') is None)
+    add('no-orders', lambda: 'fyers_place' not in _n91_jsonlib.dumps(sorted(k for k in globals() if k.startswith('_n94_'))))
+    return rows
+
+
+_N94_REG_PREV = prime_regression_suite
+def prime_regression_suite():
+    r = _N94_REG_PREV()
+    extra = _n94_regression_rows()
+    if isinstance(r, dict):
+        r['tests'] = list(r.get('tests', [])) + extra
+        r['passed'] = sum(1 for x in r['tests'] if x.get('ok'))
+        r['failed'] = len(r['tests']) - r['passed']
+        r['verdict'] = 'PASS' if not r['failed'] else 'FAIL'
+        r['version'] = VERSION
+        return r
+    return {'id': 'RG94', 'version': VERSION, 'tests': extra, 'passed': sum(1 for x in extra if x['ok']), 'failed': sum(1 for x in extra if not x['ok'])}
+
+
+try:
+    _N40_COMMANDS.append(('guide', 'What you can say, in plain words'))
+    _N40_COMMANDS.append(('plain', 'Plain words on or off for market replies'))
+except Exception:
+    pass
+
+
+_N94_MAIN_PREV = main
+def main(*a, **k):
+    try:
+        _n94_db().close()
+    except Exception:
+        _N94_STATS['errors'] += 1
+    return _N94_MAIN_PREV(*a, **k)
 
 
 if __name__ == '__main__':

@@ -198,5 +198,5 @@ The command list gets `scout` and the menu a 🔭 button.
 
 ## 12. Next (updated roadmap)
 
-v94 **Doors** (website: Telegram login instead of the `?k=` token, serve properly, rate limits; Tailscale guide; a domain later), then **Offline**, **Knowledge** (cited research, local semantic memory), **Site**, **Apps lane**.
+v94 was built as Clear + Scout intel + Studio+ (`NEMO_V94_CLEAR_INTEL_STUDIO.md`); next is **Doors** (v95) (website: Telegram login instead of the `?k=` token, serve properly, rate limits; Tailscale guide; a domain later), then **Offline**, **Knowledge** (cited research, local semantic memory), **Site**, **Apps lane**.
 Scout feeds the next steps: its news archive and ledger become the dataset for a calibrated, tested score, once there is enough settled history.

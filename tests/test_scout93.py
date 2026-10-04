@@ -28,7 +28,8 @@ def setUpModule():
 def scout_source():
     src = open(base.NEMO_FILE, encoding='utf-8').read()
     i = src.index('# NEMO 93 - SCOUT')
-    return src[i:src.rindex("if __name__")]
+    j = src.index('# NEMO 94 - CLEAR') if '# NEMO 94 - CLEAR' in src else src.rindex("if __name__")       # (the next layer is checked by its own tests)
+    return src[i:j]
 
 
 # ===================================================================================================================
@@ -2051,13 +2052,13 @@ class TestWiring(ScoutCase):
 
     def test_the_new_layer_is_protected_from_live_self_editing(self):
         src = open(base.NEMO_FILE, encoding='utf-8').read()
-        self.assertIn("'_n92_','_n93_','_p75_'", src)
+        self.assertIn("'_n92_','_n93_'", src)
         for name in ('_n93_scan', '_n93_option_plan', '_n93_front', '_n93_walk', '_n93_size_stock'):
             self.assertFalse(self.m._n79_editable(name), name)
 
     def test_the_only_edits_to_older_code_are_the_docstring_the_guard_prefix_the_expiry_parser_and_one_map_entry(self):
         src = open(base.NEMO_FILE, encoding='utf-8').read()
-        self.assertTrue(src.startswith('"""nemotron_bot.py v93.2 - SCOUT'))
+        self.assertIn('v93.2 - SCOUT', src[:3000])
         self.assertIn("'INDIAVIX'", src)
         self.assertEqual(self.m._N55_INDEX_MAP['INDIAVIX']['fyers'], 'NSE:INDIAVIX-INDEX')
 

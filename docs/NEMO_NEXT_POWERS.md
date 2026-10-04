@@ -119,11 +119,12 @@ Forge installs only Python wheels. The best offline and web tools (llama.cpp, ki
 |---|---|---|---|
 | **v92** | **Wire** (built as v92.0, see `NEMO_V92_WIRE.md`) | Everything you installed becomes a chat command (`NEMO_PICKS_HOWTO.md` section 3): update-gate checks, PDF tables, OCR, clean article reading, indicators, NSE data, journal tear-sheets, local voice fallback. **Local semantic memory was not built in v92** (it needs its own index) and moves to v95 | You already paid the install cost; nothing else is blocked on it |
 | **v93** | **Scout** (built as v93.0, see `NEMO_V93_SCOUT.md`) | Trade ideas for stocks and NIFTY/BANKNIFTY options from news and the market tools, with the workings shown, sized to your risk limit and tracked honestly (advisory only; no orders) | Asked for next; uses what v55, v91 and v92 already provide |
-| **v94** | **Doors** | Website hardening (A1 Telegram login, A2 server, rate limits, cockpit audit); guide for A3(a) Tailscale | Fixes the real weaknesses before adding anything public |
-| **v95** | **Offline** | B2 offline mode, B1 fully local tools, B4 offline encyclopaedia; B3 local brain only after the server has more memory | Needs v92 |
-| **v96** | **Knowledge** | C1 cited research pipeline, C4 feeds, C5 page diffs | Needs v92 (trafilatura, sqlite-vec) |
-| **v97** | **Site** | A4 richer owner app, optional A5 public showroom and A6 OpenAI-compatible API, D1 GitHub webhook | Only after the doors are safe |
-| **v98** | **Apps lane** | E, then C2 SearXNG and any local brain | Biggest and riskiest |
+| **v94** | **Clear + Scout intel + Studio+** (built as v94.0, see `NEMO_V94_CLEAR_INTEL_STUDIO.md`) | Every market reply and data dump in plain words (the unreadable `/chain55` reply), NSE results/ban/flow checks and a volatility forecast for Scout, a holiday cross-check, real AI enlarging, key-free background removal and a chart under each idea | Asked for next; finishes what v93 and the research guide started |
+| **v95** | **Doors** | Website hardening (A1 Telegram login, A2 server, rate limits, cockpit audit); guide for A3(a) Tailscale | Fixes the real weaknesses before adding anything public |
+| **v96** | **Offline** | B2 offline mode, B1 fully local tools, B4 offline encyclopaedia; B3 local brain only after the server has more memory | Needs v92 |
+| **v97** | **Knowledge** | C1 cited research pipeline, C4 feeds, C5 page diffs | Needs v92 (trafilatura, sqlite-vec) |
+| **v98** | **Site** | A4 richer owner app, optional A5 public showroom and A6 OpenAI-compatible API, D1 GitHub webhook | Only after the doors are safe |
+| **v99** | **Apps lane** | E, then C2 SearXNG and any local brain | Biggest and riskiest |
 
 ## 5. Four answers I need from you (they change the plan)
 
@@ -139,5 +140,5 @@ Forge installs only Python wheels. The best offline and web tools (llama.cpp, ki
 * **Your server:** its memory, CPU, disk, Python version, firewall, and whether it can reach `huggingface.co`, `nseindia.com`, `files.pythonhosted.org`.
 * **Local-model speed and quality** on your hardware, **Kiwix sizes**, and **Cloudflare Access's free limits**: web-search hints only.
 * **SearXNG's JSON mode**, **RBI/SEBI feed addresses**, and any **n8n** or **Open WebUI** behaviour beyond their GitHub pages.
-* **How `web_ai` (the website's chat brain) is restricted:** I did not audit which tools a web chat message can reach. That belongs in v94 (Doors) before anything else is exposed.
+* **How `web_ai` (the website's chat brain) is restricted:** I did not audit which tools a web chat message can reach. That belongs in v95 (Doors) before anything else is exposed.
 * No live trade was placed and no paid API was called.
