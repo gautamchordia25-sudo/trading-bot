@@ -61,9 +61,9 @@ is somehow Nemo's own, it falls back to ending the single process), and every se
 
 ## 5. Tests (offline, no network, no trades, no paid calls)
 
-- `tests/test_wire92.py`: **88 tests**. The runner (one JSON line, bad output, clean environment, `nice`, timeout, failure words, memory guard, one-at-a-time lock, job-folder containment, pruning), every command with a stubbed runner (phrases that count and those that must not, files, masks, empty and failing results), the voice fallback (Groq first, local second, one notice per ten minutes), the update checks (using small fake tools in an environments folder), the status and front door (owner only, private chat only), the MCP group stop, and structural checks on the source (the v92 layer starts no program of its own, uses no shell, opens no address, never touches the broker or the trading guards, only reads the owner lock; helper programs are valid and print exactly one JSON line).
+- `tests/test_wire92.py`: **89 tests**. The runner (one JSON line, bad output, clean environment, `nice`, timeout, failure words, memory guard, one-at-a-time lock, job-folder containment, pruning), every command with a stubbed runner (phrases that count and those that must not, files, masks, empty and failing results), the voice fallback (Groq first, local second, one notice per ten minutes), the update checks (using small fake tools in an environments folder), the status and front door (owner only, private chat only), the MCP group stop, and structural checks on the source (the v92 layer starts no program of its own, uses no shell, opens no address, never touches the broker or the trading guards, only reads the owner lock; helper programs are valid and print exactly one JSON line).
 - `TestRealLibraries` (5 tests, run when `NEMO_WIRE_PY` points at a Python that has the libraries): pdfplumber returns a generated PDF's table cell for cell; tesseract reads a generated picture; trafilatura drops the menu and keeps the article; pandas-ta-classic gives numeric RSI/ATR/ADX/Supertrend/Bollinger/EMA/MACD; quantstats writes a report. **They passed on my test machine** with the libraries installed in a fresh virtual environment.
-- Whole suite: see the end of this file for the last run. `tests/test_forge91.py` (186 tests) still passes.
+- Whole suite on the final file: **1603 tests OK** (6 skipped: the 5 real-library tests, which run only when `NEMO_WIRE_PY` is set, and the slow update-gate test, which I ran separately with `NEMO_SLOW=1` and passed). `tests/test_forge91.py` (186 tests) is part of it. The first full run found one older regression row (`v167-stt-large-v3-primary`) that read the model name from `groq_transcribe` itself and could not see through the new wrapper; the wrapper now exposes `__wrapped__` and that row looks through it (a test covers it).
 
 ## 6. What is verified and what is not
 
@@ -84,6 +84,6 @@ is somehow Nemo's own, it falls back to ending the single process), and every se
 
 ## 8. Edits to older code (small, listed on purpose)
 
-1. The self-development guard's editable prefixes now include `_n92_`.
+1. The self-development guard's editable prefixes now include `_n92_`; the older regression row `v167-stt-large-v3-primary` looks through the voice wrapper's `__wrapped__`.
 2. `MCPClient.start` starts the server in its own session; `MCPClient.stop` ends the process group (section 3).
 3. Wrappers: `groq_transcribe` (local fallback after Groq), `self_update` (extra checks first), `handle` (owner front door), `_n82_capabilities`, `_n83_status_text`, `_n88_abilities` (list the new abilities), `prime_regression_suite` (8 `v92-*` rows), `main` (prunes old job folders and registers the MCP stop at exit). The command list gets `wire`.
