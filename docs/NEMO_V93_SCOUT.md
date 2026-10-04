@@ -1,4 +1,11 @@
-# Nemo v93.0 "Scout": trade ideas for stocks and NIFTY options from news and market tools, with the logic shown
+# Nemo v93.1 "Scout": trade ideas for stocks and NIFTY options from news and market tools, with the logic shown
+
+> **v93.1** (the same day): you ran `/chain55 NIFTY` on your server and pasted the result. It was the first real data Scout met, and it showed two things my fixtures did not have:
+> **(1)** the broker's chain sends **no implied volatility** (`"iv": null` on every row), and Scout's option plan needs it for Greeks and repricing, so NIFTY option ideas would never have appeared;
+> **(2)** every expiry **timestamp was null**, because the older v55 parser dropped an epoch the broker sends as text, so Scout could not load the next expiry when the nearest was two days away.
+> Fixed: Scout now **solves the implied volatility from each option's own price** (same Black-Scholes conventions as the bot's Greeks helper; rows that do come with a volatility are left alone; results outside 3-150% are not
+> trusted) and says so on the card; the v55 expiry parser now keeps a text epoch, and where the feed gives none the next expiry is found from its date. Tested on eight of your real rows (they give volatilities of
+> about 21-31%, believable for the day) and on a chain built without volatility. It still has not seen a live *plan* on your data: that needs a market session, so run `scout nifty` and tell me what it says.
 
 You asked for Nemo to give trades for stocks and NIFTY options from news analysis and his market tools, using proper logic, and to be a smarter, more powerful Nemo
 (no domain yet, storage can be resized, and Nemo will be for everyone later). Everything from v92 (Wire) and earlier is kept. Your credentials, owner lock, trading and holiday guards,
@@ -143,7 +150,7 @@ This says how the rules *behave*. It says **nothing** about real NIFTY or stock 
 
 ## 8. What is verified and what is not
 
-**Verified offline (tests: 228 for Scout; whole suite on the final file 1831 OK, 6 skipped = the 5 real-library Wire tests and the slow update-gate test, which I ran separately with `NEMO_SLOW=1` and passed; your own server's in-bot regression run showed 937 passed, 0 failed):** headline feed parsing (including a feed that tries to declare entities, oversized or broken feeds), story merging (and never across different companies), the rules
+**Verified offline (tests: 242 for Scout; whole suite on the final file 1831 OK, 6 skipped = the 5 real-library Wire tests and the slow update-gate test, which I ran separately with `NEMO_SLOW=1` and passed; your own server's in-bot regression run showed 937 passed, 0 failed):** headline feed parsing (including a feed that tries to declare entities, oversized or broken feeds), story merging (and never across different companies), the rules
 reader, the AI answer whitelist and the prompt-injection defence, news weighting by age, outlet, confidence, novelty and corroboration, event flags, indicator facts, levels and gates (every branch, both
 sides), setups, the score table, sizing that never rounds up, the replay (determinism, no overlap, no look-ahead, no edge on noise), stop-first following, option bias, structure choice, spread arithmetic, premium
 plan, sizing with the real per-lot risk, the ledger and the record, the scan end to end (sector cap, idea cap, no news, no market data, time limit, one at a time), every chat phrase and what must *not* be taken, the
@@ -152,7 +159,7 @@ owner-only door, the morning alert, wiring, and a structural check that the laye
 **Not verified live (you are the first real run):**
 * **News feeds:** Google News RSS, dated search news and plain search were unreachable from my sandbox. Every parser is tested on realistic samples, but the real feeds may differ. `scout news` shows exactly what was read.
 * **The AI's reading of real headlines:** tested with a scripted AI and with the plain-rules fallback, not with your providers. `scout news` shows each story's reading so you can judge it.
-* **FYERS / market data / option chain** on your server (candles, chain fields such as bid, ask, IV, OI). The tools are the existing v55 ones; their output shapes were read from the code, not run.
+* **FYERS / market data / option chain:** the chain shape is now confirmed from your own `/chain55 NIFTY` output (spot, ATM, PCR, bid, ask, volume, OI present; IV and expiry epochs missing, handled as above). Candles, the 15-minute and daily history, and how the next-expiry request behaves on your broker are still unseen.
 * **India VIX** through the broker or the public fallback (added as one index entry).
 * **How the messages look in Telegram.**
 * **Anything about profitability.** See sections 0 and 5.
@@ -176,11 +183,12 @@ record you trust, we can discuss, as a separate change with your approval, wheth
 
 Paste me what you see (screenshots are fine) and I will fix what the real sources do differently from my fixtures.
 
-## 11. Edits to older code (three, listed on purpose)
+## 11. Edits to older code (four, listed on purpose)
 
 1. The docstring's first line.
 2. The self-development guard's protected prefixes now include `_n93_`.
 3. One entry, `INDIAVIX`, added to the v55 index map (done from the new layer at start, not by editing the old table).
+4. (v93.1) `_n55_expiry_value`: an expiry epoch the broker sends as text is kept instead of dropped (it also helps the older IV-surface tool, which needs those epochs).
 
 Wrappers added: `handle` (owner front door), `_n82_capabilities`, `_n83_status_text`, `_n88_abilities`, `prime_regression_suite` (8 `v93-*` rows), `main` (opens the tables, starts the quiet background loop).
 The command list gets `scout` and the menu a 🔭 button.

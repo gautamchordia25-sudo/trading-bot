@@ -97,7 +97,7 @@ def vix_series(level=13.0, pct_target='mid'):
     return out
 
 
-def make_chain(m, spot=24490.0, iv=14.0, days=6.0, step=50, n=12, pcr=1.2, symbol='NIFTY', lot_prefix='NSE:NIFTY'):
+def make_chain(m, spot=24490.0, iv=14.0, days=6.0, step=50, n=12, pcr=1.2, symbol='NIFTY', lot_prefix='NSE:NIFTY', iv_null=False, expiry_ts=True):
     rows = []
     atm = round(spot / step) * step
     for k in range(-n, n + 1):
@@ -107,9 +107,9 @@ def make_chain(m, spot=24490.0, iv=14.0, days=6.0, step=50, n=12, pcr=1.2, symbo
             g = m._n55_greeks(spot, K, smile, days, kind)
             p = max(g['theoretical'], 0.5)
             oi = 100000 * (1.0 / (1 + abs(k) * 0.35))
-            rows.append({'symbol': '%s%d%s' % (lot_prefix, K, kind), 'type': kind, 'strike': float(K), 'ltp': round(p, 2), 'bid': round(p * 0.997, 2), 'ask': round(p * 1.003, 2), 'volume': 5000.0, 'oi': oi, 'iv': smile})
+            rows.append({'symbol': '%s%d%s' % (lot_prefix, K, kind), 'type': kind, 'strike': float(K), 'ltp': round(p, 2), 'bid': round(p * 0.997, 2), 'ask': round(p * 1.003, 2), 'volume': 5000.0, 'oi': oi, 'iv': None if iv_null else smile})
     return {'ok': True, 'symbol': symbol, 'spot': spot, 'atm': float(atm), 'rows': rows, 'days_to_expiry': days, 'expiry': '27 Oct', 'strikes': sorted({r['strike'] for r in rows}), 'pcr_oi': pcr,
-            'expiries': [{'label': '27 Oct', 'timestamp': T0 + 6 * 86400}, {'label': '03 Nov', 'timestamp': T0 + 13 * 86400}]}
+            'expiries': [{'label': '27 Oct', 'timestamp': T0 + 6 * 86400 if expiry_ts else None}, {'label': '03 Nov', 'timestamp': T0 + 13 * 86400 if expiry_ts else None}]}
 
 
 def rss(items):
@@ -2033,9 +2033,9 @@ class TestWiring(ScoutCase):
         for name in ('_n93_scan', '_n93_option_plan', '_n93_front', '_n93_walk', '_n93_size_stock'):
             self.assertFalse(self.m._n79_editable(name), name)
 
-    def test_the_only_edits_to_older_code_are_the_docstring_the_guard_prefix_and_one_map_entry(self):
+    def test_the_only_edits_to_older_code_are_the_docstring_the_guard_prefix_the_expiry_parser_and_one_map_entry(self):
         src = open(base.NEMO_FILE, encoding='utf-8').read()
-        self.assertTrue(src.startswith('"""nemotron_bot.py v93.0 - SCOUT'))
+        self.assertTrue(src.startswith('"""nemotron_bot.py v93.1 - SCOUT'))
         self.assertIn("'INDIAVIX'", src)
         self.assertEqual(self.m._N55_INDEX_MAP['INDIAVIX']['fyers'], 'NSE:INDIAVIX-INDEX')
 
@@ -2129,7 +2129,7 @@ class TestStructure(ScoutCase):
     def test_the_market_tools_it_borrows_are_the_read_only_ones(self):
         used = {n for n in self.names() if n.startswith('_n55_')}
         self.assertEqual(sorted(used), sorted({'_n55_market_data', '_n55_regime_from_candles', '_n55_pivots', '_n55_structure_from_candles', '_n55_option_chain_struct', '_n55_greeks', '_n55_strike_step',
-                                             '_n55_sector_rotation', '_n55_scanner'}))
+                                             '_n55_sector_rotation', '_n55_scanner', '_n55_parse_expiry_ts'}))
 
     def test_the_layer_only_ever_sends_text_to_the_owner(self):
         for n in ast.walk(self.tree):
@@ -2153,3 +2153,141 @@ class TestStructure(ScoutCase):
         defined = {n.name for n in self.tree.body if isinstance(n, (ast.FunctionDef, ast.ClassDef))}
         odd = [d for d in defined if not (d.startswith('_n93_') or d.startswith('_N93')) and d not in ('handle', '_n82_capabilities', '_n83_status_text', '_n88_abilities', 'prime_regression_suite', 'main')]
         self.assertEqual(odd, [])
+
+
+# ===================================================================================================================
+# 12. WHAT THE OWNER'S REAL OPTION CHAIN SHOWED: no implied volatility, no expiry timestamps
+# ===================================================================================================================
+# eight real rows from the owner's own /chain55 NIFTY (spot 22,421.95, expiry 06-10-2026, 2.062 days): the feed sent "iv": null on every row
+REAL_SPOT, REAL_DAYS = 22421.95, 2.062
+REAL_ROWS = [('CE', 21800, 661.9, 655.5, 662.3), ('PE', 21800, 8.0, 7.8, 8.0), ('CE', 21900, 559.8, 561.0, 565.35), ('PE', 21900, 12.0, 11.9, 12.0), ('CE', 22000, 472.5, 466.3, 471.8),
+             ('PE', 22000, 19.0, 18.5, 19.05), ('CE', 22050, 426.8, 422.25, 426.9), ('PE', 22050, 23.45, 22.65, 23.45)]
+
+
+def real_row(k, K, ltp, bid, ask):
+    return {'symbol': 'NSE:NIFTY26O06%d%s' % (K, k), 'type': k, 'strike': float(K), 'ltp': ltp, 'bid': bid, 'ask': ask, 'volume': 100000.0, 'oi': 100000.0, 'iv': None, 'chp': 0.0, 'oi_change': 0.0}
+
+
+class TestImpliedVolatility(ScoutCase):
+    def test_the_model_price_is_the_same_as_the_bots_own_greeks_helper(self):
+        for spot, K, iv, days, kind in ((22421.95, 22400, 14.0, 2.06, 'CE'), (22421.95, 22400, 14.0, 2.06, 'PE'), (24500, 24300, 22.5, 9.0, 'CE'), (24500, 24800, 9.0, 0.5, 'PE'), (100, 100, 30.0, 30.0, 'CE')):
+            ours = self.m._n93_bs_price(spot, K, iv, days, kind)
+            theirs = self.m._n55_greeks(spot, K, iv, days, kind)['theoretical']
+            self.assertAlmostEqual(ours, theirs, places=3, msg=(spot, K, iv, days, kind))
+
+    def test_a_volatility_solved_from_a_price_gives_that_price_back(self):
+        for spot, K, iv, days, kind in ((22421.95, 22400, 14.0, 2.06, 'CE'), (22421.95, 22200, 31.0, 2.06, 'PE'), (24500, 24300, 22.5, 9.0, 'CE'), (24500, 24800, 9.0, 12.0, 'PE')):
+            price = self.m._n93_bs_price(spot, K, iv, days, kind)
+            self.assertAlmostEqual(self.m._n93_implied_vol(price, spot, K, days, kind), iv, places=2, msg=(spot, K, iv, days, kind))
+
+    def test_prices_with_no_time_value_or_out_of_range_have_no_volatility(self):
+        f = self.m._n93_implied_vol
+        self.assertIsNone(f(None, 22400, 22400, 2.0, 'CE'))
+        self.assertIsNone(f(0.0, 22400, 22400, 2.0, 'CE'))
+        self.assertIsNone(f(100.0, 22400, 22000, 2.0, 'CE'), 'cheaper than intrinsic value')
+        self.assertIsNone(f(22000.0, 22400, 22400, 2.0, 'CE'), 'dearer than any volatility can explain')
+        self.assertIsNone(f(5.0, 0, 22400, 2.0, 'CE'))
+
+    def test_the_price_to_solve_from_is_a_sane_middle_else_the_last_price(self):
+        q = self.m._n93_quote_price
+        self.assertEqual(q({'bid': 10.0, 'ask': 10.4, 'ltp': 9.0}), 10.2)
+        self.assertEqual(q({'bid': 1.0, 'ask': 3.0, 'ltp': 2.5}), 2.5, 'a 100% spread is not a price')
+        self.assertEqual(q({'bid': 0, 'ask': 0, 'ltp': 5.0}), 5.0)
+        self.assertEqual(q({'bid': 5.0, 'ask': 4.0, 'ltp': 4.5}), 4.5, 'a crossed market is not trusted')
+        self.assertIsNone(q({'bid': 0, 'ask': 0, 'ltp': 0}))
+        self.assertIsNone(q({}))
+
+    def test_the_real_rows_give_believable_volatilities(self):
+        for k, K, l, b, a in REAL_ROWS:
+            r = real_row(k, K, l, b, a)
+            v = self.m._n93_implied_vol(self.m._n93_quote_price(r), REAL_SPOT, K, REAL_DAYS, k)
+            self.assertIsNotNone(v, (k, K))
+            self.assertTrue(15.0 <= v <= 35.0, (k, K, v))
+
+    def test_filling_adds_only_what_is_missing_and_changes_nothing_else(self):
+        rows = [real_row(*x) for x in REAL_ROWS]
+        rows[0]['iv'] = 40.0
+        ch = {'ok': True, 'spot': REAL_SPOT, 'days_to_expiry': REAL_DAYS, 'rows': rows, 'atm': 22400.0}
+        before = copy.deepcopy(ch)
+        out, solved = self.m._n93_fill_iv(ch)
+        self.assertEqual(ch, before, 'the input chain is not modified')
+        self.assertEqual(solved, 7)
+        self.assertEqual(out['rows'][0]['iv'], 40.0, 'a volatility the broker did send is kept')
+        self.assertTrue(all(r['iv'] for r in out['rows']))
+        for a, b in zip(rows, out['rows']):
+            self.assertEqual({k: v for k, v in a.items() if k != 'iv'}, {k: v for k, v in b.items() if k != 'iv'})
+
+    def test_a_row_whose_price_cannot_give_a_trusted_volatility_stays_empty(self):
+        rows = [real_row('CE', 21000, 1.0, 0, 0), real_row('PE', 25000, 3000.0, 2990.0, 3010.0), real_row('CE', 22400, 0, 0, 0)]
+        out, solved = self.m._n93_fill_iv({'ok': True, 'spot': REAL_SPOT, 'days_to_expiry': REAL_DAYS, 'rows': rows})
+        self.assertEqual((solved, [r['iv'] for r in out['rows']]), (0, [None, None, None]))
+
+    def test_without_a_spot_or_days_nothing_is_guessed(self):
+        out, solved = self.m._n93_fill_iv({'ok': True, 'spot': None, 'days_to_expiry': 2.0, 'rows': [real_row(*REAL_ROWS[0])]})
+        self.assertEqual(solved, 0)
+
+
+class TestRealFeedShape(OptionCase):
+    def test_a_chain_with_no_volatility_still_gives_a_complete_plan_and_says_how(self):
+        self.put_market(stock=None)
+        self.chain['NIFTY'] = make_chain(self.m, spot=24490.0, iv=13.0, days=6.0, iv_null=True, expiry_ts=False)
+        ctx = self.m._n93_market_ctx()
+        v, why = self.m._n93_index_view('NIFTY', ctx, news_sig(), time.time())
+        self.assertIsNone(why)
+        self.assertTrue(all(r.get('iv') for r in v['chain']['rows']))
+        self.assertTrue(any('solved from the option prices' in n for n in v['notes']))
+        r = self.m._n93_option_plan(dict(v, ivp=50.0, regime='STRONG_TREND_UP'), self.BIG)
+        self.assertTrue(r['ok'] or 'no contract fits' not in r['veto'], r.get('veto'))
+        if r['ok']:
+            self.assertTrue(any('solved from the option prices' in n for n in r['notes']))
+
+    def test_solved_volatility_matches_the_volatility_the_prices_were_made_from(self):
+        ch = make_chain(self.m, spot=24490.0, iv=13.0, days=6.0, iv_null=True)
+        out, solved = self.m._n93_fill_iv(ch)
+        truth = make_chain(self.m, spot=24490.0, iv=13.0, days=6.0)
+        self.assertGreater(solved, 30)
+        for a, b in zip(out['rows'], truth['rows']):
+            if a.get('iv'):
+                self.assertAlmostEqual(a['iv'], b['iv'], delta=0.8, msg=(a['strike'], a['type']))
+
+    def test_the_plan_is_nearly_the_same_with_solved_or_given_volatility(self):
+        v_true = self.view(ivp=20.0)
+        v_null = copy.deepcopy(v_true)
+        v_null['chain'] = self.m._n93_fill_iv(make_chain(self.m, spot=v_true['spot'], iv=13.0, days=6.0, iv_null=True))[0]
+        a = self.m._n93_option_plan(v_true, self.BIG)
+        b = self.m._n93_option_plan(v_null, self.BIG)
+        self.assertTrue(a['ok'] and b['ok'], (a.get('veto'), b.get('veto')))
+        self.assertEqual(a['plan']['strike'], b['plan']['strike'])
+        self.assertAlmostEqual(a['plan']['rr'], b['plan']['rr'], delta=0.15 * a['plan']['rr'])
+
+    def test_the_next_expiry_is_found_from_its_date_when_the_feed_sends_no_epoch(self):
+        self.put_market(stock=None)
+        near = make_chain(self.m, spot=22421.95, days=2.06, iv_null=True, expiry_ts=False)
+        near['expiries'] = [{'label': '06-10-2026', 'timestamp': None}, {'label': '13-10-2026', 'timestamp': None}]
+        self.chain['NIFTY'] = near
+        want = self.m._n55_parse_expiry_ts('13-10-2026')
+        self.chain[('NIFTY', want)] = make_chain(self.m, spot=22421.95, days=9.0, iv_null=True, expiry_ts=False)
+        v, why = self.m._n93_index_view('NIFTY', {}, None, time.time())
+        self.assertIsNone(why)
+        self.assertEqual(v['days'], 9.0)
+        self.assertEqual(self.chain_calls[-1], ('NIFTY', want, False))
+        self.assertFalse(any('could not be loaded' in n for n in v['notes']))
+
+    def test_when_the_next_expiry_cannot_be_loaded_the_view_says_so(self):
+        self.put_market(stock=None)
+        near = make_chain(self.m, spot=22421.95, days=2.06, expiry_ts=False)
+        near['expiries'] = [{'label': '06-10-2026', 'timestamp': None}, {'label': '13-10-2026', 'timestamp': None}]
+        self.chain['NIFTY'] = near
+        v, why = self.m._n93_index_view('NIFTY', {}, None, time.time())
+        self.assertIsNone(why)
+        self.assertEqual(v['days'], 2.06)
+        self.assertTrue(any('next expiry could not be loaded' in n for n in v['notes']), v['notes'])
+
+    def test_the_old_parser_now_keeps_an_epoch_the_broker_sends_as_text(self):
+        f = self.m._n55_expiry_value
+        out = f({'expiryData': [{'date': '06-10-2026', 'expiry': '1791280800'}, {'date': '13-10-2026', 'expiry': 1791885600}, {'date': '19-10-2026'}, {'date': '27-10-2026', 'expiry': ''},
+                                {'date': '03-11-2026', 'expiry': 'abc'}, {'date': '23-11-2026', 'timestamp': 1795000000}, {'date': '29-12-2026', 'timestamp': '1798000000.0'}]})
+        self.assertEqual([x['timestamp'] for x in out], [1791280800, 1791885600, None, None, None, 1795000000, 1798000000])
+        self.assertEqual([x['label'] for x in out][:3], ['06-10-2026', '13-10-2026', '19-10-2026'])
+        self.assertEqual(f({'expiryData': ['27-10-2026']}), [{'label': '27-10-2026', 'timestamp': None}])
+        self.assertEqual(f({}), [])
