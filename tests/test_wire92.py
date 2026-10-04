@@ -36,7 +36,8 @@ def setUpModule():
 def wire_source():
     src = open(base.NEMO_FILE, encoding='utf-8').read()
     i = src.index('# NEMO 92 - WIRE')
-    return src[i:src.rindex("if __name__")]
+    j = src.find('# NEMO 93 - SCOUT', i)
+    return src[i:(j if j > 0 else src.rindex("if __name__"))]
 
 
 class WireCase(ForgeCase):
@@ -921,9 +922,9 @@ class TestStructure(unittest.TestCase):
         return out
 
     def test_the_version_and_the_documentation(self):
-        self.assertEqual(self.m.VERSION, '92.0')
-        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '92.0')
-        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v92.0 - WIRE'))
+        self.assertGreaterEqual(float(self.m.VERSION), 92.0)
+        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], self.m.VERSION)
+        self.assertIn('v92.0 - WIRE', self.src[:6000])
         self.assertIn('+ v91.5 - FORGE', self.src[:6000])
         self.assertTrue(self.src.index('# NEMO 91 - FORGE') < self.src.index('# NEMO 92 - WIRE'))
         self.assertTrue(self.src.rindex("if __name__") > self.src.index('# NEMO 92 - WIRE'))

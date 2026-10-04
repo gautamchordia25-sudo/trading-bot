@@ -80,7 +80,7 @@ is somehow Nemo's own, it falls back to ending the single process), and every se
 
 ## 7. What I deliberately did not build yet
 
-**Local semantic memory ("search my files", sqlite-vec + fastembed).** It needs a separate index, and local embeddings have a different size from Gemini's, so mixing them in the existing memory would corrupt search. It deserves its own version (v95 "Knowledge" in `NEMO_NEXT_POWERS.md`), after you see how Wire behaves on your server.
+**Local semantic memory ("search my files", sqlite-vec + fastembed).** It needs a separate index, and local embeddings have a different size from Gemini's, so mixing them in the existing memory would corrupt search. It deserves its own version (v96 "Knowledge" in `NEMO_NEXT_POWERS.md`), after you see how Wire behaves on your server.
 
 ## 8. Edits to older code (small, listed on purpose)
 
