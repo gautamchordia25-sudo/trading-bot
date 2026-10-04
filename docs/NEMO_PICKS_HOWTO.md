@@ -150,9 +150,9 @@ Your server has **1.6 GB of memory available and 1.7 of 2.0 GB of swap already i
 
 The rule for the next version: **one heavy job at a time, in a short-lived separate process, only when enough memory is free**, otherwise "low on memory, try again in a few minutes". That keeps the trading bot out of swap. Check the server yourself any time: say `server status` (v91.3) and Nemo reads memory, swap, disk, CPU and the biggest memory users directly.
 
-## 3. What the next version would add (so these become real chat commands)
+## 3. Now built: v92 "Wire" (these are real chat commands)
 
-I recommend building these as **v92 "Wire"**. Each is owner-only and read-only, and none touches the broker:
+**Status: built in v92.0 except item 9** (semantic memory is deferred; see `NEMO_V92_WIRE.md`, which has the exact phrases, the memory rule and what is verified). Each is owner-only and read-only, and none touches the broker:
 
 1. `check this file` / `before update`: runs ruff, vulture and detect-secrets on the new file and puts the result next to the sandbox pre-flight (warning only).
 2. `tables from this pdf` (send or reply to a PDF) → the tables as a spreadsheet; works with the existing document flow.
@@ -164,7 +164,7 @@ I recommend building these as **v92 "Wire"**. Each is owner-only and read-only, 
 8. Voice notes keep using Groq; **if Groq fails, Nemo transcribes locally** and says so.
 9. `search my files` / semantic memory (sqlite-vec + fastembed), with a fallback when Gemini's embedding quota is used up.
 
-Until that exists, the three tools in section 1 are the only ones you can use from Telegram.
+Until you update to v92.0, the three tools in section 1 are the only ones you can use from Telegram. Say `wire` after updating to see which commands are ready.
 
 ## 4. What I could not check
 

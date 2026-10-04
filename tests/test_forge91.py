@@ -585,9 +585,11 @@ class TestPypi(ForgeCase):
 
 
 def layer_source():
+    """The Forge layer only (later layers are checked by their own tests)."""
     src = open(base.NEMO_FILE, encoding='utf-8').read()
     i = src.index('# NEMO 91 - FORGE')
-    return src[i:src.rindex("if __name__")]
+    j = src.index('# NEMO 92 - WIRE') if '# NEMO 92 - WIRE' in src else src.rindex("if __name__")
+    return src[i:j]
 
 
 # ===================================================================================================================
@@ -2205,9 +2207,10 @@ class TestStructure(unittest.TestCase):
         cls.layer = layer_source()
 
     def test_this_is_v91_and_the_version_is_the_last_one_defined(self):
-        self.assertEqual(self.m.VERSION, '91.5')
-        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], '91.5')
-        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v91.5 - FORGE'))
+        self.assertGreaterEqual(float(self.m.VERSION), 91.5)
+        self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], self.m.VERSION)
+        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v9'))
+        self.assertIn('v91.5 - FORGE', self.src[:6000], 'the Forge version stays documented')
 
     def test_the_layer_comes_after_studio_and_before_the_main_guard(self):
         self.assertLess(self.src.index('# NEMO 90 - STUDIO'), self.src.index('# NEMO 91 - FORGE'))
