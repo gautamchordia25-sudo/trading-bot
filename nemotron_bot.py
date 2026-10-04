@@ -33320,7 +33320,7 @@ def prime_regression_suite():
         try:ok=bool(f());d='ok' if ok else 'false'
         except Exception as e:ok=False;d=type(e).__name__+': '+str(e)[:160]
         extra.append({'name':n,'ok':ok,'detail':d})
-    add('v167-stt-large-v3-primary',lambda:'whisper-large-v3' in str(groq_transcribe.__code__.co_consts))
+    add('v167-stt-large-v3-primary',lambda:'whisper-large-v3' in str(getattr(groq_transcribe,'__wrapped__',groq_transcribe).__code__.co_consts))
     add('v167-stt-context-prompt',lambda:'Udaipur' in _V167_STT_PROMPT and 'Hinglish' in _V167_STT_PROMPT)
     add('v167-desktop-open-allowlist',lambda:_v167_desktop_intent('Nemo open Chrome')['target']=='chrome')
     add('v167-desktop-volume',lambda:_v167_desktop_intent('volume up')['target']=='volume_up')
@@ -87783,6 +87783,7 @@ _N92_STT_PREV = groq_transcribe
 def groq_transcribe(path, langs=('en', 'hi')):
     text = _N92_STT_PREV(path, langs)
     return text if text else _n92_local_stt(path)
+groq_transcribe.__wrapped__ = _N92_STT_PREV            # older regression rows look through a wrapper to the function that holds the model name
 
 
 # ------------------------------------------------ extra checks next to the update pre-flight (ruff, vulture, detect-secrets): information only ------------------------------------------------

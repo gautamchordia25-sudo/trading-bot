@@ -681,6 +681,13 @@ class TestLocalVoice(WireCase):
         last = src.rindex('def groq_transcribe(')
         self.assertGreater(last, src.index('# NEMO 92 - WIRE'), 'the Wire wrapper is the last definition, so every caller gets the fallback')
 
+    def test_the_older_regression_row_about_the_primary_model_still_sees_through_the_wrapper(self):
+        self.assertTrue(callable(self.m.groq_transcribe.__wrapped__))
+        self.assertIn('whisper-large-v3', str(self.m.groq_transcribe.__wrapped__.__code__.co_consts))
+        suite = self.m.prime_regression_suite()
+        row = [t for t in suite['tests'] if t.get('name') == 'v167-stt-large-v3-primary']
+        self.assertTrue(row and row[0].get('ok'), row)
+
 
 # ===================================================================================================================
 # 9. EXTRA CHECKS NEXT TO THE UPDATE PRE-FLIGHT
