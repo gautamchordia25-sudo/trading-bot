@@ -425,7 +425,29 @@ class TestNamesAndRules(ScoutCase):
         r = self.m._n93_rules_classify('Yes Bank faces SEBI probe, shares plunge')
         self.assertEqual((r['direction'], r['event']), (-2, 'legal_fraud_probe'))
         r = self.m._n93_rules_classify('Infosys downgraded by broker')
-        self.assertEqual((r['symbols'], r['direction'], r['event']), (['INFY'], -2, 'rating_downgrade'))
+        self.assertEqual((r['symbols'], r['direction'], r['event']), (['INFY'], -1, 'rating_downgrade'), 'one clear phrase is one step, not two (a phrase is counted once)')
+
+    def test_whole_words_only_so_banks_is_not_a_ban(self):
+        f = lambda t: self.m._n93_rules_classify(t)['direction']
+        self.assertEqual(f('Sensex, Nifty end higher as FII buying lifts banks'), 2)
+        self.assertEqual(f('Urban demand picks up for Titan'), 0)
+        self.assertEqual(f('A raider of the lost market tradition'), 0)
+        self.assertEqual(f('Regulator bans trading in a small cap'), -1)
+        self.assertEqual(f('Probe launched, then dropped'), -2)
+        self.assertEqual(f('The fallout of the policy was limited'), 0)
+
+    def test_real_headline_shapes_get_the_right_sign(self):
+        table = (('Reliance Industries Q2 profit beats estimates, shares surge', 2), ('Infosys wins large cloud deal worth billions, shares jump', 2), ('Yes Bank faces SEBI probe, shares plunge', -2),
+                 ('HDFC Bank profit falls 8% on higher provisions, misses estimates', -2), ('TCS denies rumours of layoffs, says reports are false', 0), ('Sensex, Nifty end higher as FII buying lifts banks', 2),
+                 ('Brent crude jumps 4% as supply fears grow', -1), ('RBI cuts repo rate by 25 bps, signals more easing', 1), ('Adani Ports downgraded by broker, target price cut', -1),
+                 ('Tata Motors recalls 20,000 vehicles over faulty part', -1), ('Asian Paints profit rises 12% but margins shrink, shares fall', -1), ('L&T bags orders worth Rs 5,000 crore', 1),
+                 ('RBI hikes repo rate by 50 bps', -1), ('Nifty ends lower on FII selling', -2), ('Wipro lowers guidance for the quarter', -1))
+        for text, want in table:
+            self.assertEqual(self.m._n93_rules_classify(text)['direction'], want, text)
+
+    def test_a_win_of_a_deal_is_an_order_win(self):
+        self.assertEqual(self.m._n93_rules_classify('Infosys wins large cloud deal worth billions')['event'], 'order_win')
+        self.assertEqual(self.m._n93_rules_classify('L&T bags orders worth Rs 5,000 crore')['event'], 'order_win')
 
     def test_denials_and_rumours_lower_the_confidence(self):
         a = self.m._n93_rules_classify('TCS profit jumps in Q2')
@@ -2035,7 +2057,7 @@ class TestWiring(ScoutCase):
 
     def test_the_only_edits_to_older_code_are_the_docstring_the_guard_prefix_the_expiry_parser_and_one_map_entry(self):
         src = open(base.NEMO_FILE, encoding='utf-8').read()
-        self.assertTrue(src.startswith('"""nemotron_bot.py v93.1 - SCOUT'))
+        self.assertTrue(src.startswith('"""nemotron_bot.py v93.2 - SCOUT'))
         self.assertIn("'INDIAVIX'", src)
         self.assertEqual(self.m._N55_INDEX_MAP['INDIAVIX']['fyers'], 'NSE:INDIAVIX-INDEX')
 

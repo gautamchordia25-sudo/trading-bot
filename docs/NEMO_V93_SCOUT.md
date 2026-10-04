@@ -1,4 +1,7 @@
-# Nemo v93.1 "Scout": trade ideas for stocks and NIFTY options from news and market tools, with the logic shown
+# Nemo v93.2 "Scout": trade ideas for stocks and NIFTY options from news and market tools, with the logic shown
+
+> **v93.2:** while comparing sentiment tools (see `NEMO_TOOLS_TRADING_IMAGES.md`) I found that Scout's plain-rules news reader, used only when the AI is down, matched words inside other words ("ban" matched "banks") and missed
+> "jump", "surge", "wins ... deal" and "cuts repo rate". It now matches whole words with their usual endings; 15 real-style headlines get the right sign, with tests.
 
 > **v93.1** (the same day): you ran `/chain55 NIFTY` on your server and pasted the result. It was the first real data Scout met, and it showed two things my fixtures did not have:
 > **(1)** the broker's chain sends **no implied volatility** (`"iv": null` on every row), and Scout's option plan needs it for Greeks and repricing, so NIFTY option ideas would never have appeared;
@@ -150,7 +153,7 @@ This says how the rules *behave*. It says **nothing** about real NIFTY or stock 
 
 ## 8. What is verified and what is not
 
-**Verified offline (tests: 242 for Scout; whole suite on the final file 1831 OK, 6 skipped = the 5 real-library Wire tests and the slow update-gate test, which I ran separately with `NEMO_SLOW=1` and passed; your own server's in-bot regression run showed 937 passed, 0 failed):** headline feed parsing (including a feed that tries to declare entities, oversized or broken feeds), story merging (and never across different companies), the rules
+**Verified offline (tests: 245 for Scout; whole suite on the final file 1848 OK, 6 skipped = the 5 real-library Wire tests and the slow update-gate test, which I ran separately with `NEMO_SLOW=1` and passed; your own server's in-bot regression run showed 937 passed, 0 failed):** headline feed parsing (including a feed that tries to declare entities, oversized or broken feeds), story merging (and never across different companies), the rules
 reader, the AI answer whitelist and the prompt-injection defence, news weighting by age, outlet, confidence, novelty and corroboration, event flags, indicator facts, levels and gates (every branch, both
 sides), setups, the score table, sizing that never rounds up, the replay (determinism, no overlap, no look-ahead, no edge on noise), stop-first following, option bias, structure choice, spread arithmetic, premium
 plan, sizing with the real per-lot risk, the ledger and the record, the scan end to end (sector cap, idea cap, no news, no market data, time limit, one at a time), every chat phrase and what must *not* be taken, the
