@@ -143,7 +143,7 @@ This says how the rules *behave*. It says **nothing** about real NIFTY or stock 
 
 ## 8. What is verified and what is not
 
-**Verified offline (tests, 228 for Scout):** headline feed parsing (including a feed that tries to declare entities, oversized or broken feeds), story merging (and never across different companies), the rules
+**Verified offline (tests: 228 for Scout; whole suite on the final file 1831 OK, 6 skipped = the 5 real-library Wire tests and the slow update-gate test, which I ran separately with `NEMO_SLOW=1` and passed; your own server's in-bot regression run showed 937 passed, 0 failed):** headline feed parsing (including a feed that tries to declare entities, oversized or broken feeds), story merging (and never across different companies), the rules
 reader, the AI answer whitelist and the prompt-injection defence, news weighting by age, outlet, confidence, novelty and corroboration, event flags, indicator facts, levels and gates (every branch, both
 sides), setups, the score table, sizing that never rounds up, the replay (determinism, no overlap, no look-ahead, no edge on noise), stop-first following, option bias, structure choice, spread arithmetic, premium
 plan, sizing with the real per-lot risk, the ledger and the record, the scan end to end (sector cap, idea cap, no news, no market data, time limit, one at a time), every chat phrase and what must *not* be taken, the
