@@ -889,4 +889,4 @@ class TestWiringAndStructure(LedgerCase):
 
     def test_version_and_docstring(self):
         self.assertGreaterEqual(float(self.m.VERSION), 96.0)
-        self.assertIn('v96.0 - LEDGER', bot_source()[:3500])                                   # (later versions put their own line first)
+        self.assertIn('v96.0 - LEDGER', bot_source()[:12000])                                   # (later versions put their own line first)

@@ -924,8 +924,8 @@ class TestStructure(unittest.TestCase):
     def test_the_version_and_the_documentation(self):
         self.assertGreaterEqual(float(self.m.VERSION), 92.0)
         self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], self.m.VERSION)
-        self.assertIn('v92.0 - WIRE', self.src[:6000])
-        self.assertIn('+ v91.5 - FORGE', self.src[:6000])
+        self.assertIn('v92.0 - WIRE', self.src[:12000])
+        self.assertIn('+ v91.5 - FORGE', self.src[:12000])
         self.assertTrue(self.src.index('# NEMO 91 - FORGE') < self.src.index('# NEMO 92 - WIRE'))
         self.assertTrue(self.src.rindex("if __name__") > self.src.index('# NEMO 92 - WIRE'))
 

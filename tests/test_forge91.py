@@ -2210,7 +2210,7 @@ class TestStructure(unittest.TestCase):
         self.assertGreaterEqual(float(self.m.VERSION), 91.5)
         self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], self.m.VERSION)
         self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v9'))
-        self.assertIn('v91.5 - FORGE', self.src[:6000], 'the Forge version stays documented')
+        self.assertIn('v91.5 - FORGE', self.src[:12000], 'the Forge version stays documented')
 
     def test_the_layer_comes_after_studio_and_before_the_main_guard(self):
         self.assertLess(self.src.index('# NEMO 90 - STUDIO'), self.src.index('# NEMO 91 - FORGE'))

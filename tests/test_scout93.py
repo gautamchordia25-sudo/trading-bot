@@ -2058,7 +2058,7 @@ class TestWiring(ScoutCase):
 
     def test_the_only_edits_to_older_code_are_the_docstring_the_guard_prefix_the_expiry_parser_and_one_map_entry(self):
         src = open(base.NEMO_FILE, encoding='utf-8').read()
-        self.assertIn('v93.2 - SCOUT', src[:3000])
+        self.assertIn('v93.2 - SCOUT', src[:12000])
         self.assertIn("'INDIAVIX'", src)
         self.assertEqual(self.m._N55_INDEX_MAP['INDIAVIX']['fyers'], 'NSE:INDIAVIX-INDEX')
 

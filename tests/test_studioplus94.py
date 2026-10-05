@@ -708,7 +708,7 @@ class TestWiringAndStatus(IntelCase):
 
     def test_the_only_edits_to_older_code_are_the_listed_ones(self):
         src = open(base.NEMO_FILE, encoding='utf-8').read()
-        self.assertIn('v94.0 - CLEAR + SCOUT INTEL + STUDIO PLUS', src[:3500])
+        self.assertIn('v94.0 - CLEAR + SCOUT INTEL + STUDIO PLUS', src[:12000])
         self.assertEqual(src.count('_n94_fill_iv_rows(flat,spot,days)'), 1)
         self.assertEqual(src.count('_n94_upscale_note(op[\'factor\'], im.size)'), 1)
         self.assertEqual(src.count('\n            _n94_chart_after(cid, i)\n'), 2)

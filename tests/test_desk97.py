@@ -41,7 +41,8 @@ def bot_source():
 def v97_source():
     src = bot_source()
     i = src.index('# NEMO 97 - DESK')
-    return src[i:src.rindex("if __name__")]
+    j = src.index('# NEMO 98 - SCHOLAR') if '# NEMO 98 - SCHOLAR' in src else src.rindex("if __name__")       # (the next layer is not part of this one)
+    return src[i:j]
 
 
 def ist_ts(days_ago=0, hh=11, mm=0):
@@ -819,8 +820,8 @@ class TestWiringAndStructure(DeskCase):
             self.assertIn('Broken row', out)
 
     def test_the_protection_list_for_live_self_edit_names_the_new_prefix(self):
-        self.assertIn("'_n96_','_n97_','_p75_'", bot_source())
+        self.assertIn("'_n96_','_n97_',", bot_source())
 
     def test_version_and_docstring(self):
-        self.assertEqual(self.m.VERSION, '97.0')
-        self.assertIn('v97.0 - DESK', bot_source()[:300])
+        self.assertGreaterEqual(float(self.m.VERSION), 97.0)
+        self.assertIn('v97.0 - DESK', bot_source()[:12000])                                     # (later versions put their own line first)

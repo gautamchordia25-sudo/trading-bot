@@ -2387,8 +2387,8 @@ class TestStructure(unittest.TestCase):
 
     def test_the_version_is_distinct_and_documented(self):
         self.assertGreaterEqual(float(self.m.VERSION), 90)
-        self.assertIn('v90.2 - STUDIO', self.src[:3000], 'the Studio version stays documented')
-        self.assertIn('+ v89.0 - CIRCLE', self.src[:3000], 'the older versions stay documented')
+        self.assertIn('v90.2 - STUDIO', self.src[:12000], 'the Studio version stays documented')
+        self.assertIn('+ v89.0 - CIRCLE', self.src[:12000], 'the older versions stay documented')
 
     def test_the_new_layer_is_protected_from_live_self_editing(self):
         for name in ('_n90_front', '_n90_audit', '_n90_generate', '_n90_save_key', '_n90_secret', '_n90_run_data_report'):
