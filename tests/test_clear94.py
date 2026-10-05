@@ -57,7 +57,8 @@ def v55_handler(m):
 def clear_source():
     src = open(base.NEMO_FILE, encoding='utf-8').read()
     i = src.index('# NEMO 94 - CLEAR')
-    return src[i:src.rindex("if __name__")]
+    j = src.index('# NEMO 95 - DOORS') if '# NEMO 95 - DOORS' in src else src.rindex("if __name__")       # (the next layer is checked by its own tests)
+    return src[i:j]
 
 
 def shapes():
