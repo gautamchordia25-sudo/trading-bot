@@ -121,10 +121,12 @@ Forge installs only Python wheels. The best offline and web tools (llama.cpp, ki
 | **v93** | **Scout** (built as v93.0, see `NEMO_V93_SCOUT.md`) | Trade ideas for stocks and NIFTY/BANKNIFTY options from news and the market tools, with the workings shown, sized to your risk limit and tracked honestly (advisory only; no orders) | Asked for next; uses what v55, v91 and v92 already provide |
 | **v94** | **Clear + Scout intel + Studio+** (built as v94.0, see `NEMO_V94_CLEAR_INTEL_STUDIO.md`) | Every market reply and data dump in plain words (the unreadable `/chain55` reply), NSE results/ban/flow checks and a volatility forecast for Scout, a holiday cross-check, real AI enlarging, key-free background removal and a chart under each idea | Asked for next; finishes what v93 and the research guide started |
 | **v95** | **Doors + Care + Office** (built as v95.0, see `NEMO_V95_DOORS_CARE_OFFICE.md`) | Website hardening (A1 Telegram login, rate limit on guessed keys, constant-time key checks, safe headers, optional localhost-only and waitress; the cockpit audit is the `doors` report), a care report and safe clean-up, fix-it lines on older failure messages, GSTIN/PAN checks on invoice drafts, a study helper | Fixes the real weaknesses before adding anything public. Still open: A3 (stable tunnel / Tailscale guide), A4 richer owner app |
-| **v96** | **Offline** | B2 offline mode, B1 fully local tools, B4 offline encyclopaedia; B3 local brain only after the server has more memory | Needs v92 |
-| **v97** | **Knowledge** | C1 cited research pipeline, C4 feeds, C5 page diffs | Needs v92 (trafilatura, sqlite-vec) |
-| **v98** | **Site** | A4 richer owner app, optional A5 public showroom and A6 OpenAI-compatible API, D1 GitHub webhook | Only after the doors are safe |
-| **v99** | **Apps lane** | E, then C2 SearXNG and any local brain | Biggest and riskiest |
+| **v96** | **Ledger** (built as v96.0, see `NEMO_V96_LEDGER.md`) | The full record of what the stock-market agent has traded (`ledger`: results before and after charges, worst dip, how far to trust it, day by day, one trade in full, CSV, chart) and a plain-words, test-checked explanation of how it decides (`ledger logic`). Read-only. | Asked for by the owner after seeing the day-end card; every later trading change needs this record first |
+| **v97** | **Lab** (proposed, `NEMO_V96_LEDGER.md` section 4) | Parallel *virtual* variants of the agent compared in the ledger (expiry rule, stop/target, break-even stop, brain), a "why not" log, direction hit rate, excursion tracking, weekly/monthly reports and drawdown alerts. Still no change to the live agent. | Shows what actually helps before anything is changed |
+| **v98** | **Offline** | B2 offline mode, B1 fully local tools, B4 offline encyclopaedia; B3 local brain only after the server has more memory | Needs v92 |
+| **v99** | **Knowledge** | C1 cited research pipeline, C4 feeds, C5 page diffs | Needs v92 (trafilatura, sqlite-vec) |
+| **v100** | **Site** | A4 richer owner app, optional A5 public showroom and A6 OpenAI-compatible API, D1 GitHub webhook | Only after the doors are safe |
+| **v101** | **Apps lane** | E, then C2 SearXNG and any local brain | Biggest and riskiest |
 
 ## 5. Four answers I need from you (they change the plan)
 

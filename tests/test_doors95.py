@@ -654,4 +654,4 @@ class TestEditsToOlderCode(DoorsCase):
         self.assertIsNot(self.m.handle, self.m._N95_HANDLE_PREV)
         self.assertIsNot(self.m.main, self.m._N95_MAIN_PREV)
         self.assertGreaterEqual(float(self.m.VERSION), 95.0)
-        self.assertTrue(self.src.startswith('"""nemotron_bot.py v95.0 - DOORS + CARE + OFFICE'))
+        self.assertIn('v95.0 - DOORS + CARE + OFFICE', self.src[:3500])                      # (later versions put their own line first)

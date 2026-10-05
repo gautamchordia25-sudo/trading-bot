@@ -29,7 +29,8 @@ def setUpModule():
 def v95_source():
     src = open(base.NEMO_FILE, encoding='utf-8').read()
     i = src.index('# NEMO 95 - DOORS')
-    return src[i:src.rindex("if __name__")]
+    j = src.index('# NEMO 96 - LEDGER') if '# NEMO 96 - LEDGER' in src else src.rindex("if __name__")       # (the next layer is not part of this one)
+    return src[i:j]
 
 
 def ist(y, mo, d, h, mi=0):
