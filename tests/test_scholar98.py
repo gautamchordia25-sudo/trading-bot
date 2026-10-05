@@ -31,7 +31,8 @@ def bot_source():
 def v98_source():
     src = bot_source()
     i = src.index('# NEMO 98 - SCHOLAR')
-    return src[i:src.rindex("if __name__")]
+    j = src.index('# NEMO 99 - LAB') if '# NEMO 99 - LAB' in src else src.rindex("if __name__")       # (the next layer is not part of this one)
+    return src[i:j]
 
 
 class ScholarCase(ForgeCase):
@@ -567,8 +568,8 @@ class TestWiringAndStructure(ScholarCase):
         self.assertNotIn('README', src.replace('# ', ''))
 
     def test_the_protection_list_for_live_self_edit_names_the_new_prefix(self):
-        self.assertIn("'_n97_','_n98_','_p75_'", bot_source())
+        self.assertIn("'_n97_','_n98_',", bot_source())
 
     def test_version_and_docstring(self):
-        self.assertEqual(self.m.VERSION, '98.0')
-        self.assertIn('v98.0 - SCHOLAR', bot_source()[:300])
+        self.assertGreaterEqual(float(self.m.VERSION), 98.0)
+        self.assertIn('v98.0 - SCHOLAR', bot_source()[:12000])                                  # (later versions put their own line first)

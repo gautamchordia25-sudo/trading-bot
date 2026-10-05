@@ -1454,7 +1454,7 @@ class TestUpgradeFromGithub(ForgeCase):
         self.start(self.m, 'self_update', lambda cid: self.updates.append(cid))
         self.m.LAST_CODE.pop(self.cid, None)
 
-    def script(self, version='99.0', **kw):
+    def script(self, version='999.0', **kw):
         sha = 'ab' * 20
         self.http.on('repos/owner/nemo/commits/main', HttpResp(200, js={'sha': sha, 'commit': {'message': 'v%s: more power\n\nlong text' % version, 'author': {'name': 'Gautam', 'date': '2026-10-01T10:00:00Z'}}}))
         self.http.on('repos/owner/nemo/contents/nemotron_bot.py', HttpResp(200, content=nemo_like(version, **kw).encode()))
@@ -1478,12 +1478,12 @@ class TestUpgradeFromGithub(ForgeCase):
             self.assertNotIn('forge_source', self.store, bad)
 
     def test_a_newer_version_is_staged_and_handed_to_the_existing_update_gate(self):
-        sha = self.script('99.0')
+        sha = self.script('999.0')
         out = self.owner('check for upgrades on github')
         self.assertIn('commit ' + sha[:7], out)
         self.assertIn('more power', out)
         self.assertEqual(self.updates, [self.cid], 'the normal /update gate (sandbox test, credential comparison, Apply card) is what runs')
-        self.assertIn('VERSION = "99.0"', self.m.LAST_CODE[self.cid]['code'])
+        self.assertIn('VERSION = "999.0"', self.m.LAST_CODE[self.cid]['code'])
         self.assertIn(sha[:7], self.m.LAST_CODE[self.cid]['name'])
         self.assertEqual(self.m._N91_STATS['upgrades_staged'], 1)
 
@@ -1497,10 +1497,10 @@ class TestUpgradeFromGithub(ForgeCase):
         self.assertEqual(self.updates, [self.cid])
 
     def test_code_that_does_not_compile_or_does_not_look_like_nemo_is_never_staged(self):
-        self.script('99.0', broken=True)
+        self.script('999.0', broken=True)
         self.assertIn('does not compile', self.owner('check for upgrades on github'))
         self.http.routes = []
-        self.script('99.0', size=2000)
+        self.script('999.0', size=2000)
         self.assertIn('does not look like my code', self.owner('check for upgrades on github'))
         self.assertEqual(self.updates, [])
         self.assertNotIn(self.cid, self.m.LAST_CODE)
