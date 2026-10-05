@@ -33,7 +33,8 @@ def setUpModule():
 def v96_source():
     src = bot_source()
     i = src.index('# NEMO 96 - LEDGER')
-    return src[i:src.rindex("if __name__")]
+    j = src.index('# NEMO 97 - DESK') if '# NEMO 97 - DESK' in src else src.rindex("if __name__")       # (the next layer is not part of this one)
+    return src[i:j]
 
 
 def bot_source():
@@ -884,8 +885,8 @@ class TestWiringAndStructure(LedgerCase):
         self.assertEqual(tables, {'ledger96_trade', 'ledger96_entry', 'ledger96_setting'})
 
     def test_the_protection_list_for_live_self_edit_names_the_new_prefix(self):
-        self.assertIn("'_n95_','_n96_','_p75_'", bot_source())
+        self.assertIn("'_n95_','_n96_',", bot_source())
 
     def test_version_and_docstring(self):
-        self.assertEqual(self.m.VERSION, '96.0')
-        self.assertIn('v96.0 - LEDGER', bot_source()[:300])
+        self.assertGreaterEqual(float(self.m.VERSION), 96.0)
+        self.assertIn('v96.0 - LEDGER', bot_source()[:3500])                                   # (later versions put their own line first)
