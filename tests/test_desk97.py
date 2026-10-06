@@ -718,6 +718,7 @@ class TestCircleUntouched(DeskCase):
 
     def test_the_access_card_is_unchanged_for_people_without_the_desk(self):
         m = self.m
+        m._n101_put('family_world', 'off')                       # v101 adds one line about the world desk to a family member's card; with that switched off the card is the desk layer's own
         self.owner_say('stop Asha from seeing trade ideas')
         self.assertEqual(m._n89_access_card('5552', 'family', 'Asha'), m._N97_CARD_PREV('5552', 'family', 'Asha'))
         self.owner_say('allow Asha to see trade ideas')

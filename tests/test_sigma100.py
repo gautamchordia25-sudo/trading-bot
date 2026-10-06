@@ -173,6 +173,10 @@ class SigmaCase(ScoutCase):
         self.cfg = {'capital': 500000.0, 'risk_pct': 1.0, 'heat_pct': 3.0, 'max_signals': 4, 'min_score': 65, 'alerts': False, 'alerts_per_day': 4, 'shorts': False, 'breaker': True, 'universe': 30,
                     'max_position_pct': 25.0, 'own_capital': True}
         self.http_calls = []
+        self.images = []
+        self.start(m, '_n90_send_image', lambda cid, raw, name, caption='', kb=None, force_file=False: self.images.append(name) or True)
+        m._n101_db().close()
+        m._n101_put('charts', 'off')                     # v101 draws a chart under every card; these tests look at the cards (tests/test_globe101.py covers the pictures)
 
     def put_ctx(self, **kw):
         ctx = {'index_dir': 1, 'regime': 'TREND_UP', 'ret20': 2.0, 'vix': {'level': 13.0, 'pct': 40.0, 'chg5': -0.3, 'n': 120}, 'F': None, 'cs': None, 'notes': [], 'session': None}
@@ -2376,10 +2380,10 @@ class TestAlerts(ScanCase):
 # ===================================================================================================================
 class TestWiring(SigmaCase):
     def test_version_marker_and_protection(self):
-        self.assertEqual(self.m.VERSION, '100.0')
+        self.assertGreaterEqual(float(self.m.VERSION), 100.0)
         src = open(base.NEMO_FILE, encoding='utf-8').read()
-        self.assertIn('nemotron_bot.py v100.0 - SIGMA', src.split('"""', 2)[1][:200])
-        self.assertIn("'_n99_','_n991_','_n100_','_p75_'", src)                       # the live self-editor may not touch the layer
+        self.assertIn('v100.0 - SIGMA', src.split('"""', 2)[1])                       # the Sigma line stays in the docstring when a later layer adds its own
+        self.assertIn("'_n99_','_n991_','_n100_',", src)                              # the live self-editor may not touch the layer
         self.assertEqual(src.count('# NEMO 100 - SIGMA'), 1)
 
     def test_the_layer_adds_only_its_own_names_and_wraps_five_older_ones(self):
