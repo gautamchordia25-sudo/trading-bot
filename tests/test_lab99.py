@@ -32,7 +32,7 @@ def setUpModule():
 def v99_source():
     src = bot_source()
     i = src.index('# NEMO 99 - LAB')
-    j = src.index('# NEMO 100 - ') if '# NEMO 100 - ' in src else src.rindex("if __name__")
+    j = src.index('# NEMO 99.1 - ANSWER') if '# NEMO 99.1 - ANSWER' in src else (src.index('# NEMO 100 - ') if '# NEMO 100 - ' in src else src.rindex("if __name__"))
     return src[i:j]
 
 
