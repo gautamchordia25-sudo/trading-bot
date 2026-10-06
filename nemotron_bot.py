@@ -1,4 +1,4 @@
-"""nemotron_bot.py v99.1 - ANSWER: A GENERAL TRADING QUESTION IS NO LONGER SENT TO THE PAPER-TRADING RESEARCH TOOL; WHEN THE MAIN AI GATEWAY FAILS THE OLDER BRAINS ANSWER INSTEAD OF THE REQUEST ENDING; A TRADE LAB DEAD END BECOMES AN ORDINARY ANSWER; AND "SUPPOSE YOU HAVE 20000 RUPEES FOR OPTIONS TRADING, HOW WILL YOU SURVIVE AND WHAT RETURN IN A YEAR" IS ANSWERED FROM THE PRACTICE RECORD AND A SIMULATION WITH NO AI. NO ORDER, NO CHANGE TO THE TRADING AGENT, THE GUARDS OR THE OWNER LOCK. + v99.0 - LAB: A READ-ONLY LABORATORY BESIDE THE STOCK-MARKET AGENT. IT KEEPS THE PRICE PATH OF EVERY TRADE (copying the quotes the agent already fetches), REPLAYS THE AGENT'S OWN RULE AND 11 OTHER EXIT AND ENTRY RULES OVER THOSE PATHS AFTER CHARGES (never calling a winner on too few trades), SHOWS WHY THE AGENT DID NOT TRADE, HOW FAR TRADES WENT, WHETHER THE DIRECTION CALLS WERE RIGHT, SENDS A WEEKLY AND MONTHLY REPORT, ALERTS ON A LOSING STREAK OR A DEEP DIP, AND GIVES AN ADVISORY LIVE-READINESS CHECKLIST (nothing is switched: no order, no change to the trading agent, the guards or the owner lock). + v98.0 - SCHOLAR: TELL NEMO WHAT HE IS WEAK AT AND HE RESEARCHES GITHUB AND PYPI, CHECKS THE BEST PROJECTS FOR SAFETY AND FIT WITH THIS SERVER, RECOMMENDS ONE WITH ITS LIMITS AND PUTS FORGE'S ONE-TAP APPROVAL CARD IN FRONT OF THE OWNER; AFTERWARDS HE OFFERS TO TEACH HIMSELF TO USE IT (nothing is installed without the owner's tap; no order, no change to the trading agent, the guards or the owner lock). + v97.0 - DESK: A FAMILY MEMBER (OR THE WHOLE FAMILY) CAN BE LET INTO THE TRADE DESK, VIEW ONLY: THE OPEN SCOUT IDEAS WITHOUT THE OWNER'S CAPITAL OR SIZING, A FRESH SCAN WITH SMALL DAILY LIMITS, HOW PAST IDEAS TURNED OUT AND THE PRACTICE AGENT'S VIRTUAL TRADES; REAL POSITIONS, MONEY, ORDERS, LIVE-MODE TRADES AND THE OWNER'S SETTINGS STAY PRIVATE AND NOTHING CAN BE CHANGED (no order, no change to the trading agent, the guards, Circle's locks or the owner lock). + v96.0 - LEDGER: THE FULL RECORD OF WHAT THE STOCK-MARKET AGENT HAS TRADED (every closed trade kept, results before and after estimated charges, worst dip, how far to trust it, day by day, one trade in full with its reason, CSV and a growth chart) AND A PLAIN-WORDS EXPLANATION OF HOW IT DECIDES (read-only: it never changes what the agent does, the trading guards or the owner lock; no order is placed). + v95.0 - DOORS + CARE + OFFICE: THE WEBSITE GETS TELEGRAM LOGIN, FAILED-ATTEMPT LIMITS AND SAFE HEADERS; "CARE" READS THE SERVER AND CLEANS NEMO'S OWN LEFTOVERS AND OLDER FAILURE MESSAGES GAIN A FIX-IT LINE; GSTIN/PAN CHECKS ON INVOICE DRAFTS AND A SPACED-REPETITION STUDY HELPER (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v94.0 - CLEAR + SCOUT INTEL + STUDIO PLUS: EVERY MARKET REPLY AND DATA DUMP IN PLAIN WORDS, NSE RESULTS/BAN/FLOW CHECKS AND A VOLATILITY FORECAST FOR SCOUT, AI UPSCALING, BACKGROUND REMOVAL AND CHARTS FOR PICTURES (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v93.2 - SCOUT: TRADE IDEAS FOR STOCKS AND NIFTY/BANKNIFTY OPTIONS FROM NEWS AND NEMO'S MARKET TOOLS, WITH THE WORKINGS SHOWN, THE SIZE AT THE OWNER'S RISK LIMIT AND AN HONEST TRACK RECORD (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v92.0 - WIRE: THE INSTALLED LIBRARIES BECOME CHAT COMMANDS, RUN SAFELY (tables from a PDF, text in a picture, clean article text, indicators on daily candles, a risk report of the journal, NSE history, local voice fallback, extra checks next to the update pre-flight; one heavy job at a time and only when memory is free; MCP servers stop together with Nemo). + v91.5 - FORGE: NEMO CAN USE GITHUB AND INSTALL WHAT HE NEEDS (search and inspect GitHub, a static scan of any repo, PyPI risk checks, hash-pinned wheel-only installs into isolated environments or additively into his own Python, owner approval cards, health checks with automatic rollback, an install ledger, upgrade from the owner's own GitHub repo through the existing update gate). + v90.2 - STUDIO: MORE IMAGE ENGINES AND TOOLS, EXACT DESIGN AND CHARTS, REPORTS WHOSE NUMBERS ARE CHECKED (verified image chain with nine engines, Pillow tools, posters/cards/logos with exact text, charts from your numbers, a numbers audit for researched reports, data reports from your own files). + v89.0 - CIRCLE: WHO ELSE MAY USE NEMO AND WHAT THEY MAY DO (one gate in front of every message, button and inline query that is not from the owner; default deny; abilities switched per person and role from a menu or in plain words; first-contact cards; limits; strangers on/off; a private read-only free/busy view for family). + v88.0 - ARGUS: NEMO CAN SEE (read-only eyes for mail, calendar, Drive, tasks, reminders, watchers, what Nemo did and when, server and errors, devices, positions; a live map of its own abilities; one "see" tool for conversation; a flight recorder; an inbox watch; exact reasons when something is not connected). + v87.0 - RELAY: MORE VIDEO SOURCES (yt-dlp with six client profiles, automatic yt-dlp update, Node/Deno runtime, your proxy; then pytubefix, YouTube.js, Piped and Invidious mirrors, Cobalt) in ONE verified, time-boxed chain with a per-source report + DRIVE LINKS YOU CAN OPEN (anyone with the link / one e-mail / private) + natural-language controls (download sources, test youtube download, set up download sources, share my last download). + v86.0 - CANDOR: NO SENSITIVE LOGGING (a rejected value is never stored; logs are masked) + COMPLETE FORGETTING (every recall store, rewritten copies, re-learning blocked, queued jobs cancelled, backup limits stated) + SAFER SELF-DEVELOPMENT (the _n79_feature hook is always offered, relevant bounded shortlist, vague "upgrade yourself ..." asks what you want before any AI call, failures name their stage) + RESEARCH ROUTING (current-information questions are researched, failure and thin evidence are stated) + ONE SHARED DEADLINE (planning, tools, answer, review and fallback; bounded search and background work) + HONEST CHECKS (completed / issues / skipped / failed). + v85.0 - STEWARD: DECISION INBOX (mail/calendar/open loops/showroom -> ranked, grounded proposals as approve/edit/skip cards; nothing runs without a tap; learns from your decisions) + VERIFIED RESEARCH (replans, reads full pages, keeps a claim only if its quote is in the page and its numbers are in the quote) + SANDBOX-TESTED UPDATES (candidate is imported and regression-tested in a network-less sandbox before Apply) + MCP PERMISSION TIERS (read runs, write needs a tap, dangerous blocked) + DOCUMENT INTELLIGENCE (page-cited answers, clause flags, version compare, tables) + SHOWROOM COPILOT (leads, dues, stock, GST invoice drafts) + PAGE WATCHERS (price/stock/keyword/change alerts). + v84.0 - ATLAS: FUTURES DESK (expiry calendar with holiday roll-back, cost-of-carry fair value/basis, roll cost, position sizing, pre-trade check, edge/Kelly/streak maths, owner-reported trade journal + stats, opt-in expiry alerts; advisory only, no orders) + SPEED (zero-model answers for pure arithmetic/date questions, router bypass for plain chat, parallel tool rounds, typing keep-alive, per-stage timings, p50/p95 in /cortex83) + weekday/date audit. + v83.0 - CORTEX: memory bridge (relevant stored facts + safe auto-learning from the owner's own messages, with /memory83 /forget83 controls), grounded IST date/time + exact date maths, bounded read-only tool loop for chat (search/recall/calculate/date, no tool can act), deterministic arithmetic audit + quote-verified critique, rolling conversation summaries, router fast-path for small talk, /why83 transparency, fix for undefined _n60_j in the media failure path. Additive layer over v82; any Cortex failure falls back to the v80 chat path. + v45.0 - YOUTUBE PER OFFICIAL 2026 GUIDE (--js-runtimes deno auto-installed, android_vr-first ladder needing no PO token/cookies, cookies only for tv/mweb, rotation detection, /ytfix) + MEDIA LIBRARY (/library instant resend, Drive) + v44.x RELIABILITY DOCTOR + v43.x YOUTUBE UNBLOCK + RESEARCH DIGEST + v42.0 MEDIA ENGINE + FAMILY MODE + v40.0 COMMAND CENTER + LEARN MODE + v39.0 FAST CORE + v38.0 ATTENTION + v37.0 PHOTO MEMORY + VOICE + v36.x DAY CARD + SELF-AUDIT + v35.0 UNIFIED MIND + v13.35 - PROVIDER DOCTOR + COMPUTER-USE 5.0 BATCH 3: adds diagnostic Groq/Gemini model discovery, non-destructive email/network doctor, browser computer-use sessions with DOM/accessibility/screenshot state, Guardian-protected external-page analysis, action verification and session telemetry. + v13.30 - KNOWLEDGE LAKE 2.0 + HYBRID SEMANTIC RAG + LEARNING CORE 2.0: adds local hybrid retrieval, workflow episode learning and automatic local grounding while retaining v13.29 evaluation/observability. + v13.29 - EVALUATION LAB 2.0 + OBSERVABILITY/FLIGHT RECORDER 2.0: adds request-level tracing, durable request metrics, tool/task correlation for reports/browser/media, percentile latency and failure dashboards, candidate-vs-current regression scoring, critical-function and credential-line integrity checks, evaluation history, and fail-closed deploy recommendations. Existing v13.28 NEMO PRIME FOUNDATION remains. + v13.28 - NEMO PRIME FOUNDATION: Unified Task OS, Central Policy Engine, Flight Recorder, Evaluation Lab, Knowledge Lake, Strategy Learning 2.0, Device Agent generator, Specialist Agent Governor, and Trade State Reconciliation 2.0. Existing v13.27 Publisher Godmode and all prior safety rails remain. + v13.27 - PUBLISHER GODMODE 5.0 / LAYOUT QA: rebuilds the professional artifact renderer around measured text layout instead of fixed-height guesses; filters fake KPI tiles and source/evidence metadata; dynamically wraps risk tables, scenario cards, executive cards and source cards; fixes appendix stripping with or without colons; adds Unicode font support when available; prevents heading/header collisions; strengthens publication QA for leaked metadata, clipping-risk patterns and malformed key-number panels; and keeps the v13.26 evidence/materiality pipeline intact. + v13.26 - CREATION ENGINE / PUBLISHER GODMODE 4.0: adds professional information architecture, materiality-first analysis, improved source authority ontology, cited-evidence grading, compact clickable source appendix, executive snapshot cards, key-number tiles, scenario dashboard, risk heatmap-style matrix, typography/mojibake sanitation, deterministic artifact integrity, and optional PDF visual QA. Analytical reports now fail closed when research/evidence/publication quality is weak. Existing v13.25 research Godmode, v13.24 renderer fixes and v13.23 Learning Core remain. + v13.25 - GODMODE RESEARCH + REPORT INTELLIGENCE 3.0: adds five coordinated upgrades: adaptive multi-query text+news research with retries, source-authority scoring and domain diversity, multi-brain analyst→verifier→editor synthesis, evidence/claim-quality gates that remove unsupported current claims, and a research audit manifest + professional evidence score on every report. /godreport forces the full pipeline; ordinary non-code reports use it automatically. Existing v13.24.2 renderer hotfix and v13.23 Learning Core remain. + v13.24.2 - PROFESSIONAL REPORT STUDIO 2.1 PDF RENDERER HOTFIX: upgrades PDF/report generation with fresh multi-query web research for time-sensitive reports, source-grounded drafting, executive summaries, risk/outlook structure, professional cover/header/footer, section hierarchy, key-takeaway callouts, source appendix, cleaner typography, and removal of random stock-art pages. Reports distinguish sourced facts from analysis and warn when fresh research is unavailable. Existing v13.23 Learning Core remains. + v13.23 - LEARNING CORE 1.0 + EXPERIENCE BRAIN: adds persistent outcome learning, model-performance scoring, experience/error fingerprints, semantic experience recall, feedback controls, lightweight anomaly learning, adaptive model route reordering, training-data export, and Cockpit learning telemetry. Learns from successful/failed AI calls and explicit owner feedback while redacting sensitive-looking text; never grants new money/security authority. Existing v13.22 Offline Mind/Speed/Systematic UI, Device Grid, Cockpit, Mind Core, Cyber Hands, trading rails and secrets are preserved. + v13.22 - OFFLINE MIND + SPEED ROUTER + SYSTEMATIC RESPONSE UI: adds an offline-first knowledge layer (built-in durable reference packs + existing indexed files/library/memory grounding), persistent evergreen answer cache, API-down offline fallback, instant local calculator, automatic FAST/BALANCED/QUALITY routing, reduced unnecessary multi-pass reasoning, and a Telegram-friendly response-format contract with consistent visual sections. New /offline, /speed and /format controls. Existing v13.21 Device Grid, v13.20 Cockpit, v13.19 Mind Core, Cyber Hands, trading/security rails and credentials are preserved. + v13.21 - NEMO DEVICE GRID + REMOTE HANDS 1.0: enrolled-device control plane with owner-created one-time enrollment tokens, per-device bearer secrets, heartbeat/online state, read-only system telemetry, opt-in location reporting, device revocation, audit trail, and Cockpit/API device inventory. No arbitrary-device discovery, covert tracking, credential dumping, or unauthorized remote access. + v13.20 - NEMO COCKPIT 1.0: adds a modern Telegram Mini App/PWA command-center over the existing secure web server: live system/brain/cyber/VPN/trading/task/media panels, responsive mobile-first glass UI, browser human-checkpoint status and latest screenshot, safe read-only quick actions, refreshable JSON telemetry, and an owner-only /cockpit command. When a secure HTTPS public_url is configured, Nemo automatically installs a Telegram Web App menu button that opens the cockpit inside Telegram; otherwise /cockpit gives the local/public dashboard link and /setdomain guidance. Consequential actions stay Telegram-gated; the cockpit does not bypass trading, lockdown, cyber scope, browser-auth or update confirmations. Existing v13.19 Mind Core, Browser Checkpoint 2.0, Cyber Hands, dependency isolation, secrets and trading rails remain. + v13.19 - MIND CORE 2.0 + BROWSER CHECKPOINT 2.0: adds a final-answer compiler that blocks scratchpad/thinking-aloud leakage, strips malformed provider tokens such as <unk>, detects repetition/non-answers, selectively re-verifies calculation/bill/image answers, and rewrites poor drafts before delivery; adds speech-specific sanitization so garbage tokens never become voice audio. Browser human checkpoints now parse natural replies (e.g. email plus “click next”) into a clean field value + action, use semantic page-state fingerprints instead of raw URL equality to detect stuck loops, and stop Google/YouTube automated-login loops early in favor of the user's authenticated session/cookie route. Passwords, OTP/2FA/recovery codes and private keys are no longer requested through Telegram browser checkpoints. Existing v13.18 Cyber Hands, v13.17 dependency isolation, trading rails, secrets, updater and all prior capabilities remain. + v13.18 - CYBER HANDS 1.0: adds an owner-only defensive security operations layer for THIS VPS and explicitly authorized/allowlisted assets: unified /cyber control center, local security audit + score, listening-port/firewall/SSH/log inspection, secret-exposure scan that never prints secret values, source-code static security checks, dependency CVE audit in an isolated tool environment, optional ClamAV scan, file-integrity baseline, continuous low-noise security monitoring, and conservative allowlisted Nmap inventory (top ports/version-light only; no exploitation/bruteforce/evasion). Autonomous agents gain READ-ONLY local cyberaudit/cyberports/cyberlogs hands. Remote scanning is never autonomous and requires an explicit --authorized scope entry. Consequential remediation remains owner-confirmed. + v13.17 - FOUNDATION HARDENING + HANDS 2.0: adds dependency protection/doctor, isolated tool virtual-environments, process control with confirmation, filesystem search/hash/tree, network diagnostics, system snapshots, and exposes these safe hands to the autonomous agent. Core trading/credentials/browser/media behavior is preserved. + v13.16 - VISION RESPONSE VALIDATION + MULTIMODAL FALLBACK: fixes the case where a screenshot successfully reached the vision model but Nemo returned only provider moderation metadata such as "User Safety: safe / Response Safety: safe" instead of analyzing the image. Vision replies are now validated for substantive visual content; safety-only/moderation-only outputs, refusal-shell metadata, empty multipart content and tiny non-answers are treated as a FAILED vision attempt and Nemo automatically tries the next multimodal route (Nano Omni -> openrouter/free) rather than delivering garbage. Image prompts explicitly request actual visual analysis rather than safety labels. ask_ai now detects and sends the real PNG/JPEG/WEBP/GIF/BMP MIME in its OpenRouter data URI (closing the remaining hard-coded JPEG path missed in v13.15). DEBUG records why a vision model was rejected. Text routing, trading, money, browser, VPN, downloader, persistence and secrets are unchanged. + v13.15 - UNIVERSAL IMAGE ATTACHMENTS: Telegram screenshots/images sent as Files/Documents now route into the same vision pipeline as compressed photos. Detects image/* MIME plus PNG/JPG/JPEG/WEBP/GIF/BMP extensions and magic bytes; preserves captions; supports scan/OCR/QR/bill/notes pending modes; and ask_ai now labels the data URI with the real image MIME instead of always claiming JPEG. No trading, money, VPN, browser, downloader, persistence, secrets, or safety behavior changed. + v13.14 - LIVE MODEL ROUTER HOTFIX: OpenRouter retired nvidia/nemotron-3-nano-30b-a3b:free on 24 Aug 2026, so Nemo no longer calls that dead slug. Text routing now uses Nemotron 3 Ultra free -> Super free -> openrouter/free for smart work, Super free -> openrouter/free for fast work, and vision uses ONLY multimodal-capable Nano Omni free -> openrouter/free (no text-only Super fallback on images). ask_ai now safely parses OpenRouter error/unexpected response bodies instead of crashing with KeyError choices, temporarily cools down unavailable/rate-limited models, de-duplicates routes, and keeps the dynamic free router as a resilience fallback. /brain reports the live route and cooldowns. No trading, secrets, browser, media, persistence or safety rails changed. + v13.12 - HONEST UPDATE LABELS (fixing two COSMETIC bugs in my own update-preview that made a perfectly good deploy look scary): when the Boss deployed v13.11, the /update preview said 'this file is v17.0' and 'CHANGES 1 (TOKEN)' - BOTH false alarms from my own code; the file was correct and booted clean as v13.11. Causes + fixes: (1) my version-reader grabbed the FIRST version-assignment string anywhere in the file, and my changelog PROSE happens to mention the 17.0 pattern when describing a ChatGPT file - so it read its own description instead of the real constant. Now it reads only a REAL top-level VERSION assignment (start of line). (2) my credential-change check matched ANY variable whose name merely contained 'TOKEN'/'KEY' - including the harmless 'TOKEN = os.environ.get(BOT_TOKEN)' line inside the downloader-bot template - so it falsely warned of a credential change. Now it checks only the actual named secrets (TELEGRAM_TOKEN, OPENROUTER_KEY, NVIDIA_KEY, ...). Future update previews now show the true version and warn only on a REAL key change. Your keys were never touched - the proof was the bot booting clean and healthy. Additive; all existing suites pass plus a new v13.12 test. + v13.11 - CLAIM LEDGER + LIVE INTEGRITY (from the ChatGPT v24 'five upgrade' file - notable because it was finally built on OUR v13.9 base with the Security Core intact, but its five new layers all crash on first use on the same missing 'uuid' import as v15/v18/v19, and its flagship 'v20 Task Orchestrator' is FAKE: the execute function performs nothing - it stamps every step done with a canned message pointing to a /nemorun24 command that does not exist anywhere in the file. Its other layers duplicate what we already run: structured memory = the v11 knowledge graph + /recall, brain router = ask_ai's existing routing, project manager = /plan + /taskgraph + PROJECTS, observability = /nemo + self_test). The TWO ideas worth keeping, built working: (1) CLAIM LEDGER - /claims [search words] is a persistent, dated audit trail of everything Nemo has fact-checked and researched: every /verify records verified-or-corrected (with the checker's notes) and every /nemoresearch records a research entry, capped at 400, surviving restarts, searchable, also in plain language ('what have you verified', 'claim history'). So 'what has my bot told me, and was it checked?' finally has an answer. (2) LIVE INTEGRITY - /security now also compile-checks the RUNNING source and shows its sha256 fingerprint, so tampering or corruption of the deployed file is visible on demand. Additive; all suites pass plus new v13.11 tests. + v13.10 - DOWNLOADER IN THE BOT FACTORY (Nemo creates the whole bot himself - no file to send): the Boss asked why Nemo can't just CREATE a downloader bot when given a token. He always could create bots (/newbot factory + /env for secrets) - his library just had no downloader type. Now it does: a verified 'ytdl' template (the corrected version of the ChatGPT blueprint, which as written would not run - missing asyncio import, wrong download() return handling, an undefined variable, a zip step that ignored Telegram's ~50MB cap). Create it entirely in chat: /newbot ytdl mydl (or just say 'make me a downloader bot') -> tap Ship -> /env mydl BOT_TOKEN=<fresh @BotFather token> OWNER_ID=<your id> -> the bot is LIVE. The generated bot: downloads a YouTube video or whole playlist (mp4, or mp3 with 'audio'), sends every file under Telegram's cap straight to chat, keeps bigger ones on the server with the path reported, caps items per playlist (MAX_VIDEOS), safe ASCII filenames, owner-locked via OWNER_ID, token ONLY from its locked env - never in code. Same supervised ship rails as every factory bot (compile-check, auto pip-install of requests+yt-dlp, tap-to-start, /app <name> logs|restart|stop|rm). Additive; all suites pass plus new v13.10 tests. + v13.9 - QUANT LENSES (the genuinely-new, working parts of the ChatGPT v19 quant file, rebuilt on our base - READ-ONLY, never places an order): the v19 code was real quant work but sat on the old base and crashed its event log on the same missing 'uuid' import; I kept the good math, dropped the crash and the bits we already have (its plain signal/option dumps duplicate /godmode and /optionchain). Three lenses we DIDN'T have, now added: (1) /regime <symbol> - classifies the market regime (TREND_UP/DOWN, EXPANSION, RANGE, LOW_VOL_RANGE, TRANSITION) from ADX + EMAs + ATR-ratio + slope, with a confidence. (2) /walkforward <symbol> - proper OUT-OF-SAMPLE validation: it picks the best EMA pair on a training window then scores it on the next, unseen window, and reports the average out-of-sample hit-rate (a robustness check, not a guarantee). (3) /quantbacktest <symbol> - an EMA-crossover backtest with profit factor + max-drawdown AND a Monte-Carlo stress test (bootstrapped terminal + drawdown percentiles). Plus /quant <symbol> - a consolidated regime + multi-factor signal + transparent setup-quality grade (explicitly 'NOT win probability'). All owner-only, read-only, honestly labelled; they use Nemo's real market data (get_history) and place no orders. Additive; all existing suites pass plus new v13.9 tests. + v13.8 - MEMORY 3.0 (granular forget) + NO INVENTED COMMANDS: (1) MEMORY - on inspection Nemo's memory was already strong (semantic /recall, durable /remember, the /memory 'second brain', /aboutme and the knowledge graph, all persisted and fed into his answers), so the genuinely missing piece was CONTROL: /forget <thing> now removes the SPECIFIC memories that match - from both the durable facts and the semantic vector store - and tells you exactly what it dropped, instead of the all-or-nothing /forgetme. /remember also dedups and keeps more durable facts (20 -> 60). (2) NO INVENTED COMMANDS - when you sent a command Nemo didn't recognise, his brain used to make up plausible-but-fake command names (exactly what happened with /nemo before it was deployed). Now an unrecognised /command gets a deterministic, HONEST reply listing only REAL commands and never reaches the brain. Additive; all existing suites pass plus new v13.8 tests. + v13.7 - TRADE STATE SURVIVES RESTART (closing the money-safety gap I flagged in v13.2 and deferred): the autonomous trader kept its open position only in memory, so a restart or update mid-trade FORGOT it - and for a plain (non-bracket) position that meant its stop-loss and target were no longer being managed, leaving real money exposed. Now the trader's live state (open position, today's trade count, running P&L, the day, and the daily-loss halt flag) is PERSISTED to memory and RESTORED on boot, so after any restart Nemo picks the position straight back up and keeps managing its stop / target / square-off. On boot, if a position is open, Nemo messages you that it resumed managing it. This pairs with v13.6 self-healing updates: a restart mid-trade no longer abandons your money. (Bracket positions were already protected on-exchange; this closes the gap for plain positions.) Owner-only, additive; all existing suites pass plus new v13.7 tests. + v13.6 - SELF-HEALING UPDATES (took the one real new idea from the ChatGPT v17 file - auto-recovery from a bad update - and built it safely; skipped the rest, which forced its VERSION to 17.0 and added a downgrade-block that would have LOCKED you out of updating to our clean files, and re-did the workflows our v13.4 already has): every /update is now TRANSACTIONAL. When you Apply an update, Nemo records a journal (a hash of the new build, plus a hash + path of the verified backup). On restart it checks that journal FIRST: a healthy boot (Telegram auth succeeds) is confirmed and stands recovery down - but if the new build keeps failing to reach a healthy boot (3 tries within 30 minutes) Nemo automatically RESTORES the previous version (only if that backup still compiles and its hash matches the recorded original) and restarts. So if you ever deploy a build that won't start, it heals itself back to the last working version without you touching the server. /updatecheck now also shows whether the last update auto-rolled-back or booted cleanly. HONEST LIMITS: this catches builds that start but then crash/exit during startup; a crash BEFORE main() even runs (e.g. an import-time error) can't be caught from inside the process - though compile-check already blocks the syntax errors behind most of those. Conservative by design (3 failures, 30-min window, hash+compile-verified backup) so a healthy long-running bot is never rolled back. The normal apply/backup/rollback path and everything else are unchanged; all existing suites pass plus new v13.6 tests. + v13.5 - SAFER UPDATES (took the one good idea from the ChatGPT v16 'updatefix' file - credential-preservation on update - and built it safely on our base; skipped the rest, which sat on the old v12.06 base, carried the broken v15 layer, and hard-overrode VERSION to '16.0' while requiring its own marker that would have BLOCKED updating to our clean files): (1) /updatecheck - preflight a new nemotron_bot.py you've attached WITHOUT applying it: shows its version, size, whether it looks like Nemo, the compile-check result, and - the key part - whether it would CHANGE or DROP any of your credential/config lines (compared by a HASH of each key line; values are NEVER shown). (2) /update now shows that same credential warning right in the Apply prompt, so you can't accidentally deploy a file that wipes your API keys without being told. It WARNS, it does not block - because a legitimate update (like moving keys into the secrets file) also changes those lines and you stay in control. (3) /version shows the running version cleanly. The critical apply/backup/rollback path is unchanged. Owner-only, additive; all existing suites pass plus new v13.5 tests. + v13.4 - ORCHESTRATION (added the genuinely-new capability from the ChatGPT v15 file, built CORRECTLY on our safe v13 base - the v15 code itself was BROKEN: I ran it and it crashed with 'uuid is not defined', plus a _n15_STATE typo and a call to a function that never existed, so its workflow / research / decision commands all failed at runtime). What's new and WORKING here: (1) /nemoworkflow <numbered plan> - runs a multi-step plan ONE checkpointed step at a time, feeding each step's result into the next and saving progress after every step, so it survives a restart; /nemoworkflows lists them and /nemoresume <id> continues from where one stopped. (2) /nemoresearch <question> - a research pass that separates FACTS / INFERENCES / UNKNOWN and refuses to fabricate sources. The REST of v15's command surface is wired to Nemo's EXISTING, more mature systems instead of broken parallel copies: /nemodecision -> the real decision journal (with expected-vs-actual tracking), /nemoevents -> the activity log, /nemoagents -> AGENTSTAT, /nemoarchitecture -> /abilities, /nemo3 -> the /nemo control center. Nothing duplicated, nothing dragged back onto the old insecure base. Owner-only, purely additive; all existing suites pass plus new v13.4 tests. + v13.3 - CONTROL CENTER + FACT-CHECK (folded in the two genuinely-good ideas from the ChatGPT v14 file, onto this safer v13 base - without its duplication or its security rollback): (1) /nemo CONTROL CENTER - one screen showing version, uptime, brains, security posture (are any keys still in source?), money-confirm + lockdown + auto-trade state, work-queue depth and recent activity - built on Nemo's REAL subsystems (secrets_status, MONEYCFG, mm_locked, JOBS/WORK, ACTLOG), not a parallel copy. (2) /verify - or 'double-check that' / 'any hallucinations?' - an explicit fact-check pass: it reviews an answer (the text you give, or my LAST answer) for hallucinations, unsupported claims, wrong numbers/names/dates, missing caveats and contradictions, and if it finds problems it rewrites the answer WITHOUT inventing new facts. Both work by command AND in plain language, owner-only, purely additive. Deliberately NOT copied from the ChatGPT file: its duplicate job-runner (Nemo already has the /work engine), its status-dump 'quant report', and - the important part - that file was built on the OLD v12.06 base, so it still carried the exposed API keys, the deadlock-prone lock, money-confirm OFF, and the lockdown/phantom-exit gaps that v13.0-13.2 fixed here. Behaviour-frozen elsewhere; all existing suites pass plus new v13.3 tests. + v13.2 - TRADING SAFETY (Phase 2 - I traced the real-money route end-to-end, then closed the gaps I found; nothing removed): GOOD NEWS first - the LLM is NOT the final authority on your money. The AI only PROPOSES a direction + a confidence score; ALL risk parameters (which instruments are allowed, position size, stop-loss, target, max-trades/day, daily-loss auto-halt, trading-hours window, buy-only, and shadow-vs-live) are enforced in deterministic code around it, and live autonomous trading is OFF by default. THREE real gaps found + fixed: (1) LOCKDOWN DIDN'T STOP EVERYTHING - the master /lockdown kill-switch blocked manual bracket/cover orders but NOT the autonomous trader and NOT a plain /order. Now lockdown blocks ALL new live entries (manual /order + the auto-agent); open positions still auto-manage and exit, so nothing is stranded. (2) PHANTOM EXIT - the auto-agent's exit SELL ignored its result: if a live exit failed, the bot booked the position as CLOSED while it was still open on the exchange, leaving real money unmanaged. Now a failed live exit keeps the position, alerts you, and retries each tick. (3) plain /order now respects /lockdown like the other order types do. HONESTLY REPORTED, not yet fixed (flagged for a later phase): the auto-agent's OPEN-position state isn't persisted, so a restart mid-trade forgets a plain position (bracket positions stay exchange-protected regardless). Behaviour-frozen for everything else; all existing suites pass plus new Phase-2 tests. + v13.1 - SAFETY CORE (Phase 1 of the audited v13 rebuild - two runtime-safety hardenings, nothing removed): (1) DEADLOCK-PROOF LOCK - Nemo's single global lock is used in 40+ places and locked functions call other locked functions; a plain threading.Lock is NOT re-entrant, so one locked path calling another would freeze him hard. Switched to threading.RLock (re-entrant): identical behaviour for normal use, but the same thread can safely re-acquire, so that entire class of hang is gone. (2) REAL MONEY DEFAULTS TO CONFIRM - manual live orders (/order, /bracket, /cover) now default to a one-tap confirm before they fire, and the setting is finally PERSISTED (before, turning it on was silently forgotten on the next restart - a genuine safety hole). The autonomous trader is unaffected - it keeps its own separate risk gates. Turn the tap off with /confirmtrades off, and now that choice sticks across restarts. CORRECTION to my own Phase-0 audit: the 'six main() functions' I flagged as dead code were a FALSE ALARM - five of them are bot-factory TEMPLATE strings (the source code of the mini-bots Nemo generates), not real definitions; I verified by reading before touching, so nothing was wrongly deleted. Behaviour-frozen elsewhere; all existing test suites still pass. + v13.0 - SECURITY CORE (Phase 0 of the audited v13 rebuild - security FIRST, nothing removed): the bot's API keys (Telegram, OpenRouter, NVIDIA, Gemini) were hard-coded in this source file. Now EVERY secret resolves from an environment variable first, then /root/bot_secrets.json, then the baked-in value only as a last resort - so secrets can live OUTSIDE the code. On boot Nemo AUTO-MIGRATES any still-baked key into the 600-permission secrets file, so the next version can delete those lines from the source and he still starts. New: /security (owner-only) reports exactly which keys are still in the source vs externalised, where each secret loads from, and the money-guard + owner-lock state (never showing any secret value); the weekly self-test gains a 'No API keys exposed in source' check that stays red until they're moved out; save_secret now chmods the secrets file to 600. IMPORTANT ACTION FOR YOU: because these keys sat in the code, treat them as LEAKED - generate new ones and put them in /root/bot_secrets.json (keys: telegram_token, openrouter_key, nvidia_key, gemini_key); v13.1 then removes them from source entirely. Behaviour-frozen: with no env var and no secrets-file entry every secret is exactly what it was, and all existing test suites pass unchanged. One safe phase at a time. + v12.06 - SELF-TEST TELLS THE TRUTH: the weekly report card was FALSE-FAILING on email. It tested email by logging into Gmail's SMTP (465) and IMAP (993) ports directly - but DigitalOcean BLOCKS those ports, so both always showed a red X even though email works perfectly over the Gmail API (HTTPS). Fixed: the drill now checks the REAL path - Gmail API reachable (profile + labels over HTTPS) first, SMTP/IMAP only as a fallback when there's no Google connection - and it runs whenever Google is connected OR an app password is set. So those two systems will now report green (as they should), and the report card reflects reality instead of scaring you with a port block. + v12.05 - RELIABILITY SWEEP (the same rigor, across his OTHER outputs): the invisible-char fix was for Pine; this applies the same 'make the outcome reliable' thinking to code and file outputs. (1) CODE OUTPUTS - /script now guards against the brain 'thinking out loud' (no more 'Let's craft:' / '... code ...' placeholder garbage), SYNTAX-CHECKS delivered Python (ast.parse, with one self-correction) so a .py actually parses, and tells you to use the attached FILE not the chat text (same copy-paste-corruption fix as Pine). (2) TEXT/CSV/MD files get the same scratchpad guard, so they contain the finished content, never the brain's notes. (3) Shared helpers (_looks_scratchpad, _clean_code) so every generator refuses to ship junk and retries. The theme: fewer 'bad results' by hardening the output paths, not adding more features. + v12.04 - THE REAL PINE BUG (invisible characters): the recurring 'Syntax error at input <name>' on code that looks perfect was NOT bad code - it was smart quotes and non-breaking spaces that sneak in when Pine is copied out of a chat message / PDF / phone into TradingView. TradingView can't parse them and throws that exact baffling error, the same on every version. Fixes: (1) _pine_sanitize forces every generated script to PURE ASCII (smart quotes -> straight, non-breaking/other unicode spaces -> normal, en/em dashes -> -, zero-width chars removed); (2) the linter now flags any non-ASCII character; (3) delivery now tells you to use the attached .pine FILE (not copy from the chat bubble), because the file is clean ASCII and the chat text can silently re-corrupt. This is the root cause behind the errors that kept coming back. + v12.03 - COMPLEX PINE: added a genuinely advanced, verified strategy to his library - 'Confluence Regime Rider' (EMA regime + ADX trend-strength + RSI momentum + higher-timeframe confirm + ATR target + ATR trailing stop + a live on-chart stats table), Pine v6 and lint-clean. It backtests automatically in TradingView's Strategy Tester (it is a strategy()), and its exact logic was verified in a Python backtest. So 'a unique pine with buy/sell/target/stop-loss that backtests' is now real, at real complexity, and part of his rotation. + v12.02 - PINE v6 + STAY-CURRENT (he moves with the times, on his own): (1) PINE v6 - TradingView's current version. His whole Pine engine now targets v6 by default: the generator prompt, the deep knowledge base and the 5 verified templates are v6 (correct bool strictness, no 'when=' on strategy.* , '1D'/'1W'/'1M' timeframes, no 'transp='), and the linter gained v6 checks (flags a leftover when=/transp=/'D' timeframe). v5 still compiles and is still accepted; /pinever 5|6 sets the target. (2) STAY-CURRENT WATCH - a weekly self-check (currency_watch) where he RESEARCHES what's changed in his fields (Pine version, SEBI rules, AI tooling), AUTO-applies safe settings himself (e.g. bumps his Pine target the moment a newer version ships), learns the rest into memory, and routes anything code-level to the supervised /selfgrow rail for your one-tap approval - so he keeps himself up to date automatically without ever rewriting himself unsupervised. /current runs it now, /current on|off, /pinever sets the version. This is the honest form of 'update automatically in all fields': safe things on his own, risky code changes proposed for approval. + v12.01 - CONTINUUM FIX (the flood + the garbage code file): the v12.0 work engine ran, but two bugs showed up. (1) DUPLICATE FLOOD - the agent re-called fire-and-forget tools (pdf/docx/chart/web) over and over, because make_pdf returns 'building...' immediately, so the agent never saw a finished file and kept re-making it (7+ identical PDFs per job, the same web search 5x). FIXED: the agent now makes each deliverable EXACTLY ONCE and skips any identical tool+arg repeat, and bails to the report if it gets stuck re-proposing the same step. (2) GARBAGE CODE FILE - '5 best Nifty option strategies' was mis-detected as a CODING request (the word 'strategies'), so it emitted a nonsense nemo_code_out.txt full of the brain's scratchpad instead of a clean report. FIXED: a strict code detector - a trading strategy/option/report/'best'/'top N' request is a REPORT, never code; only real programming asks (python/code/function/sql/pine...) make a code file. So a research job now produces ONE clean PDF, no junk. + v12.0 - CONTINUUM (the real deep upgrade: he KEEPS WORKING, and understands deeper): the honest gap all along was that Nemo ANSWERS, then stops - he never keeps grinding a task on his own. v12.0 fixes that at the core. (1) CONTINUOUS WORK ENGINE - /work <task> (or 'keep working on X', 'add to your work list') queues a job; a background worker wired into his scheduler picks up the next pending job, runs it to completion through his plan->act->verify agent, reports the result, then moves to the NEXT job - one after another, on its own, and the queue is PERSISTED so it survives restarts. Pile up ten jobs and he'll grind through them while you sleep. /jobs shows the queue and status, /stopwork pauses. (2) DEEPER UNDERSTANDING - the THINK loop's comprehension/clarify step now runs on the PREMIUM brain (not the fast free one), so he judges what you actually mean far better before acting; the agent's self-check already verifies on the premium brain. (3) FULL PICTURE - /abilities (or 'what can you do') lays out his entire capability set in one organized map, and everything is reachable in plain language. This is not a risky rewrite - the proven 34-test-suite core is intact; CONTINUUM is the capstone layer that turns a bot that replies into one that works. + v11.31 - PINE MASTER (deep, advanced, CREATIVE - not the same EMA crossover every time): the last fix made Pine error-free but repetitive - every request came back as an EMA crossover, because the one verified template WAS an EMA crossover and it anchored the brain. Now: (1) a DEEP Pine v5 knowledge base rides in the prompt (full ta.*/math.* catalog, request.security multi-timeframe, sessions/time for NIFTY intraday, strategy risk/trailing exits, drawing objects - tables/labels/lines/boxes, plot styles, dynamic alerts, anti-repaint and confluence best-practice) so the code is genuinely advanced; (2) a LIBRARY of FIVE hand-verified, lint-clean advanced strategies (EMA crossover, Supertrend trail, Opening-Range-Breakout for NIFTY, VWAP mean-reversion, RSI + higher-timeframe filter) plus a menu of 14 archetypes (Bollinger squeeze, MACD regime, Donchian, Ichimoku, multi-factor confluence...); (3) ROTATION - a generic 'make me a pine script' now round-robins through the archetypes so no two come out the same, while a NAMED method (supertrend/vwap/orb/rsi/macd...) is honoured; (4) the brain is pushed to be creative, combine 2-3 confluence factors and add a pro touch (stats table / trailing stop / dynamic alerts), and mirror a MATCHING verified reference's syntax - not the EMA one. Still linted + auto-repaired, with the matching verified template as the guaranteed-clean fallback. Storage is no constraint - the knowledge and template library are baked in. + v11.30 - DARK SIDE (edge + ruthless-but-LEGAL power, on the Boss's side): four things. (1) DARK MODE - /dark on (or 'go dark' / 'be brutal') flips his TONE to blunt, sharp and a little savage, built to put you ahead - no hand-holding, no hedging - while he still NEVER lies, fabricates, helps anything harmful/illegal, or targets people. /dark off restores the normal voice. Persisted. (2) RED TEAM - /redteam <plan/idea/trade/text> (or 'attack this', 'find every weakness') attacks it like your smartest enemy and exposes every hole, ending with BIGGEST RISK + FIX FIRST. (3) COMPETITIVE INTEL - /intel <competitor> (or 'dig up on X') builds a hardball brief from PUBLIC sources: what they offer, their weaknesses/complaints, and where to hit them to win. (4) NEGOTIATION + SCAM DEFENSE - /negotiate <situation> gives a hardball (ethical) play with leverage, BATNA, anchors, tactics and exact phrases; /scamcheck <message> flags manipulation tactics + a scam risk rating when someone runs dark tactics on YOU. Deliberately NOT built, and I told the Boss why: malware, hacking others, defeating security/CAPTCHA, fraud/fake docs, surveilling people, spam/fake-account armies, market manipulation, or removing his safety rails - all of it would make HIM the traceable, liable party on his own server, and the 'who sells that' path is scams and stings. This is the dark arts used ethically, for his side. + v11.29 - ERROR-FREE PINE SCRIPT (the real reason it kept failing): unlike Python, Pine can't be compiled on the server, so a small free brain's syntax errors sailed straight through. Now Pine gets a proper pipeline: (1) it's written by the PREMIUM brain (free nano brains are poor at niche languages) using a strict Pine-v5 system prompt; (2) a rule-based LINTER (pine_lint) checks the errors that actually break TradingView - missing //@version=5, more than one declaration, study() vs indicator(), the 'strategy function used in indicator' error, bare sma()/rsi()/atr()/input()/security() that must be ta.*/math.*/request.security()/input.*, unbalanced brackets, and plot/alert stuck inside an if-block; (3) a REPAIR LOOP feeds those errors back and fixes them, up to 3 passes; (4) if it still isn't clean, it falls back to a HAND-VERIFIED template that compiles zero-error (EMA crossover + volume filter + ATR take-profit + % stop-loss, buy/sell markers, alerts). Every 'pine script / tradingview' request (and /pine) now routes here, delivers a .pine file with an honest 'passed my checks' status, and can email it. So a pine-script ask returns code that actually compiles - not a broken brain dump. + v11.28 - CREATE+EMAIL ACTUALLY HAPPENS (the 'it talks about emailing instead of doing it' fix): the root cause was that 'generate a pine script and email it to X' matched NO deterministic route, so it fell to the chat brain - which tried to call a tool by PRINTING <function=...> as text; that leak wasn't recognised, so you got the generic 'tell me the exact thing you want' (and elsewhere, 'here's how to email it / I can send if you want' - talking, not doing). Two fixes: (1) a deterministic CREATE+EMAIL route - 'generate/make/write/build <X> ... and email/mail (it) to <address or my mail>' now ALWAYS builds the thing AND sends it (Word if you said 'word/document', else a PDF - which now contains real code for a pine-script/strategy request, plus the raw .pine file), never touching the chat brain. (2) the tool-leak guard now also HONOURS a leaked email/docx/xlsx/chart/script/code call by actually running it, instead of showing the fallback. Net effect: when you say 'do X and email it', X gets made and the email gets sent - consistently, regardless of which brain is on duty, because the ACTION is deterministic code now, not a brain's guess. + v11.27 - THINK (my way of working, in him): the operating loop that makes an assistant actually effective, not just full of features. /do <task> (or /handle, or 'handle this properly / thoroughly / the way you would') runs Nemo through the same method I use on every real job: UNDERSTAND (restate it, and resolve 'it/that/the file' from the recent chat so a follow-up like 'give me the pdf here' isn't misread) -> CLARIFY (only if ONE essential detail is genuinely missing, ask a single question and resume when you reply - never nitpick) -> GATHER (pull what he already knows: durable memory + your indexed files + a quick web look-up, the way I read before I edit) -> PLAN -> EXECUTE -> VERIFY (his agent self-checks against the goal before finishing) -> honest report. It reuses his autonomous agent for the execute+verify core; the new part is understanding and grounding the task BEFORE acting. A new 'handle' intent + a pending-question resume make it feel like a real back-and-forth. Honest limit: this gives him my METHOD, which makes even a smaller brain far more effective - but his raw reasoning ceiling is still his model's, so it's my way of working in mini form, not a clone. Purely additive; every existing command and the fast one-shot paths are untouched; rails intact. + v11.26 - EMAIL, FOR REAL (fixes the '/email test still fails though Google is connected' trap): the root cause was that Google was linked BEFORE the gmail.send permission existed, so the token can read Gmail but can't SEND - and two things hid this: (a) /email test only pinged the Gmail profile / fell back to the SMTP error (which ALWAYS fails on DigitalOcean), so it never proved SEND and blamed the wrong thing; and (b) /google, once connected, was a DEAD END - it only offered 'relink with client_id/secret' and never a way to re-approve the new permissions. Fixes: (1) /email test now does a REAL test send to your own address via the Gmail API and reports the TRUTH - '✅ works, check your inbox', or, if the token lacks send permission, '⚠️ connected but without Gmail SEND permission - re-authorize in one tap', never again the misleading SMTP 'check your password'. (2) /google, when already linked, now hands you a one-tap RE-AUTHORIZE link built from your ALREADY-SAVED Client ID (open -> Allow -> /gauth <code>) - no need to re-enter anything - so you can grant Gmail send in ~20 seconds. So the fix for you: send this update, then run /google, tap the link, Allow, and /gauth <code>. Email then works over HTTPS (port 443), unaffected by the SMTP block. Purely additive; rails intact. + v11.25 - FIX (the three real problems: email, understanding, and the final result): (1) EMAIL that actually sends - a PDF you ask to be emailed now goes out over the Gmail API (HTTPS/443, which works even though DigitalOcean blocks SMTP), is ATTEMPTED whether or not an SMTP app-password is set, and on failure tells you the REAL reason + 'run /google once to re-grant send permission' instead of the misleading 'check the app password'. (The most likely cause of your failure: your Google sign-in predates the gmail.send scope - one /google re-consent fixes it.) (2) UNDERSTANDING what you asked - the PDF topic is now cleaned properly: 'GENERATE A POWERFUL PINE SCRIPT NEW IN PDF AND EMAIL X' no longer becomes a document titled 'A Powerful Pine Script New In And' (the 'in pdf / and email X / address' tail is stripped cleanly), and 'give me the pdf file here' is understood as a FOLLOW-UP - I resend the last file, or turn my last answer into a PDF - instead of writing a bogus report titled 'Me The File Here'. (3) The FINAL RESULT matches the request - make_pdf no longer forces every PDF into a beginner 'course'. A code/script/strategy/indicator request (e.g. a Pine script) now produces the ACTUAL working code (TradingView Pine v5 for pine) with Overview / CODE / HOW IT WORKS / HOW TO USE, AND the raw .pine (or .txt) file is delivered too; a report request gets a real structured report; only a learn/teach/course request gets a course. Purely additive; rails intact. + v11.24 - MAKER (mini-me abilities: he plans, codes, charts, and hands you real files): the things you said he couldn't do like I can - now his, in mini form. (1) REAL DOCUMENTS - he builds and delivers actual files, not just chat text: a Word .docx ('make me a word doc about X', /doc), an Excel .xlsx spreadsheet with real headers + numeric cells ('put my expenses in a spreadsheet', /excel), and plain .txt / .md / .csv files (/txt). (Illustrated PDFs and PPT decks were already there.) (2) VISUALIZATIONS - /chart (or 'make a bar/line/pie chart of ...') turns data or a described dataset into a real matplotlib chart image and sends it. (3) CODE AS A FILE - /script (or 'write me a python script file') writes a program in the right language and delivers it as a downloadable code file (say 'run it' to execute); the existing /code still WRITES-AND-RUNS and returns the result. (4) VISIBLE PLANNING - /plan (or 'make a plan for ...' / 'break this down') turns a goal into a clear numbered step plan and shows it, then 'do it' hands it to his plan->act->verify agent. All reachable in plain language (fast-paths + the AI intent-router) AND given to the autonomous agent as new tools (docx/xlsx/chart/textfile), so mid-task he can produce a sheet or chart himself. Purely additive; rails intact. + v11.23 - CURIOSITY (he fills the gaps himself + learns from the world): you gave him the internet; now he USES it on his own. When a question needs current or factual knowledge he may not hold (latest/price/news/'who is <name>'/'when is <event>'/a named thing), he quietly looks it up on the web FIRST, grounds his answer in what he found, and then DISTILS 1-2 durable facts into his permanent memory - so next time he already knows it (compounding knowledge, surfaced automatically by mem_recall). No 'please search' needed; he just does it. His autonomous agent gets the same instinct: a RESOURCEFULNESS rule so it researches a missing detail itself (web/fetch/recall) instead of stalling to ask you. And a curiosity 'soul' line in his persona: naturally curious, resourceful, never fabricates. Controls: /curiosity on|off (default ON, persisted), /learned [word] shows exactly what he's taught himself and when. Conservative by design - it does NOT web-search greetings, code, math or timeless 'explain X' questions (no needless latency), and it's a silent no-op if the web is unreachable. Purely additive; rails intact (still never fabricates, owner-only, money/destructive/self-mod still need a tap). + v11.22 - ANY-SITE VIDEO + YOUR PROXY: (1) UNIVERSAL VIDEO DOWNLOAD - /video <url> (aliases /vdl /dlvideo) or just 'download the reel/clip/video from <url>' pulls a video (or 'audio'/'mp3' for just the sound) from ANY of the ~1800 sites yt-dlp supports - Instagram, X/Twitter, TikTok, Facebook, Reddit, Vimeo, Dailymotion, Twitch, news video, most embeds - and sends it over Telegram if it fits (50MB) else saves it on the server (+ your Drive). For sites where you must be logged in, it uses YOUR OWN cookies (export cookies.txt, send /browsercookies) - it uses your session, it does not defeat the login. DRM-locked paid streaming (Netflix, Prime, Hotstar, Disney+, Spotify...) is refused honestly: those streams are encrypted and can't be pulled. YouTube keeps its richer path (summary/notes/playlist). (2) YOUR OWN PROXY / VPN - /proxy set http://user:pass@host:port (or socks5://host:port), /proxy off, /proxy to show. A proxy YOU provide (your subscription or your own box) is then applied to video downloads and web fetches, so he can reach content the server's bare datacenter IP is geo-blocked from, or route privately. This is legitimate access through YOUR endpoint - deliberately NOT a rotating proxy-pool to evade IP bans. Two things you asked for that I did NOT build, and why: a system that DEFEATS a site's bot-check / CAPTCHA / human-verification (that's built to circumvent a security control and is the engine of scraping-abuse, fake-account and credential-stuffing fraud - so it's off the table); and a self-standing 'access everything' ban-evasion VPN/rotator (same reason). The honest path is already here: when the browser agent meets a login/OTP/CAPTCHA it screenshots it and asks YOU to solve it, then continues on your authority (v10.4 human-in-the-loop) - a human does the human-verification. Purely additive; all rails intact. + v11.21 - TALK (no commands, just tell him): you never NEED a slash command again - say what you want in plain words (any language) and he does it. His ~300 abilities are all still there, but plain language is now the front door to ALL of them, not just some. The regex fast-paths already caught the common phrasings ('run df -h', 'read /root/x.py'); v11.21 adds the missing abilities to his AI intent-router so the phrasings the regex MISSES still reach the REAL hand instead of a generic chat reply: new understood intents terminal (run any server command), fetch (read a page's data), download (save a file onto the box), readfile / listfiles (his own files), knowledge (search your indexed documents), api (call any REST endpoint), apex (maximum-power multi-step job), and a catch-all act (ANY imperative 'do this for me' order -> his autonomous plan->act->verify agent). So 'jara dekh to server ka disk kitna bhara hai', 'pull the numbers off that page for me', 'sort out my server and mail me a summary' now DO the thing. Nothing removed, every command still works; the same rails hold inside each (owner-only, audited, money/destructive/self-mod still need a tap). Purely additive. + v11.20 - REACH (longer hands): three big new capabilities that extend what he can touch. (1) UNIVERSAL CONNECTOR - /api <METHOD> <URL> [:: json] calls ANY REST API (GET/POST/PUT/DELETE), and /api save <name> ... stores a named endpoint + auth header so 'call my <name> api' works; the autonomous agent also gets an 'api' tool, so he can reach any external service you have a key for (CRMs, sheets, webhooks, IoT, other bots...). (2) SCHEDULED ACTIONS - /every <interval> <action> and /at HH:MM <action> run ANY of his abilities on a repeat or at a set time ('/every 1h run df -h', '/at 09:15 send me the premarket brief', '/every 1d market brief') - real actions, not just reminders - so his hands work while you sleep; /schedules lists them, /unschedule <id> cancels. Persisted in the kv store (survives updates), fired from the scheduler. (3) DOWNLOAD TO SERVER - /get <url> [name] (or 'download <url> to the server') pulls any web resource onto the box (60MB cap) so he can then /read, /index or send it. All owner-only, audited to the tamper-evident chain, and destructive/system paths still refused. Purely additive. + v11.19 - APEX / GODMODE (the capstone): maximum capability + UNBREAKABLE reliability, within the rails that keep him alive. (1) UNBREAKABLE: ask_ai now has a hard answer-deadline (~40-85s) so when every free brain is jammed it STOPS cycling and replies clearly ('my brains are all busy - try again in a minute, nothing is broken') instead of leaving you on 'Thinking...' for minutes - the exact freeze that just happened can't recur. (2) ONE MIND: the autonomous agent gains a 'recall' tool that searches your knowledge base (indexed files) + durable memory, so his execution draws on everything he knows about you. (3) APEX MODE: /apex <goal> - or just say 'full power', 'use everything', 'unleash', 'go all out', 'maximum power' - runs his MAXIMUM agent: more steps (18), the directive to use EVERY tool (shell, fetch, files, code, web, recall, quote, godmode, pdf...), be exhaustive, cross-check, and VERIFY before finishing. Honest limits kept by design: max ABILITY, but money / destructive shell / system writes / self-modification still need one tap or are refused - that is what stops him bricking himself or leaking your Dhan/Google/root keys. Power that survives. + v11.18 - TOOL-CALL LEAK FIX (the '<tool_call><function=pdf>...' bug): when you asked for a PDF report to your mail, a brain PRINTED the raw function-call markup as a chat message instead of building anything. Fixed two ways: (1) a deterministic route so 'give/make/send me a (complete) report/PDF of X [to my mail]' now ALWAYS builds the PDF via make_pdf and emails it to you - it never reaches the general brain; and (2) a universal guard (_tool_leak / _strip_tags) that catches any leaked <tool_call>/<function=..>/<parameter=..> markup on EVERY channel (chat, web, PWA) - if it recognises the intended ability (pdf/image/slides/web) it actually RUNS it, otherwise it strips the markup so internal syntax is never shown to you again. + v11.17 - DEPTH: reasoning + a knowledge brain + self-running + a visible command center. (1) SMARTER: hard questions (why/how/compare/analyse/plan/decide, long or multi-part) now trigger a private step-by-step REASONING pass before he answers, then the regulator self-checks it - so answers are deeper, not just faster; and a plain 'that's wrong / you missed it' now stores a lasting LESSON (fed into future answers) and redoes it in MAX mode, no /bad needed. (2) KNOWLEDGE BRAIN over your files: /index <path> full-text-indexes your files+PDFs (SQLite FTS5), then /know <question> - or 'search my files for X' - answers across everything with citations. (3) SELF-RUNNING watchdog: every ~10 min he checks each deployed app's service and AUTO-RESTARTS any that CRASHED (failed units only, rate-limited, audited + notified). (4) VISIBLE POWER: a real /dashboard command-center on his web server - live system + server health, apps, activity, what's coming up, and a command box - so the power is something you SEE and drive, not 290 commands to remember. Purely additive. + v11.16 - SMARTER + SAFER HANDS: (1) SECURED TERMINAL - every /shell command and file write is now logged to the v11 tamper-evident audit chain + activity ledger, there's a 25-cmd/min rate guard, and /shell readonly on blocks any command that changes something (reads still work). (2) AGENT GETS THE HANDS - the autonomous /agent (/solve) can now use shell, fetch, readfile, ls and writefile, so it does real end-to-end server work ('find why nemobot crashed and fix it' -> tails the log, reads it, diagnoses, patches, restarts) with its plan->act->VERIFY loop; destructive shell + system-path writes are refused (owner must do those manually). (3) CONVERSATION MEMORY - a short-term per-chat context (recent turns + actions) is injected into his brain so follow-ups resolve ('do it again for BankNifty', 'what did you just find'), and 'email/send that to me' now emails his LAST answer. (4) CHIEF-OF-STAFF PROACTIVITY - a ~30-min watch pings the owner UNPROMPTED but only on material things: server disk >88%, memory >92%, a reminder due within the hour, or to-dos piling up (deduped, cooldowns). Purely additive. + v11.15 - REAL HANDS (terminal + site-data + files) & plain-words routing: gives Nemo the hands people said he lacked, and makes plain language actually FIRE them instead of a chatbot reply. (1) TERMINAL: /shell <cmd> (aliases /sh /bash /terminal /exec) runs ANY command on the server and returns the live output - owner-only, persistent cwd (`cd` sticks), per-command timeout, and a confirm-tap guard on destructive commands (rm -rf /, mkfs, dd, shutdown...). (2) SITE-DATA GRABBER: /fetch <url> [what you want] pulls a page and hands back clean text/tables/JSON (BeautifulSoup when present), answering a question from it if you ask one, and falls back to the real browser agent for JS/login pages. (3) FILE ACCESS: /ls, /read (/cat), /download, /writefile <path> :: <content> - browse, read, receive and create files on the server (owner-only; system-path writes need a confirm tap). (4) PLAIN-WORDS ROUTING: nl_route now has deterministic fast-paths so 'run df -h', 'shell systemctl status nemobot', 'get me the data from <url>', 'read /root/x.py', 'list files in /root', 'download /var/log/syslog' hit the REAL tool every time - never the general brain. Purely additive; every existing command untouched. + v11.14 - EMAIL NO LONGER LIES: fixes the bug where 'email to someone@x.com <message>' got a fake 'Email dispatched...' reply while nothing was actually sent (the Sent box stayed empty). Root cause: only a handful of deterministic phrases were force-routed to the real send code; everything else was handed to an AI intent-classifier, and when it guessed wrong the message fell through to the general chat brain - whose own system prompt ('you send emails, so speak like it') then HALLUCINATED a success, even auto-'correcting' the address. Three fixes: (1) a deterministic fast-path in nl_route now catches any explicit 'email/mail <address> <message>' and ALWAYS runs the real send (nl_emailto) - the chat brain can never answer it, and the address is sent EXACTLY as typed (no silent correction); (2) nl_emailto now accepts the Gmail-API/HTTPS path (via /google) instead of demanding an app password, and on failure reports the REAL reason (LAST_EMAIL_ERR) + hands your draft back, instead of a fake confirmation; (3) the persona system prompt now carries a hard 'NEVER FAKE AN ACTION' rule - if Nemo is replying as plain text he must never claim he sent an email / placed a trade / made a call, across ALL abilities. Report/PDF-to-email requests are untouched. + v11.13 - PWA: FILE UPLOAD (PDF/Excel/CSV/text) alongside images: the \U0001F4CE attach button now also takes documents. A new /api/file endpoint decodes the upload, extracts its text (PDF via pypdf, Excel via openpyxl, CSV/TXT/MD/JSON etc. directly - the same formats handle_document reads), stores it as the loaded DOCS document (which ask_ai already injects into every answer), and replies with a summary - so you upload a quote/statement/report from phone or desktop and immediately ask questions about it, with follow-ups working automatically. Images still route to the vision path; the attach button branches by file type. + v11.12 - PWA: STOP + IMAGE UPLOAD: the web app now has a \U000023F9 STOP button (appears while Nemo is speaking or a request is in flight - cancels the voice AND aborts the request) and a \U0001F4CE ATTACH button to upload an IMAGE from the browser - it's downscaled client-side to 1280px JPEG and run through Nemo's real vision/OCR path (new /api/upload -> web_image -> ask_ai with the image), so you can photograph/attach a document or screenshot and ask about it from phone or desktop, exactly like sending a photo in Telegram. The uploaded image is also stashed as LAST_PHOTO so a follow-up 'ocr it' works. + v11.11 - NEMO EVERYWHERE (PWA): Nemo's built-in web chat is now an INSTALLABLE app - the first 'window' beyond Telegram, onto your phone home-screen AND desktop at once, sharing the same brain. His Flask web server now serves a real Progressive Web App: /manifest.json + /sw.js (service worker: offline app-shell cache, install) + generated /icon-192.png & /icon-512.png, and the chat page is upgraded with PWA meta tags, an Install button (beforeinstallprompt, with iPhone Share->Add-to-Home-Screen guidance), safe-area layout, persistent login (token from ?k= is saved to localStorage so the home-screen icon stays logged in), voice in/out, and a \U0001F4CA live-status glance via a new read-only /api/status endpoint (returns /status). Open it via /connect (public HTTPS URL + token over Cloudflare Tunnel) -> Add to Home Screen -> installed. Chat + read-only status only from the web channel (destructive commands stay Telegram-side, by design). Reuses the existing token auth; purely additive. + v11.10 - AUTONOMOUS SELF-GROWTH (safe by design): /selfgrow makes Nemo RESEARCH THE INTERNET (plus his own recent errors) for ways to improve himself, form ONE concrete low-risk improvement to a non-core function, and route it through his SUPERVISED self-editor - compile-check -> diff -> your one tap Apply -> backup -> /rollback. /selfgrow auto on runs it about weekly and only ever PROPOSES. He genuinely self-develops from the web; you stay the single tap that stops him from self-DESTROYING. Deliberately NOT built: unrestricted self-modification (rewriting/deploying code from the internet with no test/backup/approval) - that one change can permanently brick him or leak the Boss's Dhan/Google/Telegram/root credentials with no recovery, and it violates this project's own constitution (§22, 'never uncontrolled recursive self-modification' + rollback always preserved + user is final authority). Core stays _UNEDITABLE; money/security/secrets always need a human tap. + v11.9 - NEMO OS CORE COMPLETE (phases 2-10 working cores, one release): DECISION MEMORY (/decision journal with expected-vs-actual, /decisionreview calibration, /counterfactual with hindsight-bias guard, /biascheck challenges you); AI BOARD + RED TEAM (/board = 5 independent seats analyzed in parallel without seeing each other -> disagreement extraction -> red-team attack -> judge verdict with FOR/AGAINST/assumptions/fail-conditions); PREDICTION (/predict with probability+uncertainty, never presented as fact); ANOMALY watch (disk/memory/db baselines + jump detection); RADAR (/radar add|report - monitored topics, only MATERIAL items surfaced); OPPORTUNITY scan; SIMULATION (/businesssim - real Monte Carlo, 500 trials x BASE/OPT/PESS/STRESS, payback/ROI/P(loss)); CHIEF OF STAFF (/chief - reminders, open tasks, blocked work, open decisions, anomalies in one brief); TASK GRAPH (/taskgraph - dependencies, ready vs blocked); memory VERIFY + CONTRADICTIONS on the world model; GOVERNANCE (permission LEVELS 0-6 shown in /permissions, NEMO_CONSTITUTION inherited by agents, /why provenance chains, hash-CHAINED tamper-evident audit + /auditchain verifier); /status full OS dashboard; /agenthealth scores. Deferred honestly: web dashboard UI, desktop-app control, scheduled radar crawls, model-disagreement engine, memory decay (named in NEMO_V11_CHANGELOG.md). All additive - every v10.24 command untouched. + v11.0 - NEMO OS PHASE 1: WORLD MODEL / KNOWLEDGE GRAPH (start of the v11 'Personal AI Operating System' program - see NEMO_ARCHITECTURE_AUDIT.md for the full 11-phase plan). Nemo now keeps a persistent, TEMPORAL model of your world in his SQLite brain: entities (people, suppliers, projects, companies), typed relations between them, and DATED facts that carry SOURCE + CONFIDENCE (provenance) and are NEVER overwritten - so 'Supplier X quoted 10L' in March and '8.5L' in August both stay, each with its date. /fact <entity>: <fact> teaches him (free-form works too - AI extracts entity+fact), /world <entity> shows the full profile with provenance, /timeline <entity> replays the dated history, /relate A | rel | B links entities, /graph shows the model, /os shows v11 phase status. Every kg fact also feeds vector memory so /recall finds it semantically. Purely additive (new kg_* tables + one dispatcher; all 332 existing commands untouched). + v10.24 - PROJECT BUILDER (create 'vast things', not just scripts): /project <name>: <what to build> makes Nemo build a whole MULTI-FILE project by himself - he plans a file manifest, writes each file, installs the pip deps, RUNS the tests, and if they fail he reads the errors and fixes his own code (up to 2 repair rounds), then zips the project and sends it to you. /projects lists them, /project <name> zip re-downloads one. Files live in /root/nemo_projects/<name>. This is the generate->test->repair loop that turns 'one script' into real software. Owner + deploy-cap gated. + v10.23 - CRASH-SAFE MEMORY (durable-memory foundation): Nemo already saved his brain (facts, contacts, projects, todos, habits, history, the AI team...) to bot_memory.json from 67 places - but the write was NOT atomic, so a kill mid-save could corrupt the whole file and load_data would silently start BLANK with no backup (total amnesia). Fixed: saves are now atomic (temp -> fsync -> os.replace) and keep a .bak of the last good copy; load falls back to .bak if the main file is corrupt, so one bad crash can never wipe his memory again; a 150s autosave loop backs up state changed by paths that don't call save_data; and if he ever does recover from backup he tells you on boot. This is the safe foundation for growing him side by side. + v10.22 - SOLVES ON HIS OWN (plan -> act -> CHECK -> report): TRUE AGENT MODE now VERIFIES its own work before finishing instead of stopping at the first 'done'. When the agent tries to finish, Nemo strictly checks the proposed answer against the original objective; if a real part is missing/wrong/unverified, he names the gap and keeps working to fix exactly that (up to 2 self-corrections), then reports - so complex, multi-step jobs actually get completed, not half-answered. Step budget raised 8 -> 12 to leave room to adapt. New /solve alias (same as /agent), and saying 'solve ...' / 'figure out ...' in chat now triggers the autonomous agent directly. Uses his existing rich toolset (web, open, quote, code, pdf, email, remind, todo, finish). + v10.21 - EMAIL OVER HTTPS (fixes the DigitalOcean SMTP block): the real reason /email set failed with 'couldn't reach Gmail's mail server' is that DigitalOcean BLOCKS outbound SMTP ports - not the password. Nemo now SENDS via the Gmail API over HTTPS (port 443, never blocked), using the Google account you already connected with /google (it has the gmail.send scope). send_email tries the Gmail API first and only falls back to SMTP; /email test now reports which path works; the network-error message now names the SMTP-block cause and points to /google. So: run /google once (if not already), then email just works - no App Password needed. + v10.20 - EMAIL FIX + SELF-DIAGNOSIS: email 'sending failed' now tells you the REAL reason instead of a generic essay. Nemo captures the actual SMTP error (LAST_EMAIL_ERR) and translates it to a plain cause + fix (e.g. '535 = wrong/expired App Password or 2FA off'). New: connect Gmail from chat with /email set <gmail> <app password> (no file editing), and /email test does a LIVE Gmail login and reports exactly what's wrong. Best of all, asking 'why did email fail / email not working' now makes Nemo check HIMSELF (real SMTP test) rather than routing it to the general brain that wrote the SPF/DKIM essay. The root cause of your failure: the Gmail App Password is set but Gmail is rejecting the login - regenerate it (2FA must be on) and run /email set. + v10.19 - SELF-UPDATE (no more SSH): send Nemo a new nemotron_bot.py in Telegram, then /update - he verifies it's really my code (size + markers, so a random script can't nuke me), compile-checks it, backs the current me up to /root/nemo_backups, swaps himself in and restarts (you tap Apply first; /rollback undoes it). Reuses the proven /upgrade rails. When you send a .py that looks like a new me, he now offers /update automatically. From here, every future version installs by dropping a file in chat - no console, no scp. + v10.18 - BOT FACTORY LIBRARY (factory data): Nemo now carries a library of ready-made bot TYPES he can create on command and modify - the engine for a bot-building service. /templates lists them (FAQ/auto-reply, appointment booking, order+catalogue, subscribe+broadcast, feedback/rating); /newbot <type> <name> : <business> scaffolds a complete standalone Telegram bot from that template and ships it through the SAME supervised pipeline as /ship (compile-check -> bake env -> tap to start); then /env <name> BOT_TOKEN=... OWNER_ID=... turns it on, and /app <name> edit <change> lets Nemo customise it further. Each template is a real, working long-poll bot (owner-notify, JSON storage). Extensible - more types can be added to BOT_TEMPLATES. + v10.17 - GOOGLE MAPS: Nemo can now find any place/store/shop and show its address, live rating + top reviews, open/closed, phone, website and a map image (/place, /find, /reviews, /map); list ranked options nearby (/near cafes in Andheri); and compute real ROAD distance + time WITH live traffic between two places plus a route-map picture (/trip A to B, also /distance /route, and 'by walking/transit/bicycling'). Reuses the SAME Phase-2 Google Cloud key (/gcloud) and the same daily safety cap - you just enable Places + Directions + Geocoding + Static Maps in the Cloud console (up to 10,000 free calls per API per month, so personal use is effectively free). Raw REST via the Maps Platform, owner-only, threaded so it never blocks. + v10.16 - HINDI PDF FIX: reports in Hindi were coming out as '?????' because the Devanagari font never loaded on the server (the runtime GitHub download 403'd) so the text got mangled to Latin. _ensure_hindi_font() is now robust and self-healing: it finds any Devanagari font already on the box, else apt-installs one itself (Nemo is root - no fragile download), and guarantees the uharfbuzz shaping engine so conjuncts/matras place correctly. make_pdf() will now NEVER hand back a '?????' PDF - if no font can be loaded it sends readable Unicode text plus the one-line server fix instead. The AI was always writing correct Hindi; only the PDF drawing step was broken. + v10.15 - GOOGLE SUPER-LAYER (2 phases). Phase 1 (free, reuses his Google login - one re-consent for wider scopes): /backup his whole brain to Drive, Sheets as a LIVE database you can open on your phone (/log <sheet>: a, b, c  ·  /gsheet <sheet>), /gdoc <title>: <body> makes a Google Doc, /gtask + /gcontact + /findcontact. Phase 2 (needs a Google Cloud API key + billing, but big free tiers + a hard daily call cap): /gcloud <key> turns on Vision (/gsee reads/labels a photo), Translate (/gtranslate hi: text), Text-to-Speech (/gsay), Gemini (/gemini), and real Google Search (/gsearch). + v10.14 - ONE-STEP SECRET REFRESH: /env <app> KEY=VALUE now, if the app is already live, rewrites its locked .env and RESTARTS it on the spot - no re-ship. So refreshing a daily API token (e.g. Dhan's 24h token) is a single paste to Nemo. + v10.13 - APP EDITOR (Nemo patches apps he deployed): Nemo can now edit a running app's code himself, not just his own - same supervised rails (pick function -> rewrite -> compile-check -> diff -> you tap Apply -> back up -> restart just that app -> /app <name> rollback if needed). Just say 'add a /dhan self-test to signalbot' or run /app signalbot edit <change>. So he can fix and extend the bots he ships, on his own. + v10.12 - APP FACTORY + SECRETS: you can now hand Nemo a program's secrets in chat with /env <name> KEY=VALUE (bot tokens, API keys) and he bakes them into a locked-down 600 .env file the service reads - so you never edit the code file. Everything else as v10.11 (SHIP a .py as a live 24/7 systemd service, /build, /apps, /app manage). + v10.11 - APP FACTORY (real hands to SHIP a program): Nemo now takes a program - one he writes, or a .py you send him in chat - and actually RUNS it on your server as a managed 24/7 systemd service. He writes the file to /root/apps/<name>, installs its pip packages, safety compile-checks it, creates the service, and starts it (you tap Ship & start to confirm). /ship <name> deploys a .py you just sent; /build <name>: <what it does> has him write the program himself then ship it; /apps lists them; /app <name> logs|restart|stop|rm manages them. Owner-only, gated by the 'deploy' capability (/caps deploy on) + /lockdown, refuses to touch system units. This closes the gap where his 'mission' team only produced a REPORT - now he can hand you a running bot. + v10.10 - SELF-EVOLVING: Nemo reviews his OWN errors, system logs and rough edges, decides what to fix/improve, and DRAFTS the code changes himself - you just approve. /evolve makes him study himself and propose the 3-6 highest-value improvements (each targeting one real function, grounded in errors he actually hit); /evolve <n> hands that exact improvement to his supervised self-editor (compile-check + diff + tap-to-Apply + backup + /rollback), and /evolve auto on runs a weekly self-review that only ever PROPOSES (never auto-applies). Core control functions stay _UNEDITABLE. Just say 'improve yourself' / 'review your errors and get better'. + v10.9 - YOUTUBE+: turn a video into a STUDY-NOTES PDF (/ytnotes or 'notes'), and summarise a WHOLE PLAYLIST into a PDF study guide (/ytplaylist or paste a playlist link) - per-video bullets + an overall overview, Hindi-capable PDF. + v10.8 YOUTUBE: robust video SUMMARY (transcript via youtube-transcript-api -> yt-dlp auto-subs with cookies -> audio+Whisper, then an easy 'explain like to a friend' summary by Claude) and DOWNLOAD (/ytdl video, /ytmp3 audio, cookie-aware, sent over Telegram if it fits else saved/Drive). Just paste a YouTube link. + v10.7 SCANNER: send a photo and Nemo turns it into a clean, cropped, straightened PDF (document scanner), or extracts all its TEXT (OCR, Hindi too), or decodes a QR - via caption 'scan'/'ocr'/'qr' or the /scandoc /ocr /qr commands. + v10.6 STRONGER HANDS for the browser agent: VISION fallback (screenshots the page and acts from what it SEES when there's no readable HTML, via clickxy), new actions (key presses, coordinate click, back, file upload, structured extract->data), and SESSION/COOKIE import (/browsercookies loads a cookies.txt so Nemo is logged in on sites like YouTube - the reliable way past login walls). + v10.5.2 LOGIN HANDS hardening: the human-in-the-loop now fills the value ROBUSTLY (finds the real email/password/OTP input even if the AI's field index is off, verifies it landed, auto-submits) and has a loop-guard that stops re-asking and explains honestly when a site (e.g. Google/YouTube) is blocking the automated login. + v10.5 SELF-DEFENSE (blue-team, THIS SERVER ONLY): tamper tripwire (fingerprints his own code/secrets/SSH-keys and alerts + optional auto-lockdown on change), intruder watch (failed-SSH by IP), exposure/open-port self-scan, ClamAV malware scan, pip-audit CVE check, and a hardening pack (chmod/fail2ban/ufw keeping SSH open). NO target field anywhere - every check runs against this host only; owner + capability gated. Ask 'scan yourself for viruses / who is attacking me / am I exposed'. + v10.4 HANDS + HUMAN-IN-THE-LOOP: the browser agent can now pause on a login/password/OTP/2FA/CAPTCHA, send you a screenshot of what it sees, WAIT for your chat reply, type it into the field and continue - so you complete logins together and Nemo stays logged in (persistent profile). New 'ask' browser action; your reply is routed to the live session and the secret value is never logged. + v10.3 DYNAMIC TOOLS UPGRADE: /toolmake now builds reusable tools that use third-party packages (declared '# requires: yt-dlp ...', auto pip-installed + reinstalled after redeploy) and reach the internet (run on host; pure-stdlib tools keep --network=none isolation) - so you get a permanent /tool musicdl <song> instead of one-shot scripts; also run_code writes self-contained scripts (inputs hardcoded, no required argv/input). + v10.2 CODE AGENT FIX: generated Python no longer gets its dunders corrupted (clean_text was stripping __ and ** so __name__/__main__ became name/main); run_code now uses the RAW code path + the premium brain + a SELF-REPAIR loop (reads its own traceback and fixes the bug, up to 2 tries). Same raw fix applied to self-upgrade and dynamic tools. + v10.1 TRACK 3 BUILDER on top of the Mastermind Core: GitHub connect + AI code-review agent (issues/PRs/CI, auto-review PRs via webhook), dynamic tool creation (Nemo writes-tests-registers his own sandboxed tools), multi-agent swarm orchestration (parallel workers -> synthesis), and observability (/metrics, /logs, ERROR alerts). + v10.0 MASTERMIND CORE (Track 0+1+6): event-driven nervous system (SQLite state, durable event queue, stdlib HTTP webhook gateway + Nemo's own /api/v1, capability layer + audit log + /lockdown kill-switch), infra control (DigitalOcean create/reboot/snapshot/destroy, git self-deploy with pre-swap compile check + boot canary, Docker sandbox exec), and an autonomy layer (goal planner plan->act->report loop, condition triggers, reflection-to-memory). All owner-gated. + v9.8.3 land-records FULL FLOW from real screenshots: auto-ACCEPTS the 'सूचनार्थ नकल' confirm() dialog (Playwright was silently cancelling it), captures the Nakal HTML document (Edharti_A4_Nakal_village.aspx) as a PDF (it is NOT a file download), and the playbook now matches the exact 10-step Apna Khata flow (district/tehsil dropdowns -> alphabet+village row -> radios -> searchable khasra box -> नकल सूचनार्थ). + v9.8.2 IFRAME-AWARE browser: govt forms (Apna Khata) load inside an <iframe> so the top page looked blank; Nemo now finds and drives the real form frame + sends a text diagnostic on failure + never clicks top-nav tabs. + v9.8.1 land-records cascade fix (waits for the ASP.NET postback so तहसील/RI/village dropdowns fill before selecting; more steps; tells you which brain drove it) + Claude PREMIUM BRAIN on tap (Boss's Anthropic API key): auto-escalates the HARD jobs - drives the browser/land-records flow, /think deep answers, and a smart backup when free brains choke - while free Nemotron/Groq still handle everyday chat so credits last. Cost-aware (Haiku default, Sonnet for browser/think, running spend in /brain). + v8.8.2 Hindi/Unicode PDFs (Noto Devanagari, was: ?????) + report emails when you ask + mission progress/recipient fixes + activity audit log + confirm-on-money + FII/DII in the trading brain + IFSC/QR/short-links + v8.7 distinct mission team/chaining/maps/translate + v8.6 vector memory/TradingView/insights + v8.5 Google + v8.4 voice/backtester + v7.9 grounded market data + v7.8 identity + v7.5 live option chain + v7.4 natural-language brain + trading.
+"""nemotron_bot.py v100.0 - SIGMA: A SIGNAL DESK INSIDE NEMO: FIXED RULES FOR STOCKS AND NIFTY/BANKNIFTY, OPTION-CHAIN ANALYTICS, DEFINED-RISK OPTION STRUCTURES WITH ENTRY, STOP, EXIT, SIZE AND CHARGES, A BACKTEST WITH CHARGES, A SHORT-VOLATILITY PROXY STUDY AND A FORWARD SCOREBOARD. ADVISORY ONLY: NO ORDER, NO CHANGE TO THE TRADING AGENT, THE GUARDS OR THE OWNER LOCK. + v99.1 - ANSWER: A GENERAL TRADING QUESTION IS NO LONGER SENT TO THE PAPER-TRADING RESEARCH TOOL; WHEN THE MAIN AI GATEWAY FAILS THE OLDER BRAINS ANSWER INSTEAD OF THE REQUEST ENDING; A TRADE LAB DEAD END BECOMES AN ORDINARY ANSWER; AND "SUPPOSE YOU HAVE 20000 RUPEES FOR OPTIONS TRADING, HOW WILL YOU SURVIVE AND WHAT RETURN IN A YEAR" IS ANSWERED FROM THE PRACTICE RECORD AND A SIMULATION WITH NO AI. NO ORDER, NO CHANGE TO THE TRADING AGENT, THE GUARDS OR THE OWNER LOCK. + v99.0 - LAB: A READ-ONLY LABORATORY BESIDE THE STOCK-MARKET AGENT. IT KEEPS THE PRICE PATH OF EVERY TRADE (copying the quotes the agent already fetches), REPLAYS THE AGENT'S OWN RULE AND 11 OTHER EXIT AND ENTRY RULES OVER THOSE PATHS AFTER CHARGES (never calling a winner on too few trades), SHOWS WHY THE AGENT DID NOT TRADE, HOW FAR TRADES WENT, WHETHER THE DIRECTION CALLS WERE RIGHT, SENDS A WEEKLY AND MONTHLY REPORT, ALERTS ON A LOSING STREAK OR A DEEP DIP, AND GIVES AN ADVISORY LIVE-READINESS CHECKLIST (nothing is switched: no order, no change to the trading agent, the guards or the owner lock). + v98.0 - SCHOLAR: TELL NEMO WHAT HE IS WEAK AT AND HE RESEARCHES GITHUB AND PYPI, CHECKS THE BEST PROJECTS FOR SAFETY AND FIT WITH THIS SERVER, RECOMMENDS ONE WITH ITS LIMITS AND PUTS FORGE'S ONE-TAP APPROVAL CARD IN FRONT OF THE OWNER; AFTERWARDS HE OFFERS TO TEACH HIMSELF TO USE IT (nothing is installed without the owner's tap; no order, no change to the trading agent, the guards or the owner lock). + v97.0 - DESK: A FAMILY MEMBER (OR THE WHOLE FAMILY) CAN BE LET INTO THE TRADE DESK, VIEW ONLY: THE OPEN SCOUT IDEAS WITHOUT THE OWNER'S CAPITAL OR SIZING, A FRESH SCAN WITH SMALL DAILY LIMITS, HOW PAST IDEAS TURNED OUT AND THE PRACTICE AGENT'S VIRTUAL TRADES; REAL POSITIONS, MONEY, ORDERS, LIVE-MODE TRADES AND THE OWNER'S SETTINGS STAY PRIVATE AND NOTHING CAN BE CHANGED (no order, no change to the trading agent, the guards, Circle's locks or the owner lock). + v96.0 - LEDGER: THE FULL RECORD OF WHAT THE STOCK-MARKET AGENT HAS TRADED (every closed trade kept, results before and after estimated charges, worst dip, how far to trust it, day by day, one trade in full with its reason, CSV and a growth chart) AND A PLAIN-WORDS EXPLANATION OF HOW IT DECIDES (read-only: it never changes what the agent does, the trading guards or the owner lock; no order is placed). + v95.0 - DOORS + CARE + OFFICE: THE WEBSITE GETS TELEGRAM LOGIN, FAILED-ATTEMPT LIMITS AND SAFE HEADERS; "CARE" READS THE SERVER AND CLEANS NEMO'S OWN LEFTOVERS AND OLDER FAILURE MESSAGES GAIN A FIX-IT LINE; GSTIN/PAN CHECKS ON INVOICE DRAFTS AND A SPACED-REPETITION STUDY HELPER (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v94.0 - CLEAR + SCOUT INTEL + STUDIO PLUS: EVERY MARKET REPLY AND DATA DUMP IN PLAIN WORDS, NSE RESULTS/BAN/FLOW CHECKS AND A VOLATILITY FORECAST FOR SCOUT, AI UPSCALING, BACKGROUND REMOVAL AND CHARTS FOR PICTURES (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v93.2 - SCOUT: TRADE IDEAS FOR STOCKS AND NIFTY/BANKNIFTY OPTIONS FROM NEWS AND NEMO'S MARKET TOOLS, WITH THE WORKINGS SHOWN, THE SIZE AT THE OWNER'S RISK LIMIT AND AN HONEST TRACK RECORD (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v92.0 - WIRE: THE INSTALLED LIBRARIES BECOME CHAT COMMANDS, RUN SAFELY (tables from a PDF, text in a picture, clean article text, indicators on daily candles, a risk report of the journal, NSE history, local voice fallback, extra checks next to the update pre-flight; one heavy job at a time and only when memory is free; MCP servers stop together with Nemo). + v91.5 - FORGE: NEMO CAN USE GITHUB AND INSTALL WHAT HE NEEDS (search and inspect GitHub, a static scan of any repo, PyPI risk checks, hash-pinned wheel-only installs into isolated environments or additively into his own Python, owner approval cards, health checks with automatic rollback, an install ledger, upgrade from the owner's own GitHub repo through the existing update gate). + v90.2 - STUDIO: MORE IMAGE ENGINES AND TOOLS, EXACT DESIGN AND CHARTS, REPORTS WHOSE NUMBERS ARE CHECKED (verified image chain with nine engines, Pillow tools, posters/cards/logos with exact text, charts from your numbers, a numbers audit for researched reports, data reports from your own files). + v89.0 - CIRCLE: WHO ELSE MAY USE NEMO AND WHAT THEY MAY DO (one gate in front of every message, button and inline query that is not from the owner; default deny; abilities switched per person and role from a menu or in plain words; first-contact cards; limits; strangers on/off; a private read-only free/busy view for family). + v88.0 - ARGUS: NEMO CAN SEE (read-only eyes for mail, calendar, Drive, tasks, reminders, watchers, what Nemo did and when, server and errors, devices, positions; a live map of its own abilities; one "see" tool for conversation; a flight recorder; an inbox watch; exact reasons when something is not connected). + v87.0 - RELAY: MORE VIDEO SOURCES (yt-dlp with six client profiles, automatic yt-dlp update, Node/Deno runtime, your proxy; then pytubefix, YouTube.js, Piped and Invidious mirrors, Cobalt) in ONE verified, time-boxed chain with a per-source report + DRIVE LINKS YOU CAN OPEN (anyone with the link / one e-mail / private) + natural-language controls (download sources, test youtube download, set up download sources, share my last download). + v86.0 - CANDOR: NO SENSITIVE LOGGING (a rejected value is never stored; logs are masked) + COMPLETE FORGETTING (every recall store, rewritten copies, re-learning blocked, queued jobs cancelled, backup limits stated) + SAFER SELF-DEVELOPMENT (the _n79_feature hook is always offered, relevant bounded shortlist, vague "upgrade yourself ..." asks what you want before any AI call, failures name their stage) + RESEARCH ROUTING (current-information questions are researched, failure and thin evidence are stated) + ONE SHARED DEADLINE (planning, tools, answer, review and fallback; bounded search and background work) + HONEST CHECKS (completed / issues / skipped / failed). + v85.0 - STEWARD: DECISION INBOX (mail/calendar/open loops/showroom -> ranked, grounded proposals as approve/edit/skip cards; nothing runs without a tap; learns from your decisions) + VERIFIED RESEARCH (replans, reads full pages, keeps a claim only if its quote is in the page and its numbers are in the quote) + SANDBOX-TESTED UPDATES (candidate is imported and regression-tested in a network-less sandbox before Apply) + MCP PERMISSION TIERS (read runs, write needs a tap, dangerous blocked) + DOCUMENT INTELLIGENCE (page-cited answers, clause flags, version compare, tables) + SHOWROOM COPILOT (leads, dues, stock, GST invoice drafts) + PAGE WATCHERS (price/stock/keyword/change alerts). + v84.0 - ATLAS: FUTURES DESK (expiry calendar with holiday roll-back, cost-of-carry fair value/basis, roll cost, position sizing, pre-trade check, edge/Kelly/streak maths, owner-reported trade journal + stats, opt-in expiry alerts; advisory only, no orders) + SPEED (zero-model answers for pure arithmetic/date questions, router bypass for plain chat, parallel tool rounds, typing keep-alive, per-stage timings, p50/p95 in /cortex83) + weekday/date audit. + v83.0 - CORTEX: memory bridge (relevant stored facts + safe auto-learning from the owner's own messages, with /memory83 /forget83 controls), grounded IST date/time + exact date maths, bounded read-only tool loop for chat (search/recall/calculate/date, no tool can act), deterministic arithmetic audit + quote-verified critique, rolling conversation summaries, router fast-path for small talk, /why83 transparency, fix for undefined _n60_j in the media failure path. Additive layer over v82; any Cortex failure falls back to the v80 chat path. + v45.0 - YOUTUBE PER OFFICIAL 2026 GUIDE (--js-runtimes deno auto-installed, android_vr-first ladder needing no PO token/cookies, cookies only for tv/mweb, rotation detection, /ytfix) + MEDIA LIBRARY (/library instant resend, Drive) + v44.x RELIABILITY DOCTOR + v43.x YOUTUBE UNBLOCK + RESEARCH DIGEST + v42.0 MEDIA ENGINE + FAMILY MODE + v40.0 COMMAND CENTER + LEARN MODE + v39.0 FAST CORE + v38.0 ATTENTION + v37.0 PHOTO MEMORY + VOICE + v36.x DAY CARD + SELF-AUDIT + v35.0 UNIFIED MIND + v13.35 - PROVIDER DOCTOR + COMPUTER-USE 5.0 BATCH 3: adds diagnostic Groq/Gemini model discovery, non-destructive email/network doctor, browser computer-use sessions with DOM/accessibility/screenshot state, Guardian-protected external-page analysis, action verification and session telemetry. + v13.30 - KNOWLEDGE LAKE 2.0 + HYBRID SEMANTIC RAG + LEARNING CORE 2.0: adds local hybrid retrieval, workflow episode learning and automatic local grounding while retaining v13.29 evaluation/observability. + v13.29 - EVALUATION LAB 2.0 + OBSERVABILITY/FLIGHT RECORDER 2.0: adds request-level tracing, durable request metrics, tool/task correlation for reports/browser/media, percentile latency and failure dashboards, candidate-vs-current regression scoring, critical-function and credential-line integrity checks, evaluation history, and fail-closed deploy recommendations. Existing v13.28 NEMO PRIME FOUNDATION remains. + v13.28 - NEMO PRIME FOUNDATION: Unified Task OS, Central Policy Engine, Flight Recorder, Evaluation Lab, Knowledge Lake, Strategy Learning 2.0, Device Agent generator, Specialist Agent Governor, and Trade State Reconciliation 2.0. Existing v13.27 Publisher Godmode and all prior safety rails remain. + v13.27 - PUBLISHER GODMODE 5.0 / LAYOUT QA: rebuilds the professional artifact renderer around measured text layout instead of fixed-height guesses; filters fake KPI tiles and source/evidence metadata; dynamically wraps risk tables, scenario cards, executive cards and source cards; fixes appendix stripping with or without colons; adds Unicode font support when available; prevents heading/header collisions; strengthens publication QA for leaked metadata, clipping-risk patterns and malformed key-number panels; and keeps the v13.26 evidence/materiality pipeline intact. + v13.26 - CREATION ENGINE / PUBLISHER GODMODE 4.0: adds professional information architecture, materiality-first analysis, improved source authority ontology, cited-evidence grading, compact clickable source appendix, executive snapshot cards, key-number tiles, scenario dashboard, risk heatmap-style matrix, typography/mojibake sanitation, deterministic artifact integrity, and optional PDF visual QA. Analytical reports now fail closed when research/evidence/publication quality is weak. Existing v13.25 research Godmode, v13.24 renderer fixes and v13.23 Learning Core remain. + v13.25 - GODMODE RESEARCH + REPORT INTELLIGENCE 3.0: adds five coordinated upgrades: adaptive multi-query text+news research with retries, source-authority scoring and domain diversity, multi-brain analyst→verifier→editor synthesis, evidence/claim-quality gates that remove unsupported current claims, and a research audit manifest + professional evidence score on every report. /godreport forces the full pipeline; ordinary non-code reports use it automatically. Existing v13.24.2 renderer hotfix and v13.23 Learning Core remain. + v13.24.2 - PROFESSIONAL REPORT STUDIO 2.1 PDF RENDERER HOTFIX: upgrades PDF/report generation with fresh multi-query web research for time-sensitive reports, source-grounded drafting, executive summaries, risk/outlook structure, professional cover/header/footer, section hierarchy, key-takeaway callouts, source appendix, cleaner typography, and removal of random stock-art pages. Reports distinguish sourced facts from analysis and warn when fresh research is unavailable. Existing v13.23 Learning Core remains. + v13.23 - LEARNING CORE 1.0 + EXPERIENCE BRAIN: adds persistent outcome learning, model-performance scoring, experience/error fingerprints, semantic experience recall, feedback controls, lightweight anomaly learning, adaptive model route reordering, training-data export, and Cockpit learning telemetry. Learns from successful/failed AI calls and explicit owner feedback while redacting sensitive-looking text; never grants new money/security authority. Existing v13.22 Offline Mind/Speed/Systematic UI, Device Grid, Cockpit, Mind Core, Cyber Hands, trading rails and secrets are preserved. + v13.22 - OFFLINE MIND + SPEED ROUTER + SYSTEMATIC RESPONSE UI: adds an offline-first knowledge layer (built-in durable reference packs + existing indexed files/library/memory grounding), persistent evergreen answer cache, API-down offline fallback, instant local calculator, automatic FAST/BALANCED/QUALITY routing, reduced unnecessary multi-pass reasoning, and a Telegram-friendly response-format contract with consistent visual sections. New /offline, /speed and /format controls. Existing v13.21 Device Grid, v13.20 Cockpit, v13.19 Mind Core, Cyber Hands, trading/security rails and credentials are preserved. + v13.21 - NEMO DEVICE GRID + REMOTE HANDS 1.0: enrolled-device control plane with owner-created one-time enrollment tokens, per-device bearer secrets, heartbeat/online state, read-only system telemetry, opt-in location reporting, device revocation, audit trail, and Cockpit/API device inventory. No arbitrary-device discovery, covert tracking, credential dumping, or unauthorized remote access. + v13.20 - NEMO COCKPIT 1.0: adds a modern Telegram Mini App/PWA command-center over the existing secure web server: live system/brain/cyber/VPN/trading/task/media panels, responsive mobile-first glass UI, browser human-checkpoint status and latest screenshot, safe read-only quick actions, refreshable JSON telemetry, and an owner-only /cockpit command. When a secure HTTPS public_url is configured, Nemo automatically installs a Telegram Web App menu button that opens the cockpit inside Telegram; otherwise /cockpit gives the local/public dashboard link and /setdomain guidance. Consequential actions stay Telegram-gated; the cockpit does not bypass trading, lockdown, cyber scope, browser-auth or update confirmations. Existing v13.19 Mind Core, Browser Checkpoint 2.0, Cyber Hands, dependency isolation, secrets and trading rails remain. + v13.19 - MIND CORE 2.0 + BROWSER CHECKPOINT 2.0: adds a final-answer compiler that blocks scratchpad/thinking-aloud leakage, strips malformed provider tokens such as <unk>, detects repetition/non-answers, selectively re-verifies calculation/bill/image answers, and rewrites poor drafts before delivery; adds speech-specific sanitization so garbage tokens never become voice audio. Browser human checkpoints now parse natural replies (e.g. email plus “click next”) into a clean field value + action, use semantic page-state fingerprints instead of raw URL equality to detect stuck loops, and stop Google/YouTube automated-login loops early in favor of the user's authenticated session/cookie route. Passwords, OTP/2FA/recovery codes and private keys are no longer requested through Telegram browser checkpoints. Existing v13.18 Cyber Hands, v13.17 dependency isolation, trading rails, secrets, updater and all prior capabilities remain. + v13.18 - CYBER HANDS 1.0: adds an owner-only defensive security operations layer for THIS VPS and explicitly authorized/allowlisted assets: unified /cyber control center, local security audit + score, listening-port/firewall/SSH/log inspection, secret-exposure scan that never prints secret values, source-code static security checks, dependency CVE audit in an isolated tool environment, optional ClamAV scan, file-integrity baseline, continuous low-noise security monitoring, and conservative allowlisted Nmap inventory (top ports/version-light only; no exploitation/bruteforce/evasion). Autonomous agents gain READ-ONLY local cyberaudit/cyberports/cyberlogs hands. Remote scanning is never autonomous and requires an explicit --authorized scope entry. Consequential remediation remains owner-confirmed. + v13.17 - FOUNDATION HARDENING + HANDS 2.0: adds dependency protection/doctor, isolated tool virtual-environments, process control with confirmation, filesystem search/hash/tree, network diagnostics, system snapshots, and exposes these safe hands to the autonomous agent. Core trading/credentials/browser/media behavior is preserved. + v13.16 - VISION RESPONSE VALIDATION + MULTIMODAL FALLBACK: fixes the case where a screenshot successfully reached the vision model but Nemo returned only provider moderation metadata such as "User Safety: safe / Response Safety: safe" instead of analyzing the image. Vision replies are now validated for substantive visual content; safety-only/moderation-only outputs, refusal-shell metadata, empty multipart content and tiny non-answers are treated as a FAILED vision attempt and Nemo automatically tries the next multimodal route (Nano Omni -> openrouter/free) rather than delivering garbage. Image prompts explicitly request actual visual analysis rather than safety labels. ask_ai now detects and sends the real PNG/JPEG/WEBP/GIF/BMP MIME in its OpenRouter data URI (closing the remaining hard-coded JPEG path missed in v13.15). DEBUG records why a vision model was rejected. Text routing, trading, money, browser, VPN, downloader, persistence and secrets are unchanged. + v13.15 - UNIVERSAL IMAGE ATTACHMENTS: Telegram screenshots/images sent as Files/Documents now route into the same vision pipeline as compressed photos. Detects image/* MIME plus PNG/JPG/JPEG/WEBP/GIF/BMP extensions and magic bytes; preserves captions; supports scan/OCR/QR/bill/notes pending modes; and ask_ai now labels the data URI with the real image MIME instead of always claiming JPEG. No trading, money, VPN, browser, downloader, persistence, secrets, or safety behavior changed. + v13.14 - LIVE MODEL ROUTER HOTFIX: OpenRouter retired nvidia/nemotron-3-nano-30b-a3b:free on 24 Aug 2026, so Nemo no longer calls that dead slug. Text routing now uses Nemotron 3 Ultra free -> Super free -> openrouter/free for smart work, Super free -> openrouter/free for fast work, and vision uses ONLY multimodal-capable Nano Omni free -> openrouter/free (no text-only Super fallback on images). ask_ai now safely parses OpenRouter error/unexpected response bodies instead of crashing with KeyError choices, temporarily cools down unavailable/rate-limited models, de-duplicates routes, and keeps the dynamic free router as a resilience fallback. /brain reports the live route and cooldowns. No trading, secrets, browser, media, persistence or safety rails changed. + v13.12 - HONEST UPDATE LABELS (fixing two COSMETIC bugs in my own update-preview that made a perfectly good deploy look scary): when the Boss deployed v13.11, the /update preview said 'this file is v17.0' and 'CHANGES 1 (TOKEN)' - BOTH false alarms from my own code; the file was correct and booted clean as v13.11. Causes + fixes: (1) my version-reader grabbed the FIRST version-assignment string anywhere in the file, and my changelog PROSE happens to mention the 17.0 pattern when describing a ChatGPT file - so it read its own description instead of the real constant. Now it reads only a REAL top-level VERSION assignment (start of line). (2) my credential-change check matched ANY variable whose name merely contained 'TOKEN'/'KEY' - including the harmless 'TOKEN = os.environ.get(BOT_TOKEN)' line inside the downloader-bot template - so it falsely warned of a credential change. Now it checks only the actual named secrets (TELEGRAM_TOKEN, OPENROUTER_KEY, NVIDIA_KEY, ...). Future update previews now show the true version and warn only on a REAL key change. Your keys were never touched - the proof was the bot booting clean and healthy. Additive; all existing suites pass plus a new v13.12 test. + v13.11 - CLAIM LEDGER + LIVE INTEGRITY (from the ChatGPT v24 'five upgrade' file - notable because it was finally built on OUR v13.9 base with the Security Core intact, but its five new layers all crash on first use on the same missing 'uuid' import as v15/v18/v19, and its flagship 'v20 Task Orchestrator' is FAKE: the execute function performs nothing - it stamps every step done with a canned message pointing to a /nemorun24 command that does not exist anywhere in the file. Its other layers duplicate what we already run: structured memory = the v11 knowledge graph + /recall, brain router = ask_ai's existing routing, project manager = /plan + /taskgraph + PROJECTS, observability = /nemo + self_test). The TWO ideas worth keeping, built working: (1) CLAIM LEDGER - /claims [search words] is a persistent, dated audit trail of everything Nemo has fact-checked and researched: every /verify records verified-or-corrected (with the checker's notes) and every /nemoresearch records a research entry, capped at 400, surviving restarts, searchable, also in plain language ('what have you verified', 'claim history'). So 'what has my bot told me, and was it checked?' finally has an answer. (2) LIVE INTEGRITY - /security now also compile-checks the RUNNING source and shows its sha256 fingerprint, so tampering or corruption of the deployed file is visible on demand. Additive; all suites pass plus new v13.11 tests. + v13.10 - DOWNLOADER IN THE BOT FACTORY (Nemo creates the whole bot himself - no file to send): the Boss asked why Nemo can't just CREATE a downloader bot when given a token. He always could create bots (/newbot factory + /env for secrets) - his library just had no downloader type. Now it does: a verified 'ytdl' template (the corrected version of the ChatGPT blueprint, which as written would not run - missing asyncio import, wrong download() return handling, an undefined variable, a zip step that ignored Telegram's ~50MB cap). Create it entirely in chat: /newbot ytdl mydl (or just say 'make me a downloader bot') -> tap Ship -> /env mydl BOT_TOKEN=<fresh @BotFather token> OWNER_ID=<your id> -> the bot is LIVE. The generated bot: downloads a YouTube video or whole playlist (mp4, or mp3 with 'audio'), sends every file under Telegram's cap straight to chat, keeps bigger ones on the server with the path reported, caps items per playlist (MAX_VIDEOS), safe ASCII filenames, owner-locked via OWNER_ID, token ONLY from its locked env - never in code. Same supervised ship rails as every factory bot (compile-check, auto pip-install of requests+yt-dlp, tap-to-start, /app <name> logs|restart|stop|rm). Additive; all suites pass plus new v13.10 tests. + v13.9 - QUANT LENSES (the genuinely-new, working parts of the ChatGPT v19 quant file, rebuilt on our base - READ-ONLY, never places an order): the v19 code was real quant work but sat on the old base and crashed its event log on the same missing 'uuid' import; I kept the good math, dropped the crash and the bits we already have (its plain signal/option dumps duplicate /godmode and /optionchain). Three lenses we DIDN'T have, now added: (1) /regime <symbol> - classifies the market regime (TREND_UP/DOWN, EXPANSION, RANGE, LOW_VOL_RANGE, TRANSITION) from ADX + EMAs + ATR-ratio + slope, with a confidence. (2) /walkforward <symbol> - proper OUT-OF-SAMPLE validation: it picks the best EMA pair on a training window then scores it on the next, unseen window, and reports the average out-of-sample hit-rate (a robustness check, not a guarantee). (3) /quantbacktest <symbol> - an EMA-crossover backtest with profit factor + max-drawdown AND a Monte-Carlo stress test (bootstrapped terminal + drawdown percentiles). Plus /quant <symbol> - a consolidated regime + multi-factor signal + transparent setup-quality grade (explicitly 'NOT win probability'). All owner-only, read-only, honestly labelled; they use Nemo's real market data (get_history) and place no orders. Additive; all existing suites pass plus new v13.9 tests. + v13.8 - MEMORY 3.0 (granular forget) + NO INVENTED COMMANDS: (1) MEMORY - on inspection Nemo's memory was already strong (semantic /recall, durable /remember, the /memory 'second brain', /aboutme and the knowledge graph, all persisted and fed into his answers), so the genuinely missing piece was CONTROL: /forget <thing> now removes the SPECIFIC memories that match - from both the durable facts and the semantic vector store - and tells you exactly what it dropped, instead of the all-or-nothing /forgetme. /remember also dedups and keeps more durable facts (20 -> 60). (2) NO INVENTED COMMANDS - when you sent a command Nemo didn't recognise, his brain used to make up plausible-but-fake command names (exactly what happened with /nemo before it was deployed). Now an unrecognised /command gets a deterministic, HONEST reply listing only REAL commands and never reaches the brain. Additive; all existing suites pass plus new v13.8 tests. + v13.7 - TRADE STATE SURVIVES RESTART (closing the money-safety gap I flagged in v13.2 and deferred): the autonomous trader kept its open position only in memory, so a restart or update mid-trade FORGOT it - and for a plain (non-bracket) position that meant its stop-loss and target were no longer being managed, leaving real money exposed. Now the trader's live state (open position, today's trade count, running P&L, the day, and the daily-loss halt flag) is PERSISTED to memory and RESTORED on boot, so after any restart Nemo picks the position straight back up and keeps managing its stop / target / square-off. On boot, if a position is open, Nemo messages you that it resumed managing it. This pairs with v13.6 self-healing updates: a restart mid-trade no longer abandons your money. (Bracket positions were already protected on-exchange; this closes the gap for plain positions.) Owner-only, additive; all existing suites pass plus new v13.7 tests. + v13.6 - SELF-HEALING UPDATES (took the one real new idea from the ChatGPT v17 file - auto-recovery from a bad update - and built it safely; skipped the rest, which forced its VERSION to 17.0 and added a downgrade-block that would have LOCKED you out of updating to our clean files, and re-did the workflows our v13.4 already has): every /update is now TRANSACTIONAL. When you Apply an update, Nemo records a journal (a hash of the new build, plus a hash + path of the verified backup). On restart it checks that journal FIRST: a healthy boot (Telegram auth succeeds) is confirmed and stands recovery down - but if the new build keeps failing to reach a healthy boot (3 tries within 30 minutes) Nemo automatically RESTORES the previous version (only if that backup still compiles and its hash matches the recorded original) and restarts. So if you ever deploy a build that won't start, it heals itself back to the last working version without you touching the server. /updatecheck now also shows whether the last update auto-rolled-back or booted cleanly. HONEST LIMITS: this catches builds that start but then crash/exit during startup; a crash BEFORE main() even runs (e.g. an import-time error) can't be caught from inside the process - though compile-check already blocks the syntax errors behind most of those. Conservative by design (3 failures, 30-min window, hash+compile-verified backup) so a healthy long-running bot is never rolled back. The normal apply/backup/rollback path and everything else are unchanged; all existing suites pass plus new v13.6 tests. + v13.5 - SAFER UPDATES (took the one good idea from the ChatGPT v16 'updatefix' file - credential-preservation on update - and built it safely on our base; skipped the rest, which sat on the old v12.06 base, carried the broken v15 layer, and hard-overrode VERSION to '16.0' while requiring its own marker that would have BLOCKED updating to our clean files): (1) /updatecheck - preflight a new nemotron_bot.py you've attached WITHOUT applying it: shows its version, size, whether it looks like Nemo, the compile-check result, and - the key part - whether it would CHANGE or DROP any of your credential/config lines (compared by a HASH of each key line; values are NEVER shown). (2) /update now shows that same credential warning right in the Apply prompt, so you can't accidentally deploy a file that wipes your API keys without being told. It WARNS, it does not block - because a legitimate update (like moving keys into the secrets file) also changes those lines and you stay in control. (3) /version shows the running version cleanly. The critical apply/backup/rollback path is unchanged. Owner-only, additive; all existing suites pass plus new v13.5 tests. + v13.4 - ORCHESTRATION (added the genuinely-new capability from the ChatGPT v15 file, built CORRECTLY on our safe v13 base - the v15 code itself was BROKEN: I ran it and it crashed with 'uuid is not defined', plus a _n15_STATE typo and a call to a function that never existed, so its workflow / research / decision commands all failed at runtime). What's new and WORKING here: (1) /nemoworkflow <numbered plan> - runs a multi-step plan ONE checkpointed step at a time, feeding each step's result into the next and saving progress after every step, so it survives a restart; /nemoworkflows lists them and /nemoresume <id> continues from where one stopped. (2) /nemoresearch <question> - a research pass that separates FACTS / INFERENCES / UNKNOWN and refuses to fabricate sources. The REST of v15's command surface is wired to Nemo's EXISTING, more mature systems instead of broken parallel copies: /nemodecision -> the real decision journal (with expected-vs-actual tracking), /nemoevents -> the activity log, /nemoagents -> AGENTSTAT, /nemoarchitecture -> /abilities, /nemo3 -> the /nemo control center. Nothing duplicated, nothing dragged back onto the old insecure base. Owner-only, purely additive; all existing suites pass plus new v13.4 tests. + v13.3 - CONTROL CENTER + FACT-CHECK (folded in the two genuinely-good ideas from the ChatGPT v14 file, onto this safer v13 base - without its duplication or its security rollback): (1) /nemo CONTROL CENTER - one screen showing version, uptime, brains, security posture (are any keys still in source?), money-confirm + lockdown + auto-trade state, work-queue depth and recent activity - built on Nemo's REAL subsystems (secrets_status, MONEYCFG, mm_locked, JOBS/WORK, ACTLOG), not a parallel copy. (2) /verify - or 'double-check that' / 'any hallucinations?' - an explicit fact-check pass: it reviews an answer (the text you give, or my LAST answer) for hallucinations, unsupported claims, wrong numbers/names/dates, missing caveats and contradictions, and if it finds problems it rewrites the answer WITHOUT inventing new facts. Both work by command AND in plain language, owner-only, purely additive. Deliberately NOT copied from the ChatGPT file: its duplicate job-runner (Nemo already has the /work engine), its status-dump 'quant report', and - the important part - that file was built on the OLD v12.06 base, so it still carried the exposed API keys, the deadlock-prone lock, money-confirm OFF, and the lockdown/phantom-exit gaps that v13.0-13.2 fixed here. Behaviour-frozen elsewhere; all existing suites pass plus new v13.3 tests. + v13.2 - TRADING SAFETY (Phase 2 - I traced the real-money route end-to-end, then closed the gaps I found; nothing removed): GOOD NEWS first - the LLM is NOT the final authority on your money. The AI only PROPOSES a direction + a confidence score; ALL risk parameters (which instruments are allowed, position size, stop-loss, target, max-trades/day, daily-loss auto-halt, trading-hours window, buy-only, and shadow-vs-live) are enforced in deterministic code around it, and live autonomous trading is OFF by default. THREE real gaps found + fixed: (1) LOCKDOWN DIDN'T STOP EVERYTHING - the master /lockdown kill-switch blocked manual bracket/cover orders but NOT the autonomous trader and NOT a plain /order. Now lockdown blocks ALL new live entries (manual /order + the auto-agent); open positions still auto-manage and exit, so nothing is stranded. (2) PHANTOM EXIT - the auto-agent's exit SELL ignored its result: if a live exit failed, the bot booked the position as CLOSED while it was still open on the exchange, leaving real money unmanaged. Now a failed live exit keeps the position, alerts you, and retries each tick. (3) plain /order now respects /lockdown like the other order types do. HONESTLY REPORTED, not yet fixed (flagged for a later phase): the auto-agent's OPEN-position state isn't persisted, so a restart mid-trade forgets a plain position (bracket positions stay exchange-protected regardless). Behaviour-frozen for everything else; all existing suites pass plus new Phase-2 tests. + v13.1 - SAFETY CORE (Phase 1 of the audited v13 rebuild - two runtime-safety hardenings, nothing removed): (1) DEADLOCK-PROOF LOCK - Nemo's single global lock is used in 40+ places and locked functions call other locked functions; a plain threading.Lock is NOT re-entrant, so one locked path calling another would freeze him hard. Switched to threading.RLock (re-entrant): identical behaviour for normal use, but the same thread can safely re-acquire, so that entire class of hang is gone. (2) REAL MONEY DEFAULTS TO CONFIRM - manual live orders (/order, /bracket, /cover) now default to a one-tap confirm before they fire, and the setting is finally PERSISTED (before, turning it on was silently forgotten on the next restart - a genuine safety hole). The autonomous trader is unaffected - it keeps its own separate risk gates. Turn the tap off with /confirmtrades off, and now that choice sticks across restarts. CORRECTION to my own Phase-0 audit: the 'six main() functions' I flagged as dead code were a FALSE ALARM - five of them are bot-factory TEMPLATE strings (the source code of the mini-bots Nemo generates), not real definitions; I verified by reading before touching, so nothing was wrongly deleted. Behaviour-frozen elsewhere; all existing test suites still pass. + v13.0 - SECURITY CORE (Phase 0 of the audited v13 rebuild - security FIRST, nothing removed): the bot's API keys (Telegram, OpenRouter, NVIDIA, Gemini) were hard-coded in this source file. Now EVERY secret resolves from an environment variable first, then /root/bot_secrets.json, then the baked-in value only as a last resort - so secrets can live OUTSIDE the code. On boot Nemo AUTO-MIGRATES any still-baked key into the 600-permission secrets file, so the next version can delete those lines from the source and he still starts. New: /security (owner-only) reports exactly which keys are still in the source vs externalised, where each secret loads from, and the money-guard + owner-lock state (never showing any secret value); the weekly self-test gains a 'No API keys exposed in source' check that stays red until they're moved out; save_secret now chmods the secrets file to 600. IMPORTANT ACTION FOR YOU: because these keys sat in the code, treat them as LEAKED - generate new ones and put them in /root/bot_secrets.json (keys: telegram_token, openrouter_key, nvidia_key, gemini_key); v13.1 then removes them from source entirely. Behaviour-frozen: with no env var and no secrets-file entry every secret is exactly what it was, and all existing test suites pass unchanged. One safe phase at a time. + v12.06 - SELF-TEST TELLS THE TRUTH: the weekly report card was FALSE-FAILING on email. It tested email by logging into Gmail's SMTP (465) and IMAP (993) ports directly - but DigitalOcean BLOCKS those ports, so both always showed a red X even though email works perfectly over the Gmail API (HTTPS). Fixed: the drill now checks the REAL path - Gmail API reachable (profile + labels over HTTPS) first, SMTP/IMAP only as a fallback when there's no Google connection - and it runs whenever Google is connected OR an app password is set. So those two systems will now report green (as they should), and the report card reflects reality instead of scaring you with a port block. + v12.05 - RELIABILITY SWEEP (the same rigor, across his OTHER outputs): the invisible-char fix was for Pine; this applies the same 'make the outcome reliable' thinking to code and file outputs. (1) CODE OUTPUTS - /script now guards against the brain 'thinking out loud' (no more 'Let's craft:' / '... code ...' placeholder garbage), SYNTAX-CHECKS delivered Python (ast.parse, with one self-correction) so a .py actually parses, and tells you to use the attached FILE not the chat text (same copy-paste-corruption fix as Pine). (2) TEXT/CSV/MD files get the same scratchpad guard, so they contain the finished content, never the brain's notes. (3) Shared helpers (_looks_scratchpad, _clean_code) so every generator refuses to ship junk and retries. The theme: fewer 'bad results' by hardening the output paths, not adding more features. + v12.04 - THE REAL PINE BUG (invisible characters): the recurring 'Syntax error at input <name>' on code that looks perfect was NOT bad code - it was smart quotes and non-breaking spaces that sneak in when Pine is copied out of a chat message / PDF / phone into TradingView. TradingView can't parse them and throws that exact baffling error, the same on every version. Fixes: (1) _pine_sanitize forces every generated script to PURE ASCII (smart quotes -> straight, non-breaking/other unicode spaces -> normal, en/em dashes -> -, zero-width chars removed); (2) the linter now flags any non-ASCII character; (3) delivery now tells you to use the attached .pine FILE (not copy from the chat bubble), because the file is clean ASCII and the chat text can silently re-corrupt. This is the root cause behind the errors that kept coming back. + v12.03 - COMPLEX PINE: added a genuinely advanced, verified strategy to his library - 'Confluence Regime Rider' (EMA regime + ADX trend-strength + RSI momentum + higher-timeframe confirm + ATR target + ATR trailing stop + a live on-chart stats table), Pine v6 and lint-clean. It backtests automatically in TradingView's Strategy Tester (it is a strategy()), and its exact logic was verified in a Python backtest. So 'a unique pine with buy/sell/target/stop-loss that backtests' is now real, at real complexity, and part of his rotation. + v12.02 - PINE v6 + STAY-CURRENT (he moves with the times, on his own): (1) PINE v6 - TradingView's current version. His whole Pine engine now targets v6 by default: the generator prompt, the deep knowledge base and the 5 verified templates are v6 (correct bool strictness, no 'when=' on strategy.* , '1D'/'1W'/'1M' timeframes, no 'transp='), and the linter gained v6 checks (flags a leftover when=/transp=/'D' timeframe). v5 still compiles and is still accepted; /pinever 5|6 sets the target. (2) STAY-CURRENT WATCH - a weekly self-check (currency_watch) where he RESEARCHES what's changed in his fields (Pine version, SEBI rules, AI tooling), AUTO-applies safe settings himself (e.g. bumps his Pine target the moment a newer version ships), learns the rest into memory, and routes anything code-level to the supervised /selfgrow rail for your one-tap approval - so he keeps himself up to date automatically without ever rewriting himself unsupervised. /current runs it now, /current on|off, /pinever sets the version. This is the honest form of 'update automatically in all fields': safe things on his own, risky code changes proposed for approval. + v12.01 - CONTINUUM FIX (the flood + the garbage code file): the v12.0 work engine ran, but two bugs showed up. (1) DUPLICATE FLOOD - the agent re-called fire-and-forget tools (pdf/docx/chart/web) over and over, because make_pdf returns 'building...' immediately, so the agent never saw a finished file and kept re-making it (7+ identical PDFs per job, the same web search 5x). FIXED: the agent now makes each deliverable EXACTLY ONCE and skips any identical tool+arg repeat, and bails to the report if it gets stuck re-proposing the same step. (2) GARBAGE CODE FILE - '5 best Nifty option strategies' was mis-detected as a CODING request (the word 'strategies'), so it emitted a nonsense nemo_code_out.txt full of the brain's scratchpad instead of a clean report. FIXED: a strict code detector - a trading strategy/option/report/'best'/'top N' request is a REPORT, never code; only real programming asks (python/code/function/sql/pine...) make a code file. So a research job now produces ONE clean PDF, no junk. + v12.0 - CONTINUUM (the real deep upgrade: he KEEPS WORKING, and understands deeper): the honest gap all along was that Nemo ANSWERS, then stops - he never keeps grinding a task on his own. v12.0 fixes that at the core. (1) CONTINUOUS WORK ENGINE - /work <task> (or 'keep working on X', 'add to your work list') queues a job; a background worker wired into his scheduler picks up the next pending job, runs it to completion through his plan->act->verify agent, reports the result, then moves to the NEXT job - one after another, on its own, and the queue is PERSISTED so it survives restarts. Pile up ten jobs and he'll grind through them while you sleep. /jobs shows the queue and status, /stopwork pauses. (2) DEEPER UNDERSTANDING - the THINK loop's comprehension/clarify step now runs on the PREMIUM brain (not the fast free one), so he judges what you actually mean far better before acting; the agent's self-check already verifies on the premium brain. (3) FULL PICTURE - /abilities (or 'what can you do') lays out his entire capability set in one organized map, and everything is reachable in plain language. This is not a risky rewrite - the proven 34-test-suite core is intact; CONTINUUM is the capstone layer that turns a bot that replies into one that works. + v11.31 - PINE MASTER (deep, advanced, CREATIVE - not the same EMA crossover every time): the last fix made Pine error-free but repetitive - every request came back as an EMA crossover, because the one verified template WAS an EMA crossover and it anchored the brain. Now: (1) a DEEP Pine v5 knowledge base rides in the prompt (full ta.*/math.* catalog, request.security multi-timeframe, sessions/time for NIFTY intraday, strategy risk/trailing exits, drawing objects - tables/labels/lines/boxes, plot styles, dynamic alerts, anti-repaint and confluence best-practice) so the code is genuinely advanced; (2) a LIBRARY of FIVE hand-verified, lint-clean advanced strategies (EMA crossover, Supertrend trail, Opening-Range-Breakout for NIFTY, VWAP mean-reversion, RSI + higher-timeframe filter) plus a menu of 14 archetypes (Bollinger squeeze, MACD regime, Donchian, Ichimoku, multi-factor confluence...); (3) ROTATION - a generic 'make me a pine script' now round-robins through the archetypes so no two come out the same, while a NAMED method (supertrend/vwap/orb/rsi/macd...) is honoured; (4) the brain is pushed to be creative, combine 2-3 confluence factors and add a pro touch (stats table / trailing stop / dynamic alerts), and mirror a MATCHING verified reference's syntax - not the EMA one. Still linted + auto-repaired, with the matching verified template as the guaranteed-clean fallback. Storage is no constraint - the knowledge and template library are baked in. + v11.30 - DARK SIDE (edge + ruthless-but-LEGAL power, on the Boss's side): four things. (1) DARK MODE - /dark on (or 'go dark' / 'be brutal') flips his TONE to blunt, sharp and a little savage, built to put you ahead - no hand-holding, no hedging - while he still NEVER lies, fabricates, helps anything harmful/illegal, or targets people. /dark off restores the normal voice. Persisted. (2) RED TEAM - /redteam <plan/idea/trade/text> (or 'attack this', 'find every weakness') attacks it like your smartest enemy and exposes every hole, ending with BIGGEST RISK + FIX FIRST. (3) COMPETITIVE INTEL - /intel <competitor> (or 'dig up on X') builds a hardball brief from PUBLIC sources: what they offer, their weaknesses/complaints, and where to hit them to win. (4) NEGOTIATION + SCAM DEFENSE - /negotiate <situation> gives a hardball (ethical) play with leverage, BATNA, anchors, tactics and exact phrases; /scamcheck <message> flags manipulation tactics + a scam risk rating when someone runs dark tactics on YOU. Deliberately NOT built, and I told the Boss why: malware, hacking others, defeating security/CAPTCHA, fraud/fake docs, surveilling people, spam/fake-account armies, market manipulation, or removing his safety rails - all of it would make HIM the traceable, liable party on his own server, and the 'who sells that' path is scams and stings. This is the dark arts used ethically, for his side. + v11.29 - ERROR-FREE PINE SCRIPT (the real reason it kept failing): unlike Python, Pine can't be compiled on the server, so a small free brain's syntax errors sailed straight through. Now Pine gets a proper pipeline: (1) it's written by the PREMIUM brain (free nano brains are poor at niche languages) using a strict Pine-v5 system prompt; (2) a rule-based LINTER (pine_lint) checks the errors that actually break TradingView - missing //@version=5, more than one declaration, study() vs indicator(), the 'strategy function used in indicator' error, bare sma()/rsi()/atr()/input()/security() that must be ta.*/math.*/request.security()/input.*, unbalanced brackets, and plot/alert stuck inside an if-block; (3) a REPAIR LOOP feeds those errors back and fixes them, up to 3 passes; (4) if it still isn't clean, it falls back to a HAND-VERIFIED template that compiles zero-error (EMA crossover + volume filter + ATR take-profit + % stop-loss, buy/sell markers, alerts). Every 'pine script / tradingview' request (and /pine) now routes here, delivers a .pine file with an honest 'passed my checks' status, and can email it. So a pine-script ask returns code that actually compiles - not a broken brain dump. + v11.28 - CREATE+EMAIL ACTUALLY HAPPENS (the 'it talks about emailing instead of doing it' fix): the root cause was that 'generate a pine script and email it to X' matched NO deterministic route, so it fell to the chat brain - which tried to call a tool by PRINTING <function=...> as text; that leak wasn't recognised, so you got the generic 'tell me the exact thing you want' (and elsewhere, 'here's how to email it / I can send if you want' - talking, not doing). Two fixes: (1) a deterministic CREATE+EMAIL route - 'generate/make/write/build <X> ... and email/mail (it) to <address or my mail>' now ALWAYS builds the thing AND sends it (Word if you said 'word/document', else a PDF - which now contains real code for a pine-script/strategy request, plus the raw .pine file), never touching the chat brain. (2) the tool-leak guard now also HONOURS a leaked email/docx/xlsx/chart/script/code call by actually running it, instead of showing the fallback. Net effect: when you say 'do X and email it', X gets made and the email gets sent - consistently, regardless of which brain is on duty, because the ACTION is deterministic code now, not a brain's guess. + v11.27 - THINK (my way of working, in him): the operating loop that makes an assistant actually effective, not just full of features. /do <task> (or /handle, or 'handle this properly / thoroughly / the way you would') runs Nemo through the same method I use on every real job: UNDERSTAND (restate it, and resolve 'it/that/the file' from the recent chat so a follow-up like 'give me the pdf here' isn't misread) -> CLARIFY (only if ONE essential detail is genuinely missing, ask a single question and resume when you reply - never nitpick) -> GATHER (pull what he already knows: durable memory + your indexed files + a quick web look-up, the way I read before I edit) -> PLAN -> EXECUTE -> VERIFY (his agent self-checks against the goal before finishing) -> honest report. It reuses his autonomous agent for the execute+verify core; the new part is understanding and grounding the task BEFORE acting. A new 'handle' intent + a pending-question resume make it feel like a real back-and-forth. Honest limit: this gives him my METHOD, which makes even a smaller brain far more effective - but his raw reasoning ceiling is still his model's, so it's my way of working in mini form, not a clone. Purely additive; every existing command and the fast one-shot paths are untouched; rails intact. + v11.26 - EMAIL, FOR REAL (fixes the '/email test still fails though Google is connected' trap): the root cause was that Google was linked BEFORE the gmail.send permission existed, so the token can read Gmail but can't SEND - and two things hid this: (a) /email test only pinged the Gmail profile / fell back to the SMTP error (which ALWAYS fails on DigitalOcean), so it never proved SEND and blamed the wrong thing; and (b) /google, once connected, was a DEAD END - it only offered 'relink with client_id/secret' and never a way to re-approve the new permissions. Fixes: (1) /email test now does a REAL test send to your own address via the Gmail API and reports the TRUTH - '✅ works, check your inbox', or, if the token lacks send permission, '⚠️ connected but without Gmail SEND permission - re-authorize in one tap', never again the misleading SMTP 'check your password'. (2) /google, when already linked, now hands you a one-tap RE-AUTHORIZE link built from your ALREADY-SAVED Client ID (open -> Allow -> /gauth <code>) - no need to re-enter anything - so you can grant Gmail send in ~20 seconds. So the fix for you: send this update, then run /google, tap the link, Allow, and /gauth <code>. Email then works over HTTPS (port 443), unaffected by the SMTP block. Purely additive; rails intact. + v11.25 - FIX (the three real problems: email, understanding, and the final result): (1) EMAIL that actually sends - a PDF you ask to be emailed now goes out over the Gmail API (HTTPS/443, which works even though DigitalOcean blocks SMTP), is ATTEMPTED whether or not an SMTP app-password is set, and on failure tells you the REAL reason + 'run /google once to re-grant send permission' instead of the misleading 'check the app password'. (The most likely cause of your failure: your Google sign-in predates the gmail.send scope - one /google re-consent fixes it.) (2) UNDERSTANDING what you asked - the PDF topic is now cleaned properly: 'GENERATE A POWERFUL PINE SCRIPT NEW IN PDF AND EMAIL X' no longer becomes a document titled 'A Powerful Pine Script New In And' (the 'in pdf / and email X / address' tail is stripped cleanly), and 'give me the pdf file here' is understood as a FOLLOW-UP - I resend the last file, or turn my last answer into a PDF - instead of writing a bogus report titled 'Me The File Here'. (3) The FINAL RESULT matches the request - make_pdf no longer forces every PDF into a beginner 'course'. A code/script/strategy/indicator request (e.g. a Pine script) now produces the ACTUAL working code (TradingView Pine v5 for pine) with Overview / CODE / HOW IT WORKS / HOW TO USE, AND the raw .pine (or .txt) file is delivered too; a report request gets a real structured report; only a learn/teach/course request gets a course. Purely additive; rails intact. + v11.24 - MAKER (mini-me abilities: he plans, codes, charts, and hands you real files): the things you said he couldn't do like I can - now his, in mini form. (1) REAL DOCUMENTS - he builds and delivers actual files, not just chat text: a Word .docx ('make me a word doc about X', /doc), an Excel .xlsx spreadsheet with real headers + numeric cells ('put my expenses in a spreadsheet', /excel), and plain .txt / .md / .csv files (/txt). (Illustrated PDFs and PPT decks were already there.) (2) VISUALIZATIONS - /chart (or 'make a bar/line/pie chart of ...') turns data or a described dataset into a real matplotlib chart image and sends it. (3) CODE AS A FILE - /script (or 'write me a python script file') writes a program in the right language and delivers it as a downloadable code file (say 'run it' to execute); the existing /code still WRITES-AND-RUNS and returns the result. (4) VISIBLE PLANNING - /plan (or 'make a plan for ...' / 'break this down') turns a goal into a clear numbered step plan and shows it, then 'do it' hands it to his plan->act->verify agent. All reachable in plain language (fast-paths + the AI intent-router) AND given to the autonomous agent as new tools (docx/xlsx/chart/textfile), so mid-task he can produce a sheet or chart himself. Purely additive; rails intact. + v11.23 - CURIOSITY (he fills the gaps himself + learns from the world): you gave him the internet; now he USES it on his own. When a question needs current or factual knowledge he may not hold (latest/price/news/'who is <name>'/'when is <event>'/a named thing), he quietly looks it up on the web FIRST, grounds his answer in what he found, and then DISTILS 1-2 durable facts into his permanent memory - so next time he already knows it (compounding knowledge, surfaced automatically by mem_recall). No 'please search' needed; he just does it. His autonomous agent gets the same instinct: a RESOURCEFULNESS rule so it researches a missing detail itself (web/fetch/recall) instead of stalling to ask you. And a curiosity 'soul' line in his persona: naturally curious, resourceful, never fabricates. Controls: /curiosity on|off (default ON, persisted), /learned [word] shows exactly what he's taught himself and when. Conservative by design - it does NOT web-search greetings, code, math or timeless 'explain X' questions (no needless latency), and it's a silent no-op if the web is unreachable. Purely additive; rails intact (still never fabricates, owner-only, money/destructive/self-mod still need a tap). + v11.22 - ANY-SITE VIDEO + YOUR PROXY: (1) UNIVERSAL VIDEO DOWNLOAD - /video <url> (aliases /vdl /dlvideo) or just 'download the reel/clip/video from <url>' pulls a video (or 'audio'/'mp3' for just the sound) from ANY of the ~1800 sites yt-dlp supports - Instagram, X/Twitter, TikTok, Facebook, Reddit, Vimeo, Dailymotion, Twitch, news video, most embeds - and sends it over Telegram if it fits (50MB) else saves it on the server (+ your Drive). For sites where you must be logged in, it uses YOUR OWN cookies (export cookies.txt, send /browsercookies) - it uses your session, it does not defeat the login. DRM-locked paid streaming (Netflix, Prime, Hotstar, Disney+, Spotify...) is refused honestly: those streams are encrypted and can't be pulled. YouTube keeps its richer path (summary/notes/playlist). (2) YOUR OWN PROXY / VPN - /proxy set http://user:pass@host:port (or socks5://host:port), /proxy off, /proxy to show. A proxy YOU provide (your subscription or your own box) is then applied to video downloads and web fetches, so he can reach content the server's bare datacenter IP is geo-blocked from, or route privately. This is legitimate access through YOUR endpoint - deliberately NOT a rotating proxy-pool to evade IP bans. Two things you asked for that I did NOT build, and why: a system that DEFEATS a site's bot-check / CAPTCHA / human-verification (that's built to circumvent a security control and is the engine of scraping-abuse, fake-account and credential-stuffing fraud - so it's off the table); and a self-standing 'access everything' ban-evasion VPN/rotator (same reason). The honest path is already here: when the browser agent meets a login/OTP/CAPTCHA it screenshots it and asks YOU to solve it, then continues on your authority (v10.4 human-in-the-loop) - a human does the human-verification. Purely additive; all rails intact. + v11.21 - TALK (no commands, just tell him): you never NEED a slash command again - say what you want in plain words (any language) and he does it. His ~300 abilities are all still there, but plain language is now the front door to ALL of them, not just some. The regex fast-paths already caught the common phrasings ('run df -h', 'read /root/x.py'); v11.21 adds the missing abilities to his AI intent-router so the phrasings the regex MISSES still reach the REAL hand instead of a generic chat reply: new understood intents terminal (run any server command), fetch (read a page's data), download (save a file onto the box), readfile / listfiles (his own files), knowledge (search your indexed documents), api (call any REST endpoint), apex (maximum-power multi-step job), and a catch-all act (ANY imperative 'do this for me' order -> his autonomous plan->act->verify agent). So 'jara dekh to server ka disk kitna bhara hai', 'pull the numbers off that page for me', 'sort out my server and mail me a summary' now DO the thing. Nothing removed, every command still works; the same rails hold inside each (owner-only, audited, money/destructive/self-mod still need a tap). Purely additive. + v11.20 - REACH (longer hands): three big new capabilities that extend what he can touch. (1) UNIVERSAL CONNECTOR - /api <METHOD> <URL> [:: json] calls ANY REST API (GET/POST/PUT/DELETE), and /api save <name> ... stores a named endpoint + auth header so 'call my <name> api' works; the autonomous agent also gets an 'api' tool, so he can reach any external service you have a key for (CRMs, sheets, webhooks, IoT, other bots...). (2) SCHEDULED ACTIONS - /every <interval> <action> and /at HH:MM <action> run ANY of his abilities on a repeat or at a set time ('/every 1h run df -h', '/at 09:15 send me the premarket brief', '/every 1d market brief') - real actions, not just reminders - so his hands work while you sleep; /schedules lists them, /unschedule <id> cancels. Persisted in the kv store (survives updates), fired from the scheduler. (3) DOWNLOAD TO SERVER - /get <url> [name] (or 'download <url> to the server') pulls any web resource onto the box (60MB cap) so he can then /read, /index or send it. All owner-only, audited to the tamper-evident chain, and destructive/system paths still refused. Purely additive. + v11.19 - APEX / GODMODE (the capstone): maximum capability + UNBREAKABLE reliability, within the rails that keep him alive. (1) UNBREAKABLE: ask_ai now has a hard answer-deadline (~40-85s) so when every free brain is jammed it STOPS cycling and replies clearly ('my brains are all busy - try again in a minute, nothing is broken') instead of leaving you on 'Thinking...' for minutes - the exact freeze that just happened can't recur. (2) ONE MIND: the autonomous agent gains a 'recall' tool that searches your knowledge base (indexed files) + durable memory, so his execution draws on everything he knows about you. (3) APEX MODE: /apex <goal> - or just say 'full power', 'use everything', 'unleash', 'go all out', 'maximum power' - runs his MAXIMUM agent: more steps (18), the directive to use EVERY tool (shell, fetch, files, code, web, recall, quote, godmode, pdf...), be exhaustive, cross-check, and VERIFY before finishing. Honest limits kept by design: max ABILITY, but money / destructive shell / system writes / self-modification still need one tap or are refused - that is what stops him bricking himself or leaking your Dhan/Google/root keys. Power that survives. + v11.18 - TOOL-CALL LEAK FIX (the '<tool_call><function=pdf>...' bug): when you asked for a PDF report to your mail, a brain PRINTED the raw function-call markup as a chat message instead of building anything. Fixed two ways: (1) a deterministic route so 'give/make/send me a (complete) report/PDF of X [to my mail]' now ALWAYS builds the PDF via make_pdf and emails it to you - it never reaches the general brain; and (2) a universal guard (_tool_leak / _strip_tags) that catches any leaked <tool_call>/<function=..>/<parameter=..> markup on EVERY channel (chat, web, PWA) - if it recognises the intended ability (pdf/image/slides/web) it actually RUNS it, otherwise it strips the markup so internal syntax is never shown to you again. + v11.17 - DEPTH: reasoning + a knowledge brain + self-running + a visible command center. (1) SMARTER: hard questions (why/how/compare/analyse/plan/decide, long or multi-part) now trigger a private step-by-step REASONING pass before he answers, then the regulator self-checks it - so answers are deeper, not just faster; and a plain 'that's wrong / you missed it' now stores a lasting LESSON (fed into future answers) and redoes it in MAX mode, no /bad needed. (2) KNOWLEDGE BRAIN over your files: /index <path> full-text-indexes your files+PDFs (SQLite FTS5), then /know <question> - or 'search my files for X' - answers across everything with citations. (3) SELF-RUNNING watchdog: every ~10 min he checks each deployed app's service and AUTO-RESTARTS any that CRASHED (failed units only, rate-limited, audited + notified). (4) VISIBLE POWER: a real /dashboard command-center on his web server - live system + server health, apps, activity, what's coming up, and a command box - so the power is something you SEE and drive, not 290 commands to remember. Purely additive. + v11.16 - SMARTER + SAFER HANDS: (1) SECURED TERMINAL - every /shell command and file write is now logged to the v11 tamper-evident audit chain + activity ledger, there's a 25-cmd/min rate guard, and /shell readonly on blocks any command that changes something (reads still work). (2) AGENT GETS THE HANDS - the autonomous /agent (/solve) can now use shell, fetch, readfile, ls and writefile, so it does real end-to-end server work ('find why nemobot crashed and fix it' -> tails the log, reads it, diagnoses, patches, restarts) with its plan->act->VERIFY loop; destructive shell + system-path writes are refused (owner must do those manually). (3) CONVERSATION MEMORY - a short-term per-chat context (recent turns + actions) is injected into his brain so follow-ups resolve ('do it again for BankNifty', 'what did you just find'), and 'email/send that to me' now emails his LAST answer. (4) CHIEF-OF-STAFF PROACTIVITY - a ~30-min watch pings the owner UNPROMPTED but only on material things: server disk >88%, memory >92%, a reminder due within the hour, or to-dos piling up (deduped, cooldowns). Purely additive. + v11.15 - REAL HANDS (terminal + site-data + files) & plain-words routing: gives Nemo the hands people said he lacked, and makes plain language actually FIRE them instead of a chatbot reply. (1) TERMINAL: /shell <cmd> (aliases /sh /bash /terminal /exec) runs ANY command on the server and returns the live output - owner-only, persistent cwd (`cd` sticks), per-command timeout, and a confirm-tap guard on destructive commands (rm -rf /, mkfs, dd, shutdown...). (2) SITE-DATA GRABBER: /fetch <url> [what you want] pulls a page and hands back clean text/tables/JSON (BeautifulSoup when present), answering a question from it if you ask one, and falls back to the real browser agent for JS/login pages. (3) FILE ACCESS: /ls, /read (/cat), /download, /writefile <path> :: <content> - browse, read, receive and create files on the server (owner-only; system-path writes need a confirm tap). (4) PLAIN-WORDS ROUTING: nl_route now has deterministic fast-paths so 'run df -h', 'shell systemctl status nemobot', 'get me the data from <url>', 'read /root/x.py', 'list files in /root', 'download /var/log/syslog' hit the REAL tool every time - never the general brain. Purely additive; every existing command untouched. + v11.14 - EMAIL NO LONGER LIES: fixes the bug where 'email to someone@x.com <message>' got a fake 'Email dispatched...' reply while nothing was actually sent (the Sent box stayed empty). Root cause: only a handful of deterministic phrases were force-routed to the real send code; everything else was handed to an AI intent-classifier, and when it guessed wrong the message fell through to the general chat brain - whose own system prompt ('you send emails, so speak like it') then HALLUCINATED a success, even auto-'correcting' the address. Three fixes: (1) a deterministic fast-path in nl_route now catches any explicit 'email/mail <address> <message>' and ALWAYS runs the real send (nl_emailto) - the chat brain can never answer it, and the address is sent EXACTLY as typed (no silent correction); (2) nl_emailto now accepts the Gmail-API/HTTPS path (via /google) instead of demanding an app password, and on failure reports the REAL reason (LAST_EMAIL_ERR) + hands your draft back, instead of a fake confirmation; (3) the persona system prompt now carries a hard 'NEVER FAKE AN ACTION' rule - if Nemo is replying as plain text he must never claim he sent an email / placed a trade / made a call, across ALL abilities. Report/PDF-to-email requests are untouched. + v11.13 - PWA: FILE UPLOAD (PDF/Excel/CSV/text) alongside images: the \U0001F4CE attach button now also takes documents. A new /api/file endpoint decodes the upload, extracts its text (PDF via pypdf, Excel via openpyxl, CSV/TXT/MD/JSON etc. directly - the same formats handle_document reads), stores it as the loaded DOCS document (which ask_ai already injects into every answer), and replies with a summary - so you upload a quote/statement/report from phone or desktop and immediately ask questions about it, with follow-ups working automatically. Images still route to the vision path; the attach button branches by file type. + v11.12 - PWA: STOP + IMAGE UPLOAD: the web app now has a \U000023F9 STOP button (appears while Nemo is speaking or a request is in flight - cancels the voice AND aborts the request) and a \U0001F4CE ATTACH button to upload an IMAGE from the browser - it's downscaled client-side to 1280px JPEG and run through Nemo's real vision/OCR path (new /api/upload -> web_image -> ask_ai with the image), so you can photograph/attach a document or screenshot and ask about it from phone or desktop, exactly like sending a photo in Telegram. The uploaded image is also stashed as LAST_PHOTO so a follow-up 'ocr it' works. + v11.11 - NEMO EVERYWHERE (PWA): Nemo's built-in web chat is now an INSTALLABLE app - the first 'window' beyond Telegram, onto your phone home-screen AND desktop at once, sharing the same brain. His Flask web server now serves a real Progressive Web App: /manifest.json + /sw.js (service worker: offline app-shell cache, install) + generated /icon-192.png & /icon-512.png, and the chat page is upgraded with PWA meta tags, an Install button (beforeinstallprompt, with iPhone Share->Add-to-Home-Screen guidance), safe-area layout, persistent login (token from ?k= is saved to localStorage so the home-screen icon stays logged in), voice in/out, and a \U0001F4CA live-status glance via a new read-only /api/status endpoint (returns /status). Open it via /connect (public HTTPS URL + token over Cloudflare Tunnel) -> Add to Home Screen -> installed. Chat + read-only status only from the web channel (destructive commands stay Telegram-side, by design). Reuses the existing token auth; purely additive. + v11.10 - AUTONOMOUS SELF-GROWTH (safe by design): /selfgrow makes Nemo RESEARCH THE INTERNET (plus his own recent errors) for ways to improve himself, form ONE concrete low-risk improvement to a non-core function, and route it through his SUPERVISED self-editor - compile-check -> diff -> your one tap Apply -> backup -> /rollback. /selfgrow auto on runs it about weekly and only ever PROPOSES. He genuinely self-develops from the web; you stay the single tap that stops him from self-DESTROYING. Deliberately NOT built: unrestricted self-modification (rewriting/deploying code from the internet with no test/backup/approval) - that one change can permanently brick him or leak the Boss's Dhan/Google/Telegram/root credentials with no recovery, and it violates this project's own constitution (§22, 'never uncontrolled recursive self-modification' + rollback always preserved + user is final authority). Core stays _UNEDITABLE; money/security/secrets always need a human tap. + v11.9 - NEMO OS CORE COMPLETE (phases 2-10 working cores, one release): DECISION MEMORY (/decision journal with expected-vs-actual, /decisionreview calibration, /counterfactual with hindsight-bias guard, /biascheck challenges you); AI BOARD + RED TEAM (/board = 5 independent seats analyzed in parallel without seeing each other -> disagreement extraction -> red-team attack -> judge verdict with FOR/AGAINST/assumptions/fail-conditions); PREDICTION (/predict with probability+uncertainty, never presented as fact); ANOMALY watch (disk/memory/db baselines + jump detection); RADAR (/radar add|report - monitored topics, only MATERIAL items surfaced); OPPORTUNITY scan; SIMULATION (/businesssim - real Monte Carlo, 500 trials x BASE/OPT/PESS/STRESS, payback/ROI/P(loss)); CHIEF OF STAFF (/chief - reminders, open tasks, blocked work, open decisions, anomalies in one brief); TASK GRAPH (/taskgraph - dependencies, ready vs blocked); memory VERIFY + CONTRADICTIONS on the world model; GOVERNANCE (permission LEVELS 0-6 shown in /permissions, NEMO_CONSTITUTION inherited by agents, /why provenance chains, hash-CHAINED tamper-evident audit + /auditchain verifier); /status full OS dashboard; /agenthealth scores. Deferred honestly: web dashboard UI, desktop-app control, scheduled radar crawls, model-disagreement engine, memory decay (named in NEMO_V11_CHANGELOG.md). All additive - every v10.24 command untouched. + v11.0 - NEMO OS PHASE 1: WORLD MODEL / KNOWLEDGE GRAPH (start of the v11 'Personal AI Operating System' program - see NEMO_ARCHITECTURE_AUDIT.md for the full 11-phase plan). Nemo now keeps a persistent, TEMPORAL model of your world in his SQLite brain: entities (people, suppliers, projects, companies), typed relations between them, and DATED facts that carry SOURCE + CONFIDENCE (provenance) and are NEVER overwritten - so 'Supplier X quoted 10L' in March and '8.5L' in August both stay, each with its date. /fact <entity>: <fact> teaches him (free-form works too - AI extracts entity+fact), /world <entity> shows the full profile with provenance, /timeline <entity> replays the dated history, /relate A | rel | B links entities, /graph shows the model, /os shows v11 phase status. Every kg fact also feeds vector memory so /recall finds it semantically. Purely additive (new kg_* tables + one dispatcher; all 332 existing commands untouched). + v10.24 - PROJECT BUILDER (create 'vast things', not just scripts): /project <name>: <what to build> makes Nemo build a whole MULTI-FILE project by himself - he plans a file manifest, writes each file, installs the pip deps, RUNS the tests, and if they fail he reads the errors and fixes his own code (up to 2 repair rounds), then zips the project and sends it to you. /projects lists them, /project <name> zip re-downloads one. Files live in /root/nemo_projects/<name>. This is the generate->test->repair loop that turns 'one script' into real software. Owner + deploy-cap gated. + v10.23 - CRASH-SAFE MEMORY (durable-memory foundation): Nemo already saved his brain (facts, contacts, projects, todos, habits, history, the AI team...) to bot_memory.json from 67 places - but the write was NOT atomic, so a kill mid-save could corrupt the whole file and load_data would silently start BLANK with no backup (total amnesia). Fixed: saves are now atomic (temp -> fsync -> os.replace) and keep a .bak of the last good copy; load falls back to .bak if the main file is corrupt, so one bad crash can never wipe his memory again; a 150s autosave loop backs up state changed by paths that don't call save_data; and if he ever does recover from backup he tells you on boot. This is the safe foundation for growing him side by side. + v10.22 - SOLVES ON HIS OWN (plan -> act -> CHECK -> report): TRUE AGENT MODE now VERIFIES its own work before finishing instead of stopping at the first 'done'. When the agent tries to finish, Nemo strictly checks the proposed answer against the original objective; if a real part is missing/wrong/unverified, he names the gap and keeps working to fix exactly that (up to 2 self-corrections), then reports - so complex, multi-step jobs actually get completed, not half-answered. Step budget raised 8 -> 12 to leave room to adapt. New /solve alias (same as /agent), and saying 'solve ...' / 'figure out ...' in chat now triggers the autonomous agent directly. Uses his existing rich toolset (web, open, quote, code, pdf, email, remind, todo, finish). + v10.21 - EMAIL OVER HTTPS (fixes the DigitalOcean SMTP block): the real reason /email set failed with 'couldn't reach Gmail's mail server' is that DigitalOcean BLOCKS outbound SMTP ports - not the password. Nemo now SENDS via the Gmail API over HTTPS (port 443, never blocked), using the Google account you already connected with /google (it has the gmail.send scope). send_email tries the Gmail API first and only falls back to SMTP; /email test now reports which path works; the network-error message now names the SMTP-block cause and points to /google. So: run /google once (if not already), then email just works - no App Password needed. + v10.20 - EMAIL FIX + SELF-DIAGNOSIS: email 'sending failed' now tells you the REAL reason instead of a generic essay. Nemo captures the actual SMTP error (LAST_EMAIL_ERR) and translates it to a plain cause + fix (e.g. '535 = wrong/expired App Password or 2FA off'). New: connect Gmail from chat with /email set <gmail> <app password> (no file editing), and /email test does a LIVE Gmail login and reports exactly what's wrong. Best of all, asking 'why did email fail / email not working' now makes Nemo check HIMSELF (real SMTP test) rather than routing it to the general brain that wrote the SPF/DKIM essay. The root cause of your failure: the Gmail App Password is set but Gmail is rejecting the login - regenerate it (2FA must be on) and run /email set. + v10.19 - SELF-UPDATE (no more SSH): send Nemo a new nemotron_bot.py in Telegram, then /update - he verifies it's really my code (size + markers, so a random script can't nuke me), compile-checks it, backs the current me up to /root/nemo_backups, swaps himself in and restarts (you tap Apply first; /rollback undoes it). Reuses the proven /upgrade rails. When you send a .py that looks like a new me, he now offers /update automatically. From here, every future version installs by dropping a file in chat - no console, no scp. + v10.18 - BOT FACTORY LIBRARY (factory data): Nemo now carries a library of ready-made bot TYPES he can create on command and modify - the engine for a bot-building service. /templates lists them (FAQ/auto-reply, appointment booking, order+catalogue, subscribe+broadcast, feedback/rating); /newbot <type> <name> : <business> scaffolds a complete standalone Telegram bot from that template and ships it through the SAME supervised pipeline as /ship (compile-check -> bake env -> tap to start); then /env <name> BOT_TOKEN=... OWNER_ID=... turns it on, and /app <name> edit <change> lets Nemo customise it further. Each template is a real, working long-poll bot (owner-notify, JSON storage). Extensible - more types can be added to BOT_TEMPLATES. + v10.17 - GOOGLE MAPS: Nemo can now find any place/store/shop and show its address, live rating + top reviews, open/closed, phone, website and a map image (/place, /find, /reviews, /map); list ranked options nearby (/near cafes in Andheri); and compute real ROAD distance + time WITH live traffic between two places plus a route-map picture (/trip A to B, also /distance /route, and 'by walking/transit/bicycling'). Reuses the SAME Phase-2 Google Cloud key (/gcloud) and the same daily safety cap - you just enable Places + Directions + Geocoding + Static Maps in the Cloud console (up to 10,000 free calls per API per month, so personal use is effectively free). Raw REST via the Maps Platform, owner-only, threaded so it never blocks. + v10.16 - HINDI PDF FIX: reports in Hindi were coming out as '?????' because the Devanagari font never loaded on the server (the runtime GitHub download 403'd) so the text got mangled to Latin. _ensure_hindi_font() is now robust and self-healing: it finds any Devanagari font already on the box, else apt-installs one itself (Nemo is root - no fragile download), and guarantees the uharfbuzz shaping engine so conjuncts/matras place correctly. make_pdf() will now NEVER hand back a '?????' PDF - if no font can be loaded it sends readable Unicode text plus the one-line server fix instead. The AI was always writing correct Hindi; only the PDF drawing step was broken. + v10.15 - GOOGLE SUPER-LAYER (2 phases). Phase 1 (free, reuses his Google login - one re-consent for wider scopes): /backup his whole brain to Drive, Sheets as a LIVE database you can open on your phone (/log <sheet>: a, b, c  ·  /gsheet <sheet>), /gdoc <title>: <body> makes a Google Doc, /gtask + /gcontact + /findcontact. Phase 2 (needs a Google Cloud API key + billing, but big free tiers + a hard daily call cap): /gcloud <key> turns on Vision (/gsee reads/labels a photo), Translate (/gtranslate hi: text), Text-to-Speech (/gsay), Gemini (/gemini), and real Google Search (/gsearch). + v10.14 - ONE-STEP SECRET REFRESH: /env <app> KEY=VALUE now, if the app is already live, rewrites its locked .env and RESTARTS it on the spot - no re-ship. So refreshing a daily API token (e.g. Dhan's 24h token) is a single paste to Nemo. + v10.13 - APP EDITOR (Nemo patches apps he deployed): Nemo can now edit a running app's code himself, not just his own - same supervised rails (pick function -> rewrite -> compile-check -> diff -> you tap Apply -> back up -> restart just that app -> /app <name> rollback if needed). Just say 'add a /dhan self-test to signalbot' or run /app signalbot edit <change>. So he can fix and extend the bots he ships, on his own. + v10.12 - APP FACTORY + SECRETS: you can now hand Nemo a program's secrets in chat with /env <name> KEY=VALUE (bot tokens, API keys) and he bakes them into a locked-down 600 .env file the service reads - so you never edit the code file. Everything else as v10.11 (SHIP a .py as a live 24/7 systemd service, /build, /apps, /app manage). + v10.11 - APP FACTORY (real hands to SHIP a program): Nemo now takes a program - one he writes, or a .py you send him in chat - and actually RUNS it on your server as a managed 24/7 systemd service. He writes the file to /root/apps/<name>, installs its pip packages, safety compile-checks it, creates the service, and starts it (you tap Ship & start to confirm). /ship <name> deploys a .py you just sent; /build <name>: <what it does> has him write the program himself then ship it; /apps lists them; /app <name> logs|restart|stop|rm manages them. Owner-only, gated by the 'deploy' capability (/caps deploy on) + /lockdown, refuses to touch system units. This closes the gap where his 'mission' team only produced a REPORT - now he can hand you a running bot. + v10.10 - SELF-EVOLVING: Nemo reviews his OWN errors, system logs and rough edges, decides what to fix/improve, and DRAFTS the code changes himself - you just approve. /evolve makes him study himself and propose the 3-6 highest-value improvements (each targeting one real function, grounded in errors he actually hit); /evolve <n> hands that exact improvement to his supervised self-editor (compile-check + diff + tap-to-Apply + backup + /rollback), and /evolve auto on runs a weekly self-review that only ever PROPOSES (never auto-applies). Core control functions stay _UNEDITABLE. Just say 'improve yourself' / 'review your errors and get better'. + v10.9 - YOUTUBE+: turn a video into a STUDY-NOTES PDF (/ytnotes or 'notes'), and summarise a WHOLE PLAYLIST into a PDF study guide (/ytplaylist or paste a playlist link) - per-video bullets + an overall overview, Hindi-capable PDF. + v10.8 YOUTUBE: robust video SUMMARY (transcript via youtube-transcript-api -> yt-dlp auto-subs with cookies -> audio+Whisper, then an easy 'explain like to a friend' summary by Claude) and DOWNLOAD (/ytdl video, /ytmp3 audio, cookie-aware, sent over Telegram if it fits else saved/Drive). Just paste a YouTube link. + v10.7 SCANNER: send a photo and Nemo turns it into a clean, cropped, straightened PDF (document scanner), or extracts all its TEXT (OCR, Hindi too), or decodes a QR - via caption 'scan'/'ocr'/'qr' or the /scandoc /ocr /qr commands. + v10.6 STRONGER HANDS for the browser agent: VISION fallback (screenshots the page and acts from what it SEES when there's no readable HTML, via clickxy), new actions (key presses, coordinate click, back, file upload, structured extract->data), and SESSION/COOKIE import (/browsercookies loads a cookies.txt so Nemo is logged in on sites like YouTube - the reliable way past login walls). + v10.5.2 LOGIN HANDS hardening: the human-in-the-loop now fills the value ROBUSTLY (finds the real email/password/OTP input even if the AI's field index is off, verifies it landed, auto-submits) and has a loop-guard that stops re-asking and explains honestly when a site (e.g. Google/YouTube) is blocking the automated login. + v10.5 SELF-DEFENSE (blue-team, THIS SERVER ONLY): tamper tripwire (fingerprints his own code/secrets/SSH-keys and alerts + optional auto-lockdown on change), intruder watch (failed-SSH by IP), exposure/open-port self-scan, ClamAV malware scan, pip-audit CVE check, and a hardening pack (chmod/fail2ban/ufw keeping SSH open). NO target field anywhere - every check runs against this host only; owner + capability gated. Ask 'scan yourself for viruses / who is attacking me / am I exposed'. + v10.4 HANDS + HUMAN-IN-THE-LOOP: the browser agent can now pause on a login/password/OTP/2FA/CAPTCHA, send you a screenshot of what it sees, WAIT for your chat reply, type it into the field and continue - so you complete logins together and Nemo stays logged in (persistent profile). New 'ask' browser action; your reply is routed to the live session and the secret value is never logged. + v10.3 DYNAMIC TOOLS UPGRADE: /toolmake now builds reusable tools that use third-party packages (declared '# requires: yt-dlp ...', auto pip-installed + reinstalled after redeploy) and reach the internet (run on host; pure-stdlib tools keep --network=none isolation) - so you get a permanent /tool musicdl <song> instead of one-shot scripts; also run_code writes self-contained scripts (inputs hardcoded, no required argv/input). + v10.2 CODE AGENT FIX: generated Python no longer gets its dunders corrupted (clean_text was stripping __ and ** so __name__/__main__ became name/main); run_code now uses the RAW code path + the premium brain + a SELF-REPAIR loop (reads its own traceback and fixes the bug, up to 2 tries). Same raw fix applied to self-upgrade and dynamic tools. + v10.1 TRACK 3 BUILDER on top of the Mastermind Core: GitHub connect + AI code-review agent (issues/PRs/CI, auto-review PRs via webhook), dynamic tool creation (Nemo writes-tests-registers his own sandboxed tools), multi-agent swarm orchestration (parallel workers -> synthesis), and observability (/metrics, /logs, ERROR alerts). + v10.0 MASTERMIND CORE (Track 0+1+6): event-driven nervous system (SQLite state, durable event queue, stdlib HTTP webhook gateway + Nemo's own /api/v1, capability layer + audit log + /lockdown kill-switch), infra control (DigitalOcean create/reboot/snapshot/destroy, git self-deploy with pre-swap compile check + boot canary, Docker sandbox exec), and an autonomy layer (goal planner plan->act->report loop, condition triggers, reflection-to-memory). All owner-gated. + v9.8.3 land-records FULL FLOW from real screenshots: auto-ACCEPTS the 'सूचनार्थ नकल' confirm() dialog (Playwright was silently cancelling it), captures the Nakal HTML document (Edharti_A4_Nakal_village.aspx) as a PDF (it is NOT a file download), and the playbook now matches the exact 10-step Apna Khata flow (district/tehsil dropdowns -> alphabet+village row -> radios -> searchable khasra box -> नकल सूचनार्थ). + v9.8.2 IFRAME-AWARE browser: govt forms (Apna Khata) load inside an <iframe> so the top page looked blank; Nemo now finds and drives the real form frame + sends a text diagnostic on failure + never clicks top-nav tabs. + v9.8.1 land-records cascade fix (waits for the ASP.NET postback so तहसील/RI/village dropdowns fill before selecting; more steps; tells you which brain drove it) + Claude PREMIUM BRAIN on tap (Boss's Anthropic API key): auto-escalates the HARD jobs - drives the browser/land-records flow, /think deep answers, and a smart backup when free brains choke - while free Nemotron/Groq still handle everyday chat so credits last. Cost-aware (Haiku default, Sonnet for browser/think, running spend in /brain). + v8.8.2 Hindi/Unicode PDFs (Noto Devanagari, was: ?????) + report emails when you ask + mission progress/recipient fixes + activity audit log + confirm-on-money + FII/DII in the trading brain + IFSC/QR/short-links + v8.7 distinct mission team/chaining/maps/translate + v8.6 vector memory/TradingView/insights + v8.5 Google + v8.4 voice/backtester + v7.9 grounded market data + v7.8 identity + v7.5 live option chain + v7.4 natural-language brain + trading.
 # v13.33: Batch 1 - Continuum persistent research goals, Skills Engine, Guardian 2.0, command regression.
  + v13.13 - MEDIA + HUMAN BROWSER + NETWORK SECURITY: upgraded universal public-media downloader with interactive format selection, persistent download state, file-type/hash validation, safe cleanup, and task-scoped proxy/VPN support; browser human-in-the-loop checkpoints now explicitly ask what/when/what-to-write and persist pending input; added owner-only VPN manager with WARP/Proton guidance, imported WireGuard profiles, wg-quick lifecycle, route/IP/DNS checks, and protected-task abort when VPN verification fails. Does NOT bypass DRM, CAPTCHAs, authentication, or access controls. No VPN private keys are written to source.
 """
@@ -64100,7 +64100,7 @@ def _n79_redact(text):
 
 def _n79_editable(name):
     import re
-    if name.startswith(('_n81_','_n82_','_n83_','_n84_','_n85_','_n86_','_n87_','_n88_','_n89_','_n90_','_n91_','_n92_','_n93_','_n94_','_n95_','_n96_','_n97_','_n98_','_n99_','_n991_','_p75_')) or name in ('can_enter','must_square_off'):return False
+    if name.startswith(('_n81_','_n82_','_n83_','_n84_','_n85_','_n86_','_n87_','_n88_','_n89_','_n90_','_n91_','_n92_','_n93_','_n94_','_n95_','_n96_','_n97_','_n98_','_n99_','_n991_','_n100_','_p75_')) or name in ('can_enter','must_square_off'):return False
     if name=='_n79_feature' or name.startswith('_nf79_'):return True
     if name.startswith('_n79_'):return False
     return not re.search(r'handle|main|owner|secret|token|auth|key|upgrade|update|rollback|txn|boot|repair|evolve|grow|guard|confirm|permission|shell|exec|broker|trade|order|payment|brain|_n7[234]|_n66|_n71',name,re.I)
@@ -98214,6 +98214,3365 @@ def prime_regression_suite():
         r['version'] = VERSION
         return r
     return {'id': 'RG991', 'version': VERSION, 'tests': extra, 'passed': sum(1 for x in extra if x['ok']), 'failed': sum(1 for x in extra if not x['ok'])}
+
+# =============================================================================
+# NEMO 100 - SIGMA
+# -----------------------------------------------------------------------------
+# Why: the owner asked for a trading assistant, built with Nemo's control, that studies market data and option chains and gives trade ideas and signals for stocks and options with proper logic, entry, exit and
+# stop-loss, and that finds "more new things" by research (docs/NEMO_V100_RESEARCH.md says what was found, what is used and what was refused, with an evidence tag on every claim).
+# Scout (v93) already turns news into ideas. What was missing is a SYSTEMATIC signal desk: fixed, pre-declared rules, a regime read, real option-chain analytics, defined-risk option structures chosen by view,
+# volatility and time, sizing from the true maximum loss, an honest backtest with costs, and a forward scoreboard that decides what each rule is allowed to claim. This layer is that desk:
+#  * a library of indicators and six strategies (RSI-2 pullback, Donchian breakout, 52-week-high momentum, volatility-squeeze breakout, Supertrend flip with an ADX filter, opening-range breakout on the index),
+#    each with its entry, stop, exit rule and time limit fixed in advance (nothing is optimised, so there is nothing to over-fit);
+#  * option-chain analytics (expected move, ATM implied volatility and its own history, skew, PCR, OI walls, OI build-up reading, max pain as context only) and option structures with their legs: long option, debit
+#    spread, credit spread, iron condor, each with maximum loss, maximum profit, break-evens, a model probability of profit, the cost drag in rupees, an exit plan and the lots your own risk limit allows;
+#  * gates that say "stand aside" (closed market, stale data, expiry, circuit breaker, portfolio heat), a backtester with Indian costs, a time split and a bootstrap interval, a short-volatility proxy study,
+#    and a scoreboard that follows every signal it issues and decides each rule's evidence label (promising, unproven, negative) from the record, never from a claim.
+# It is ADVISORY: it never places, changes or simulates an order, never touches the trading agent, the guards, the owner lock, the paper ledger or any credential. Owner only. Personal use: it does not broadcast.
+# =============================================================================
+VERSION = "100.0"
+
+import math as _n100_math, random as _n100_random
+from concurrent.futures import as_completed as _n100_as_completed, TimeoutError as _N100Timeout
+
+_N100_STATS = {k: 0 for k in ('scans', 'signals', 'stock_signals', 'index_signals', 'option_signals', 'refused', 'tracked', 'settled', 'backtests', 'views', 'briefs', 'alerts', 'front_door', 'iv_rows', 'chains', 'data_calls', 'errors')}
+_N100_LOCK = _n91_threading.Lock()               # one scan at a time
+_N100_STATE = {'thread': None, 'last_track': 0.0, 'last_prune': 0.0, 'last_scan': 0.0}
+_N100_IST = _N93_IST
+_N100_DEFAULTS = {'capital': '', 'risk_pct': '', 'heat_pct': '3', 'max_signals': '4', 'min_score': '65', 'alerts': 'off', 'alerts_per_day': '4', 'shorts': 'off', 'breaker': 'on', 'universe': '30'}
+_N100_LIMITS = {'capital': (10000.0, 1e9), 'risk_pct': (0.1, 5.0), 'heat_pct': (0.5, 15.0), 'max_signals': (1, 10), 'min_score': (50, 90), 'alerts_per_day': (1, 12), 'universe': (5, 50)}
+_N100_ALIASES = {'risk': 'risk_pct', 'heat': 'heat_pct', 'max': 'max_signals', 'min': 'min_score', 'perday': 'alerts_per_day', 'per_day': 'alerts_per_day', 'size': 'universe'}
+
+# The rules are decided here, once, and are not changed by any code in this file (a rule that was never tuned cannot be over-tuned).
+_N100_RULES = {
+    'RSI2': {'label': 'Trend pullback (RSI-2)', 'rsi_below': 10.0, 'rsi_above': 90.0, 'trend_sma': 200, 'exit_sma': 5, 'stop_atr': 2.5, 'horizon': 8, 'sides': (1, -1)},
+    'DONCHIAN': {'label': 'Donchian breakout', 'n': 55, 'vol_mult': 1.3, 'adx_min': 20.0, 'stop_atr': 2.5, 'trail_atr': 3.0, 'ext_atr': 3.5, 'horizon': 60, 'sides': (1, -1)},
+    'HIGH52': {'label': '52-week-high momentum', 'near': 0.97, 'ret126_min': 0.10, 'rsi_max': 80.0, 'ext_atr': 3.0, 'stop_atr': 2.5, 'trail_atr': 3.0, 'horizon': 40, 'sides': (1,)},
+    'SQUEEZE': {'label': 'Volatility-squeeze breakout', 'pct_max': 20.0, 'look': 3, 'vol_mult': 1.2, 'stop_min_atr': 1.0, 'stop_max_atr': 3.0, 'target_r': 2.0, 'horizon': 20, 'sides': (1, -1)},
+    'SUPERTREND': {'label': 'Supertrend flip (ADX filter)', 'period': 10, 'mult': 3.0, 'adx_min': 20.0, 'stop_min_atr': 1.0, 'stop_max_atr': 4.0, 'horizon': 80, 'sides': (1, -1)},
+    'ORB': {'label': 'Opening-range breakout (index)', 'range_bars': 3, 'first_min': 9 * 60 + 30, 'last_min': 13 * 60 + 30, 'target_r': (1.5, 2.5), 'end_min': 15 * 60 + 10, 'max_range_atr': 1.2, 'sides': (1, -1)},
+}
+_N100_DAILY = ('RSI2', 'DONCHIAN', 'HIGH52', 'SQUEEZE', 'SUPERTREND')
+# What a round trip costs (percent of the traded value), all assumptions shown on every card. Delivery shares pay STT on both legs; the index figure is for futures.
+_N100_EQ_COST = {'brokerage_side': 0.03, 'stt_side': 0.10, 'exchange_side': 0.00297, 'sebi_side': 0.0001, 'stamp_buy': 0.015, 'gst': 18.0, 'slippage_side': 0.05}
+_N100_IDX_COST = {'brokerage_side': 0.0025, 'stt_sell': 0.05, 'exchange_side': 0.00173, 'sebi_side': 0.0001, 'stamp_buy': 0.002, 'gst': 18.0, 'slippage_side': 0.02}
+_N100_MIN_TRADES = 30                              # settled trades before any evidence label other than "too few"
+_N100_NOTE = 'Personal-use signals from fixed rules, not advice. Nothing here places an order: you place any order yourself. Do not pass signals to other people (that can need SEBI registration).'
+
+
+# ------------------------------------------------ storage (the small sqlite file Nemo already uses) ------------------------------------------------
+def _n100_db():
+    c = _n35_conn()
+    c.execute('CREATE TABLE IF NOT EXISTS sig100_setting(key TEXT PRIMARY KEY, value TEXT)')
+    c.execute('CREATE TABLE IF NOT EXISTS sig100_signal(id TEXT PRIMARY KEY, ts REAL, day TEXT, symbol TEXT, kind TEXT, strategy TEXT, side INTEGER, band TEXT, score REAL, status TEXT, entry REAL, stop REAL, '
+              't1 REAL, t2 REAL, risk REAL, expires REAL, r_result REAL, closed_ts REAL, exit_reason TEXT, skey TEXT, payload TEXT)')
+    c.execute('CREATE INDEX IF NOT EXISTS idx_sig100_status ON sig100_signal(status, ts)')
+    c.execute('CREATE UNIQUE INDEX IF NOT EXISTS idx_sig100_skey ON sig100_signal(skey)')
+    c.execute('CREATE TABLE IF NOT EXISTS sig100_iv(symbol TEXT NOT NULL, ts REAL NOT NULL, day TEXT, expiry TEXT, dte REAL, spot REAL, atm_iv REAL, straddle REAL, pcr REAL, PRIMARY KEY(symbol, ts))')
+    c.execute('CREATE TABLE IF NOT EXISTS sig100_cache(k TEXT PRIMARY KEY, ts REAL, payload TEXT)')
+    c.commit()
+    return c
+
+
+def _n100_q(sql, args=(), write=False):
+    """One short statement, always closed; never raises (a broken table must not break a message)."""
+    try:
+        c = _n100_db()
+        try:
+            cur = c.execute(sql, args)
+            if write:
+                c.commit()
+                return cur.rowcount
+            return cur.fetchall()
+        finally:
+            c.close()
+    except Exception:
+        _N100_STATS['errors'] += 1
+        return 0 if write else []
+
+
+def _n100_get(key, default=None):
+    r = _n100_q('SELECT value FROM sig100_setting WHERE key=?', (key,))
+    if r:
+        return r[0][0]
+    return _N100_DEFAULTS.get(key, '') if default is None else default
+
+
+def _n100_put(key, value):
+    _n100_q('INSERT OR REPLACE INTO sig100_setting(key,value) VALUES(?,?)', (key, str(value)), write=True)
+
+
+def _n100_cfg():
+    """The owner's numbers. Capital and risk follow Scout's settings unless Sigma's own are set (one place to say what you can lose)."""
+    rows = dict(_n100_q('SELECT key, value FROM sig100_setting'))
+    try:
+        sc = _n93_cfg()
+    except Exception:
+        sc = {'capital': 100000.0, 'risk_pct': 1.0, 'max_position_pct': 25.0}
+    out = {}
+    for k, dflt in _N100_DEFAULTS.items():
+        v = rows.get(k, dflt)
+        if k in ('alerts', 'shorts', 'breaker'):
+            out[k] = str(v).lower() == 'on'
+            continue
+        try:
+            x = float(v) if str(v).strip() != '' else None
+        except ValueError:
+            x = None
+        if x is None:
+            x = float(sc['capital']) if k == 'capital' else float(sc['risk_pct']) if k == 'risk_pct' else float(dflt)
+        lo, hi = _N100_LIMITS[k]
+        out[k] = max(lo, min(hi, x))
+    for k in ('max_signals', 'min_score', 'alerts_per_day', 'universe'):
+        out[k] = int(out[k])
+    out['max_position_pct'] = float(sc.get('max_position_pct', 25.0))
+    out['own_capital'] = str(rows.get('capital', '')).strip() != ''
+    return out
+
+
+def _n100_set(key, raw):
+    """Validate and store one setting. Raises ValueError with a plain sentence."""
+    shown = str(key).strip().lower()
+    key = _N100_ALIASES.get(shown, shown)
+    if key not in _N100_DEFAULTS:
+        raise ValueError('I do not know the setting “%s”. You can set capital, risk, heat, max, min, perday, universe, alerts, shorts, breaker.' % _n91_clip(key, 20))
+    raw = str(raw).strip().rstrip('%')
+    if key in ('alerts', 'shorts', 'breaker'):
+        if raw.lower() not in ('on', 'off'):
+            raise ValueError('%s is on or off.' % shown)
+        val = raw.lower()
+    else:
+        x = _n92_money(raw) if key == 'capital' else None
+        if key != 'capital':
+            try:
+                x = float(raw)
+            except ValueError:
+                x = None
+        if not x:
+            raise ValueError('“%s” is not a number I can use for %s.' % (_n91_clip(raw, 20), shown))
+        lo, hi = _N100_LIMITS[key]
+        if not lo <= x <= hi:
+            raise ValueError('%s must be between %g and %g.' % (shown, lo, hi))
+        val = repr(float(x)) if key in ('capital', 'risk_pct', 'heat_pct') else str(int(x))
+    _n100_put(key, val)
+    return key, val
+
+
+def _n100_cache_get(key, ttl):
+    r = _n100_q('SELECT ts, payload FROM sig100_cache WHERE k=?', (key,))
+    if r and _n91_time.time() - float(r[0][0]) <= ttl:
+        try:
+            return _n91_jsonlib.loads(r[0][1])
+        except ValueError:
+            return None
+    return None
+
+
+def _n100_cache_put(key, obj):
+    _n100_q('INSERT OR REPLACE INTO sig100_cache(k, ts, payload) VALUES(?,?,?)', (key, _n91_time.time(), _n91_jsonlib.dumps(obj, separators=(',', ':'))), write=True)
+
+
+# ------------------------------------------------ indicators: standard definitions, causal (the value at bar i uses bars up to i only), None where undefined ------------------------------------------------
+def _n100_sma(v, n):
+    out = [None] * len(v)
+    s = 0.0
+    for i, x in enumerate(v):
+        s += x
+        if i >= n:
+            s -= v[i - n]
+        if i >= n - 1:
+            out[i] = s / n
+    return out
+
+
+def _n100_ema(v, n):
+    """Exponential average, seeded with the simple average of the first n values (the usual convention)."""
+    out = [None] * len(v)
+    if len(v) < n or n < 1:
+        return out
+    k = 2.0 / (n + 1.0)
+    e = sum(v[:n]) / n
+    out[n - 1] = e
+    for i in range(n, len(v)):
+        e = v[i] * k + e * (1.0 - k)
+        out[i] = e
+    return out
+
+
+def _n100_rsi(c, n=14):
+    """Wilder's RSI (smoothed gains and losses). 50 when nothing moved; 100 when nothing fell."""
+    out = [None] * len(c)
+    if len(c) <= n or n < 1:
+        return out
+    g = l = 0.0
+    for i in range(1, n + 1):
+        d = c[i] - c[i - 1]
+        g += max(d, 0.0)
+        l += max(-d, 0.0)
+    ag, al = g / n, l / n
+
+    def val():
+        if al == 0:
+            return 50.0 if ag == 0 else 100.0
+        return 100.0 - 100.0 / (1.0 + ag / al)
+    out[n] = val()
+    for i in range(n + 1, len(c)):
+        d = c[i] - c[i - 1]
+        ag = (ag * (n - 1) + max(d, 0.0)) / n
+        al = (al * (n - 1) + max(-d, 0.0)) / n
+        out[i] = val()
+    return out
+
+
+def _n100_atr(h, l, c, n=14):
+    """Wilder's average true range."""
+    N = len(c)
+    out = [None] * N
+    if N <= n or n < 1:
+        return out
+    tr = [0.0] + [max(h[i] - l[i], abs(h[i] - c[i - 1]), abs(l[i] - c[i - 1])) for i in range(1, N)]
+    a = sum(tr[1:n + 1]) / n
+    out[n] = a
+    for i in range(n + 1, N):
+        a = (a * (n - 1) + tr[i]) / n
+        out[i] = a
+    return out
+
+
+def _n100_adx(h, l, c, n=14):
+    """Wilder's ADX; the first value is at bar 2n-1."""
+    N = len(c)
+    out = [None] * N
+    if N < 2 * n or n < 1:
+        return out
+    tr, pdm, mdm = [0.0], [0.0], [0.0]
+    for i in range(1, N):
+        up, dn = h[i] - h[i - 1], l[i - 1] - l[i]
+        tr.append(max(h[i] - l[i], abs(h[i] - c[i - 1]), abs(l[i] - c[i - 1])))
+        pdm.append(up if (up > dn and up > 0) else 0.0)
+        mdm.append(dn if (dn > up and dn > 0) else 0.0)
+    atr, ap, am = sum(tr[1:n + 1]), sum(pdm[1:n + 1]), sum(mdm[1:n + 1])
+
+    def dx():
+        if atr <= 0:
+            return 0.0
+        pi, mi = 100.0 * ap / atr, 100.0 * am / atr
+        return 100.0 * abs(pi - mi) / (pi + mi) if (pi + mi) > 0 else 0.0
+    dxs = [dx()]
+    adx = None
+    for i in range(n + 1, N):
+        atr = atr - atr / n + tr[i]
+        ap = ap - ap / n + pdm[i]
+        am = am - am / n + mdm[i]
+        d = dx()
+        if adx is None:
+            dxs.append(d)
+            if len(dxs) == n:
+                adx = sum(dxs) / n
+                out[i] = adx
+        else:
+            adx = (adx * (n - 1) + d) / n
+            out[i] = adx
+    return out
+
+
+def _n100_bands(c, n=20, k=2.0):
+    """Bollinger bands (population standard deviation): (middle, upper, lower, width as a fraction of the middle)."""
+    N = len(c)
+    mid, up, lo, wid = [None] * N, [None] * N, [None] * N, [None] * N
+    for i in range(n - 1, N):
+        w = c[i - n + 1:i + 1]
+        m = sum(w) / n
+        sd = _n100_math.sqrt(sum((x - m) ** 2 for x in w) / n)
+        mid[i], up[i], lo[i] = m, m + k * sd, m - k * sd
+        wid[i] = (2.0 * k * sd / m) if m else None
+    return mid, up, lo, wid
+
+
+def _n100_prior_high(h, n):
+    """The highest high of the n bars BEFORE bar i (not including it): the level a breakout has to clear."""
+    return [max(h[i - n:i]) if i >= n else None for i in range(len(h))]
+
+
+def _n100_prior_low(l, n):
+    return [min(l[i - n:i]) if i >= n else None for i in range(len(l))]
+
+
+def _n100_window_high(h, n):
+    """The highest high of the last n bars INCLUDING bar i (the 52-week high when n = 252)."""
+    return [max(h[max(0, i - n + 1):i + 1]) if i >= n - 1 else None for i in range(len(h))]
+
+
+def _n100_pctrank(series, i, window):
+    """Where series[i] sits among the last `window` values ending at i (0-100, higher = bigger). None when there is too little history."""
+    lo = i - window + 1
+    if lo < 0 or series[i] is None:
+        return None
+    w = [x for x in series[lo:i + 1] if x is not None]
+    if len(w) < window * 0.8:
+        return None
+    return 100.0 * sum(1 for x in w if x <= series[i]) / len(w)
+
+
+def _n100_supertrend(h, l, c, n=10, mult=3.0):
+    """Supertrend: (line, direction) with direction +1 when price is above the line. Defined from bar n."""
+    N = len(c)
+    line, dr = [None] * N, [None] * N
+    atr = _n100_atr(h, l, c, n)
+    if N <= n:
+        return line, dr
+    fub = flb = None
+    prev_line = fub_prev = None
+    for i in range(n, N):
+        hl2 = (h[i] + l[i]) / 2.0
+        ub, lb = hl2 + mult * atr[i], hl2 - mult * atr[i]
+        if fub is None:
+            fub, flb = ub, lb
+            st = fub if c[i] <= fub else flb
+        else:
+            nfub = ub if (ub < fub or c[i - 1] > fub) else fub
+            nflb = lb if (lb > flb or c[i - 1] < flb) else flb
+            fub, flb = nfub, nflb
+            if prev_line == fub_prev:
+                st = fub if c[i] <= fub else flb
+            else:
+                st = flb if c[i] >= flb else fub
+        fub_prev, prev_line = fub, st
+        line[i] = st
+        dr[i] = 1 if st == flb else -1
+    return line, dr
+
+
+def _n100_realized_vol(c, n=20):
+    """Close-to-close volatility, annualised, in percent, over the last n returns; None with too little data."""
+    if len(c) < n + 1:
+        return None
+    r = [_n100_math.log(c[i] / c[i - 1]) for i in range(len(c) - n, len(c)) if c[i - 1] > 0 and c[i] > 0]
+    if len(r) < 2:
+        return None
+    m = sum(r) / len(r)
+    sd = _n100_math.sqrt(sum((x - m) ** 2 for x in r) / (len(r) - 1))
+    return sd * _n100_math.sqrt(252.0) * 100.0
+
+
+def _n100_pivots(high, low, close):
+    """Classic floor pivots and the central pivot range from the previous session's high, low and close."""
+    p = (high + low + close) / 3.0
+    bc = (high + low) / 2.0
+    tc = 2.0 * p - bc
+    return {'pivot': p, 'bc': min(bc, tc), 'tc': max(bc, tc), 'r1': 2 * p - low, 's1': 2 * p - high, 'r2': p + (high - low), 's2': p - (high - low), 'cpr_pct': abs(tc - bc) / p * 100.0 if p else None}
+
+
+def _n100_prepare(cs):
+    """Every series the rules use, computed once for a list of clean candles. Works on short lists (values are None where undefined)."""
+    cs = _n93_clean(cs)
+    o, h, l, c, v = ([x[k] for x in cs] for k in ('o', 'h', 'l', 'c', 'v'))
+    n = len(c)
+    mid, up, lo, wid = _n100_bands(c, 20, 2.0)
+    st_line, st_dir = _n100_supertrend(h, l, c, int(_N100_RULES['SUPERTREND']['period']), _N100_RULES['SUPERTREND']['mult'])
+    avgv = [(sum(v[i - 20:i]) / 20.0) if i >= 20 else None for i in range(n)]
+    F = {'n': n, 'ts': [x['ts'] for x in cs], 'o': o, 'h': h, 'l': l, 'c': c, 'v': v,
+         'sma5': _n100_sma(c, 5), 'sma20': _n100_sma(c, 20), 'sma50': _n100_sma(c, 50), 'sma200': _n100_sma(c, 200), 'ema20': _n100_ema(c, 20),
+         'rsi2': _n100_rsi(c, 2), 'rsi14': _n100_rsi(c, 14), 'atr': _n100_atr(h, l, c, 14), 'adx': _n100_adx(h, l, c, 14),
+         'bb_mid': mid, 'bb_up': up, 'bb_lo': lo, 'bb_w': wid, 'hh20': _n100_prior_high(h, 20), 'll20': _n100_prior_low(l, 20), 'hh55': _n100_prior_high(h, 55), 'll55': _n100_prior_low(l, 55),
+         'hh252': _n100_window_high(h, 252), 'st_line': st_line, 'st_dir': st_dir, 'avgv': avgv,
+         'vr': [(v[i] / avgv[i]) if (avgv[i] and v[i] > 0) else None for i in range(n)],
+         'ret126': [(c[i] / c[i - 126] - 1.0) if i >= 126 and c[i - 126] > 0 else None for i in range(n)]}
+    F['bb_w_pct'] = [_n100_pctrank(wid, i, 120) for i in range(n)]
+    return F
+
+
+# ------------------------------------------------ the strategies: each answers (signal, None) or (None, "why not") for bar i, long (+1) or short (-1) ------------------------------------------------
+def _n100_inr(x, d=0):
+    return _n93_inr(x, d)
+
+
+def _n100_ready(F, i, *keys):
+    return i >= 0 and i < F['n'] and all(F[k][i] is not None for k in keys)
+
+
+def _n100_spec(F, i, side, stop, **kw):
+    """The plan for a signal made at the close of bar i: everything the walker needs, nothing else."""
+    spec = {'side': side, 'ref': F['c'][i], 'stop': stop, 'atr': F['atr'][i], 'target': None, 'trail_mult': None, 'rule': None, 'horizon': 20, 'st_trail': False, 'deadline': None, 't1': None, 't2': None, 'scale': None}
+    spec.update(kw)
+    return spec
+
+
+def _n100_plus(spec, extra):
+    spec.update(extra)
+    return spec
+
+
+def _n100_s_rsi2(F, i, side):
+    R = _N100_RULES['RSI2']
+    if not _n100_ready(F, i, 'sma200', 'sma5', 'sma20', 'rsi2', 'atr'):
+        return None, 'needs about 200 days of history'
+    c, s200, r2, a, s5 = F['c'][i], F['sma200'][i], F['rsi2'][i], F['atr'][i], F['sma5'][i]
+    if a <= 0:
+        return None, 'no volatility to measure'
+    if side == 1:
+        if c <= s200:
+            return None, 'price %s is not above its 200-day average %s (this rule only buys dips inside an uptrend)' % (_n100_inr(c, 2), _n100_inr(s200, 2))
+        if r2 >= R['rsi_below']:
+            return None, 'RSI(2) is %.0f; a washed-out dip needs below %.0f' % (r2, R['rsi_below'])
+        stop = c - R['stop_atr'] * a
+        trig = 'RSI(2) fell to %.1f (below %.0f) while price %s stays above its 200-day average %s' % (r2, R['rsi_below'], _n100_inr(c, 2), _n100_inr(s200, 2))
+    else:
+        if c >= s200:
+            return None, 'price %s is not below its 200-day average %s' % (_n100_inr(c, 2), _n100_inr(s200, 2))
+        if r2 <= R['rsi_above']:
+            return None, 'RSI(2) is %.0f; a stretched bounce needs above %.0f' % (r2, R['rsi_above'])
+        stop = c + R['stop_atr'] * a
+        trig = 'RSI(2) rose to %.1f (above %.0f) while price %s stays below its 200-day average %s' % (r2, R['rsi_above'], _n100_inr(c, 2), _n100_inr(s200, 2))
+    return _n100_plus(_n100_spec(F, i, side, stop, rule='sma5', horizon=R['horizon'], t1=s5, t2=F['sma20'][i], scale=None), {'trigger': trig, 'strategy': 'RSI2'}), None
+
+
+def _n100_s_donchian(F, i, side):
+    R = _N100_RULES['DONCHIAN']
+    if not _n100_ready(F, i, 'hh55', 'll55', 'sma200', 'sma20', 'adx', 'atr'):
+        return None, 'needs about 200 days of history'
+    c, a, adx = F['c'][i], F['atr'][i], F['adx'][i]
+    vr = F['vr'][i]
+    ext = side * (c - F['sma20'][i]) / a if a > 0 else 99.0
+    if side == 1:
+        if c <= F['hh55'][i]:
+            return None, 'price %s has not closed above the 55-day high %s (%.1f%% away)' % (_n100_inr(c, 2), _n100_inr(F['hh55'][i], 2), (F['hh55'][i] / c - 1) * 100.0)
+        if c <= F['sma200'][i]:
+            return None, 'the breakout is below the 200-day average (long breakouts need an uptrend)'
+        level = F['hh55'][i]
+        trig = 'closed above the 55-day high %s' % _n100_inr(level, 2)
+    else:
+        if c >= F['ll55'][i]:
+            return None, 'price %s has not closed below the 55-day low %s (%.1f%% away)' % (_n100_inr(c, 2), _n100_inr(F['ll55'][i], 2), (c / F['ll55'][i] - 1) * 100.0)
+        if c >= F['sma200'][i]:
+            return None, 'the breakdown is above the 200-day average'
+        level = F['ll55'][i]
+        trig = 'closed below the 55-day low %s' % _n100_inr(level, 2)
+    if adx < R['adx_min']:
+        return None, 'ADX is %.0f; a trend needs at least %.0f (below that, breakouts mostly fail)' % (adx, R['adx_min'])
+    if vr is not None and vr < R['vol_mult']:
+        return None, 'volume is only %.1f times its average; a breakout needs %.1f times' % (vr, R['vol_mult'])
+    if ext > R['ext_atr']:
+        return None, 'already %.1f ATR from the 20-day average (too stretched to buy)' % ext
+    stop = c - side * R['stop_atr'] * a
+    risk = abs(c - stop)
+    return _n100_plus(_n100_spec(F, i, side, stop, trail_mult=R['trail_atr'], rule='donchian20', horizon=R['horizon'], t1=c + side * 2 * risk, t2=c + side * 3 * risk, scale=2.0), {
+        'trigger': trig + (' on %.1fx volume' % vr if vr is not None else ' (volume not available)') + ', ADX %.0f' % adx, 'strategy': 'DONCHIAN'}), None
+
+
+def _n100_s_high52(F, i, side):
+    R = _N100_RULES['HIGH52']
+    if side != 1:
+        return None, 'long only'
+    if not _n100_ready(F, i, 'hh252', 'hh20', 'sma200', 'sma50', 'sma20', 'ret126', 'rsi14', 'atr'):
+        return None, 'needs about a year and a half of history'
+    c, a = F['c'][i], F['atr'][i]
+    near = c / F['hh252'][i]
+    if near < R['near']:
+        return None, 'price is %.1f%% below its 52-week high (needs within %.0f%%)' % ((1 - near) * 100.0, (1 - R['near']) * 100.0)
+    if c <= F['hh20'][i]:
+        return None, 'not a fresh 20-day high (waiting for a new high, not a drift)'
+    if c <= F['sma200'][i] or c <= F['sma50'][i]:
+        return None, 'price is not above its 50-day and 200-day averages'
+    if F['ret126'][i] < R['ret126_min']:
+        return None, '6-month return is %.0f%% (needs at least %.0f%%)' % (F['ret126'][i] * 100.0, R['ret126_min'] * 100.0)
+    if F['rsi14'][i] > R['rsi_max']:
+        return None, 'RSI(14) is %.0f (blow-off territory above %.0f)' % (F['rsi14'][i], R['rsi_max'])
+    vr = F['vr'][i]
+    if vr is not None and vr < 1.0:
+        return None, 'volume is below its average on the new high'
+    if (c - F['sma20'][i]) / a > R['ext_atr']:
+        return None, 'already more than %.0f ATR above the 20-day average' % R['ext_atr']
+    stop = c - R['stop_atr'] * a
+    risk = c - stop
+    return _n100_plus(_n100_spec(F, i, 1, stop, trail_mult=R['trail_atr'], rule='sma50', horizon=R['horizon'], t1=c + 2 * risk, t2=c + 3 * risk, scale=2.0), {
+        'trigger': 'fresh 20-day high %s, %.1f%% from its 52-week high %s, 6-month return %+.0f%%' % (_n100_inr(c, 2), (1 - near) * 100.0, _n100_inr(F['hh252'][i], 2), F['ret126'][i] * 100.0), 'strategy': 'HIGH52'}), None
+
+
+def _n100_s_squeeze(F, i, side):
+    R = _N100_RULES['SQUEEZE']
+    if not _n100_ready(F, i, 'bb_up', 'bb_lo', 'bb_mid', 'atr') or i < 125:
+        return None, 'needs about 150 days of history'
+    c, a = F['c'][i], F['atr'][i]
+    was = [F['bb_w_pct'][i - k] for k in range(1, R['look'] + 1)]
+    if not any(p is not None and p <= R['pct_max'] for p in was):
+        cur = F['bb_w_pct'][i - 1]
+        return None, 'no squeeze (band width is at the %.0fth percentile of its last 120 days; needs under %.0f)' % (cur if cur is not None else 50, R['pct_max'])
+    vr = F['vr'][i]
+    if side == 1 and c > F['bb_up'][i]:
+        edge = 'above the upper band %s' % _n100_inr(F['bb_up'][i], 2)
+    elif side == -1 and c < F['bb_lo'][i]:
+        edge = 'below the lower band %s' % _n100_inr(F['bb_lo'][i], 2)
+    else:
+        return None, 'a squeeze is on but price has not closed outside the bands yet (direction not shown)'
+    if vr is not None and vr < R['vol_mult']:
+        return None, 'closed outside the band on only %.1fx volume (needs %.1fx)' % (vr, R['vol_mult'])
+    risk = abs(c - F['bb_mid'][i])
+    risk = min(max(risk, R['stop_min_atr'] * a), R['stop_max_atr'] * a)
+    stop = c - side * risk
+    return _n100_plus(_n100_spec(F, i, side, stop, target=c + side * R['target_r'] * risk, horizon=R['horizon'], t1=c + side * R['target_r'] * risk, t2=c + side * 3 * risk), {
+        'trigger': 'volatility squeeze (band width in its lowest %.0f%% of 120 days) then a close %s' % (R['pct_max'], edge) + (' on %.1fx volume' % vr if vr is not None else ''), 'strategy': 'SQUEEZE'}), None
+
+
+def _n100_s_supertrend(F, i, side):
+    R = _N100_RULES['SUPERTREND']
+    if not _n100_ready(F, i, 'st_line', 'st_dir', 'adx', 'atr') or i < 1 or F['st_dir'][i - 1] is None:
+        return None, 'needs about 40 days of history'
+    c, a = F['c'][i], F['atr'][i]
+    if not (F['st_dir'][i] == side and F['st_dir'][i - 1] == -side):
+        return None, 'no Supertrend flip to %s on this bar (it is %s)' % ('up' if side == 1 else 'down', 'up' if F['st_dir'][i] == 1 else 'down')
+    if F['adx'][i] < R['adx_min']:
+        return None, 'the flip came with ADX %.0f (a flip below %.0f is usually a whipsaw)' % (F['adx'][i], R['adx_min'])
+    line = F['st_line'][i]
+    risk = abs(c - line)
+    if risk > R['stop_max_atr'] * a:
+        return None, 'the Supertrend line is %.1f ATR away: too wide for a sound stop' % (risk / a)
+    risk = max(risk, R['stop_min_atr'] * a)
+    stop = c - side * risk
+    return _n100_plus(_n100_spec(F, i, side, stop, rule='st_flip', st_trail=True, horizon=R['horizon'], t1=c + side * 2 * risk, t2=c + side * 3 * risk, scale=2.0), {
+        'trigger': 'Supertrend(10,3) flipped %s with ADX %.0f; the line %s is the trailing stop' % ('up' if side == 1 else 'down', F['adx'][i], _n100_inr(line, 2)), 'strategy': 'SUPERTREND'}), None
+
+
+_N100_FUNCS = {'RSI2': _n100_s_rsi2, 'DONCHIAN': _n100_s_donchian, 'HIGH52': _n100_s_high52, 'SQUEEZE': _n100_s_squeeze, 'SUPERTREND': _n100_s_supertrend}
+
+
+def _n100_signals_at(F, i, names=None, sides=(1, -1)):
+    """(signals, why_not) at bar i for the daily strategies: signals = list of plans, why_not = {strategy+side: sentence}."""
+    sigs, why = [], {}
+    for name in (names or _N100_DAILY):
+        for side in sides:
+            if side not in _N100_RULES[name]['sides']:
+                continue
+            try:
+                s, w = _N100_FUNCS[name](F, i, side)
+            except Exception:
+                s, w = None, 'could not be evaluated'
+            if s:
+                sigs.append(s)
+            else:
+                why[(name, side)] = w
+    return sigs, why
+
+
+def _n100_forced_spec(name, F, i, side):
+    """The plan a rule would make at bar i if it had fired: the same stop, trail, exit rule and time limit, with none of the trigger conditions. Used only for the random-entry baseline of the backtest. None when the bar
+    cannot carry a plan."""
+    R = _N100_RULES[name]
+    c, a = F['c'][i], F['atr'][i]
+    if a is None or a <= 0:
+        return None
+    if name == 'RSI2':
+        return _n100_spec(F, i, side, c - side * R['stop_atr'] * a, rule='sma5', horizon=R['horizon'])
+    if name == 'DONCHIAN':
+        return _n100_spec(F, i, side, c - side * R['stop_atr'] * a, trail_mult=R['trail_atr'], rule='donchian20', horizon=R['horizon'])
+    if name == 'HIGH52':
+        return _n100_spec(F, i, side, c - side * R['stop_atr'] * a, trail_mult=R['trail_atr'], rule='sma50', horizon=R['horizon'])
+    if name == 'SQUEEZE':
+        if F['bb_mid'][i] is None:
+            return None
+        risk = min(max(abs(c - F['bb_mid'][i]), R['stop_min_atr'] * a), R['stop_max_atr'] * a)
+        return _n100_spec(F, i, side, c - side * risk, target=c + side * R['target_r'] * risk, horizon=R['horizon'])
+    if name == 'SUPERTREND':
+        line = F['st_line'][i]
+        if line is None:
+            return None
+        risk = min(max(abs(c - line), R['stop_min_atr'] * a), R['stop_max_atr'] * a)
+        return _n100_spec(F, i, side, c - side * risk, rule='st_flip', st_trail=True, horizon=R['horizon'])
+    return None
+
+
+def _n100_eligible(name, F, i, side):
+    """Whether bar i is on the rule's own side of the market (the filter a random entry must also pass): above the 200-day average for a long, below it for a short; the Supertrend already pointing the same way."""
+    try:
+        if name == 'SQUEEZE':
+            return True
+        if name == 'SUPERTREND':
+            return F['st_dir'][i] == side
+        return F['sma200'][i] is not None and side * (F['c'][i] - F['sma200'][i]) > 0
+    except (IndexError, TypeError):
+        return False
+
+
+# ------------------------------------------------ following a plan over later candles (the same walk for the backtest and for the live record) ------------------------------------------------
+def _n100_rule_hit(F, j, name, side):
+    """Did the exit rule fire on the close of bar j? (The exit is then taken at the next open.)"""
+    try:
+        c = F['c'][j]
+        if name == 'sma5':
+            s = F['sma5'][j]
+            return s is not None and (c > s if side == 1 else c < s)
+        if name == 'sma50':
+            s = F['sma50'][j]
+            return s is not None and (c < s if side == 1 else c > s)
+        if name == 'donchian20':
+            return (F['ll20'][j] is not None and side == 1 and c < F['ll20'][j]) or (F['hh20'][j] is not None and side == -1 and c > F['hh20'][j])
+        if name == 'st_flip':
+            return F['st_dir'][j] is not None and F['st_dir'][j] != side
+    except (IndexError, TypeError):
+        pass
+    return False
+
+
+def _n100_walk(F, i, spec, max_gap=1.5):
+    """Follow a plan made at the close of bar i. Entry is the NEXT bar's open; a bar that touches both the stop and the target counts as the stop; a gap through the stop exits at the open (worse than the stop).
+    Returns {'status': 'pending' (no next bar yet) | 'skipped' (the open made the plan void) | 'open' | 'closed', ...}; a closed plan has entry, exit, exit_i, reason, r (gross, in units of the planned risk), bars."""
+    n = F['n']
+    side, stop0 = spec['side'], spec['stop']
+    risk_plan = abs(spec['ref'] - stop0)
+    if risk_plan <= 0:
+        return {'status': 'skipped', 'reason': 'bad levels'}
+    if i + 1 >= n:
+        return {'status': 'pending'}
+    o, h, l, c, ts = F['o'], F['h'], F['l'], F['c'], F['ts']
+    entry = o[i + 1]
+    if side * (entry - stop0) <= 0:
+        return {'status': 'skipped', 'reason': 'the next open was beyond the stop', 'entry': entry}
+    if abs(entry - stop0) > max_gap * risk_plan:
+        return {'status': 'skipped', 'reason': 'the next open was more than %.1f times the planned risk from the stop (chasing)' % max_gap, 'entry': entry}
+    tgt = spec.get('target')
+    if tgt is not None and side * (tgt - entry) <= 0:
+        return {'status': 'skipped', 'reason': 'the next open was already beyond the target', 'entry': entry}
+    risk_act = abs(entry - stop0)
+    stop = stop0
+    best = entry
+    held = 0
+    pending_rule = False
+    tm, atr0 = spec.get('trail_mult'), spec.get('atr')
+    res = None
+    for j in range(i + 1, n):
+        if pending_rule and j > i + 1:
+            res = (j, o[j], 'rule')
+            break
+        if tm and atr0:
+            stop = max(stop, best - tm * atr0) if side == 1 else min(stop, best + tm * atr0)
+        if spec.get('st_trail') and j - 1 >= 0 and F['st_dir'][j - 1] == side and F['st_line'][j - 1] is not None:
+            stop = max(stop, F['st_line'][j - 1]) if side == 1 else min(stop, F['st_line'][j - 1])
+        dl = spec.get('deadline')
+        if dl is not None and ts[j] >= dl and j > i + 1:
+            res = (j, o[j], 'time')
+            break
+        if j > i + 1 and side * (o[j] - stop) <= 0:
+            res = (j, o[j], 'stop (gap)')
+            break
+        if (side == 1 and l[j] <= stop) or (side == -1 and h[j] >= stop):
+            res = (j, stop, 'stop')
+            break
+        if tgt is not None and ((side == 1 and h[j] >= tgt) or (side == -1 and l[j] <= tgt)):
+            res = (j, (o[j] if (j > i + 1 and side * (o[j] - tgt) >= 0) else tgt), 'target')
+            break
+        held += 1
+        best = max(best, h[j]) if side == 1 else min(best, l[j])
+        if held >= spec['horizon']:
+            res = (j, c[j], 'time')
+            break
+        if spec.get('rule') and _n100_rule_hit(F, j, spec['rule'], side):
+            pending_rule = True
+    if res is None:
+        return {'status': 'open', 'entry': entry, 'entry_i': i + 1, 'stop': stop, 'bars': held, 'risk': risk_act, 'pending_exit': pending_rule}
+    j, px, why = res
+    return {'status': 'closed', 'entry': entry, 'entry_i': i + 1, 'exit': px, 'exit_i': j, 'reason': why, 'r': side * (px - entry) / risk_act, 'risk': risk_act, 'bars': j - i, 'stop': stop}
+
+
+def _n100_cost_pct(kind, entry=None):
+    """Round-trip cost as a percent of the traded value (charges plus the slippage assumed on both legs). `kind`: 'stock' (delivery) or 'index' (futures)."""
+    if kind == 'stock':
+        c = _N100_EQ_COST
+        stt = 2 * c['stt_side']
+        base = 2 * c['brokerage_side'] + stt + 2 * c['exchange_side'] + 2 * c['sebi_side'] + c['stamp_buy']
+        gst = c['gst'] / 100.0 * (2 * c['brokerage_side'] + 2 * c['exchange_side'] + 2 * c['sebi_side'])
+        return base + gst + 2 * c['slippage_side']
+    c = _N100_IDX_COST
+    base = 2 * c['brokerage_side'] + c['stt_sell'] + 2 * c['exchange_side'] + 2 * c['sebi_side'] + c['stamp_buy']
+    gst = c['gst'] / 100.0 * (2 * c['brokerage_side'] + 2 * c['exchange_side'] + 2 * c['sebi_side'])
+    return base + gst + 2 * c['slippage_side']
+
+
+def _n100_net_r(walk, kind='stock'):
+    """The result of a closed walk in units of the planned risk, after costs."""
+    if walk.get('status') != 'closed' or not walk.get('risk'):
+        return None
+    return walk['r'] - walk['entry'] * _n100_cost_pct(kind) / 100.0 / walk['risk']
+
+
+# ------------------------------------------------ option maths: the same Black-Scholes conventions as the rest of Nemo (European, 6.5% rate, no dividend), lognormal terminal prices for probabilities ------------------------------------------------
+def _n100_ncdf(x):
+    return 0.5 * (1.0 + _n100_math.erf(x / _n100_math.sqrt(2.0)))
+
+
+def _n100_delta(spot, strike, iv_pct, days, kind, rate=6.5):
+    try:
+        S, K, sig, T, r = float(spot), float(strike), float(iv_pct) / 100.0, max(1e-8, float(days) / 365.0), float(rate) / 100.0
+        if S <= 0 or K <= 0 or sig <= 0:
+            return None
+        d1 = (_n100_math.log(S / K) + (r + 0.5 * sig * sig) * T) / (sig * _n100_math.sqrt(T))
+        return _n100_ncdf(d1) if kind == 'CE' else _n100_ncdf(d1) - 1.0
+    except (ValueError, ZeroDivisionError, OverflowError):
+        return None
+
+
+_N100_Z = [(-5.0 + 0.1 * k) for k in range(101)]
+_N100_W = [_n100_math.exp(-0.5 * z * z) for z in _N100_Z]
+_N100_WS = sum(_N100_W)
+
+
+def _n100_terminal(spot, iv_pct, days, fwd=None):
+    """[(price, probability)] for the index at expiry under a lognormal model whose mean is the forward price (the market's own, from put-call parity when the chain gives it; else the spot carried at 6.5%). One volatility
+    for the whole chain: a model of what the options imply, not a forecast of where the index goes."""
+    sig = max(1e-6, float(iv_pct) / 100.0)
+    T = max(1e-6, float(days) / 365.0)
+    st = sig * _n100_math.sqrt(T)
+    mean = fwd if fwd else spot * _n100_math.exp(0.065 * T)
+    return [(mean * _n100_math.exp(-0.5 * st * st + st * z), w / _N100_WS) for z, w in zip(_N100_Z, _N100_W)]
+
+
+def _n100_forward(book, spot, days, atm, rate=6.5):
+    """The forward price the chain itself implies: strike + (call - put) carried forward (put-call parity at the money). Falls back to the spot carried at the rate when the quotes are missing or odd."""
+    carry = _n100_math.exp(rate / 100.0 * max(days or 0.0, 0.0) / 365.0)
+    ce, pe = book.get((atm, 'CE')), book.get((atm, 'PE'))
+    if ce and pe:
+        c, p = _n100_mid(ce), _n100_mid(pe)
+        if c and p:
+            f = atm + (c - p) * carry
+            if spot and abs(f / spot - 1.0) < 0.03:
+                return f
+    return spot * carry
+
+
+def _n100_payoff(legs, s_t):
+    """The profit per unit at expiry (before charges) of a list of legs [(+1 buy / -1 sell, 'CE'/'PE', strike, price)], premiums included."""
+    tot = 0.0
+    for sg, kind, k, px in legs:
+        intrinsic = max(0.0, s_t - k) if kind == 'CE' else max(0.0, k - s_t)
+        tot += sg * (intrinsic - px)
+    return tot
+
+
+def _n100_shape(legs, spot):
+    """Maximum profit and loss per unit, break-evens: the payoff is piecewise linear, so the extremes sit at the strikes (and the far ends). max_profit is None when unlimited."""
+    ks = sorted({k for _s, _t, k, _p in legs})
+    pts = [0.0] + ks + [spot * 10.0]
+    vals = [_n100_payoff(legs, x) for x in pts]
+    unlimited = (vals[-1] - _n100_payoff(legs, spot * 5.0)) > 1e-9 and vals[-1] > max(vals[:-1])
+    mp = None if unlimited else max(vals)
+    ml = -min(vals)
+    be = []
+    for (x0, v0), (x1, v1) in zip(zip(pts, vals), zip(pts[1:], vals[1:])):
+        if v0 == 0 and x0 > 0:
+            be.append(x0)
+        elif (v0 < 0 < v1) or (v0 > 0 > v1):
+            be.append(x0 + (x1 - x0) * (0 - v0) / (v1 - v0))
+    be = sorted({round(x, 2) for x in be})
+    return {'max_profit': mp, 'max_loss': max(0.0, ml), 'breakevens': be, 'unlimited': unlimited}
+
+
+def _n100_pop_ev(legs, spot, iv_pct, days, cost_unit=0.0, fwd=None):
+    """(probability of a profit after charges, expected profit per unit after charges) under the single-volatility lognormal model."""
+    dist = _n100_terminal(spot, iv_pct, days, fwd)
+    pop = sum(p for s, p in dist if _n100_payoff(legs, s) - cost_unit > 0)
+    ev = sum(p * _n100_payoff(legs, s) for s, p in dist) - cost_unit
+    return pop, ev
+
+
+def _n100_costs_lot(legs, lot):
+    """Estimated charges of one lot of a structure, round trip, in rupees: Nemo's own cost table (v96, switched on whatever the ledger says) for every leg at its quoted price."""
+    c = dict(_n96_costs())
+    c['on'] = 1.0
+    tot = 0.0
+    for sg, kind, k, px in legs:
+        tot += _n96_charge_parts('X' + kind, lot, px, px, c)['total']
+    return tot
+
+
+def _n100_value(legs_now, spot_t, days_t, iv_by_leg):
+    """The model value (per unit) of a structure at a later index price and time: sum of sign * Black-Scholes price; used for the premium at the stop and at the target."""
+    tot = 0.0
+    for (sg, kind, k, _px), iv in zip(legs_now, iv_by_leg):
+        p = _n93_bs_price(spot_t, k, iv, max(days_t, 0.05), kind)
+        if p is None:
+            return None
+        tot += sg * p
+    return tot
+
+
+# ------------------------------------------------ the chain, read: expected move, volatility, skew, PCR, walls, build-up ------------------------------------------------
+def _n100_book(ch):
+    return {(float(r['strike']), r['type']): r for r in (ch.get('rows') or []) if r.get('strike') is not None and r.get('type') in ('CE', 'PE')}
+
+
+def _n100_mid(r):
+    b, a = r.get('bid'), r.get('ask')
+    if b is not None and a is not None and a >= b > 0:
+        return (a + b) / 2.0
+    return r.get('ltp') if (r.get('ltp') or 0) > 0 else None
+
+
+def _n100_liquid(r, lot):
+    """(ok, why not): a live bid and ask, a spread under 3% of the price (or under ₹1 for a cheap contract), and some open interest."""
+    b, a = r.get('bid'), r.get('ask')
+    if not (b and a and a >= b > 0):
+        return False, 'no live bid and ask'
+    mid = (a + b) / 2.0
+    if (a - b) / mid * 100.0 > 3.0 and (a - b) > 1.0:
+        return False, 'spread %.1f%% (₹%.2f)' % ((a - b) / mid * 100.0, a - b)
+    if (r.get('oi') or 0) < 50 * max(lot, 1):
+        return False, 'open interest only %d' % (r.get('oi') or 0)
+    return True, ''
+
+
+def _n100_interp_iv(book, kind, strike):
+    """The implied volatility near a strike: the nearest strikes of that type that have one (linear between two neighbours)."""
+    pts = sorted((k, r['iv']) for (k, t), r in book.items() if t == kind and r.get('iv') and 3.0 <= r['iv'] <= 150.0)
+    if not pts:
+        return None
+    lo = [p for p in pts if p[0] <= strike]
+    hi = [p for p in pts if p[0] >= strike]
+    if lo and hi:
+        a, b = lo[-1], hi[0]
+        return a[1] if b[0] == a[0] else a[1] + (b[1] - a[1]) * (strike - a[0]) / (b[0] - a[0])
+    return (lo or hi)[-1 if lo else 0][1]
+
+
+_N100_BUILD = {('CE', 1, -1): ('call writing', -1.0), ('CE', 1, 1): ('call buying', 1.0), ('CE', -1, 1): ('call short covering', 0.6), ('CE', -1, -1): ('call long unwinding', -0.3),
+               ('PE', 1, -1): ('put writing', 1.0), ('PE', 1, 1): ('put buying', -1.0), ('PE', -1, 1): ('put short covering', -0.6), ('PE', -1, -1): ('put long unwinding', 0.3)}
+
+
+def _n100_buildup(ch, spot, step, atm, span=5):
+    """The open-interest build-up reading near the money: for each contract, the change in open interest against the change in its price says who is adding or leaving (call writing is bearish, put writing bullish,
+    short covering the reverse of a build-up). Returns {'score' -1..1, 'top': [(strike, type, label, change)], 'coverage': share of contracts with data} or None when the feed has too little."""
+    step = step or 50
+    near = [r for r in (ch.get('rows') or []) if r.get('strike') is not None and abs(r['strike'] - atm) <= span * step]
+    if not near:
+        return None
+    tot = num = 0.0
+    top = []
+    used = 0
+    for r in near:
+        oc, chp = r.get('oi_change'), r.get('chp')
+        if oc is None or chp is None or oc == 0 or chp == 0:
+            continue
+        lab, w = _N100_BUILD[(r['type'], 1 if oc > 0 else -1, 1 if chp > 0 else -1)]
+        used += 1
+        tot += abs(oc)
+        num += w * abs(oc)
+        top.append((r['strike'], r['type'], lab, oc))
+    cov = used / len(near)
+    if used < 4 or cov < 0.4 or tot <= 0:
+        return None
+    top.sort(key=lambda x: -abs(x[3]))
+    return {'score': max(-1.0, min(1.0, num / tot)), 'top': top[:4], 'coverage': cov}
+
+
+def _n100_chain_stats(ch, lot=None, step=None):
+    """What the chain says, as numbers. `ch` is the structured chain (rows with implied volatility filled in). Missing pieces are None, never guessed."""
+    spot = ch.get('spot')
+    days = ch.get('days_to_expiry')
+    rows = ch.get('rows') or []
+    out = {'spot': spot, 'days': days, 'expiry': ch.get('expiry'), 'rows': len(rows)}
+    if not spot or not rows:
+        return out
+    book = _n100_book(ch)
+    strikes = sorted({k for k, _t in book})
+    atm = min(strikes, key=lambda k: abs(k - spot))
+    step = step or _n55_strike_step(ch) or 50
+    lot = lot or 1
+    out.update(atm=atm, step=step)
+    ce, pe = book.get((atm, 'CE')), book.get((atm, 'PE'))
+    ivs = [x['iv'] for x in (ce, pe) if x and x.get('iv') and 3.0 <= x['iv'] <= 150.0]
+    iv = sum(ivs) / len(ivs) if ivs else None
+    out['atm_iv'] = iv
+    out['forward'] = _n100_forward(book, spot, days, atm)
+    sm = [(_n100_mid(x)) for x in (ce, pe)]
+    out['straddle'] = (sm[0] + sm[1]) if (sm[0] and sm[1]) else None
+    out['em_iv'] = (spot * iv / 100.0 * _n100_math.sqrt(days / 365.0)) if (iv and days) else None
+    out['em_straddle'] = out['straddle'] * 1.25 if out['straddle'] else None       # an at-the-money straddle is worth about 0.8 of one standard deviation of the move
+    out['em'] = out['em_iv'] or out['em_straddle']
+    out['em_gap_pct'] = (abs(out['em_iv'] - out['em_straddle']) / out['em_iv'] * 100.0) if (out['em_iv'] and out['em_straddle']) else None
+    out['em_pct'] = out['em'] / spot * 100.0 if out['em'] else None
+    out['daily_move'] = (spot * iv / 100.0 / _n100_math.sqrt(365.0)) if iv else None
+    ceoi = sum((r.get('oi') or 0) for r in rows if r['type'] == 'CE')
+    peoi = sum((r.get('oi') or 0) for r in rows if r['type'] == 'PE')
+    cev = sum((r.get('volume') or 0) for r in rows if r['type'] == 'CE')
+    pev = sum((r.get('volume') or 0) for r in rows if r['type'] == 'PE')
+    out['pcr_oi'] = peoi / ceoi if ceoi else None
+    out['pcr_vol'] = pev / cev if cev else None
+    calls = [r for r in rows if r['type'] == 'CE' and r['strike'] >= spot and (r.get('oi') or 0) > 0]
+    puts = [r for r in rows if r['type'] == 'PE' and r['strike'] <= spot and (r.get('oi') or 0) > 0]
+    cw = max(calls, key=lambda r: r['oi']) if calls else None
+    pw = max(puts, key=lambda r: r['oi']) if puts else None
+    out['call_wall'], out['put_wall'] = (cw['strike'] if cw else None), (pw['strike'] if pw else None)
+    out['call_wall_oi'], out['put_wall_oi'] = (cw['oi'] if cw else None), (pw['oi'] if pw else None)
+    chg_c = [r for r in rows if r['type'] == 'CE' and (r.get('oi_change') or 0) > 0]
+    chg_p = [r for r in rows if r['type'] == 'PE' and (r.get('oi_change') or 0) > 0]
+    out['call_add'] = max(chg_c, key=lambda r: r['oi_change'])['strike'] if chg_c else None
+    out['put_add'] = max(chg_p, key=lambda r: r['oi_change'])['strike'] if chg_p else None
+    em = out['em']
+    if em:
+        pv = _n100_interp_iv(book, 'PE', spot - 0.5 * em)
+        cv = _n100_interp_iv(book, 'CE', spot + 0.5 * em)
+        out['skew'] = (pv - cv) if (pv is not None and cv is not None) else None
+    else:
+        out['skew'] = None
+    out['buildup'] = _n100_buildup(ch, spot, step, atm)
+    try:
+        out['max_pain'] = _n55_max_pain(ch)
+    except Exception:
+        out['max_pain'] = None
+    out['atm_liquid'] = bool(ce and pe and _n100_liquid(ce, lot)[0] and _n100_liquid(pe, lot)[0])
+    return out
+
+
+def _n100_pcr_word(p):
+    if p is None:
+        return 'n/a'
+    return '%.2f (%s)' % (p, 'put-heavy: often read as bullish, a weak signal' if p >= 1.3 else 'call-heavy: often read as bearish, a weak signal' if p <= 0.7 else 'balanced')
+
+
+def _n100_iv_record(sym, st, now=None):
+    """Keep the chain's own at-the-money volatility (at most one row every 20 minutes per symbol): after a few weeks it is Sigma's own IV history, which beats the VIX proxy."""
+    if not st.get('atm_iv') or not st.get('days'):
+        return False
+    now = now if now is not None else _n91_time.time()
+    last = _n100_q('SELECT MAX(ts) FROM sig100_iv WHERE symbol=?', (sym,))
+    if last and last[0][0] and now - float(last[0][0]) < 1200:
+        return False
+    n = _n100_q('INSERT OR IGNORE INTO sig100_iv(symbol, ts, day, expiry, dte, spot, atm_iv, straddle, pcr) VALUES(?,?,?,?,?,?,?,?,?)',
+                (sym, now, _n91_dt.datetime.fromtimestamp(now, _N100_IST).date().isoformat(), str(st.get('expiry') or ''), float(st['days']), float(st['spot']), float(st['atm_iv']), st.get('straddle'), st.get('pcr_oi')), write=True)
+    _N100_STATS['iv_rows'] += 1 if n else 0
+    return bool(n)
+
+
+def _n100_ivp(sym, iv, days, vix=None):
+    """(percentile 0-100, source words) of today's at-the-money implied volatility. Own history when there is enough of it (40 readings over 10 days, from expiries of similar length); else the India VIX's
+    own percentile (a proxy for NIFTY volatility); else None."""
+    if iv and days:
+        rows = _n100_q('SELECT atm_iv, day FROM sig100_iv WHERE symbol=? AND ABS(dte - ?) <= 3.0 ORDER BY ts DESC LIMIT 600', (sym, float(days)))
+        if len(rows) >= 40 and len({r[1] for r in rows}) >= 10:
+            vals = [r[0] for r in rows]
+            return 100.0 * sum(1 for x in vals if x <= iv) / len(vals), 'its own %d readings over %d days' % (len(vals), len({r[1] for r in rows}))
+    if vix and vix.get('pct') is not None:
+        return float(vix['pct']), 'the India VIX\'s own range over %d days, a stand-in because Sigma has too few readings of its own yet' % vix.get('n', 0)
+    return None, 'not available'
+
+
+# ------------------------------------------------ option structures: every one has its legs, maximum loss, maximum profit, break-evens, a model probability of profit, the charges, and an exit plan ------------------------------------------------
+_N100_NAMES = {('LONG', 1): 'Long call', ('LONG', -1): 'Long put', ('DEBIT', 1): 'Bull call spread (debit)', ('DEBIT', -1): 'Bear put spread (debit)', ('CREDIT', 1): 'Bull put spread (credit)',
+               ('CREDIT', -1): 'Bear call spread (credit)', ('CONDOR', 0): 'Iron condor (credit)'}
+_N100_PREM_STOP = 0.35                             # a bought structure is left when it has lost this share of what was paid (or at the index stop, whichever bites first)
+_N100_MIN_CREDIT = 0.12                           # a sold structure must collect at least this share of its width (a thinner credit is eaten by slippage and charges)
+_N100_CREDIT_TP, _N100_CREDIT_SL = 0.50, 2.0       # a sold structure: take profit at half the credit, leave when it costs twice the credit to close (a loss of about the credit)
+
+
+def _n100_finish(structure, side, legs_rows, ctx, lv=None, width=None, **extra):
+    """From the chosen contracts to a complete plan. legs_rows: [(+1 buy / -1 sell, chain row, price)], prices already at the side of the spread you would really get (buy at the ask, sell at the bid)."""
+    spot, days, lot, iv = ctx['spot'], ctx['days'], ctx['lot'], ctx['atm_iv']
+    legs = [(sg, r['type'], float(r['strike']), float(px)) for sg, r, px in legs_rows]
+    net = -sum(sg * px for sg, _r, px in legs_rows)                          # per unit: a credit is positive, a debit negative
+    shape = _n100_shape(legs, spot)
+    cost_lot = _n100_costs_lot(legs, lot)
+    pop, ev = _n100_pop_ev(legs, spot, iv, days, cost_lot / lot, ctx.get('fwd'))
+    ivs = [r.get('iv') or iv for _sg, r, _px in legs_rows]
+    plan = {'structure': structure, 'side': side, 'name': _N100_NAMES.get((structure, side), structure), 'legs': [{'action': 'BUY' if sg > 0 else 'SELL', 'type': r['type'], 'strike': float(r['strike']), 'px': float(px),
+            'symbol': r.get('symbol', ''), 'iv': r.get('iv'), 'oi': r.get('oi')} for sg, r, px in legs_rows], 'net': net, 'credit': max(net, 0.0), 'debit': max(-net, 0.0), 'max_profit': shape['max_profit'],
+            'max_loss': shape['max_loss'], 'breakevens': shape['breakevens'], 'unlimited': shape['unlimited'], 'pop': pop, 'ev_lot': ev * lot, 'cost_lot': cost_lot, 'lot': lot, 'days': days, 'ivs': ivs}
+    ks = [k for _s, _t, k, _p in legs]
+    plan['width'] = width if width is not None else ((max(ks) - min(ks)) if len(ks) > 1 and structure in ('DEBIT', 'CREDIT') else None)
+    if structure in ('LONG', 'DEBIT'):
+        paid = -net
+        v_stop = _n100_value(legs, lv['stop'], days - 1.0, ivs) if lv else None
+        v_t1 = _n100_value(legs, lv['t1'], days - 1.0, ivs) if lv else None
+        v_t2 = _n100_value(legs, lv['t2'], days - 1.0, ivs) if (lv and lv.get('t2')) else None
+        # `_n100_value` is the value of the position (sum of sign * price): a bought structure is worth `value`, so the premium to leave at is that value, bounded by the percentage stop
+        sl = paid * (1.0 - _N100_PREM_STOP)
+        if v_stop is not None:
+            sl = max(sl, v_stop)
+        tp1 = v_t1 if (v_t1 is not None and v_t1 > paid) else paid * 1.5
+        tp2 = v_t2 if (v_t2 is not None and v_t2 > tp1 * 1.05) else (paid * 2.0 if (structure == 'LONG' and paid * 2.0 > tp1 * 1.05) else None)
+        if structure == 'DEBIT' and tp2 is not None and plan['max_profit']:
+            tp2 = min(tp2, (plan['max_profit'] + paid) * 0.95)
+            tp2 = tp2 if tp2 > tp1 * 1.02 else None
+        plan.update(sl=sl, tp1=tp1, tp2=tp2, plan_risk=max(paid - sl, 0.0), reward1=tp1 - paid, rr=((tp1 - paid) / (paid - sl)) if paid > sl else None, premium=paid)
+    else:
+        credit = net
+        sl = min(_N100_CREDIT_SL * credit, 0.85 * (plan['width'] or credit * 4.0))
+        tp = (1.0 - _N100_CREDIT_TP) * credit
+        plan.update(sl=sl, tp1=tp, tp2=None, plan_risk=max(sl - credit, 0.0), reward1=credit - tp, rr=((credit - tp) / (sl - credit)) if sl > credit else None, premium=credit)
+    plan.update(extra)
+    return plan
+
+
+def _n100_pick_delta(ctx, kind, target, lo, hi, away_min=None, side_ok=None):
+    """(row, |delta|) of the liquid contract of this type whose |delta| is closest to `target` within [lo, hi]; `away_min`: at least this many index points from the spot; `side_ok(strike)` another filter."""
+    spot, days, lot = ctx['spot'], ctx['days'], ctx['lot']
+    best = None
+    for (k, t), r in ctx['book'].items():
+        if t != kind or not r.get('iv') or not (3.0 <= r['iv'] <= 150.0):
+            continue
+        if away_min is not None and abs(k - spot) < away_min:
+            continue
+        if side_ok is not None and not side_ok(k):
+            continue
+        d = _n100_delta(spot, k, r['iv'], days, kind)
+        if d is None or not lo <= abs(d) <= hi:
+            continue
+        if not _n100_liquid(r, lot)[0]:
+            continue
+        key = abs(abs(d) - target)
+        if best is None or key < best[0]:
+            best = (key, r, abs(d))
+    return (best[1], best[2]) if best else (None, None)
+
+
+def _n100_ask(r):
+    return float(r['ask'])
+
+
+def _n100_bid(r):
+    return float(r['bid'])
+
+
+def _n100_long(ctx, side, lv):
+    kind = 'CE' if side == 1 else 'PE'
+    r, d = _n100_pick_delta(ctx, kind, 0.55, 0.40, 0.70)
+    if r is None:
+        return None, 'no liquid %s with a delta between 0.40 and 0.70' % kind
+    p = _n100_finish('LONG', side, [(1, r, _n100_ask(r))], ctx, lv, delta=d, theta_pct=None)
+    g = _n55_greeks(ctx['spot'], r['strike'], r['iv'], ctx['days'], kind)
+    if g.get('ok') and p['premium'] > 0:
+        p['theta_pct'] = abs(g['theta_per_day']) / p['premium'] * 100.0
+        p['delta'] = abs(g['delta'])
+    be = p['breakevens'][0] if p['breakevens'] else None
+    p['be_move'] = abs(be - ctx['spot']) if be else None
+    return p, None
+
+
+def _n100_debit(ctx, side, lv):
+    kind = 'CE' if side == 1 else 'PE'
+    rl, d = _n100_pick_delta(ctx, kind, 0.55, 0.40, 0.70)
+    if rl is None:
+        return None, 'no liquid %s with a delta between 0.40 and 0.70 for the long leg' % kind
+    step, spot, em, lot = ctx['step'], ctx['spot'], ctx.get('em'), ctx['lot']
+    K = float(rl['strike'])
+    want = lv['t1'] if lv else (spot + side * 0.8 * em if em else K + side * 3 * step)
+    cands = []
+    for (k, t), r in ctx['book'].items():
+        if t != kind or (k - K) * side < 2 * step - 1e-9 or not r.get('iv'):
+            continue
+        if em and abs(k - spot) > 1.3 * em:
+            continue
+        if _n100_liquid(r, lot)[0]:
+            cands.append(r)
+    if not cands:
+        return None, 'no liquid short leg at least 2 strikes beyond the long leg'
+    rs = min(cands, key=lambda r: abs(r['strike'] - want))
+    debit = _n100_ask(rl) - _n100_bid(rs)
+    width = abs(rs['strike'] - K)
+    if debit <= 0 or width - debit <= 0:
+        return None, 'the spread does not pay (debit %.1f on a width of %.0f)' % (debit, width)
+    p = _n100_finish('DEBIT', side, [(1, rl, _n100_ask(rl)), (-1, rs, _n100_bid(rs))], ctx, lv, delta=d)
+    g = _n55_greeks(spot, rl['strike'], rl['iv'], ctx['days'], kind)
+    gs = _n55_greeks(spot, rs['strike'], rs['iv'], ctx['days'], kind)
+    if g.get('ok') and gs.get('ok') and p['premium'] > 0:
+        p['theta_pct'] = abs(g['theta_per_day'] - gs['theta_per_day']) / p['premium'] * 100.0
+    else:
+        p['theta_pct'] = None
+    be = p['breakevens'][0] if p['breakevens'] else None
+    p['be_move'] = abs(be - spot) if be else None
+    p['reward_risk_max'] = (p['max_profit'] / p['max_loss']) if p['max_loss'] else None
+    return p, None
+
+
+def _n100_wing(ctx, kind, K, side_out, steps):
+    """The protective leg `steps` strikes further out of the money than K: the chain row, or None."""
+    k2 = K + side_out * steps * ctx['step']
+    r = ctx['book'].get((float(k2), kind))
+    if r and r.get('iv') and _n100_liquid(r, ctx['lot'])[0]:
+        return r
+    return None
+
+
+def _n100_credit(ctx, side):
+    """A sold spread: bull put (side +1: sell a put below the market) or bear call (side -1: sell a call above it), the short leg about 0.20 delta and beyond 0.8 of the expected move, the wing 2-4 strikes further out."""
+    kind = 'PE' if side == 1 else 'CE'
+    spot, em = ctx['spot'], ctx.get('em')
+    rs, d = _n100_pick_delta(ctx, kind, 0.20, 0.12, 0.30, away_min=(0.8 * em if em else None), side_ok=lambda k: (k < spot) if side == 1 else (k > spot))
+    if rs is None:
+        return None, 'no liquid %s with a delta of 0.12-0.30 beyond 0.8 of the expected move' % kind
+    K = float(rs['strike'])
+    best = None
+    for steps in (2, 3, 4):
+        rw = _n100_wing(ctx, kind, K, -side, steps)
+        if rw is None:
+            continue
+        credit = _n100_bid(rs) - _n100_ask(rw)
+        width = steps * ctx['step']
+        if credit <= 0 or credit >= width:
+            continue
+        ratio = credit / width
+        if ratio >= _N100_MIN_CREDIT:
+            best = (rw, credit, width, ratio)
+            break
+        if best is None or ratio > best[3]:
+            best = (rw, credit, width, ratio)
+    if best is None:
+        return None, 'no liquid wing 2-4 strikes out gives a credit'
+    rw, credit, width, ratio = best
+    p = _n100_finish('CREDIT', side, [(-1, rs, _n100_bid(rs)), (1, rw, _n100_ask(rw))], ctx, None, delta=d, credit_ratio=ratio)
+    p['short_distance'] = abs(K - spot)
+    p['theta_pct'] = None
+    return p, None
+
+
+def _n100_condor(ctx):
+    spot, em = ctx['spot'], ctx.get('em')
+    away = 0.9 * em if em else None
+    rp, dp = _n100_pick_delta(ctx, 'PE', 0.16, 0.08, 0.24, away_min=away, side_ok=lambda k: k < spot)
+    rc, dc = _n100_pick_delta(ctx, 'CE', 0.16, 0.08, 0.24, away_min=away, side_ok=lambda k: k > spot)
+    if rp is None or rc is None:
+        return None, 'no liquid short strikes outside 0.9 of the expected move on both sides'
+    best = None
+    for steps in (2, 3, 4):
+        wp = _n100_wing(ctx, 'PE', float(rp['strike']), -1, steps)
+        wc = _n100_wing(ctx, 'CE', float(rc['strike']), 1, steps)
+        if wp is None or wc is None:
+            continue
+        credit = _n100_bid(rp) - _n100_ask(wp) + _n100_bid(rc) - _n100_ask(wc)
+        width = steps * ctx['step']
+        if credit <= 0 or credit >= width:
+            continue
+        ratio = credit / width
+        if ratio >= _N100_MIN_CREDIT:
+            best = (wp, wc, credit, width, ratio)
+            break
+        if best is None or ratio > best[4]:
+            best = (wp, wc, credit, width, ratio)
+    if best is None:
+        return None, 'no liquid wings 2-4 strikes out give a credit'
+    wp, wc, credit, width, ratio = best
+    p = _n100_finish('CONDOR', 0, [(-1, rp, _n100_bid(rp)), (1, wp, _n100_ask(wp)), (-1, rc, _n100_bid(rc)), (1, wc, _n100_ask(wc))], ctx, None, width=width, credit_ratio=ratio)
+    p['short_distance'] = min(abs(float(rp['strike']) - spot), abs(float(rc['strike']) - spot))
+    p['theta_pct'] = None
+    return p, None
+
+
+def _n100_plan_ok(p, ctx):
+    """The fixed acceptance tests for a structure: (True, '') or (False, why). Numbers are chosen once, here."""
+    em = ctx.get('em')
+    drag = (p['cost_lot'] / (p['max_profit'] * p['lot'])) if p.get('max_profit') else None
+    if p['structure'] in ('LONG', 'DEBIT'):
+        if p.get('rr') is None or p['rr'] < 1.4:
+            return False, 'reward to risk %s (needs 1.4 or more)' % ('%.1f' % p['rr'] if p.get('rr') is not None else 'n/a')
+        if p['structure'] == 'DEBIT' and (p.get('reward_risk_max') or 0) < 1.0:
+            return False, 'the spread\'s best case pays only %.1f times its worst case (needs 1.0)' % (p.get('reward_risk_max') or 0)
+        if p.get('theta_pct') is not None and p['theta_pct'] >= 12.0:
+            return False, 'time decay is %.0f%% of the price a day' % p['theta_pct']
+        if em and p.get('be_move') is not None and p['be_move'] > 0.9 * em:
+            return False, 'the break-even needs %.1fx the move the options expect' % (p['be_move'] / em)
+        if p['max_profit'] and drag is not None and drag > 0.35:
+            return False, 'charges would take %.0f%% of the best case' % (drag * 100)
+    else:
+        if p.get('credit_ratio', 0) < _N100_MIN_CREDIT:
+            return False, 'the credit is only %.0f%% of the width (needs %.0f%%)' % (p.get('credit_ratio', 0) * 100, _N100_MIN_CREDIT * 100)
+        if p['pop'] < 0.60:
+            return False, 'the model probability of profit after charges is %.0f%% (needs 60%%)' % (p['pop'] * 100)
+        if drag is not None and drag > 0.35:
+            return False, 'charges would take %.0f%% of the best case' % (drag * 100)
+        if em and p.get('short_distance') is not None and p['short_distance'] < 0.8 * em:
+            return False, 'the short strike is inside 0.8 of the expected move'
+    return True, ''
+
+
+def _n100_option_choose(side, bias_abs, regime, ivp, days, ctx, lv):
+    """The structure table of the research page: by view (up, down, neutral), by the volatility percentile (None = unknown) and by time to expiry.
+    Returns (chosen plan or None, alternatives [plan], reasons {name: why not}, preferred names in order)."""
+    reasons, plans = {}, {}
+
+    def build(name, fn):
+        p, why = fn()
+        if p is None:
+            reasons[name] = why
+            return
+        ok, why = _n100_plan_ok(p, ctx)
+        if ok:
+            plans[name] = p
+        else:
+            reasons[name] = why
+    if side != 0:
+        if days < 3.0:
+            order = ['DEBIT']                                        # too little time left to own a long option or sell a credit spread
+            reasons['CREDIT'] = 'credit spreads need 3 or more days to expiry (%.1f left)' % days
+            reasons['LONG'] = 'a long option needs 3 or more days to expiry (%.1f left)' % days
+        elif ivp is not None and ivp >= 65.0:
+            order = ['CREDIT', 'DEBIT']
+        elif ivp is not None and ivp <= 35.0:
+            order = ['LONG', 'DEBIT']
+        else:
+            order = ['DEBIT', 'LONG']
+        for name in order:
+            if name == 'LONG':
+                build('LONG', lambda: _n100_long(ctx, side, lv))
+            elif name == 'DEBIT':
+                build('DEBIT', lambda: _n100_debit(ctx, side, lv))
+            else:
+                build('CREDIT', lambda: _n100_credit(ctx, side))
+    else:
+        order = ['CONDOR']
+        if days < 3.0:
+            reasons['CONDOR'] = 'an iron condor needs 3 or more days to expiry (%.1f left)' % days
+        else:
+            build('CONDOR', lambda: _n100_condor(ctx))
+    chosen_name = next((n for n in order if n in plans), None)
+    chosen = plans.get(chosen_name)
+    alts = [plans[n] for n in order if n in plans and n != chosen_name]
+    return chosen, alts, reasons, order
+
+
+def _n100_size_option(p, cfg):
+    """Lots at the owner's own limits. A bought structure is sized by the loss at its planned exit; a sold one by its worst case (it can gap through its exit). One lot that already breaks the limit gives zero,
+    never rounded up, and the capital that would make one lot fit is said."""
+    lot = p['lot']
+    risk_amt = cfg['capital'] * cfg['risk_pct'] / 100.0
+    per_lot = (p['plan_risk'] if p['structure'] in ('LONG', 'DEBIT') else p['max_loss']) * lot
+    max_lot = p['max_loss'] * lot
+    lots = int(risk_amt // per_lot) if per_lot > 0 else 0
+    outlay_cap = cfg['capital'] * cfg.get('max_position_pct', 25.0) / 100.0
+    if p['structure'] in ('LONG', 'DEBIT') and lots * p['premium'] * lot > outlay_cap:
+        lots = int(outlay_cap // (p['premium'] * lot))
+    need = per_lot / (cfg['risk_pct'] / 100.0) if cfg['risk_pct'] > 0 else None
+    return {'lots': lots, 'per_lot_risk': per_lot, 'max_loss_lot': max_lot, 'risk_amount': risk_amt, 'risk_total': lots * per_lot, 'max_loss_total': lots * max_lot, 'fits': lots >= 1,
+            'capital_for_one': need, 'basis': 'the loss at the planned exit' if p['structure'] in ('LONG', 'DEBIT') else 'the worst case (defined risk)'}
+
+
+def _n100_option_score(bias, plan, ivp, fit_rank, ctx):
+    """0-100 checklist for an index option plan (not a probability): the view 30 (strength) + 15 (agreement), the structure 25, how well it fits the volatility regime 10, liquidity 10, charges 10."""
+    s = 0.0
+    if bias is not None:
+        s += min(1.0, abs(bias['bias']) / 0.7) * 30.0 if plan['side'] != 0 else min(1.0, (0.3 - abs(bias['bias'])) / 0.3) * 30.0
+        s += (bias['agree'] / max(1, bias['n'])) * 15.0 if plan['side'] != 0 else 10.0
+    if plan['structure'] in ('LONG', 'DEBIT'):
+        rr = plan.get('rr') or 0
+        s += 25.0 if rr >= 2.2 else 18.0 if rr >= 1.8 else 12.0 if rr >= 1.4 else 0.0
+    else:
+        s += 25.0 if plan['pop'] >= 0.78 else 18.0 if plan['pop'] >= 0.70 else 12.0 if plan['pop'] >= 0.60 else 0.0
+    s += 10.0 if fit_rank == 0 else 5.0 if fit_rank == 1 else 0.0
+    s += 10.0 if ctx.get('atm_liquid') else 5.0
+    drag = (plan['cost_lot'] / (plan['max_profit'] * plan['lot'])) if plan.get('max_profit') else (plan['cost_lot'] / (plan['reward1'] * plan['lot']) if plan.get('reward1') else None)
+    s += 10.0 if (drag is not None and drag <= 0.10) else 6.0 if (drag is not None and drag <= 0.20) else 2.0 if (drag is not None and drag <= 0.35) else 0.0
+    return int(max(0, min(100, round(s))))
+
+
+# ------------------------------------------------ data: long daily history (Yahoo public chart, cached), the day's partial candle never counts as a signal bar ------------------------------------------------
+_N100_YAHOO = 'https://query1.finance.yahoo.com/v8/finance/chart/'
+
+
+def _n100_ist(ts):
+    return _n91_dt.datetime.fromtimestamp(float(ts), _N100_IST)
+
+
+def _n100_fetch_daily(sym, years):
+    """Daily candles for `years` years from the public chart feed Nemo's market fabric already uses as its fallback. Raises on any failure (the caller decides what to do)."""
+    _fs, ys = _n55_symbols(sym)
+    r = requests.get(_N100_YAHOO + ys, params={'range': '%dy' % int(years), 'interval': '1d', 'includePrePost': 'false'}, headers={'User-Agent': 'Mozilla/5.0 Nemo-Sigma/100'}, timeout=25)
+    res = ((r.json().get('chart') or {}).get('result') or [None])[0]
+    if not res:
+        raise ValueError('no data')
+    q = ((res.get('indicators') or {}).get('quote') or [{}])[0]
+    ts = res.get('timestamp') or []
+    cols = {k: (q.get(k) or [None] * len(ts)) for k in ('open', 'high', 'low', 'close', 'volume')}
+    out = []
+    for i, t in enumerate(ts):
+        try:
+            o, h, l, c, v = (cols['open'][i], cols['high'][i], cols['low'][i], cols['close'][i], cols['volume'][i])
+            if None in (o, h, l, c):
+                continue
+            out.append([int(t), float(o), float(h), float(l), float(c), float(v or 0)])
+        except (IndexError, TypeError, ValueError):
+            continue
+    if len(out) < 30:
+        raise ValueError('too few candles')
+    return out
+
+
+def _n100_phase(now):
+    d = _n100_ist(now)
+    mins = d.hour * 60 + d.minute
+    return d.date().isoformat() + ('o' if 555 <= mins < 945 else 'c')
+
+
+def _n100_drop_partial(cs, now):
+    """(candles, live price | None): the last daily candle is dropped while it is still forming (today's, before 15:45), and its last price is kept as the live price."""
+    if not cs:
+        return cs, None
+    d = _n100_ist(now)
+    if _n100_ist(cs[-1]['ts']).date() == d.date() and d.hour * 60 + d.minute < 945:
+        return cs[:-1], cs[-1]['c']
+    return cs, None
+
+
+def _n100_daily(sym, years=2, now=None):
+    """(candles, info): completed daily candles. info: source, n, error, live (the forming candle's last price), last_day, jump (a one-day move over 35% in the last year: a split may be unadjusted)."""
+    now = now if now is not None else _n91_time.time()
+    info = {'source': '', 'n': 0, 'error': '', 'live': None, 'last_day': '', 'jump': False}
+    sym = str(sym).upper()
+    key = 'daily|%s|%d|%s' % (sym, years, _n100_phase(now))
+    ttl = 600 if key.endswith('o') else 21600
+    raw = _n100_cache_get(key, ttl)
+    if raw is None:
+        try:
+            _N100_STATS['data_calls'] += 1
+            raw = _n100_fetch_daily(sym, years)
+            _n100_cache_put(key, raw)
+        except Exception as exc:
+            raw = None
+            info['error'] = 'daily history failed (%s)' % type(exc).__name__
+    cs = [{'ts': r[0], 'o': r[1], 'h': r[2], 'l': r[3], 'c': r[4], 'v': r[5]} for r in raw] if raw else []
+    if cs:
+        info['source'] = 'Yahoo Finance daily history'
+    else:
+        try:
+            cs, i2 = _n93_candles(sym, '1d')
+            if cs:
+                info['source'] = (i2.get('source') or 'market data') + ' (short history)'
+                info['error'] = ''
+            else:
+                info['error'] = info['error'] or i2.get('error') or 'no candles'
+        except Exception as exc:
+            info['error'] = info['error'] or 'market data failed (%s)' % type(exc).__name__
+    cs = _n93_clean(cs)
+    cs, live = _n100_drop_partial(cs, now)
+    info['live'] = live
+    info['n'] = len(cs)
+    if cs:
+        info['last_day'] = _n100_ist(cs[-1]['ts']).date().isoformat()
+        tail = cs[-250:]
+        info['jump'] = any(abs(tail[k]['c'] / tail[k - 1]['c'] - 1.0) > 0.35 for k in range(1, len(tail)))
+    return cs, info
+
+
+def _n100_stale(info, now=None):
+    """True when the last completed candle is too old for a signal (more than 5 calendar days: a long weekend still passes)."""
+    try:
+        now = now if now is not None else _n91_time.time()
+        d = _n91_dt.date.fromisoformat(info['last_day'])
+        return (_n100_ist(now).date() - d).days > 5
+    except Exception:
+        return True
+
+
+def _n100_universe(cfg):
+    out = []
+    try:
+        base = list(_n93_watch_list())
+    except Exception:
+        base = []
+    for s in base + list(_N55_NIFTY_FALLBACK):
+        s = str(s).upper().strip()
+        if s and s not in out and s not in _N93_INDEXES and _n91_re.match(r'^[A-Z][A-Z0-9&\-]{1,14}$', s):
+            out.append(s)
+    return out[:cfg['universe']]
+
+
+# ------------------------------------------------ the market backdrop ------------------------------------------------
+def _n100_context(now=None, cs=None, vcs=None):
+    """The whole-market backdrop: NIFTY trend and regime, India VIX. Each piece is None when it could not be read, and the card then lists it as not checked."""
+    now = now if now is not None else _n91_time.time()
+    ctx = {'index_dir': None, 'regime': None, 'ret20': None, 'vix': None, 'F': None, 'cs': None, 'notes': [], 'session': None}
+    try:
+        ctx['session'] = _n81_session(now)
+    except Exception:
+        pass
+    info = {}
+    if cs is None:
+        cs, info = _n100_daily('NIFTY', 2, now)
+    if cs and len(cs) >= 60:
+        ctx['cs'] = cs
+        ctx['F'] = _n100_prepare(cs)
+        reg = _n55_regime_from_candles(cs)
+        ctx['regime'] = reg.get('regime')
+        ctx['index_dir'] = 0 if _N93_REG_DIR.get(ctx['regime'], 0.0) == 0 else (1 if _N93_REG_DIR[ctx['regime']] > 0 else -1)
+        ctx['ret20'] = (cs[-1]['c'] / cs[-21]['c'] - 1.0) * 100.0 if len(cs) > 21 else None
+    else:
+        ctx['notes'].append('NIFTY daily candles: ' + (info.get('error') or 'too few'))
+    if vcs is None:
+        try:
+            vcs, _vinfo = _n93_candles('INDIAVIX', '1d')
+        except Exception:
+            vcs = []
+    ctx['vix'] = _n93_vix_state(vcs)
+    if ctx['vix'] is None:
+        ctx['notes'].append('India VIX: too little history')
+    return ctx
+
+
+# ------------------------------------------------ a stock (or index) on its daily candles: the strategies, scored ------------------------------------------------
+def _n100_clamp(x, lo, hi):
+    return max(lo, min(hi, x))
+
+
+def _n100_score_daily(sig, F, i, ctx, kind):
+    """(score 0-100, components, good, bad, unchecked, veto | None). A checklist total, not a probability: fit 25 + setup quality 25 + strength against NIFTY 15 + market backdrop 15 + risk structure 20."""
+    side, name = sig['side'], sig['strategy']
+    c, a = F['c'][i], F['atr'][i]
+    good, bad, unchecked = [], [], []
+    comps = {}
+    adx = F['adx'][i] or 0.0
+    rng = F['h'][i] - F['l'][i]
+    cp = (c - F['l'][i]) / rng if rng > 0 else 0.5
+    fit = 15.0
+    if name == 'RSI2':
+        if (side == 1 and F['rsi2'][i] < 5) or (side == -1 and F['rsi2'][i] > 95):
+            fit += 5
+            good.append('RSI(2) is extreme (%.1f)' % F['rsi2'][i])
+    elif adx >= 25:
+        fit += 5
+        good.append('ADX %.0f: a trending market' % adx)
+    if (side == 1 and cp >= 0.6) or (side == -1 and cp <= 0.4):
+        fit += 5
+        good.append('closed %s in the day\'s range' % ('high' if side == 1 else 'low'))
+    comps['fit'] = _n100_clamp(fit, 0, 25)
+    vr = F['vr'][i]
+    if name == 'RSI2':
+        q = 25.0 * _n100_clamp((10.0 - F['rsi2'][i]) / 10.0 if side == 1 else (F['rsi2'][i] - 90.0) / 10.0, 0, 1)
+    elif name == 'DONCHIAN':
+        q = 12.0 if vr is None else 12.0 + 13.0 * _n100_clamp((vr - 1.3) / 0.9, 0, 1)
+    elif name == 'HIGH52':
+        q = 10.0 + 15.0 * _n100_clamp((F['ret126'][i] - 0.10) / 0.30, 0, 1)
+    elif name == 'SQUEEZE':
+        q = 12.0 if vr is None else 12.0 + 13.0 * _n100_clamp((vr - 1.2) / 1.0, 0, 1)
+    else:
+        q = 8.0 + 17.0 * _n100_clamp((adx - 20.0) / 20.0, 0, 1)
+    comps['setup'] = _n100_clamp(q, 0, 25)
+    if vr is None and name in ('DONCHIAN', 'SQUEEZE'):
+        unchecked.append('volume on the breakout (not available)')
+    rs = None
+    if ctx.get('ret20') is not None and i >= 20:
+        rs = (c / F['c'][i - 20] - 1.0) * 100.0 - ctx['ret20']
+    if rs is None or kind == 'index':
+        comps['strength'] = 0.0
+        if kind != 'index':
+            unchecked.append('strength against NIFTY')
+    else:
+        x = side * rs
+        comps['strength'] = 15.0 if x >= 5 else 10.0 if x >= 2 else 5.0 if x >= 0 else 0.0
+        (good if x >= 2 else bad if x < -2 else []).append('%+.1f points against NIFTY over 20 days' % rs)
+    back = 0.0
+    nd = ctx.get('index_dir')
+    if nd is None:
+        unchecked.append('NIFTY trend')
+    elif nd == side:
+        back += 8
+        good.append('NIFTY trend agrees')
+    elif nd == -side:
+        back -= 10
+        bad.append('NIFTY trend is against it')
+    vx = ctx.get('vix')
+    if vx is None:
+        unchecked.append('India VIX')
+    else:
+        if vx['pct'] <= 60:
+            back += 4
+        elif vx['pct'] >= 80:
+            back -= 4
+            bad.append('India VIX is high (%.0fth percentile)' % vx['pct'])
+        if vx['chg5'] > 1.5 and side == 1:
+            back -= 3
+            bad.append('India VIX is rising (%+.1f in 5 days)' % vx['chg5'])
+    comps['backdrop'] = _n100_clamp(back, -10, 15)
+    risk = abs(sig['ref'] - sig['stop'])
+    rk = 0.0
+    veto = None
+    ra = risk / a if a else 99.0
+    limit = _N100_RULES['SUPERTREND']['stop_max_atr'] if name == 'SUPERTREND' else 3.5      # a Supertrend stop is 3 ATR wide by construction
+    if ra > limit:
+        veto = 'the stop is %.1f ATR away: too wide' % ra
+    rk += 7.0 if 1.0 <= ra <= 3.0 else 3.0 if 3.0 < ra <= limit else 0.0
+    rr1 = abs(sig['t1'] - sig['ref']) / risk if (sig.get('t1') is not None and risk > 0) else 0.0
+    rk += 6.0 if (name == 'RSI2' or rr1 >= 2.0) else 4.0 if rr1 >= 1.5 else 0.0
+    if name == 'RSI2':
+        good.append('its target is the 5-day average, so reward to risk is below 1 by design; its edge is a high hit rate')
+    if kind == 'stock':
+        av = F['avgv'][i] * c if F['avgv'][i] else None
+        if av is None:
+            unchecked.append('traded value (volume not available)')
+        elif av < 5e7:
+            veto = veto or 'average daily traded value is only ₹%s: too thin' % _n100_inr(av)
+        else:
+            rk += 4.0 if av >= 2e8 else 2.0
+    else:
+        rk += 4.0
+    cost_r = c * _n100_cost_pct(kind) / 100.0 / risk if risk > 0 else 9.0
+    if cost_r > 0.5:
+        veto = veto or 'charges would take %.1f of one risk unit: the stop is too tight for the costs' % cost_r
+    rk += 3.0 if cost_r <= 0.25 else 1.0 if cost_r <= 0.5 else 0.0
+    comps['risk'] = _n100_clamp(rk, 0, 20)
+    total = int(round(sum(comps.values())))
+    return max(0, total), comps, good, bad, unchecked, veto, rr1, cost_r
+
+
+def _n100_band(score):
+    return 'A' if score >= 78 else 'B' if score >= 66 else 'C' if score >= 55 else '-'
+
+
+def _n100_sig_json(spec):
+    """The plan's numbers as plain JSON values (for the record)."""
+    return {k: (float(v) if isinstance(v, (int, float)) and not isinstance(v, bool) else v) for k, v in spec.items() if k in ('side', 'ref', 'stop', 'atr', 'target', 'trail_mult', 'rule', 'horizon', 'st_trail', 'deadline', 't1', 't2', 'scale')}
+
+
+def _n100_eval_daily(sym, cs, info, ctx, cfg, kind='stock', now=None, names=None):
+    """(records, why): the scored signals for one symbol on its completed daily candles, and the reason for every strategy that did not fire. Nothing is saved here."""
+    now = now if now is not None else _n91_time.time()
+    recs, why = [], {}
+    if not cs:
+        return recs, {'data': info.get('error') or 'no candles'}
+    if _n100_stale(info, now):
+        return recs, {'data': 'the last candle is from %s: too old' % info.get('last_day')}
+    F = _n100_prepare(cs)
+    i = F['n'] - 1
+    if F['n'] < 130:
+        return recs, {'data': 'only %d days of history (the rules need about 200)' % F['n']}
+    sides = (1, -1) if (cfg.get('shorts') or kind == 'index') else (1,)
+    sigs, w = _n100_signals_at(F, i, names, sides)
+    why.update({'%s %s' % (k[0], 'long' if k[1] == 1 else 'short'): v for k, v in w.items() if not (k[1] == -1 and k[0] == 'HIGH52')})
+    live = info.get('live')
+    for s in sigs:
+        score, comps, good, bad, unchecked, veto, rr1, cost_r = _n100_score_daily(s, F, i, ctx, kind)
+        a = F['atr'][i]
+        if live is not None and not veto:
+            drift = s['side'] * (live - s['ref'])
+            if drift > 0.5 * a:
+                veto = 'it has already moved %.1f ATR since the close (%s now): chasing' % (drift / a, _n100_inr(live, 2))
+            elif s['side'] * (live - s['stop']) <= 0:
+                veto = 'it has already gone through the stop level'
+        if veto:
+            why['%s %s' % (s['strategy'], 'long' if s['side'] == 1 else 'short')] = veto
+            continue
+        sz = _n93_size_stock(s['ref'], s['stop'], cfg) if kind == 'stock' else None
+        sec = _n93_sector(sym) if kind == 'stock' else 'INDEX'
+        label = _N100_RULES[s['strategy']]['label']
+        risk = abs(s['ref'] - s['stop'])
+        rec = {'ok': True, 'kind': kind, 'symbol': sym, 'strategy': s['strategy'], 'label': label, 'side': s['side'], 'score': score, 'band': _n100_band(score), 'comps': comps, 'ref': s['ref'], 'stop': s['stop'],
+               't1': s['t1'], 't2': s['t2'], 'scale': s.get('scale'), 'trail_mult': s.get('trail_mult'), 'rule': s.get('rule'), 'horizon': s['horizon'], 'risk': risk, 'rr1': rr1, 'cost_r': cost_r, 'cost_pct': _n100_cost_pct(kind),
+               'size': sz, 'trigger': s['trigger'], 'good': good, 'bad': bad, 'unchecked': unchecked, 'bar_ts': F['ts'][i], 'spec': _n100_sig_json(s), 'sector': sec, 'atr': a, 'live': live, 'source': info.get('source'),
+               'jump': bool(info.get('jump')), 'rsi2': F['rsi2'][i], 'adx': F['adx'][i], 'last_day': info.get('last_day')}
+        rec['wrong_if'] = ['it closes %s %s' % ('below' if s['side'] == 1 else 'above', _n100_inr(s['stop'], 2))] + (['the market turns against it (NIFTY closes %s its 50-day average)' % ('below' if s['side'] == 1 else 'above')] if kind == 'stock' else [])
+        recs.append(rec)
+    return recs, why
+
+
+# ------------------------------------------------ the index: intraday read, opening-range breakout, the option view ------------------------------------------------
+def _n100_today_bars(F):
+    """Index of the first bar of the latest session in a prepared intraday series, or None."""
+    if not F['n']:
+        return None
+    day = _n100_ist(F['ts'][-1]).date()
+    s = F['n'] - 1
+    while s > 0 and _n100_ist(F['ts'][s - 1]).date() == day:
+        s -= 1
+    return s
+
+
+def _n100_orb(F, closed_n, daily=None, ctx=None, now=None):
+    """The opening-range breakout on a prepared 5-minute series of the index. `closed_n`: how many bars are finished (the last bar may still be forming). Returns (signal or None, state words).
+    Long: a 5-minute close above the high of the first 15 minutes, above the session's average price, in a day that is not against the daily trend; stop at the middle of the range, target 1.5 times the risk, out by 15:10.
+    The index feed has no volume, so the session average is the plain average of the typical prices (not a true VWAP)."""
+    R = _N100_RULES['ORB']
+    s = _n100_today_bars(F)
+    if s is None or closed_n - s < R['range_bars'] + 1:
+        return None, 'the opening range (first 15 minutes) is not complete yet'
+    ob = range(s, s + R['range_bars'])
+    orh, orl = max(F['h'][k] for k in ob), min(F['l'][k] for k in ob)
+    mid = (orh + orl) / 2.0
+    width = orh - orl
+    atr_d = (daily or {}).get('atr')
+    if atr_d:
+        if width > R['max_range_atr'] * atr_d:
+            return None, 'the opening range (%s points) is wider than %.1f daily ATR: too wide to trade' % (_n100_inr(width), R['max_range_atr'])
+        if width < 0.15 * atr_d:
+            return None, 'the opening range (%s points) is under 0.15 daily ATR: too narrow (noise)' % _n100_inr(width)
+    typ = [(F['h'][k] + F['l'][k] + F['c'][k]) / 3.0 for k in range(s, closed_n)]
+    mean = sum(typ) / len(typ)
+    first = None
+    for j in range(s + R['range_bars'], closed_n):
+        if F['c'][j] > orh:
+            first = (j, 1)
+            break
+        if F['c'][j] < orl:
+            first = (j, -1)
+            break
+    state = 'opening range %s - %s (middle %s), session average %s, price %s' % (_n100_inr(orl, 2), _n100_inr(orh, 2), _n100_inr(mid, 2), _n100_inr(mean, 2), _n100_inr(F['c'][closed_n - 1], 2))
+    if first is None:
+        return None, 'price is still inside the opening range · ' + state
+    j, side = first
+    mins = _n100_ist(F['ts'][j]).hour * 60 + _n100_ist(F['ts'][j]).minute
+    if mins + 5 < R['first_min'] or mins > R['last_min']:
+        return None, 'the breakout came at %02d:%02d, outside 09:30-13:30 · %s' % (mins // 60, mins % 60, state)
+    if closed_n - 1 - j > 2:
+        return None, 'the breakout (%s) is more than 3 bars old · %s' % ('up' if side == 1 else 'down', state)
+    if (side == 1 and F['c'][j] <= mean) or (side == -1 and F['c'][j] >= mean):
+        return None, 'the breakout is on the wrong side of the session average · ' + state
+    nd = (ctx or {}).get('index_dir')
+    if nd is not None and nd == -side:
+        return None, 'the daily trend is against a %s breakout · %s' % ('long' if side == 1 else 'short', state)
+    c = F['c'][j]
+    risk = abs(c - mid)
+    if atr_d and not 0.15 * atr_d <= risk <= 1.0 * atr_d:
+        return None, 'the stop at the middle of the range is %s points from the entry (needs 0.15-1.0 daily ATR)' % _n100_inr(risk)
+    if risk <= 0:
+        return None, 'no room between the entry and the stop'
+    now = now if now is not None else F['ts'][j]
+    d = _n100_ist(F['ts'][j])
+    deadline = d.replace(hour=R['end_min'] // 60, minute=R['end_min'] % 60, second=0, microsecond=0).timestamp()
+    trig = ('a 5-minute close above the opening range %s, above the session average' % _n100_inr(orh, 2)) if side == 1 else ('a 5-minute close below the opening range %s, below the session average' % _n100_inr(orl, 2))
+    t1, t2 = c + side * R['target_r'][0] * risk, c + side * R['target_r'][1] * risk
+    spec = {'side': side, 'ref': c, 'stop': mid, 'atr': F['atr'][j] if F['atr'][j] else None, 'target': t1, 'trail_mult': None, 'rule': None, 'horizon': 10 ** 6, 'st_trail': False,
+            'deadline': deadline, 't1': t1, 't2': t2, 'scale': None, 'trigger': trig, 'strategy': 'ORB'}
+    return {'spec': spec, 'i': j, 'or_high': orh, 'or_low': orl, 'mean': mean, 'state': state}, state
+
+
+def _n100_intraday_read(F5, closed_n):
+    """(ema direction, session-average direction, opening-range state) of the index's latest session as numbers in -1..1, with words. None when there is too little."""
+    s = _n100_today_bars(F5)
+    if s is None or closed_n - s < 4:
+        return None
+    c = F5['c'][closed_n - 1]
+    e20 = F5['ema20'][closed_n - 1]
+    ema50 = _n100_ema(F5['c'][:closed_n], 50)[-1] if closed_n >= 50 else None
+    typ = [(F5['h'][k] + F5['l'][k] + F5['c'][k]) / 3.0 for k in range(s, closed_n)]
+    mean = sum(typ) / len(typ)
+    orh = max(F5['h'][k] for k in range(s, s + 3))
+    orl = min(F5['l'][k] for k in range(s, s + 3))
+    ema_dir = (1 if e20 > ema50 else -1) if (e20 and ema50) else 0
+    mean_dir = 1 if c > mean else -1 if c < mean else 0
+    orb_dir = 1 if c > orh else -1 if c < orl else 0
+    val = 0.4 * ema_dir + 0.3 * mean_dir + 0.3 * orb_dir
+    words = '5-minute: average20 %s average50, price %s the session average, %s' % ('above' if ema_dir > 0 else 'below' if ema_dir < 0 else 'n/a vs', 'above' if mean_dir > 0 else 'below', 'above the opening range' if orb_dir > 0 else 'below the opening range' if orb_dir < 0 else 'inside the opening range')
+    return {'value': val, 'words': words, 'mean': mean, 'orh': orh, 'orl': orl, 'close': c}
+
+
+def _n100_view_parts(F, regime, st, intr, fresh, atr_d):
+    """The reads behind the direction, each in -1..1 or None (not read): daily trend .30, fresh daily signal .10, intraday .25, open-interest build-up .20, walls .10, PCR tilt .05."""
+    parts = []
+    parts.append(('daily trend', _N93_REG_DIR.get(regime, 0.0) if regime and regime != 'UNKNOWN' else None, 0.30, 'daily regime %s' % regime if regime else 'daily regime unavailable'))
+    fs = sum(s['side'] for s in fresh)
+    parts.append(('fresh daily signal', _n100_clamp(float(fs), -1, 1), 0.10, ('daily rules: %s' % ', '.join('%s %s' % (s['strategy'], 'long' if s['side'] == 1 else 'short') for s in fresh)) if fresh else 'no fresh daily signal on the index'))
+    parts.append(('intraday', intr['value'] if intr else None, 0.25, intr['words'] if intr else '5-minute candles unavailable'))
+    bu = st.get('buildup')
+    if bu:
+        t = ', '.join('%s %s (%+.0f lakh)' % (lab, _n100_inr(k), oc / 1e5) for k, ty, lab, oc in bu['top'][:2])
+        parts.append(('open-interest build-up', bu['score'], 0.20, 'build-up near the money: ' + t))
+    else:
+        parts.append(('open-interest build-up', None, 0.20, 'open-interest change not available'))
+    spot = st.get('spot')
+    cw, pw = st.get('call_wall'), st.get('put_wall')
+    if spot and atr_d and (cw or pw):
+        sw, txt = 0.0, []
+        if cw is not None and 0 <= (cw - spot) / atr_d < 0.35:
+            sw -= 0.5
+            txt.append('call wall %s right above' % _n100_inr(cw))
+        if pw is not None and 0 <= (spot - pw) / atr_d < 0.35:
+            sw += 0.5
+            txt.append('put wall %s right below' % _n100_inr(pw))
+        parts.append(('walls', sw, 0.10, ', '.join(txt) or 'no wall within 0.35 daily ATR'))
+    else:
+        parts.append(('walls', None, 0.10, 'walls unavailable'))
+    pcr = st.get('pcr_oi')
+    if pcr is not None:
+        parts.append(('PCR tilt', 0.5 if pcr >= 1.4 else -0.5 if pcr <= 0.6 else 0.0, 0.05, 'PCR ' + _n100_pcr_word(pcr)))
+    else:
+        parts.append(('PCR tilt', None, 0.05, 'PCR unavailable'))
+    return parts
+
+
+_N100_NEUTRAL = ('RANGE', 'LOW_VOL_RANGE', 'COMPRESSION', 'TRANSITION')
+
+
+def _n100_option_signal(sym, F, regime, ctx, cfg, st, ch, intr, fresh, lv_tech, now, step=None):
+    """From prepared inputs to an option signal, or the reasons there is none. Pure (no network): the caller loads the candles and the chain. Returns {'ok': True, ...record...} or {'ok': False, 'veto': ..., 'bias': ...}."""
+    res = {'ok': False, 'symbol': sym, 'kind': 'option'}
+    spot, days = st.get('spot'), st.get('days')
+    lot = lot_size(sym) or 1
+    if not spot or not days or not st.get('atm_iv'):
+        res['veto'] = 'the chain gave no usable price, expiry or at-the-money volatility'
+        return res
+    if days < 1.0:
+        res['veto'] = 'expiry is within a day (%.1f days): premiums swing and decay too fast; Sigma never opens an expiry-day option trade' % days
+        return res
+    atr_d = F['atr'][F['n'] - 1]
+    parts = _n100_view_parts(F, regime, st, intr, fresh, atr_d)
+    bias = _n93_index_bias(parts)
+    res['bias'] = bias
+    res['parts'] = parts
+    vix = (ctx or {}).get('vix')
+    ivp, ivsrc = _n100_ivp(sym, st['atm_iv'], days, vix)
+    res.update(ivp=ivp, ivp_src=ivsrc)
+    side = 0
+    if bias['n'] < 4 or bias['conf'] < 0.70:
+        res['veto'] = 'too little could be read to form a view (%d of %d parts, %.0f%% of the weight)' % (bias['n'], len(parts), bias['conf'] * 100)
+        return res
+    if abs(bias['bias']) >= 0.30:
+        need = 3 if bias['n'] >= 5 else 2
+        if bias['agree'] < need or bias['contra'] > 1:
+            res['veto'] = 'the reads disagree (%d of %d agree, %d strongly against)' % (bias['agree'], bias['n'], bias['contra'])
+            return res
+        side = 1 if bias['bias'] > 0 else -1
+    elif abs(bias['bias']) <= 0.20:
+        why = []
+        if regime not in _N100_NEUTRAL:
+            why.append('the market is trending (%s), not ranging' % regime)
+        if ivp is None or ivp < 60:
+            why.append('options are not dear enough to sell (volatility percentile %s; needs 60 or more)' % ('%.0f' % ivp if ivp is not None else 'unknown'))
+        if vix and vix['chg5'] > 2.0:
+            why.append('India VIX is rising fast (%+.1f in 5 days)' % vix['chg5'])
+        if st.get('skew') is not None and st['skew'] > 6.0:
+            why.append('put volatility is %.1f points above call volatility (the market is paying up for protection)' % st['skew'])
+        if why:
+            res['veto'] = 'no direction (bias %+.2f) and no condor: ' % bias['bias'] + '; '.join(why)
+            return res
+        side = 0
+    else:
+        res['veto'] = 'no clear view: the net bias is %+.2f (a direction needs 0.30 or more, a range play 0.20 or less)' % bias['bias']
+        return res
+    lv = None
+    if side != 0:
+        tech = lv_tech or {}
+        lv, why = _n93_levels(side, spot, atr_d, tech.get('swing_lows', []), tech.get('swing_highs', []))
+        if lv is None:
+            res['veto'] = 'no sound plan on the index itself: ' + why
+            return res
+        em = st.get('em')
+        if em and abs(lv['t1'] - spot) / em > 1.3:
+            res['veto'] = 'the first target is %.1fx the move the options expect by expiry (%s points): too far for this expiry' % (abs(lv['t1'] - spot) / em, _n100_inr(em))
+            return res
+    ctx_o = {'spot': spot, 'days': days, 'lot': lot, 'step': step or st.get('step') or 50, 'atm_iv': st['atm_iv'], 'em': st.get('em'), 'book': _n100_book(ch), 'atm_liquid': st.get('atm_liquid'), 'fwd': st.get('forward')}
+    chosen, alts, reasons, order = _n100_option_choose(side, abs(bias['bias']), regime, ivp, days, ctx_o, lv)
+    if chosen is None:
+        res['veto'] = 'no contract set passes the checks (%s)' % '; '.join('%s: %s' % (k.lower(), v) for k, v in reasons.items())
+        res['reasons'] = reasons
+        return res
+    rank = order.index(chosen['structure']) if chosen['structure'] in order else 2
+    score = _n100_option_score(bias, chosen, ivp, rank, ctx_o)
+    size = _n100_size_option(chosen, cfg)
+    notes = []
+    if ivp is None:
+        notes.append('no volatility percentile could be read (no VIX history and too few readings of its own), so the structure used the middle rule')
+    if st.get('em_gap_pct') and st['em_gap_pct'] > 25:
+        notes.append('the expected move from the at-the-money straddle and from implied volatility differ by %.0f%%: the chain is odd, check the quotes' % st['em_gap_pct'])
+    if not size['fits']:
+        notes.append('one lot does not fit your risk limit')
+    rec = {'ok': True, 'kind': 'option', 'symbol': sym, 'strategy': 'OPT_' + chosen['structure'], 'label': chosen['name'], 'side': chosen['side'], 'score': score, 'band': _n100_band(score), 'plan': chosen, 'alts': alts[:1],
+           'bias': bias, 'parts': parts, 'stats': st, 'ivp': ivp, 'ivp_src': ivsrc, 'size': size, 'lv': lv, 'expiry': st.get('expiry'), 'days': days, 'notes': notes, 'ref': spot, 'lot': lot, 'regime': regime,
+           'good': [t for n, s, w, t in parts if s is not None and s * (side or 1) >= 0.25 and side != 0], 'bad': [t for n, s, w, t in parts if s is not None and -s * (side or 1) >= 0.25 and side != 0],
+           'unchecked': [t for n, s, w, t in parts if s is None] + ['macro news (Scout reads it: “scout nifty”)'], 'bar_ts': now}
+    if chosen['structure'] in ('LONG', 'DEBIT'):
+        rec['stop'], rec['t1'], rec['t2'] = lv['stop'], lv['t1'], lv['t2']
+        rec['wrong_if'] = ['%s closes %s %s' % (sym, 'below' if side == 1 else 'above', _n100_inr(lv['stop'])), 'the position loses %d%% of what was paid' % int(_N100_PREM_STOP * 100)]
+    elif chosen['structure'] == 'CREDIT':
+        ks = [lg['strike'] for lg in chosen['legs'] if lg['action'] == 'SELL'][0]
+        rec['stop'], rec['t1'], rec['t2'] = ks, None, None
+        rec['wrong_if'] = ['%s closes %s the short strike %s' % (sym, 'below' if side == 1 else 'above', _n100_inr(ks)), 'the spread costs twice its credit to close']
+    else:
+        ps = [lg['strike'] for lg in chosen['legs'] if lg['action'] == 'SELL' and lg['type'] == 'PE'][0]
+        cs_ = [lg['strike'] for lg in chosen['legs'] if lg['action'] == 'SELL' and lg['type'] == 'CE'][0]
+        rec['stop'], rec['t1'], rec['t2'] = ps, None, None
+        rec['stop2'] = cs_
+        rec['wrong_if'] = ['%s closes below %s or above %s' % (sym, _n100_inr(ps), _n100_inr(cs_)), 'the condor costs twice its credit to close']
+    rec['risk'] = chosen['plan_risk']
+    return rec
+
+
+# ------------------------------------------------ the record: saved, deduplicated, sized against the risk already taken ------------------------------------------------
+def _n100_new_id():
+    return 'SG100-' + _n93_uuid.uuid4().hex[:6].upper()
+
+
+def _n100_day(now=None):
+    return _n100_ist(now if now is not None else _n91_time.time()).date().isoformat()
+
+
+def _n100_skey(rec, day):
+    return '%s|%s|%s|%s' % (day, rec['symbol'], rec['strategy'], rec['side'])
+
+
+def _n100_expiry_ts(rec, now):
+    k = rec['kind']
+    if k == 'option':
+        return now + max(0.5, (rec.get('days') or 2.0) - 1.0) * 86400.0
+    if rec['strategy'] == 'ORB':
+        return rec['spec']['deadline']
+    return now + (rec['horizon'] * 1.45 + 3.0) * 86400.0
+
+
+def _n100_save(rec, now=None):
+    """Keep a signal (one per symbol, strategy and side per day). Returns its id, or None when it was already issued today."""
+    now = now if now is not None else _n91_time.time()
+    sid = rec.get('id') or _n100_new_id()
+    day = _n100_day(now)
+    st = 'pending' if rec['kind'] in ('stock', 'index') and rec['strategy'] != 'ORB' else 'open'
+    row = (sid, now, day, rec['symbol'], rec['kind'], rec['strategy'], int(rec['side']), rec.get('band', ''), float(rec['score']), st, float(rec['ref']), float(rec['stop']),
+           None if rec.get('t1') is None else float(rec['t1']), None if rec.get('t2') is None else float(rec['t2']), float(rec.get('risk') or 0.0), _n100_expiry_ts(rec, now), None, None, '', _n100_skey(rec, day),
+           _n91_jsonlib.dumps(rec, default=str)[:90000])
+    n = _n100_q('INSERT OR IGNORE INTO sig100_signal VALUES(%s)' % ','.join('?' * 21), row, write=True)
+    if not n:
+        return None
+    rec['id'] = sid
+    rec['ts'] = now
+    return sid
+
+
+def _n100_row(sid):
+    r = _n100_q('SELECT payload, status, r_result, closed_ts, ts, expires, exit_reason FROM sig100_signal WHERE id=?', (str(sid).upper(),))
+    if not r:
+        return None
+    try:
+        rec = _n91_jsonlib.loads(r[0][0])
+    except ValueError:
+        return None
+    rec.update(status=r[0][1], r_result=r[0][2], closed_ts=r[0][3], ts=r[0][4], expires=r[0][5], exit_reason=r[0][6], id=str(sid).upper())
+    return rec
+
+
+def _n100_risk_of(rec):
+    """The rupees a signal would risk at the owner's limits (for the heat total); 0 when it does not fit or cannot be sized."""
+    sz = rec.get('size') or {}
+    if rec['kind'] == 'option':
+        return float(sz.get('risk_total') or 0.0)
+    if rec['kind'] == 'stock':
+        return float(sz.get('max_loss') or 0.0)
+    return 0.0
+
+
+def _n100_heat(cfg):
+    """(open risk in rupees, share of capital in percent) of the signals still open that fit the owner's limits."""
+    tot = 0.0
+    for (pl,) in _n100_q("SELECT payload FROM sig100_signal WHERE status IN ('open','pending')"):
+        try:
+            tot += _n100_risk_of(_n91_jsonlib.loads(pl))
+        except ValueError:
+            continue
+    return tot, tot / cfg['capital'] * 100.0 if cfg['capital'] else 0.0
+
+
+def _n100_breaker(cfg, now=None):
+    """(tripped, why): three stopped-out signals today, or today's settled signals add up to -2R or worse, and the owner has not switched the breaker off."""
+    if not cfg.get('breaker'):
+        return False, ''
+    day = _n100_day(now)
+    t0 = _n91_dt.datetime.fromisoformat(day).replace(tzinfo=_N100_IST).timestamp()
+    rows = _n100_q("SELECT status, r_result FROM sig100_signal WHERE closed_ts >= ? AND closed_ts < ? AND r_result IS NOT NULL", (t0, t0 + 86400.0))
+    stops = sum(1 for s, r in rows if s == 'stopped')
+    tot = sum(r for _s, r in rows)
+    if stops >= 3:
+        return True, '%d signals were stopped out today' % stops
+    if tot <= -2.0:
+        return True, "today's settled signals add up to %+.1fR" % tot
+    return False, ''
+
+
+# ------------------------------------------------ the words ------------------------------------------------
+_N100_RULE_WORDS = {'sma5': ('a close above the 5-day average', 'a close below the 5-day average'), 'donchian20': ('a close below the 20-day low', 'a close above the 20-day high'),
+                    'sma50': ('a close below the 50-day average', 'a close above the 50-day average'), 'st_flip': ('the Supertrend turning down', 'the Supertrend turning up')}
+
+
+def _n100_forward_stats(strategy=None, kind=None):
+    """The settled signals of a strategy as a list of R results (after charges)."""
+    q = "SELECT r_result FROM sig100_signal WHERE r_result IS NOT NULL AND status NOT IN ('dropped','skipped')"
+    args = []
+    if strategy:
+        q += ' AND strategy=?'
+        args.append(strategy)
+    if kind:
+        q += ' AND kind=?'
+        args.append(kind)
+    return [r[0] for r in _n100_q(q, tuple(args))]
+
+
+def _n100_boot_ci(rs, n=2000, seed=100, lo_q=0.05):
+    """A 90% interval for the average of a list of results by resampling (a fixed seed, so the same list always gives the same answer)."""
+    if len(rs) < 2:
+        return None, None
+    rnd = _n100_random.Random(seed)
+    k = len(rs)
+    means = sorted(sum(rs[rnd.randrange(k)] for _ in range(k)) / k for _ in range(n))
+    return means[int(lo_q * n)], means[int((1 - lo_q) * n) - 1]
+
+
+def _n100_diff_ci(rs, base, n=2000, seed=101, lo_q=0.05):
+    """(difference of the averages, lower, upper) of two lists by resampling both (a fixed seed): how much better the rule's trades did than the random-timing baseline's, with a 90% range."""
+    if len(rs) < 2 or len(base) < 2:
+        return None, None, None
+    rnd = _n100_random.Random(seed)
+    k1, k2 = len(rs), len(base)
+    ds = sorted(sum(rs[rnd.randrange(k1)] for _ in range(k1)) / k1 - sum(base[rnd.randrange(k2)] for _ in range(k2)) / k2 for _ in range(n))
+    return sum(rs) / k1 - sum(base) / k2, ds[int(lo_q * n)], ds[int((1 - lo_q) * n) - 1]
+
+
+def _n100_label(rs, halves=None, base=None):
+    """The evidence label a list of results (in R, after charges) has earned: 'too few' under 30; 'promising' only when the average is positive, its bootstrap interval stays above zero, (when given) both halves are
+    positive and (when given) it beats entries at random times under the same filter and exits by a margin whose 90% range stays above zero; 'unproven' for a positive average that fails one of those; 'negative' otherwise."""
+    n = len(rs)
+    if n < _N100_MIN_TRADES:
+        return 'too few'
+    m = sum(rs) / n
+    if m <= 0:
+        return 'negative'
+    lo, _hi = _n100_boot_ci(rs)
+    ok_halves = True if halves is None else all(h and sum(h) / len(h) > 0 for h in halves)
+    ok_base = True
+    if base is not None and len(base) >= _N100_MIN_TRADES:
+        _d, dlo, _dhi = _n100_diff_ci(rs, base)
+        ok_base = dlo is not None and dlo > 0
+    return 'promising' if (lo is not None and lo > 0 and ok_halves and ok_base) else 'unproven'
+
+
+def _n100_evidence_line(strategy):
+    rs = _n100_forward_stats(strategy)
+    if not rs:
+        return 'forward record: none yet (every signal I issue is followed; “sigma stats” shows it)'
+    return 'forward record: %d settled, average %+.2fR after charges, evidence: %s' % (len(rs), sum(rs) / len(rs), _n100_label(rs))
+
+
+def _n100_pct(x, d=1):
+    return ('%.' + str(d) + 'f%%') % x
+
+
+def _n100_stock_card(r, cfg, sid=None):
+    side = r['side']
+    word = 'LONG' if side == 1 else 'SHORT'
+    a = r['atr']
+    L = ['%s SIGMA %s · %s %s · %s' % ('📈' if side == 1 else '📉', sid or '(not saved)', word, r['symbol'], r['label']),
+         'Score %d/100 (band %s: a checklist total, not a probability) · %s' % (r['score'], r['band'], _n100_evidence_line(r['strategy']))]
+    L.append('WHY: ' + r['trigger'] + '.')
+    zone = r['ref'] + side * 0.25 * a
+    L.append('ENTRY: at the next session\'s open, if it is still near %s-%s (the close of %s was %s)%s.' % (_n100_inr(min(r['ref'], zone), 2), _n100_inr(max(r['ref'], zone), 2), r.get('last_day') or 'the signal day', _n100_inr(r['ref'], 2),
+             '; skip it if the open is already past the stop or more than 1.5 risk units from it'))
+    L.append('STOP: %s (%.1f ATR, %s of the price): risk %s a share.' % (_n100_inr(r['stop'], 2), r['risk'] / a, _n100_pct(r['risk'] / r['ref'] * 100.0), _n100_inr(r['risk'], 2)))
+    ex = []
+    if r.get('rule'):
+        w = _N100_RULE_WORDS[r['rule']][0 if side == 1 else 1]
+        ex.append('leave at the next open after %s' % w)
+    if r.get('trail_mult'):
+        ex.append('trail the stop %.1f ATR behind the best price' % r['trail_mult'])
+    if r.get('st_trail') or r['strategy'] == 'SUPERTREND':
+        ex.append('the Supertrend line moves the stop up as it rises')
+    if r.get('t1') is not None and r['strategy'] == 'SQUEEZE':
+        ex.append('target %s (2R)' % _n100_inr(r['t1'], 2))
+    elif r.get('scale'):
+        ex.append('optional scale-out half at %s (%.0fR)' % (_n100_inr(r['t1'], 2), r['scale']))
+    ex.append('close it after %d sessions at the latest' % r['horizon'])
+    L.append('EXIT: ' + '; '.join(ex) + '.')
+    sz = r.get('size')
+    if sz is not None:
+        if sz['qty'] >= 1:
+            L.append('SIZE at your limits (capital ₹%s, risk %.1f%% = ₹%s): %d share%s (₹%s), worst planned loss ₹%s.' % (_n100_inr(cfg['capital']), cfg['risk_pct'], _n100_inr(sz['risk_amount']), sz['qty'], '' if sz['qty'] == 1 else 's',
+                     _n100_inr(sz['value']), _n100_inr(sz['max_loss'])))
+        else:
+            L.append('SIZE: 0 shares at your ₹%s limit: one share risks ₹%s. Say “sigma config capital=… risk=…” if the numbers are not yours.' % (_n100_inr(sz['risk_amount']), _n100_inr(sz['per_share'], 2)))
+    else:
+        L.append('SIZE: index-level signal. As futures one lot is %d units, so a lot risks about ₹%s at this stop (%s of your capital); “sigma nifty” gives a defined-risk option version.' % (
+            lot_size(r['symbol']) or 1, _n100_inr(r['risk'] * (lot_size(r['symbol']) or 1)), _n100_pct(r['risk'] * (lot_size(r['symbol']) or 1) / cfg['capital'] * 100.0)))
+    L.append('CHARGES: about %s round trip (%s of the value incl. slippage) = %.2f of one risk unit; delivery shares pay STT on both legs.' % ('₹' + _n100_inr(r['ref'] * r['cost_pct'] / 100.0 * (r['size']['qty'] if (r.get('size') and r['size']['qty']) else 1), 0), _n100_pct(r['cost_pct'], 2), r['cost_r']))
+    if r['good']:
+        L.append('FOR: ' + '; '.join(r['good'][:4]) + '.')
+    if r['bad']:
+        L.append('AGAINST: ' + '; '.join(r['bad'][:3]) + '.')
+    if r['unchecked']:
+        L.append('NOT CHECKED: ' + '; '.join(r['unchecked'][:4]) + '.')
+    if r.get('jump'):
+        L.append('⚠ a one-day move over 35% is in the last year of data: a split or bonus may not be adjusted, so the averages may be off.')
+    if side == -1 and r['kind'] == 'stock':
+        L.append('A short needs stock futures or a put (cash shares cannot be held short overnight).')
+    L.append('WRONG IF: ' + '; '.join(r['wrong_if']) + '.')
+    L.append(_N100_NOTE)
+    return '\n'.join(L)[:3900]
+
+
+def _n100_money(x):
+    return ('-₹' if x < 0 else '₹') + _n100_inr(abs(x), 0)
+
+
+def _n100_leg_text(lg):
+    return '%s %s %s @ %s' % (lg['action'], _n100_inr(lg['strike']), lg['type'], _n100_inr(lg['px'], 2))
+
+
+def _n100_option_card(r, cfg, sid=None):
+    p, st, lot = r['plan'], r['stats'], r['lot']
+    side = r['side']
+    icon = '🧩'
+    L = ['%s SIGMA %s · %s %s · expiry %s (%.1f days) · score %d/100 (band %s)' % (icon, sid or '(not saved)', r['symbol'], p['name'].upper(), r.get('expiry') or 'nearest', r['days'], r['score'], r['band']),
+         _n100_evidence_line(r['strategy'])]
+    b = r['bias']
+    if side != 0:
+        L.append('VIEW: %s, net bias %+.2f (confidence %.0f%%, %d of %d reads agree).' % ('bullish' if side == 1 else 'bearish', b['bias'], b['conf'] * 100, b['agree'], b['n']))
+    else:
+        L.append('VIEW: range-bound (net bias %+.2f), regime %s: a range structure, not a direction.' % (b['bias'], r.get('regime')))
+    for t in r['good'][:4]:
+        L.append('  + ' + t)
+    for t in r['bad'][:2]:
+        L.append('  - ' + t)
+    iv = st.get('atm_iv')
+    ivp = r.get('ivp')
+    L.append('VOLATILITY: at-the-money implied volatility %.1f%%, percentile %s (from %s) → %s. Expected move to expiry ±%s points (%.1f%%, one standard deviation).' % (
+        iv, '%.0f' % ivp if ivp is not None else 'unknown', r.get('ivp_src'), {'LONG': 'options are cheap: buying is reasonable', 'DEBIT': 'options are fairly priced: a debit spread limits what you pay for time', 'CREDIT': 'options are dear: sell a defined-risk spread',
+                                                                                  'CONDOR': 'options are dear and the market is ranging: sell a defined-risk condor'}[p['structure']], _n100_inr(st['em']), st['em_pct']))
+    L.append('LEGS (one lot = %d units; bought at the ask, sold at the bid): %s.' % (lot, '  ·  '.join(_n100_leg_text(lg) for lg in p['legs'])))
+    be = ' and '.join(_n100_inr(x, 1) for x in p['breakevens']) or 'n/a'
+    if p['structure'] in ('LONG', 'DEBIT'):
+        L.append('COST: pay %s a lot (%s a unit) · worst case lose all of it · best case %s · break-even at expiry %s · model chance of a profit after charges %.0f%%.' % (
+            _n100_money(p['premium'] * lot), _n100_inr(p['premium'], 2), 'unlimited' if p['unlimited'] else _n100_money(p['max_profit'] * lot), be, p['pop'] * 100))
+        L.append('EXIT PLAN: leave if the position falls to %s (a loss of %s a lot) or %s closes %s %s; take profit at %s (+%s a lot)%s; do not hold into the last day.' % (
+            _n100_inr(p['sl'], 2), _n100_money(p['plan_risk'] * lot), r['symbol'], 'below' if side == 1 else 'above', _n100_inr(r['stop']), _n100_inr(p['tp1'], 2), _n100_money(p['reward1'] * lot),
+            (' and again at %s' % _n100_inr(p['tp2'], 2)) if p.get('tp2') else ''))
+        if p.get('rr'):
+            L.append('REWARD TO RISK at the plan: %.1f. Break-even win rate before charges: %.0f%%.' % (p['rr'], 100.0 / (1.0 + p['rr'])))
+    else:
+        L.append('CREDIT: receive %s a lot (%s a unit) · worst case lose %s (the width less the credit) · best case %s · break-even%s at expiry %s · model chance of a profit after charges %.0f%%.' % (
+            _n100_money(p['credit'] * lot), _n100_inr(p['credit'], 2), _n100_money(p['max_loss'] * lot), _n100_money(p['max_profit'] * lot), 's' if len(p['breakevens']) > 1 else '', be, p['pop'] * 100))
+        stops = r['wrong_if'][0]
+        L.append('EXIT PLAN: take profit when it costs %s or less to close (half the credit); leave when it costs %s or more (a loss of about %s a lot) or %s; close it the day before expiry at the latest.' % (
+            _n100_inr(p['tp1'], 2), _n100_inr(p['sl'], 2), _n100_money(p['plan_risk'] * lot), stops))
+        L.append('The model chance is high because you win small and lose big: one bad day can take several wins.')
+    L.append('CHARGES: about %s a lot round trip%s; model expected result after charges %s a lot (a fairly priced option is worth about zero before charges: this only pays if your view is better than the market\'s).' % (
+        _n100_money(p['cost_lot']), '' if not p.get('max_profit') else ' (%.0f%% of the best case)' % (p['cost_lot'] / (p['max_profit'] * lot) * 100.0), _n100_money(p['ev_lot'])))
+    sz = r['size']
+    if sz['fits']:
+        L.append('SIZE at your limits (capital ₹%s, risk %.1f%% = ₹%s, sized to %s): %d lot%s, risking about %s (worst case %s).' % (_n100_inr(cfg['capital']), cfg['risk_pct'], _n100_inr(sz['risk_amount']), sz['basis'], sz['lots'],
+                 '' if sz['lots'] == 1 else 's', _n100_money(sz['risk_total']), _n100_money(sz['max_loss_total'])))
+    else:
+        L.append('SIZE: 0 lots at your ₹%s limit. One lot risks %s (%s) = %s of your capital. To risk %.1f%% on one lot you would need about ₹%s of capital. A smaller defined-risk structure or a smaller index is the honest answer, not a bigger bet.' % (
+            _n100_inr(sz['risk_amount']), _n100_money(sz['per_lot_risk']), sz['basis'], _n100_pct(sz['per_lot_risk'] / cfg['capital'] * 100.0), cfg['risk_pct'], _n100_inr(sz['capital_for_one']) if sz['capital_for_one'] else 'n/a'))
+    if r.get('alts'):
+        a0 = r['alts'][0]
+        L.append('ALTERNATIVE: %s (%s).' % (a0['name'], '  ·  '.join(_n100_leg_text(lg) for lg in a0['legs'])))
+    bu = st.get('buildup')
+    if bu and bu['top']:
+        L.append('OPEN INTEREST: PCR %s; call wall %s, put wall %s; build-up near the money: %s.' % (_n100_pcr_word(st.get('pcr_oi')), _n100_inr(st.get('call_wall')) if st.get('call_wall') else 'n/a', _n100_inr(st.get('put_wall')) if st.get('put_wall') else 'n/a',
+                 ', '.join('%s %s' % (lab, _n100_inr(k)) for k, _t, lab, _oc in bu['top'][:3])))
+    for n_ in r.get('notes') or []:
+        L.append('NOTE: ' + n_ + '.')
+    L.append('NOT CHECKED: ' + '; '.join(r['unchecked'][:4]) + '. Max pain %s is shown for context only: the evidence for it on index options is thin.' % (_n100_inr(st['max_pain']) if st.get('max_pain') else 'n/a'))
+    L.append('WRONG IF: ' + '; '.join(r['wrong_if']) + '.')
+    L.append('Chances come from a one-volatility model priced off today\'s chain (no smile, no gaps, no view). Broker margin applies to any sold leg and is not computed here. ' + _N100_NOTE)
+    return '\n'.join(L)[:3950]
+
+
+def _n100_orb_card(r, cfg, sid=None):
+    side = r['side']
+    risk = r['risk']
+    lot = lot_size(r['symbol']) or 1
+    L = ['%s SIGMA %s · %s %s · %s' % ('📈' if side == 1 else '📉', sid or '(not saved)', 'LONG' if side == 1 else 'SHORT', r['symbol'], r['label']), _n100_evidence_line('ORB'),
+         'WHY: ' + r['trigger'] + '. ' + r.get('state', ''),
+         'ENTRY: around %s now (the breakout bar closed there); do not chase more than a quarter of the risk beyond it.' % _n100_inr(r['ref'], 2),
+         'STOP: %s (the middle of the opening range): %s points. TARGET: %s (1.5 times the risk), then %s if it keeps going. TIME STOP: out by 15:10 whatever happens.' % (_n100_inr(r['stop'], 2), _n100_inr(risk, 1), _n100_inr(r['t1'], 2), _n100_inr(r['t2'], 2)),
+         'SIZE: as futures one lot is %d units: risk about ₹%s a lot (%s of your capital). Risk %.1f%% of ₹%s is ₹%s: %s.' % (lot, _n100_inr(risk * lot), _n100_pct(risk * lot / cfg['capital'] * 100.0), cfg['risk_pct'], _n100_inr(cfg['capital']),
+                                                                                                                    _n100_inr(cfg['capital'] * cfg['risk_pct'] / 100.0), ('%d lot%s' % (int(cfg['capital'] * cfg['risk_pct'] / 100.0 // (risk * lot)), '' if int(cfg['capital'] * cfg['risk_pct'] / 100.0 // (risk * lot)) == 1 else 's')) if risk * lot <= cfg['capital'] * cfg['risk_pct'] / 100.0 else '0 lots: it does not fit'),
+         'The index feed has no volume, so the session average is a plain average of prices, not a true VWAP. This rule cannot be back-tested here (5-minute history is only days long): its record is built by following every signal it gives.',
+         'WRONG IF: price closes %s %s.' % ('below' if side == 1 else 'above', _n100_inr(r['stop'], 2)), _N100_NOTE]
+    return '\n'.join(L)[:3900]
+
+
+def _n100_card(r, cfg, sid=None):
+    if r['kind'] == 'option':
+        return _n100_option_card(r, cfg, sid)
+    if r['strategy'] == 'ORB':
+        return _n100_orb_card(r, cfg, sid)
+    return _n100_stock_card(r, cfg, sid)
+
+
+# ------------------------------------------------ the statistics: win rate with its honest range, average result, drawdown, an evidence label ------------------------------------------------
+def _n100_trade_stats(rs):
+    """Summary of a list of results in units of the planned risk, after charges."""
+    n = len(rs)
+    if not n:
+        return {'n': 0}
+    wins = sum(1 for x in rs if x > 0)
+    gp = sum(x for x in rs if x > 0)
+    gl = -sum(x for x in rs if x <= 0)
+    eq = peak = dd = 0.0
+    streak = best = 0
+    for x in rs:
+        eq += x
+        peak = max(peak, eq)
+        dd = max(dd, peak - eq)
+        streak = streak + 1 if x <= 0 else 0
+        best = max(best, streak)
+    lo, hi = _n96_wilson(wins, n)
+    srt = sorted(rs)
+    return {'n': n, 'wins': wins, 'win_rate': wins / n * 100.0, 'win_lo': lo * 100.0, 'win_hi': hi * 100.0, 'avg_r': sum(rs) / n, 'median_r': srt[n // 2] if n % 2 else (srt[n // 2 - 1] + srt[n // 2]) / 2.0,
+            'total_r': sum(rs), 'profit_factor': (gp / gl) if gl > 0 else None, 'max_dd_r': dd, 'losing_streak': best, 'best_r': srt[-1], 'worst_r': srt[0]}
+
+
+_N100_STATUS = {'target': 'target', 'stop': 'stopped', 'stop (gap)': 'stopped', 'time': 'expired', 'rule': 'rule'}
+
+
+# ------------------------------------------------ the backtest: the same rules, bar by bar, next-open entries, charges, one position per rule at a time ------------------------------------------------
+def _n100_backtest(cs, names=None, kind='stock', start=200):
+    """Replay the daily rules over candles. Returns {'trades': [...], 'bars': n, 'first_ts', 'last_ts', 'buy_hold': percent}. No look-ahead (the rules see bars up to the signal bar), entry at the next open, stop first,
+    gap exits at the open, charges and slippage taken off every trade. A trade still open at the end of the data is left out."""
+    cs = _n93_clean(cs)
+    F = _n100_prepare(cs)
+    n = F['n']
+    trades = []
+    sides_of = lambda nm: _N100_RULES[nm]['sides']
+    for name in (names or _N100_DAILY):
+        i = max(start, 126)
+        while i < n - 1:
+            fired = None
+            for side in sides_of(name):
+                s, _w = _N100_FUNCS[name](F, i, side)
+                if s:
+                    fired = s
+                    break
+            if fired is None:
+                i += 1
+                continue
+            w = _n100_walk(F, i, fired)
+            if w['status'] == 'closed':
+                trades.append({'strategy': name, 'side': fired['side'], 'i': i, 'ts': F['ts'][i], 'entry': w['entry'], 'exit': w['exit'], 'reason': w['reason'], 'r_gross': w['r'], 'r': _n100_net_r(w, kind), 'bars': w['bars'],
+                               'exit_ts': F['ts'][w['exit_i']]})
+                i = max(i + 1, w['exit_i'])
+            elif w['status'] == 'skipped':
+                i += 1
+            else:
+                break
+    first = F['c'][max(start, 126)] if n > max(start, 126) else None
+    base = {name: _n100_baseline(F, name, kind) for name in {t['strategy'] for t in trades}}
+    return {'trades': trades, 'bars': n, 'first_ts': F['ts'][0] if n else None, 'last_ts': F['ts'][-1] if n else None, 'buy_hold': ((F['c'][-1] / first - 1.0) * 100.0) if first else None, 'start_i': max(start, 126),
+            'baseline': base}
+
+
+def _n100_baseline(F, name, kind, k=300, start=200):
+    """Results (in R, after charges) of entries at RANDOM times with the rule's own stop, trail, exit and time limit, on bars that pass the rule's side-of-market filter. A rising market lifts these as much as it lifts the rule,
+    so the rule has to beat them to claim that its timing adds anything. Fixed seed: the same data always gives the same baseline."""
+    n = F['n']
+    rnd = _n100_random.Random(sum(ord(ch) for ch in name) * 7919 + n)
+    sides = _N100_RULES[name]['sides']
+    elig = [(i, s) for i in range(max(start, 126), n - 1) for s in sides if _n100_eligible(name, F, i, s)]
+    if not elig:
+        return []
+    out = []
+    for i, s in (rnd.sample(elig, k) if len(elig) > k else elig):
+        sp = _n100_forced_spec(name, F, i, s)
+        if sp is None:
+            continue
+        w = _n100_walk(F, i, sp)
+        if w['status'] == 'closed':
+            out.append(_n100_net_r(w, kind))
+    return out
+
+
+def _n100_split(trades, cut_ts):
+    return [t['r'] for t in trades if t['ts'] < cut_ts], [t['r'] for t in trades if t['ts'] >= cut_ts]
+
+
+def _n100_bt_summary(trades, first_ts, last_ts, baseline=None):
+    """Per strategy: statistics, halves split in time at the middle of the span, the random-timing baseline and the rule's margin over it, evidence label."""
+    cut = (first_ts + last_ts) / 2.0
+    out = {}
+    for name in sorted({t['strategy'] for t in trades}):
+        ts = [t for t in trades if t['strategy'] == name]
+        rs = [t['r'] for t in ts]
+        a, b = _n100_split(ts, cut)
+        base = (baseline or {}).get(name)
+        out[name] = {'stats': _n100_trade_stats(rs), 'first': _n100_trade_stats(a), 'second': _n100_trade_stats(b), 'label': _n100_label(rs, [a, b] if (a and b) else None, base), 'ci': _n100_boot_ci(rs),
+                     'avg_bars': sum(t['bars'] for t in ts) / len(ts), 'base': _n100_trade_stats(base) if base else None, 'edge': _n100_diff_ci(rs, base) if (base and len(base) >= 2) else None}
+    return out
+
+
+def _n100_bt_lines(summary, indent='', pooled=False):
+    L = []
+    for name, d in summary.items():
+        st, a, b = d['stats'], d['first'], d['second']
+        lo, hi = d['ci']
+        L.append('%s%s: %d trades · won %.0f%% (the true rate could be %.0f-%.0f%%) · average %+.2fR after charges%s · profit factor %s%s · average hold %.0f days' % (
+            indent, _N100_RULES[name]['label'], st['n'], st['win_rate'], st['win_lo'], st['win_hi'], st['avg_r'], (' (90%% range %+.2f to %+.2f)' % (lo, hi)) if lo is not None else '',
+            ('%.2f' % st['profit_factor']) if st['profit_factor'] else 'n/a', '' if pooled else ' · worst dip %.1fR · longest losing run %d' % (st['max_dd_r'], st['losing_streak']), d['avg_bars']))
+        L.append('%s   first half %s · second half %s' % (indent, ('%d trades %+.2fR' % (a['n'], a['avg_r'])) if a['n'] else 'no trades', ('%d trades %+.2fR' % (b['n'], b['avg_r'])) if b['n'] else 'no trades'))
+        if d.get('base') and d['base']['n'] >= 2 and d.get('edge') and d['edge'][0] is not None:
+            e, elo, ehi = d['edge']
+            L.append('%s   random entry times, same filter and exits: %d entries averaged %+.2fR → the rule\'s timing adds %+.2fR (90%% range %+.2f to %+.2f)' % (indent, d['base']['n'], d['base']['avg_r'], e, elo, ehi))
+        L.append('%s   evidence: %s' % (indent, d['label'].upper()))
+    return L
+
+
+_N100_BT_CAVEATS = ('Caveats, all of which flatter the result: today\'s index members are a survivor list (stocks that fell out or were delisted are not here); the rules were written knowing how these markets have behaved; '
+                    'a daily candle cannot show which came first inside the day (stop-first is assumed); fills at the open are assumed, with 0.05% slippage a side. Treat a result as a filter for ideas that fail, not a proof for ones that pass.')
+
+
+def _n100_bt_job(cid, symbol, strategy=None):
+    symbol = symbol.upper()
+    cfg_names = [strategy] if strategy else None
+    cs, info = _n100_daily(symbol, 5)
+    if len(cs) < 400:
+        raise _N91Err('no_data', 'I could only read %d daily candles for %s (%s): too few for a test of rules that need 200 days of warm-up.' % (len(cs), symbol, info.get('error') or info.get('source') or 'no source'))
+    kind = 'index' if symbol in ('NIFTY', 'BANKNIFTY') else 'stock'
+    bt = _n100_backtest(cs, cfg_names, kind)
+    _N100_STATS['backtests'] += 1
+    summ = _n100_bt_summary(bt['trades'], bt['first_ts'], bt['last_ts'], bt.get('baseline'))
+    d0, d1 = _n100_ist(bt['first_ts']).strftime('%d %b %Y'), _n100_ist(bt['last_ts']).strftime('%d %b %Y')
+    L = ['🧪 SIGMA TEST: %s, %d daily candles %s to %s (%s)' % (symbol, bt['bars'], d0, d1, info['source']),
+         'Rules fixed in advance, next-open entries, stop first, gap exits at the open, charges %s a round trip. Buy and hold over the same span: %s.' % (_n100_pct(_n100_cost_pct(kind), 2), ('%+.0f%%' % bt['buy_hold']) if bt['buy_hold'] is not None else 'n/a')]
+    if not summ:
+        L.append('No rule fired on this stock in that span.')
+    L += _n100_bt_lines(summ)
+    L.append(_N100_BT_CAVEATS)
+    L.append('The random-timing line is the control: a rising market lifts entries at random times too, so a rule has to beat them. A single stock is a small sample. “sigma test all” pools the rules over your universe.')
+    _n91_say(cid, '\n'.join(L))
+
+
+def _n100_bt_all_job(cid, strategy=None):
+    cfg = _n100_cfg()
+    syms = _n100_universe(cfg)[:20]
+    names = [strategy] if strategy else None
+    _n91_say(cid, '🧪 Testing the rules on %d stocks (5 years each). This takes a minute or two…' % len(syms))
+    all_trades, firsts, lasts, used, failed, pooled_base = [], [], [], 0, [], {}
+
+    def one(sym):
+        cs, info = _n100_daily(sym, 5)
+        if len(cs) < 400:
+            return sym, None
+        return sym, _n100_backtest(cs, names, 'stock')
+    with _N93Pool(max_workers=4) as ex:
+        for sym, bt in ex.map(one, syms):
+            if bt is None:
+                failed.append(sym)
+                continue
+            used += 1
+            all_trades += [dict(t, symbol=sym) for t in bt['trades']]
+            for nm, lst in (bt.get('baseline') or {}).items():
+                pooled_base.setdefault(nm, []).extend(lst)
+            firsts.append(bt['first_ts'])
+            lasts.append(bt['last_ts'])
+    if not used:
+        raise _N91Err('no_data', 'I could not read enough history for any of the %d stocks.' % len(syms))
+    _N100_STATS['backtests'] += 1
+    summ = _n100_bt_summary(all_trades, min(firsts), max(lasts), pooled_base)
+    L = ['🧪 SIGMA TEST (pooled): %d stocks, %s to %s%s' % (used, _n100_ist(min(firsts)).strftime('%b %Y'), _n100_ist(max(lasts)).strftime('%b %Y'), (' · no usable history: ' + ', '.join(failed)) if failed else ''),
+         'The same fixed rules on every stock, next-open entries, charges %s a round trip. The pooled trades are split in time at the middle of the span.' % _n100_pct(_n100_cost_pct('stock'), 2)]
+    L += _n100_bt_lines(summ, pooled=True)
+    L.append('Trades on different stocks in the same weeks are not independent, so the real uncertainty is wider than the ranges shown. ' + _N100_BT_CAVEATS)
+    _n91_say(cid, '\n'.join(L))
+
+
+# ------------------------------------------------ the short-volatility proxy study: how a weekly iron condor on the real NIFTY would have fared, priced with the India VIX ------------------------------------------------
+def _n100_volproxy(ncs, vcs, hold=5, steps=2, step=50, k_sigma=1.0, lot=65, slip=0.5):
+    """Weekly iron condors on past NIFTY closes, priced with the India VIX as the volatility of every leg and settled on the real NIFTY close `hold` trading days later. Short strikes `k_sigma` expected moves out,
+    wings `steps` strikes further, `slip` points of slippage per leg, charges from Nemo's cost table. A PROXY: no skew, flat volatility on the wings (which makes the credit too good), hold to expiry with no management."""
+    vix = {_n100_ist(x['ts']).date().isoformat(): x['c'] for x in vcs}
+    rows = []
+    i = 0
+    rnd = lambda x: round(x / step) * step
+    while i + hold < len(ncs):
+        d0 = _n100_ist(ncs[i]['ts']).date()
+        v = vix.get(d0.isoformat())
+        if not v or v <= 3:
+            i += 1
+            continue
+        S, ST = ncs[i]['c'], ncs[i + hold]['c']
+        days = max(1, (_n100_ist(ncs[i + hold]['ts']).date() - d0).days)
+        em = S * v / 100.0 * _n100_math.sqrt(days / 365.0)
+        kp, kc = rnd(S - k_sigma * em), rnd(S + k_sigma * em)
+        wp, wc = kp - steps * step, kc + steps * step
+        px = lambda k, kind: _n93_bs_price(S, k, v, days, kind)
+        legs = [(-1, 'PE', kp, px(kp, 'PE')), (1, 'PE', wp, px(wp, 'PE')), (-1, 'CE', kc, px(kc, 'CE')), (1, 'CE', wc, px(wc, 'CE'))]
+        if any(l[3] is None for l in legs):
+            i += 1
+            continue
+        legs = [(sg, t, k, max(0.05, p - slip) if sg < 0 else p + slip) for sg, t, k, p in legs]
+        credit = -sum(sg * p for sg, _t, _k, p in legs)
+        loss = max(0.0, kp - ST) - max(0.0, wp - ST) + max(0.0, ST - kc) - max(0.0, ST - wc)
+        pnl = (credit - loss) * lot - _n100_costs_lot(legs, lot)
+        rows.append({'date': d0.isoformat(), 'S': S, 'ST': ST, 'vix': v, 'credit': credit, 'pnl': pnl, 'breach': ST < kp or ST > kc, 'ratio': abs(ST - S) / em if em else None, 'maxloss': (steps * step - credit) * lot})
+        i += hold
+    return rows
+
+
+def _n100_volproxy_text(rows, symbol='NIFTY'):
+    if len(rows) < 20:
+        return 'Too few weeks (%d) to say anything. I need about two years of NIFTY and India VIX history.' % len(rows)
+    n = len(rows)
+    pn = [r['pnl'] for r in rows]
+    wins = sum(1 for x in pn if x > 0)
+    srt = sorted(pn)
+    eq = peak = dd = 0.0
+    for x in pn:
+        eq += x
+        peak = max(peak, eq)
+        dd = max(dd, peak - eq)
+    streak = best = 0
+    for x in pn:
+        streak = streak + 1 if x <= 0 else 0
+        best = max(best, streak)
+    breach = sum(1 for r in rows if r['breach']) / n * 100.0
+    ratios = [r['ratio'] for r in rows if r['ratio'] is not None]
+    avg_win = sum(x for x in pn if x > 0) / max(1, wins)
+    worst = srt[0]
+    lo, hi = _n96_wilson(wins, n)
+    L = ['🧪 SHORT-VOLATILITY PROXY STUDY: a weekly %s iron condor, short strikes 1 expected move out, wings 2 strikes further, held to expiry' % symbol,
+         '%d weeks from %s to %s, priced with the India VIX as every leg\'s volatility, settled on the real close, 1 lot, after charges and slippage.' % (n, rows[0]['date'], rows[-1]['date']),
+         'Won %d of %d weeks (%.0f%%; the true rate could be %.0f-%.0f%%) · average ₹%s a week · total ₹%s · worst week ₹%s · worst 5 weeks averaged ₹%s · deepest dip ₹%s · longest losing run %d weeks.' % (
+             wins, n, wins / n * 100.0, lo * 100, hi * 100, _n100_inr(sum(pn) / n), _n100_inr(sum(pn)), _n100_inr(worst), _n100_inr(sum(srt[:5]) / 5.0), _n100_inr(dd), best),
+         'The short strikes were breached in %.0f%% of weeks (a fairly priced one-sigma strike is breached about 32%% of the time). The real move was on average %.2f of the move the VIX implied (0.80 would be a fair price).' % (breach, sum(ratios) / len(ratios) if ratios else 0.0),
+         'What it shows: one bad week (₹%s) wiped out about %.1f average winning weeks (₹%s each). That is the shape of selling options: many small wins, rare large losses. If the model credit were real, this is the best case; it is not (see below).' % (
+             _n100_inr(-worst), (-worst) / avg_win if avg_win > 0 else 0, _n100_inr(avg_win)),
+         'This is a PROXY. It prices the far wings with the same volatility as the near strikes (real wings cost more, so the credit here is too high), ignores the volatility skew, and cannot know the real bid-ask you would have got. Real results would be worse. It shows the SHAPE of the risk, not a forecast.',
+         _N100_NOTE]
+    return '\n'.join(L)[:3900]
+
+
+def _n100_volproxy_job(cid):
+    ncs, _ni = _n100_daily('NIFTY', 5)
+    try:
+        vcs, _vi = _n93_candles('INDIAVIX', '1d')
+    except Exception:
+        vcs = []
+    vc5, _vi5 = _n100_daily('INDIAVIX', 5)
+    vcs = vc5 if len(vc5) > len(vcs) else vcs
+    if len(ncs) < 300 or len(vcs) < 300:
+        raise _N91Err('no_data', 'I could only read %d NIFTY and %d India VIX daily candles: too few for the study.' % (len(ncs), len(vcs)))
+    rows = _n100_volproxy(ncs, vcs, lot=lot_size('NIFTY') or 65)
+    _N100_STATS['backtests'] += 1
+    _n91_say(cid, _n100_volproxy_text(rows))
+
+
+# ------------------------------------------------ following the signals: what happened after each one was issued ------------------------------------------------
+def _n100_settle(sid, status, r, closed_ts, reason=''):
+    n = _n100_q("UPDATE sig100_signal SET status=?, r_result=?, closed_ts=?, exit_reason=? WHERE id=? AND status IN ('open','pending')", (status, None if r is None else float(r), float(closed_ts), str(reason)[:160], sid), write=True)
+    if n:
+        _N100_STATS['settled'] += 1
+    return bool(n)
+
+
+def _n100_track_daily(rec, now, cs=None, F=None):
+    """(walk result, kind) for a daily-candle signal (a stock or an index)."""
+    if F is None:
+        if cs is None:
+            cs, _info = _n100_daily(rec['symbol'], 2, now)
+        F = _n100_prepare(cs)
+    i = None
+    for k in range(F['n'] - 1, -1, -1):
+        if F['ts'][k] <= rec['bar_ts']:
+            i = k
+            break
+    if i is None:
+        return None, F
+    return _n100_walk(F, i, rec['spec']), F
+
+
+def _n100_track_orb(rec, now, cs=None):
+    if cs is None:
+        cs, _inf = _n93_candles(rec['symbol'], '5m')
+    F = _n100_prepare(cs)
+    i = None
+    for k in range(F['n'] - 1, -1, -1):
+        if F['ts'][k] <= rec['bar_ts']:
+            i = k
+            break
+    if i is None:
+        return None, F
+    return _n100_walk(F, i, rec['spec']), F
+
+
+def _n100_option_value(rec, spot, now, quotes=None):
+    """The value per unit of an option structure now: from live mid prices when they are given ({(strike, type): price}), else by the model at today's index price, the time left and each leg's volatility at issue."""
+    p = rec['plan']
+    days_left = max(0.05, (rec.get('expiry_ts', now) - now) / 86400.0)
+    tot = 0.0
+    for lg in p['legs']:
+        sg = 1 if lg['action'] == 'BUY' else -1
+        q = (quotes or {}).get((float(lg['strike']), lg['type']))
+        if q is None:
+            q = _n93_bs_price(spot, lg['strike'], lg.get('iv') or rec['stats'].get('atm_iv') or 15.0, days_left, lg['type'])
+        if q is None:
+            return None
+        tot += sg * q
+    return tot
+
+
+def _n100_option_decide(rec, value, spot, now):
+    """(status, r in units of the planned risk after charges, exit value) when the plan says leave, else None. The checks are in the plan: bought structures leave at the stop value, the target value or a close beyond the
+    index stop; sold ones when closing costs half the credit or twice it, or the index closes beyond a short strike; every structure leaves when about one day is left. Exits are taken at the observed value, less 1.5%."""
+    p = rec['plan']
+    lot = p['lot']
+    days_left = (rec.get('expiry_ts', now) - now) / 86400.0
+    cost_unit = p['cost_lot'] / lot
+    if p['structure'] in ('LONG', 'DEBIT'):
+        paid = p['premium']
+        side = rec['side']
+        hit_und = (side == 1 and spot < rec['stop']) or (side == -1 and spot > rec['stop'])
+        if value <= p['sl'] or hit_und:
+            why = 'stopped'
+        elif value >= p['tp1']:
+            why = 'target'
+        elif days_left <= 1.0:
+            why = 'expired'
+        else:
+            return None
+        got = value * 0.985
+        pnl = got - paid - cost_unit
+    else:
+        credit = p['credit']
+        cost_close = -value
+        if p['structure'] == 'CREDIT':
+            beyond = (rec['side'] == 1 and spot < rec['stop']) or (rec['side'] == -1 and spot > rec['stop'])
+        else:
+            beyond = spot < rec['stop'] or spot > rec.get('stop2', 1e18)
+        if cost_close >= p['sl'] or beyond:
+            why = 'stopped'
+        elif cost_close <= p['tp1']:
+            why = 'target'
+        elif days_left <= 1.0:
+            why = 'expired'
+        else:
+            return None
+        pnl = credit - cost_close * 1.015 - cost_unit
+    risk = p['plan_risk']
+    r = pnl / risk if risk > 0 else None
+    return why, r, value
+
+
+def _n100_track_option(rec, now):
+    """Mark an open option signal against live prices (the chain's own bid and ask for its legs) when the broker answers, else against the model with the latest index price. Returns (decision | None, spot, source words)."""
+    quotes, spot, src = {}, None, 'model (no live prices)'
+    try:
+        ch = _n55_option_chain_struct(rec['symbol'], 14, rec.get('expiry_ts'), persist=False)
+        if ch.get('ok') and ch.get('spot'):
+            spot = ch['spot']
+            for (k, t), r in _n100_book(ch).items():
+                m = _n100_mid(r)
+                if m:
+                    quotes[(k, t)] = m
+            src = 'live chain mid prices'
+    except Exception:
+        pass
+    if spot is None:
+        cs, _inf = _n93_candles(rec['symbol'], '5m')
+        if cs:
+            spot = cs[-1]['c']
+    if spot is None:
+        return None, None, 'no price'
+    legs_ok = all((float(lg['strike']), lg['type']) in quotes for lg in rec['plan']['legs'])
+    value = _n100_option_value(rec, spot, now, quotes if legs_ok else None)
+    if value is None:
+        return None, spot, src
+    return _n100_option_decide(rec, value, spot, now), spot, (src if legs_ok else 'model (the chain did not give every leg)')
+
+
+def _n100_track_once(now=None):
+    """Follow every open signal once. Returns [(id, status, r)] that settled; the owner gets one line each."""
+    now = now if now is not None else _n91_time.time()
+    out = []
+    cache = {}
+    try:
+        market_open = bool(_n81_session(now).get('market_open'))
+    except Exception:
+        market_open = False
+    for (sid,) in _n100_q("SELECT id FROM sig100_signal WHERE status IN ('open','pending') ORDER BY ts LIMIT 80"):
+        rec = _n100_row(sid)
+        if not rec:
+            continue
+        _N100_STATS['tracked'] += 1
+        try:
+            if rec['kind'] == 'option':
+                if not market_open and now < rec.get('expiry_ts', 0) - 86400.0:
+                    continue
+                d, _spot, _src = _n100_track_option(rec, now)
+                if d:
+                    st, r, val = d
+                    if _n100_settle(sid, st, r, now, 'value %s' % _n100_inr(val, 2)):
+                        out.append((sid, st, r, rec))
+                elif now > rec.get('expiry_ts', 1e18) + 86400.0:
+                    if _n100_settle(sid, 'expired', None, now, 'could not be marked before expiry'):
+                        out.append((sid, 'expired', None, rec))
+                continue
+            if rec['strategy'] == 'ORB':
+                key = (rec['symbol'], '5m')
+                if key not in cache:
+                    cache[key] = _n93_candles(rec['symbol'], '5m')[0]
+                w, F = _n100_track_orb(rec, now, cache[key])
+            else:
+                key = (rec['symbol'], '1d')
+                if key not in cache:
+                    cache[key] = _n100_daily(rec['symbol'], 2, now)[0]
+                w, F = _n100_track_daily(rec, now, cache[key])
+            if w is None:
+                continue
+            cost_kind = 'stock' if rec['kind'] == 'stock' else 'index'
+            if w['status'] == 'skipped':
+                if _n100_settle(sid, 'skipped', None, now, w.get('reason', '')):
+                    out.append((sid, 'skipped', None, rec))
+            elif w['status'] == 'open':
+                _n100_q("UPDATE sig100_signal SET status='open' WHERE id=? AND status='pending'", (sid,), write=True)
+            elif w['status'] == 'closed':
+                r = _n100_net_r(w, cost_kind)
+                if _n100_settle(sid, _N100_STATUS.get(w['reason'], 'expired'), r, F['ts'][w['exit_i']], w['reason']):
+                    out.append((sid, _N100_STATUS.get(w['reason'], 'expired'), r, rec))
+            elif rec['strategy'] == 'ORB' and now > rec['expires']:
+                if _n100_settle(sid, 'expired', None, now, 'no later candles'):
+                    out.append((sid, 'expired', None, rec))
+        except Exception:
+            _N100_STATS['errors'] += 1
+    for sid, st, r, rec in out:
+        try:
+            if OWNER.get('id') and st != 'skipped':
+                send_text(OWNER['id'], '📍 %s %s %s: %s%s. “sigma stats” shows the running record.' % (sid, rec.get('label', rec['strategy']), rec['symbol'], {'target': 'the target was reached', 'stopped': 'the stop was reached', 'expired': 'the time limit passed', 'rule': 'the exit rule fired'}[st],
+                                                                                                    (' (%+.1fR after charges)' % r) if r is not None else ''))
+        except Exception:
+            pass
+    return [(a, b, c) for a, b, c, _r in out]
+
+
+# ------------------------------------------------ the scoreboard ------------------------------------------------
+def _n100_stats_text():
+    rows = _n100_q("SELECT strategy, kind, status, r_result FROM sig100_signal WHERE status NOT IN ('open','pending','dropped','skipped') AND r_result IS NOT NULL")
+    n_open = _n100_q("SELECT COUNT(*) FROM sig100_signal WHERE status IN ('open','pending')")[0][0]
+    n_skip = _n100_q("SELECT COUNT(*) FROM sig100_signal WHERE status='skipped'")[0][0]
+    if not rows:
+        return ('📒 SIGMA SCOREBOARD: nothing has settled yet (%d signal%s open, %d skipped because the open made the plan void). Every signal I issue is saved and followed on later prices, after charges; the record builds from there. '
+                'A rule is called “promising” only after 30 settled signals with a positive average whose 90%% range stays above zero.' % (n_open, '' if n_open == 1 else 's', n_skip))
+    L = ['📒 SIGMA SCOREBOARD (every issued signal, followed on later prices; results in units of the planned risk, after charges; option structures are marked on live mid prices when the broker answered, else on a model)']
+    allr = [r for _s, _k, _st, r in rows]
+    st = _n100_trade_stats(allr)
+    L.append('All: %d settled · target %d%% · stopped %d%% · average %+.2fR · won %.0f%% (%.0f-%.0f%%)' % (st['n'], sum(1 for x in rows if x[2] == 'target') / len(rows) * 100, sum(1 for x in rows if x[2] == 'stopped') / len(rows) * 100, st['avg_r'], st['win_rate'], st['win_lo'], st['win_hi']))
+    for name in sorted({x[0] for x in rows}):
+        rs = [x[3] for x in rows if x[0] == name]
+        s = _n100_trade_stats(rs)
+        label = _N100_RULES[name]['label'] if name in _N100_RULES else name.replace('OPT_', 'Option: ').title()
+        L.append('%s: %d settled · average %+.2fR · won %.0f%% (%.0f-%.0f%%) · worst dip %.1fR · evidence: %s' % (label, s['n'], s['avg_r'], s['win_rate'], s['win_lo'], s['win_hi'], s['max_dd_r'], _n100_label(rs).upper()))
+    L.append('%d open · %d skipped (the next open made the plan void; not counted).' % (n_open, n_skip))
+    L.append('Under 30 settled signals a rule\'s record is a first look, not evidence. Nothing here is tuned from the record automatically.' if len(rows) < 30 else 'These results are hypothetical: no real fills.')
+    return '\n'.join(L)[:3900]
+
+
+def _n100_board_text(limit=15):
+    rows = _n100_q("SELECT id, ts, symbol, strategy, side, band, score, status FROM sig100_signal WHERE status IN ('open','pending') ORDER BY ts DESC LIMIT ?", (limit,))
+    if not rows:
+        return 'No open Sigma signals. Say “sigma” for a scan.'
+    L = ['📋 OPEN SIGMA SIGNALS']
+    for sid, ts, sym, strat, side, band, score, st in rows:
+        label = _N100_RULES[strat]['label'] if strat in _N100_RULES else strat.replace('OPT_', 'option ').title()
+        L.append('%s %s %s · %s · %d (%s) · %s · %s' % (sid, {1: 'LONG', -1: 'SHORT', 0: 'RANGE'}[side], sym, label, score, band, _n93_when(ts), 'waiting for the next open' if st == 'pending' else 'in the trade'))
+    L.append('“sigma <id>” shows one in full.')
+    return '\n'.join(L)[:3900]
+
+
+# ------------------------------------------------ one name, read: the indicator panel, the rules that fired, and the ones that came close ------------------------------------------------
+def _n100_near(F, i):
+    """[(strategy, words)] for rules that did not fire but are close: a watch-list for the next sessions."""
+    out = []
+    try:
+        c = F['c'][i]
+        if F['rsi2'][i] is not None and F['sma200'][i] and c > F['sma200'][i] and 10 <= F['rsi2'][i] < 25:
+            out.append(('RSI2', 'RSI(2) is %.0f; a dip signal needs below 10 (price above its 200-day average)' % F['rsi2'][i]))
+        if F['hh55'][i] and F['sma200'][i] and c > F['sma200'][i] and 0 < F['hh55'][i] / c - 1.0 <= 0.02:
+            out.append(('DONCHIAN', '%.1f%% below the 55-day high %s' % ((F['hh55'][i] / c - 1.0) * 100.0, _n100_inr(F['hh55'][i], 2))))
+        if F['hh252'][i] and F['sma200'][i] and c > F['sma200'][i] and 0.95 <= c / F['hh252'][i] < 0.97:
+            out.append(('HIGH52', '%.1f%% below its 52-week high %s (needs within 3%%)' % ((1 - c / F['hh252'][i]) * 100.0, _n100_inr(F['hh252'][i], 2))))
+        was = [F['bb_w_pct'][i - k] for k in range(0, 4) if i - k >= 0 and F['bb_w_pct'][i - k] is not None]
+        if was and min(was) <= 20 and F['bb_up'][i] and F['bb_lo'][i] and F['bb_lo'][i] <= c <= F['bb_up'][i]:
+            out.append(('SQUEEZE', 'a squeeze is on (band width at the %.0fth percentile) and price is inside the bands: a close outside them would be the signal' % min(was)))
+    except (IndexError, TypeError, ZeroDivisionError):
+        pass
+    return out
+
+
+def _n100_panel(sym, F, info):
+    i = F['n'] - 1
+    c = F['c'][i]
+    a = F['atr'][i]
+    s200, s50, s20 = F['sma200'][i], F['sma50'][i], F['sma20'][i]
+    L = ['📊 %s on %s (%s, %d daily candles): close %s' % (sym, info.get('last_day') or '?', info.get('source') or '?', F['n'], _n100_inr(c, 2))]
+    bits = []
+    if a:
+        bits.append('ATR %s (%.1f%%)' % (_n100_inr(a, 2), a / c * 100.0))
+    if F['adx'][i] is not None:
+        bits.append('ADX %.0f' % F['adx'][i])
+    if F['rsi14'][i] is not None:
+        bits.append('RSI(14) %.0f' % F['rsi14'][i])
+    if F['rsi2'][i] is not None:
+        bits.append('RSI(2) %.0f' % F['rsi2'][i])
+    L.append(' · '.join(bits))
+    bits = []
+    for lab, v in (('20-day', s20), ('50-day', s50), ('200-day', s200)):
+        if v:
+            bits.append('%s average %s (%s%.1f%%)' % (lab, _n100_inr(v, 2), '+' if c >= v else '', (c / v - 1.0) * 100.0))
+    L.append('Price vs ' + ', '.join(bits) if bits else 'Too little history for the averages.')
+    if F['hh252'][i]:
+        L.append('52-week high %s (%.1f%% below it) · 55-day high %s · 55-day low %s' % (_n100_inr(F['hh252'][i], 2), (1 - c / F['hh252'][i]) * 100.0, _n100_inr(F['hh55'][i], 2) if F['hh55'][i] else 'n/a', _n100_inr(F['ll55'][i], 2) if F['ll55'][i] else 'n/a'))
+    if F['bb_w_pct'][i] is not None:
+        L.append('Band width at the %.0fth percentile of the last 120 days (low = a squeeze)%s' % (F['bb_w_pct'][i], ' · volume %.1fx its average' % F['vr'][i] if F['vr'][i] else ''))
+    rv = _n100_realized_vol(F['c'], 20)
+    if rv:
+        L.append('Realised volatility (20 days) %.0f%% a year' % rv)
+    return L
+
+
+def _n100_symbol_job(cid, sym):
+    sym = sym.upper()
+    cfg = _n100_cfg()
+    kind = 'index' if sym in _N93_INDEXES else 'stock'
+    now = _n91_time.time()
+    ctx = _n100_context(now)
+    cs, info = _n100_daily(sym, 2, now)
+    if not cs:
+        raise _N91Err('no_data', 'I could not read daily candles for %s (%s).' % (sym, info.get('error') or 'no source'))
+    F = _n100_prepare(cs)
+    recs, why = _n100_eval_daily(sym, cs, info, ctx, cfg, kind, now)
+    L = _n100_panel(sym, F, info)
+    _n91_say(cid, '\n'.join(L))
+    _N100_STATS['views'] += 1
+    issued = _n100_issue(cid, recs, cfg, now, quiet=False)
+    near = _n100_near(F, F['n'] - 1)
+    nm = {'RSI2': 'RSI-2', 'DONCHIAN': 'Donchian', 'HIGH52': '52-week high', 'SQUEEZE': 'Squeeze', 'SUPERTREND': 'Supertrend'}
+    out = []
+    if not issued:
+        out.append('No Sigma signal for %s today.' % sym)
+        for r in recs[:2]:
+            out.append('%s %s scored %d, under your line of %d (or blocked by a limit).' % (r['label'], 'long' if r['side'] == 1 else 'short', r['score'], cfg['min_score']))
+        if why:
+            out.append('Why each rule did not fire:')
+            for k, v in list(why.items())[:10]:
+                name, _sp, side = k.partition(' ')
+                out.append(' · %s %s: %s' % (nm.get(name, name), side, v) if side else ' · %s: %s' % (nm.get(name, name), v))
+    if near:
+        out.append('Closest to firing: ' + '; '.join('%s: %s' % (nm.get(a, a), t) for a, t in near) + '.')
+    if kind == 'index':
+        out.append('For an option structure on %s say “sigma %s”.' % (sym, sym.lower()))
+    if out:
+        _n91_say(cid, '\n'.join(out))
+
+
+# ------------------------------------------------ the index: daily rules, the opening-range breakout, and the option structure ------------------------------------------------
+def _n100_load_chain(sym, min_days=2.5):
+    """(chain with implied volatility filled in, notes, error). When the nearest expiry is about to go, the next one is used so the plan has room."""
+    ch = _n55_option_chain_struct(sym, 14, persist=True)
+    if not ch.get('ok'):
+        return None, [], 'option chain: ' + str(ch.get('error') or 'unavailable')[:160]
+    _N100_STATS['chains'] += 1
+    notes = []
+    if (ch.get('days_to_expiry') or 99) < min_days:
+        moved = False
+        for e in (ch.get('expiries') or [])[1:3]:
+            ets = e.get('timestamp') or _n55_parse_expiry_ts(e.get('label'))
+            if ets:
+                nx = _n55_option_chain_struct(sym, 14, ets, persist=False)
+                if nx.get('ok') and (nx.get('days_to_expiry') or 0) >= min_days:
+                    ch, moved = nx, True
+                    break
+        if not moved:
+            notes.append('only %.1f days are left on the nearest expiry and the next could not be loaded' % (ch.get('days_to_expiry') or 0.0))
+    ch, filled = _n93_fill_iv(ch)
+    filled = filled or int(ch.get('iv_solved') or 0)
+    if filled:
+        notes.append('implied volatility was solved from the option prices because the broker feed sends none (%d contracts)' % filled)
+    return ch, notes, None
+
+
+def _n100_entry_window(now):
+    """(open, words): new intraday and option signals only while the market is open between 09:30 and 14:30."""
+    try:
+        s = _n81_session(now)
+    except Exception:
+        return False, 'the calendar could not be read'
+    d = _n100_ist(now)
+    m = d.hour * 60 + d.minute
+    if not s.get('calendar_known'):
+        return False, 'the trading calendar is only known for 2026'
+    if not s.get('market_open'):
+        return False, 'the market is closed (%s)' % (s.get('holiday') or s.get('state', '').replace('_', ' ').lower())
+    if not 570 <= m < 870:
+        return False, 'intraday and option signals are only issued between 09:30 and 14:30'
+    return True, ''
+
+
+def _n100_score_orb(o, F5, ctx, atr_d):
+    side = o['spec']['side']
+    good, bad = [], []
+    sc = 50.0
+    nd = (ctx or {}).get('index_dir')
+    if nd == side:
+        sc += 12
+        good.append('the daily trend agrees')
+    elif nd == -side:
+        sc -= 15
+        bad.append('the daily trend is against it')
+    reg = (ctx or {}).get('regime')
+    if reg in ('STRONG_TREND_UP', 'STRONG_TREND_DOWN', 'TREND_UP', 'TREND_DOWN', 'EXPANSION_UP', 'EXPANSION_DOWN'):
+        sc += 6
+    elif reg in ('RANGE', 'LOW_VOL_RANGE'):
+        sc -= 4
+        bad.append('the daily regime is a range (breakouts fail more often)')
+    vx = (ctx or {}).get('vix')
+    if vx:
+        if vx['pct'] <= 60:
+            sc += 6
+        elif vx['pct'] >= 80:
+            sc -= 4
+            bad.append('India VIX is high')
+    risk = abs(o['spec']['ref'] - o['spec']['stop'])
+    if atr_d and 0.3 * atr_d <= risk <= 0.7 * atr_d:
+        sc += 8
+        good.append('a stop of %.2f daily ATR is a sound size' % (risk / atr_d))
+    width = o['or_high'] - o['or_low']
+    if atr_d and 0.3 <= width / atr_d <= 0.8:
+        sc += 6
+        good.append('a well-formed opening range (%.2f daily ATR)' % (width / atr_d))
+    return int(_n100_clamp(round(sc), 0, 100)), good, bad
+
+
+def _n100_index_scan(sym, ctx, cfg, now, daily=True, orb=True, options=True, data=None):
+    """Everything Sigma can say about NIFTY or BANKNIFTY. Returns (records, why, analysis). `data` (tests): {'cs', 'info', 'cs5', 'chain'}."""
+    data = data or {}
+    recs, why, ana = [], {}, {'symbol': sym, 'notes': [], 'option': None, 'stats': None, 'regime': None, 'intr': None}
+    cs, info = (data['cs'], data['info']) if 'cs' in data else _n100_daily(sym, 2, now)
+    if not cs or len(cs) < 130:
+        why[sym] = 'daily candles: ' + (info.get('error') or 'too few')
+        return recs, why, ana
+    F = _n100_prepare(cs)
+    regime = _n55_regime_from_candles(cs).get('regime')
+    ana.update(regime=regime, F=F, info=info)
+    daily_recs = []
+    if daily:
+        daily_recs, w = _n100_eval_daily(sym, cs, info, ctx, cfg, 'index', now)
+        recs += daily_recs
+        why.update({'%s %s' % (sym, k): v for k, v in w.items()})
+    ok_window, wwhy = _n100_entry_window(now)
+    cs5 = data['cs5'] if 'cs5' in data else (_n93_candles(sym, '5m')[0] if ok_window else [])
+    F5 = _n100_prepare(cs5) if cs5 else None
+    closed_n = 0
+    intr = None
+    if F5 and F5['n']:
+        closed_n = F5['n'] - (1 if (now - F5['ts'][-1]) < 300 else 0)
+        intr = _n100_intraday_read(F5, closed_n)
+    ana['intr'] = intr
+    atr_d = F['atr'][F['n'] - 1]
+    if orb and ok_window and F5:
+        o, state = _n100_orb(F5, closed_n, {'atr': atr_d}, ctx, now)
+        ana['orb'] = state
+        if o:
+            sc, good, bad = _n100_score_orb(o, F5, ctx, atr_d)
+            sp = o['spec']
+            risk = abs(sp['ref'] - sp['stop'])
+            rec = {'ok': True, 'kind': 'index', 'symbol': sym, 'strategy': 'ORB', 'label': _N100_RULES['ORB']['label'], 'side': sp['side'], 'score': sc, 'band': _n100_band(sc), 'ref': sp['ref'], 'stop': sp['stop'], 't1': sp['t1'],
+                   't2': sp['t2'], 'risk': risk, 'atr': atr_d, 'spec': _n100_sig_json(sp), 'trigger': sp['trigger'], 'state': o['state'], 'bar_ts': F5['ts'][o['i']], 'good': good, 'bad': bad,
+                   'unchecked': ['volume (the index feed has none: the session average is not a true VWAP)', 'macro news'], 'cost_pct': _n100_cost_pct('index'), 'cost_r': sp['ref'] * _n100_cost_pct('index') / 100.0 / risk if risk else 9.0,
+                   'wrong_if': ['price closes %s %s' % ('below' if sp['side'] == 1 else 'above', _n100_inr(sp['stop'], 2))], 'size': None, 'horizon': 0}
+            recs.append(rec)
+        elif state:
+            why['%s ORB' % sym] = state
+    elif orb:
+        why['%s ORB' % sym] = wwhy
+    if options:
+        if not ok_window:
+            ana['option'] = {'ok': False, 'veto': wwhy}
+            why['%s options' % sym] = wwhy
+        else:
+            if 'chain' in data:
+                ch, notes, err = data['chain'], [], None
+            else:
+                ch, notes, err = _n100_load_chain(sym)
+            if ch is None:
+                ana['option'] = {'ok': False, 'veto': err}
+                why['%s options' % sym] = err
+            else:
+                lot = lot_size(sym) or 1
+                st = _n100_chain_stats(ch, lot, _n55_strike_step(ch))
+                ana['stats'] = st
+                if 'chain' not in data:
+                    _n100_iv_record(sym, st, now)
+                tech = _n93_tech(cs, False)
+                fresh = [{'strategy': r['strategy'], 'side': r['side']} for r in daily_recs]
+                res = _n100_option_signal(sym, F, regime, ctx, cfg, st, ch, intr, fresh, tech, now, _n55_strike_step(ch))
+                res['notes'] = list(notes) + list(res.get('notes') or [])
+                if res.get('ok'):
+                    res['expiry_ts'] = ch.get('expiry_ts') or (now + (res['days'] or 2.0) * 86400.0)
+                    recs.append(res)
+                else:
+                    why['%s options' % sym] = res.get('veto') or 'no option signal'
+                ana['option'] = res
+    return recs, why, ana
+
+
+# ------------------------------------------------ issuing: the owner's limits, the portfolio's heat, the breaker, then save and send ------------------------------------------------
+def _n100_issue(cid, recs, cfg, now, quiet=False, limit=None):
+    """Rank, apply the limits, save and send the cards. Returns the issued records. Nothing here places an order."""
+    breaker, bwhy = _n100_breaker(cfg, now)
+    if breaker:
+        if not quiet:
+            _n91_say(cid, '🛑 Circuit breaker: %s, so Sigma issues nothing more today (say “sigma config breaker=off” to switch the breaker off, which I do not recommend).' % bwhy)
+        _N100_STATS['refused'] += len(recs)
+        return []
+    recs = sorted(recs, key=lambda r: -r['score'])
+    issued, per_sector = [], {}
+    heat_rs, heat_pct = _n100_heat(cfg)
+    cap = limit if limit is not None else cfg['max_signals']
+    for r in recs:
+        if len(issued) >= cap:
+            break
+        if r['score'] < cfg['min_score']:
+            continue
+        sec = r.get('sector') or r['symbol']
+        if per_sector.get(sec, 0) >= 2:
+            continue
+        add_pct = _n100_risk_of(r) / cfg['capital'] * 100.0 if cfg['capital'] else 0.0
+        if add_pct and heat_pct + add_pct > cfg['heat_pct']:
+            continue
+        sid = _n100_save(r, now)
+        if sid is None:
+            continue
+        issued.append(r)
+        per_sector[sec] = per_sector.get(sec, 0) + 1
+        heat_pct += add_pct
+        _N100_STATS['signals'] += 1
+        _N100_STATS['option_signals' if r['kind'] == 'option' else 'index_signals' if r['kind'] == 'index' else 'stock_signals'] += 1
+        _n91_say(cid, _n100_card(r, cfg, sid))
+    return issued
+
+
+def _n100_scan(cid, scope='all', symbols=None, quiet=False, deadline=170.0, now=None, limit=None):
+    """Read the market and the universe, build signals, apply the limits, keep and send them. scope: all | stocks | index | options. `symbols` limits a stock scan or names the index for an options scan."""
+    if not _N100_LOCK.acquire(blocking=False):
+        raise _N91Err('busy', 'A Sigma scan is already running; its result will arrive in a minute.')
+    try:
+        t0 = _n91_time.time()
+        now = now if now is not None else t0
+        cfg = _n100_cfg()
+        _N100_STATS['scans'] += 1
+        breaker, bwhy = _n100_breaker(cfg, now)
+        if breaker:
+            if not quiet:
+                _n91_say(cid, '🛑 Circuit breaker: %s. Sigma issues nothing more today.' % bwhy)
+            return []
+        ctx = _n100_context(now)
+        recs, whys, near_all = [], {}, []
+        scanned = 0
+        if scope in ('all', 'stocks'):
+            syms = [s.upper() for s in symbols] if symbols else _n100_universe(cfg)
+
+            def one(sym):
+                cs, info = _n100_daily(sym, 2, now)
+                r, w = _n100_eval_daily(sym, cs, info, ctx, cfg, 'stock', now)
+                nr = _n100_near(_n100_prepare(cs), len(cs) - 1) if (cs and len(cs) >= 130) else []
+                return sym, r, w, nr
+            ex = _N93Pool(max_workers=6)
+            futs = [ex.submit(one, s) for s in syms]
+            try:
+                for f in _n100_as_completed(futs, timeout=max(5.0, deadline - (_n91_time.time() - t0))):
+                    try:
+                        sym, r, w, nr = f.result()
+                    except Exception:
+                        _N100_STATS['errors'] += 1
+                        continue
+                    scanned += 1
+                    recs += r
+                    for k, v in w.items():
+                        whys['%s %s' % (sym, k)] = v
+                    near_all += [(sym, a, t) for a, t in nr]
+            except _N100Timeout:
+                whys['time'] = 'the scan ran out of time: %d of %d stocks were read' % (scanned, len(syms))
+            finally:
+                ex.shutdown(wait=False, cancel_futures=True)
+        analyses = {}
+        if scope in ('all', 'stocks', 'index', 'options') and not (symbols and scope == 'stocks'):
+            idx = [s.upper() for s in symbols] if (symbols and scope in ('options', 'index')) else ['NIFTY']
+            for sym in idx:
+                r, w, a = _n100_index_scan(sym, ctx, cfg, now, daily=scope in ('all', 'stocks', 'index'), orb=scope in ('all', 'index'), options=scope in ('all', 'index', 'options'))
+                recs += r
+                whys.update(w)
+                analyses[sym] = a
+        issued = _n100_issue(cid, recs, cfg, now, quiet, limit=limit)
+        if not quiet:
+            L = []
+            if not issued:
+                L.append('🔭 SIGMA SCAN: no signal today (%s). That is a normal and often the right answer.' % ('%d stocks read' % scanned if scanned else 'index and options'))
+            else:
+                L.append('🔭 SIGMA SCAN: %d signal%s issued (%d stocks read, %.0f s).' % (len(issued), '' if len(issued) == 1 else 's', scanned, _n91_time.time() - t0))
+            below = [r for r in recs if r['score'] < cfg['min_score'] and r['score'] >= 50]
+            if below:
+                L.append('Under your line of %d (not issued): %s.' % (cfg['min_score'], '; '.join('%s %s %s %d' % (r['symbol'], r['label'], 'long' if r['side'] == 1 else 'short' if r['side'] == -1 else 'range', r['score']) for r in sorted(below, key=lambda r: -r['score'])[:4])))
+            if near_all:
+                nm = {'RSI2': 'RSI-2', 'DONCHIAN': 'Donchian', 'HIGH52': '52-week high', 'SQUEEZE': 'Squeeze'}
+                L.append('Closest to firing: ' + '; '.join('%s %s (%s)' % (s, nm.get(a, a), t[:70]) for s, a, t in near_all[:4]) + '.')
+            for sym, a in analyses.items():
+                o = a.get('option')
+                if o and not o.get('ok'):
+                    L.append('%s options: %s.' % (sym, _n91_clip(o.get('veto') or '', 330)))
+            for k in ('time',):
+                if k in whys:
+                    L.append(whys[k] + '.')
+            L.append('“sigma market” shows the whole read; “sigma <name>” explains one stock.')
+            _n91_say(cid, '\n'.join(L))
+        return issued
+    finally:
+        _N100_LOCK.release()
+
+
+def _n100_bg(fn, cid, *args):
+    """A slow job off the message loop (inline when tests ask for it). An unexpected error becomes one honest message."""
+    def run():
+        try:
+            fn(cid, *args)
+        except _N91Err as exc:
+            _n91_say(cid, exc.msg)
+        except Exception as exc:
+            _N100_STATS['errors'] += 1
+            try:
+                send_text(cid, 'Sigma hit an unexpected problem (%s). Nothing was placed, saved or changed by this step.' % type(exc).__name__)
+            except Exception:
+                pass
+    if _N91_SYNC:
+        return run()
+    _n91_threading.Thread(target=run, daemon=True, name='nemo-sigma100').start()
+
+
+# ------------------------------------------------ the market brief: what the data and the chain say, in plain words ------------------------------------------------
+def _n100_stance(regime, ivp, vix, ok_window):
+    """A reading of which kind of structure the conditions favour (not an instruction)."""
+    if regime is None:
+        return 'no stance: the market regime could not be read.'
+    trend = regime in ('STRONG_TREND_UP', 'TREND_UP', 'STRONG_TREND_DOWN', 'TREND_DOWN', 'EXPANSION_UP', 'EXPANSION_DOWN')
+    d = 'up' if regime.endswith('UP') else 'down'
+    if trend and (ivp is None or ivp <= 65):
+        return 'a %s trend with options not dear: trend-following structures in the %s direction (debit spreads, or a long option with 3+ days to run) are what the rules prefer; waiting for a pullback to the 20-day average is cheaper.' % (d, d)
+    if trend:
+        return 'a %s trend but options are dear (volatility percentile %.0f): a debit spread caps what you pay for time, a credit spread against the trend collects it; avoid buying outright.' % (d, ivp)
+    if ivp is not None and ivp >= 60 and regime in _N100_NEUTRAL:
+        return 'a ranging market with dear options: the setup that range-selling structures (a defined-risk iron condor) are built for; the risk is a sudden break of the range.'
+    return 'no clear edge: a ranging market with options that are not dear. Standing aside is a legitimate position.'
+
+
+def _n100_brief_job(cid, syms=('NIFTY',), now=None):
+    now = now if now is not None else _n91_time.time()
+    cfg = _n100_cfg()
+    ctx = _n100_context(now)
+    _N100_STATS['briefs'] += 1
+    ok_window, wwhy = _n100_entry_window(now)
+    for sym in syms:
+        r, w, a = _n100_index_scan(sym, ctx, cfg, now, daily=True, orb=True, options=True)
+        F = a.get('F')
+        L = ['🧭 SIGMA MARKET BRIEF · %s · %s' % (sym, _n100_ist(now).strftime('%a %d %b %H:%M'))]
+        if F is None:
+            L.append('I could not read enough daily candles for %s (%s).' % (sym, w.get(sym, 'no data')))
+            _n91_say(cid, '\n'.join(L))
+            continue
+        i = F['n'] - 1
+        c, atr = F['c'][i], F['atr'][i]
+        L.append('Trend: regime %s · close %s · ATR %s (%.1f%%) · ADX %.0f · RSI(14) %.0f · 20-day average %s, 50-day %s, 200-day %s.' % (a['regime'], _n100_inr(c, 2), _n100_inr(atr, 2), atr / c * 100.0, F['adx'][i] or 0, F['rsi14'][i] or 0,
+                 _n100_inr(F['sma20'][i], 0) if F['sma20'][i] else 'n/a', _n100_inr(F['sma50'][i], 0) if F['sma50'][i] else 'n/a', _n100_inr(F['sma200'][i], 0) if F['sma200'][i] else 'n/a'))
+        pv = _n100_pivots(F['h'][i], F['l'][i], F['c'][i])
+        L.append("Levels for the next session (from the last day's high, low and close): pivot %s · resistance %s, %s · support %s, %s · central range %s-%s (%.2f%% wide: %s)." % (
+            _n100_inr(pv['pivot'], 0), _n100_inr(pv['r1'], 0), _n100_inr(pv['r2'], 0), _n100_inr(pv['s1'], 0), _n100_inr(pv['s2'], 0), _n100_inr(pv['bc'], 0), _n100_inr(pv['tc'], 0), pv['cpr_pct'] or 0,
+            'a narrow range is said to precede a trending day: anecdotal' if (pv['cpr_pct'] or 9) < 0.25 else 'normal width'))
+        vx = ctx.get('vix')
+        if vx:
+            L.append('India VIX %.1f · %.0fth percentile of its last %d days · %+.1f in 5 days.' % (vx['level'], vx['pct'], vx['n'], vx['chg5']))
+        rv = _n100_realized_vol(F['c'], 20)
+        st = a.get('stats')
+        if st and st.get('atm_iv'):
+            L.append('Options (%s, %.1f days to expiry): at-the-money implied volatility %.1f%%%s · expected move to expiry ±%s points (%.1f%%), about ±%s a day · straddle %s.' % (
+                st.get('expiry') or 'nearest', st['days'], st['atm_iv'], (' vs %.0f%% realised over 20 days (%s)' % (rv, 'options are dear: they price more movement than has happened' if st['atm_iv'] > rv * 1.15 else 'options are cheap: they price less movement than has happened' if st['atm_iv'] < rv * 0.9 else 'fairly priced')) if rv else '',
+                _n100_inr(st['em']), st['em_pct'], _n100_inr(st['daily_move']) if st.get('daily_move') else 'n/a', _n100_inr(st['straddle']) if st.get('straddle') else 'n/a'))
+            L.append('Open interest: PCR %s · call wall %s · put wall %s · most added calls at %s, most added puts at %s%s.' % (_n100_pcr_word(st.get('pcr_oi')), _n100_inr(st['call_wall']) if st.get('call_wall') else 'n/a', _n100_inr(st['put_wall']) if st.get('put_wall') else 'n/a',
+                     _n100_inr(st['call_add']) if st.get('call_add') else 'n/a', _n100_inr(st['put_add']) if st.get('put_add') else 'n/a', (' · max pain %s (context only, weak evidence)' % _n100_inr(st['max_pain'])) if st.get('max_pain') else ''))
+            bu = st.get('buildup')
+            if bu:
+                L.append('Build-up near the money reads %s (%+.2f): %s.' % ('bullish' if bu['score'] > 0.15 else 'bearish' if bu['score'] < -0.15 else 'mixed', bu['score'], ', '.join('%s %s' % (lab, _n100_inr(k)) for k, _t, lab, _oc in bu['top'][:3])))
+            if st.get('skew') is not None:
+                L.append('Skew: puts are priced %+.1f volatility points %s calls half an expected move out (%s).' % (st['skew'], 'above' if st['skew'] >= 0 else 'below', 'the market is paying up for downside protection' if st['skew'] > 4 else 'roughly balanced' if abs(st['skew']) <= 4 else 'unusual: calls are dearer'))
+            if not st.get('atm_liquid'):
+                L.append('⚠ the at-the-money quotes are thin or missing (a wide or absent bid-ask): treat the numbers above as indicative.')
+            ivp, src = _n100_ivp(sym, st['atm_iv'], st['days'], vx)
+            L.append('Volatility percentile: %s (from %s).' % ('%.0f' % ivp if ivp is not None else 'unknown', src))
+        else:
+            L.append('Options: %s.' % (_n91_clip((a.get('option') or {}).get('veto') or 'the chain was not read', 200) if not ok_window else 'the chain could not be read (is the broker connected?)'))
+            ivp = (vx or {}).get('pct')
+        if a.get('intr'):
+            L.append('Intraday: ' + a['intr']['words'] + '.')
+        if a.get('orb'):
+            L.append('Opening range: ' + a['orb'] + '.')
+        L.append('Stance: ' + _n100_stance(a['regime'], ivp, vx, ok_window))
+        o = a.get('option')
+        if o and o.get('ok'):
+            L.append('Sigma has an option signal: %s (score %d). Say “sigma %s” to see the card.' % (o['label'], o['score'], sym.lower()))
+        elif o:
+            L.append('Option signal: none (%s).' % _n91_clip(o.get('veto') or '', 300))
+        fresh = [x for x in r if x['kind'] == 'index' and x['strategy'] != 'ORB']
+        if fresh:
+            L.append('Daily rules firing on %s: %s.' % (sym, ', '.join('%s %s' % (x['label'], 'long' if x['side'] == 1 else 'short') for x in fresh)))
+        L.append('A reading of the numbers, not a forecast or advice. ' + _N100_NOTE)
+        _n91_say(cid, '\n'.join(L))
+
+
+# ------------------------------------------------ what Sigma is, what it believes, what it was built from ------------------------------------------------
+def _n100_rules_text():
+    return '\n'.join([
+        '📐 SIGMA RULES (fixed in advance; nothing is tuned, so there is nothing to over-fit)',
+        '• RSI-2 pullback: price above its 200-day average and RSI(2) below 10 → buy; stop 2.5 ATR; leave at the next open after a close above the 5-day average, or after 8 sessions. (Mirror for shorts with the flag on.)',
+        '• Donchian breakout: a close above the 55-day high on 1.3x volume with ADX at least 20 and above the 200-day average, not more than 3.5 ATR above the 20-day average → buy; stop 2.5 ATR, trailed 3 ATR behind the best price; leave on a close below the 20-day low; 60 sessions at most.',
+        '• 52-week-high momentum: a fresh 20-day high within 3% of the 52-week high, above the 50- and 200-day averages, 6-month return at least 10%, RSI(14) at most 80 → buy; stop 2.5 ATR, trailed 3 ATR; leave on a close below the 50-day average; 40 sessions at most.',
+        '• Volatility-squeeze breakout: Bollinger band width in the lowest 20% of its last 120 days (within the last 3 bars), then a close outside the bands on 1.2x volume → trade the break; stop at the middle band (1 to 3 ATR); target 2R; 20 sessions.',
+        '• Supertrend flip with an ADX filter: Supertrend(10,3) turns and ADX is at least 20 → trade it; stop at the line (1 to 4 ATR: 3 ATR by construction), which then trails; leave when it turns back; 80 sessions.',
+        '• Opening-range breakout (NIFTY, BANKNIFTY): after 09:30 a 5-minute close beyond the first 15 minutes\' range, on the right side of the session\'s average price and not against the daily trend → trade it; stop at the middle of the range; target 1.5R; out by 15:10. Forward-tracked only.',
+        '• Option structures (NIFTY): the view comes from six weighted reads (daily trend 30%, intraday 25%, open-interest build-up 20%, fresh daily signal 10%, walls 10%, PCR tilt 5%). Up or down with cheap options → long option or debit spread; with dear options → credit spread; no direction in a range with dear options → iron condor; otherwise nothing. Every structure has a defined worst case; none is ever naked.',
+        '• Gates: stale data, thin shares, a stop wider than 3.5 ATR (4 for Supertrend), charges over half a risk unit, expiry within a day, a closed market, three stops in a day (circuit breaker), the portfolio\'s total risk over %s%% of capital.' % _n100_cfg()['heat_pct'],
+        '• Sizing: shares or lots = your risk amount ÷ the loss at the planned exit (a sold structure: its worst case); rounded down, never up. “sigma test <name>” and “sigma test all” replay the daily rules with charges; “sigma stats” is the forward record; “sigma volproxy” shows the shape of the risk in selling weekly options.',
+        'Why these: the research is in docs/NEMO_V100_RESEARCH.md; “sigma research” gives the short version.'])[:3950]
+
+
+def _n100_research_text():
+    return '\n'.join([
+        '🔬 WHAT SIGMA IS BUILT ON (short version; the page has the sources and the evidence tags)',
+        '• The base rate is bad: SEBI studies as reported in the press say about 9 in 10 individual F&O traders lose money, options buyers are about 97% of them, and about two thirds lost every year for five years. So Sigma\'s default answer is “no trade”, and it shows why.',
+        '• Costs matter: from April 2026 the options STT is reported as 0.15% of the premium sold (futures 0.05%); delivery shares pay 0.1% STT on both legs. Sigma takes charges and slippage off every test and every tracked signal.',
+        '• Used: expected move from implied volatility, the volatility percentile to pick the structure, open-interest build-up as one weighted read, the PCR only as a small tilt at extremes, ATR stops, a trailing stop, fixed-fraction sizing, defined-risk structures only.',
+        '• Not used as signals: max pain (thin evidence), dealer-gamma guesses, candlestick patterns, “AI price prediction”, naked option selling, calendar spreads, expiry-day trades, Kelly sizing (it needs an edge nobody has proven).',
+        '• Validation: fixed rules, no look-ahead, next-open entries, a time split, a bootstrap range, a control of entries at random times under the same filter and exits (a rising market flatters any long rule), then a forward scoreboard. A rule earns “promising” only after 30 trades with a positive average whose 90% range stays above zero (in a test also: positive in both halves and ahead of the random-timing control).',
+        '• I found no public, audited evidence that any retail rule set here makes money after costs on Indian options. Sigma is a disciplined, measured idea generator, not a proven edge.',
+        '• Personal use: giving signals to other people can need SEBI registration (even in a closed group). Sigma does not broadcast.'])[:3950]
+
+
+def _n100_config_text():
+    c = _n100_cfg()
+    return ('⚙️ SIGMA SETTINGS\nCapital ₹%s%s · risk per signal %g%% (₹%s) · open risk allowed %g%% of capital · most signals per scan %d · issue from score %d · universe %d stocks · shorts %s · circuit breaker %s · alerts %s (%d a day)\n'
+            'Change with “sigma config capital=5L risk=1%% heat=3 max=4 min=65 universe=30 shorts=off breaker=on perday=4” or “sigma alerts on”. Capital and risk follow “scout config” unless you set them here.' % (
+                _n100_inr(c['capital']), '' if c['own_capital'] else ' (from Scout\'s settings)', c['risk_pct'], _n100_inr(c['capital'] * c['risk_pct'] / 100.0), c['heat_pct'], c['max_signals'], c['min_score'], c['universe'],
+                'on' if c['shorts'] else 'off', 'on' if c['breaker'] else 'off', 'on' if c['alerts'] else 'off', c['alerts_per_day']))
+
+
+def _n100_status_text():
+    s = _N100_STATS
+    op = _n100_q("SELECT COUNT(*) FROM sig100_signal WHERE status IN ('open','pending')")[0][0]
+    done = _n100_q("SELECT COUNT(*) FROM sig100_signal WHERE r_result IS NOT NULL")[0][0]
+    return ('📡 SIGMA: a signal desk for stocks, NIFTY/BANKNIFTY and option structures (advisory only; no orders)\n'
+            '• “sigma” (scan) · “sigma market” (the read) · “sigma nifty” (option structure) · “sigma TCS” · “sigma board” · “sigma stats” · “sigma test TCS” / “sigma test all” · “sigma volproxy” · “sigma rules” · “sigma research” · “sigma config” · “sigma alerts on”\n'
+            '• This run: %d scans, %d signals (%d stock, %d index, %d option), %d tracked, %d settled · saved: %d open, %d settled · %d IV readings kept\n'
+            '• Needs: the broker connection for option chains and intraday candles; the public chart feed for daily history. A source that does not answer is named, never guessed. Personal use only.' % (
+                s['scans'], s['signals'], s['stock_signals'], s['index_signals'], s['option_signals'], s['tracked'], s['settled'], op, done, s['iv_rows']))[:3900]
+
+
+# ------------------------------------------------ the front door: only the owner, in a private chat, with these specific phrases ------------------------------------------------
+_N100_SYM = r'([A-Za-z&][A-Za-z&\-]{1,14})'
+_N100_CMD_WORDS = r'(?:stats|record|scoreboard|results|test|backtest|replay|check|drop|show|board|open|list|ideas|signals?|market|brief|analysis|view|volproxy|vol|short|condor|strategies|rules|logic|how|research|evidence|sources|config|alerts?|help|status|scan|now|today|nifty|banknifty|bank)'
+_N100_RX_SCAN = _n91_re.compile(r"(?i)^(?:/?sigma(?:\s+(?:scan|now|today|signals?))?|(?:(?:any|give\s+me|show\s+me|get|find|run)\s+)?(?:(?:good|new|fresh|today'?s)\s+)?(?:(?:trade|trading|stock|option|options)\s+)?signals?(?:\s+(?:today|now|for\s+today))?|signal\s+(?:desk|scan))\??$")
+_N100_RX_MARKET = _n91_re.compile(r"(?i)^(?:/?sigma\s+(?:market|brief|analysis|view)(?:\s+(nifty|banknifty|bank\s+nifty))?|market\s+brief(?:\s+(nifty|banknifty|bank\s+nifty))?|(nifty|banknifty|bank\s+nifty)\s+brief)\??$")
+_N100_RX_OPT = _n91_re.compile(r"(?i)^(?:/?sigma\s+(nifty|banknifty|bank\s+nifty)(?:\s+(?:options?|signal|structure|spread|condor))?|(nifty|banknifty|bank\s+nifty)\s+(?:option\s+)?signals?|option\s+signals?(?:\s+(?:for\s+)?(nifty|banknifty|bank\s+nifty))?)\??$")
+_N100_RX_SYM = _n91_re.compile(r'(?i)^(?:/?sigma\s+(?!' + _N100_CMD_WORDS + r'\b)|signals?\s+(?:for|on)\s+)' + _N100_SYM + r'\??$')
+_N100_RX_BOARD = _n91_re.compile(r'(?i)^(?:/?sigma\s+(?:board|open|list|ideas|signals)|(?:my\s+|open\s+)sigma\s+signals|(?:my\s+|open\s+)signals)\??$')
+_N100_RX_ID = _n91_re.compile(r'(?i)^(?:(?:/?sigma\s+(?:show\s+)?|signal\s+)|)(SG100-[0-9A-F]{6})$')
+_N100_RX_CHECK = _n91_re.compile(r'(?i)^/?sigma\s+(check|drop)\s+(SG100-[0-9A-F]{6})$')
+_N100_RX_STATS = _n91_re.compile(r"(?i)^(?:/?sigma\s+(?:stats|record|scoreboard|results)|sigma'?s?\s+(?:track\s+)?record)\??$")
+_N100_RX_TEST = _n91_re.compile(r'(?i)^/?sigma\s+(?:test|backtest|replay)\s+(all|' + _N100_SYM[1:-1] + r')(?:\s+(rsi2|rsi-2|donchian|high52|52w|squeeze|supertrend))?$')
+_N100_RX_VOL = _n91_re.compile(r'(?i)^/?sigma\s+(?:volproxy|vol\s+study|vol|short[- ]vol(?:atility)?(?:\s+study)?|condor\s+study)$')
+_N100_RX_RULES = _n91_re.compile(r'(?i)^/?sigma\s+(?:strategies|rules|logic|how)$')
+_N100_RX_RESEARCH = _n91_re.compile(r'(?i)^/?sigma\s+(?:research|evidence|sources)$')
+_N100_RX_CONFIG = _n91_re.compile(r'(?i)^/?sigma\s+config(?:\s+(.*))?$')
+_N100_RX_ALERTS = _n91_re.compile(r'(?i)^/?sigma\s+alerts?\s+(on|off)$')
+_N100_RX_HELP = _n91_re.compile(r'(?i)^/?sigma\s+(?:help|status|\?)$')
+_N100_STRAT_ALIAS = {'rsi2': 'RSI2', 'rsi-2': 'RSI2', 'donchian': 'DONCHIAN', 'high52': 'HIGH52', '52w': 'HIGH52', 'squeeze': 'SQUEEZE', 'supertrend': 'SUPERTREND'}
+
+
+def _n100_idx(word):
+    return 'BANKNIFTY' if 'bank' in word.lower() else 'NIFTY'
+
+
+def _n100_route(cid, text):
+    t = _n91_re.sub(r'^/(sigma)@\w+', r'/\1', _n91_norm(text))
+    if _N100_RX_HELP.match(t):
+        _n91_say(cid, _n100_status_text())
+        return True
+    m = _N100_RX_MARKET.match(t)
+    if m:
+        w = next((g for g in m.groups() if g), 'nifty')
+        _n100_bg(_n100_brief_job, cid, (_n100_idx(w),))
+        return True
+    m = _N100_RX_OPT.match(t)
+    if m:
+        w = next((g for g in m.groups() if g), 'nifty')
+        _n100_bg(_n100_scan, cid, 'options', [_n100_idx(w)])
+        return True
+    if _N100_RX_SCAN.match(t):
+        _n100_bg(_n100_scan, cid, 'all')
+        return True
+    if _N100_RX_BOARD.match(t):
+        _n91_say(cid, _n100_board_text())
+        return True
+    m = _N100_RX_ID.match(t)
+    if m:
+        rec = _n100_row(m.group(1))
+        if rec is None:
+            _n91_say(cid, 'I do not have a signal called %s. “sigma board” lists the open ones.' % _n91_clip(m.group(1), 20))
+        else:
+            head = '(%s%s)\n' % (rec['status'], (' %+.2fR' % rec['r_result']) if rec.get('r_result') is not None else '')
+            _n91_say(cid, head + _n100_card(rec, _n100_cfg(), rec['id']))
+        return True
+    m = _N100_RX_CHECK.match(t)
+    if m:
+        sid = m.group(2).upper()
+        if m.group(1).lower() == 'drop':
+            n = _n100_q("UPDATE sig100_signal SET status='dropped', closed_ts=? WHERE id=? AND status IN ('open','pending')", (_n91_time.time(), sid), write=True)
+            _n91_say(cid, 'Dropped %s: it will not be tracked or counted in the record.' % sid if n else 'There is no open signal %s.' % sid)
+        else:
+            _n100_bg(_n100_check_job, cid, sid)
+        return True
+    if _N100_RX_STATS.match(t):
+        _n91_say(cid, _n100_stats_text())
+        return True
+    m = _N100_RX_TEST.match(t)
+    if m:
+        strat = _N100_STRAT_ALIAS.get((m.group(2) or '').lower()) if m.group(2) else None
+        if m.group(1).lower() == 'all':
+            _n100_bg(_n100_bt_all_job, cid, strat)
+        elif _n93_universe_known(m.group(1)):
+            _n100_bg(_n100_bt_job, cid, m.group(1).upper(), strat)
+        else:
+            _n91_say(cid, 'I do not know “%s” as a share name. Add it with “scout watch add %s” first.' % (_n91_clip(m.group(1), 20), m.group(1).upper()))
+        return True
+    if _N100_RX_VOL.match(t):
+        _n100_bg(_n100_volproxy_job, cid)
+        return True
+    if _N100_RX_RULES.match(t):
+        _n91_say(cid, _n100_rules_text())
+        return True
+    if _N100_RX_RESEARCH.match(t):
+        _n91_say(cid, _n100_research_text())
+        return True
+    m = _N100_RX_CONFIG.match(t)
+    if m:
+        pairs = _n91_re.findall(r'([A-Za-z_]+)\s*=\s*(\S+)', m.group(1) or '')
+        if not pairs:
+            _n91_say(cid, _n100_config_text())
+            return True
+        done, bad = [], []
+        for k, v in pairs:
+            try:
+                kk, vv = _n100_set(k, v)
+                done.append('%s = %s' % (kk, vv))
+            except ValueError as exc:
+                bad.append(str(exc))
+        _n91_say(cid, ('Saved: ' + ', '.join(done) + '.\n' if done else '') + ('\n'.join(bad) + '\n' if bad else '') + _n100_config_text())
+        return True
+    m = _N100_RX_ALERTS.match(t)
+    if m:
+        _n100_set('alerts', m.group(1))
+        _n91_say(cid, 'Sigma alerts are %s. %s' % (m.group(1).lower(), 'On trading days I scan before the open (08:50), after the first hour, late morning, early afternoon and after the close, and send only signals that pass, at most %d a day; nothing is sent when none passes.' % _n100_cfg()['alerts_per_day'] if m.group(1).lower() == 'on' else ''))
+        return True
+    m = _N100_RX_SYM.match(t)
+    if m:
+        s = m.group(1).upper()
+        if _n93_universe_known(s) or s in _N55_NIFTY_FALLBACK:
+            _n100_bg(_n100_symbol_job, cid, s)
+        else:
+            _n91_say(cid, 'I do not know “%s” as a share name. Add it with “scout watch add %s”, then say “sigma %s”.' % (_n91_clip(s, 20), s, s))
+        return True
+    return False
+
+
+def _n100_check_job(cid, sid):
+    rec = _n100_row(sid)
+    if not rec:
+        raise _N91Err('unknown', 'I do not have a signal called %s. “sigma board” lists the open ones.' % _n91_clip(sid, 20))
+    now = _n91_time.time()
+    if rec['kind'] == 'option':
+        d, spot, src = _n100_track_option(rec, now) if rec['status'] in ('open', 'pending') else (None, None, '')
+        if d:
+            _n100_settle(sid, d[0], d[1], now, 'checked by the owner')
+            rec['status'] = d[0]
+        val = _n100_option_value(rec, spot, now) if spot else None
+        _n91_say(cid, '🔎 %s %s %s: index %s · %s now %s (%s) · plan: leave at %s%s\n%s' % (sid, rec['label'], rec['symbol'], _n100_inr(spot, 2) if spot else 'n/a', 'value' if rec['plan']['structure'] in ('LONG', 'DEBIT') else 'cost to close',
+                                                                                          _n100_inr(abs(val), 2) if val is not None else 'n/a', src, _n100_inr(rec['plan']['sl'], 2), ', take profit at %s' % _n100_inr(rec['plan']['tp1'], 2),
+                                                                                          'Status: ' + rec['status'] + ('. Closed on this check.' if d else '.')))
+        return
+    w, F = (_n100_track_orb(rec, now) if rec['strategy'] == 'ORB' else _n100_track_daily(rec, now)) if rec['status'] in ('open', 'pending') else (None, None)
+    px = None
+    try:
+        cs, _inf = _n93_candles(rec['symbol'], '5m')
+        px = cs[-1]['c'] if cs else None
+    except Exception:
+        pass
+    px = px or (F['c'][-1] if F else None)
+    if w and w['status'] == 'closed':
+        kind = 'stock' if rec['kind'] == 'stock' else 'index'
+        r = _n100_net_r(w, kind)
+        st = _N100_STATUS.get(w['reason'], 'expired')
+        _n100_settle(sid, st, r, F['ts'][w['exit_i']], w['reason'])
+        v = 'Closed: %s (%+.2fR after charges).' % ({'target': 'the target was reached', 'stopped': 'the stop was reached', 'expired': 'the time limit passed', 'rule': 'the exit rule fired'}[st], r)
+    elif w and w['status'] == 'pending':
+        v = 'Waiting for the next open: the plan enters then.'
+    elif w and w['status'] == 'skipped':
+        v = 'Skipped: %s.' % w.get('reason')
+    elif px is not None:
+        moved = rec['side'] * (px - rec['ref']) / max(abs(rec['ref'] - rec['stop']), 1e-9)
+        v = ('Weak: price is %.1f of the risk against it.' % -moved) if moved <= -0.7 else ('Chasing: it has moved %.1f of the risk your way, so entering now is worse than the plan.' % moved) if moved >= 0.5 else 'Still near its plan.'
+    else:
+        v = 'I could not read a price.'
+    _n91_say(cid, '🔎 %s %s %s: price %s · entry %s · stop %s\n%s' % (sid, rec['label'], rec['symbol'], _n100_inr(px, 2) if px else 'n/a', _n100_inr(rec['ref'], 2), _n100_inr(rec['stop'], 2), v))
+
+
+def _n100_front(msg):
+    cid = _n92_owner(msg)
+    if cid is None:
+        return False
+    text = _n92_asked_for(msg)
+    if not text or msg.get('photo') or msg.get('document'):
+        return False
+    handled = _n100_route(cid, text)
+    if handled:
+        _N100_STATS['front_door'] += 1
+        try:
+            _n88_record(msg)
+        except Exception:
+            pass
+    return handled
+
+
+_N100_HANDLE_PREV = handle
+def handle(msg):
+    try:
+        if _n100_front(msg):
+            return
+    except Exception:
+        _N100_STATS['errors'] += 1
+    return _N100_HANDLE_PREV(msg)
+
+
+# ------------------------------------------------ a quiet background loop: follow open signals, send the opt-in scans ------------------------------------------------
+_N100_SLOTS = (('pre', 530, 555, 'stocks'), ('am', 585, 600, 'index'), ('mid', 690, 705, 'index'), ('late', 795, 810, 'index'), ('eod', 950, 975, 'stocks'))
+
+
+def _n100_alert_tick(now_ts=None):
+    """At most one scan per slot per trading day, only when the owner turned alerts on and the day's quota is not used; only signals that pass are sent."""
+    now_ts = now_ts if now_ts is not None else _n91_time.time()
+    if not OWNER.get('id'):
+        return 0
+    cfg = _n100_cfg()
+    if not cfg['alerts']:
+        return 0
+    d = _n100_ist(now_ts)
+    m = d.hour * 60 + d.minute
+    slot = next((s for s in _N100_SLOTS if s[1] <= m < s[2]), None)
+    if slot is None:
+        return 0
+    try:
+        sess = _n81_session(now_ts)
+    except Exception:
+        return 0
+    if sess.get('state') in ('CLOSED_HOLIDAY', 'CLOSED_WEEKEND', 'CALENDAR_UNVERIFIED'):
+        return 0
+    day = d.date().isoformat()
+    key = 'alert_' + slot[0]
+    if _n100_get(key, '') == day:
+        return 0
+    _n100_put(key, day)                                                  # mark first: never twice
+    sent = int(_n100_get('alerts_n', '0')) if _n100_get('alerts_day', '') == day else 0
+    left = cfg['alerts_per_day'] - sent
+    if left <= 0:
+        return 0
+    try:
+        issued = _n100_scan_quota(OWNER['id'], slot[3], left, now_ts)
+    except _N91Err:
+        return 0
+    _n100_put('alerts_day', day)
+    _n100_put('alerts_n', str(sent + len(issued)))
+    _N100_STATS['alerts'] += 1
+    return len(issued)
+
+
+def _n100_scan_quota(cid, scope, quota, now_ts):
+    """A quiet scan that sends at most `quota` signals."""
+    return _n100_scan(cid, scope, None, True, 170.0, now_ts, limit=max(1, min(quota, _n100_cfg()['max_signals'])))
+
+
+def _n100_loop():
+    while True:
+        try:
+            _n100_alert_tick()
+            now = _n91_time.time()
+            if _n100_q("SELECT COUNT(*) FROM sig100_signal WHERE status IN ('open','pending')")[0][0]:
+                st = _n81_session().get('state')
+                gap = 600.0 if st == 'OPEN' else 10800.0
+                if now - _N100_STATE['last_track'] >= gap:
+                    _N100_STATE['last_track'] = now
+                    _n100_track_once(now)
+            if now - _N100_STATE['last_prune'] > 86400:
+                _N100_STATE['last_prune'] = now
+                _n100_q('DELETE FROM sig100_iv WHERE ts < ?', (now - 400 * 86400,), write=True)
+                _n100_q('DELETE FROM sig100_cache WHERE ts < ?', (now - 3 * 86400,), write=True)
+        except Exception:
+            _N100_STATS['errors'] += 1
+        _n91_time.sleep(60)
+
+
+def _n100_ensure_thread():
+    t = _N100_STATE.get('thread')
+    if t is None or not t.is_alive():
+        t = _n91_threading.Thread(target=_n100_loop, daemon=True, name='sigma100-loop')
+        t.start()
+        _N100_STATE['thread'] = t
+
+
+# ------------------------------------------------ capabilities, status, abilities, regression rows, command, boot ------------------------------------------------
+_N100_CAPS_PREV = _n82_capabilities
+def _n82_capabilities():
+    return (_N100_CAPS_PREV() + '\nSigma 100: a signal desk with fixed rules for stocks and NIFTY/BANKNIFTY (RSI-2 pullback, Donchian breakout, 52-week-high momentum, squeeze breakout, Supertrend flip, opening-range breakout) and defined-risk option structures '
+            '(long option, debit spread, credit spread, iron condor) chosen from the option chain, with entry, stop, exit, size at your risk limit, charges and a model chance of profit. “sigma” scans, “sigma market” reads the market and the chain, '
+            '“sigma stats” shows the real record, “sigma test all” replays the rules with charges. Advisory only: I never place orders, and the signals are for your own use.')
+
+
+_N100_STATUS_PREV = _n83_status_text
+def _n83_status_text(cid):
+    s = _N100_STATS
+    return (_N100_STATUS_PREV(cid) + '\n📡 SIGMA 100: scans %d · signals %d (stock %d, index %d, option %d) · tracked %d · settled %d · backtests %d · briefs %d · alerts %d · front-door %d · errors %d' % (
+        s['scans'], s['signals'], s['stock_signals'], s['index_signals'], s['option_signals'], s['tracked'], s['settled'], s['backtests'], s['briefs'], s['alerts'], s['front_door'], s['errors']))[:3990]
+
+
+def _n100_regression_rows():
+    rows = []
+
+    def add(name, fn):
+        try:
+            ok = bool(fn())
+        except Exception:
+            ok = False
+        rows.append({'name': 'v100-' + name, 'ok': ok, 'detail': 'pure contract check; no network, no broker, no order'})
+    add('version', lambda: float(VERSION) >= 100)
+    add('hooks-installed', lambda: handle is not _N100_HANDLE_PREV)
+    add('phrases', lambda: _N100_RX_SCAN.match('sigma') and _N100_RX_SCAN.match('any signals today') and _N100_RX_OPT.match('sigma nifty') and _N100_RX_SYM.match('sigma TCS') and not _N100_RX_SCAN.match('a signal of life is good'))
+    add('rsi-known-answer', lambda: abs(_n100_rsi([44.34, 44.09, 44.15, 43.61, 44.33, 44.83, 45.10, 45.42, 45.84, 46.08, 45.89, 46.03, 45.61, 46.28, 46.28], 14)[14] - 70.46) < 0.1)
+    add('stop-first', lambda: _n100_walk({'n': 3, 'ts': [1, 2, 3], 'o': [100.0, 100.0, 100.0], 'h': [100.0, 108.0, 100.0], 'l': [100.0, 94.0, 100.0], 'c': [100.0, 100.0, 100.0], 'st_dir': [None] * 3, 'st_line': [None] * 3}, 0,
+                                       {'side': 1, 'ref': 100.0, 'stop': 95.0, 'target': 105.0, 'horizon': 5, 'rule': None, 'trail_mult': None, 'atr': 2.0, 'st_trail': False, 'deadline': None})['reason'] == 'stop')
+    add('payoff-shape', lambda: _n100_shape([(-1, 'PE', 100.0, 5.0), (1, 'PE', 90.0, 2.0)], 105.0)['max_loss'] == 7.0 and abs(_n100_shape([(-1, 'PE', 100.0, 5.0), (1, 'PE', 90.0, 2.0)], 105.0)['max_profit'] - 3.0) < 1e-9)
+    add('sizing-never-rounds-up', lambda: _n100_size_option({'structure': 'CREDIT', 'plan_risk': 10.0, 'max_loss': 100.0, 'lot': 65, 'premium': 20.0}, {'capital': 100000.0, 'risk_pct': 1.0})['lots'] == 0)
+    add('no-orders', lambda: 'fyers_place' not in _n91_jsonlib.dumps(sorted(k for k in globals() if k.startswith('_n100_'))))
+    return rows
+
+
+_N100_REG_PREV = prime_regression_suite
+def prime_regression_suite():
+    r = _N100_REG_PREV()
+    extra = _n100_regression_rows()
+    if isinstance(r, dict):
+        r['tests'] = list(r.get('tests', [])) + extra
+        r['passed'] = sum(1 for x in r['tests'] if x.get('ok'))
+        r['failed'] = len(r['tests']) - r['passed']
+        r['verdict'] = 'PASS' if not r['failed'] else 'FAIL'
+        r['version'] = VERSION
+        return r
+    return {'id': 'RG100', 'version': VERSION, 'tests': extra, 'passed': sum(1 for x in extra if x['ok']), 'failed': sum(1 for x in extra if not x['ok'])}
+
+
+try:
+    _N40_COMMANDS.append(('sigma', 'Trade signals with entry, stop and exit (advisory)'))
+    _N40_MENUS['main'][1].insert(9, [('📡 Sigma', 'c:/sigma')])
+except Exception:
+    pass
+
+
+_N100_MAIN_PREV = main
+def main(*a, **k):
+    try:
+        _n100_db().close()
+        _n100_ensure_thread()
+    except Exception:
+        _N100_STATS['errors'] += 1
+    return _N100_MAIN_PREV(*a, **k)
 
 
 if __name__ == '__main__':

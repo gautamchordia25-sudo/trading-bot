@@ -2209,7 +2209,7 @@ class TestStructure(unittest.TestCase):
     def test_this_is_v91_and_the_version_is_the_last_one_defined(self):
         self.assertGreaterEqual(float(self.m.VERSION), 91.5)
         self.assertEqual(re.findall(r'^VERSION\s*=\s*["\']([^"\']+)["\']', self.src, re.M)[-1], self.m.VERSION)
-        self.assertTrue(self.src.lstrip().startswith('"""nemotron_bot.py v9'))
+        self.assertTrue(re.match(r'"""nemotron_bot\.py v\d+', self.src.lstrip()))       # (v9x, then v100 and later)
         self.assertIn('v91.5 - FORGE', self.src[:12000], 'the Forge version stays documented')
 
     def test_the_layer_comes_after_studio_and_before_the_main_guard(self):
