@@ -134,6 +134,8 @@ Forge installs only Python wheels. The best offline and web tools (llama.cpp, ki
 | **v104** | **Site** | A4 richer owner app, optional A5 public showroom and A6 OpenAI-compatible API, D1 GitHub webhook | Only after the doors are safe |
 | **v105** | **Apps lane** | E, then C2 SearXNG and any local brain | Biggest and riskiest |
 
+**Taking Nemo beyond Telegram (the app, voice doors, a desktop app, WhatsApp's rules, the architecture and the order):** see `NEMO_OUT_OF_TELEGRAM.md`. It also records two holes in the existing web and WhatsApp doors that should be fixed first.
+
 **More ideas, grouped by what an advanced assistant does (understand, communicate, express, feel, connect, search, act; typing on your own computer):** see `NEMO_ADVANCED_AI_FEATURES.md`. It proposes the next steps (Mind, Voice, Heart, Routines, Hands, Reach) and lists what I would not build. Pick the order and I will number them after v101/v102.
 
 ## 5. Four answers I need from you (they change the plan)
