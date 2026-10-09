@@ -30,7 +30,7 @@ def setUpModule():
 def globe_source():
     src = open(base.NEMO_FILE, encoding='utf-8').read()
     i = src.index('# NEMO 101 - GLOBE')
-    j = src.rindex("if __name__")
+    j = src.index('# NEMO 102 - ') if '# NEMO 102 - ' in src else src.rindex("if __name__")
     return src[i:j]
 
 
@@ -1200,6 +1200,7 @@ class TestFamilyDownloads(FamilyCase):
     def test_the_screenshot_a_family_member_with_downloads_on_is_no_longer_refused_by_the_engine(self):
         self.family(5552)
         self.allow(5552, 'downloads', True)
+        self.start(self.m, '_n77_url', lambda u: u)                          # the link check resolves the host name; no network here (it is tested on its own elsewhere)
         out = self.other('Download this video https://youtu.be/MFQFxsDWbA8?si=cbCkKuYjrCSmVb3P')
         self.assertIn('On it', out)
         self.assertNotIn(self.BOSS, out)
@@ -1540,12 +1541,12 @@ class TestStructure(GlobeCase):
 
     def test_the_prefix_is_protected_from_live_self_edit(self):
         src = open(base.NEMO_FILE, encoding='utf-8').read()
-        self.assertIn("'_n100_','_n101_','_p75_'", src)
+        self.assertIn("'_n100_','_n101_',", src)
 
     def test_version_and_docstring(self):
         src = open(base.NEMO_FILE, encoding='utf-8').read()
-        self.assertTrue(src.startswith('"""nemotron_bot.py v101.0 - GLOBE'))
-        self.assertEqual(self.m.VERSION, '101.0')
+        self.assertIn('v101.0 - GLOBE', src[:6000])
+        self.assertGreaterEqual(float(self.m.VERSION), 101.0)
 
     def test_the_regression_rows_pass(self):
         rows = self.m._n101_regression_rows()

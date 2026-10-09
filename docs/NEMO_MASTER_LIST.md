@@ -168,7 +168,7 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 | O1 | Offline mode (written, parked as "Offline") | Notices when the internet or all AI providers are down, says so, queues non-urgent work, uses local tools; `go offline` / `go online` | M / low |
 | O2 | Fully local tools | OCR, speech-to-text, PDF tables, meaning-based memory with no internet | M / low |
 | O3 | Offline encyclopaedia | Wikipedia and more from compressed files (Kiwix); disk is the cost | M / low |
-| O4 | **Local Llama brain on your laptop** | Nemo already has `/localnode add <name> \| <url> \| <model>` and `/hybrid <question>` (an Ollama server on another machine, cloud fallback). Make it automatic for private and simple questions and as the fallback when every cloud provider fails; health check; never used for trading numbers. Needs a private link from the server to the laptop (Tailscale, S1); Ollama has no login of its own and must never face the internet | M / low-medium |
+| O4 | **Local brain on your laptop** (BUILT in v102.0 Hearth, see `NEMO_V102_HEARTH.md` and `NEMO_LOCAL_BRAIN_GUIDE.md`) | A relay (the computer only makes outgoing calls, nothing to open on the router) or a direct address; the cloud brains first and the local brain when they fail; `private: ...` answered on your own computer only; `go offline` / `go online`; optional simple-questions-first; `test local brain`. Tested offline; not yet run on your hardware | done |
 
 ### TRADING follow-ups (each only if the data or you ask)
 
@@ -200,8 +200,8 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 
 | Item | Status | Why |
 |---|---|---|
-| **Offline** (O1 to O4) | Written, parked | Valid and independent; fits between Voice and Routines |
-| A local AI brain **on the VPS** | Dropped for now | The server has about 3.8 GB memory, 2 cores and swap nearly full; the laptop is the place for it (O4) |
+| **Offline** (O1 to O3) | Written, parked (O4 is built) | Valid and independent; fits between Voice and Routines |
+| A local AI brain **on the VPS** | Dropped for now | The server has about 3.8 GB memory, 2 cores and swap nearly full; the laptop is the place for it (O4, built) |
 | Money moved by Nemo (payments, transfers, orders) | Not building | One wrong action costs too much; Nemo suggests, you tap in your own app |
 | Unattended sending of mail, WhatsApp or calls | Not building | Every outward message goes through your tap until a routine has passed R4 for weeks |
 | Voice cloning of family or customers | Not building | Needs clear consent; not worth the risk |
@@ -212,18 +212,18 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 
 ---
 
-## 4. Recommended build order (next version number is v102)
+## 4. Recommended build order (v102 Hearth is built; the next version number is v103)
 
 | Step | Name | Contents | Why here |
 |---|---|---|---|
-| 1 | **v102 Mind** | M1, M2, M3, M5, M7, plus fixes F1 and F2 | Everything else works better when Nemo understands you; the two door holes are closed straight away; low risk |
-| 2 | **v103 Voice** | V1, V2, V7, X1, X2, V6 | Nemo feels alive and the family can use it by voice |
-| 3 | **v104 App** | D0 foundation, D1 Nemo app, D2 Siri shortcut, S1 stable address | The "out of Telegram" step; needs the streaming and voice pieces from step 2 |
-| 4 | **v105 Heart** | H1 to H4, R6 panic word | Small, valuable; H4 protects money |
-| 5 | **v106 Routines** | T1, C1, R1, R2, R4, X5 | The safety base that makes any automation trustworthy |
-| 6 | **v107 Hands** | T2, then T4 dictation, then T3 in its four stages | The typing and clicking you asked for, on top of step 5 |
-| 7 | **v108 Reach** | K1 to K4, K7, V4, C2, C5 | Breadth: research, topic watching, connections, drafts |
-| Any time | **Offline** | O1 to O4 (O4 needs the stable private address from S1) | Independent |
+| 1 | **v103 Mind** | M1, M2, M3, M5, M7, plus fixes F1 and F2 | Everything else works better when Nemo understands you; the two door holes are closed straight away; low risk |
+| 2 | **v104 Voice** | V1, V2, V7, X1, X2, V6 | Nemo feels alive and the family can use it by voice |
+| 3 | **v105 App** | D0 foundation, D1 Nemo app, D2 Siri shortcut, S1 stable address | The "out of Telegram" step; needs the streaming and voice pieces from step 2 |
+| 4 | **v106 Heart** | H1 to H4, R6 panic word | Small, valuable; H4 protects money |
+| 5 | **v107 Routines** | T1, C1, R1, R2, R4, X5 | The safety base that makes any automation trustworthy |
+| 6 | **v108 Hands** | T2, then T4 dictation, then T3 in its four stages | The typing and clicking you asked for, on top of step 5 |
+| 7 | **v109 Reach** | K1 to K4, K7, V4, C2, C5 | Breadth: research, topic watching, connections, drafts |
+| Any time | **Offline** | O1 to O3 | Independent |
 | Later / only if wanted | T5, V3, T7, M6, D3 to D12, S2 to S5, C3 | Higher risk, lower reliability or needs hardware |
 | On request only | P1 to P10 | Each waits for evidence or your decision |
 
@@ -248,7 +248,7 @@ Not confirmed at all: Telegram's streaming and Business-mode features (their cha
 
 ## 6. What I need from you to start (defaults in brackets)
 
-1. **Which step first?** [step 1, v102 Mind]
+1. **Which step first?** [step 1, v103 Mind]
 2. **Which computer may Nemo control later?** [the enrolled Windows laptop only; no phone control yet]
 3. **Which languages do family members use?** [English, Hindi, Gujarati, mixed]
 4. **Mood read (H1):** [off by default, on for you only if you say so]
