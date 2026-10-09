@@ -140,6 +140,8 @@ Forge installs only Python wheels. The best offline and web tools (llama.cpp, ki
 
 **A separate public Nemo (own web address, own database, own identity, open sign-up, a path to earning):** see `NEMO_PUBLIC_LAUNCH_PLAN.md`. The conclusion is to build it as a new, small service on its own server, not to open this program to strangers (it is written around one owner), with no trading signals in it, a narrow first audience, a capped free tier, and money gates between stages. Nothing is built; it waits on your answers in section 13 of that page.
 
+**One page with everything (what exists, every planned feature with an ID, what is parked, the recommended order, what still needs a live check):** see `NEMO_MASTER_LIST.md`.
+
 ## 5. Four answers I need from you (they change the plan)
 
 1. ~~How much memory and disk does the server have?~~ **Answered by your screenshots** (section 1b). New question: how many CPU cores? (`server status` will show it.)
