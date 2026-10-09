@@ -34,7 +34,7 @@ Sizes: **S** = hours, **M** = a day or two, **L** = several days. **Risk** is to
 
 ---
 
-## 2. Features still to build (86 features and 2 fixes, grouped)
+## 2. Features still to build (87 features and 2 fixes, grouped)
 
 Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H groups), `NEMO_OUT_OF_TELEGRAM.md` (doors), `NEMO_NEXT_POWERS.md` (site, offline, knowledge).
 
@@ -161,13 +161,14 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 | S4 | Firewall and intrusion help | `ufw`/`fail2ban` as card-approved installs | S / medium (a wrong rule can lock you out) |
 | S5 | Apps lane in Forge | Safe install of programs (not just Python wheels): named release pages, checked hash, private folder, limited user, remove | L / medium; build last |
 
-### OFFLINE
+### OFFLINE and LOCAL BRAIN
 
 | ID | Feature | You get | Size / risk |
 |---|---|---|---|
 | O1 | Offline mode (written, parked as "Offline") | Notices when the internet or all AI providers are down, says so, queues non-urgent work, uses local tools; `go offline` / `go online` | M / low |
 | O2 | Fully local tools | OCR, speech-to-text, PDF tables, meaning-based memory with no internet | M / low |
 | O3 | Offline encyclopaedia | Wikipedia and more from compressed files (Kiwix); disk is the cost | M / low |
+| O4 | **Local Llama brain on your laptop** | Nemo already has `/localnode add <name> \| <url> \| <model>` and `/hybrid <question>` (an Ollama server on another machine, cloud fallback). Make it automatic for private and simple questions and as the fallback when every cloud provider fails; health check; never used for trading numbers. Needs a private link from the server to the laptop (Tailscale, S1); Ollama has no login of its own and must never face the internet | M / low-medium |
 
 ### TRADING follow-ups (each only if the data or you ask)
 
@@ -191,7 +192,7 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 | F1 ★ | WhatsApp and phone-call hooks must check who is calling | Today anyone who can message the number gets the plain chat running on **your** memory |
 | F2 ★ | Website chat must run as the signed-in person, not as the owner | Same reason; website login also should not depend on Telegram alone |
 
-**Count:** M 9, V 7, X 5, H 6, C 6, K 7, T 8, R 7, D 13, S 5, O 3, P 10 = 86 features, plus the 2 fixes F1 and F2 = 88 rows; 26 are marked ★.
+**Count:** M 9, V 7, X 5, H 6, C 6, K 7, T 8, R 7, D 13, S 5, O 4, P 10 = 87 features, plus the 2 fixes F1 and F2 = 89 rows; 26 are marked ★.
 
 ---
 
@@ -199,8 +200,8 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 
 | Item | Status | Why |
 |---|---|---|
-| **Offline** (O1 to O3) | Written, parked | Valid and independent; fits between Voice and Routines |
-| A local AI brain on the VPS | Dropped for now | The server has about 3.8 GB memory, 2 cores and swap nearly full; it belongs on a bigger machine or on the laptop |
+| **Offline** (O1 to O4) | Written, parked | Valid and independent; fits between Voice and Routines |
+| A local AI brain **on the VPS** | Dropped for now | The server has about 3.8 GB memory, 2 cores and swap nearly full; the laptop is the place for it (O4) |
 | Money moved by Nemo (payments, transfers, orders) | Not building | One wrong action costs too much; Nemo suggests, you tap in your own app |
 | Unattended sending of mail, WhatsApp or calls | Not building | Every outward message goes through your tap until a routine has passed R4 for weeks |
 | Voice cloning of family or customers | Not building | Needs clear consent; not worth the risk |
@@ -222,7 +223,7 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 | 5 | **v106 Routines** | T1, C1, R1, R2, R4, X5 | The safety base that makes any automation trustworthy |
 | 6 | **v107 Hands** | T2, then T4 dictation, then T3 in its four stages | The typing and clicking you asked for, on top of step 5 |
 | 7 | **v108 Reach** | K1 to K4, K7, V4, C2, C5 | Breadth: research, topic watching, connections, drafts |
-| Any time | **Offline** | O1 to O3 | Independent |
+| Any time | **Offline** | O1 to O4 (O4 needs the stable private address from S1) | Independent |
 | Later / only if wanted | T5, V3, T7, M6, D3 to D12, S2 to S5, C3 | Higher risk, lower reliability or needs hardware |
 | On request only | P1 to P10 | Each waits for evidence or your decision |
 
