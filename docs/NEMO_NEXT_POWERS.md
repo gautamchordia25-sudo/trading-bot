@@ -138,6 +138,8 @@ Forge installs only Python wheels. The best offline and web tools (llama.cpp, ki
 
 **More ideas, grouped by what an advanced assistant does (understand, communicate, express, feel, connect, search, act; typing on your own computer):** see `NEMO_ADVANCED_AI_FEATURES.md`. It proposes the next steps (Mind, Voice, Heart, Routines, Hands, Reach) and lists what I would not build. Pick the order and I will number them after v101/v102.
 
+**A separate public Nemo (own web address, own database, own identity, open sign-up, a path to earning):** see `NEMO_PUBLIC_LAUNCH_PLAN.md`. The conclusion is to build it as a new, small service on its own server, not to open this program to strangers (it is written around one owner), with no trading signals in it, a narrow first audience, a capped free tier, and money gates between stages. Nothing is built; it waits on your answers in section 13 of that page.
+
 ## 5. Four answers I need from you (they change the plan)
 
 1. ~~How much memory and disk does the server have?~~ **Answered by your screenshots** (section 1b). New question: how many CPU cores? (`server status` will show it.)
