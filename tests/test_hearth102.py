@@ -41,7 +41,7 @@ def setUpModule():
 def hearth_source():
     src = open(base.NEMO_FILE, encoding='utf-8').read()
     i = src.index('# NEMO 102 - HEARTH')
-    j = src.rindex("if __name__")
+    j = src.index('# NEMO 103 - ') if '# NEMO 103 - ' in src else src.rindex("if __name__")       # (the next layer is checked by its own tests)
     return src[i:j]
 
 

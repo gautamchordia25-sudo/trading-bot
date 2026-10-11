@@ -2,7 +2,7 @@
 
 One page that gathers everything: what exists (v83 to v101), everything planned or proposed, what is parked, what I would not build, a recommended build order, and what still needs a live check. The longer reasoning, evidence and sources stay in the research pages named in each section; this page is the list.
 
-Sizes: **S** = hours, **M** = a day or two, **L** = several days. **Risk** is to your money, privacy or server. **★** = I would build it first. Status of every item in sections 2 to 6 is **not built**.
+Sizes: **S** = hours, **M** = a day or two, **L** = several days. **Risk** is to your money, privacy or server. **★** = I would build it first. Status of every item in sections 2 to 6 is **not built** unless it is marked BUILT or PART BUILT (v102 Hearth built O4; v103 Mind built M1, M2, F1 and parts of M3 and M5).
 
 ---
 
@@ -42,11 +42,11 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 
 | ID | Feature | You get | Size / risk |
 |---|---|---|---|
-| M1 ★ | Meaning-based memory with time | "What did I decide about the lease?" works without the exact words; a changed fact replaces the old one but keeps its date | M / low |
-| M2 ★ | "What I know about you" card | One screen of everything Nemo believes about you; edit or delete a line by a sentence | S / low |
-| M3 ★ | Ask before guessing | One short question (or a two-line plan with Go/Change) when a request is ambiguous and the action matters | S / low |
+| M1 ★ | **BUILT in v103.0 Mind** (see `NEMO_V103_MIND.md`): Meaning-based memory with time | "What did I decide about the lease?" works without the exact words; a changed fact replaces the old one but keeps its date | M / low |
+| M2 ★ | **BUILT in v103.0 Mind**: "What I know about you" card | One screen of everything Nemo believes about you; edit or delete a line by a sentence | S / low |
+| M3 ★ | **PART BUILT in v103.0 Mind** ("who do you mean?" for people only; the two-line plan with Go/Change for other ambiguous requests is not built): Ask before guessing | One short question (or a two-line plan with Go/Change) when a request is ambiguous and the action matters | S / low |
 | M4 | Context fusion | Answers use your calendar, tasks and mail when relevant, naming the source | M / low |
-| M5 ★ | Hindi / Gujarati / English end to end | Detects and answers in the same language and script; exact names and numbers | M / low |
+| M5 ★ | **PART BUILT in v103.0 Mind** (memory reads, stores and finds Hindi/Gujarati script and Hinglish; the answer model is told to reply in the language you wrote; voice and live quality unverified): Hindi / Gujarati / English end to end | Detects and answers in the same language and script; exact names and numbers | M / low |
 | M6 | Multimodal | Short videos, app screenshots, receipts, long PDFs with tables | M / low-medium |
 | M7 | Reference resolution | "That one", "same as last time", "send it to him" resolved, and Nemo says to what | S / low |
 | M8 | Learning from corrections | Your correction becomes a visible rule that is applied and tested | M / low |
@@ -189,7 +189,7 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 
 | ID | Fix | Why |
 |---|---|---|
-| F1 ★ | WhatsApp and phone-call hooks must check who is calling | Today anyone who can message the number gets the plain chat running on **your** memory |
+| F1 ★ | **BUILT in v103.0 Mind** (default deny; allow your own number with `allow whatsapp +91...`): WhatsApp and phone-call hooks must check who is calling | Today anyone who can message the number gets the plain chat running on **your** memory |
 | F2 ★ | Website chat must run as the signed-in person, not as the owner | Same reason; website login also should not depend on Telegram alone |
 
 **Count:** M 9, V 7, X 5, H 6, C 6, K 7, T 8, R 7, D 13, S 5, O 4, P 10 = 87 features, plus the 2 fixes F1 and F2 = 89 rows; 26 are marked ★.
@@ -212,11 +212,11 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 
 ---
 
-## 4. Recommended build order (v102 Hearth is built; the next version number is v103)
+## 4. Recommended build order (v102 Hearth and v103 Mind are built; the next version number is v104)
 
 | Step | Name | Contents | Why here |
 |---|---|---|---|
-| 1 | **v103 Mind** | M1, M2, M3, M5, M7, plus fixes F1 and F2 | Everything else works better when Nemo understands you; the two door holes are closed straight away; low risk |
+| 1 | **v103 Mind (BUILT)** | M1, M2, M3 (people), M5 (memory side), F1 built; M7 ("that one", "same as last time"), the rest of M3, and F2 not built | Everything else works better when Nemo understands you; the phone door is closed; low risk |
 | 2 | **v104 Voice** | V1, V2, V7, X1, X2, V6 | Nemo feels alive and the family can use it by voice |
 | 3 | **v105 App** | D0 foundation, D1 Nemo app, D2 Siri shortcut, S1 stable address | The "out of Telegram" step; needs the streaming and voice pieces from step 2 |
 | 4 | **v106 Heart** | H1 to H4, R6 panic word | Small, valuable; H4 protects money |

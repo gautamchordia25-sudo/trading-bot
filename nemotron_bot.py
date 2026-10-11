@@ -1,4 +1,4 @@
-"""nemotron_bot.py v102.0 - HEARTH: A LOCAL BRAIN. AN OPEN MODEL (LLAMA, QWEN, GEMMA OR ANOTHER) RUNNING ON YOUR OWN COMPUTER ANSWERS WHEN THE CLOUD BRAINS FAIL, ANSWERS "PRIVATE: ..." QUESTIONS WITHOUT ANY CLOUD AI SEEING THEM, AND CAN BE THE ONLY BRAIN IN OFFLINE MODE. IT CONNECTS BY A RELAY (THE COMPUTER ONLY MAKES OUTGOING CALLS; NOTHING TO OPEN ON THE ROUTER) OR BY A DIRECT ADDRESS. OWNER ONLY; NO ORDER, NO TRADING AGENT, NO GUARD, NO OWNER LOCK. + v101.0 - GLOBE: WORLD MARKETS AND MACRO KNOWLEDGE (17 EXCHANGES, SESSIONS AND HOLIDAYS, A WORLD CALENDAR, A LIVE WORLD BOARD, OVERNIGHT CUES FOR INDIA WITH AN OUT-OF-SAMPLE CHECK), NINE DETAILED CHARTS, SIGMA POLISH, AND THE FAMILY FIX (AN ABILITY SWITCHED ON FOR A FAMILY MEMBER NOW WORKS END TO END; FAMILY EVERYTHING GIVES THE FAMILY EVERYTHING THAT CAN SAFELY BE GIVEN). THE WORLD DESK IS READ-ONLY AND ADVISORY. + v100.0 - SIGMA: A SIGNAL DESK INSIDE NEMO: FIXED RULES FOR STOCKS AND NIFTY/BANKNIFTY, OPTION-CHAIN ANALYTICS, DEFINED-RISK OPTION STRUCTURES WITH ENTRY, STOP, EXIT, SIZE AND CHARGES, A BACKTEST WITH CHARGES, A SHORT-VOLATILITY PROXY STUDY AND A FORWARD SCOREBOARD. ADVISORY ONLY: NO ORDER, NO CHANGE TO THE TRADING AGENT, THE GUARDS OR THE OWNER LOCK. + v99.1 - ANSWER: A GENERAL TRADING QUESTION IS NO LONGER SENT TO THE PAPER-TRADING RESEARCH TOOL; WHEN THE MAIN AI GATEWAY FAILS THE OLDER BRAINS ANSWER INSTEAD OF THE REQUEST ENDING; A TRADE LAB DEAD END BECOMES AN ORDINARY ANSWER; AND "SUPPOSE YOU HAVE 20000 RUPEES FOR OPTIONS TRADING, HOW WILL YOU SURVIVE AND WHAT RETURN IN A YEAR" IS ANSWERED FROM THE PRACTICE RECORD AND A SIMULATION WITH NO AI. NO ORDER, NO CHANGE TO THE TRADING AGENT, THE GUARDS OR THE OWNER LOCK. + v99.0 - LAB: A READ-ONLY LABORATORY BESIDE THE STOCK-MARKET AGENT. IT KEEPS THE PRICE PATH OF EVERY TRADE (copying the quotes the agent already fetches), REPLAYS THE AGENT'S OWN RULE AND 11 OTHER EXIT AND ENTRY RULES OVER THOSE PATHS AFTER CHARGES (never calling a winner on too few trades), SHOWS WHY THE AGENT DID NOT TRADE, HOW FAR TRADES WENT, WHETHER THE DIRECTION CALLS WERE RIGHT, SENDS A WEEKLY AND MONTHLY REPORT, ALERTS ON A LOSING STREAK OR A DEEP DIP, AND GIVES AN ADVISORY LIVE-READINESS CHECKLIST (nothing is switched: no order, no change to the trading agent, the guards or the owner lock). + v98.0 - SCHOLAR: TELL NEMO WHAT HE IS WEAK AT AND HE RESEARCHES GITHUB AND PYPI, CHECKS THE BEST PROJECTS FOR SAFETY AND FIT WITH THIS SERVER, RECOMMENDS ONE WITH ITS LIMITS AND PUTS FORGE'S ONE-TAP APPROVAL CARD IN FRONT OF THE OWNER; AFTERWARDS HE OFFERS TO TEACH HIMSELF TO USE IT (nothing is installed without the owner's tap; no order, no change to the trading agent, the guards or the owner lock). + v97.0 - DESK: A FAMILY MEMBER (OR THE WHOLE FAMILY) CAN BE LET INTO THE TRADE DESK, VIEW ONLY: THE OPEN SCOUT IDEAS WITHOUT THE OWNER'S CAPITAL OR SIZING, A FRESH SCAN WITH SMALL DAILY LIMITS, HOW PAST IDEAS TURNED OUT AND THE PRACTICE AGENT'S VIRTUAL TRADES; REAL POSITIONS, MONEY, ORDERS, LIVE-MODE TRADES AND THE OWNER'S SETTINGS STAY PRIVATE AND NOTHING CAN BE CHANGED (no order, no change to the trading agent, the guards, Circle's locks or the owner lock). + v96.0 - LEDGER: THE FULL RECORD OF WHAT THE STOCK-MARKET AGENT HAS TRADED (every closed trade kept, results before and after estimated charges, worst dip, how far to trust it, day by day, one trade in full with its reason, CSV and a growth chart) AND A PLAIN-WORDS EXPLANATION OF HOW IT DECIDES (read-only: it never changes what the agent does, the trading guards or the owner lock; no order is placed). + v95.0 - DOORS + CARE + OFFICE: THE WEBSITE GETS TELEGRAM LOGIN, FAILED-ATTEMPT LIMITS AND SAFE HEADERS; "CARE" READS THE SERVER AND CLEANS NEMO'S OWN LEFTOVERS AND OLDER FAILURE MESSAGES GAIN A FIX-IT LINE; GSTIN/PAN CHECKS ON INVOICE DRAFTS AND A SPACED-REPETITION STUDY HELPER (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v94.0 - CLEAR + SCOUT INTEL + STUDIO PLUS: EVERY MARKET REPLY AND DATA DUMP IN PLAIN WORDS, NSE RESULTS/BAN/FLOW CHECKS AND A VOLATILITY FORECAST FOR SCOUT, AI UPSCALING, BACKGROUND REMOVAL AND CHARTS FOR PICTURES (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v93.2 - SCOUT: TRADE IDEAS FOR STOCKS AND NIFTY/BANKNIFTY OPTIONS FROM NEWS AND NEMO'S MARKET TOOLS, WITH THE WORKINGS SHOWN, THE SIZE AT THE OWNER'S RISK LIMIT AND AN HONEST TRACK RECORD (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v92.0 - WIRE: THE INSTALLED LIBRARIES BECOME CHAT COMMANDS, RUN SAFELY (tables from a PDF, text in a picture, clean article text, indicators on daily candles, a risk report of the journal, NSE history, local voice fallback, extra checks next to the update pre-flight; one heavy job at a time and only when memory is free; MCP servers stop together with Nemo). + v91.5 - FORGE: NEMO CAN USE GITHUB AND INSTALL WHAT HE NEEDS (search and inspect GitHub, a static scan of any repo, PyPI risk checks, hash-pinned wheel-only installs into isolated environments or additively into his own Python, owner approval cards, health checks with automatic rollback, an install ledger, upgrade from the owner's own GitHub repo through the existing update gate). + v90.2 - STUDIO: MORE IMAGE ENGINES AND TOOLS, EXACT DESIGN AND CHARTS, REPORTS WHOSE NUMBERS ARE CHECKED (verified image chain with nine engines, Pillow tools, posters/cards/logos with exact text, charts from your numbers, a numbers audit for researched reports, data reports from your own files). + v89.0 - CIRCLE: WHO ELSE MAY USE NEMO AND WHAT THEY MAY DO (one gate in front of every message, button and inline query that is not from the owner; default deny; abilities switched per person and role from a menu or in plain words; first-contact cards; limits; strangers on/off; a private read-only free/busy view for family). + v88.0 - ARGUS: NEMO CAN SEE (read-only eyes for mail, calendar, Drive, tasks, reminders, watchers, what Nemo did and when, server and errors, devices, positions; a live map of its own abilities; one "see" tool for conversation; a flight recorder; an inbox watch; exact reasons when something is not connected). + v87.0 - RELAY: MORE VIDEO SOURCES (yt-dlp with six client profiles, automatic yt-dlp update, Node/Deno runtime, your proxy; then pytubefix, YouTube.js, Piped and Invidious mirrors, Cobalt) in ONE verified, time-boxed chain with a per-source report + DRIVE LINKS YOU CAN OPEN (anyone with the link / one e-mail / private) + natural-language controls (download sources, test youtube download, set up download sources, share my last download). + v86.0 - CANDOR: NO SENSITIVE LOGGING (a rejected value is never stored; logs are masked) + COMPLETE FORGETTING (every recall store, rewritten copies, re-learning blocked, queued jobs cancelled, backup limits stated) + SAFER SELF-DEVELOPMENT (the _n79_feature hook is always offered, relevant bounded shortlist, vague "upgrade yourself ..." asks what you want before any AI call, failures name their stage) + RESEARCH ROUTING (current-information questions are researched, failure and thin evidence are stated) + ONE SHARED DEADLINE (planning, tools, answer, review and fallback; bounded search and background work) + HONEST CHECKS (completed / issues / skipped / failed). + v85.0 - STEWARD: DECISION INBOX (mail/calendar/open loops/showroom -> ranked, grounded proposals as approve/edit/skip cards; nothing runs without a tap; learns from your decisions) + VERIFIED RESEARCH (replans, reads full pages, keeps a claim only if its quote is in the page and its numbers are in the quote) + SANDBOX-TESTED UPDATES (candidate is imported and regression-tested in a network-less sandbox before Apply) + MCP PERMISSION TIERS (read runs, write needs a tap, dangerous blocked) + DOCUMENT INTELLIGENCE (page-cited answers, clause flags, version compare, tables) + SHOWROOM COPILOT (leads, dues, stock, GST invoice drafts) + PAGE WATCHERS (price/stock/keyword/change alerts). + v84.0 - ATLAS: FUTURES DESK (expiry calendar with holiday roll-back, cost-of-carry fair value/basis, roll cost, position sizing, pre-trade check, edge/Kelly/streak maths, owner-reported trade journal + stats, opt-in expiry alerts; advisory only, no orders) + SPEED (zero-model answers for pure arithmetic/date questions, router bypass for plain chat, parallel tool rounds, typing keep-alive, per-stage timings, p50/p95 in /cortex83) + weekday/date audit. + v83.0 - CORTEX: memory bridge (relevant stored facts + safe auto-learning from the owner's own messages, with /memory83 /forget83 controls), grounded IST date/time + exact date maths, bounded read-only tool loop for chat (search/recall/calculate/date, no tool can act), deterministic arithmetic audit + quote-verified critique, rolling conversation summaries, router fast-path for small talk, /why83 transparency, fix for undefined _n60_j in the media failure path. Additive layer over v82; any Cortex failure falls back to the v80 chat path. + v45.0 - YOUTUBE PER OFFICIAL 2026 GUIDE (--js-runtimes deno auto-installed, android_vr-first ladder needing no PO token/cookies, cookies only for tv/mweb, rotation detection, /ytfix) + MEDIA LIBRARY (/library instant resend, Drive) + v44.x RELIABILITY DOCTOR + v43.x YOUTUBE UNBLOCK + RESEARCH DIGEST + v42.0 MEDIA ENGINE + FAMILY MODE + v40.0 COMMAND CENTER + LEARN MODE + v39.0 FAST CORE + v38.0 ATTENTION + v37.0 PHOTO MEMORY + VOICE + v36.x DAY CARD + SELF-AUDIT + v35.0 UNIFIED MIND + v13.35 - PROVIDER DOCTOR + COMPUTER-USE 5.0 BATCH 3: adds diagnostic Groq/Gemini model discovery, non-destructive email/network doctor, browser computer-use sessions with DOM/accessibility/screenshot state, Guardian-protected external-page analysis, action verification and session telemetry. + v13.30 - KNOWLEDGE LAKE 2.0 + HYBRID SEMANTIC RAG + LEARNING CORE 2.0: adds local hybrid retrieval, workflow episode learning and automatic local grounding while retaining v13.29 evaluation/observability. + v13.29 - EVALUATION LAB 2.0 + OBSERVABILITY/FLIGHT RECORDER 2.0: adds request-level tracing, durable request metrics, tool/task correlation for reports/browser/media, percentile latency and failure dashboards, candidate-vs-current regression scoring, critical-function and credential-line integrity checks, evaluation history, and fail-closed deploy recommendations. Existing v13.28 NEMO PRIME FOUNDATION remains. + v13.28 - NEMO PRIME FOUNDATION: Unified Task OS, Central Policy Engine, Flight Recorder, Evaluation Lab, Knowledge Lake, Strategy Learning 2.0, Device Agent generator, Specialist Agent Governor, and Trade State Reconciliation 2.0. Existing v13.27 Publisher Godmode and all prior safety rails remain. + v13.27 - PUBLISHER GODMODE 5.0 / LAYOUT QA: rebuilds the professional artifact renderer around measured text layout instead of fixed-height guesses; filters fake KPI tiles and source/evidence metadata; dynamically wraps risk tables, scenario cards, executive cards and source cards; fixes appendix stripping with or without colons; adds Unicode font support when available; prevents heading/header collisions; strengthens publication QA for leaked metadata, clipping-risk patterns and malformed key-number panels; and keeps the v13.26 evidence/materiality pipeline intact. + v13.26 - CREATION ENGINE / PUBLISHER GODMODE 4.0: adds professional information architecture, materiality-first analysis, improved source authority ontology, cited-evidence grading, compact clickable source appendix, executive snapshot cards, key-number tiles, scenario dashboard, risk heatmap-style matrix, typography/mojibake sanitation, deterministic artifact integrity, and optional PDF visual QA. Analytical reports now fail closed when research/evidence/publication quality is weak. Existing v13.25 research Godmode, v13.24 renderer fixes and v13.23 Learning Core remain. + v13.25 - GODMODE RESEARCH + REPORT INTELLIGENCE 3.0: adds five coordinated upgrades: adaptive multi-query text+news research with retries, source-authority scoring and domain diversity, multi-brain analyst→verifier→editor synthesis, evidence/claim-quality gates that remove unsupported current claims, and a research audit manifest + professional evidence score on every report. /godreport forces the full pipeline; ordinary non-code reports use it automatically. Existing v13.24.2 renderer hotfix and v13.23 Learning Core remain. + v13.24.2 - PROFESSIONAL REPORT STUDIO 2.1 PDF RENDERER HOTFIX: upgrades PDF/report generation with fresh multi-query web research for time-sensitive reports, source-grounded drafting, executive summaries, risk/outlook structure, professional cover/header/footer, section hierarchy, key-takeaway callouts, source appendix, cleaner typography, and removal of random stock-art pages. Reports distinguish sourced facts from analysis and warn when fresh research is unavailable. Existing v13.23 Learning Core remains. + v13.23 - LEARNING CORE 1.0 + EXPERIENCE BRAIN: adds persistent outcome learning, model-performance scoring, experience/error fingerprints, semantic experience recall, feedback controls, lightweight anomaly learning, adaptive model route reordering, training-data export, and Cockpit learning telemetry. Learns from successful/failed AI calls and explicit owner feedback while redacting sensitive-looking text; never grants new money/security authority. Existing v13.22 Offline Mind/Speed/Systematic UI, Device Grid, Cockpit, Mind Core, Cyber Hands, trading rails and secrets are preserved. + v13.22 - OFFLINE MIND + SPEED ROUTER + SYSTEMATIC RESPONSE UI: adds an offline-first knowledge layer (built-in durable reference packs + existing indexed files/library/memory grounding), persistent evergreen answer cache, API-down offline fallback, instant local calculator, automatic FAST/BALANCED/QUALITY routing, reduced unnecessary multi-pass reasoning, and a Telegram-friendly response-format contract with consistent visual sections. New /offline, /speed and /format controls. Existing v13.21 Device Grid, v13.20 Cockpit, v13.19 Mind Core, Cyber Hands, trading/security rails and credentials are preserved. + v13.21 - NEMO DEVICE GRID + REMOTE HANDS 1.0: enrolled-device control plane with owner-created one-time enrollment tokens, per-device bearer secrets, heartbeat/online state, read-only system telemetry, opt-in location reporting, device revocation, audit trail, and Cockpit/API device inventory. No arbitrary-device discovery, covert tracking, credential dumping, or unauthorized remote access. + v13.20 - NEMO COCKPIT 1.0: adds a modern Telegram Mini App/PWA command-center over the existing secure web server: live system/brain/cyber/VPN/trading/task/media panels, responsive mobile-first glass UI, browser human-checkpoint status and latest screenshot, safe read-only quick actions, refreshable JSON telemetry, and an owner-only /cockpit command. When a secure HTTPS public_url is configured, Nemo automatically installs a Telegram Web App menu button that opens the cockpit inside Telegram; otherwise /cockpit gives the local/public dashboard link and /setdomain guidance. Consequential actions stay Telegram-gated; the cockpit does not bypass trading, lockdown, cyber scope, browser-auth or update confirmations. Existing v13.19 Mind Core, Browser Checkpoint 2.0, Cyber Hands, dependency isolation, secrets and trading rails remain. + v13.19 - MIND CORE 2.0 + BROWSER CHECKPOINT 2.0: adds a final-answer compiler that blocks scratchpad/thinking-aloud leakage, strips malformed provider tokens such as <unk>, detects repetition/non-answers, selectively re-verifies calculation/bill/image answers, and rewrites poor drafts before delivery; adds speech-specific sanitization so garbage tokens never become voice audio. Browser human checkpoints now parse natural replies (e.g. email plus “click next”) into a clean field value + action, use semantic page-state fingerprints instead of raw URL equality to detect stuck loops, and stop Google/YouTube automated-login loops early in favor of the user's authenticated session/cookie route. Passwords, OTP/2FA/recovery codes and private keys are no longer requested through Telegram browser checkpoints. Existing v13.18 Cyber Hands, v13.17 dependency isolation, trading rails, secrets, updater and all prior capabilities remain. + v13.18 - CYBER HANDS 1.0: adds an owner-only defensive security operations layer for THIS VPS and explicitly authorized/allowlisted assets: unified /cyber control center, local security audit + score, listening-port/firewall/SSH/log inspection, secret-exposure scan that never prints secret values, source-code static security checks, dependency CVE audit in an isolated tool environment, optional ClamAV scan, file-integrity baseline, continuous low-noise security monitoring, and conservative allowlisted Nmap inventory (top ports/version-light only; no exploitation/bruteforce/evasion). Autonomous agents gain READ-ONLY local cyberaudit/cyberports/cyberlogs hands. Remote scanning is never autonomous and requires an explicit --authorized scope entry. Consequential remediation remains owner-confirmed. + v13.17 - FOUNDATION HARDENING + HANDS 2.0: adds dependency protection/doctor, isolated tool virtual-environments, process control with confirmation, filesystem search/hash/tree, network diagnostics, system snapshots, and exposes these safe hands to the autonomous agent. Core trading/credentials/browser/media behavior is preserved. + v13.16 - VISION RESPONSE VALIDATION + MULTIMODAL FALLBACK: fixes the case where a screenshot successfully reached the vision model but Nemo returned only provider moderation metadata such as "User Safety: safe / Response Safety: safe" instead of analyzing the image. Vision replies are now validated for substantive visual content; safety-only/moderation-only outputs, refusal-shell metadata, empty multipart content and tiny non-answers are treated as a FAILED vision attempt and Nemo automatically tries the next multimodal route (Nano Omni -> openrouter/free) rather than delivering garbage. Image prompts explicitly request actual visual analysis rather than safety labels. ask_ai now detects and sends the real PNG/JPEG/WEBP/GIF/BMP MIME in its OpenRouter data URI (closing the remaining hard-coded JPEG path missed in v13.15). DEBUG records why a vision model was rejected. Text routing, trading, money, browser, VPN, downloader, persistence and secrets are unchanged. + v13.15 - UNIVERSAL IMAGE ATTACHMENTS: Telegram screenshots/images sent as Files/Documents now route into the same vision pipeline as compressed photos. Detects image/* MIME plus PNG/JPG/JPEG/WEBP/GIF/BMP extensions and magic bytes; preserves captions; supports scan/OCR/QR/bill/notes pending modes; and ask_ai now labels the data URI with the real image MIME instead of always claiming JPEG. No trading, money, VPN, browser, downloader, persistence, secrets, or safety behavior changed. + v13.14 - LIVE MODEL ROUTER HOTFIX: OpenRouter retired nvidia/nemotron-3-nano-30b-a3b:free on 24 Aug 2026, so Nemo no longer calls that dead slug. Text routing now uses Nemotron 3 Ultra free -> Super free -> openrouter/free for smart work, Super free -> openrouter/free for fast work, and vision uses ONLY multimodal-capable Nano Omni free -> openrouter/free (no text-only Super fallback on images). ask_ai now safely parses OpenRouter error/unexpected response bodies instead of crashing with KeyError choices, temporarily cools down unavailable/rate-limited models, de-duplicates routes, and keeps the dynamic free router as a resilience fallback. /brain reports the live route and cooldowns. No trading, secrets, browser, media, persistence or safety rails changed. + v13.12 - HONEST UPDATE LABELS (fixing two COSMETIC bugs in my own update-preview that made a perfectly good deploy look scary): when the Boss deployed v13.11, the /update preview said 'this file is v17.0' and 'CHANGES 1 (TOKEN)' - BOTH false alarms from my own code; the file was correct and booted clean as v13.11. Causes + fixes: (1) my version-reader grabbed the FIRST version-assignment string anywhere in the file, and my changelog PROSE happens to mention the 17.0 pattern when describing a ChatGPT file - so it read its own description instead of the real constant. Now it reads only a REAL top-level VERSION assignment (start of line). (2) my credential-change check matched ANY variable whose name merely contained 'TOKEN'/'KEY' - including the harmless 'TOKEN = os.environ.get(BOT_TOKEN)' line inside the downloader-bot template - so it falsely warned of a credential change. Now it checks only the actual named secrets (TELEGRAM_TOKEN, OPENROUTER_KEY, NVIDIA_KEY, ...). Future update previews now show the true version and warn only on a REAL key change. Your keys were never touched - the proof was the bot booting clean and healthy. Additive; all existing suites pass plus a new v13.12 test. + v13.11 - CLAIM LEDGER + LIVE INTEGRITY (from the ChatGPT v24 'five upgrade' file - notable because it was finally built on OUR v13.9 base with the Security Core intact, but its five new layers all crash on first use on the same missing 'uuid' import as v15/v18/v19, and its flagship 'v20 Task Orchestrator' is FAKE: the execute function performs nothing - it stamps every step done with a canned message pointing to a /nemorun24 command that does not exist anywhere in the file. Its other layers duplicate what we already run: structured memory = the v11 knowledge graph + /recall, brain router = ask_ai's existing routing, project manager = /plan + /taskgraph + PROJECTS, observability = /nemo + self_test). The TWO ideas worth keeping, built working: (1) CLAIM LEDGER - /claims [search words] is a persistent, dated audit trail of everything Nemo has fact-checked and researched: every /verify records verified-or-corrected (with the checker's notes) and every /nemoresearch records a research entry, capped at 400, surviving restarts, searchable, also in plain language ('what have you verified', 'claim history'). So 'what has my bot told me, and was it checked?' finally has an answer. (2) LIVE INTEGRITY - /security now also compile-checks the RUNNING source and shows its sha256 fingerprint, so tampering or corruption of the deployed file is visible on demand. Additive; all suites pass plus new v13.11 tests. + v13.10 - DOWNLOADER IN THE BOT FACTORY (Nemo creates the whole bot himself - no file to send): the Boss asked why Nemo can't just CREATE a downloader bot when given a token. He always could create bots (/newbot factory + /env for secrets) - his library just had no downloader type. Now it does: a verified 'ytdl' template (the corrected version of the ChatGPT blueprint, which as written would not run - missing asyncio import, wrong download() return handling, an undefined variable, a zip step that ignored Telegram's ~50MB cap). Create it entirely in chat: /newbot ytdl mydl (or just say 'make me a downloader bot') -> tap Ship -> /env mydl BOT_TOKEN=<fresh @BotFather token> OWNER_ID=<your id> -> the bot is LIVE. The generated bot: downloads a YouTube video or whole playlist (mp4, or mp3 with 'audio'), sends every file under Telegram's cap straight to chat, keeps bigger ones on the server with the path reported, caps items per playlist (MAX_VIDEOS), safe ASCII filenames, owner-locked via OWNER_ID, token ONLY from its locked env - never in code. Same supervised ship rails as every factory bot (compile-check, auto pip-install of requests+yt-dlp, tap-to-start, /app <name> logs|restart|stop|rm). Additive; all suites pass plus new v13.10 tests. + v13.9 - QUANT LENSES (the genuinely-new, working parts of the ChatGPT v19 quant file, rebuilt on our base - READ-ONLY, never places an order): the v19 code was real quant work but sat on the old base and crashed its event log on the same missing 'uuid' import; I kept the good math, dropped the crash and the bits we already have (its plain signal/option dumps duplicate /godmode and /optionchain). Three lenses we DIDN'T have, now added: (1) /regime <symbol> - classifies the market regime (TREND_UP/DOWN, EXPANSION, RANGE, LOW_VOL_RANGE, TRANSITION) from ADX + EMAs + ATR-ratio + slope, with a confidence. (2) /walkforward <symbol> - proper OUT-OF-SAMPLE validation: it picks the best EMA pair on a training window then scores it on the next, unseen window, and reports the average out-of-sample hit-rate (a robustness check, not a guarantee). (3) /quantbacktest <symbol> - an EMA-crossover backtest with profit factor + max-drawdown AND a Monte-Carlo stress test (bootstrapped terminal + drawdown percentiles). Plus /quant <symbol> - a consolidated regime + multi-factor signal + transparent setup-quality grade (explicitly 'NOT win probability'). All owner-only, read-only, honestly labelled; they use Nemo's real market data (get_history) and place no orders. Additive; all existing suites pass plus new v13.9 tests. + v13.8 - MEMORY 3.0 (granular forget) + NO INVENTED COMMANDS: (1) MEMORY - on inspection Nemo's memory was already strong (semantic /recall, durable /remember, the /memory 'second brain', /aboutme and the knowledge graph, all persisted and fed into his answers), so the genuinely missing piece was CONTROL: /forget <thing> now removes the SPECIFIC memories that match - from both the durable facts and the semantic vector store - and tells you exactly what it dropped, instead of the all-or-nothing /forgetme. /remember also dedups and keeps more durable facts (20 -> 60). (2) NO INVENTED COMMANDS - when you sent a command Nemo didn't recognise, his brain used to make up plausible-but-fake command names (exactly what happened with /nemo before it was deployed). Now an unrecognised /command gets a deterministic, HONEST reply listing only REAL commands and never reaches the brain. Additive; all existing suites pass plus new v13.8 tests. + v13.7 - TRADE STATE SURVIVES RESTART (closing the money-safety gap I flagged in v13.2 and deferred): the autonomous trader kept its open position only in memory, so a restart or update mid-trade FORGOT it - and for a plain (non-bracket) position that meant its stop-loss and target were no longer being managed, leaving real money exposed. Now the trader's live state (open position, today's trade count, running P&L, the day, and the daily-loss halt flag) is PERSISTED to memory and RESTORED on boot, so after any restart Nemo picks the position straight back up and keeps managing its stop / target / square-off. On boot, if a position is open, Nemo messages you that it resumed managing it. This pairs with v13.6 self-healing updates: a restart mid-trade no longer abandons your money. (Bracket positions were already protected on-exchange; this closes the gap for plain positions.) Owner-only, additive; all existing suites pass plus new v13.7 tests. + v13.6 - SELF-HEALING UPDATES (took the one real new idea from the ChatGPT v17 file - auto-recovery from a bad update - and built it safely; skipped the rest, which forced its VERSION to 17.0 and added a downgrade-block that would have LOCKED you out of updating to our clean files, and re-did the workflows our v13.4 already has): every /update is now TRANSACTIONAL. When you Apply an update, Nemo records a journal (a hash of the new build, plus a hash + path of the verified backup). On restart it checks that journal FIRST: a healthy boot (Telegram auth succeeds) is confirmed and stands recovery down - but if the new build keeps failing to reach a healthy boot (3 tries within 30 minutes) Nemo automatically RESTORES the previous version (only if that backup still compiles and its hash matches the recorded original) and restarts. So if you ever deploy a build that won't start, it heals itself back to the last working version without you touching the server. /updatecheck now also shows whether the last update auto-rolled-back or booted cleanly. HONEST LIMITS: this catches builds that start but then crash/exit during startup; a crash BEFORE main() even runs (e.g. an import-time error) can't be caught from inside the process - though compile-check already blocks the syntax errors behind most of those. Conservative by design (3 failures, 30-min window, hash+compile-verified backup) so a healthy long-running bot is never rolled back. The normal apply/backup/rollback path and everything else are unchanged; all existing suites pass plus new v13.6 tests. + v13.5 - SAFER UPDATES (took the one good idea from the ChatGPT v16 'updatefix' file - credential-preservation on update - and built it safely on our base; skipped the rest, which sat on the old v12.06 base, carried the broken v15 layer, and hard-overrode VERSION to '16.0' while requiring its own marker that would have BLOCKED updating to our clean files): (1) /updatecheck - preflight a new nemotron_bot.py you've attached WITHOUT applying it: shows its version, size, whether it looks like Nemo, the compile-check result, and - the key part - whether it would CHANGE or DROP any of your credential/config lines (compared by a HASH of each key line; values are NEVER shown). (2) /update now shows that same credential warning right in the Apply prompt, so you can't accidentally deploy a file that wipes your API keys without being told. It WARNS, it does not block - because a legitimate update (like moving keys into the secrets file) also changes those lines and you stay in control. (3) /version shows the running version cleanly. The critical apply/backup/rollback path is unchanged. Owner-only, additive; all existing suites pass plus new v13.5 tests. + v13.4 - ORCHESTRATION (added the genuinely-new capability from the ChatGPT v15 file, built CORRECTLY on our safe v13 base - the v15 code itself was BROKEN: I ran it and it crashed with 'uuid is not defined', plus a _n15_STATE typo and a call to a function that never existed, so its workflow / research / decision commands all failed at runtime). What's new and WORKING here: (1) /nemoworkflow <numbered plan> - runs a multi-step plan ONE checkpointed step at a time, feeding each step's result into the next and saving progress after every step, so it survives a restart; /nemoworkflows lists them and /nemoresume <id> continues from where one stopped. (2) /nemoresearch <question> - a research pass that separates FACTS / INFERENCES / UNKNOWN and refuses to fabricate sources. The REST of v15's command surface is wired to Nemo's EXISTING, more mature systems instead of broken parallel copies: /nemodecision -> the real decision journal (with expected-vs-actual tracking), /nemoevents -> the activity log, /nemoagents -> AGENTSTAT, /nemoarchitecture -> /abilities, /nemo3 -> the /nemo control center. Nothing duplicated, nothing dragged back onto the old insecure base. Owner-only, purely additive; all existing suites pass plus new v13.4 tests. + v13.3 - CONTROL CENTER + FACT-CHECK (folded in the two genuinely-good ideas from the ChatGPT v14 file, onto this safer v13 base - without its duplication or its security rollback): (1) /nemo CONTROL CENTER - one screen showing version, uptime, brains, security posture (are any keys still in source?), money-confirm + lockdown + auto-trade state, work-queue depth and recent activity - built on Nemo's REAL subsystems (secrets_status, MONEYCFG, mm_locked, JOBS/WORK, ACTLOG), not a parallel copy. (2) /verify - or 'double-check that' / 'any hallucinations?' - an explicit fact-check pass: it reviews an answer (the text you give, or my LAST answer) for hallucinations, unsupported claims, wrong numbers/names/dates, missing caveats and contradictions, and if it finds problems it rewrites the answer WITHOUT inventing new facts. Both work by command AND in plain language, owner-only, purely additive. Deliberately NOT copied from the ChatGPT file: its duplicate job-runner (Nemo already has the /work engine), its status-dump 'quant report', and - the important part - that file was built on the OLD v12.06 base, so it still carried the exposed API keys, the deadlock-prone lock, money-confirm OFF, and the lockdown/phantom-exit gaps that v13.0-13.2 fixed here. Behaviour-frozen elsewhere; all existing suites pass plus new v13.3 tests. + v13.2 - TRADING SAFETY (Phase 2 - I traced the real-money route end-to-end, then closed the gaps I found; nothing removed): GOOD NEWS first - the LLM is NOT the final authority on your money. The AI only PROPOSES a direction + a confidence score; ALL risk parameters (which instruments are allowed, position size, stop-loss, target, max-trades/day, daily-loss auto-halt, trading-hours window, buy-only, and shadow-vs-live) are enforced in deterministic code around it, and live autonomous trading is OFF by default. THREE real gaps found + fixed: (1) LOCKDOWN DIDN'T STOP EVERYTHING - the master /lockdown kill-switch blocked manual bracket/cover orders but NOT the autonomous trader and NOT a plain /order. Now lockdown blocks ALL new live entries (manual /order + the auto-agent); open positions still auto-manage and exit, so nothing is stranded. (2) PHANTOM EXIT - the auto-agent's exit SELL ignored its result: if a live exit failed, the bot booked the position as CLOSED while it was still open on the exchange, leaving real money unmanaged. Now a failed live exit keeps the position, alerts you, and retries each tick. (3) plain /order now respects /lockdown like the other order types do. HONESTLY REPORTED, not yet fixed (flagged for a later phase): the auto-agent's OPEN-position state isn't persisted, so a restart mid-trade forgets a plain position (bracket positions stay exchange-protected regardless). Behaviour-frozen for everything else; all existing suites pass plus new Phase-2 tests. + v13.1 - SAFETY CORE (Phase 1 of the audited v13 rebuild - two runtime-safety hardenings, nothing removed): (1) DEADLOCK-PROOF LOCK - Nemo's single global lock is used in 40+ places and locked functions call other locked functions; a plain threading.Lock is NOT re-entrant, so one locked path calling another would freeze him hard. Switched to threading.RLock (re-entrant): identical behaviour for normal use, but the same thread can safely re-acquire, so that entire class of hang is gone. (2) REAL MONEY DEFAULTS TO CONFIRM - manual live orders (/order, /bracket, /cover) now default to a one-tap confirm before they fire, and the setting is finally PERSISTED (before, turning it on was silently forgotten on the next restart - a genuine safety hole). The autonomous trader is unaffected - it keeps its own separate risk gates. Turn the tap off with /confirmtrades off, and now that choice sticks across restarts. CORRECTION to my own Phase-0 audit: the 'six main() functions' I flagged as dead code were a FALSE ALARM - five of them are bot-factory TEMPLATE strings (the source code of the mini-bots Nemo generates), not real definitions; I verified by reading before touching, so nothing was wrongly deleted. Behaviour-frozen elsewhere; all existing test suites still pass. + v13.0 - SECURITY CORE (Phase 0 of the audited v13 rebuild - security FIRST, nothing removed): the bot's API keys (Telegram, OpenRouter, NVIDIA, Gemini) were hard-coded in this source file. Now EVERY secret resolves from an environment variable first, then /root/bot_secrets.json, then the baked-in value only as a last resort - so secrets can live OUTSIDE the code. On boot Nemo AUTO-MIGRATES any still-baked key into the 600-permission secrets file, so the next version can delete those lines from the source and he still starts. New: /security (owner-only) reports exactly which keys are still in the source vs externalised, where each secret loads from, and the money-guard + owner-lock state (never showing any secret value); the weekly self-test gains a 'No API keys exposed in source' check that stays red until they're moved out; save_secret now chmods the secrets file to 600. IMPORTANT ACTION FOR YOU: because these keys sat in the code, treat them as LEAKED - generate new ones and put them in /root/bot_secrets.json (keys: telegram_token, openrouter_key, nvidia_key, gemini_key); v13.1 then removes them from source entirely. Behaviour-frozen: with no env var and no secrets-file entry every secret is exactly what it was, and all existing test suites pass unchanged. One safe phase at a time. + v12.06 - SELF-TEST TELLS THE TRUTH: the weekly report card was FALSE-FAILING on email. It tested email by logging into Gmail's SMTP (465) and IMAP (993) ports directly - but DigitalOcean BLOCKS those ports, so both always showed a red X even though email works perfectly over the Gmail API (HTTPS). Fixed: the drill now checks the REAL path - Gmail API reachable (profile + labels over HTTPS) first, SMTP/IMAP only as a fallback when there's no Google connection - and it runs whenever Google is connected OR an app password is set. So those two systems will now report green (as they should), and the report card reflects reality instead of scaring you with a port block. + v12.05 - RELIABILITY SWEEP (the same rigor, across his OTHER outputs): the invisible-char fix was for Pine; this applies the same 'make the outcome reliable' thinking to code and file outputs. (1) CODE OUTPUTS - /script now guards against the brain 'thinking out loud' (no more 'Let's craft:' / '... code ...' placeholder garbage), SYNTAX-CHECKS delivered Python (ast.parse, with one self-correction) so a .py actually parses, and tells you to use the attached FILE not the chat text (same copy-paste-corruption fix as Pine). (2) TEXT/CSV/MD files get the same scratchpad guard, so they contain the finished content, never the brain's notes. (3) Shared helpers (_looks_scratchpad, _clean_code) so every generator refuses to ship junk and retries. The theme: fewer 'bad results' by hardening the output paths, not adding more features. + v12.04 - THE REAL PINE BUG (invisible characters): the recurring 'Syntax error at input <name>' on code that looks perfect was NOT bad code - it was smart quotes and non-breaking spaces that sneak in when Pine is copied out of a chat message / PDF / phone into TradingView. TradingView can't parse them and throws that exact baffling error, the same on every version. Fixes: (1) _pine_sanitize forces every generated script to PURE ASCII (smart quotes -> straight, non-breaking/other unicode spaces -> normal, en/em dashes -> -, zero-width chars removed); (2) the linter now flags any non-ASCII character; (3) delivery now tells you to use the attached .pine FILE (not copy from the chat bubble), because the file is clean ASCII and the chat text can silently re-corrupt. This is the root cause behind the errors that kept coming back. + v12.03 - COMPLEX PINE: added a genuinely advanced, verified strategy to his library - 'Confluence Regime Rider' (EMA regime + ADX trend-strength + RSI momentum + higher-timeframe confirm + ATR target + ATR trailing stop + a live on-chart stats table), Pine v6 and lint-clean. It backtests automatically in TradingView's Strategy Tester (it is a strategy()), and its exact logic was verified in a Python backtest. So 'a unique pine with buy/sell/target/stop-loss that backtests' is now real, at real complexity, and part of his rotation. + v12.02 - PINE v6 + STAY-CURRENT (he moves with the times, on his own): (1) PINE v6 - TradingView's current version. His whole Pine engine now targets v6 by default: the generator prompt, the deep knowledge base and the 5 verified templates are v6 (correct bool strictness, no 'when=' on strategy.* , '1D'/'1W'/'1M' timeframes, no 'transp='), and the linter gained v6 checks (flags a leftover when=/transp=/'D' timeframe). v5 still compiles and is still accepted; /pinever 5|6 sets the target. (2) STAY-CURRENT WATCH - a weekly self-check (currency_watch) where he RESEARCHES what's changed in his fields (Pine version, SEBI rules, AI tooling), AUTO-applies safe settings himself (e.g. bumps his Pine target the moment a newer version ships), learns the rest into memory, and routes anything code-level to the supervised /selfgrow rail for your one-tap approval - so he keeps himself up to date automatically without ever rewriting himself unsupervised. /current runs it now, /current on|off, /pinever sets the version. This is the honest form of 'update automatically in all fields': safe things on his own, risky code changes proposed for approval. + v12.01 - CONTINUUM FIX (the flood + the garbage code file): the v12.0 work engine ran, but two bugs showed up. (1) DUPLICATE FLOOD - the agent re-called fire-and-forget tools (pdf/docx/chart/web) over and over, because make_pdf returns 'building...' immediately, so the agent never saw a finished file and kept re-making it (7+ identical PDFs per job, the same web search 5x). FIXED: the agent now makes each deliverable EXACTLY ONCE and skips any identical tool+arg repeat, and bails to the report if it gets stuck re-proposing the same step. (2) GARBAGE CODE FILE - '5 best Nifty option strategies' was mis-detected as a CODING request (the word 'strategies'), so it emitted a nonsense nemo_code_out.txt full of the brain's scratchpad instead of a clean report. FIXED: a strict code detector - a trading strategy/option/report/'best'/'top N' request is a REPORT, never code; only real programming asks (python/code/function/sql/pine...) make a code file. So a research job now produces ONE clean PDF, no junk. + v12.0 - CONTINUUM (the real deep upgrade: he KEEPS WORKING, and understands deeper): the honest gap all along was that Nemo ANSWERS, then stops - he never keeps grinding a task on his own. v12.0 fixes that at the core. (1) CONTINUOUS WORK ENGINE - /work <task> (or 'keep working on X', 'add to your work list') queues a job; a background worker wired into his scheduler picks up the next pending job, runs it to completion through his plan->act->verify agent, reports the result, then moves to the NEXT job - one after another, on its own, and the queue is PERSISTED so it survives restarts. Pile up ten jobs and he'll grind through them while you sleep. /jobs shows the queue and status, /stopwork pauses. (2) DEEPER UNDERSTANDING - the THINK loop's comprehension/clarify step now runs on the PREMIUM brain (not the fast free one), so he judges what you actually mean far better before acting; the agent's self-check already verifies on the premium brain. (3) FULL PICTURE - /abilities (or 'what can you do') lays out his entire capability set in one organized map, and everything is reachable in plain language. This is not a risky rewrite - the proven 34-test-suite core is intact; CONTINUUM is the capstone layer that turns a bot that replies into one that works. + v11.31 - PINE MASTER (deep, advanced, CREATIVE - not the same EMA crossover every time): the last fix made Pine error-free but repetitive - every request came back as an EMA crossover, because the one verified template WAS an EMA crossover and it anchored the brain. Now: (1) a DEEP Pine v5 knowledge base rides in the prompt (full ta.*/math.* catalog, request.security multi-timeframe, sessions/time for NIFTY intraday, strategy risk/trailing exits, drawing objects - tables/labels/lines/boxes, plot styles, dynamic alerts, anti-repaint and confluence best-practice) so the code is genuinely advanced; (2) a LIBRARY of FIVE hand-verified, lint-clean advanced strategies (EMA crossover, Supertrend trail, Opening-Range-Breakout for NIFTY, VWAP mean-reversion, RSI + higher-timeframe filter) plus a menu of 14 archetypes (Bollinger squeeze, MACD regime, Donchian, Ichimoku, multi-factor confluence...); (3) ROTATION - a generic 'make me a pine script' now round-robins through the archetypes so no two come out the same, while a NAMED method (supertrend/vwap/orb/rsi/macd...) is honoured; (4) the brain is pushed to be creative, combine 2-3 confluence factors and add a pro touch (stats table / trailing stop / dynamic alerts), and mirror a MATCHING verified reference's syntax - not the EMA one. Still linted + auto-repaired, with the matching verified template as the guaranteed-clean fallback. Storage is no constraint - the knowledge and template library are baked in. + v11.30 - DARK SIDE (edge + ruthless-but-LEGAL power, on the Boss's side): four things. (1) DARK MODE - /dark on (or 'go dark' / 'be brutal') flips his TONE to blunt, sharp and a little savage, built to put you ahead - no hand-holding, no hedging - while he still NEVER lies, fabricates, helps anything harmful/illegal, or targets people. /dark off restores the normal voice. Persisted. (2) RED TEAM - /redteam <plan/idea/trade/text> (or 'attack this', 'find every weakness') attacks it like your smartest enemy and exposes every hole, ending with BIGGEST RISK + FIX FIRST. (3) COMPETITIVE INTEL - /intel <competitor> (or 'dig up on X') builds a hardball brief from PUBLIC sources: what they offer, their weaknesses/complaints, and where to hit them to win. (4) NEGOTIATION + SCAM DEFENSE - /negotiate <situation> gives a hardball (ethical) play with leverage, BATNA, anchors, tactics and exact phrases; /scamcheck <message> flags manipulation tactics + a scam risk rating when someone runs dark tactics on YOU. Deliberately NOT built, and I told the Boss why: malware, hacking others, defeating security/CAPTCHA, fraud/fake docs, surveilling people, spam/fake-account armies, market manipulation, or removing his safety rails - all of it would make HIM the traceable, liable party on his own server, and the 'who sells that' path is scams and stings. This is the dark arts used ethically, for his side. + v11.29 - ERROR-FREE PINE SCRIPT (the real reason it kept failing): unlike Python, Pine can't be compiled on the server, so a small free brain's syntax errors sailed straight through. Now Pine gets a proper pipeline: (1) it's written by the PREMIUM brain (free nano brains are poor at niche languages) using a strict Pine-v5 system prompt; (2) a rule-based LINTER (pine_lint) checks the errors that actually break TradingView - missing //@version=5, more than one declaration, study() vs indicator(), the 'strategy function used in indicator' error, bare sma()/rsi()/atr()/input()/security() that must be ta.*/math.*/request.security()/input.*, unbalanced brackets, and plot/alert stuck inside an if-block; (3) a REPAIR LOOP feeds those errors back and fixes them, up to 3 passes; (4) if it still isn't clean, it falls back to a HAND-VERIFIED template that compiles zero-error (EMA crossover + volume filter + ATR take-profit + % stop-loss, buy/sell markers, alerts). Every 'pine script / tradingview' request (and /pine) now routes here, delivers a .pine file with an honest 'passed my checks' status, and can email it. So a pine-script ask returns code that actually compiles - not a broken brain dump. + v11.28 - CREATE+EMAIL ACTUALLY HAPPENS (the 'it talks about emailing instead of doing it' fix): the root cause was that 'generate a pine script and email it to X' matched NO deterministic route, so it fell to the chat brain - which tried to call a tool by PRINTING <function=...> as text; that leak wasn't recognised, so you got the generic 'tell me the exact thing you want' (and elsewhere, 'here's how to email it / I can send if you want' - talking, not doing). Two fixes: (1) a deterministic CREATE+EMAIL route - 'generate/make/write/build <X> ... and email/mail (it) to <address or my mail>' now ALWAYS builds the thing AND sends it (Word if you said 'word/document', else a PDF - which now contains real code for a pine-script/strategy request, plus the raw .pine file), never touching the chat brain. (2) the tool-leak guard now also HONOURS a leaked email/docx/xlsx/chart/script/code call by actually running it, instead of showing the fallback. Net effect: when you say 'do X and email it', X gets made and the email gets sent - consistently, regardless of which brain is on duty, because the ACTION is deterministic code now, not a brain's guess. + v11.27 - THINK (my way of working, in him): the operating loop that makes an assistant actually effective, not just full of features. /do <task> (or /handle, or 'handle this properly / thoroughly / the way you would') runs Nemo through the same method I use on every real job: UNDERSTAND (restate it, and resolve 'it/that/the file' from the recent chat so a follow-up like 'give me the pdf here' isn't misread) -> CLARIFY (only if ONE essential detail is genuinely missing, ask a single question and resume when you reply - never nitpick) -> GATHER (pull what he already knows: durable memory + your indexed files + a quick web look-up, the way I read before I edit) -> PLAN -> EXECUTE -> VERIFY (his agent self-checks against the goal before finishing) -> honest report. It reuses his autonomous agent for the execute+verify core; the new part is understanding and grounding the task BEFORE acting. A new 'handle' intent + a pending-question resume make it feel like a real back-and-forth. Honest limit: this gives him my METHOD, which makes even a smaller brain far more effective - but his raw reasoning ceiling is still his model's, so it's my way of working in mini form, not a clone. Purely additive; every existing command and the fast one-shot paths are untouched; rails intact. + v11.26 - EMAIL, FOR REAL (fixes the '/email test still fails though Google is connected' trap): the root cause was that Google was linked BEFORE the gmail.send permission existed, so the token can read Gmail but can't SEND - and two things hid this: (a) /email test only pinged the Gmail profile / fell back to the SMTP error (which ALWAYS fails on DigitalOcean), so it never proved SEND and blamed the wrong thing; and (b) /google, once connected, was a DEAD END - it only offered 'relink with client_id/secret' and never a way to re-approve the new permissions. Fixes: (1) /email test now does a REAL test send to your own address via the Gmail API and reports the TRUTH - '✅ works, check your inbox', or, if the token lacks send permission, '⚠️ connected but without Gmail SEND permission - re-authorize in one tap', never again the misleading SMTP 'check your password'. (2) /google, when already linked, now hands you a one-tap RE-AUTHORIZE link built from your ALREADY-SAVED Client ID (open -> Allow -> /gauth <code>) - no need to re-enter anything - so you can grant Gmail send in ~20 seconds. So the fix for you: send this update, then run /google, tap the link, Allow, and /gauth <code>. Email then works over HTTPS (port 443), unaffected by the SMTP block. Purely additive; rails intact. + v11.25 - FIX (the three real problems: email, understanding, and the final result): (1) EMAIL that actually sends - a PDF you ask to be emailed now goes out over the Gmail API (HTTPS/443, which works even though DigitalOcean blocks SMTP), is ATTEMPTED whether or not an SMTP app-password is set, and on failure tells you the REAL reason + 'run /google once to re-grant send permission' instead of the misleading 'check the app password'. (The most likely cause of your failure: your Google sign-in predates the gmail.send scope - one /google re-consent fixes it.) (2) UNDERSTANDING what you asked - the PDF topic is now cleaned properly: 'GENERATE A POWERFUL PINE SCRIPT NEW IN PDF AND EMAIL X' no longer becomes a document titled 'A Powerful Pine Script New In And' (the 'in pdf / and email X / address' tail is stripped cleanly), and 'give me the pdf file here' is understood as a FOLLOW-UP - I resend the last file, or turn my last answer into a PDF - instead of writing a bogus report titled 'Me The File Here'. (3) The FINAL RESULT matches the request - make_pdf no longer forces every PDF into a beginner 'course'. A code/script/strategy/indicator request (e.g. a Pine script) now produces the ACTUAL working code (TradingView Pine v5 for pine) with Overview / CODE / HOW IT WORKS / HOW TO USE, AND the raw .pine (or .txt) file is delivered too; a report request gets a real structured report; only a learn/teach/course request gets a course. Purely additive; rails intact. + v11.24 - MAKER (mini-me abilities: he plans, codes, charts, and hands you real files): the things you said he couldn't do like I can - now his, in mini form. (1) REAL DOCUMENTS - he builds and delivers actual files, not just chat text: a Word .docx ('make me a word doc about X', /doc), an Excel .xlsx spreadsheet with real headers + numeric cells ('put my expenses in a spreadsheet', /excel), and plain .txt / .md / .csv files (/txt). (Illustrated PDFs and PPT decks were already there.) (2) VISUALIZATIONS - /chart (or 'make a bar/line/pie chart of ...') turns data or a described dataset into a real matplotlib chart image and sends it. (3) CODE AS A FILE - /script (or 'write me a python script file') writes a program in the right language and delivers it as a downloadable code file (say 'run it' to execute); the existing /code still WRITES-AND-RUNS and returns the result. (4) VISIBLE PLANNING - /plan (or 'make a plan for ...' / 'break this down') turns a goal into a clear numbered step plan and shows it, then 'do it' hands it to his plan->act->verify agent. All reachable in plain language (fast-paths + the AI intent-router) AND given to the autonomous agent as new tools (docx/xlsx/chart/textfile), so mid-task he can produce a sheet or chart himself. Purely additive; rails intact. + v11.23 - CURIOSITY (he fills the gaps himself + learns from the world): you gave him the internet; now he USES it on his own. When a question needs current or factual knowledge he may not hold (latest/price/news/'who is <name>'/'when is <event>'/a named thing), he quietly looks it up on the web FIRST, grounds his answer in what he found, and then DISTILS 1-2 durable facts into his permanent memory - so next time he already knows it (compounding knowledge, surfaced automatically by mem_recall). No 'please search' needed; he just does it. His autonomous agent gets the same instinct: a RESOURCEFULNESS rule so it researches a missing detail itself (web/fetch/recall) instead of stalling to ask you. And a curiosity 'soul' line in his persona: naturally curious, resourceful, never fabricates. Controls: /curiosity on|off (default ON, persisted), /learned [word] shows exactly what he's taught himself and when. Conservative by design - it does NOT web-search greetings, code, math or timeless 'explain X' questions (no needless latency), and it's a silent no-op if the web is unreachable. Purely additive; rails intact (still never fabricates, owner-only, money/destructive/self-mod still need a tap). + v11.22 - ANY-SITE VIDEO + YOUR PROXY: (1) UNIVERSAL VIDEO DOWNLOAD - /video <url> (aliases /vdl /dlvideo) or just 'download the reel/clip/video from <url>' pulls a video (or 'audio'/'mp3' for just the sound) from ANY of the ~1800 sites yt-dlp supports - Instagram, X/Twitter, TikTok, Facebook, Reddit, Vimeo, Dailymotion, Twitch, news video, most embeds - and sends it over Telegram if it fits (50MB) else saves it on the server (+ your Drive). For sites where you must be logged in, it uses YOUR OWN cookies (export cookies.txt, send /browsercookies) - it uses your session, it does not defeat the login. DRM-locked paid streaming (Netflix, Prime, Hotstar, Disney+, Spotify...) is refused honestly: those streams are encrypted and can't be pulled. YouTube keeps its richer path (summary/notes/playlist). (2) YOUR OWN PROXY / VPN - /proxy set http://user:pass@host:port (or socks5://host:port), /proxy off, /proxy to show. A proxy YOU provide (your subscription or your own box) is then applied to video downloads and web fetches, so he can reach content the server's bare datacenter IP is geo-blocked from, or route privately. This is legitimate access through YOUR endpoint - deliberately NOT a rotating proxy-pool to evade IP bans. Two things you asked for that I did NOT build, and why: a system that DEFEATS a site's bot-check / CAPTCHA / human-verification (that's built to circumvent a security control and is the engine of scraping-abuse, fake-account and credential-stuffing fraud - so it's off the table); and a self-standing 'access everything' ban-evasion VPN/rotator (same reason). The honest path is already here: when the browser agent meets a login/OTP/CAPTCHA it screenshots it and asks YOU to solve it, then continues on your authority (v10.4 human-in-the-loop) - a human does the human-verification. Purely additive; all rails intact. + v11.21 - TALK (no commands, just tell him): you never NEED a slash command again - say what you want in plain words (any language) and he does it. His ~300 abilities are all still there, but plain language is now the front door to ALL of them, not just some. The regex fast-paths already caught the common phrasings ('run df -h', 'read /root/x.py'); v11.21 adds the missing abilities to his AI intent-router so the phrasings the regex MISSES still reach the REAL hand instead of a generic chat reply: new understood intents terminal (run any server command), fetch (read a page's data), download (save a file onto the box), readfile / listfiles (his own files), knowledge (search your indexed documents), api (call any REST endpoint), apex (maximum-power multi-step job), and a catch-all act (ANY imperative 'do this for me' order -> his autonomous plan->act->verify agent). So 'jara dekh to server ka disk kitna bhara hai', 'pull the numbers off that page for me', 'sort out my server and mail me a summary' now DO the thing. Nothing removed, every command still works; the same rails hold inside each (owner-only, audited, money/destructive/self-mod still need a tap). Purely additive. + v11.20 - REACH (longer hands): three big new capabilities that extend what he can touch. (1) UNIVERSAL CONNECTOR - /api <METHOD> <URL> [:: json] calls ANY REST API (GET/POST/PUT/DELETE), and /api save <name> ... stores a named endpoint + auth header so 'call my <name> api' works; the autonomous agent also gets an 'api' tool, so he can reach any external service you have a key for (CRMs, sheets, webhooks, IoT, other bots...). (2) SCHEDULED ACTIONS - /every <interval> <action> and /at HH:MM <action> run ANY of his abilities on a repeat or at a set time ('/every 1h run df -h', '/at 09:15 send me the premarket brief', '/every 1d market brief') - real actions, not just reminders - so his hands work while you sleep; /schedules lists them, /unschedule <id> cancels. Persisted in the kv store (survives updates), fired from the scheduler. (3) DOWNLOAD TO SERVER - /get <url> [name] (or 'download <url> to the server') pulls any web resource onto the box (60MB cap) so he can then /read, /index or send it. All owner-only, audited to the tamper-evident chain, and destructive/system paths still refused. Purely additive. + v11.19 - APEX / GODMODE (the capstone): maximum capability + UNBREAKABLE reliability, within the rails that keep him alive. (1) UNBREAKABLE: ask_ai now has a hard answer-deadline (~40-85s) so when every free brain is jammed it STOPS cycling and replies clearly ('my brains are all busy - try again in a minute, nothing is broken') instead of leaving you on 'Thinking...' for minutes - the exact freeze that just happened can't recur. (2) ONE MIND: the autonomous agent gains a 'recall' tool that searches your knowledge base (indexed files) + durable memory, so his execution draws on everything he knows about you. (3) APEX MODE: /apex <goal> - or just say 'full power', 'use everything', 'unleash', 'go all out', 'maximum power' - runs his MAXIMUM agent: more steps (18), the directive to use EVERY tool (shell, fetch, files, code, web, recall, quote, godmode, pdf...), be exhaustive, cross-check, and VERIFY before finishing. Honest limits kept by design: max ABILITY, but money / destructive shell / system writes / self-modification still need one tap or are refused - that is what stops him bricking himself or leaking your Dhan/Google/root keys. Power that survives. + v11.18 - TOOL-CALL LEAK FIX (the '<tool_call><function=pdf>...' bug): when you asked for a PDF report to your mail, a brain PRINTED the raw function-call markup as a chat message instead of building anything. Fixed two ways: (1) a deterministic route so 'give/make/send me a (complete) report/PDF of X [to my mail]' now ALWAYS builds the PDF via make_pdf and emails it to you - it never reaches the general brain; and (2) a universal guard (_tool_leak / _strip_tags) that catches any leaked <tool_call>/<function=..>/<parameter=..> markup on EVERY channel (chat, web, PWA) - if it recognises the intended ability (pdf/image/slides/web) it actually RUNS it, otherwise it strips the markup so internal syntax is never shown to you again. + v11.17 - DEPTH: reasoning + a knowledge brain + self-running + a visible command center. (1) SMARTER: hard questions (why/how/compare/analyse/plan/decide, long or multi-part) now trigger a private step-by-step REASONING pass before he answers, then the regulator self-checks it - so answers are deeper, not just faster; and a plain 'that's wrong / you missed it' now stores a lasting LESSON (fed into future answers) and redoes it in MAX mode, no /bad needed. (2) KNOWLEDGE BRAIN over your files: /index <path> full-text-indexes your files+PDFs (SQLite FTS5), then /know <question> - or 'search my files for X' - answers across everything with citations. (3) SELF-RUNNING watchdog: every ~10 min he checks each deployed app's service and AUTO-RESTARTS any that CRASHED (failed units only, rate-limited, audited + notified). (4) VISIBLE POWER: a real /dashboard command-center on his web server - live system + server health, apps, activity, what's coming up, and a command box - so the power is something you SEE and drive, not 290 commands to remember. Purely additive. + v11.16 - SMARTER + SAFER HANDS: (1) SECURED TERMINAL - every /shell command and file write is now logged to the v11 tamper-evident audit chain + activity ledger, there's a 25-cmd/min rate guard, and /shell readonly on blocks any command that changes something (reads still work). (2) AGENT GETS THE HANDS - the autonomous /agent (/solve) can now use shell, fetch, readfile, ls and writefile, so it does real end-to-end server work ('find why nemobot crashed and fix it' -> tails the log, reads it, diagnoses, patches, restarts) with its plan->act->VERIFY loop; destructive shell + system-path writes are refused (owner must do those manually). (3) CONVERSATION MEMORY - a short-term per-chat context (recent turns + actions) is injected into his brain so follow-ups resolve ('do it again for BankNifty', 'what did you just find'), and 'email/send that to me' now emails his LAST answer. (4) CHIEF-OF-STAFF PROACTIVITY - a ~30-min watch pings the owner UNPROMPTED but only on material things: server disk >88%, memory >92%, a reminder due within the hour, or to-dos piling up (deduped, cooldowns). Purely additive. + v11.15 - REAL HANDS (terminal + site-data + files) & plain-words routing: gives Nemo the hands people said he lacked, and makes plain language actually FIRE them instead of a chatbot reply. (1) TERMINAL: /shell <cmd> (aliases /sh /bash /terminal /exec) runs ANY command on the server and returns the live output - owner-only, persistent cwd (`cd` sticks), per-command timeout, and a confirm-tap guard on destructive commands (rm -rf /, mkfs, dd, shutdown...). (2) SITE-DATA GRABBER: /fetch <url> [what you want] pulls a page and hands back clean text/tables/JSON (BeautifulSoup when present), answering a question from it if you ask one, and falls back to the real browser agent for JS/login pages. (3) FILE ACCESS: /ls, /read (/cat), /download, /writefile <path> :: <content> - browse, read, receive and create files on the server (owner-only; system-path writes need a confirm tap). (4) PLAIN-WORDS ROUTING: nl_route now has deterministic fast-paths so 'run df -h', 'shell systemctl status nemobot', 'get me the data from <url>', 'read /root/x.py', 'list files in /root', 'download /var/log/syslog' hit the REAL tool every time - never the general brain. Purely additive; every existing command untouched. + v11.14 - EMAIL NO LONGER LIES: fixes the bug where 'email to someone@x.com <message>' got a fake 'Email dispatched...' reply while nothing was actually sent (the Sent box stayed empty). Root cause: only a handful of deterministic phrases were force-routed to the real send code; everything else was handed to an AI intent-classifier, and when it guessed wrong the message fell through to the general chat brain - whose own system prompt ('you send emails, so speak like it') then HALLUCINATED a success, even auto-'correcting' the address. Three fixes: (1) a deterministic fast-path in nl_route now catches any explicit 'email/mail <address> <message>' and ALWAYS runs the real send (nl_emailto) - the chat brain can never answer it, and the address is sent EXACTLY as typed (no silent correction); (2) nl_emailto now accepts the Gmail-API/HTTPS path (via /google) instead of demanding an app password, and on failure reports the REAL reason (LAST_EMAIL_ERR) + hands your draft back, instead of a fake confirmation; (3) the persona system prompt now carries a hard 'NEVER FAKE AN ACTION' rule - if Nemo is replying as plain text he must never claim he sent an email / placed a trade / made a call, across ALL abilities. Report/PDF-to-email requests are untouched. + v11.13 - PWA: FILE UPLOAD (PDF/Excel/CSV/text) alongside images: the \U0001F4CE attach button now also takes documents. A new /api/file endpoint decodes the upload, extracts its text (PDF via pypdf, Excel via openpyxl, CSV/TXT/MD/JSON etc. directly - the same formats handle_document reads), stores it as the loaded DOCS document (which ask_ai already injects into every answer), and replies with a summary - so you upload a quote/statement/report from phone or desktop and immediately ask questions about it, with follow-ups working automatically. Images still route to the vision path; the attach button branches by file type. + v11.12 - PWA: STOP + IMAGE UPLOAD: the web app now has a \U000023F9 STOP button (appears while Nemo is speaking or a request is in flight - cancels the voice AND aborts the request) and a \U0001F4CE ATTACH button to upload an IMAGE from the browser - it's downscaled client-side to 1280px JPEG and run through Nemo's real vision/OCR path (new /api/upload -> web_image -> ask_ai with the image), so you can photograph/attach a document or screenshot and ask about it from phone or desktop, exactly like sending a photo in Telegram. The uploaded image is also stashed as LAST_PHOTO so a follow-up 'ocr it' works. + v11.11 - NEMO EVERYWHERE (PWA): Nemo's built-in web chat is now an INSTALLABLE app - the first 'window' beyond Telegram, onto your phone home-screen AND desktop at once, sharing the same brain. His Flask web server now serves a real Progressive Web App: /manifest.json + /sw.js (service worker: offline app-shell cache, install) + generated /icon-192.png & /icon-512.png, and the chat page is upgraded with PWA meta tags, an Install button (beforeinstallprompt, with iPhone Share->Add-to-Home-Screen guidance), safe-area layout, persistent login (token from ?k= is saved to localStorage so the home-screen icon stays logged in), voice in/out, and a \U0001F4CA live-status glance via a new read-only /api/status endpoint (returns /status). Open it via /connect (public HTTPS URL + token over Cloudflare Tunnel) -> Add to Home Screen -> installed. Chat + read-only status only from the web channel (destructive commands stay Telegram-side, by design). Reuses the existing token auth; purely additive. + v11.10 - AUTONOMOUS SELF-GROWTH (safe by design): /selfgrow makes Nemo RESEARCH THE INTERNET (plus his own recent errors) for ways to improve himself, form ONE concrete low-risk improvement to a non-core function, and route it through his SUPERVISED self-editor - compile-check -> diff -> your one tap Apply -> backup -> /rollback. /selfgrow auto on runs it about weekly and only ever PROPOSES. He genuinely self-develops from the web; you stay the single tap that stops him from self-DESTROYING. Deliberately NOT built: unrestricted self-modification (rewriting/deploying code from the internet with no test/backup/approval) - that one change can permanently brick him or leak the Boss's Dhan/Google/Telegram/root credentials with no recovery, and it violates this project's own constitution (§22, 'never uncontrolled recursive self-modification' + rollback always preserved + user is final authority). Core stays _UNEDITABLE; money/security/secrets always need a human tap. + v11.9 - NEMO OS CORE COMPLETE (phases 2-10 working cores, one release): DECISION MEMORY (/decision journal with expected-vs-actual, /decisionreview calibration, /counterfactual with hindsight-bias guard, /biascheck challenges you); AI BOARD + RED TEAM (/board = 5 independent seats analyzed in parallel without seeing each other -> disagreement extraction -> red-team attack -> judge verdict with FOR/AGAINST/assumptions/fail-conditions); PREDICTION (/predict with probability+uncertainty, never presented as fact); ANOMALY watch (disk/memory/db baselines + jump detection); RADAR (/radar add|report - monitored topics, only MATERIAL items surfaced); OPPORTUNITY scan; SIMULATION (/businesssim - real Monte Carlo, 500 trials x BASE/OPT/PESS/STRESS, payback/ROI/P(loss)); CHIEF OF STAFF (/chief - reminders, open tasks, blocked work, open decisions, anomalies in one brief); TASK GRAPH (/taskgraph - dependencies, ready vs blocked); memory VERIFY + CONTRADICTIONS on the world model; GOVERNANCE (permission LEVELS 0-6 shown in /permissions, NEMO_CONSTITUTION inherited by agents, /why provenance chains, hash-CHAINED tamper-evident audit + /auditchain verifier); /status full OS dashboard; /agenthealth scores. Deferred honestly: web dashboard UI, desktop-app control, scheduled radar crawls, model-disagreement engine, memory decay (named in NEMO_V11_CHANGELOG.md). All additive - every v10.24 command untouched. + v11.0 - NEMO OS PHASE 1: WORLD MODEL / KNOWLEDGE GRAPH (start of the v11 'Personal AI Operating System' program - see NEMO_ARCHITECTURE_AUDIT.md for the full 11-phase plan). Nemo now keeps a persistent, TEMPORAL model of your world in his SQLite brain: entities (people, suppliers, projects, companies), typed relations between them, and DATED facts that carry SOURCE + CONFIDENCE (provenance) and are NEVER overwritten - so 'Supplier X quoted 10L' in March and '8.5L' in August both stay, each with its date. /fact <entity>: <fact> teaches him (free-form works too - AI extracts entity+fact), /world <entity> shows the full profile with provenance, /timeline <entity> replays the dated history, /relate A | rel | B links entities, /graph shows the model, /os shows v11 phase status. Every kg fact also feeds vector memory so /recall finds it semantically. Purely additive (new kg_* tables + one dispatcher; all 332 existing commands untouched). + v10.24 - PROJECT BUILDER (create 'vast things', not just scripts): /project <name>: <what to build> makes Nemo build a whole MULTI-FILE project by himself - he plans a file manifest, writes each file, installs the pip deps, RUNS the tests, and if they fail he reads the errors and fixes his own code (up to 2 repair rounds), then zips the project and sends it to you. /projects lists them, /project <name> zip re-downloads one. Files live in /root/nemo_projects/<name>. This is the generate->test->repair loop that turns 'one script' into real software. Owner + deploy-cap gated. + v10.23 - CRASH-SAFE MEMORY (durable-memory foundation): Nemo already saved his brain (facts, contacts, projects, todos, habits, history, the AI team...) to bot_memory.json from 67 places - but the write was NOT atomic, so a kill mid-save could corrupt the whole file and load_data would silently start BLANK with no backup (total amnesia). Fixed: saves are now atomic (temp -> fsync -> os.replace) and keep a .bak of the last good copy; load falls back to .bak if the main file is corrupt, so one bad crash can never wipe his memory again; a 150s autosave loop backs up state changed by paths that don't call save_data; and if he ever does recover from backup he tells you on boot. This is the safe foundation for growing him side by side. + v10.22 - SOLVES ON HIS OWN (plan -> act -> CHECK -> report): TRUE AGENT MODE now VERIFIES its own work before finishing instead of stopping at the first 'done'. When the agent tries to finish, Nemo strictly checks the proposed answer against the original objective; if a real part is missing/wrong/unverified, he names the gap and keeps working to fix exactly that (up to 2 self-corrections), then reports - so complex, multi-step jobs actually get completed, not half-answered. Step budget raised 8 -> 12 to leave room to adapt. New /solve alias (same as /agent), and saying 'solve ...' / 'figure out ...' in chat now triggers the autonomous agent directly. Uses his existing rich toolset (web, open, quote, code, pdf, email, remind, todo, finish). + v10.21 - EMAIL OVER HTTPS (fixes the DigitalOcean SMTP block): the real reason /email set failed with 'couldn't reach Gmail's mail server' is that DigitalOcean BLOCKS outbound SMTP ports - not the password. Nemo now SENDS via the Gmail API over HTTPS (port 443, never blocked), using the Google account you already connected with /google (it has the gmail.send scope). send_email tries the Gmail API first and only falls back to SMTP; /email test now reports which path works; the network-error message now names the SMTP-block cause and points to /google. So: run /google once (if not already), then email just works - no App Password needed. + v10.20 - EMAIL FIX + SELF-DIAGNOSIS: email 'sending failed' now tells you the REAL reason instead of a generic essay. Nemo captures the actual SMTP error (LAST_EMAIL_ERR) and translates it to a plain cause + fix (e.g. '535 = wrong/expired App Password or 2FA off'). New: connect Gmail from chat with /email set <gmail> <app password> (no file editing), and /email test does a LIVE Gmail login and reports exactly what's wrong. Best of all, asking 'why did email fail / email not working' now makes Nemo check HIMSELF (real SMTP test) rather than routing it to the general brain that wrote the SPF/DKIM essay. The root cause of your failure: the Gmail App Password is set but Gmail is rejecting the login - regenerate it (2FA must be on) and run /email set. + v10.19 - SELF-UPDATE (no more SSH): send Nemo a new nemotron_bot.py in Telegram, then /update - he verifies it's really my code (size + markers, so a random script can't nuke me), compile-checks it, backs the current me up to /root/nemo_backups, swaps himself in and restarts (you tap Apply first; /rollback undoes it). Reuses the proven /upgrade rails. When you send a .py that looks like a new me, he now offers /update automatically. From here, every future version installs by dropping a file in chat - no console, no scp. + v10.18 - BOT FACTORY LIBRARY (factory data): Nemo now carries a library of ready-made bot TYPES he can create on command and modify - the engine for a bot-building service. /templates lists them (FAQ/auto-reply, appointment booking, order+catalogue, subscribe+broadcast, feedback/rating); /newbot <type> <name> : <business> scaffolds a complete standalone Telegram bot from that template and ships it through the SAME supervised pipeline as /ship (compile-check -> bake env -> tap to start); then /env <name> BOT_TOKEN=... OWNER_ID=... turns it on, and /app <name> edit <change> lets Nemo customise it further. Each template is a real, working long-poll bot (owner-notify, JSON storage). Extensible - more types can be added to BOT_TEMPLATES. + v10.17 - GOOGLE MAPS: Nemo can now find any place/store/shop and show its address, live rating + top reviews, open/closed, phone, website and a map image (/place, /find, /reviews, /map); list ranked options nearby (/near cafes in Andheri); and compute real ROAD distance + time WITH live traffic between two places plus a route-map picture (/trip A to B, also /distance /route, and 'by walking/transit/bicycling'). Reuses the SAME Phase-2 Google Cloud key (/gcloud) and the same daily safety cap - you just enable Places + Directions + Geocoding + Static Maps in the Cloud console (up to 10,000 free calls per API per month, so personal use is effectively free). Raw REST via the Maps Platform, owner-only, threaded so it never blocks. + v10.16 - HINDI PDF FIX: reports in Hindi were coming out as '?????' because the Devanagari font never loaded on the server (the runtime GitHub download 403'd) so the text got mangled to Latin. _ensure_hindi_font() is now robust and self-healing: it finds any Devanagari font already on the box, else apt-installs one itself (Nemo is root - no fragile download), and guarantees the uharfbuzz shaping engine so conjuncts/matras place correctly. make_pdf() will now NEVER hand back a '?????' PDF - if no font can be loaded it sends readable Unicode text plus the one-line server fix instead. The AI was always writing correct Hindi; only the PDF drawing step was broken. + v10.15 - GOOGLE SUPER-LAYER (2 phases). Phase 1 (free, reuses his Google login - one re-consent for wider scopes): /backup his whole brain to Drive, Sheets as a LIVE database you can open on your phone (/log <sheet>: a, b, c  ·  /gsheet <sheet>), /gdoc <title>: <body> makes a Google Doc, /gtask + /gcontact + /findcontact. Phase 2 (needs a Google Cloud API key + billing, but big free tiers + a hard daily call cap): /gcloud <key> turns on Vision (/gsee reads/labels a photo), Translate (/gtranslate hi: text), Text-to-Speech (/gsay), Gemini (/gemini), and real Google Search (/gsearch). + v10.14 - ONE-STEP SECRET REFRESH: /env <app> KEY=VALUE now, if the app is already live, rewrites its locked .env and RESTARTS it on the spot - no re-ship. So refreshing a daily API token (e.g. Dhan's 24h token) is a single paste to Nemo. + v10.13 - APP EDITOR (Nemo patches apps he deployed): Nemo can now edit a running app's code himself, not just his own - same supervised rails (pick function -> rewrite -> compile-check -> diff -> you tap Apply -> back up -> restart just that app -> /app <name> rollback if needed). Just say 'add a /dhan self-test to signalbot' or run /app signalbot edit <change>. So he can fix and extend the bots he ships, on his own. + v10.12 - APP FACTORY + SECRETS: you can now hand Nemo a program's secrets in chat with /env <name> KEY=VALUE (bot tokens, API keys) and he bakes them into a locked-down 600 .env file the service reads - so you never edit the code file. Everything else as v10.11 (SHIP a .py as a live 24/7 systemd service, /build, /apps, /app manage). + v10.11 - APP FACTORY (real hands to SHIP a program): Nemo now takes a program - one he writes, or a .py you send him in chat - and actually RUNS it on your server as a managed 24/7 systemd service. He writes the file to /root/apps/<name>, installs its pip packages, safety compile-checks it, creates the service, and starts it (you tap Ship & start to confirm). /ship <name> deploys a .py you just sent; /build <name>: <what it does> has him write the program himself then ship it; /apps lists them; /app <name> logs|restart|stop|rm manages them. Owner-only, gated by the 'deploy' capability (/caps deploy on) + /lockdown, refuses to touch system units. This closes the gap where his 'mission' team only produced a REPORT - now he can hand you a running bot. + v10.10 - SELF-EVOLVING: Nemo reviews his OWN errors, system logs and rough edges, decides what to fix/improve, and DRAFTS the code changes himself - you just approve. /evolve makes him study himself and propose the 3-6 highest-value improvements (each targeting one real function, grounded in errors he actually hit); /evolve <n> hands that exact improvement to his supervised self-editor (compile-check + diff + tap-to-Apply + backup + /rollback), and /evolve auto on runs a weekly self-review that only ever PROPOSES (never auto-applies). Core control functions stay _UNEDITABLE. Just say 'improve yourself' / 'review your errors and get better'. + v10.9 - YOUTUBE+: turn a video into a STUDY-NOTES PDF (/ytnotes or 'notes'), and summarise a WHOLE PLAYLIST into a PDF study guide (/ytplaylist or paste a playlist link) - per-video bullets + an overall overview, Hindi-capable PDF. + v10.8 YOUTUBE: robust video SUMMARY (transcript via youtube-transcript-api -> yt-dlp auto-subs with cookies -> audio+Whisper, then an easy 'explain like to a friend' summary by Claude) and DOWNLOAD (/ytdl video, /ytmp3 audio, cookie-aware, sent over Telegram if it fits else saved/Drive). Just paste a YouTube link. + v10.7 SCANNER: send a photo and Nemo turns it into a clean, cropped, straightened PDF (document scanner), or extracts all its TEXT (OCR, Hindi too), or decodes a QR - via caption 'scan'/'ocr'/'qr' or the /scandoc /ocr /qr commands. + v10.6 STRONGER HANDS for the browser agent: VISION fallback (screenshots the page and acts from what it SEES when there's no readable HTML, via clickxy), new actions (key presses, coordinate click, back, file upload, structured extract->data), and SESSION/COOKIE import (/browsercookies loads a cookies.txt so Nemo is logged in on sites like YouTube - the reliable way past login walls). + v10.5.2 LOGIN HANDS hardening: the human-in-the-loop now fills the value ROBUSTLY (finds the real email/password/OTP input even if the AI's field index is off, verifies it landed, auto-submits) and has a loop-guard that stops re-asking and explains honestly when a site (e.g. Google/YouTube) is blocking the automated login. + v10.5 SELF-DEFENSE (blue-team, THIS SERVER ONLY): tamper tripwire (fingerprints his own code/secrets/SSH-keys and alerts + optional auto-lockdown on change), intruder watch (failed-SSH by IP), exposure/open-port self-scan, ClamAV malware scan, pip-audit CVE check, and a hardening pack (chmod/fail2ban/ufw keeping SSH open). NO target field anywhere - every check runs against this host only; owner + capability gated. Ask 'scan yourself for viruses / who is attacking me / am I exposed'. + v10.4 HANDS + HUMAN-IN-THE-LOOP: the browser agent can now pause on a login/password/OTP/2FA/CAPTCHA, send you a screenshot of what it sees, WAIT for your chat reply, type it into the field and continue - so you complete logins together and Nemo stays logged in (persistent profile). New 'ask' browser action; your reply is routed to the live session and the secret value is never logged. + v10.3 DYNAMIC TOOLS UPGRADE: /toolmake now builds reusable tools that use third-party packages (declared '# requires: yt-dlp ...', auto pip-installed + reinstalled after redeploy) and reach the internet (run on host; pure-stdlib tools keep --network=none isolation) - so you get a permanent /tool musicdl <song> instead of one-shot scripts; also run_code writes self-contained scripts (inputs hardcoded, no required argv/input). + v10.2 CODE AGENT FIX: generated Python no longer gets its dunders corrupted (clean_text was stripping __ and ** so __name__/__main__ became name/main); run_code now uses the RAW code path + the premium brain + a SELF-REPAIR loop (reads its own traceback and fixes the bug, up to 2 tries). Same raw fix applied to self-upgrade and dynamic tools. + v10.1 TRACK 3 BUILDER on top of the Mastermind Core: GitHub connect + AI code-review agent (issues/PRs/CI, auto-review PRs via webhook), dynamic tool creation (Nemo writes-tests-registers his own sandboxed tools), multi-agent swarm orchestration (parallel workers -> synthesis), and observability (/metrics, /logs, ERROR alerts). + v10.0 MASTERMIND CORE (Track 0+1+6): event-driven nervous system (SQLite state, durable event queue, stdlib HTTP webhook gateway + Nemo's own /api/v1, capability layer + audit log + /lockdown kill-switch), infra control (DigitalOcean create/reboot/snapshot/destroy, git self-deploy with pre-swap compile check + boot canary, Docker sandbox exec), and an autonomy layer (goal planner plan->act->report loop, condition triggers, reflection-to-memory). All owner-gated. + v9.8.3 land-records FULL FLOW from real screenshots: auto-ACCEPTS the 'सूचनार्थ नकल' confirm() dialog (Playwright was silently cancelling it), captures the Nakal HTML document (Edharti_A4_Nakal_village.aspx) as a PDF (it is NOT a file download), and the playbook now matches the exact 10-step Apna Khata flow (district/tehsil dropdowns -> alphabet+village row -> radios -> searchable khasra box -> नकल सूचनार्थ). + v9.8.2 IFRAME-AWARE browser: govt forms (Apna Khata) load inside an <iframe> so the top page looked blank; Nemo now finds and drives the real form frame + sends a text diagnostic on failure + never clicks top-nav tabs. + v9.8.1 land-records cascade fix (waits for the ASP.NET postback so तहसील/RI/village dropdowns fill before selecting; more steps; tells you which brain drove it) + Claude PREMIUM BRAIN on tap (Boss's Anthropic API key): auto-escalates the HARD jobs - drives the browser/land-records flow, /think deep answers, and a smart backup when free brains choke - while free Nemotron/Groq still handle everyday chat so credits last. Cost-aware (Haiku default, Sonnet for browser/think, running spend in /brain). + v8.8.2 Hindi/Unicode PDFs (Noto Devanagari, was: ?????) + report emails when you ask + mission progress/recipient fixes + activity audit log + confirm-on-money + FII/DII in the trading brain + IFSC/QR/short-links + v8.7 distinct mission team/chaining/maps/translate + v8.6 vector memory/TradingView/insights + v8.5 Google + v8.4 voice/backtester + v7.9 grounded market data + v7.8 identity + v7.5 live option chain + v7.4 natural-language brain + trading.
+"""nemotron_bot.py v103.0 - MIND: THE MEMORY READS HINDI AND GUJARATI SCRIPT AND HINGLISH (A FACT SAID IN ONE IS FOUND BY A QUESTION IN ANOTHER), KEEPS THE OWNER'S OWN WORDS AS EVIDENCE FOR EVERY FACT, MARKS FACTS NOBODY HAS CONFIRMED FOR A LONG TIME AS POSSIBLY OUT OF DATE, ANSWERS "WHY DO YOU THINK...", "HISTORY OF MY...", "WHAT DID YOU KNOW ABOUT ME ON 5 MARCH", ASKS WHICH PERSON IS MEANT INSTEAD OF GUESSING, AND CLOSES THE TWILIO WHATSAPP/VOICE LINES TO EVERY NUMBER THE OWNER HAS NOT ALLOWED. NO ORDER, NO TRADING AGENT, NO GUARD, NO OWNER LOCK. + v102.0 - HEARTH: A LOCAL BRAIN. AN OPEN MODEL (LLAMA, QWEN, GEMMA OR ANOTHER) RUNNING ON YOUR OWN COMPUTER ANSWERS WHEN THE CLOUD BRAINS FAIL, ANSWERS "PRIVATE: ..." QUESTIONS WITHOUT ANY CLOUD AI SEEING THEM, AND CAN BE THE ONLY BRAIN IN OFFLINE MODE. IT CONNECTS BY A RELAY (THE COMPUTER ONLY MAKES OUTGOING CALLS; NOTHING TO OPEN ON THE ROUTER) OR BY A DIRECT ADDRESS. OWNER ONLY; NO ORDER, NO TRADING AGENT, NO GUARD, NO OWNER LOCK. + v101.0 - GLOBE: WORLD MARKETS AND MACRO KNOWLEDGE (17 EXCHANGES, SESSIONS AND HOLIDAYS, A WORLD CALENDAR, A LIVE WORLD BOARD, OVERNIGHT CUES FOR INDIA WITH AN OUT-OF-SAMPLE CHECK), NINE DETAILED CHARTS, SIGMA POLISH, AND THE FAMILY FIX (AN ABILITY SWITCHED ON FOR A FAMILY MEMBER NOW WORKS END TO END; FAMILY EVERYTHING GIVES THE FAMILY EVERYTHING THAT CAN SAFELY BE GIVEN). THE WORLD DESK IS READ-ONLY AND ADVISORY. + v100.0 - SIGMA: A SIGNAL DESK INSIDE NEMO: FIXED RULES FOR STOCKS AND NIFTY/BANKNIFTY, OPTION-CHAIN ANALYTICS, DEFINED-RISK OPTION STRUCTURES WITH ENTRY, STOP, EXIT, SIZE AND CHARGES, A BACKTEST WITH CHARGES, A SHORT-VOLATILITY PROXY STUDY AND A FORWARD SCOREBOARD. ADVISORY ONLY: NO ORDER, NO CHANGE TO THE TRADING AGENT, THE GUARDS OR THE OWNER LOCK. + v99.1 - ANSWER: A GENERAL TRADING QUESTION IS NO LONGER SENT TO THE PAPER-TRADING RESEARCH TOOL; WHEN THE MAIN AI GATEWAY FAILS THE OLDER BRAINS ANSWER INSTEAD OF THE REQUEST ENDING; A TRADE LAB DEAD END BECOMES AN ORDINARY ANSWER; AND "SUPPOSE YOU HAVE 20000 RUPEES FOR OPTIONS TRADING, HOW WILL YOU SURVIVE AND WHAT RETURN IN A YEAR" IS ANSWERED FROM THE PRACTICE RECORD AND A SIMULATION WITH NO AI. NO ORDER, NO CHANGE TO THE TRADING AGENT, THE GUARDS OR THE OWNER LOCK. + v99.0 - LAB: A READ-ONLY LABORATORY BESIDE THE STOCK-MARKET AGENT. IT KEEPS THE PRICE PATH OF EVERY TRADE (copying the quotes the agent already fetches), REPLAYS THE AGENT'S OWN RULE AND 11 OTHER EXIT AND ENTRY RULES OVER THOSE PATHS AFTER CHARGES (never calling a winner on too few trades), SHOWS WHY THE AGENT DID NOT TRADE, HOW FAR TRADES WENT, WHETHER THE DIRECTION CALLS WERE RIGHT, SENDS A WEEKLY AND MONTHLY REPORT, ALERTS ON A LOSING STREAK OR A DEEP DIP, AND GIVES AN ADVISORY LIVE-READINESS CHECKLIST (nothing is switched: no order, no change to the trading agent, the guards or the owner lock). + v98.0 - SCHOLAR: TELL NEMO WHAT HE IS WEAK AT AND HE RESEARCHES GITHUB AND PYPI, CHECKS THE BEST PROJECTS FOR SAFETY AND FIT WITH THIS SERVER, RECOMMENDS ONE WITH ITS LIMITS AND PUTS FORGE'S ONE-TAP APPROVAL CARD IN FRONT OF THE OWNER; AFTERWARDS HE OFFERS TO TEACH HIMSELF TO USE IT (nothing is installed without the owner's tap; no order, no change to the trading agent, the guards or the owner lock). + v97.0 - DESK: A FAMILY MEMBER (OR THE WHOLE FAMILY) CAN BE LET INTO THE TRADE DESK, VIEW ONLY: THE OPEN SCOUT IDEAS WITHOUT THE OWNER'S CAPITAL OR SIZING, A FRESH SCAN WITH SMALL DAILY LIMITS, HOW PAST IDEAS TURNED OUT AND THE PRACTICE AGENT'S VIRTUAL TRADES; REAL POSITIONS, MONEY, ORDERS, LIVE-MODE TRADES AND THE OWNER'S SETTINGS STAY PRIVATE AND NOTHING CAN BE CHANGED (no order, no change to the trading agent, the guards, Circle's locks or the owner lock). + v96.0 - LEDGER: THE FULL RECORD OF WHAT THE STOCK-MARKET AGENT HAS TRADED (every closed trade kept, results before and after estimated charges, worst dip, how far to trust it, day by day, one trade in full with its reason, CSV and a growth chart) AND A PLAIN-WORDS EXPLANATION OF HOW IT DECIDES (read-only: it never changes what the agent does, the trading guards or the owner lock; no order is placed). + v95.0 - DOORS + CARE + OFFICE: THE WEBSITE GETS TELEGRAM LOGIN, FAILED-ATTEMPT LIMITS AND SAFE HEADERS; "CARE" READS THE SERVER AND CLEANS NEMO'S OWN LEFTOVERS AND OLDER FAILURE MESSAGES GAIN A FIX-IT LINE; GSTIN/PAN CHECKS ON INVOICE DRAFTS AND A SPACED-REPETITION STUDY HELPER (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v94.0 - CLEAR + SCOUT INTEL + STUDIO PLUS: EVERY MARKET REPLY AND DATA DUMP IN PLAIN WORDS, NSE RESULTS/BAN/FLOW CHECKS AND A VOLATILITY FORECAST FOR SCOUT, AI UPSCALING, BACKGROUND REMOVAL AND CHARTS FOR PICTURES (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v93.2 - SCOUT: TRADE IDEAS FOR STOCKS AND NIFTY/BANKNIFTY OPTIONS FROM NEWS AND NEMO'S MARKET TOOLS, WITH THE WORKINGS SHOWN, THE SIZE AT THE OWNER'S RISK LIMIT AND AN HONEST TRACK RECORD (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v92.0 - WIRE: THE INSTALLED LIBRARIES BECOME CHAT COMMANDS, RUN SAFELY (tables from a PDF, text in a picture, clean article text, indicators on daily candles, a risk report of the journal, NSE history, local voice fallback, extra checks next to the update pre-flight; one heavy job at a time and only when memory is free; MCP servers stop together with Nemo). + v91.5 - FORGE: NEMO CAN USE GITHUB AND INSTALL WHAT HE NEEDS (search and inspect GitHub, a static scan of any repo, PyPI risk checks, hash-pinned wheel-only installs into isolated environments or additively into his own Python, owner approval cards, health checks with automatic rollback, an install ledger, upgrade from the owner's own GitHub repo through the existing update gate). + v90.2 - STUDIO: MORE IMAGE ENGINES AND TOOLS, EXACT DESIGN AND CHARTS, REPORTS WHOSE NUMBERS ARE CHECKED (verified image chain with nine engines, Pillow tools, posters/cards/logos with exact text, charts from your numbers, a numbers audit for researched reports, data reports from your own files). + v89.0 - CIRCLE: WHO ELSE MAY USE NEMO AND WHAT THEY MAY DO (one gate in front of every message, button and inline query that is not from the owner; default deny; abilities switched per person and role from a menu or in plain words; first-contact cards; limits; strangers on/off; a private read-only free/busy view for family). + v88.0 - ARGUS: NEMO CAN SEE (read-only eyes for mail, calendar, Drive, tasks, reminders, watchers, what Nemo did and when, server and errors, devices, positions; a live map of its own abilities; one "see" tool for conversation; a flight recorder; an inbox watch; exact reasons when something is not connected). + v87.0 - RELAY: MORE VIDEO SOURCES (yt-dlp with six client profiles, automatic yt-dlp update, Node/Deno runtime, your proxy; then pytubefix, YouTube.js, Piped and Invidious mirrors, Cobalt) in ONE verified, time-boxed chain with a per-source report + DRIVE LINKS YOU CAN OPEN (anyone with the link / one e-mail / private) + natural-language controls (download sources, test youtube download, set up download sources, share my last download). + v86.0 - CANDOR: NO SENSITIVE LOGGING (a rejected value is never stored; logs are masked) + COMPLETE FORGETTING (every recall store, rewritten copies, re-learning blocked, queued jobs cancelled, backup limits stated) + SAFER SELF-DEVELOPMENT (the _n79_feature hook is always offered, relevant bounded shortlist, vague "upgrade yourself ..." asks what you want before any AI call, failures name their stage) + RESEARCH ROUTING (current-information questions are researched, failure and thin evidence are stated) + ONE SHARED DEADLINE (planning, tools, answer, review and fallback; bounded search and background work) + HONEST CHECKS (completed / issues / skipped / failed). + v85.0 - STEWARD: DECISION INBOX (mail/calendar/open loops/showroom -> ranked, grounded proposals as approve/edit/skip cards; nothing runs without a tap; learns from your decisions) + VERIFIED RESEARCH (replans, reads full pages, keeps a claim only if its quote is in the page and its numbers are in the quote) + SANDBOX-TESTED UPDATES (candidate is imported and regression-tested in a network-less sandbox before Apply) + MCP PERMISSION TIERS (read runs, write needs a tap, dangerous blocked) + DOCUMENT INTELLIGENCE (page-cited answers, clause flags, version compare, tables) + SHOWROOM COPILOT (leads, dues, stock, GST invoice drafts) + PAGE WATCHERS (price/stock/keyword/change alerts). + v84.0 - ATLAS: FUTURES DESK (expiry calendar with holiday roll-back, cost-of-carry fair value/basis, roll cost, position sizing, pre-trade check, edge/Kelly/streak maths, owner-reported trade journal + stats, opt-in expiry alerts; advisory only, no orders) + SPEED (zero-model answers for pure arithmetic/date questions, router bypass for plain chat, parallel tool rounds, typing keep-alive, per-stage timings, p50/p95 in /cortex83) + weekday/date audit. + v83.0 - CORTEX: memory bridge (relevant stored facts + safe auto-learning from the owner's own messages, with /memory83 /forget83 controls), grounded IST date/time + exact date maths, bounded read-only tool loop for chat (search/recall/calculate/date, no tool can act), deterministic arithmetic audit + quote-verified critique, rolling conversation summaries, router fast-path for small talk, /why83 transparency, fix for undefined _n60_j in the media failure path. Additive layer over v82; any Cortex failure falls back to the v80 chat path. + v45.0 - YOUTUBE PER OFFICIAL 2026 GUIDE (--js-runtimes deno auto-installed, android_vr-first ladder needing no PO token/cookies, cookies only for tv/mweb, rotation detection, /ytfix) + MEDIA LIBRARY (/library instant resend, Drive) + v44.x RELIABILITY DOCTOR + v43.x YOUTUBE UNBLOCK + RESEARCH DIGEST + v42.0 MEDIA ENGINE + FAMILY MODE + v40.0 COMMAND CENTER + LEARN MODE + v39.0 FAST CORE + v38.0 ATTENTION + v37.0 PHOTO MEMORY + VOICE + v36.x DAY CARD + SELF-AUDIT + v35.0 UNIFIED MIND + v13.35 - PROVIDER DOCTOR + COMPUTER-USE 5.0 BATCH 3: adds diagnostic Groq/Gemini model discovery, non-destructive email/network doctor, browser computer-use sessions with DOM/accessibility/screenshot state, Guardian-protected external-page analysis, action verification and session telemetry. + v13.30 - KNOWLEDGE LAKE 2.0 + HYBRID SEMANTIC RAG + LEARNING CORE 2.0: adds local hybrid retrieval, workflow episode learning and automatic local grounding while retaining v13.29 evaluation/observability. + v13.29 - EVALUATION LAB 2.0 + OBSERVABILITY/FLIGHT RECORDER 2.0: adds request-level tracing, durable request metrics, tool/task correlation for reports/browser/media, percentile latency and failure dashboards, candidate-vs-current regression scoring, critical-function and credential-line integrity checks, evaluation history, and fail-closed deploy recommendations. Existing v13.28 NEMO PRIME FOUNDATION remains. + v13.28 - NEMO PRIME FOUNDATION: Unified Task OS, Central Policy Engine, Flight Recorder, Evaluation Lab, Knowledge Lake, Strategy Learning 2.0, Device Agent generator, Specialist Agent Governor, and Trade State Reconciliation 2.0. Existing v13.27 Publisher Godmode and all prior safety rails remain. + v13.27 - PUBLISHER GODMODE 5.0 / LAYOUT QA: rebuilds the professional artifact renderer around measured text layout instead of fixed-height guesses; filters fake KPI tiles and source/evidence metadata; dynamically wraps risk tables, scenario cards, executive cards and source cards; fixes appendix stripping with or without colons; adds Unicode font support when available; prevents heading/header collisions; strengthens publication QA for leaked metadata, clipping-risk patterns and malformed key-number panels; and keeps the v13.26 evidence/materiality pipeline intact. + v13.26 - CREATION ENGINE / PUBLISHER GODMODE 4.0: adds professional information architecture, materiality-first analysis, improved source authority ontology, cited-evidence grading, compact clickable source appendix, executive snapshot cards, key-number tiles, scenario dashboard, risk heatmap-style matrix, typography/mojibake sanitation, deterministic artifact integrity, and optional PDF visual QA. Analytical reports now fail closed when research/evidence/publication quality is weak. Existing v13.25 research Godmode, v13.24 renderer fixes and v13.23 Learning Core remain. + v13.25 - GODMODE RESEARCH + REPORT INTELLIGENCE 3.0: adds five coordinated upgrades: adaptive multi-query text+news research with retries, source-authority scoring and domain diversity, multi-brain analyst→verifier→editor synthesis, evidence/claim-quality gates that remove unsupported current claims, and a research audit manifest + professional evidence score on every report. /godreport forces the full pipeline; ordinary non-code reports use it automatically. Existing v13.24.2 renderer hotfix and v13.23 Learning Core remain. + v13.24.2 - PROFESSIONAL REPORT STUDIO 2.1 PDF RENDERER HOTFIX: upgrades PDF/report generation with fresh multi-query web research for time-sensitive reports, source-grounded drafting, executive summaries, risk/outlook structure, professional cover/header/footer, section hierarchy, key-takeaway callouts, source appendix, cleaner typography, and removal of random stock-art pages. Reports distinguish sourced facts from analysis and warn when fresh research is unavailable. Existing v13.23 Learning Core remains. + v13.23 - LEARNING CORE 1.0 + EXPERIENCE BRAIN: adds persistent outcome learning, model-performance scoring, experience/error fingerprints, semantic experience recall, feedback controls, lightweight anomaly learning, adaptive model route reordering, training-data export, and Cockpit learning telemetry. Learns from successful/failed AI calls and explicit owner feedback while redacting sensitive-looking text; never grants new money/security authority. Existing v13.22 Offline Mind/Speed/Systematic UI, Device Grid, Cockpit, Mind Core, Cyber Hands, trading rails and secrets are preserved. + v13.22 - OFFLINE MIND + SPEED ROUTER + SYSTEMATIC RESPONSE UI: adds an offline-first knowledge layer (built-in durable reference packs + existing indexed files/library/memory grounding), persistent evergreen answer cache, API-down offline fallback, instant local calculator, automatic FAST/BALANCED/QUALITY routing, reduced unnecessary multi-pass reasoning, and a Telegram-friendly response-format contract with consistent visual sections. New /offline, /speed and /format controls. Existing v13.21 Device Grid, v13.20 Cockpit, v13.19 Mind Core, Cyber Hands, trading/security rails and credentials are preserved. + v13.21 - NEMO DEVICE GRID + REMOTE HANDS 1.0: enrolled-device control plane with owner-created one-time enrollment tokens, per-device bearer secrets, heartbeat/online state, read-only system telemetry, opt-in location reporting, device revocation, audit trail, and Cockpit/API device inventory. No arbitrary-device discovery, covert tracking, credential dumping, or unauthorized remote access. + v13.20 - NEMO COCKPIT 1.0: adds a modern Telegram Mini App/PWA command-center over the existing secure web server: live system/brain/cyber/VPN/trading/task/media panels, responsive mobile-first glass UI, browser human-checkpoint status and latest screenshot, safe read-only quick actions, refreshable JSON telemetry, and an owner-only /cockpit command. When a secure HTTPS public_url is configured, Nemo automatically installs a Telegram Web App menu button that opens the cockpit inside Telegram; otherwise /cockpit gives the local/public dashboard link and /setdomain guidance. Consequential actions stay Telegram-gated; the cockpit does not bypass trading, lockdown, cyber scope, browser-auth or update confirmations. Existing v13.19 Mind Core, Browser Checkpoint 2.0, Cyber Hands, dependency isolation, secrets and trading rails remain. + v13.19 - MIND CORE 2.0 + BROWSER CHECKPOINT 2.0: adds a final-answer compiler that blocks scratchpad/thinking-aloud leakage, strips malformed provider tokens such as <unk>, detects repetition/non-answers, selectively re-verifies calculation/bill/image answers, and rewrites poor drafts before delivery; adds speech-specific sanitization so garbage tokens never become voice audio. Browser human checkpoints now parse natural replies (e.g. email plus “click next”) into a clean field value + action, use semantic page-state fingerprints instead of raw URL equality to detect stuck loops, and stop Google/YouTube automated-login loops early in favor of the user's authenticated session/cookie route. Passwords, OTP/2FA/recovery codes and private keys are no longer requested through Telegram browser checkpoints. Existing v13.18 Cyber Hands, v13.17 dependency isolation, trading rails, secrets, updater and all prior capabilities remain. + v13.18 - CYBER HANDS 1.0: adds an owner-only defensive security operations layer for THIS VPS and explicitly authorized/allowlisted assets: unified /cyber control center, local security audit + score, listening-port/firewall/SSH/log inspection, secret-exposure scan that never prints secret values, source-code static security checks, dependency CVE audit in an isolated tool environment, optional ClamAV scan, file-integrity baseline, continuous low-noise security monitoring, and conservative allowlisted Nmap inventory (top ports/version-light only; no exploitation/bruteforce/evasion). Autonomous agents gain READ-ONLY local cyberaudit/cyberports/cyberlogs hands. Remote scanning is never autonomous and requires an explicit --authorized scope entry. Consequential remediation remains owner-confirmed. + v13.17 - FOUNDATION HARDENING + HANDS 2.0: adds dependency protection/doctor, isolated tool virtual-environments, process control with confirmation, filesystem search/hash/tree, network diagnostics, system snapshots, and exposes these safe hands to the autonomous agent. Core trading/credentials/browser/media behavior is preserved. + v13.16 - VISION RESPONSE VALIDATION + MULTIMODAL FALLBACK: fixes the case where a screenshot successfully reached the vision model but Nemo returned only provider moderation metadata such as "User Safety: safe / Response Safety: safe" instead of analyzing the image. Vision replies are now validated for substantive visual content; safety-only/moderation-only outputs, refusal-shell metadata, empty multipart content and tiny non-answers are treated as a FAILED vision attempt and Nemo automatically tries the next multimodal route (Nano Omni -> openrouter/free) rather than delivering garbage. Image prompts explicitly request actual visual analysis rather than safety labels. ask_ai now detects and sends the real PNG/JPEG/WEBP/GIF/BMP MIME in its OpenRouter data URI (closing the remaining hard-coded JPEG path missed in v13.15). DEBUG records why a vision model was rejected. Text routing, trading, money, browser, VPN, downloader, persistence and secrets are unchanged. + v13.15 - UNIVERSAL IMAGE ATTACHMENTS: Telegram screenshots/images sent as Files/Documents now route into the same vision pipeline as compressed photos. Detects image/* MIME plus PNG/JPG/JPEG/WEBP/GIF/BMP extensions and magic bytes; preserves captions; supports scan/OCR/QR/bill/notes pending modes; and ask_ai now labels the data URI with the real image MIME instead of always claiming JPEG. No trading, money, VPN, browser, downloader, persistence, secrets, or safety behavior changed. + v13.14 - LIVE MODEL ROUTER HOTFIX: OpenRouter retired nvidia/nemotron-3-nano-30b-a3b:free on 24 Aug 2026, so Nemo no longer calls that dead slug. Text routing now uses Nemotron 3 Ultra free -> Super free -> openrouter/free for smart work, Super free -> openrouter/free for fast work, and vision uses ONLY multimodal-capable Nano Omni free -> openrouter/free (no text-only Super fallback on images). ask_ai now safely parses OpenRouter error/unexpected response bodies instead of crashing with KeyError choices, temporarily cools down unavailable/rate-limited models, de-duplicates routes, and keeps the dynamic free router as a resilience fallback. /brain reports the live route and cooldowns. No trading, secrets, browser, media, persistence or safety rails changed. + v13.12 - HONEST UPDATE LABELS (fixing two COSMETIC bugs in my own update-preview that made a perfectly good deploy look scary): when the Boss deployed v13.11, the /update preview said 'this file is v17.0' and 'CHANGES 1 (TOKEN)' - BOTH false alarms from my own code; the file was correct and booted clean as v13.11. Causes + fixes: (1) my version-reader grabbed the FIRST version-assignment string anywhere in the file, and my changelog PROSE happens to mention the 17.0 pattern when describing a ChatGPT file - so it read its own description instead of the real constant. Now it reads only a REAL top-level VERSION assignment (start of line). (2) my credential-change check matched ANY variable whose name merely contained 'TOKEN'/'KEY' - including the harmless 'TOKEN = os.environ.get(BOT_TOKEN)' line inside the downloader-bot template - so it falsely warned of a credential change. Now it checks only the actual named secrets (TELEGRAM_TOKEN, OPENROUTER_KEY, NVIDIA_KEY, ...). Future update previews now show the true version and warn only on a REAL key change. Your keys were never touched - the proof was the bot booting clean and healthy. Additive; all existing suites pass plus a new v13.12 test. + v13.11 - CLAIM LEDGER + LIVE INTEGRITY (from the ChatGPT v24 'five upgrade' file - notable because it was finally built on OUR v13.9 base with the Security Core intact, but its five new layers all crash on first use on the same missing 'uuid' import as v15/v18/v19, and its flagship 'v20 Task Orchestrator' is FAKE: the execute function performs nothing - it stamps every step done with a canned message pointing to a /nemorun24 command that does not exist anywhere in the file. Its other layers duplicate what we already run: structured memory = the v11 knowledge graph + /recall, brain router = ask_ai's existing routing, project manager = /plan + /taskgraph + PROJECTS, observability = /nemo + self_test). The TWO ideas worth keeping, built working: (1) CLAIM LEDGER - /claims [search words] is a persistent, dated audit trail of everything Nemo has fact-checked and researched: every /verify records verified-or-corrected (with the checker's notes) and every /nemoresearch records a research entry, capped at 400, surviving restarts, searchable, also in plain language ('what have you verified', 'claim history'). So 'what has my bot told me, and was it checked?' finally has an answer. (2) LIVE INTEGRITY - /security now also compile-checks the RUNNING source and shows its sha256 fingerprint, so tampering or corruption of the deployed file is visible on demand. Additive; all suites pass plus new v13.11 tests. + v13.10 - DOWNLOADER IN THE BOT FACTORY (Nemo creates the whole bot himself - no file to send): the Boss asked why Nemo can't just CREATE a downloader bot when given a token. He always could create bots (/newbot factory + /env for secrets) - his library just had no downloader type. Now it does: a verified 'ytdl' template (the corrected version of the ChatGPT blueprint, which as written would not run - missing asyncio import, wrong download() return handling, an undefined variable, a zip step that ignored Telegram's ~50MB cap). Create it entirely in chat: /newbot ytdl mydl (or just say 'make me a downloader bot') -> tap Ship -> /env mydl BOT_TOKEN=<fresh @BotFather token> OWNER_ID=<your id> -> the bot is LIVE. The generated bot: downloads a YouTube video or whole playlist (mp4, or mp3 with 'audio'), sends every file under Telegram's cap straight to chat, keeps bigger ones on the server with the path reported, caps items per playlist (MAX_VIDEOS), safe ASCII filenames, owner-locked via OWNER_ID, token ONLY from its locked env - never in code. Same supervised ship rails as every factory bot (compile-check, auto pip-install of requests+yt-dlp, tap-to-start, /app <name> logs|restart|stop|rm). Additive; all suites pass plus new v13.10 tests. + v13.9 - QUANT LENSES (the genuinely-new, working parts of the ChatGPT v19 quant file, rebuilt on our base - READ-ONLY, never places an order): the v19 code was real quant work but sat on the old base and crashed its event log on the same missing 'uuid' import; I kept the good math, dropped the crash and the bits we already have (its plain signal/option dumps duplicate /godmode and /optionchain). Three lenses we DIDN'T have, now added: (1) /regime <symbol> - classifies the market regime (TREND_UP/DOWN, EXPANSION, RANGE, LOW_VOL_RANGE, TRANSITION) from ADX + EMAs + ATR-ratio + slope, with a confidence. (2) /walkforward <symbol> - proper OUT-OF-SAMPLE validation: it picks the best EMA pair on a training window then scores it on the next, unseen window, and reports the average out-of-sample hit-rate (a robustness check, not a guarantee). (3) /quantbacktest <symbol> - an EMA-crossover backtest with profit factor + max-drawdown AND a Monte-Carlo stress test (bootstrapped terminal + drawdown percentiles). Plus /quant <symbol> - a consolidated regime + multi-factor signal + transparent setup-quality grade (explicitly 'NOT win probability'). All owner-only, read-only, honestly labelled; they use Nemo's real market data (get_history) and place no orders. Additive; all existing suites pass plus new v13.9 tests. + v13.8 - MEMORY 3.0 (granular forget) + NO INVENTED COMMANDS: (1) MEMORY - on inspection Nemo's memory was already strong (semantic /recall, durable /remember, the /memory 'second brain', /aboutme and the knowledge graph, all persisted and fed into his answers), so the genuinely missing piece was CONTROL: /forget <thing> now removes the SPECIFIC memories that match - from both the durable facts and the semantic vector store - and tells you exactly what it dropped, instead of the all-or-nothing /forgetme. /remember also dedups and keeps more durable facts (20 -> 60). (2) NO INVENTED COMMANDS - when you sent a command Nemo didn't recognise, his brain used to make up plausible-but-fake command names (exactly what happened with /nemo before it was deployed). Now an unrecognised /command gets a deterministic, HONEST reply listing only REAL commands and never reaches the brain. Additive; all existing suites pass plus new v13.8 tests. + v13.7 - TRADE STATE SURVIVES RESTART (closing the money-safety gap I flagged in v13.2 and deferred): the autonomous trader kept its open position only in memory, so a restart or update mid-trade FORGOT it - and for a plain (non-bracket) position that meant its stop-loss and target were no longer being managed, leaving real money exposed. Now the trader's live state (open position, today's trade count, running P&L, the day, and the daily-loss halt flag) is PERSISTED to memory and RESTORED on boot, so after any restart Nemo picks the position straight back up and keeps managing its stop / target / square-off. On boot, if a position is open, Nemo messages you that it resumed managing it. This pairs with v13.6 self-healing updates: a restart mid-trade no longer abandons your money. (Bracket positions were already protected on-exchange; this closes the gap for plain positions.) Owner-only, additive; all existing suites pass plus new v13.7 tests. + v13.6 - SELF-HEALING UPDATES (took the one real new idea from the ChatGPT v17 file - auto-recovery from a bad update - and built it safely; skipped the rest, which forced its VERSION to 17.0 and added a downgrade-block that would have LOCKED you out of updating to our clean files, and re-did the workflows our v13.4 already has): every /update is now TRANSACTIONAL. When you Apply an update, Nemo records a journal (a hash of the new build, plus a hash + path of the verified backup). On restart it checks that journal FIRST: a healthy boot (Telegram auth succeeds) is confirmed and stands recovery down - but if the new build keeps failing to reach a healthy boot (3 tries within 30 minutes) Nemo automatically RESTORES the previous version (only if that backup still compiles and its hash matches the recorded original) and restarts. So if you ever deploy a build that won't start, it heals itself back to the last working version without you touching the server. /updatecheck now also shows whether the last update auto-rolled-back or booted cleanly. HONEST LIMITS: this catches builds that start but then crash/exit during startup; a crash BEFORE main() even runs (e.g. an import-time error) can't be caught from inside the process - though compile-check already blocks the syntax errors behind most of those. Conservative by design (3 failures, 30-min window, hash+compile-verified backup) so a healthy long-running bot is never rolled back. The normal apply/backup/rollback path and everything else are unchanged; all existing suites pass plus new v13.6 tests. + v13.5 - SAFER UPDATES (took the one good idea from the ChatGPT v16 'updatefix' file - credential-preservation on update - and built it safely on our base; skipped the rest, which sat on the old v12.06 base, carried the broken v15 layer, and hard-overrode VERSION to '16.0' while requiring its own marker that would have BLOCKED updating to our clean files): (1) /updatecheck - preflight a new nemotron_bot.py you've attached WITHOUT applying it: shows its version, size, whether it looks like Nemo, the compile-check result, and - the key part - whether it would CHANGE or DROP any of your credential/config lines (compared by a HASH of each key line; values are NEVER shown). (2) /update now shows that same credential warning right in the Apply prompt, so you can't accidentally deploy a file that wipes your API keys without being told. It WARNS, it does not block - because a legitimate update (like moving keys into the secrets file) also changes those lines and you stay in control. (3) /version shows the running version cleanly. The critical apply/backup/rollback path is unchanged. Owner-only, additive; all existing suites pass plus new v13.5 tests. + v13.4 - ORCHESTRATION (added the genuinely-new capability from the ChatGPT v15 file, built CORRECTLY on our safe v13 base - the v15 code itself was BROKEN: I ran it and it crashed with 'uuid is not defined', plus a _n15_STATE typo and a call to a function that never existed, so its workflow / research / decision commands all failed at runtime). What's new and WORKING here: (1) /nemoworkflow <numbered plan> - runs a multi-step plan ONE checkpointed step at a time, feeding each step's result into the next and saving progress after every step, so it survives a restart; /nemoworkflows lists them and /nemoresume <id> continues from where one stopped. (2) /nemoresearch <question> - a research pass that separates FACTS / INFERENCES / UNKNOWN and refuses to fabricate sources. The REST of v15's command surface is wired to Nemo's EXISTING, more mature systems instead of broken parallel copies: /nemodecision -> the real decision journal (with expected-vs-actual tracking), /nemoevents -> the activity log, /nemoagents -> AGENTSTAT, /nemoarchitecture -> /abilities, /nemo3 -> the /nemo control center. Nothing duplicated, nothing dragged back onto the old insecure base. Owner-only, purely additive; all existing suites pass plus new v13.4 tests. + v13.3 - CONTROL CENTER + FACT-CHECK (folded in the two genuinely-good ideas from the ChatGPT v14 file, onto this safer v13 base - without its duplication or its security rollback): (1) /nemo CONTROL CENTER - one screen showing version, uptime, brains, security posture (are any keys still in source?), money-confirm + lockdown + auto-trade state, work-queue depth and recent activity - built on Nemo's REAL subsystems (secrets_status, MONEYCFG, mm_locked, JOBS/WORK, ACTLOG), not a parallel copy. (2) /verify - or 'double-check that' / 'any hallucinations?' - an explicit fact-check pass: it reviews an answer (the text you give, or my LAST answer) for hallucinations, unsupported claims, wrong numbers/names/dates, missing caveats and contradictions, and if it finds problems it rewrites the answer WITHOUT inventing new facts. Both work by command AND in plain language, owner-only, purely additive. Deliberately NOT copied from the ChatGPT file: its duplicate job-runner (Nemo already has the /work engine), its status-dump 'quant report', and - the important part - that file was built on the OLD v12.06 base, so it still carried the exposed API keys, the deadlock-prone lock, money-confirm OFF, and the lockdown/phantom-exit gaps that v13.0-13.2 fixed here. Behaviour-frozen elsewhere; all existing suites pass plus new v13.3 tests. + v13.2 - TRADING SAFETY (Phase 2 - I traced the real-money route end-to-end, then closed the gaps I found; nothing removed): GOOD NEWS first - the LLM is NOT the final authority on your money. The AI only PROPOSES a direction + a confidence score; ALL risk parameters (which instruments are allowed, position size, stop-loss, target, max-trades/day, daily-loss auto-halt, trading-hours window, buy-only, and shadow-vs-live) are enforced in deterministic code around it, and live autonomous trading is OFF by default. THREE real gaps found + fixed: (1) LOCKDOWN DIDN'T STOP EVERYTHING - the master /lockdown kill-switch blocked manual bracket/cover orders but NOT the autonomous trader and NOT a plain /order. Now lockdown blocks ALL new live entries (manual /order + the auto-agent); open positions still auto-manage and exit, so nothing is stranded. (2) PHANTOM EXIT - the auto-agent's exit SELL ignored its result: if a live exit failed, the bot booked the position as CLOSED while it was still open on the exchange, leaving real money unmanaged. Now a failed live exit keeps the position, alerts you, and retries each tick. (3) plain /order now respects /lockdown like the other order types do. HONESTLY REPORTED, not yet fixed (flagged for a later phase): the auto-agent's OPEN-position state isn't persisted, so a restart mid-trade forgets a plain position (bracket positions stay exchange-protected regardless). Behaviour-frozen for everything else; all existing suites pass plus new Phase-2 tests. + v13.1 - SAFETY CORE (Phase 1 of the audited v13 rebuild - two runtime-safety hardenings, nothing removed): (1) DEADLOCK-PROOF LOCK - Nemo's single global lock is used in 40+ places and locked functions call other locked functions; a plain threading.Lock is NOT re-entrant, so one locked path calling another would freeze him hard. Switched to threading.RLock (re-entrant): identical behaviour for normal use, but the same thread can safely re-acquire, so that entire class of hang is gone. (2) REAL MONEY DEFAULTS TO CONFIRM - manual live orders (/order, /bracket, /cover) now default to a one-tap confirm before they fire, and the setting is finally PERSISTED (before, turning it on was silently forgotten on the next restart - a genuine safety hole). The autonomous trader is unaffected - it keeps its own separate risk gates. Turn the tap off with /confirmtrades off, and now that choice sticks across restarts. CORRECTION to my own Phase-0 audit: the 'six main() functions' I flagged as dead code were a FALSE ALARM - five of them are bot-factory TEMPLATE strings (the source code of the mini-bots Nemo generates), not real definitions; I verified by reading before touching, so nothing was wrongly deleted. Behaviour-frozen elsewhere; all existing test suites still pass. + v13.0 - SECURITY CORE (Phase 0 of the audited v13 rebuild - security FIRST, nothing removed): the bot's API keys (Telegram, OpenRouter, NVIDIA, Gemini) were hard-coded in this source file. Now EVERY secret resolves from an environment variable first, then /root/bot_secrets.json, then the baked-in value only as a last resort - so secrets can live OUTSIDE the code. On boot Nemo AUTO-MIGRATES any still-baked key into the 600-permission secrets file, so the next version can delete those lines from the source and he still starts. New: /security (owner-only) reports exactly which keys are still in the source vs externalised, where each secret loads from, and the money-guard + owner-lock state (never showing any secret value); the weekly self-test gains a 'No API keys exposed in source' check that stays red until they're moved out; save_secret now chmods the secrets file to 600. IMPORTANT ACTION FOR YOU: because these keys sat in the code, treat them as LEAKED - generate new ones and put them in /root/bot_secrets.json (keys: telegram_token, openrouter_key, nvidia_key, gemini_key); v13.1 then removes them from source entirely. Behaviour-frozen: with no env var and no secrets-file entry every secret is exactly what it was, and all existing test suites pass unchanged. One safe phase at a time. + v12.06 - SELF-TEST TELLS THE TRUTH: the weekly report card was FALSE-FAILING on email. It tested email by logging into Gmail's SMTP (465) and IMAP (993) ports directly - but DigitalOcean BLOCKS those ports, so both always showed a red X even though email works perfectly over the Gmail API (HTTPS). Fixed: the drill now checks the REAL path - Gmail API reachable (profile + labels over HTTPS) first, SMTP/IMAP only as a fallback when there's no Google connection - and it runs whenever Google is connected OR an app password is set. So those two systems will now report green (as they should), and the report card reflects reality instead of scaring you with a port block. + v12.05 - RELIABILITY SWEEP (the same rigor, across his OTHER outputs): the invisible-char fix was for Pine; this applies the same 'make the outcome reliable' thinking to code and file outputs. (1) CODE OUTPUTS - /script now guards against the brain 'thinking out loud' (no more 'Let's craft:' / '... code ...' placeholder garbage), SYNTAX-CHECKS delivered Python (ast.parse, with one self-correction) so a .py actually parses, and tells you to use the attached FILE not the chat text (same copy-paste-corruption fix as Pine). (2) TEXT/CSV/MD files get the same scratchpad guard, so they contain the finished content, never the brain's notes. (3) Shared helpers (_looks_scratchpad, _clean_code) so every generator refuses to ship junk and retries. The theme: fewer 'bad results' by hardening the output paths, not adding more features. + v12.04 - THE REAL PINE BUG (invisible characters): the recurring 'Syntax error at input <name>' on code that looks perfect was NOT bad code - it was smart quotes and non-breaking spaces that sneak in when Pine is copied out of a chat message / PDF / phone into TradingView. TradingView can't parse them and throws that exact baffling error, the same on every version. Fixes: (1) _pine_sanitize forces every generated script to PURE ASCII (smart quotes -> straight, non-breaking/other unicode spaces -> normal, en/em dashes -> -, zero-width chars removed); (2) the linter now flags any non-ASCII character; (3) delivery now tells you to use the attached .pine FILE (not copy from the chat bubble), because the file is clean ASCII and the chat text can silently re-corrupt. This is the root cause behind the errors that kept coming back. + v12.03 - COMPLEX PINE: added a genuinely advanced, verified strategy to his library - 'Confluence Regime Rider' (EMA regime + ADX trend-strength + RSI momentum + higher-timeframe confirm + ATR target + ATR trailing stop + a live on-chart stats table), Pine v6 and lint-clean. It backtests automatically in TradingView's Strategy Tester (it is a strategy()), and its exact logic was verified in a Python backtest. So 'a unique pine with buy/sell/target/stop-loss that backtests' is now real, at real complexity, and part of his rotation. + v12.02 - PINE v6 + STAY-CURRENT (he moves with the times, on his own): (1) PINE v6 - TradingView's current version. His whole Pine engine now targets v6 by default: the generator prompt, the deep knowledge base and the 5 verified templates are v6 (correct bool strictness, no 'when=' on strategy.* , '1D'/'1W'/'1M' timeframes, no 'transp='), and the linter gained v6 checks (flags a leftover when=/transp=/'D' timeframe). v5 still compiles and is still accepted; /pinever 5|6 sets the target. (2) STAY-CURRENT WATCH - a weekly self-check (currency_watch) where he RESEARCHES what's changed in his fields (Pine version, SEBI rules, AI tooling), AUTO-applies safe settings himself (e.g. bumps his Pine target the moment a newer version ships), learns the rest into memory, and routes anything code-level to the supervised /selfgrow rail for your one-tap approval - so he keeps himself up to date automatically without ever rewriting himself unsupervised. /current runs it now, /current on|off, /pinever sets the version. This is the honest form of 'update automatically in all fields': safe things on his own, risky code changes proposed for approval. + v12.01 - CONTINUUM FIX (the flood + the garbage code file): the v12.0 work engine ran, but two bugs showed up. (1) DUPLICATE FLOOD - the agent re-called fire-and-forget tools (pdf/docx/chart/web) over and over, because make_pdf returns 'building...' immediately, so the agent never saw a finished file and kept re-making it (7+ identical PDFs per job, the same web search 5x). FIXED: the agent now makes each deliverable EXACTLY ONCE and skips any identical tool+arg repeat, and bails to the report if it gets stuck re-proposing the same step. (2) GARBAGE CODE FILE - '5 best Nifty option strategies' was mis-detected as a CODING request (the word 'strategies'), so it emitted a nonsense nemo_code_out.txt full of the brain's scratchpad instead of a clean report. FIXED: a strict code detector - a trading strategy/option/report/'best'/'top N' request is a REPORT, never code; only real programming asks (python/code/function/sql/pine...) make a code file. So a research job now produces ONE clean PDF, no junk. + v12.0 - CONTINUUM (the real deep upgrade: he KEEPS WORKING, and understands deeper): the honest gap all along was that Nemo ANSWERS, then stops - he never keeps grinding a task on his own. v12.0 fixes that at the core. (1) CONTINUOUS WORK ENGINE - /work <task> (or 'keep working on X', 'add to your work list') queues a job; a background worker wired into his scheduler picks up the next pending job, runs it to completion through his plan->act->verify agent, reports the result, then moves to the NEXT job - one after another, on its own, and the queue is PERSISTED so it survives restarts. Pile up ten jobs and he'll grind through them while you sleep. /jobs shows the queue and status, /stopwork pauses. (2) DEEPER UNDERSTANDING - the THINK loop's comprehension/clarify step now runs on the PREMIUM brain (not the fast free one), so he judges what you actually mean far better before acting; the agent's self-check already verifies on the premium brain. (3) FULL PICTURE - /abilities (or 'what can you do') lays out his entire capability set in one organized map, and everything is reachable in plain language. This is not a risky rewrite - the proven 34-test-suite core is intact; CONTINUUM is the capstone layer that turns a bot that replies into one that works. + v11.31 - PINE MASTER (deep, advanced, CREATIVE - not the same EMA crossover every time): the last fix made Pine error-free but repetitive - every request came back as an EMA crossover, because the one verified template WAS an EMA crossover and it anchored the brain. Now: (1) a DEEP Pine v5 knowledge base rides in the prompt (full ta.*/math.* catalog, request.security multi-timeframe, sessions/time for NIFTY intraday, strategy risk/trailing exits, drawing objects - tables/labels/lines/boxes, plot styles, dynamic alerts, anti-repaint and confluence best-practice) so the code is genuinely advanced; (2) a LIBRARY of FIVE hand-verified, lint-clean advanced strategies (EMA crossover, Supertrend trail, Opening-Range-Breakout for NIFTY, VWAP mean-reversion, RSI + higher-timeframe filter) plus a menu of 14 archetypes (Bollinger squeeze, MACD regime, Donchian, Ichimoku, multi-factor confluence...); (3) ROTATION - a generic 'make me a pine script' now round-robins through the archetypes so no two come out the same, while a NAMED method (supertrend/vwap/orb/rsi/macd...) is honoured; (4) the brain is pushed to be creative, combine 2-3 confluence factors and add a pro touch (stats table / trailing stop / dynamic alerts), and mirror a MATCHING verified reference's syntax - not the EMA one. Still linted + auto-repaired, with the matching verified template as the guaranteed-clean fallback. Storage is no constraint - the knowledge and template library are baked in. + v11.30 - DARK SIDE (edge + ruthless-but-LEGAL power, on the Boss's side): four things. (1) DARK MODE - /dark on (or 'go dark' / 'be brutal') flips his TONE to blunt, sharp and a little savage, built to put you ahead - no hand-holding, no hedging - while he still NEVER lies, fabricates, helps anything harmful/illegal, or targets people. /dark off restores the normal voice. Persisted. (2) RED TEAM - /redteam <plan/idea/trade/text> (or 'attack this', 'find every weakness') attacks it like your smartest enemy and exposes every hole, ending with BIGGEST RISK + FIX FIRST. (3) COMPETITIVE INTEL - /intel <competitor> (or 'dig up on X') builds a hardball brief from PUBLIC sources: what they offer, their weaknesses/complaints, and where to hit them to win. (4) NEGOTIATION + SCAM DEFENSE - /negotiate <situation> gives a hardball (ethical) play with leverage, BATNA, anchors, tactics and exact phrases; /scamcheck <message> flags manipulation tactics + a scam risk rating when someone runs dark tactics on YOU. Deliberately NOT built, and I told the Boss why: malware, hacking others, defeating security/CAPTCHA, fraud/fake docs, surveilling people, spam/fake-account armies, market manipulation, or removing his safety rails - all of it would make HIM the traceable, liable party on his own server, and the 'who sells that' path is scams and stings. This is the dark arts used ethically, for his side. + v11.29 - ERROR-FREE PINE SCRIPT (the real reason it kept failing): unlike Python, Pine can't be compiled on the server, so a small free brain's syntax errors sailed straight through. Now Pine gets a proper pipeline: (1) it's written by the PREMIUM brain (free nano brains are poor at niche languages) using a strict Pine-v5 system prompt; (2) a rule-based LINTER (pine_lint) checks the errors that actually break TradingView - missing //@version=5, more than one declaration, study() vs indicator(), the 'strategy function used in indicator' error, bare sma()/rsi()/atr()/input()/security() that must be ta.*/math.*/request.security()/input.*, unbalanced brackets, and plot/alert stuck inside an if-block; (3) a REPAIR LOOP feeds those errors back and fixes them, up to 3 passes; (4) if it still isn't clean, it falls back to a HAND-VERIFIED template that compiles zero-error (EMA crossover + volume filter + ATR take-profit + % stop-loss, buy/sell markers, alerts). Every 'pine script / tradingview' request (and /pine) now routes here, delivers a .pine file with an honest 'passed my checks' status, and can email it. So a pine-script ask returns code that actually compiles - not a broken brain dump. + v11.28 - CREATE+EMAIL ACTUALLY HAPPENS (the 'it talks about emailing instead of doing it' fix): the root cause was that 'generate a pine script and email it to X' matched NO deterministic route, so it fell to the chat brain - which tried to call a tool by PRINTING <function=...> as text; that leak wasn't recognised, so you got the generic 'tell me the exact thing you want' (and elsewhere, 'here's how to email it / I can send if you want' - talking, not doing). Two fixes: (1) a deterministic CREATE+EMAIL route - 'generate/make/write/build <X> ... and email/mail (it) to <address or my mail>' now ALWAYS builds the thing AND sends it (Word if you said 'word/document', else a PDF - which now contains real code for a pine-script/strategy request, plus the raw .pine file), never touching the chat brain. (2) the tool-leak guard now also HONOURS a leaked email/docx/xlsx/chart/script/code call by actually running it, instead of showing the fallback. Net effect: when you say 'do X and email it', X gets made and the email gets sent - consistently, regardless of which brain is on duty, because the ACTION is deterministic code now, not a brain's guess. + v11.27 - THINK (my way of working, in him): the operating loop that makes an assistant actually effective, not just full of features. /do <task> (or /handle, or 'handle this properly / thoroughly / the way you would') runs Nemo through the same method I use on every real job: UNDERSTAND (restate it, and resolve 'it/that/the file' from the recent chat so a follow-up like 'give me the pdf here' isn't misread) -> CLARIFY (only if ONE essential detail is genuinely missing, ask a single question and resume when you reply - never nitpick) -> GATHER (pull what he already knows: durable memory + your indexed files + a quick web look-up, the way I read before I edit) -> PLAN -> EXECUTE -> VERIFY (his agent self-checks against the goal before finishing) -> honest report. It reuses his autonomous agent for the execute+verify core; the new part is understanding and grounding the task BEFORE acting. A new 'handle' intent + a pending-question resume make it feel like a real back-and-forth. Honest limit: this gives him my METHOD, which makes even a smaller brain far more effective - but his raw reasoning ceiling is still his model's, so it's my way of working in mini form, not a clone. Purely additive; every existing command and the fast one-shot paths are untouched; rails intact. + v11.26 - EMAIL, FOR REAL (fixes the '/email test still fails though Google is connected' trap): the root cause was that Google was linked BEFORE the gmail.send permission existed, so the token can read Gmail but can't SEND - and two things hid this: (a) /email test only pinged the Gmail profile / fell back to the SMTP error (which ALWAYS fails on DigitalOcean), so it never proved SEND and blamed the wrong thing; and (b) /google, once connected, was a DEAD END - it only offered 'relink with client_id/secret' and never a way to re-approve the new permissions. Fixes: (1) /email test now does a REAL test send to your own address via the Gmail API and reports the TRUTH - '✅ works, check your inbox', or, if the token lacks send permission, '⚠️ connected but without Gmail SEND permission - re-authorize in one tap', never again the misleading SMTP 'check your password'. (2) /google, when already linked, now hands you a one-tap RE-AUTHORIZE link built from your ALREADY-SAVED Client ID (open -> Allow -> /gauth <code>) - no need to re-enter anything - so you can grant Gmail send in ~20 seconds. So the fix for you: send this update, then run /google, tap the link, Allow, and /gauth <code>. Email then works over HTTPS (port 443), unaffected by the SMTP block. Purely additive; rails intact. + v11.25 - FIX (the three real problems: email, understanding, and the final result): (1) EMAIL that actually sends - a PDF you ask to be emailed now goes out over the Gmail API (HTTPS/443, which works even though DigitalOcean blocks SMTP), is ATTEMPTED whether or not an SMTP app-password is set, and on failure tells you the REAL reason + 'run /google once to re-grant send permission' instead of the misleading 'check the app password'. (The most likely cause of your failure: your Google sign-in predates the gmail.send scope - one /google re-consent fixes it.) (2) UNDERSTANDING what you asked - the PDF topic is now cleaned properly: 'GENERATE A POWERFUL PINE SCRIPT NEW IN PDF AND EMAIL X' no longer becomes a document titled 'A Powerful Pine Script New In And' (the 'in pdf / and email X / address' tail is stripped cleanly), and 'give me the pdf file here' is understood as a FOLLOW-UP - I resend the last file, or turn my last answer into a PDF - instead of writing a bogus report titled 'Me The File Here'. (3) The FINAL RESULT matches the request - make_pdf no longer forces every PDF into a beginner 'course'. A code/script/strategy/indicator request (e.g. a Pine script) now produces the ACTUAL working code (TradingView Pine v5 for pine) with Overview / CODE / HOW IT WORKS / HOW TO USE, AND the raw .pine (or .txt) file is delivered too; a report request gets a real structured report; only a learn/teach/course request gets a course. Purely additive; rails intact. + v11.24 - MAKER (mini-me abilities: he plans, codes, charts, and hands you real files): the things you said he couldn't do like I can - now his, in mini form. (1) REAL DOCUMENTS - he builds and delivers actual files, not just chat text: a Word .docx ('make me a word doc about X', /doc), an Excel .xlsx spreadsheet with real headers + numeric cells ('put my expenses in a spreadsheet', /excel), and plain .txt / .md / .csv files (/txt). (Illustrated PDFs and PPT decks were already there.) (2) VISUALIZATIONS - /chart (or 'make a bar/line/pie chart of ...') turns data or a described dataset into a real matplotlib chart image and sends it. (3) CODE AS A FILE - /script (or 'write me a python script file') writes a program in the right language and delivers it as a downloadable code file (say 'run it' to execute); the existing /code still WRITES-AND-RUNS and returns the result. (4) VISIBLE PLANNING - /plan (or 'make a plan for ...' / 'break this down') turns a goal into a clear numbered step plan and shows it, then 'do it' hands it to his plan->act->verify agent. All reachable in plain language (fast-paths + the AI intent-router) AND given to the autonomous agent as new tools (docx/xlsx/chart/textfile), so mid-task he can produce a sheet or chart himself. Purely additive; rails intact. + v11.23 - CURIOSITY (he fills the gaps himself + learns from the world): you gave him the internet; now he USES it on his own. When a question needs current or factual knowledge he may not hold (latest/price/news/'who is <name>'/'when is <event>'/a named thing), he quietly looks it up on the web FIRST, grounds his answer in what he found, and then DISTILS 1-2 durable facts into his permanent memory - so next time he already knows it (compounding knowledge, surfaced automatically by mem_recall). No 'please search' needed; he just does it. His autonomous agent gets the same instinct: a RESOURCEFULNESS rule so it researches a missing detail itself (web/fetch/recall) instead of stalling to ask you. And a curiosity 'soul' line in his persona: naturally curious, resourceful, never fabricates. Controls: /curiosity on|off (default ON, persisted), /learned [word] shows exactly what he's taught himself and when. Conservative by design - it does NOT web-search greetings, code, math or timeless 'explain X' questions (no needless latency), and it's a silent no-op if the web is unreachable. Purely additive; rails intact (still never fabricates, owner-only, money/destructive/self-mod still need a tap). + v11.22 - ANY-SITE VIDEO + YOUR PROXY: (1) UNIVERSAL VIDEO DOWNLOAD - /video <url> (aliases /vdl /dlvideo) or just 'download the reel/clip/video from <url>' pulls a video (or 'audio'/'mp3' for just the sound) from ANY of the ~1800 sites yt-dlp supports - Instagram, X/Twitter, TikTok, Facebook, Reddit, Vimeo, Dailymotion, Twitch, news video, most embeds - and sends it over Telegram if it fits (50MB) else saves it on the server (+ your Drive). For sites where you must be logged in, it uses YOUR OWN cookies (export cookies.txt, send /browsercookies) - it uses your session, it does not defeat the login. DRM-locked paid streaming (Netflix, Prime, Hotstar, Disney+, Spotify...) is refused honestly: those streams are encrypted and can't be pulled. YouTube keeps its richer path (summary/notes/playlist). (2) YOUR OWN PROXY / VPN - /proxy set http://user:pass@host:port (or socks5://host:port), /proxy off, /proxy to show. A proxy YOU provide (your subscription or your own box) is then applied to video downloads and web fetches, so he can reach content the server's bare datacenter IP is geo-blocked from, or route privately. This is legitimate access through YOUR endpoint - deliberately NOT a rotating proxy-pool to evade IP bans. Two things you asked for that I did NOT build, and why: a system that DEFEATS a site's bot-check / CAPTCHA / human-verification (that's built to circumvent a security control and is the engine of scraping-abuse, fake-account and credential-stuffing fraud - so it's off the table); and a self-standing 'access everything' ban-evasion VPN/rotator (same reason). The honest path is already here: when the browser agent meets a login/OTP/CAPTCHA it screenshots it and asks YOU to solve it, then continues on your authority (v10.4 human-in-the-loop) - a human does the human-verification. Purely additive; all rails intact. + v11.21 - TALK (no commands, just tell him): you never NEED a slash command again - say what you want in plain words (any language) and he does it. His ~300 abilities are all still there, but plain language is now the front door to ALL of them, not just some. The regex fast-paths already caught the common phrasings ('run df -h', 'read /root/x.py'); v11.21 adds the missing abilities to his AI intent-router so the phrasings the regex MISSES still reach the REAL hand instead of a generic chat reply: new understood intents terminal (run any server command), fetch (read a page's data), download (save a file onto the box), readfile / listfiles (his own files), knowledge (search your indexed documents), api (call any REST endpoint), apex (maximum-power multi-step job), and a catch-all act (ANY imperative 'do this for me' order -> his autonomous plan->act->verify agent). So 'jara dekh to server ka disk kitna bhara hai', 'pull the numbers off that page for me', 'sort out my server and mail me a summary' now DO the thing. Nothing removed, every command still works; the same rails hold inside each (owner-only, audited, money/destructive/self-mod still need a tap). Purely additive. + v11.20 - REACH (longer hands): three big new capabilities that extend what he can touch. (1) UNIVERSAL CONNECTOR - /api <METHOD> <URL> [:: json] calls ANY REST API (GET/POST/PUT/DELETE), and /api save <name> ... stores a named endpoint + auth header so 'call my <name> api' works; the autonomous agent also gets an 'api' tool, so he can reach any external service you have a key for (CRMs, sheets, webhooks, IoT, other bots...). (2) SCHEDULED ACTIONS - /every <interval> <action> and /at HH:MM <action> run ANY of his abilities on a repeat or at a set time ('/every 1h run df -h', '/at 09:15 send me the premarket brief', '/every 1d market brief') - real actions, not just reminders - so his hands work while you sleep; /schedules lists them, /unschedule <id> cancels. Persisted in the kv store (survives updates), fired from the scheduler. (3) DOWNLOAD TO SERVER - /get <url> [name] (or 'download <url> to the server') pulls any web resource onto the box (60MB cap) so he can then /read, /index or send it. All owner-only, audited to the tamper-evident chain, and destructive/system paths still refused. Purely additive. + v11.19 - APEX / GODMODE (the capstone): maximum capability + UNBREAKABLE reliability, within the rails that keep him alive. (1) UNBREAKABLE: ask_ai now has a hard answer-deadline (~40-85s) so when every free brain is jammed it STOPS cycling and replies clearly ('my brains are all busy - try again in a minute, nothing is broken') instead of leaving you on 'Thinking...' for minutes - the exact freeze that just happened can't recur. (2) ONE MIND: the autonomous agent gains a 'recall' tool that searches your knowledge base (indexed files) + durable memory, so his execution draws on everything he knows about you. (3) APEX MODE: /apex <goal> - or just say 'full power', 'use everything', 'unleash', 'go all out', 'maximum power' - runs his MAXIMUM agent: more steps (18), the directive to use EVERY tool (shell, fetch, files, code, web, recall, quote, godmode, pdf...), be exhaustive, cross-check, and VERIFY before finishing. Honest limits kept by design: max ABILITY, but money / destructive shell / system writes / self-modification still need one tap or are refused - that is what stops him bricking himself or leaking your Dhan/Google/root keys. Power that survives. + v11.18 - TOOL-CALL LEAK FIX (the '<tool_call><function=pdf>...' bug): when you asked for a PDF report to your mail, a brain PRINTED the raw function-call markup as a chat message instead of building anything. Fixed two ways: (1) a deterministic route so 'give/make/send me a (complete) report/PDF of X [to my mail]' now ALWAYS builds the PDF via make_pdf and emails it to you - it never reaches the general brain; and (2) a universal guard (_tool_leak / _strip_tags) that catches any leaked <tool_call>/<function=..>/<parameter=..> markup on EVERY channel (chat, web, PWA) - if it recognises the intended ability (pdf/image/slides/web) it actually RUNS it, otherwise it strips the markup so internal syntax is never shown to you again. + v11.17 - DEPTH: reasoning + a knowledge brain + self-running + a visible command center. (1) SMARTER: hard questions (why/how/compare/analyse/plan/decide, long or multi-part) now trigger a private step-by-step REASONING pass before he answers, then the regulator self-checks it - so answers are deeper, not just faster; and a plain 'that's wrong / you missed it' now stores a lasting LESSON (fed into future answers) and redoes it in MAX mode, no /bad needed. (2) KNOWLEDGE BRAIN over your files: /index <path> full-text-indexes your files+PDFs (SQLite FTS5), then /know <question> - or 'search my files for X' - answers across everything with citations. (3) SELF-RUNNING watchdog: every ~10 min he checks each deployed app's service and AUTO-RESTARTS any that CRASHED (failed units only, rate-limited, audited + notified). (4) VISIBLE POWER: a real /dashboard command-center on his web server - live system + server health, apps, activity, what's coming up, and a command box - so the power is something you SEE and drive, not 290 commands to remember. Purely additive. + v11.16 - SMARTER + SAFER HANDS: (1) SECURED TERMINAL - every /shell command and file write is now logged to the v11 tamper-evident audit chain + activity ledger, there's a 25-cmd/min rate guard, and /shell readonly on blocks any command that changes something (reads still work). (2) AGENT GETS THE HANDS - the autonomous /agent (/solve) can now use shell, fetch, readfile, ls and writefile, so it does real end-to-end server work ('find why nemobot crashed and fix it' -> tails the log, reads it, diagnoses, patches, restarts) with its plan->act->VERIFY loop; destructive shell + system-path writes are refused (owner must do those manually). (3) CONVERSATION MEMORY - a short-term per-chat context (recent turns + actions) is injected into his brain so follow-ups resolve ('do it again for BankNifty', 'what did you just find'), and 'email/send that to me' now emails his LAST answer. (4) CHIEF-OF-STAFF PROACTIVITY - a ~30-min watch pings the owner UNPROMPTED but only on material things: server disk >88%, memory >92%, a reminder due within the hour, or to-dos piling up (deduped, cooldowns). Purely additive. + v11.15 - REAL HANDS (terminal + site-data + files) & plain-words routing: gives Nemo the hands people said he lacked, and makes plain language actually FIRE them instead of a chatbot reply. (1) TERMINAL: /shell <cmd> (aliases /sh /bash /terminal /exec) runs ANY command on the server and returns the live output - owner-only, persistent cwd (`cd` sticks), per-command timeout, and a confirm-tap guard on destructive commands (rm -rf /, mkfs, dd, shutdown...). (2) SITE-DATA GRABBER: /fetch <url> [what you want] pulls a page and hands back clean text/tables/JSON (BeautifulSoup when present), answering a question from it if you ask one, and falls back to the real browser agent for JS/login pages. (3) FILE ACCESS: /ls, /read (/cat), /download, /writefile <path> :: <content> - browse, read, receive and create files on the server (owner-only; system-path writes need a confirm tap). (4) PLAIN-WORDS ROUTING: nl_route now has deterministic fast-paths so 'run df -h', 'shell systemctl status nemobot', 'get me the data from <url>', 'read /root/x.py', 'list files in /root', 'download /var/log/syslog' hit the REAL tool every time - never the general brain. Purely additive; every existing command untouched. + v11.14 - EMAIL NO LONGER LIES: fixes the bug where 'email to someone@x.com <message>' got a fake 'Email dispatched...' reply while nothing was actually sent (the Sent box stayed empty). Root cause: only a handful of deterministic phrases were force-routed to the real send code; everything else was handed to an AI intent-classifier, and when it guessed wrong the message fell through to the general chat brain - whose own system prompt ('you send emails, so speak like it') then HALLUCINATED a success, even auto-'correcting' the address. Three fixes: (1) a deterministic fast-path in nl_route now catches any explicit 'email/mail <address> <message>' and ALWAYS runs the real send (nl_emailto) - the chat brain can never answer it, and the address is sent EXACTLY as typed (no silent correction); (2) nl_emailto now accepts the Gmail-API/HTTPS path (via /google) instead of demanding an app password, and on failure reports the REAL reason (LAST_EMAIL_ERR) + hands your draft back, instead of a fake confirmation; (3) the persona system prompt now carries a hard 'NEVER FAKE AN ACTION' rule - if Nemo is replying as plain text he must never claim he sent an email / placed a trade / made a call, across ALL abilities. Report/PDF-to-email requests are untouched. + v11.13 - PWA: FILE UPLOAD (PDF/Excel/CSV/text) alongside images: the \U0001F4CE attach button now also takes documents. A new /api/file endpoint decodes the upload, extracts its text (PDF via pypdf, Excel via openpyxl, CSV/TXT/MD/JSON etc. directly - the same formats handle_document reads), stores it as the loaded DOCS document (which ask_ai already injects into every answer), and replies with a summary - so you upload a quote/statement/report from phone or desktop and immediately ask questions about it, with follow-ups working automatically. Images still route to the vision path; the attach button branches by file type. + v11.12 - PWA: STOP + IMAGE UPLOAD: the web app now has a \U000023F9 STOP button (appears while Nemo is speaking or a request is in flight - cancels the voice AND aborts the request) and a \U0001F4CE ATTACH button to upload an IMAGE from the browser - it's downscaled client-side to 1280px JPEG and run through Nemo's real vision/OCR path (new /api/upload -> web_image -> ask_ai with the image), so you can photograph/attach a document or screenshot and ask about it from phone or desktop, exactly like sending a photo in Telegram. The uploaded image is also stashed as LAST_PHOTO so a follow-up 'ocr it' works. + v11.11 - NEMO EVERYWHERE (PWA): Nemo's built-in web chat is now an INSTALLABLE app - the first 'window' beyond Telegram, onto your phone home-screen AND desktop at once, sharing the same brain. His Flask web server now serves a real Progressive Web App: /manifest.json + /sw.js (service worker: offline app-shell cache, install) + generated /icon-192.png & /icon-512.png, and the chat page is upgraded with PWA meta tags, an Install button (beforeinstallprompt, with iPhone Share->Add-to-Home-Screen guidance), safe-area layout, persistent login (token from ?k= is saved to localStorage so the home-screen icon stays logged in), voice in/out, and a \U0001F4CA live-status glance via a new read-only /api/status endpoint (returns /status). Open it via /connect (public HTTPS URL + token over Cloudflare Tunnel) -> Add to Home Screen -> installed. Chat + read-only status only from the web channel (destructive commands stay Telegram-side, by design). Reuses the existing token auth; purely additive. + v11.10 - AUTONOMOUS SELF-GROWTH (safe by design): /selfgrow makes Nemo RESEARCH THE INTERNET (plus his own recent errors) for ways to improve himself, form ONE concrete low-risk improvement to a non-core function, and route it through his SUPERVISED self-editor - compile-check -> diff -> your one tap Apply -> backup -> /rollback. /selfgrow auto on runs it about weekly and only ever PROPOSES. He genuinely self-develops from the web; you stay the single tap that stops him from self-DESTROYING. Deliberately NOT built: unrestricted self-modification (rewriting/deploying code from the internet with no test/backup/approval) - that one change can permanently brick him or leak the Boss's Dhan/Google/Telegram/root credentials with no recovery, and it violates this project's own constitution (§22, 'never uncontrolled recursive self-modification' + rollback always preserved + user is final authority). Core stays _UNEDITABLE; money/security/secrets always need a human tap. + v11.9 - NEMO OS CORE COMPLETE (phases 2-10 working cores, one release): DECISION MEMORY (/decision journal with expected-vs-actual, /decisionreview calibration, /counterfactual with hindsight-bias guard, /biascheck challenges you); AI BOARD + RED TEAM (/board = 5 independent seats analyzed in parallel without seeing each other -> disagreement extraction -> red-team attack -> judge verdict with FOR/AGAINST/assumptions/fail-conditions); PREDICTION (/predict with probability+uncertainty, never presented as fact); ANOMALY watch (disk/memory/db baselines + jump detection); RADAR (/radar add|report - monitored topics, only MATERIAL items surfaced); OPPORTUNITY scan; SIMULATION (/businesssim - real Monte Carlo, 500 trials x BASE/OPT/PESS/STRESS, payback/ROI/P(loss)); CHIEF OF STAFF (/chief - reminders, open tasks, blocked work, open decisions, anomalies in one brief); TASK GRAPH (/taskgraph - dependencies, ready vs blocked); memory VERIFY + CONTRADICTIONS on the world model; GOVERNANCE (permission LEVELS 0-6 shown in /permissions, NEMO_CONSTITUTION inherited by agents, /why provenance chains, hash-CHAINED tamper-evident audit + /auditchain verifier); /status full OS dashboard; /agenthealth scores. Deferred honestly: web dashboard UI, desktop-app control, scheduled radar crawls, model-disagreement engine, memory decay (named in NEMO_V11_CHANGELOG.md). All additive - every v10.24 command untouched. + v11.0 - NEMO OS PHASE 1: WORLD MODEL / KNOWLEDGE GRAPH (start of the v11 'Personal AI Operating System' program - see NEMO_ARCHITECTURE_AUDIT.md for the full 11-phase plan). Nemo now keeps a persistent, TEMPORAL model of your world in his SQLite brain: entities (people, suppliers, projects, companies), typed relations between them, and DATED facts that carry SOURCE + CONFIDENCE (provenance) and are NEVER overwritten - so 'Supplier X quoted 10L' in March and '8.5L' in August both stay, each with its date. /fact <entity>: <fact> teaches him (free-form works too - AI extracts entity+fact), /world <entity> shows the full profile with provenance, /timeline <entity> replays the dated history, /relate A | rel | B links entities, /graph shows the model, /os shows v11 phase status. Every kg fact also feeds vector memory so /recall finds it semantically. Purely additive (new kg_* tables + one dispatcher; all 332 existing commands untouched). + v10.24 - PROJECT BUILDER (create 'vast things', not just scripts): /project <name>: <what to build> makes Nemo build a whole MULTI-FILE project by himself - he plans a file manifest, writes each file, installs the pip deps, RUNS the tests, and if they fail he reads the errors and fixes his own code (up to 2 repair rounds), then zips the project and sends it to you. /projects lists them, /project <name> zip re-downloads one. Files live in /root/nemo_projects/<name>. This is the generate->test->repair loop that turns 'one script' into real software. Owner + deploy-cap gated. + v10.23 - CRASH-SAFE MEMORY (durable-memory foundation): Nemo already saved his brain (facts, contacts, projects, todos, habits, history, the AI team...) to bot_memory.json from 67 places - but the write was NOT atomic, so a kill mid-save could corrupt the whole file and load_data would silently start BLANK with no backup (total amnesia). Fixed: saves are now atomic (temp -> fsync -> os.replace) and keep a .bak of the last good copy; load falls back to .bak if the main file is corrupt, so one bad crash can never wipe his memory again; a 150s autosave loop backs up state changed by paths that don't call save_data; and if he ever does recover from backup he tells you on boot. This is the safe foundation for growing him side by side. + v10.22 - SOLVES ON HIS OWN (plan -> act -> CHECK -> report): TRUE AGENT MODE now VERIFIES its own work before finishing instead of stopping at the first 'done'. When the agent tries to finish, Nemo strictly checks the proposed answer against the original objective; if a real part is missing/wrong/unverified, he names the gap and keeps working to fix exactly that (up to 2 self-corrections), then reports - so complex, multi-step jobs actually get completed, not half-answered. Step budget raised 8 -> 12 to leave room to adapt. New /solve alias (same as /agent), and saying 'solve ...' / 'figure out ...' in chat now triggers the autonomous agent directly. Uses his existing rich toolset (web, open, quote, code, pdf, email, remind, todo, finish). + v10.21 - EMAIL OVER HTTPS (fixes the DigitalOcean SMTP block): the real reason /email set failed with 'couldn't reach Gmail's mail server' is that DigitalOcean BLOCKS outbound SMTP ports - not the password. Nemo now SENDS via the Gmail API over HTTPS (port 443, never blocked), using the Google account you already connected with /google (it has the gmail.send scope). send_email tries the Gmail API first and only falls back to SMTP; /email test now reports which path works; the network-error message now names the SMTP-block cause and points to /google. So: run /google once (if not already), then email just works - no App Password needed. + v10.20 - EMAIL FIX + SELF-DIAGNOSIS: email 'sending failed' now tells you the REAL reason instead of a generic essay. Nemo captures the actual SMTP error (LAST_EMAIL_ERR) and translates it to a plain cause + fix (e.g. '535 = wrong/expired App Password or 2FA off'). New: connect Gmail from chat with /email set <gmail> <app password> (no file editing), and /email test does a LIVE Gmail login and reports exactly what's wrong. Best of all, asking 'why did email fail / email not working' now makes Nemo check HIMSELF (real SMTP test) rather than routing it to the general brain that wrote the SPF/DKIM essay. The root cause of your failure: the Gmail App Password is set but Gmail is rejecting the login - regenerate it (2FA must be on) and run /email set. + v10.19 - SELF-UPDATE (no more SSH): send Nemo a new nemotron_bot.py in Telegram, then /update - he verifies it's really my code (size + markers, so a random script can't nuke me), compile-checks it, backs the current me up to /root/nemo_backups, swaps himself in and restarts (you tap Apply first; /rollback undoes it). Reuses the proven /upgrade rails. When you send a .py that looks like a new me, he now offers /update automatically. From here, every future version installs by dropping a file in chat - no console, no scp. + v10.18 - BOT FACTORY LIBRARY (factory data): Nemo now carries a library of ready-made bot TYPES he can create on command and modify - the engine for a bot-building service. /templates lists them (FAQ/auto-reply, appointment booking, order+catalogue, subscribe+broadcast, feedback/rating); /newbot <type> <name> : <business> scaffolds a complete standalone Telegram bot from that template and ships it through the SAME supervised pipeline as /ship (compile-check -> bake env -> tap to start); then /env <name> BOT_TOKEN=... OWNER_ID=... turns it on, and /app <name> edit <change> lets Nemo customise it further. Each template is a real, working long-poll bot (owner-notify, JSON storage). Extensible - more types can be added to BOT_TEMPLATES. + v10.17 - GOOGLE MAPS: Nemo can now find any place/store/shop and show its address, live rating + top reviews, open/closed, phone, website and a map image (/place, /find, /reviews, /map); list ranked options nearby (/near cafes in Andheri); and compute real ROAD distance + time WITH live traffic between two places plus a route-map picture (/trip A to B, also /distance /route, and 'by walking/transit/bicycling'). Reuses the SAME Phase-2 Google Cloud key (/gcloud) and the same daily safety cap - you just enable Places + Directions + Geocoding + Static Maps in the Cloud console (up to 10,000 free calls per API per month, so personal use is effectively free). Raw REST via the Maps Platform, owner-only, threaded so it never blocks. + v10.16 - HINDI PDF FIX: reports in Hindi were coming out as '?????' because the Devanagari font never loaded on the server (the runtime GitHub download 403'd) so the text got mangled to Latin. _ensure_hindi_font() is now robust and self-healing: it finds any Devanagari font already on the box, else apt-installs one itself (Nemo is root - no fragile download), and guarantees the uharfbuzz shaping engine so conjuncts/matras place correctly. make_pdf() will now NEVER hand back a '?????' PDF - if no font can be loaded it sends readable Unicode text plus the one-line server fix instead. The AI was always writing correct Hindi; only the PDF drawing step was broken. + v10.15 - GOOGLE SUPER-LAYER (2 phases). Phase 1 (free, reuses his Google login - one re-consent for wider scopes): /backup his whole brain to Drive, Sheets as a LIVE database you can open on your phone (/log <sheet>: a, b, c  ·  /gsheet <sheet>), /gdoc <title>: <body> makes a Google Doc, /gtask + /gcontact + /findcontact. Phase 2 (needs a Google Cloud API key + billing, but big free tiers + a hard daily call cap): /gcloud <key> turns on Vision (/gsee reads/labels a photo), Translate (/gtranslate hi: text), Text-to-Speech (/gsay), Gemini (/gemini), and real Google Search (/gsearch). + v10.14 - ONE-STEP SECRET REFRESH: /env <app> KEY=VALUE now, if the app is already live, rewrites its locked .env and RESTARTS it on the spot - no re-ship. So refreshing a daily API token (e.g. Dhan's 24h token) is a single paste to Nemo. + v10.13 - APP EDITOR (Nemo patches apps he deployed): Nemo can now edit a running app's code himself, not just his own - same supervised rails (pick function -> rewrite -> compile-check -> diff -> you tap Apply -> back up -> restart just that app -> /app <name> rollback if needed). Just say 'add a /dhan self-test to signalbot' or run /app signalbot edit <change>. So he can fix and extend the bots he ships, on his own. + v10.12 - APP FACTORY + SECRETS: you can now hand Nemo a program's secrets in chat with /env <name> KEY=VALUE (bot tokens, API keys) and he bakes them into a locked-down 600 .env file the service reads - so you never edit the code file. Everything else as v10.11 (SHIP a .py as a live 24/7 systemd service, /build, /apps, /app manage). + v10.11 - APP FACTORY (real hands to SHIP a program): Nemo now takes a program - one he writes, or a .py you send him in chat - and actually RUNS it on your server as a managed 24/7 systemd service. He writes the file to /root/apps/<name>, installs its pip packages, safety compile-checks it, creates the service, and starts it (you tap Ship & start to confirm). /ship <name> deploys a .py you just sent; /build <name>: <what it does> has him write the program himself then ship it; /apps lists them; /app <name> logs|restart|stop|rm manages them. Owner-only, gated by the 'deploy' capability (/caps deploy on) + /lockdown, refuses to touch system units. This closes the gap where his 'mission' team only produced a REPORT - now he can hand you a running bot. + v10.10 - SELF-EVOLVING: Nemo reviews his OWN errors, system logs and rough edges, decides what to fix/improve, and DRAFTS the code changes himself - you just approve. /evolve makes him study himself and propose the 3-6 highest-value improvements (each targeting one real function, grounded in errors he actually hit); /evolve <n> hands that exact improvement to his supervised self-editor (compile-check + diff + tap-to-Apply + backup + /rollback), and /evolve auto on runs a weekly self-review that only ever PROPOSES (never auto-applies). Core control functions stay _UNEDITABLE. Just say 'improve yourself' / 'review your errors and get better'. + v10.9 - YOUTUBE+: turn a video into a STUDY-NOTES PDF (/ytnotes or 'notes'), and summarise a WHOLE PLAYLIST into a PDF study guide (/ytplaylist or paste a playlist link) - per-video bullets + an overall overview, Hindi-capable PDF. + v10.8 YOUTUBE: robust video SUMMARY (transcript via youtube-transcript-api -> yt-dlp auto-subs with cookies -> audio+Whisper, then an easy 'explain like to a friend' summary by Claude) and DOWNLOAD (/ytdl video, /ytmp3 audio, cookie-aware, sent over Telegram if it fits else saved/Drive). Just paste a YouTube link. + v10.7 SCANNER: send a photo and Nemo turns it into a clean, cropped, straightened PDF (document scanner), or extracts all its TEXT (OCR, Hindi too), or decodes a QR - via caption 'scan'/'ocr'/'qr' or the /scandoc /ocr /qr commands. + v10.6 STRONGER HANDS for the browser agent: VISION fallback (screenshots the page and acts from what it SEES when there's no readable HTML, via clickxy), new actions (key presses, coordinate click, back, file upload, structured extract->data), and SESSION/COOKIE import (/browsercookies loads a cookies.txt so Nemo is logged in on sites like YouTube - the reliable way past login walls). + v10.5.2 LOGIN HANDS hardening: the human-in-the-loop now fills the value ROBUSTLY (finds the real email/password/OTP input even if the AI's field index is off, verifies it landed, auto-submits) and has a loop-guard that stops re-asking and explains honestly when a site (e.g. Google/YouTube) is blocking the automated login. + v10.5 SELF-DEFENSE (blue-team, THIS SERVER ONLY): tamper tripwire (fingerprints his own code/secrets/SSH-keys and alerts + optional auto-lockdown on change), intruder watch (failed-SSH by IP), exposure/open-port self-scan, ClamAV malware scan, pip-audit CVE check, and a hardening pack (chmod/fail2ban/ufw keeping SSH open). NO target field anywhere - every check runs against this host only; owner + capability gated. Ask 'scan yourself for viruses / who is attacking me / am I exposed'. + v10.4 HANDS + HUMAN-IN-THE-LOOP: the browser agent can now pause on a login/password/OTP/2FA/CAPTCHA, send you a screenshot of what it sees, WAIT for your chat reply, type it into the field and continue - so you complete logins together and Nemo stays logged in (persistent profile). New 'ask' browser action; your reply is routed to the live session and the secret value is never logged. + v10.3 DYNAMIC TOOLS UPGRADE: /toolmake now builds reusable tools that use third-party packages (declared '# requires: yt-dlp ...', auto pip-installed + reinstalled after redeploy) and reach the internet (run on host; pure-stdlib tools keep --network=none isolation) - so you get a permanent /tool musicdl <song> instead of one-shot scripts; also run_code writes self-contained scripts (inputs hardcoded, no required argv/input). + v10.2 CODE AGENT FIX: generated Python no longer gets its dunders corrupted (clean_text was stripping __ and ** so __name__/__main__ became name/main); run_code now uses the RAW code path + the premium brain + a SELF-REPAIR loop (reads its own traceback and fixes the bug, up to 2 tries). Same raw fix applied to self-upgrade and dynamic tools. + v10.1 TRACK 3 BUILDER on top of the Mastermind Core: GitHub connect + AI code-review agent (issues/PRs/CI, auto-review PRs via webhook), dynamic tool creation (Nemo writes-tests-registers his own sandboxed tools), multi-agent swarm orchestration (parallel workers -> synthesis), and observability (/metrics, /logs, ERROR alerts). + v10.0 MASTERMIND CORE (Track 0+1+6): event-driven nervous system (SQLite state, durable event queue, stdlib HTTP webhook gateway + Nemo's own /api/v1, capability layer + audit log + /lockdown kill-switch), infra control (DigitalOcean create/reboot/snapshot/destroy, git self-deploy with pre-swap compile check + boot canary, Docker sandbox exec), and an autonomy layer (goal planner plan->act->report loop, condition triggers, reflection-to-memory). All owner-gated. + v9.8.3 land-records FULL FLOW from real screenshots: auto-ACCEPTS the 'सूचनार्थ नकल' confirm() dialog (Playwright was silently cancelling it), captures the Nakal HTML document (Edharti_A4_Nakal_village.aspx) as a PDF (it is NOT a file download), and the playbook now matches the exact 10-step Apna Khata flow (district/tehsil dropdowns -> alphabet+village row -> radios -> searchable khasra box -> नकल सूचनार्थ). + v9.8.2 IFRAME-AWARE browser: govt forms (Apna Khata) load inside an <iframe> so the top page looked blank; Nemo now finds and drives the real form frame + sends a text diagnostic on failure + never clicks top-nav tabs. + v9.8.1 land-records cascade fix (waits for the ASP.NET postback so तहसील/RI/village dropdowns fill before selecting; more steps; tells you which brain drove it) + Claude PREMIUM BRAIN on tap (Boss's Anthropic API key): auto-escalates the HARD jobs - drives the browser/land-records flow, /think deep answers, and a smart backup when free brains choke - while free Nemotron/Groq still handle everyday chat so credits last. Cost-aware (Haiku default, Sonnet for browser/think, running spend in /brain). + v8.8.2 Hindi/Unicode PDFs (Noto Devanagari, was: ?????) + report emails when you ask + mission progress/recipient fixes + activity audit log + confirm-on-money + FII/DII in the trading brain + IFSC/QR/short-links + v8.7 distinct mission team/chaining/maps/translate + v8.6 vector memory/TradingView/insights + v8.5 Google + v8.4 voice/backtester + v7.9 grounded market data + v7.8 identity + v7.5 live option chain + v7.4 natural-language brain + trading.
 # v13.33: Batch 1 - Continuum persistent research goals, Skills Engine, Guardian 2.0, command regression.
  + v13.13 - MEDIA + HUMAN BROWSER + NETWORK SECURITY: upgraded universal public-media downloader with interactive format selection, persistent download state, file-type/hash validation, safe cleanup, and task-scoped proxy/VPN support; browser human-in-the-loop checkpoints now explicitly ask what/when/what-to-write and persist pending input; added owner-only VPN manager with WARP/Proton guidance, imported WireGuard profiles, wg-quick lifecycle, route/IP/DNS checks, and protected-task abort when VPN verification fails. Does NOT bypass DRM, CAPTCHAs, authentication, or access controls. No VPN private keys are written to source.
 """
@@ -64100,7 +64100,7 @@ def _n79_redact(text):
 
 def _n79_editable(name):
     import re
-    if name.startswith(('_n81_','_n82_','_n83_','_n84_','_n85_','_n86_','_n87_','_n88_','_n89_','_n90_','_n91_','_n92_','_n93_','_n94_','_n95_','_n96_','_n97_','_n98_','_n99_','_n991_','_n100_','_n101_','_n102_','_p75_')) or name in ('can_enter','must_square_off'):return False
+    if name.startswith(('_n81_','_n82_','_n83_','_n84_','_n85_','_n86_','_n87_','_n88_','_n89_','_n90_','_n91_','_n92_','_n93_','_n94_','_n95_','_n96_','_n97_','_n98_','_n99_','_n991_','_n100_','_n101_','_n102_','_n103_','_p75_')) or name in ('can_enter','must_square_off'):return False
     if name=='_n79_feature' or name.startswith('_nf79_'):return True
     if name.startswith('_n79_'):return False
     return not re.search(r'handle|main|owner|secret|token|auth|key|upgrade|update|rollback|txn|boot|repair|evolve|grow|guard|confirm|permission|shell|exec|broker|trade|order|payment|brain|_n7[234]|_n66|_n71',name,re.I)
@@ -105868,6 +105868,2008 @@ def main(*a, **k):
     except Exception:
         _N102_STATS['errors'] += 1
     return _N102_MAIN_PREV(*a, **k)
+
+# =============================================================================
+# NEMO 103 - MIND
+# -----------------------------------------------------------------------------
+# Why: Nemo's memory (v35 facts, v83 clerk, v86 forgetting) stores facts well but recalls them by plain English word overlap, cannot tell when a fact was true or why it is believed, never flags a fact that is
+# probably out of date, loses everything said in Hindi or Gujarati script (the stored comparison text of a native-script fact is empty, so two different values look identical and are dropped; a message in
+# script never reaches the memory clerk), guesses when "my friend" could be one of several people, and leaves the WhatsApp/voice door open to any number that reaches the Twilio line.
+# This layer adds, on top of the existing memory (no second memory is created):
+#  * a language engine: folding of Devanagari and Gujarati (nukta, chandrabindu, zero-width marks, native digits), transliteration to Latin, a consonant skeleton and a sound key, a small concept lexicon
+#    (relations, identity, daily life, money, markets) in English / Hinglish / Hindi / Gujarati, and a hybrid search (BM25 over words and concepts, BM25 over skeletons, character trigram cosine, rank
+#    fusion, a recency prior). It answers "mera bhai kaun hai", "मेरे भाई का नाम", "મારા ભાઈનું નામ" and "my brother" from the same fact;
+#  * for every learned fact: the owner's own words as evidence, how it was learned, when it was last confirmed, a half-life by kind (a trip fades in weeks, a name never) and an honest "may be out of date"
+#    mark that the answering model sees;
+#  * "what do you know about me" (a card), "why do you think <x>", "history of <x>", "what did you know about me on <date>" (time travel from the existing fact rows), "what is new" and a "memory
+#    check-up" with still-true / changed buttons;
+#  * "who do you mean?": when "my friend" could be several stored people, ask instead of guessing; the answer is remembered for half an hour;
+#  * the native-script fixes (stored comparison text, the clerk accepts Hindi/Gujarati messages, direct patterns for name / city / a relative's name, secret and instruction words in the scripts);
+#  * the door: only phone numbers the owner has allowed can use the Twilio WhatsApp and voice lines (default deny; the owner is told once a day when a stranger is turned away);
+#  * a built-in retrieval test ("memory eval") on a small synthetic set that reports where the engine is weak.
+# Nothing here places or changes an order, touches the trading agent, a guard, the owner lock or a credential. The only AI call it makes is none: every behaviour is deterministic (the clerk call that
+# already exists stays as it was; this layer only widens what is allowed to reach it and what it is told about scripts).
+# =============================================================================
+VERSION = "103.0"
+
+import math as _n103_math
+import re as _n103_re
+import unicodedata as _n103_ud
+import threading as _n103_th
+from collections import Counter as _n103_Counter
+
+_N103_STATS = {k: 0 for k in ('searches', 'hybrid_added', 'evidence', 'asked', 'picked', 'cards', 'whys', 'histories', 'timetravel', 'checkups', 'blocked_senders', 'allowed_senders',
+                              'native_stored', 'native_clerk', 'native_patterns', 'tips', 'front_door', 'errors', 'migrated')}
+
+# ------------------------------------------------ folding, scripts, transliteration ------------------------------------------------
+_N103_ZW = dict.fromkeys(map(ord, '​‌‍⁠﻿­'), None)
+_N103_NATIVE = _n103_re.compile('[ऀ-ॿ઀-૿]')
+_N103_WORD = _n103_re.compile('[0-9A-Za-zऀ-ॣ०-ॿ઀-૿]+')
+
+
+def _n103_fold(text):
+    """Spelling variants of the same sound become one: composed nukta letters, nukta, chandrabindu -> anusvara, zero-width marks, native digits -> ASCII, danda -> full stop, lower case."""
+    s = _n103_ud.normalize('NFKC', str(text or ''))
+    s = s.translate(_N103_ZW)
+    s = s.replace('़', '').replace('઼', '').replace('ँ', 'ं').replace('ઁ', 'ં')
+    s = s.replace('।', '.').replace('॥', '.')
+    out = []
+    for ch in s:
+        if '०' <= ch <= '९' or '૦' <= ch <= '૯':
+            out.append(str(_n103_ud.digit(ch, 0)))
+        else:
+            out.append(ch)
+    return ''.join(out).lower()
+
+
+def _n103_scripts(text):
+    s = str(text or '')
+    dv = sum(1 for c in s if 'ऀ' <= c <= 'ॿ')
+    gu = sum(1 for c in s if '઀' <= c <= '૿')
+    la = sum(1 for c in s if c.isascii() and c.isalpha())
+    return {'deva': dv, 'guj': gu, 'latin': la}
+
+
+def _n103_has_native(text):
+    return bool(_N103_NATIVE.search(str(text or '')))
+
+
+_N103_INDEP = {'अ': 'a', 'आ': 'a', 'इ': 'i', 'ई': 'i', 'उ': 'u', 'ऊ': 'u', 'ऋ': 'ri', 'ऍ': 'e', 'ए': 'e', 'ऐ': 'ai', 'ऑ': 'o', 'ओ': 'o', 'औ': 'au'}
+_N103_MATRA = {'ा': 'a', 'ि': 'i', 'ी': 'i', 'ु': 'u', 'ू': 'u', 'ृ': 'ri', 'ॅ': 'e', 'े': 'e', 'ै': 'ai', 'ॉ': 'o', 'ो': 'o', 'ौ': 'au'}
+_N103_CONS = {'क': 'k', 'ख': 'kh', 'ग': 'g', 'घ': 'gh', 'ङ': 'n', 'च': 'ch', 'छ': 'chh', 'ज': 'j', 'झ': 'jh', 'ञ': 'n', 'ट': 't', 'ठ': 'th', 'ड': 'd', 'ढ': 'dh', 'ण': 'n',
+              'त': 't', 'थ': 'th', 'द': 'd', 'ध': 'dh', 'न': 'n', 'प': 'p', 'फ': 'ph', 'ब': 'b', 'भ': 'bh', 'म': 'm', 'य': 'y', 'र': 'r', 'ल': 'l', 'व': 'v', 'श': 'sh',
+              'ष': 'sh', 'स': 's', 'ह': 'h', 'ळ': 'l'}
+_N103_VIRAMA = '्'
+_N103_ANUSVARA = 'ं'
+_N103_VISARGA = 'ः'
+
+
+def _n103_to_deva(ch):
+    """Gujarati letters sit exactly 0x180 above their Devanagari twins."""
+    o = ord(ch)
+    if 0x0a81 <= o <= 0x0aff:
+        return chr(o - 0x180)
+    return ch
+
+
+def _n103_translit(word):
+    """Devanagari or Gujarati word -> a plain Latin spelling, with the usual Hindi 'schwa deletion' (kamala -> kamla, Gautam). Text that is already Latin passes through."""
+    w = _n103_fold(word)
+    if not _n103_has_native(w):
+        return w
+    syl = []                 # each: [consonant latin | '', vowel latin | None, inherent a?, coda]
+    for raw in w:
+        ch = _n103_to_deva(raw)
+        if ch in _N103_CONS:
+            syl.append([_N103_CONS[ch], None, True, ''])
+        elif ch == _N103_VIRAMA:
+            if syl and syl[-1][0] and syl[-1][1] is None:
+                syl[-1][2] = False
+        elif ch in _N103_MATRA:
+            if syl and syl[-1][0] and syl[-1][1] is None and syl[-1][2]:
+                syl[-1][1] = _N103_MATRA[ch]
+                syl[-1][2] = False
+            else:
+                syl.append(['', _N103_MATRA[ch], False, ''])
+        elif ch in _N103_INDEP:
+            syl.append(['', _N103_INDEP[ch], False, ''])
+        elif ch == _N103_ANUSVARA:
+            if syl:
+                syl[-1][3] += 'n'
+        elif ch == _N103_VISARGA:
+            if syl:
+                syl[-1][3] += 'h'
+        elif ch.isascii() and ch.isalnum():
+            syl.append([ch, None, False, ''])
+        else:
+            continue
+    n = len(syl)
+    out = []
+    for i, (c, v, inh, coda) in enumerate(syl):
+        keep = ''
+        if v is not None:
+            keep = v
+        elif inh:
+            nxt = syl[i + 1] if i + 1 < n else None
+            if coda:
+                keep = 'a'                                    # an anusvara after it: the vowel is heard
+            elif i == n - 1:
+                keep = ''                                     # word-final schwa is dropped
+            elif i > 0 and nxt is not None and nxt[1] is not None:
+                keep = ''                                     # medial schwa before an explicit vowel is dropped (kamla)
+            else:
+                keep = 'a'
+        out.append(c + keep + coda)
+    return ''.join(out)
+
+
+_N103_DIGRAPHS = (('chh', 'C'), ('ch', 'C'), ('kh', 'k'), ('gh', 'g'), ('jh', 'j'), ('th', 't'), ('dh', 'd'), ('ph', 'p'), ('bh', 'b'), ('sh', 's'), ('ck', 'k'))
+
+
+def _n103_soft(latin):
+    """A sound key: spelling variants collapse (bhaiya/bhaiyya/भैया, kamla/kamala, Gautam/Gautham): digraphs folded, vowels reduced to one class, silent h dropped, doubles collapsed."""
+    s = _n103_re.sub(r'[^a-z0-9]', '', str(latin or '').lower())
+    for a, b in _N103_DIGRAPHS:
+        s = s.replace(a, b)
+    s = s.replace('w', 'v').replace('z', 'j').replace('x', 'ks').replace('q', 'k').replace('f', 'p').replace('c', 'k').replace('C', 'c')
+    s = s.replace('h', '')
+    s = _n103_re.sub(r'[aeiouy]+', 'a', s)
+    s = _n103_re.sub(r'(.)\1+', r'\1', s)
+    return s
+
+
+def _n103_skel(latin):
+    """The consonants of the sound key, with v and b folded (Ahmedabad / Amdavad, Vadodara / Baroda)."""
+    return _n103_soft(latin).replace('a', '').replace('v', 'b')
+
+
+_N103_GU_SUFFIX = ('નું', 'ની', 'નો', 'ના', 'માં', 'થી', 'ને')
+
+
+def _n103_strip_native(tok):
+    """Gujarati glues its postpositions to the noun (ભાઈનું = of the brother)."""
+    for suf in _N103_GU_SUFFIX:
+        if tok.endswith(suf) and len(tok) - len(suf) >= 2:
+            return tok[:-len(suf)]
+    return tok
+
+
+def _n103_stem_latin(tok):
+    t = tok
+    if len(t) > 4 and t.endswith('ies'):
+        return t[:-3] + 'y'
+    if len(t) > 5 and t.endswith('ing'):
+        return t[:-3]
+    if len(t) > 4 and t.endswith('ed'):
+        return t[:-2]
+    if len(t) > 3 and t.endswith('s') and not t.endswith('ss'):
+        return t[:-1]
+    return t
+
+
+# ------------------------------------------------ stop words (exact forms; never the sound key, which would collide with real words) ------------------------------------------------
+_N103_STOP_LATIN = set('''the a an is are was were be been am i me my mine you your yours he she it we us our they them his her their of to in on at for and or but if so as by with from about what who whom
+whose which when where why how do does did can could would should will shall may might have has had not no yes please tell show give say know told this that these those there here than then also very just any some
+all more most much many too only same such into over under again once ka ki ke ko ne se me mein men mai main hai hain he ho hu hoon hun tha thi the thee kya kaun kon kaise kab kahan kyun kyu kitna kitne kitni mera meri
+mere mujhe mujhko hum humara hamara hamari apna apni apne tum tumhara aap aapka aapki aapke wo vo yeh ye woh is us un par pe aur ya bhi to toh hi nahi nahin na bata batao batana btao bol bolo dikha dikhao kar karo
+karna kiya hota hoti hote raha rahi rahe wala wali wale ek chhe che shu su kem kyare kya kone ane pan thi mane maru maro mari mara tamne tamaru tamaro tamari amaru amaro amari hu amne apne nathi hatu hati hato aa te
+na ni no nu sa si kaunsa kaunsi konsa konsi kis kuch koi kaha kidhar'''.split())
+_N103_STOP_NATIVE = ('क्या है हैं का की के को ने से में पर और या भी तो ही नहीं मेरा मेरी मेरे मुझे हम हमारा हमारी मैं तुम आप कौन कैसे कब कहाँ क्यों कितना कितने कितनी बताओ बताइए बताना था थी थे यह ये वह वो इस उस एक कर करो रहा रही रहे सा सी कुछ कोई किस '
+                     'છે છું છો છીએ હતું હતી હતો ના ની નો નું માં થી ને એ અને કે પણ શું કોણ કેમ ક્યારે ક્યાં કેટલું કેટલા કયો કયા કઈ કયું મારું મારો મારી મારા તમારું તમારો તમારી અમારું અમારો અમારી અમારા મને હું તું અમે આપણે બતાવો કહો કહે જણાવો આ તે એક નથી').split()
+_N103_STOP_NATIVE_SET = {_n103_fold(w) for w in _N103_STOP_NATIVE}      # a native word is a stop word only if it is on the native list (its Latin spelling can be a real word: माँ -> man)
+
+
+# ------------------------------------------------ the concept lexicon (written by the author of this layer; NOT checked by native speakers) ------------------------------------------------
+# concept: roman words (English / Hinglish / Gujarati in Latin) | Devanagari words | Gujarati words
+_N103_LEXICON_TEXT = '''
+wife: wife patni biwi bivi begum gharwali dharmpatni | पत्नी बीवी घरवाली भार्या | પત્ની બૈરી ઘરવાળી
+husband: husband pati shohar miyan | पति शौहर मियां | પતિ ધણી
+father: father dad daddy papa pita pitaji baap abba babuji bapuji bapu | पिता पापा पिताजी बाप बाबूजी अब्बा | પિતા પપ્પા બાપુ બાપુજી પિતાજી
+mother: mother mom mum mummy maa mata mataji amma ammi aai | माँ मां माता मम्मी माताजी अम्मा | મા માતા મમ્મી માતાજી
+son: son beta putra dikro | बेटा पुत्र | દીકરો પુત્ર
+daughter: daughter beti putri dikri | बेटी पुत्री | દીકરી પુત્રી
+brother: brother bro bhai bhaiya bhaiyya bhaisaheb | भाई भइया भैया | ભાઈ ભૈયા ભાઇ
+sister: sister sis behen bahen behan bahan ben didi | बहन बहिन दीदी | બહેન બેન દીદી
+friend: friend dost yaar mitra sakhi bhaibandh | दोस्त मित्र यार सहेली | દોસ્ત મિત્ર ભાઈબંધ સખી
+boss: boss malik seth sheth | बॉस मालिक सेठ | બોસ માલિક શેઠ
+manager: manager | मैनेजर प्रबंधक | મેનેજર
+colleague: colleague coworker co-worker sahkarmi | सहकर्मी | સહકર્મી
+uncle: uncle chacha mama tau fufa mausa kaka mamu | चाचा मामा ताऊ फूफा मौसा काका | કાકા મામા ફુવા માસા
+aunt: aunt auntie aunty chachi mami tai bua masi kaki foi | चाची मामी ताई बुआ मौसी काकी | કાકી મામી ફોઈ માસી
+grandfather: grandfather grandpa dada dadaji nana | दादा दादाजी नाना | દાદા નાના
+grandmother: grandmother grandma dadi nani | दादी नानी | દાદી નાની
+cousin: cousin | कज़िन कजिन | કઝિન
+neighbour: neighbour neighbor padosi | पड़ोसी पड़ोसन | પાડોશી
+teacher: teacher guruji shikshak adhyapak | शिक्षक अध्यापक गुरुजी टीचर | શિક્ષક ગુરુજી ટીચર
+doctor: doctor dr vaidya daktar | डॉक्टर वैद्य | ડૉક્ટર ડોક્ટર વૈદ્ય
+partner: partner hamsafar | पार्टनर | પાર્ટનર
+name: name naam nam | नाम | નામ
+age: age umar umra | उम्र आयु | ઉંમર વય
+city: city town shehar sheher gaam gaon village | शहर गाँव गांव नगर | શહેર ગામ નગર
+home: home house ghar makan residence | घर मकान निवास | ઘર મકાન નિવાસ
+address: address pata | पता | સરનામું સરનામુ
+phone: phone mobile number contact nambar | फोन मोबाइल नंबर नम्बर | ફોન મોબાઇલ નંબર
+email: email mail gmail | ईमेल मेल | ઈમેલ ઇમેઇલ મેઈલ
+birthday: birthday bday janamdin janmdin janamdiwas janmadivas dob | जन्मदिन जन्मदिवस जन्मतिथि | જન્મદિવસ જન્મદિન જન્મતારીખ
+anniversary: anniversary | सालगिरह | વર્ષગાંઠ લગ્નતિથિ
+wedding: wedding marriage shaadi shadi vivah lagna lagn byah | शादी विवाह ब्याह | લગ્ન લગન
+job: job naukri profession occupation | नौकरी | નોકરી
+business: business dhandha dhandho vyapar vyavsay | व्यवसाय धंधा कारोबार व्यापार | ધંધો વ્યવસાય વેપાર
+work: work kaam | काम | કામ
+office: office company daftar karyalay firm | दफ्तर ऑफिस कंपनी कार्यालय | ઓફિસ કંપની કાર્યાલય દફતર
+shop: shop dukan dukaan showroom store | दुकान शोरूम स्टोर | દુકાન શોરૂમ સ્ટોર
+school: school college university vidyalay padhai study studies | स्कूल कॉलेज विद्यालय पढ़ाई | સ્કૂલ કોલેજ શાળા અભ્યાસ ભણતર
+exam: exam test pariksha imtihan | परीक्षा इम्तिहान एग्ज़ाम | પરીક્ષા એક્ઝામ
+car: car gaadi gadi vehicle bike scooter motorcycle activa | गाड़ी कार बाइक स्कूटर | ગાડી કાર બાઇક સ્કૂટર
+medicine: medicine dawai dawa goli tablet | दवाई दवा गोली | દવા ગોળી દવાઈ
+hospital: hospital aspatal clinic | अस्पताल क्लिनिक | હોસ્પિટલ દવાખાનું
+health: health tabiyat sehat bimari bimar sugar bp | सेहत तबीयत बीमारी स्वास्थ्य | તબિયત બીમારી સ્વાસ્થ્ય
+food: food khana khaana bhojan lunch dinner breakfast nashta | खाना भोजन नाश्ता | ખાવાનું ભોજન જમવાનું નાસ્તો
+tea: tea chai chaay | चाय | ચા ચાહ
+coffee: coffee kofi | कॉफी | કોફી
+vegetarian: vegetarian veg shakahari vegan | शाकाहारी वेज | શાકાહારી વેજ
+like: like love favourite favorite pasand pasandida fav | पसंद पसंदीदा | પસંદ ગમે ગમતું મનપસંદ
+dislike: dislike hate napasand nafrat | नापसंद नफरत | નાપસંદ
+hobby: hobby hobbies shauk | शौक | શોખ
+music: music song gaana gana geet sangeet | गाना गीत संगीत म्यूजिक | ગીત સંગીત ગાણું મ્યુઝિક
+movie: movie film picture cinema | फिल्म पिक्चर सिनेमा | ફિલ્મ પિક્ચર સિનેમા
+travel: trip travel yatra safar tour ghumna | यात्रा सफर ट्रिप टूर | યાત્રા સફર ટ્રિપ પ્રવાસ ફરવા
+flight: flight plane udaan | फ्लाइट उड़ान | ફ્લાઇટ ઉડાન
+train: train rail railway | ट्रेन रेल | ટ્રેન રેલ
+meeting: meeting appointment mulakat baithak | मीटिंग बैठक मुलाकात अपॉइंटमेंट | મીટિંગ બેઠક મુલાકાત
+today: today aaj | आज | આજ આજે
+tomorrow: tomorrow kal tmrw | कल | કાલે કાલ
+yesterday: yesterday kal | कल बीता | ગઈકાલે
+week: week hafta hafte saptah | हफ्ता हफ्ते सप्ताह | અઠવાડિયું અઠવાડિયે સપ્તાહ
+month: month mahina mahine maas | महीना महीने माह | મહિનો મહિને માસ
+year: year saal sal varsh baras | साल वर्ष बरस | વર્ષ સાલ વરસ
+morning: morning subah savere savar | सुबह सवेरे | સવાર સવારે
+evening: evening shaam sham sanj | शाम | સાંજ સાંજે
+night: night raat | रात | રાત રાત્રે
+money: money paisa paise rupee rupees rupaye rs inr rakam amount | पैसा पैसे रुपया रुपये रकम | પૈસા રૂપિયા રૂપિયો રકમ
+salary: salary pagar pagaar tankhwah income kamai | वेतन तनख्वाह पगार कमाई | પગાર કમાણી આવક
+rent: rent kiraya kiraaya bhada | किराया भाड़ा | ભાડું ભાડુ
+loan: loan karz karj udhar udhaar emi | कर्ज ऋण उधार ईएमआई | લોન કરજ ઉધાર
+bill: bill bil invoice payment | बिल भुगतान | બિલ ચુકવણી
+insurance: insurance bima lic policy | बीमा पॉलिसी | વીમો વીમા પોલિસી
+tax: tax gst itr | टैक्स | ટેક્સ વેરો
+bank: bank khata account | बैंक खाता | બેંક ખાતું
+gold: gold sona | सोना स्वर्ण | સોનું સોનુ
+stock: stock stocks share shares equity nifty sensex banknifty | शेयर स्टॉक निफ्टी सेंसेक्स | શેર સ્ટોક નિફ્ટી સેન્સેક્સ
+trade: trade trading trader kharid bech | ट्रेड ट्रेडिंग खरीद बिक्री | ટ્રેડ ટ્રેડિંગ ખરીદી વેચાણ
+option: option options | ऑप्शन | ઓપ્શન
+profit: profit laabh fayda munafa nafa | मुनाफा लाभ फायदा | નફો લાભ ફાયદો
+loss: loss nuksan nukshan ghata hani | नुकसान घाटा हानि | નુકસાન ખોટ ઘાટો
+fund: sip mutual fund mf | म्यूचुअल फंड एसआईपी | મ્યુચ્યુઅલ ફંડ એસઆઈપી
+reminder: remind reminder alarm | याद रिमाइंडर | યાદ રિમાઇન્ડર
+remember: remember note | याद | યાદ
+language: language bhasha boli | भाषा बोली | ભાષા બોલી
+gujarati: gujarati gujrati | गुजराती | ગુજરાતી
+hindi: hindi | हिंदी हिन्दी | હિન્દી હિંદી
+english: english angrezi | अंग्रेजी अंग्रेज़ी | અંગ્રેજી
+weather: weather mausam barish baarish rain garmi sardi | मौसम बारिश | હવામાન વરસાદ મૌસમ
+festival: festival tyohar tahwar diwali holi navratri eid uttarayan | त्योहार दिवाली होली नवरात्रि | તહેવાર દિવાળી હોળી નવરાત્રિ ઉત્તરાયણ
+pet: dog cat pet kutta billi | कुत्ता बिल्ली | કૂતરો બિલાડી
+child: child kid kids bachcha bachche baccha balak | बच्चा बच्चे बालक | બાળક બાળકો છોકરાં
+family: family parivar | परिवार | પરિવાર કુટુંબ
+exercise: gym exercise workout yoga vyayam kasrat | व्यायाम योग कसरत | કસરત યોગ વ્યાયામ
+goal: goal plan target lakshya irada sapna | लक्ष्य योजना इरादा सपना | લક્ષ્ય યોજના ધ્યેય સપનું
+shopping: shopping kharidari market bazaar | खरीदारी बाज़ार बाजार | ખરીદી બજાર
+customer: customer client grahak | ग्राहक क्लाइंट | ગ્રાહક ક્લાયન્ટ
+time: time samay waqt vakht baje | समय वक्त बजे | સમય વખત વાગ્યે
+date: date tarikh tareekh | तारीख तिथि | તારીખ તિથિ
+sleep: sleep neend | नींद | ઊંઘ
+live: live lives living reside stay rehna rehta rehti rehte raho | रहना रहता रहती रहते रहने | રહું રહે રહેવું રહેતો રહેતી
+called: called bulao kehte pukaro | बुलाओ कहते बुलाते | બોલાવો કહે બોલાવે
+'''.strip()
+
+_N103_REL_CONCEPTS = ('wife', 'husband', 'father', 'mother', 'son', 'daughter', 'brother', 'sister', 'friend', 'boss', 'manager', 'partner', 'teacher', 'doctor')
+_N103_LEX_RAW = {}            # folded form (native or Latin, or the Latin spelling of a native word) -> {concept}
+_N103_LEX_SOFT = {}           # sound key -> {concept}   (only used for Latin tokens of 4+ letters and for native words)
+_N103_LEX_BI = {}             # two-word forms -> {concept}
+_N103_CONCEPTS = []
+
+
+def _n103_load_lexicon():
+    for line in _N103_LEXICON_TEXT.split('\n'):
+        line = line.strip()
+        if not line or ':' not in line:
+            continue
+        cid, rest = line.split(':', 1)
+        cid = cid.strip()
+        parts = [p.strip() for p in rest.split('|')]
+        _N103_CONCEPTS.append(cid)
+        for gi, group in enumerate(parts):
+            for word in group.split():
+                f = _n103_fold(word)
+                if not f:
+                    continue
+                _N103_LEX_RAW.setdefault(f, set()).add(cid)
+                if gi:
+                    lat = _n103_translit(f)
+                    if lat:
+                        _N103_LEX_RAW.setdefault(lat, set()).add(cid)
+                        _N103_LEX_SOFT.setdefault(_n103_soft(lat), set()).add(cid)
+                elif len(f) >= 4:
+                    _N103_LEX_SOFT.setdefault(_n103_soft(f), set()).add(cid)
+
+
+_n103_load_lexicon()
+
+
+def _n103_concepts_of(forms):
+    """Concepts a token names. Exact spellings first; then the sound key: for native-script words always, for Latin words only when the word has 5+ letters and its key 4+, so that a
+    different English word is unlikely to share it (called -> kal would otherwise read as 'tomorrow')."""
+    got = set()
+    for f in forms:
+        if f in _N103_LEX_RAW:
+            got |= _N103_LEX_RAW[f]
+    if got:
+        return got
+    for f in forms:
+        if not f or not f.isalpha():
+            continue
+        native = _n103_has_native(f)
+        s = _n103_soft(_n103_translit(f))
+        if (native and len(s) >= 2) or (not native and len(f) >= 5 and len(s) >= 4):
+            if s in _N103_LEX_SOFT:
+                got |= _N103_LEX_SOFT[s]
+    return got
+
+
+def _n103_rel_of(word):
+    """The relation key (wife, brother, friend ...) a word in any of the four languages names, or ''."""
+    f = _n103_fold(word)
+    forms = {f, _n103_strip_native(f), _n103_translit(f), _n103_stem_latin(f)}
+    forms.discard('')
+    got = _n103_concepts_of(sorted(forms))
+    for c in _N103_REL_CONCEPTS:
+        if c in got:
+            return c
+    return ''
+
+
+# ------------------------------------------------ tokenising: words, concepts, skeletons ------------------------------------------------
+_N103_CACHE = {}
+
+
+def _n103_token_info(tok):
+    """For one folded token: (is_stop, word term, concept ids, skeleton) -- cached."""
+    r = _N103_CACHE.get(tok)
+    if r is not None:
+        return r
+    native = _n103_has_native(tok)
+    base = _n103_strip_native(tok) if native else tok
+    lat = _n103_translit(base) if native else _n103_stem_latin(base)
+    lat_raw = _n103_translit(tok) if native else tok
+    stop = (tok in _N103_STOP_NATIVE_SET) if native else (tok in _N103_STOP_LATIN)
+    forms = [x for x in {tok, base, lat, lat_raw} if x]
+    concepts = _n103_concepts_of(forms)
+    soft = _n103_soft(lat)
+    skel = _n103_skel(lat)
+    r = (stop, soft, frozenset(concepts), skel)
+    if len(_N103_CACHE) > 20000:
+        _N103_CACHE.clear()
+    _N103_CACHE[tok] = r
+    return r
+
+
+def _n103_tokens(text):
+    return _N103_WORD.findall(_n103_fold(text))
+
+
+def _n103_terms(text):
+    """-> (word terms, skeleton terms, sound string). A token that names a lexicon concept contributes the concept (in every language alike); any other token contributes its sound key, its
+    consonant skeleton and its place in the sound string, which is what finds misspelt or differently spelt names. Stop words contribute nothing."""
+    w, s, soft_words = [], [], []
+    for tok in _n103_tokens(text):
+        stop, soft, concepts, skel = _n103_token_info(tok)
+        if stop:
+            continue
+        if tok.isdigit():
+            w.append('w:' + tok)
+            continue
+        if concepts:
+            for c in concepts:
+                w.append('c:' + c)
+            continue
+        if len(soft) >= 3:                              # a 1-2 letter sound key (sea, Shah -> sa) is shared by too many unrelated words to mean anything
+            w.append('w:' + soft)
+            soft_words.append(soft)
+        if len(skel) >= 2 and len(tok) >= 3:
+            s.append('s:' + skel)
+    return w, s, ' '.join(soft_words)
+
+
+# a stored key implies concepts its words do not spell out (the key "city" is the answer to "where do I live")
+_N103_KEY_EXPAND = {'city': ('live', 'home'), 'hometown': ('live', 'home'), 'address': ('live', 'home', 'address'), 'workplace': ('work', 'office', 'job', 'business', 'shop'),
+                    'name': ('name', 'called'), 'nickname': ('name', 'called'), 'birthday': ('date',), 'email': ('email',), 'phone': ('phone',)}
+
+
+def _n103_trigrams(sound):
+    out = _n103_Counter()
+    for word in sound.split():
+        p = ' ' + word + ' '
+        for i in range(len(p) - 2):
+            out[p[i:i + 3]] += 1
+    return out
+
+
+def _n103_cosine(a, b):
+    if not a or not b:
+        return 0.0
+    dot = sum(v * b.get(k, 0) for k, v in a.items())
+    na = _n103_math.sqrt(sum(v * v for v in a.values()))
+    nb = _n103_math.sqrt(sum(v * v for v in b.values()))
+    return dot / (na * nb) if na and nb else 0.0
+
+
+def _n103_bm25(doc_counters, q_terms, k1=1.2, b=0.75):
+    n_docs = len(doc_counters)
+    scores = [0.0] * n_docs
+    if not n_docs or not q_terms:
+        return scores
+    df = _n103_Counter()
+    for d in doc_counters:
+        for t in d:
+            df[t] += 1
+    avg = sum(sum(d.values()) for d in doc_counters) / float(n_docs) or 1.0
+    for t in set(q_terms):
+        n = df.get(t, 0)
+        if not n:
+            continue
+        idf = _n103_math.log(1.0 + (n_docs - n + 0.5) / (n + 0.5))
+        for i, d in enumerate(doc_counters):
+            f = d.get(t, 0)
+            if f:
+                ln = sum(d.values())
+                scores[i] += idf * (f * (k1 + 1)) / (f + k1 * (1 - b + b * ln / avg))
+    return scores
+
+
+_N103_RRF_K = 60.0
+_N103_W = {'word': 1.0, 'skel': 0.6, 'tri': 0.5, 'recent': 0.12}
+
+
+def _n103_doc_text(row):
+    """A fact row (fkey, value, category, source, confidence, seen, updated[, evidence]) -> the text it is searched by: its key words, its value and (if stored) the owner's own words."""
+    key = str(row[0]).replace('_', ' ').replace(':', ' ')
+    extra = row[7] if len(row) > 7 else ''
+    return (key + ' ' + str(row[1]) + ' ' + str(extra or ''))
+
+
+def _n103_doc_terms(row):
+    w, s, _sound = _n103_terms(_n103_doc_text(row))
+    sound = _n103_terms(str(row[1]) + ' ' + str(row[7] if len(row) > 7 else ''))[2]          # spelling similarity looks at the value and the owner's words, not the key's name
+    base = str(row[0]).split(':')[-1].lower()
+    for c in _N103_KEY_EXPAND.get(base, ()):
+        w.append('c:' + c)
+    return w, s, sound
+
+
+_N103_FUSE = {'word': 1.0, 'skel': 0.6, 'tri': 0.4, 'recent': 0.04}
+_N103_RELATIVE_CUT = 0.45
+
+
+def _n103_search(rows, query, k=8, strict=False):
+    """Hybrid search over fact rows. Returns [{'i': index into rows, 'score', 'word', 'skel', 'tri', 'why'}] best first. A row is returned only when a language signal supports it: shared
+    words or concepts (BM25), a shared consonant skeleton (names and spellings), or similar spelling (character trigrams). The channels are combined by their normalised scores; a result far
+    below the best one is dropped."""
+    _N103_STATS['searches'] += 1
+    qw, qs, qsound = _n103_terms(query)
+    if not rows or (not qw and not qs and not qsound):
+        return []
+    docs = [_n103_doc_terms(r) for r in rows]
+    wc = [_n103_Counter(d[0]) for d in docs]
+    sc = [_n103_Counter(d[1]) for d in docs]
+    word = _n103_bm25(wc, qw)
+    skel = _n103_bm25(sc, qs)
+    qtri = _n103_trigrams(qsound)
+    tri = [_n103_cosine(qtri, _n103_trigrams(d[2])) for d in docs]
+    mw, ms = max(word) or 1.0, max(skel) or 1.0
+    upd = [float(r[6] or 0) for r in rows]
+    lo, hi = min(upd), max(upd)
+    out = []
+    for i in range(len(rows)):
+        support = []
+        if word[i] > 0:
+            support.append('words')
+        if skel[i] > 0 and any(len(t) >= 5 for t in qs if t in sc[i]):
+            support.append('sound')
+        if tri[i] >= (0.6 if strict else 0.5):
+            support.append('spelling')
+        if not support:
+            continue
+        rec = (upd[i] - lo) / (hi - lo) if hi > lo else 1.0
+        f = _N103_FUSE['word'] * word[i] / mw + _N103_FUSE['skel'] * skel[i] / ms + _N103_FUSE['tri'] * (tri[i] if tri[i] >= 0.35 else 0.0) + _N103_FUSE['recent'] * rec
+        out.append({'i': i, 'score': f, 'word': word[i], 'skel': skel[i], 'tri': tri[i], 'why': support})
+    out.sort(key=lambda x: -x['score'])
+    if out:
+        top = out[0]['score']
+        out = [x for x in out if x['score'] >= top * _N103_RELATIVE_CUT]
+    return out[:max(1, int(k))]
+
+
+# ------------------------------------------------ which language is this message in ------------------------------------------------
+_N103_HINGLISH = set('hai hain kya kaun kon kaise kab kahan kyun mera meri mere mujhe hum hamara aap aapka bata batao nahi nahin aur bhi toh toh tha thi ka ki ke ko se mein ho raha rahi rahe karo kar bhai didi yaar'.split())
+_N103_GUJLISH = set('chhe che shu su kem kyare kya mane maru maro mari mara tamne tamaru nathi hatu hati hato amne ane pan bhai ben'.split())
+_N103_ENGLISH_HINT = set('the is are was what who where when how my your you please tell remember about with this that and for'.split())
+
+
+def _n103_lang(text):
+    sc = _n103_scripts(text)
+    if sc['guj'] >= 2 and sc['guj'] >= sc['deva']:
+        return 'gu'
+    if sc['deva'] >= 2:
+        return 'hi'
+    toks = _n103_tokens(text)
+    if not toks:
+        return 'en'
+    gl = sum(1 for t in toks if t in _N103_GUJLISH and t not in ('kya', 'bhai', 'ben'))
+    hl = sum(1 for t in toks if t in _N103_HINGLISH)
+    en = sum(1 for t in toks if t in _N103_ENGLISH_HINT)
+    if gl >= 2 or (gl >= 1 and en == 0 and hl <= 1 and len(toks) <= 8 and any(t in ('chhe', 'che', 'shu', 'su', 'nathi') for t in toks)):
+        return 'gu-latin'
+    if hl >= 2 or (hl >= 1 and en == 0 and len(toks) <= 6):
+        return 'hinglish'
+    return 'en'
+
+
+_N103_LANG_NAME = {'gu': 'Gujarati (Gujarati script)', 'hi': 'Hindi (Devanagari script)', 'gu-latin': 'Gujarati written in English letters', 'hinglish': 'Hindi written in English letters (Hinglish)', 'en': 'English'}
+
+
+# ------------------------------------------------ a built-in retrieval test ("memory eval") ------------------------------------------------
+# Honest limits, stated in the report the owner sees: the facts and questions below are SYNTHETIC and were written by the author of the lexicon, who knew what it contains (so this flatters the
+# engine); the lexicon was NOT checked by native speakers; the questions are split into a DEV half (used while tuning) and a HOLD-OUT half (looked at only after the tuning stopped); 8 questions
+# per language style per half is small (one miss moves a style's score by 12.5 points). The comparison is with a faithful copy of the previous recall rule (v83, query-relevant facts only).
+_N103_EVAL_FACTS = (
+    ('name', 'Gautam Chordia', ''), ('nickname', 'Gotu', ''), ('brother', 'Rahul', 'mera bhai Rahul hai'), ('sister', 'Priya', 'મારી બહેનનું નામ પ્રિયા છે'),
+    ('wife', 'Kavita', 'मेरी पत्नी का नाम कविता है'), ('mother', 'Sunita', ''), ('father', 'Mahesh', ''), ('son', 'Dev', ''),
+    ('city', 'Ahmedabad', 'main Ahmedabad mein rehta hun'), ('hometown', 'Surat', ''), ('workplace', 'Chordia Showroom', ''), ('birthday', '12 March', ''),
+    ('preference', 'likes strong tea without sugar', ''), ('preference', 'is vegetarian', ''), ('preference', 'prefers short replies', ''),
+    ('current:trip', 'trip to Goa next month', ''), ('goal', 'wants to learn options trading', ''), ('friend_amit', 'Amit lives in Surat', ''),
+    ('friend_rohan', 'Rohan works at a bank', ''), ('doctor', 'Dr Shah', ''), ('car', 'drives a white Swift', ''), ('routine', 'walks every morning at 6', ''),
+    ('constraint', 'no meetings after 7 pm', ''), ('pet', 'has a dog named Bruno', ''), ('loan', 'home loan EMI is due on the 5th', ''),
+)
+# (split, style, question, index of the fact that answers it in _N103_EVAL_FACTS)
+_N103_EVAL_Q = (
+    ('dev', 'en', 'who is my brother', 2), ('dev', 'en', 'what is my wife called', 4), ('dev', 'en', 'which city do I live in', 8), ('dev', 'en', 'what tea do I like', 12),
+    ('dev', 'en', 'when is my birthday', 11), ('dev', 'en', 'what am I learning', 16), ('dev', 'en', 'do I have a pet', 23), ('dev', 'en', 'what is my EMI date', 24),
+    ('dev', 'hinglish', 'mera bhai kaun hai', 2), ('dev', 'hinglish', 'meri patni ka naam kya hai', 4), ('dev', 'hinglish', 'main kahan rehta hun', 8), ('dev', 'hinglish', 'mujhe kaisi chai pasand hai', 12),
+    ('dev', 'hinglish', 'mera janamdin kab hai', 11), ('dev', 'hinglish', 'mere dost amit kahan rehte hain', 17), ('dev', 'hinglish', 'mera kutta kaun sa hai', 23), ('dev', 'hinglish', 'meri gaadi kaun si hai', 20),
+    ('dev', 'hi', 'मेरी बहन का नाम क्या है', 3), ('dev', 'hi', 'मेरी माँ का नाम', 5), ('dev', 'hi', 'मैं कहाँ रहता हूँ', 8), ('dev', 'hi', 'मेरा जन्मदिन कब है', 11),
+    ('dev', 'hi', 'मेरा बेटा कौन है', 7), ('dev', 'hi', 'मुझे कौन सी चाय पसंद है', 12), ('dev', 'hi', 'मेरे डॉक्टर कौन हैं', 19), ('dev', 'hi', 'मैं हर सुबह क्या करता हूँ', 21),
+    ('dev', 'gu', 'મારા ભાઈનું નામ શું છે', 2), ('dev', 'gu', 'મારી પત્નીનું નામ શું છે', 4), ('dev', 'gu', 'હું ક્યાં રહું છું', 8), ('dev', 'gu', 'મારો જન્મદિવસ ક્યારે છે', 11),
+    ('dev', 'gu', 'મારા પપ્પાનું નામ', 6), ('dev', 'gu', 'મને કેવી ચા ગમે છે', 12), ('dev', 'gu', 'મારી ગાડી કઈ છે', 20), ('dev', 'gu', 'મારું લક્ષ્ય શું છે', 16),
+    ('hold', 'en', "what's my dad's name", 6), ('hold', 'en', 'who is my sister', 3), ('hold', 'en', 'where do I work', 10), ('hold', 'en', 'am I vegetarian', 13),
+    ('hold', 'en', 'when is my trip', 15), ('hold', 'en', 'who is Rohan', 18), ('hold', 'en', 'what time do I walk', 21), ('hold', 'en', 'any rule about meetings', 22),
+    ('hold', 'hinglish', 'mere papa ka naam kya hai', 6), ('hold', 'hinglish', 'meri behen kaun hai', 3), ('hold', 'hinglish', 'goa trip kab hai', 15), ('hold', 'hinglish', 'bhaiya ka naam batao', 2),
+    ('hold', 'hinglish', 'kya main vegetarian hun', 13), ('hold', 'hinglish', 'mujhe kya seekhna hai', 16), ('hold', 'hinglish', 'mera loan kab bharna hai', 24), ('hold', 'hinglish', 'kutte ka naam', 23),
+    ('hold', 'hi', 'मेरे पिता का नाम क्या है', 6), ('hold', 'hi', 'मेरी पत्नी कौन है', 4), ('hold', 'hi', 'मेरे भाई का नाम', 2), ('hold', 'hi', 'मैं शाकाहारी हूँ क्या', 13),
+    ('hold', 'hi', 'मेरा काम कहाँ है', 10), ('hold', 'hi', 'मेरी गाड़ी कौन सी है', 20), ('hold', 'hi', 'गोवा की यात्रा कब है', 15), ('hold', 'hi', 'रोहन कहाँ काम करता है', 18),
+    ('hold', 'gu', 'મારી બહેનનું નામ શું છે', 3), ('hold', 'gu', 'મારા મિત્ર અમિત ક્યાં રહે છે', 17), ('hold', 'gu', 'હું શાકાહારી છું?', 13), ('hold', 'gu', 'મારી ઓફિસ ક્યાં છે', 10),
+    ('hold', 'gu', 'મારા દીકરાનું નામ શું છે', 7), ('hold', 'gu', 'મારે ક્યારે ગોવા જવાનું છે', 15), ('hold', 'gu', 'મારા ડૉક્ટર કોણ છે', 19), ('hold', 'gu', 'મારો કૂતરો કયો છે', 23),
+)
+# questions no stored fact answers: the right result is nothing
+_N103_EVAL_NEG = (
+    ('dev', 'en', 'tell me a joke'), ('dev', 'en', 'what is the capital of France'), ('dev', 'hinglish', 'ek chutkula suna do'), ('dev', 'hi', 'भारत की राजधानी क्या है'), ('dev', 'gu', 'ગુજરાતની રાજધાની શું છે'),
+    ('dev', 'en', 'explain how a transistor works'),
+    ('hold', 'en', 'write a poem about the sea'), ('hold', 'en', 'what is 15 percent of 2400'), ('hold', 'hinglish', 'bitcoin ka rate kya hai'), ('hold', 'hi', 'मुझे एक चुटकुला सुनाओ'),
+    ('hold', 'gu', 'મને એક વાર્તા કહો'), ('hold', 'en', 'tell me about the moon landing'),
+)
+
+
+def _n103_baseline(rows, query):
+    """A faithful copy of the previous recall rule (v83 _n83_memory_block with strict=True: only facts the question itself points to). Returns row indexes best first."""
+    q = _n35_tokens(query)
+    ql = str(query or '').lower()
+    scored = []
+    for i, r in enumerate(rows):
+        k, v, upd = r[0], r[1], r[6]
+        kk = k.replace('_', ' ').replace(':', ' ')
+        sc = len(q & _n35_tokens(kk + ' ' + v)) * 3
+        if kk and kk in ql:
+            sc += 6
+        for hw, rk in _N35_REL_WORDS.items():
+            if rk == k and _n103_re.search(r'\b' + _n103_re.escape(hw) + r'\b', ql):
+                sc += 8
+        if sc > 0:
+            scored.append((sc, upd or 0, i))
+    scored.sort(key=lambda x: (-x[0], -x[1]))
+    return [i for _s, _u, i in scored]
+
+
+def _n103_eval_rows(now=None):
+    import time as _t
+    now = now or _t.time()
+    return [(k, v, 'fact', 'eval', .9, 1, now - 86400 * (i + 1), ev) for i, (k, v, ev) in enumerate(_N103_EVAL_FACTS)]
+
+
+def _n103_eval_run(splits=('dev', 'hold')):
+    """-> {split: {style: {'n', 'hyb1', 'hyb3', 'base1', 'base3'}, 'neg': {...}}} (numbers of questions, not percentages)."""
+    rows = _n103_eval_rows()
+    out = {}
+    for sp in splits:
+        res = {}
+        for st in ('en', 'hinglish', 'hi', 'gu'):
+            r = {'n': 0, 'hyb1': 0, 'hyb3': 0, 'base1': 0, 'base3': 0}
+            for s2, s3, q, gold in _N103_EVAL_Q:
+                if s2 != sp or s3 != st:
+                    continue
+                r['n'] += 1
+                h = [x['i'] for x in _n103_search(rows, q, k=3)]
+                b = _n103_baseline(rows, q)[:3]
+                r['hyb1'] += 1 if h[:1] == [gold] else 0
+                r['hyb3'] += 1 if gold in h else 0
+                r['base1'] += 1 if b[:1] == [gold] else 0
+                r['base3'] += 1 if gold in b else 0
+            res[st] = r
+        neg = {'n': 0, 'hyb_false': 0, 'base_false': 0}
+        for s2, s3, q in _N103_EVAL_NEG:
+            if s2 != sp:
+                continue
+            neg['n'] += 1
+            neg['hyb_false'] += 1 if _n103_search(rows, q, k=3) else 0
+            neg['base_false'] += 1 if _n103_baseline(rows, q) else 0
+        res['neg'] = neg
+        out[sp] = res
+    return out
+
+
+def _n103_eval_text(splits=('dev', 'hold')):
+    r = _n103_eval_run(splits)
+    names = {'en': 'English', 'hinglish': 'Hinglish', 'hi': 'Hindi (script)', 'gu': 'Gujarati (script)'}
+    lines = ['🔬 Memory eval: can I find the right fact?', '(%d stored facts; “old” = how recall worked before v103, “new” = now; first answer right / right answer within the top 3)' % len(_N103_EVAL_FACTS)]
+    for sp, label in (('dev', 'DEV half (used while tuning)'), ('hold', 'HOLD-OUT half (looked at only after tuning stopped)')):
+        if sp not in r:
+            continue
+        lines.append('')
+        lines.append(label)
+        tot = {'n': 0, 'hyb1': 0, 'hyb3': 0, 'base1': 0, 'base3': 0}
+        for st in ('en', 'hinglish', 'hi', 'gu'):
+            x = r[sp][st]
+            for k in tot:
+                tot[k] += x[k]
+            lines.append('• %s: old %d/%d · %d/%d   new %d/%d · %d/%d' % (names[st], x['base1'], x['n'], x['base3'], x['n'], x['hyb1'], x['n'], x['hyb3'], x['n']))
+        lines.append('• all: old %d/%d · %d/%d   new %d/%d · %d/%d' % (tot['base1'], tot['n'], tot['base3'], tot['n'], tot['hyb1'], tot['n'], tot['hyb3'], tot['n']))
+        ng = r[sp]['neg']
+        lines.append('• questions no fact answers (should find nothing): old wrongly found something in %d of %d, new in %d of %d' % (ng['base_false'], ng['n'], ng['hyb_false'], ng['n']))
+    lines.append('')
+    lines.append('Read this carefully: the facts and questions are synthetic and were written by the same author as the word list, so the score flatters the engine; the word list has not been checked by native '
+                 'speakers; each style has only 8 questions per half. “Old” cannot read Hindi or Gujarati script at all, so the script rows show a capability, not a fair race. The English and Hinglish rows '
+                 'and the “finds nothing” line are the fair comparison.')
+    return '\n'.join(lines)
+
+
+# ------------------------------------------------ storage: the layer's own small tables live in the facts database ------------------------------------------------
+import datetime as _n103_dt
+import hashlib as _n103_hashlib
+import json as _n103_json
+import secrets as _n103_secrets
+import time as _n103_time
+
+_N103_IST = _n103_dt.timezone(_n103_dt.timedelta(hours=5, minutes=30))
+_N103_CTX = _n103_th.local()                  # the text of the message being processed on this thread (evidence), the stale facts a turn used, the clerk's message
+_N103_SCHEMA = {'path': None}
+_N103_SYNC = {'on': False}                    # tests switch this on to run the small background steps inline
+_N103_DEFAULTS = {'questions': 'on', 'tips': 'off'}
+_N103_SCHEMA_SQL = '''
+CREATE TABLE IF NOT EXISTS mind103_meta(fact_id TEXT PRIMARY KEY, chat_id TEXT, evidence TEXT, lang TEXT, via TEXT, created REAL, confirmed REAL DEFAULT 0);
+CREATE INDEX IF NOT EXISTS mind103_meta_chat ON mind103_meta(chat_id);
+CREATE TABLE IF NOT EXISTS mind103_set(chat_id TEXT, name TEXT, value TEXT, PRIMARY KEY(chat_id,name));
+CREATE TABLE IF NOT EXISTS mind103_pick(chat_id TEXT, role TEXT, name TEXT, ts REAL, PRIMARY KEY(chat_id,role));
+CREATE TABLE IF NOT EXISTS mind103_pending(token TEXT PRIMARY KEY, chat_id TEXT, text TEXT, role TEXT, names TEXT, msg TEXT, ts REAL);
+CREATE TABLE IF NOT EXISTS mind103_allow(number TEXT PRIMARY KEY, label TEXT, added REAL);
+CREATE TABLE IF NOT EXISTS mind103_block(sender TEXT PRIMARY KEY, last4 TEXT, channel TEXT, first_ts REAL, last_ts REAL, count INTEGER DEFAULT 0, notified REAL DEFAULT 0);
+'''
+
+
+def _n103_conn():
+    c = _n35_conn()
+    if _N103_SCHEMA['path'] != _N35_DB:
+        c.executescript(_N103_SCHEMA_SQL)
+        c.commit()
+        try:                                    # facts stored from script text before v103 have an empty comparison text: give them one
+            n = 0
+            for fid, val in c.execute("SELECT id,value FROM facts WHERE norm IS NULL OR norm=''").fetchall():
+                nn = _n35_norm(val)
+                if nn:
+                    c.execute('UPDATE facts SET norm=? WHERE id=?', (nn, fid))
+                    n += 1
+            c.commit()
+            _N103_STATS['migrated'] += n
+        except Exception:
+            pass
+        _N103_SCHEMA['path'] = _N35_DB
+    return c
+
+
+def _n103_q(sql, args=(), write=False):
+    with _N35_LOCK:
+        c = _n103_conn()
+        try:
+            cur = c.execute(sql, args)
+            rows = cur.fetchall() if cur.description else []
+            if write:
+                c.commit()
+            return rows
+        finally:
+            c.close()
+
+
+def _n103_get(cid, name):
+    try:
+        r = _n103_q('SELECT value FROM mind103_set WHERE chat_id=? AND name=?', (str(cid), name))
+        if r:
+            return r[0][0]
+    except Exception:
+        _N103_STATS['errors'] += 1
+    return _N103_DEFAULTS.get(name, '')
+
+
+def _n103_put(cid, name, value):
+    _n103_q('INSERT OR REPLACE INTO mind103_set(chat_id,name,value) VALUES(?,?,?)', (str(cid), name, str(value)[:200]), write=True)
+
+
+def _n103_ist(ts):
+    return _n103_dt.datetime.fromtimestamp(float(ts), _N103_IST)
+
+
+def _n103_fmt(ts):
+    return _n103_ist(ts).strftime('%d %b %Y').lstrip('0')
+
+
+# ------------------------------------------------ native-script fixes ------------------------------------------------
+_N103_NORM_PREV = _n35_norm
+
+
+def _n35_norm(s):
+    """The comparison text of a fact. Script text used to give '' (the stored comparison text only saw a-z and 0-9), so two different Gujarati values looked identical and the second was dropped as a
+    duplicate. Now script words are added in their Latin spelling."""
+    base = _N103_NORM_PREV(s)
+    try:
+        if _n103_has_native(s):
+            lat = ' '.join(_n103_translit(t) for t in _n103_tokens(s) if _n103_has_native(t))
+            more = _N103_NORM_PREV(lat)
+            _N103_STATS['native_stored'] += 1
+            return (base + ' ' + more).strip()
+    except Exception:
+        _N103_STATS['errors'] += 1
+    return base
+
+
+_N103_PERSONAL_NATIVE = {_n103_fold(w) for w in ('मेरा मेरी मेरे मुझे मुझको मैं हम हमारा हमारी हमारे अपना अपनी अपने '
+                                                  'મારું મારુ મારો મારી મારા મને હું અમે અમારું અમારો અમારી અમારા આપણું').split()}
+_N103_QUESTION_NATIVE = {_n103_fold(w) for w in ('क्या कौन कहाँ कब कैसे क्यों कितना कितने कितनी कौनसा कौनसी कोनसा बताओ बताइए बताना बता '
+                                                  'શું કોણ ક્યાં ક્યારે કેમ કેવી કેવો કેવું કેટલું કેટલા કયો કયા કઈ કયું બતાવો કહો જણાવો').split()}
+_N103_WORTH_PREV = _n83_worth_extracting
+
+
+def _n83_worth_extracting(msg, text):
+    """The clerk used to see only messages with an English or Hinglish 'I/my' word, so nothing said in Hindi or Gujarati script was ever learned. A statement in script with a first-person word
+    (मेरा, मुझे, મારું, મને ...) now qualifies; a question in script does not."""
+    if _N103_WORTH_PREV(msg, text):
+        return True
+    try:
+        t = str(text or '').strip()
+        if not 12 <= len(t) <= 600 or t.startswith('/') or not _n103_has_native(t):
+            return False
+        if any(msg.get(k) for k in ('forward_origin', 'forward_from', 'forward_date', 'forward_from_chat')):
+            return False
+        if _n83_re.search(r'https?://|www\.|```', t):
+            return False
+        toks = set(_n103_tokens(t))
+        if t.rstrip().endswith('?') or toks & _N103_QUESTION_NATIVE:
+            return False
+        if toks & _N103_PERSONAL_NATIVE:
+            _N103_STATS['native_clerk'] += 1
+            return True
+    except Exception:
+        _N103_STATS['errors'] += 1
+    return False
+
+
+# secrets, orders-by-instruction and sensitive topics in the two scripts (the English lists in v83 cannot see them)
+_N103_NATIVE_SECRET = {_n103_fold(w) for w in ('पासवर्ड पिन ओटीपी ओटिपी सीवीवी आधार पैन पासकोड गुप्त कोड પાસવર્ડ પિન ઓટીપી ઓટિપી આધાર પાન પાસકોડ ગુપ્ત કોડ').split()}
+_N103_NATIVE_ORDERS = tuple(_n103_fold(p) for p in ('बिना पूछे', 'मत पूछो', 'अनुमति के बिना', 'पैसे भेज', 'ट्रांसफर करो', 'ऑर्डर लगाओ', 'हमेशा खरीदो', 'हमेशा बेचो',
+                                                     'પૂછ્યા વગર', 'પરવાનગી વગર', 'પૈસા મોકલ', 'ટ્રાન્સફર કરો', 'ઓર્ડર મૂકો', 'હંમેશા ખરીદો', 'હંમેશા વેચો'))
+_N103_NATIVE_SENSITIVE = {_n103_fold(w) for w in ('कैंसर मधुमेह डायबिटीज बीमारी धर्म राजनीति गिरफ्तार दिवालिया કેન્સર ડાયાબિટીસ બીમારી ધર્મ રાજકારણ ધરપકડ દેવાળિયો').split()}
+_N103_VALIDATE_PREV = _n83_validate_fact
+
+
+def _n83_validate_fact(item, explicit=False):
+    ok, reason, key, value, cat = _N103_VALIDATE_PREV(item, explicit)
+    if not ok:
+        return ok, reason, key, value, cat
+    try:
+        f = _n103_fold(str(value) + ' ' + str(key))
+        if _n103_has_native(f):
+            toks = set(_n103_tokens(f))
+            if toks & _N103_NATIVE_SECRET:
+                return False, 'secret_word', key, value, cat
+            if any(p in f for p in _N103_NATIVE_ORDERS):
+                return False, 'instruction_like', key, value, cat
+            if not explicit and (toks & _N103_NATIVE_SENSITIVE):
+                return False, 'sensitive_topic', key, value, cat
+    except Exception:
+        _N103_STATS['errors'] += 1
+    return ok, reason, key, value, cat
+
+
+_N83_EXTRACT_PROMPT = (_N83_EXTRACT_PROMPT.rstrip('\n') + ' The owner may write in English, Hinglish, Hindi (Devanagari) or Gujarati: always write the key in English snake_case, keep the value in the '
+                       'owner\'s own language and script, and spell people\'s and places\' names exactly as written (never translate a name).\n')
+_N83_MEM_HEAD = _N83_MEM_HEAD + (' A line marked [may be outdated] has not been confirmed for a long time: check it with the owner before relying on it for anything that matters.')
+
+
+# direct patterns for the commonest statements in script and in Hinglish/Gujarati-in-Latin, with no model call (the English ones already exist in v35)
+def _n103_rel_alt(group):
+    words = []
+    for w, cs in _N103_LEX_RAW.items():
+        if cs & set(_N103_REL_CONCEPTS) and ((group == 'deva' and any('ऀ' <= c <= 'ॿ' for c in w)) or (group == 'guj' and any('઀' <= c <= '૿' for c in w))
+                                              or (group == 'latin' and w.isascii() and w.isalpha() and len(w) > 2)):
+            words.append(_n103_re.escape(w))
+    return '|'.join(sorted(words, key=len, reverse=True))
+
+
+_N103_NATIVE_PATS = None
+
+
+def _n103_native_pats():
+    global _N103_NATIVE_PATS
+    if _N103_NATIVE_PATS is None:
+        D, G, L = _n103_rel_alt('deva'), _n103_rel_alt('guj'), _n103_rel_alt('latin')
+        S = r'(?<!\S)'
+        _N103_NATIVE_PATS = [
+            (_n103_re.compile(S + r'(?:मेरा|मेरे)\s+नाम\s+(.{1,60}?)(?:\s+(?:है|हैं|हे))?\s*[.!]?$'), 'name'),
+            (_n103_re.compile(S + r'(?:મારું|મારુ|મારા)\s+નામ\s+(.{1,60}?)(?:\s+(?:છે|છું))?\s*[.!]?$'), 'name'),
+            (_n103_re.compile(S + r'(?:मैं|हम)\s+(.{1,40}?)\s+(?:में|मे)\s+(?:रहता|रहती|रहते)\s+(?:हूं|हैं|है|हु)\s*[.!]?$'), 'city'),
+            (_n103_re.compile(S + r'(?:હું|અમે)\s+(.{1,40}?)\s+માં\s+(?:રહું|રહુ|રહીએ)\s+(?:છું|છુ|છીએ)\s*[.!]?$'), 'city'),
+            (_n103_re.compile(S + r'(?:मैं|हम)\s+(.{1,40}?)\s+से\s+(?:हूं|हैं|हु)\s*[.!]?$'), 'hometown'),
+            (_n103_re.compile(S + r'(?:मेरा|मेरी|मेरे)\s+(' + D + r')\s+(?:का|की|के)\s+नाम\s+(.{1,60}?)(?:\s+(?:है|हैं))?\s*[.!]?$'), 'REL'),
+            (_n103_re.compile(S + r'(?:મારા|મારી|મારો|મારું)\s+(' + G + r')(?:નું|ની|નો|ના)?\s+નામ\s+(.{1,60}?)(?:\s+છે)?\s*[.!]?$'), 'REL'),
+            (_n103_re.compile(S + r'(.{1,60}?)\s+(?:मेरा|मेरी|मेरे)\s+(' + D + r')\s+(?:है|हैं)\s*[.!]?$'), 'REL_REV'),
+            (_n103_re.compile(S + r'(.{1,60}?)\s+(?:મારા|મારી|મારો)\s+(' + G + r')\s+છે\s*[.!]?$'), 'REL_REV'),
+            (_n103_re.compile(r'(?i)^\s*main\s+(.{1,40}?)\s+(?:mein|me)\s+(?:rehta|rehti|rahta|rahti|rehte)\s+(?:hun|hoon|hu|hain|hai)\s*[.!]?$'), 'city'),
+            (_n103_re.compile(r'(?i)^\s*hu\s+(.{1,40}?)\s+ma\s+(?:rahu|rahu͡|rahun|rehu)\s+(?:chu|chhu)\s*[.!]?$'), 'city'),
+            (_n103_re.compile(r'(?i)^\s*(?:maru|mara|mari)\s+(' + L + r')(?:nu|ni|no|na)?\s+naam\s+(.{1,60}?)(?:\s+(?:chhe|che))?\s*[.!]?$'), 'REL'),
+            (_n103_re.compile(r'(?i)^\s*(?:maru)\s+naam\s+(.{1,60}?)(?:\s+(?:chhe|che))?\s*[.!]?$'), 'name'),
+        ]
+    return _N103_NATIVE_PATS
+
+
+def _n103_indic_extract(cid, text, source='owner-text'):
+    """name / city / hometown / a relative's name, said in Hindi or Gujarati script (or Gujarati in English letters). Returns (key, value, result) like _n35_extract, or None."""
+    t = ' '.join(_n103_fold(text).split()).strip()
+    if not t or len(t) > 400 or t.startswith('/'):
+        return None
+    toks = set(_n103_tokens(t))
+    if '?' in t or toks & _N103_QUESTION_NATIVE or toks & {'kya', 'kaun', 'shu', 'kon', 'kem', 'kyare'}:
+        return None
+    force = _n35_is_correction(text)
+    for pat, kind in _n103_native_pats():
+        m = pat.search(t)
+        if not m:
+            continue
+        if kind == 'REL':
+            key, val = _n35_rel_key(_n103_rel_of(m.group(1)) or m.group(1)), _n35_name(m.group(2))
+        elif kind == 'REL_REV':
+            key, val = _n35_rel_key(_n103_rel_of(m.group(2)) or m.group(2)), _n35_name(m.group(1))
+        else:
+            key, val = kind, _n35_name(m.group(1))
+        vt = set(_n103_tokens(val))
+        if not key or not val or len(val) < 2 or vt & _N103_STOP_NATIVE_SET or vt & _N103_STOP_LATIN:
+            continue                                     # a pronoun is not a name ("वह मेरा दोस्त है")
+        _N103_STATS['native_patterns'] += 1
+        res = _n35_set_fact(cid, key, val, 'owner-correction' if force else source, .995 if force else .98, force=force)
+        return key, val, res
+    return None
+
+
+_N103_EXTRACT_PREV = _n35_extract
+
+
+def _n35_extract(cid, text, source='owner-text'):
+    """The v35 extractor, plus the script patterns, with the sentence kept as the evidence of any fact it stores."""
+    saved = getattr(_N103_CTX, 'text', None)
+    _N103_CTX.text = str(text or '')
+    try:
+        r = _N103_EXTRACT_PREV(cid, text, source)
+        if r is None and (_n103_has_native(text) or _n103_lang(text) in ('hinglish', 'gu-latin')):
+            r = _n103_indic_extract(cid, text, source)
+        return r
+    finally:
+        _N103_CTX.text = saved
+
+
+_N103_CLERK_PREV = _n83_extract
+
+
+def _n83_extract(cid, msg, text, prev_answer='', epoch=None):
+    saved = getattr(_N103_CTX, 'text', None)
+    _N103_CTX.text = str(text or '')
+    try:
+        return _N103_CLERK_PREV(cid, msg, text, prev_answer, epoch)
+    finally:
+        _N103_CTX.text = saved
+
+
+# ------------------------------------------------ evidence: what the owner said, how it was learned, when it was last confirmed ------------------------------------------------
+def _n103_via(source):
+    s = str(source or '')
+    if s.startswith(('owner-', 'voice-', 'explicit', 'manual', 'text-explicit', 'talk-')):
+        return 'you told me'
+    if s.startswith('cortex83'):
+        return 'picked up from your message'
+    if s.startswith('steward'):
+        return 'from a task I helped with'
+    return 'earlier memory'
+
+
+def _n103_evidence(ctx, value):
+    ev = ''
+    if ctx:
+        try:
+            ev = _n79_redact(_n86_mask(' '.join(str(ctx).split())))
+        except Exception:
+            ev = ''
+        ev = ev[:240]
+    return ev
+
+
+def _n103_note(cid, key, value, source, res):
+    if not isinstance(res, dict) or not res.get('ok') or res.get('status') not in ('NEW', 'UPDATED', 'SAME'):
+        return
+    cid = str(cid)
+    key_n = str(key or '').strip().lower().replace(' ', '_')[:60]
+    now = _n103_time.time()
+    ev = _n103_evidence(getattr(_N103_CTX, 'text', ''), value)
+    same = res.get('status') == 'SAME'
+    with _N35_LOCK:
+        c = _n103_conn()
+        try:
+            fid = res.get('id')
+            if not fid:
+                row = c.execute('SELECT id FROM facts WHERE chat_id=? AND fkey=? AND norm=? AND active=1 ORDER BY updated DESC LIMIT 1',
+                                (cid, key_n, _n35_norm(str(value or '').strip()[:400]))).fetchone()
+                fid = row[0] if row else None
+            if not fid:
+                return
+            old = c.execute('SELECT evidence FROM mind103_meta WHERE fact_id=?', (fid,)).fetchone()
+            if old is None:
+                c.execute('INSERT INTO mind103_meta(fact_id,chat_id,evidence,lang,via,created,confirmed) VALUES(?,?,?,?,?,?,?)',
+                          (fid, cid, ev, _n103_lang(ev or value), _n103_via(source), now, now if same else 0))
+            else:
+                c.execute('UPDATE mind103_meta SET confirmed=?, evidence=CASE WHEN COALESCE(evidence,"")="" THEN ? ELSE evidence END WHERE fact_id=?', (now, ev, fid))
+            c.commit()
+            _N103_STATS['evidence'] += 1
+        finally:
+            c.close()
+
+
+_N103_SETFACT_PREV = _n35_set_fact
+
+
+def _n35_set_fact(cid, key, value, source='owner-explicit', confidence=.95, force=False, category=''):
+    res = _N103_SETFACT_PREV(cid, key, value, source, confidence, force=force, category=category)
+    try:
+        _n103_note(cid, key, value, source, res)
+    except Exception:
+        _N103_STATS['errors'] += 1
+    return res
+
+
+# ------------------------------------------------ half-lives: how fast a kind of fact goes out of date ------------------------------------------------
+# These numbers are the author's judgement, not measured: a trip or "this week's plan" fades in weeks, a routine or goal in a few months, a preference in about a year, a name or a relative never.
+_N103_HALF_DAYS = {'current': 14, 'routine': 90, 'goal': 120, 'constraint': 180, 'preference': 365, 'fact': 240}
+_N103_STABLE_CATS = ('identity', 'relation')
+_N103_PEOPLE_KEYS = {'wife', 'husband', 'father', 'mother', 'son', 'daughter', 'brother', 'sister', 'best_friend', 'girlfriend', 'boyfriend', 'friend', 'cousin', 'uncle', 'aunt', 'boss', 'manager', 'partner'}
+_N103_STABLE_KEYS = {'name', 'nickname', 'email', 'phone', 'birthday', 'hometown', 'standing_instruction', 'remembered'} | _N103_PEOPLE_KEYS
+_N103_SLOW_KEYS = {'city': 720, 'workplace': 720}          # these change, but rarely: two half-lives is four years
+
+
+def _n103_half_life(key, cat):
+    k = str(key or '')
+    if k.startswith('current:') or cat == 'current':
+        return _N103_HALF_DAYS['current']
+    if k in _N103_SLOW_KEYS:
+        return _N103_SLOW_KEYS[k]
+    if cat in _N103_STABLE_CATS or k in _N103_STABLE_KEYS or k.split('_')[0] in _N103_PEOPLE_KEYS:
+        return None
+    return _N103_HALF_DAYS.get(cat or 'fact', _N103_HALF_DAYS['fact'])
+
+
+def _n103_stale(key, cat, updated, confirmed=0, now=None):
+    """True when a fact has gone two half-lives without being said, seen again or confirmed."""
+    h = _n103_half_life(key, cat)
+    if h is None:
+        return False
+    now = now or _n103_time.time()
+    last = max(float(updated or 0), float(confirmed or 0))
+    return (now - last) / 86400.0 > 2 * h
+
+
+def _n103_rows(cid, limit=240, history=False):
+    """Facts of this chat with their evidence. history=True also returns the versions that were replaced (never the ones that were forgotten)."""
+    sql = ('SELECT f.id,f.fkey,f.value,f.category,f.source,f.confidence,f.seen_count,f.updated,f.created,f.active,f.superseded_by,'
+           'COALESCE(m.evidence,""),COALESCE(m.confirmed,0),COALESCE(m.via,""),COALESCE(m.lang,"") '
+           'FROM facts f LEFT JOIN mind103_meta m ON m.fact_id=f.id WHERE f.chat_id=? AND ' + ("(f.active=1 OR COALESCE(f.superseded_by,'')<>'')" if history else 'f.active=1') + ' ORDER BY f.updated DESC LIMIT ?')
+    out = []
+    for r in _n103_q(sql, (str(cid), int(limit))):
+        out.append({'id': r[0], 'key': r[1], 'value': r[2], 'cat': r[3] or 'fact', 'src': r[4], 'conf': r[5], 'seen': r[6], 'updated': r[7] or 0, 'created': r[8] or r[7] or 0,
+                    'active': r[9], 'sup': r[10] or '', 'evidence': r[11], 'confirmed': r[12], 'via': r[13] or _n103_via(r[4]), 'lang': r[14]})
+    return out
+
+
+def _n103_srows(rows):
+    """Row dicts -> the tuple shape the search expects."""
+    return [(r['key'], r['value'], r['cat'], r['src'], r['conf'], r['seen'], r['updated'], r['evidence']) for r in rows]
+
+
+def _n103_age_text(ts):
+    try:
+        return _n83_age(ts)
+    except Exception:
+        return _n103_fmt(ts)
+
+
+# ------------------------------------------------ recall: the old rule, plus the hybrid search, plus the out-of-date marks ------------------------------------------------
+_N103_MB_PREV = _n83_memory_block
+
+
+def _n103_line(r):
+    k = r['key']
+    label = ('current ' + k[8:]) if k.startswith('current:') else k
+    line = '- %s: %s (learned %s)' % (label.replace('_', ' '), _n79_redact(r['value'])[:240], _n83_age(r['updated']))
+    if _n103_stale(k, r['cat'], r['updated'], r['confirmed']):
+        line += ' [may be outdated]'
+    return line
+
+
+def _n83_memory_block(cid, query, limit=10, budget=1500, strict=False):
+    """The v83 block (which stays the first word), then facts the hybrid search finds that the English word rule missed (script, Hinglish, other spellings), and a [may be outdated] mark on any
+    line whose fact has gone two half-lives unconfirmed."""
+    text, keys = _N103_MB_PREV(cid, query, limit, budget, strict)
+    try:
+        rows = _n103_rows(cid)
+        if not rows:
+            return text, keys
+        head = _N83_MEM_HEAD
+        lines = [ln for ln in text.split('\n')[1:] if ln.startswith('- ')] if text else []
+        have = set(lines)
+        by_line = {}
+        for r in rows:
+            k = r['key']
+            label = ('current ' + k[8:]) if k.startswith('current:') else k
+            by_line['- %s: %s (learned %s)' % (label.replace('_', ' '), _n79_redact(r['value'])[:240], _n83_age(r['updated']))] = r
+        used = sum(len(x) for x in lines)
+        out_lines, out_keys = [], list(keys)
+        for ln in lines:
+            r = by_line.get(ln)
+            if r is not None and _n103_stale(r['key'], r['cat'], r['updated'], r['confirmed']):
+                ln += ' [may be outdated]'
+                stale = getattr(_N103_CTX, 'stale', None)
+                if stale is not None:
+                    stale.append((r['id'], r['key'], r['value']))
+            out_lines.append(ln)
+        hits = _n103_search(_n103_srows(rows), query, k=max(3, int(limit)), strict=strict)
+        added = 0
+        for h in hits:
+            r = rows[h['i']]
+            raw = '- %s: %s (learned %s)' % ((('current ' + r['key'][8:]) if r['key'].startswith('current:') else r['key']).replace('_', ' '), _n79_redact(r['value'])[:240], _n83_age(r['updated']))
+            if raw in have:
+                continue
+            ln = _n103_line(r)
+            if len(out_lines) >= max(3, int(limit)) or used + len(ln) > budget:
+                break
+            out_lines.append(ln)
+            out_keys.append(r['key'])
+            used += len(ln)
+            added += 1
+            if ln.endswith('[may be outdated]'):
+                stale = getattr(_N103_CTX, 'stale', None)
+                if stale is not None:
+                    stale.append((r['id'], r['key'], r['value']))
+        if added:
+            _N103_STATS['hybrid_added'] += added
+        if not out_lines:
+            return text, keys
+        return head + '\n' + '\n'.join(out_lines), out_keys
+    except Exception:
+        _N103_STATS['errors'] += 1
+        return text, keys
+
+
+# ------------------------------------------------ the answer model is told which language the owner wrote in ------------------------------------------------
+_N103_SYSTEM_PREV = _n83_system
+
+
+def _n83_system(cid, style, memory_text):
+    base = _N103_SYSTEM_PREV(cid, style, memory_text)
+    try:
+        text = getattr(_N103_CTX, 'text', '') or ''
+        lang = _n103_lang(text)
+        if lang != 'en' and str((style or {}).get('language', 'auto')).lower() in ('auto', '', 'none'):
+            return base + '\n\nThe owner wrote in %s: reply in the same language and script unless they ask for another. Keep names, numbers, dates and technical terms exact.' % _N103_LANG_NAME[lang]
+    except Exception:
+        _N103_STATS['errors'] += 1
+    return base
+
+
+_N103_TURN_PREV = _n86_turn
+
+
+def _n86_turn(cid, msg, text, budget):
+    saved = (getattr(_N103_CTX, 'text', None), getattr(_N103_CTX, 'stale', None))
+    _N103_CTX.text = str(text or '')
+    _N103_CTX.stale = []
+    try:
+        out = _N103_TURN_PREV(cid, msg, text, budget)
+        stale = list(_N103_CTX.stale or [])
+    finally:
+        _N103_CTX.text, _N103_CTX.stale = saved
+    try:
+        _n103_maybe_tip(cid, stale, out)
+    except Exception:
+        _N103_STATS['errors'] += 1
+    return out
+
+
+# ------------------------------------------------ when: "5 March", "a month ago", "last week" ------------------------------------------------
+_N103_MONTHS = {'jan': 1, 'january': 1, 'feb': 2, 'february': 2, 'mar': 3, 'march': 3, 'apr': 4, 'april': 4, 'may': 5, 'jun': 6, 'june': 6, 'jul': 7, 'july': 7, 'aug': 8, 'august': 8,
+                'sep': 9, 'sept': 9, 'september': 9, 'oct': 10, 'october': 10, 'nov': 11, 'november': 11, 'dec': 12, 'december': 12}
+_N103_NUM = {'a': 1, 'an': 1, 'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10}
+
+
+def _n103_eod(d):
+    return _n103_dt.datetime(d.year, d.month, d.day, 23, 59, 59, tzinfo=_N103_IST).timestamp()
+
+
+def _n103_when(text, now=None):
+    """-> (timestamp, label) for a moment in the past named in words, or None. A day means the end of that day, a month the end of that month ("as of")."""
+    now = float(now or _n103_time.time())
+    low = ' '.join(str(text or '').lower().replace(',', ' ').split())
+    today = _n103_ist(now).date()
+    try:
+        m = _n103_re.search(r'\b(\d{1,3}|a|an|one|two|three|four|five|six|seven|eight|nine|ten)\s+(day|week|month|year)s?\s+(?:ago|back)\b', low)
+        if m:
+            n = int(m.group(1)) if m.group(1).isdigit() else _N103_NUM[m.group(1)]
+            secs = {'day': 86400, 'week': 7 * 86400, 'month': 30 * 86400, 'year': 365 * 86400}[m.group(2)] * n
+            return now - secs, '%d %s%s ago' % (n, m.group(2), '' if n == 1 else 's')
+        if 'yesterday' in low:
+            d = today - _n103_dt.timedelta(days=1)
+            return _n103_eod(d), 'yesterday (%s)' % _n103_fmt(_n103_eod(d))
+        for phrase, secs in (('last week', 7 * 86400), ('last month', 30 * 86400), ('last year', 365 * 86400)):
+            if phrase in low:
+                return now - secs, phrase
+        m = _n103_re.search(r'\b(\d{4})-(\d{1,2})-(\d{1,2})\b', low)
+        if m:
+            d = _n103_dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+            return _n103_eod(d), _n103_fmt(_n103_eod(d))
+        m = _n103_re.search(r'\b(\d{1,2})[/.-](\d{1,2})[/.-](\d{4}|\d{2})\b', low)
+        if m:
+            y = int(m.group(3))
+            y += 2000 if y < 100 else 0
+            d = _n103_dt.date(y, int(m.group(2)), int(m.group(1)))          # day first, as in India
+            return _n103_eod(d), _n103_fmt(_n103_eod(d))
+        m = _n103_re.search(r'\b(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?([a-z]{3,9})(?:\s+(\d{4}))?\b', low)
+        if m and m.group(2) in _N103_MONTHS:
+            y = int(m.group(3)) if m.group(3) else today.year
+            d = _n103_dt.date(y, _N103_MONTHS[m.group(2)], int(m.group(1)))
+            if d > today and not m.group(3):
+                d = _n103_dt.date(y - 1, d.month, d.day)
+            return _n103_eod(d), _n103_fmt(_n103_eod(d))
+        m = _n103_re.search(r'\b([a-z]{3,9})\s+(\d{1,2})(?:st|nd|rd|th)?(?:\s+(\d{4}))?\b', low)
+        if m and m.group(1) in _N103_MONTHS and not (m.group(3) is None and int(m.group(2)) > 31):
+            y = int(m.group(3)) if m.group(3) else today.year
+            d = _n103_dt.date(y, _N103_MONTHS[m.group(1)], int(m.group(2)))
+            if d > today and not m.group(3):
+                d = _n103_dt.date(y - 1, d.month, d.day)
+            return _n103_eod(d), _n103_fmt(_n103_eod(d))
+        m = _n103_re.search(r'\b(?:in|during|of|by|end of)\s+([a-z]{3,9})(?:\s+(\d{4}))?\b', low)
+        if m and m.group(1) in _N103_MONTHS:
+            mo = _N103_MONTHS[m.group(1)]
+            y = int(m.group(2)) if m.group(2) else today.year
+            nxt = _n103_dt.date(y + (mo == 12), (mo % 12) + 1, 1)
+            last = nxt - _n103_dt.timedelta(days=1)
+            if last > today and not m.group(2):
+                last = _n103_dt.date(last.year - 1, mo, 1)
+                nxt = _n103_dt.date(last.year + (mo == 12), (mo % 12) + 1, 1)
+                last = nxt - _n103_dt.timedelta(days=1)
+            return _n103_eod(last), 'the end of %s %d' % (m.group(1).title(), last.year)
+        m = _n103_re.search(r'\b(?:in|during|of|by|end of)\s+(20\d{2})\b', low)
+        if m and int(m.group(1)) < today.year:
+            return _n103_eod(_n103_dt.date(int(m.group(1)), 12, 31)), 'the end of %s' % m.group(1)
+    except (ValueError, OverflowError):
+        return None
+    return None
+
+
+# ------------------------------------------------ the cards ------------------------------------------------
+_N103_GROUPS = (('identity', 'WHO YOU ARE'), ('relation', 'PEOPLE'), ('current', 'RIGHT NOW'), ('goal', 'GOALS'), ('routine', 'ROUTINES'), ('constraint', 'RULES AND LIMITS'),
+                ('preference', 'LIKES AND PREFERENCES'), ('fact', 'OTHER FACTS'))
+
+
+_N103_IDENTITY_KEYS = {'name', 'nickname', 'city', 'hometown', 'workplace', 'company', 'birthday', 'email', 'phone'}
+
+
+def _n103_group_of(r):
+    """The card's section (v35 files "city" and "company" under relations because they are in its relation-word table; they are about you, not about a person)."""
+    if r['key'] in _N103_IDENTITY_KEYS:
+        return 'identity'
+    return r['cat'] if r['cat'] in dict(_N103_GROUPS) else 'fact'
+
+
+def _n103_label(k):
+    return (('current ' + k[8:]) if k.startswith('current:') else k).replace('_', ' ')
+
+
+def _n103_row_line(r, with_how=True):
+    stale = _n103_stale(r['key'], r['cat'], r['updated'], r['confirmed'])
+    bits = []
+    if with_how:
+        bits.append(r['via'])
+    bits.append(_n103_age_text(max(r['updated'], r['confirmed'] or 0)))
+    if stale:
+        bits.append('⏳ may be out of date')
+    return '• %s: %s  (%s)' % (_n103_label(r['key']), _n79_redact(r['value'])[:160], ', '.join(bits))
+
+
+def _n103_card(cid):
+    rows = _n103_rows(cid)
+    if not rows:
+        return 'I have not stored any facts about you yet. Tell me about yourself in normal conversation (English, Hinglish, Hindi or Gujarati) and I will remember durable things; you can review or remove them any time.'
+    _N103_STATS['cards'] += 1
+    groups = {}
+    for r in rows:
+        groups.setdefault(_n103_group_of(r), []).append(r)
+    stale = sum(1 for r in rows if _n103_stale(r['key'], r['cat'], r['updated'], r['confirmed']))
+    out = ['🧠 WHAT I REMEMBER ABOUT YOU (%d facts%s)' % (len(rows), (', %d may be out of date' % stale) if stale else '')]
+    for cat, title in _N103_GROUPS:
+        items = groups.get(cat)
+        if not items:
+            continue
+        out.append('\n' + title)
+        for r in items[:25]:
+            out.append(_n103_row_line(r))
+        if len(items) > 25:
+            out.append('… and %d more' % (len(items) - 25))
+    out.append('\nWhy I believe one: “why do you think my wife is …” · How it changed: “history of my city” · What I knew on a date: “what did you know about me on 5 March” · What is new: “what’s new about me this week” · '
+               'What may be out of date: “memory check-up” · Remove: /forget83 <word>')
+    return '\n'.join(out)[:3900]
+
+
+def _n103_topic_card(cid, topic):
+    rows = _n103_rows(cid)
+    hits = _n103_search(_n103_srows(rows), topic, k=6)
+    if not hits:
+        return ''
+    out = ['🧠 WHAT I REMEMBER ABOUT “%s”' % topic[:60]]
+    for h in hits:
+        out.append(_n103_row_line(rows[h['i']]))
+    out.append('\nWhy I believe one: “why do you think …” · Remove: /forget83 <word>')
+    return '\n'.join(out)[:3900]
+
+
+def _n103_first_person(text):
+    return bool(set(_n103_tokens(text)) & (_N103_POSSESSIVE | {_n103_fold(w) for w in ('i', 'me', 'main', 'mujhe', 'hu', 'हूं', 'मैं', 'मुझे', 'હું', 'મને')}))
+
+
+def _n103_why_text(cid, topic):
+    rows = _n103_rows(cid)
+    hits = _n103_search(_n103_srows(rows), topic, k=3)
+    if not hits:
+        return ''
+    r = rows[hits[0]['i']]
+    _N103_STATS['whys'] += 1
+    out = ['🔎 Why I think %s = %s' % (_n103_label(r['key']), _n79_redact(r['value'])[:160])]
+    if r['evidence']:
+        out.append('• What you said (%s): “%s”' % (_n103_fmt(r['created'] or r['updated']), r['evidence'][:240]))
+    else:
+        out.append('• I did not keep your exact words for this one (it was stored before I started keeping them, or it came from a task).')
+    out.append('• How I learned it: %s (%s)' % (r['via'], _n103_fmt(r['created'] or r['updated'])))
+    seen = int(r['seen'] or 1)
+    out.append('• Heard %d time%s; last confirmed %s' % (seen, '' if seen == 1 else 's', _n103_age_text(max(r['updated'], r['confirmed'] or 0))))
+    half = _n103_half_life(r['key'], r['cat'])
+    if _n103_stale(r['key'], r['cat'], r['updated'], r['confirmed']):
+        out.append('• ⏳ It may be out of date: facts like this usually change within about %d days and nobody has confirmed it since.' % (2 * half))
+    elif half is None:
+        out.append('• This kind of fact (a name, a relative) does not usually go out of date.')
+    else:
+        out.append('• Probably still true (facts like this usually change within about %d days).' % (2 * half))
+    out.append('\nIf it is wrong: say “actually, …” and I will correct it; or “/forget83 %s” to remove it.' % r['key'].split(':')[-1].replace('_', ' '))
+    if len(hits) > 1 and hits[1]['score'] >= hits[0]['score'] * 0.8:
+        out.append('(Another fact matched almost as well: %s. Ask again with more words if I picked the wrong one.)' % _n103_label(rows[hits[1]['i']]['key']))
+    return '\n'.join(out)[:3900]
+
+
+def _n103_history_text(cid, topic):
+    rows = _n103_rows(cid, limit=600, history=True)
+    live = [r for r in rows if r['active']]
+    hits = _n103_search(_n103_srows(live), topic, k=2)
+    if not hits:
+        return ''
+    top = live[hits[0]['i']]
+    key = top['key']
+    _N103_STATS['histories'] += 1
+    versions = sorted([r for r in rows if r['key'] == key and (r['active'] or r['sup'])], key=lambda r: r['created'])
+    multi = key in _N35_MULTI
+    out = ['🕰 History of %s' % _n103_label(key)]
+    if multi and len(versions) > 1:
+        versions = [r for r in versions if r['id'] == top['id']] or versions[:1]
+    for i, r in enumerate(versions):
+        start = _n103_fmt(r['created'] or r['updated'])
+        if r['active']:
+            out.append('• %s → now: %s' % (start, _n79_redact(r['value'])[:160]))
+        else:
+            out.append('• %s → %s: %s  (replaced)' % (start, _n103_fmt(r['updated']), _n79_redact(r['value'])[:160]))
+    if len(versions) == 1:
+        out.append('It has not changed since I first stored it.')
+    out.append('\nDates are when I stored each version, not when it became true in your life. Versions you asked me to forget are gone for good and never shown.')
+    return '\n'.join(out)[:3900]
+
+
+def _n103_travel_text(cid, when, topic=''):
+    ts, label = when
+    rows = _n103_rows(cid, limit=600, history=True)
+    by_id = {r['id']: r for r in rows}
+    seen = []
+    for r in rows:
+        created = r['created'] or r['updated']
+        if created > ts:
+            continue
+        if r['active'] or r['updated'] > ts:
+            seen.append(r)
+    later = sum(1 for r in rows if (r['created'] or r['updated']) > ts and r['active'])
+    if topic:
+        hits = _n103_search(_n103_srows(seen), topic, k=8)
+        seen = [seen[h['i']] for h in hits]
+    if not seen:
+        return '🕰 I have nothing stored from before %s%s.' % (label, (' about “%s”' % topic[:40]) if topic else '')
+    _N103_STATS['timetravel'] += 1
+    out = ['🕰 What I knew about you as of %s (%d fact%s)' % (label, len(seen), '' if len(seen) == 1 else 's')]
+    for r in sorted(seen, key=lambda x: x['key'])[:40]:
+        line = '• %s: %s' % (_n103_label(r['key']), _n79_redact(r['value'])[:140])
+        if not r['active']:
+            nxt = by_id.get(r['sup'])
+            line += '  (changed on %s%s)' % (_n103_fmt(r['updated']), (' to “%s”' % _n79_redact(nxt['value'])[:80]) if nxt else '')
+        out.append(line)
+    if later:
+        out.append('\n%d fact%s learned after that date %s not shown.' % (later, '' if later == 1 else 's', 'is' if later == 1 else 'are'))
+    out.append('Dates are when I stored each fact. Facts you asked me to forget are gone for good and never shown.')
+    return '\n'.join(out)[:3900]
+
+
+def _n103_since(word, now=None):
+    now = float(now or _n103_time.time())
+    w = (word or '').lower()
+    if w == 'today':
+        d = _n103_ist(now).date()
+        return _n103_dt.datetime(d.year, d.month, d.day, tzinfo=_N103_IST).timestamp(), 'today'
+    if w == 'since yesterday':
+        d = _n103_ist(now).date() - _n103_dt.timedelta(days=1)
+        return _n103_dt.datetime(d.year, d.month, d.day, tzinfo=_N103_IST).timestamp(), 'since yesterday'
+    if w == 'this month':
+        return now - 30 * 86400, 'in the last 30 days'
+    m = _n103_re.match(r'in the last (\d+) (days|hours)', w)
+    if m:
+        n = int(m.group(1))
+        return now - n * (86400 if m.group(2) == 'days' else 3600), 'in the last %d %s' % (n, m.group(2))
+    return now - 7 * 86400, 'in the last 7 days'
+
+
+def _n103_new_text(cid, word=''):
+    since, label = _n103_since(word)
+    rows = _n103_rows(cid, limit=600, history=True)
+    by_id = {r['id']: r for r in rows}
+    new = [r for r in rows if r['active'] and (r['created'] or r['updated']) >= since]
+    changed = [r for r in rows if not r['active'] and r['sup'] and r['updated'] >= since]
+    if not new and not changed:
+        return '🆕 Nothing new about you %s.' % label
+    out = ['🆕 What I learned about you %s' % label]
+    for r in sorted(new, key=lambda x: -x['created'])[:25]:
+        out.append('• NEW  %s: %s  (%s)' % (_n103_label(r['key']), _n79_redact(r['value'])[:140], r['via']))
+    for r in sorted(changed, key=lambda x: -x['updated'])[:15]:
+        nxt = by_id.get(r['sup'])
+        out.append('• CHANGED  %s: “%s” → “%s”' % (_n103_label(r['key']), _n79_redact(r['value'])[:70], _n79_redact(nxt['value'])[:70] if nxt else '?'))
+    return '\n'.join(out)[:3900]
+
+
+def _n103_checkup(cid):
+    rows = _n103_rows(cid)
+    stale = sorted([r for r in rows if _n103_stale(r['key'], r['cat'], r['updated'], r['confirmed'])], key=lambda r: max(r['updated'], r['confirmed'] or 0))
+    _N103_STATS['checkups'] += 1
+    if not stale:
+        _n91_say(cid, '✅ Nothing in my memory of you looks out of date. (Only some kinds of fact go stale: things you said about "right now" after about a month, routines and goals after a few months, preferences after about two years. Names and relatives never do.)')
+        return
+    show = stale[:8]
+    lines = ['⏳ These may be out of date (%d%s):' % (len(stale), '' if len(stale) <= 8 else ', showing the 8 oldest')]
+    kb_rows = []
+    for r in show:
+        lines.append('• %s: %s  (last confirmed %s)' % (_n103_label(r['key']), _n79_redact(r['value'])[:100], _n103_age_text(max(r['updated'], r['confirmed'] or 0))))
+        lab = _n103_label(r['key'])[:14]
+        kb_rows.append([{'text': '✅ %s' % lab, 'callback_data': 'm103:ok:%s' % r['id']}, {'text': '✏️ %s changed' % lab, 'callback_data': 'm103:ch:%s' % r['id']}])
+    lines.append('\n✅ keeps it (I will count it as confirmed today); ✏️ tells me you will give me the new value.')
+    _n91_say(cid, '\n'.join(lines), {'inline_keyboard': kb_rows})
+
+
+# ------------------------------------------------ "who do you mean?": ask before guessing ------------------------------------------------
+_N103_PEOPLE_ROLES = ('friend', 'colleague', 'cousin', 'uncle', 'aunt', 'neighbour', 'teacher', 'doctor', 'boss', 'customer', 'partner')
+_N103_POSSESSIVE = {_n103_fold(w) for w in ('my mine our mera meri mere hamara hamari hamare maro mari mara maru amaro amari amara मेरा मेरी मेरे हमारा हमारी हमारे મારો મારી મારા મારું અમારો અમારી અમારા').split()}
+_N103_REQUEST = {_n103_fold(w) for w in ('what when where how who which call phone message msg text mail email whatsapp remind send tell ask book invite schedule show give find kab kya kaun kahan kaise bata batao bhej bhejo yaad '
+                                           'क्या कब कहाँ कौन कैसे बताओ भेजो भेज याद શું ક્યારે ક્યાં કોણ કેમ બતાવો મોકલો યાદ').split()}
+_N103_PICK_TTL = 1800
+_N103_ASK_COOLDOWN = 600
+_N103_PEND_TTL = 3600
+
+
+def _n103_role_of(tok):
+    f = _n103_fold(tok)
+    forms = sorted({x for x in (f, _n103_strip_native(f), _n103_translit(f), _n103_stem_latin(f)) if x})
+    got = _n103_concepts_of(forms)
+    for r in _N103_PEOPLE_ROLES:
+        if r in got:
+            return r
+    return ''
+
+
+def _n103_people(cid, role):
+    out, seen = [], set()
+    for r in _n103_rows(cid):
+        k = r['key']
+        if k.startswith(role + '_') and len(k) > len(role) + 1:
+            nm = k[len(role) + 1:].replace('_', ' ').title()
+            if nm.lower() not in seen:
+                seen.add(nm.lower())
+                out.append((nm, r))
+    return out
+
+
+def _n103_ambiguity(cid, msg, text):
+    """True when it asked who is meant (and so the message waits). Asks only when: the message is a question or a request, it says "my <role>" with no name, and I know two or more people in that role."""
+    if msg.get('_m103_asked') or not text or text.startswith('/') or len(text) > 400:
+        return False
+    toks = _n103_tokens(text)
+    if len(toks) < 3:
+        return False
+    if not (text.rstrip().endswith('?') or set(toks[:4]) & _N103_REQUEST):          # a question, or starting like a request ("call my friend", "can you call my friend"); not "my friend told me what happened"
+        return False
+    role = ''
+    for i, t in enumerate(toks):
+        r = _n103_role_of(t)
+        if r and set(toks[max(0, i - 2):i]) & _N103_POSSESSIVE:
+            role = r
+            break
+    if not role or _n103_get(cid, 'questions') != 'on':
+        return False
+    people = _n103_people(cid, role)
+    if len(people) < 2:
+        return False
+    now = _n103_time.time()
+    pick = _n103_q('SELECT ts FROM mind103_pick WHERE chat_id=? AND role=?', (str(cid), role))
+    if pick and now - float(pick[0][0]) < _N103_PICK_TTL:
+        return False
+    asked = _n103_q('SELECT MAX(ts) FROM mind103_pending WHERE chat_id=? AND role=?', (str(cid), role))
+    if asked and asked[0][0] and now - float(asked[0][0]) < _N103_ASK_COOLDOWN:
+        return False
+    softs = {_n103_soft(_n103_translit(t)) for t in toks if len(t) >= 2}
+    for nm, _r in people:
+        if _n103_soft(_n103_translit(_n103_fold(nm))) in softs:
+            return False                                          # a name is already in the message
+    people = people[:6]
+    token = _n103_secrets.token_hex(16)
+    sender = (msg.get('from') or {}).get('id', cid)
+    keep = {'chat': {'id': (msg.get('chat') or {}).get('id', cid), 'type': 'private'}, 'from': {'id': sender}, 'message_id': msg.get('message_id'), 'date': msg.get('date')}
+    _n103_q('INSERT OR REPLACE INTO mind103_pending(token,chat_id,text,role,names,msg,ts) VALUES(?,?,?,?,?,?,?)',
+            (token, str(cid), text[:600], role, _n103_json.dumps([p[0] for p in people], ensure_ascii=False), _n103_json.dumps(keep), now), write=True)
+    _n103_q('DELETE FROM mind103_pending WHERE ts<?', (now - _N103_PEND_TTL,), write=True)
+    lines = ['🤔 Which %s do you mean? I know %d:' % (role, len(people))]
+    for nm, r in people:
+        lines.append('• %s — %s' % (nm, _n79_redact(r['value'])[:80]))
+    lines.append('\nTap one and I will answer. (“who do you mean off” switches these questions off.)')
+    btns = [{'text': nm[:20], 'callback_data': 'm103:p:%s:%d' % (token, i)} for i, (nm, _r) in enumerate(people)]
+    rows = [btns[i:i + 2] for i in range(0, len(btns), 2)] + [[{'text': 'Someone else', 'callback_data': 'm103:p:%s:x' % token}]]
+    _n91_say(cid, '\n'.join(lines), {'inline_keyboard': rows})
+    _N103_STATS['asked'] += 1
+    return True
+
+
+def _n103_replay(synth):
+    def run():
+        try:
+            handle(synth)
+        except Exception:
+            _N103_STATS['errors'] += 1
+    if _N103_SYNC['on']:
+        run()
+    else:
+        _n103_th.Thread(target=run, daemon=True).start()
+
+
+def _n103_callback(cq):
+    data = str(cq.get('data') or '')
+    cid = ((cq.get('message') or {}).get('chat') or {}).get('id')
+    try:
+        tg('answerCallbackQuery', callback_query_id=cq.get('id'))
+    except Exception:
+        pass
+    m = _n103_re.match(r'^m103:p:([0-9a-f]{32}):(\d|x)$', data)
+    if m:
+        rows = _n103_q('SELECT chat_id,text,role,names,msg,ts FROM mind103_pending WHERE token=?', (m.group(1),))
+        if not rows or str(rows[0][0]) != str(cid) or _n103_time.time() - float(rows[0][5]) > _N103_PEND_TTL:
+            _n91_say(cid, 'That question has expired. Please ask again.')
+            return
+        _c, text, role, names, keep, _ts = rows[0]
+        _n103_q('DELETE FROM mind103_pending WHERE token=?', (m.group(1),), write=True)
+        names = _n103_json.loads(names)
+        synth = _n103_json.loads(keep)
+        synth['_m103_asked'] = True
+        if m.group(2) == 'x':
+            synth['text'] = text
+        else:
+            i = int(m.group(2))
+            if i >= len(names):
+                return
+            _n103_q('INSERT OR REPLACE INTO mind103_pick(chat_id,role,name,ts) VALUES(?,?,?,?)', (str(cid), role, names[i], _n103_time.time()), write=True)
+            synth['text'] = '%s\n(By “%s” I mean %s.)' % (text, role, names[i])
+            _N103_STATS['picked'] += 1
+        _n103_replay(synth)
+        return
+    m = _n103_re.match(r'^m103:(ok|ch):(F35-[0-9A-F]{10})$', data)
+    if m:
+        rows = _n103_q('SELECT fkey,value FROM facts WHERE id=? AND chat_id=? AND active=1', (m.group(2), str(cid)))
+        if not rows:
+            _n91_say(cid, 'That fact is no longer in my memory.')
+            return
+        label = _n103_label(rows[0][0])
+        if m.group(1) == 'ok':
+            now = _n103_time.time()
+            _n103_q('UPDATE facts SET updated=? WHERE id=? AND chat_id=?', (now, m.group(2), str(cid)), write=True)
+            _n103_q('INSERT OR IGNORE INTO mind103_meta(fact_id,chat_id,evidence,lang,via,created,confirmed) VALUES(?,?,?,?,?,?,?)', (m.group(2), str(cid), '', '', 'you told me', now, now), write=True)
+            _n103_q('UPDATE mind103_meta SET confirmed=? WHERE fact_id=?', (now, m.group(2)), write=True)
+            _n91_say(cid, '✅ Kept: %s = %s (confirmed today).' % (label, _n79_redact(rows[0][1])[:100]))
+        else:
+            _n91_say(cid, '✏️ Tell me the new value, like “actually, my %s is …” and I will replace “%s”.' % (label, _n79_redact(rows[0][1])[:80]))
+
+
+_N103_CALLBACK_PREV = handle_callback
+
+
+def handle_callback(cq):
+    try:
+        data = str(cq.get('data') or '')
+        if data.startswith('m103:'):
+            owner = OWNER.get('id')
+            sender = (cq.get('from') or {}).get('id')
+            chat = ((cq.get('message') or {}).get('chat') or {}).get('id')
+            if owner is not None and sender == owner and chat == owner:
+                _n103_callback(cq)
+                return
+            try:
+                tg('answerCallbackQuery', callback_query_id=cq.get('id'))        # anyone else's press is acknowledged and ignored
+            except Exception:
+                pass
+            return
+    except Exception:
+        _N103_STATS['errors'] += 1
+        return
+    return _N103_CALLBACK_PREV(cq)
+
+
+# ------------------------------------------------ opt-in tip: one line, at most once a day, only about a stale fact the answer actually used ------------------------------------------------
+_N103_TIP_DELAY = 4.0
+
+
+def _n103_maybe_tip(cid, stale, out):
+    if not stale or cid != OWNER.get('id') or _n103_get(cid, 'tips') != 'on':
+        return
+    if not isinstance(out, dict) or not out.get('ok', True) or not out.get('text'):
+        return
+    now = _n103_time.time()
+    try:
+        last = float(_n103_get(cid, 'tip_last') or 0)
+    except ValueError:
+        last = 0.0
+    if now - last < 20 * 3600:
+        return
+    for fid, key, value in stale:
+        try:
+            prev = float(_n103_get(cid, 'tip:' + fid) or 0)
+        except ValueError:
+            prev = 0.0
+        if now - prev < 7 * 86400:
+            continue
+        _n103_put(cid, 'tip_last', now)
+        _n103_put(cid, 'tip:' + fid, now)
+        text = '💡 I just used your %s (“%s”) but nobody has confirmed it for a long time. Still right?' % (_n103_label(key), _n79_redact(value)[:80])
+        kb = {'inline_keyboard': [[{'text': '✅ Still true', 'callback_data': 'm103:ok:%s' % fid}, {'text': '✏️ Changed', 'callback_data': 'm103:ch:%s' % fid}]]}
+        _N103_STATS['tips'] += 1
+
+        def send(t=text, k=kb):
+            try:
+                _n91_say(cid, t, k)
+            except Exception:
+                _N103_STATS['errors'] += 1
+        if _N103_SYNC['on'] or _N103_TIP_DELAY <= 0:
+            send()
+        else:
+            tm = _n103_th.Timer(_N103_TIP_DELAY, send)
+            tm.daemon = True
+            tm.start()
+        return
+
+
+# ------------------------------------------------ the door: only numbers the owner allowed can use the Twilio WhatsApp and voice lines ------------------------------------------------
+def _n103_digits(s):
+    d = _n103_re.sub(r'\D', '', str(s or '').replace('whatsapp:', ''))
+    d = d.lstrip('0')
+    return ('91' + d) if len(d) == 10 else d                      # a bare 10-digit number is an Indian mobile
+
+
+def _n103_masked(d):
+    return ('+' + d[:2] + '•' * max(0, len(d) - 6) + d[-4:]) if len(d) > 6 else '+••••'
+
+
+def _n103_allowed(d):
+    try:
+        return bool(d) and bool(_n103_q('SELECT 1 FROM mind103_allow WHERE number=?', (d,)))
+    except Exception:
+        _N103_STATS['errors'] += 1
+        return False                                           # fail closed
+
+
+def _n103_turn_away(d, kind):
+    now = _n103_time.time()
+    sid = _n103_hashlib.sha256(('m103:' + (d or '?')).encode('utf-8')).hexdigest()[:16]
+    rows = _n103_q('SELECT notified FROM mind103_block WHERE sender=?', (sid,))
+    if rows:
+        _n103_q('UPDATE mind103_block SET last_ts=?, count=count+1, channel=? WHERE sender=?', (now, kind, sid), write=True)
+        notified = float(rows[0][0] or 0)
+    else:
+        _n103_q('INSERT INTO mind103_block(sender,last4,channel,first_ts,last_ts,count,notified) VALUES(?,?,?,?,?,1,0)', (sid, (d[-4:] if d else '----'), kind, now, now), write=True)
+        notified = 0.0
+    _N103_STATS['blocked_senders'] += 1
+    if now - notified >= 86400 and OWNER.get('id') is not None:
+        _n103_q('UPDATE mind103_block SET notified=? WHERE sender=?', (now, sid), write=True)
+        text = ('🚫 A number ending %s tried your %s line and was turned away (nothing was answered, nothing was sent to it). If it is you or family, say “allow whatsapp +91XXXXXXXXXX”. '
+                'I tell you about each number at most once a day.' % ((d[-4:] if d else '----'), 'WhatsApp' if kind == 'whatsapp' else 'voice'))
+
+        def tell():
+            try:
+                send_text(OWNER['id'], text)
+            except Exception:
+                _N103_STATS['errors'] += 1
+        if _N103_SYNC['on']:
+            tell()
+        else:
+            _n103_th.Thread(target=tell, daemon=True).start()          # the reply to the caller must not wait for Telegram
+
+
+_N103_BUILD_PREV = build_web_app
+
+
+def _n103_guard_view(view, kind, request, Response):
+    """The three Twilio routes (WhatsApp, voice, gather) answer only numbers on the owner's list. The check runs before the route's own secret check; any error in it refuses."""
+    def _n103_guarded(*a, **k):
+        allowed, d = False, ''
+        try:
+            d = _n103_digits(request.form.get('From') or request.args.get('From') or '')
+            allowed = bool(d) and _n103_allowed(d)
+            if not allowed:
+                _n103_turn_away(d, kind)
+        except Exception:
+            _N103_STATS['errors'] += 1
+            allowed = False
+        if allowed:
+            _N103_STATS['allowed_senders'] += 1
+            return view(*a, **k)                                      # outside the try: the route's own errors are not mine to hide
+        if kind == 'whatsapp':
+            return Response('<?xml version="1.0" encoding="UTF-8"?><Response></Response>', mimetype='text/xml')
+        return Response('<?xml version="1.0" encoding="UTF-8"?><Response><Reject/></Response>', mimetype='text/xml')
+    _n103_guarded.__name__ = getattr(view, '__name__', '_n103_guarded')
+    return _n103_guarded
+
+
+def build_web_app():
+    app = _N103_BUILD_PREV()
+    try:
+        from flask import request, Response
+        done = set()
+        for rule in list(app.url_map.iter_rules()):
+            path = rule.rule
+            if not path.startswith('/twilio/') or rule.endpoint in done or rule.endpoint not in app.view_functions:
+                continue
+            kind = 'whatsapp' if path.endswith('/whatsapp') else ('voice' if path.endswith(('/voice', '/gather')) else None)
+            if kind:
+                done.add(rule.endpoint)
+                app.view_functions[rule.endpoint] = _n103_guard_view(app.view_functions[rule.endpoint], kind, request, Response)
+    except Exception:
+        _N103_STATS['errors'] += 1
+    return app
+
+
+# ------------------------------------------------ commands ------------------------------------------------
+def _n103_help_text():
+    return ('🧠 Mind (v103): my memory, with proof and history\n'
+            '• “what do you know about me” · “what do you know about my sister”\n'
+            '• “why do you think my wife is Kavita” (what you said, when, how sure)\n'
+            '• “history of my city” · “what did you know about me on 5 March” (or “a month ago”)\n'
+            '• “what’s new about me” (add: today / this week / this month) · “memory check-up” (what may be out of date)\n'
+            '• “memory eval” (a built-in test of how well I find the right fact in English, Hinglish, Hindi and Gujarati)\n'
+            '• “who do you mean on|off” (ask which friend you mean instead of guessing) · “memory tips on|off”\n'
+            '• “allow whatsapp +91XXXXXXXXXX” · “whatsapp numbers” · “remove whatsapp +91…” (only allowed numbers can use the Twilio WhatsApp and voice lines)\n'
+            'I read Hindi and Gujarati script and Hinglish; facts you tell me in those are kept too.')
+
+
+def _n103_status_text(cid):
+    rows = _n103_rows(cid)
+    ev = sum(1 for r in rows if r['evidence'])
+    stale = sum(1 for r in rows if _n103_stale(r['key'], r['cat'], r['updated'], r['confirmed']))
+    allow = _n103_q('SELECT COUNT(*) FROM mind103_allow')[0][0]
+    blocked = _n103_q('SELECT COUNT(*) FROM mind103_block')[0][0]
+    return ('🧠 Mind 103: %d facts, %d with your own words kept as evidence, %d may be out of date.\n'
+            'Ask which person: %s · Memory tips: %s\n'
+            'WhatsApp/voice lines: %d allowed number%s, %d stranger%s turned away so far.\n'
+            'Say “memory help” for the list of things you can ask.' % (len(rows), ev, stale, _n103_get(cid, 'questions'), _n103_get(cid, 'tips'),
+                                                                        allow, '' if allow == 1 else 's', blocked, '' if blocked == 1 else 's'))
+
+
+_N103_RX = {
+    'help': _n91_re.compile(r'^/?(?:memory|mind)(?: 103)? (?:help|guide)$|^/mind103 help$'),
+    'status': _n91_re.compile(r'^/?mind103(?: status)?$|^(?:memory|mind) 103(?: status)?$|^mind status$'),
+    'card': _n91_re.compile(r"^(?:what(?:'s| is| all)? (?:do )?you (?:know|remember|have) (?:on |about )?me|what (?:do|did) you (?:know|remember) about me|tell me (?:everything )?(?:that )?you (?:know|remember) about me|show (?:me )?my memory|/mymemory|"
+                            r"mere (?:baare|bare) mein (?:tumhe |tum |aapko |aap )?kya (?:kya )?(?:jaante|jante|yaad|pata)\w*(?: ho| hai)?|tum mere (?:baare|bare) mein kya (?:jaante|jante) ho|मेरे बारे में (?:तुम |आप )?क्या (?:क्या )?(?:जानते|याद|पता)\w*(?: हो| है)?|"
+                            r"મારા વિશે (?:તને |તમને |તું )?શું (?:ખબર|યાદ)\w*(?: છે)?)$"),
+    'topic': _n91_re.compile(r"^what (?:do )?you (?:know|remember) about my (.{2,80})$"),
+    'why': _n91_re.compile(r"^(?:why|how) (?:do|did) you (?:think|believe|know|say)(?: that)? (.{3,140})$|^tumhe kaise pata (.{3,140})$"),
+    'history': _n91_re.compile(r"^(?:(?:show )?(?:the )?(?:history|timeline) of (?:my )?(.{2,80})|how (?:has|have|did) (?:my )?(.{2,80}?) (?:change|changed)|what did i (?:tell|say to) you about (?:my )?(.{2,80}?) (?:before|earlier|previously|in the past))$"),
+    'travel': _n91_re.compile(r"^(?:what|show)(?: did| do)? (?:you )?(?:know|remember|knew|have) (?:about|on) me (?:on |in |at |as of |by |around )?(.{3,60})$|^memory as of (.{3,60})$|^as of (.{3,60}),? what (?:was|were) my (.{2,60})$|^what (?:was|were) my (.{2,60}?) (?:on|in|as of|at) (.{3,60})$"),
+    'new': _n91_re.compile(r"^(?:what(?:'s| is) new about me(?: (WHEN))?|what(?:'s| is) new in (?:my )?memory(?: (WHEN))?|what did you learn(?:t)?(?: about me)? (WHEN)|what have you learn(?:ed|t) about me (WHEN))$".replace('WHEN', r'(today|this week|this month|since yesterday|in the last \d+ (?:days|hours))')),
+    'checkup': _n91_re.compile(r"^(?:memory (?:check[ -]?up|review)|(?:what|which)(?: of my facts| facts| in your memory)? (?:might|may|could) be (?:out ?of ?date|outdated|stale|old|wrong)|anything (?:outdated|stale|old) in (?:my |your )?memory)$"),
+    'tips': _n91_re.compile(r'^memory tips (on|off)$'),
+    'ask': _n91_re.compile(r'^(?:who do you mean|ask me which (?:friend|person|one)) (on|off)$'),
+    'eval': _n91_re.compile(r'^(?:memory eval|test (?:my )?memory (?:search|recall))$'),
+    'wa_allow': _n91_re.compile(r'^(?:allow|add) (?:my )?(?:whatsapp|phone|calls?|sms|number)(?: number)?(?: from| for)? (\+?\d[\d \-]{3,18}\d)(?: (?:as|for) (.{1,30}))?$'),
+    'wa_remove': _n91_re.compile(r'^(?:remove|block|disallow|delete) (?:my )?(?:whatsapp|phone|calls?|sms|number)(?: number)?(?: from| for)? (\+?\d[\d \-]{3,18}\d)$'),
+    'wa_list': _n91_re.compile(r'^(?:whatsapp numbers|phone allow ?list|whatsapp allow ?list|allowed (?:whatsapp |phone )?numbers|who can (?:use|message|call) (?:my )?(?:whatsapp|phone)(?: line)?)$'),
+}
+
+
+def _n103_route(cid, text):
+    raw = _n91_norm(text)
+    if not raw or len(raw) > 300:
+        return False
+    t = _n103_fold(raw)
+    R = _N103_RX
+    if R['help'].match(t):
+        _n91_say(cid, _n103_help_text())
+        return True
+    if R['status'].match(t):
+        _n91_say(cid, _n103_status_text(cid))
+        return True
+    if R['card'].match(t):
+        _n91_say(cid, _n103_card(cid))
+        return True
+    m = R['wa_allow'].match(t)
+    if m:
+        d = _n103_digits(m.group(1))
+        if len(d) < 9 or len(d) > 15:
+            _n91_say(cid, 'That does not look like a full phone number. Use the international form, like “allow whatsapp +919876543210”.')
+            return True
+        label = raw[len(raw) - len(m.group(2)):][:30] if m.group(2) else ''                      # as typed, not lower-cased
+        _n103_q('INSERT OR REPLACE INTO mind103_allow(number,label,added) VALUES(?,?,?)', (d, label, _n103_time.time()), write=True)
+        _n91_say(cid, '✅ %s may now use the Twilio WhatsApp and voice lines.%s Everyone else is turned away and I tell you once a day about each number. “whatsapp numbers” lists them.' % (_n103_masked(d), (' (' + label + ')') if label else ''))
+        return True
+    m = R['wa_remove'].match(t)
+    if m:
+        d = _n103_digits(m.group(1))
+        n = len(_n103_q('SELECT 1 FROM mind103_allow WHERE number=?', (d,)))
+        _n103_q('DELETE FROM mind103_allow WHERE number=?', (d,), write=True)
+        _n91_say(cid, ('Removed %s.' % _n103_masked(d)) if n else '%s was not on the list.' % _n103_masked(d))
+        return True
+    if R['wa_list'].match(t):
+        rows = _n103_q('SELECT number,label FROM mind103_allow ORDER BY added')
+        if not rows:
+            _n91_say(cid, 'No number is allowed on the Twilio WhatsApp and voice lines, so every caller is turned away (that is the safe default). Say “allow whatsapp +91XXXXXXXXXX” to add yours.')
+        else:
+            _n91_say(cid, 'Allowed on the Twilio WhatsApp and voice lines:\n' + '\n'.join('• %s%s' % (_n103_masked(r[0]), (' — ' + r[1]) if r[1] else '') for r in rows) + '\nEveryone else is turned away.')
+        return True
+    m = R['tips'].match(t)
+    if m:
+        _n103_put(cid, 'tips', m.group(1))
+        _n91_say(cid, ('💡 Memory tips on: after an answer that used a fact nobody has confirmed for a long time, I will send one line asking if it is still right (at most one a day).' if m.group(1) == 'on'
+                       else 'Memory tips off.'))
+        return True
+    m = R['ask'].match(t)
+    if m:
+        _n103_put(cid, 'questions', m.group(1))
+        _n91_say(cid, ('I will ask which person you mean when you say “my friend” and I know several.' if m.group(1) == 'on' else 'I will stop asking which person you mean (I will guess from the conversation).'))
+        return True
+    if R['eval'].match(t):
+        _n91_say(cid, _n103_eval_text())
+        return True
+    if R['checkup'].match(t):
+        _n103_checkup(cid)
+        return True
+    m = R['new'].match(t)
+    if m:
+        _n91_say(cid, _n103_new_text(cid, next((x for x in m.groups() if x), '')))
+        return True
+    m = R['travel'].match(t)
+    if m:
+        g = [x for x in m.groups() if x]
+        if m.group(3):
+            when_txt, topic = m.group(3), m.group(4)
+        elif m.group(5):
+            when_txt, topic = m.group(6), m.group(5)
+        else:
+            when_txt, topic = g[0], ''
+        when = _n103_when(when_txt)
+        if when is None:
+            _n91_say(cid, 'I could not read that date. Try “on 5 March”, “in March 2026”, “2026-03-05”, “a month ago”, “last week” or “yesterday”.')
+            return True
+        _n91_say(cid, _n103_travel_text(cid, when, topic))
+        return True
+    m = R['history'].match(t)
+    if m:
+        topic = next((x for x in m.groups() if x), '')
+        out = _n103_history_text(cid, topic)
+        if out:
+            _n91_say(cid, out)
+            return True
+        return False
+    m = R['why'].match(t)
+    if m:
+        topic = next((x for x in m.groups() if x), '')
+        if _n103_first_person(topic):
+            out = _n103_why_text(cid, topic)
+            if out:
+                _n91_say(cid, out)
+                return True
+        return False
+    m = R['topic'].match(t)
+    if m:
+        out = _n103_topic_card(cid, m.group(1))
+        if out:
+            _n91_say(cid, out)
+            return True
+        return False
+    return False
+
+
+def _n103_front(msg):
+    cid = _n92_owner(msg)
+    if cid is None:
+        return False
+    text = _n92_asked_for(msg)
+    if not text or msg.get('photo') or msg.get('document'):
+        return False
+    handled = _n103_route(cid, text)
+    if not handled:
+        handled = _n103_ambiguity(cid, msg, text)
+    if handled:
+        _N103_STATS['front_door'] += 1
+        try:
+            _n88_record(msg)
+        except Exception:
+            pass
+    return handled
+
+
+_N103_HANDLE_PREV = handle
+
+
+def handle(msg):
+    try:
+        if _n103_front(msg):
+            return
+    except Exception:
+        _N103_STATS['errors'] += 1
+    return _N103_HANDLE_PREV(msg)
+
+
+_N103_MEMTEXT_PREV = _n83_memory_text
+
+
+def _n83_memory_text(cid):
+    """The v83 'what do you remember about me' card, now with evidence marks, out-of-date marks and the new commands."""
+    try:
+        return _n103_card(cid)
+    except Exception:
+        _N103_STATS['errors'] += 1
+        return _N103_MEMTEXT_PREV(cid)
+
+
+# ------------------------------------------------ forgetting reaches the new tables ------------------------------------------------
+def _n103_st_meta(cid, m, apply):
+    n = 0
+    with _N35_LOCK:
+        c = _n103_conn()
+        _n86_secure(c)
+        try:
+            alive = {r[0] for r in c.execute('SELECT id FROM facts WHERE chat_id=?', (str(cid),)).fetchall()}
+            hit = [r[0] for r in c.execute('SELECT fact_id,evidence FROM mind103_meta WHERE chat_id=?', (str(cid),)).fetchall() if r[0] not in alive or m(r[1] or '')]
+            pend = [r[0] for r in c.execute('SELECT token,text FROM mind103_pending WHERE chat_id=?', (str(cid),)).fetchall() if m(r[1] or '')]
+            picks = [(r[0], r[1]) for r in c.execute('SELECT role,name FROM mind103_pick WHERE chat_id=?', (str(cid),)).fetchall() if m(r[1] or '')]
+            if apply:
+                c.executemany('DELETE FROM mind103_meta WHERE fact_id=?', [(i,) for i in hit])
+                c.executemany('DELETE FROM mind103_pending WHERE token=?', [(i,) for i in pend])
+                c.executemany('DELETE FROM mind103_pick WHERE chat_id=? AND role=? AND name=?', [(str(cid), r, nm) for r, nm in picks])
+                _n86_finish(c)
+            n = len(hit) + len(pend) + len(picks)
+        finally:
+            c.close()
+    return n
+
+
+_N86_STORES = _N86_STORES + (('mind103', 'memory notes (your own words kept as evidence, pending questions)', _n103_st_meta, ('topic', 'conversation', 'everything')),)
+
+
+# ------------------------------------------------ capabilities, regression rows, command, boot ------------------------------------------------
+_N103_CAPS_PREV = _n82_capabilities
+
+
+def _n82_capabilities():
+    return (_N103_CAPS_PREV() + '\nMind 103: my memory reads Hindi and Gujarati script and Hinglish (a fact said in any of them is found by a question in any other); each fact keeps your own words as evidence, how it was learned and when it was last '
+            'confirmed; facts nobody has confirmed for a long time carry [may be outdated]. “what do you know about me”, “why do you think my wife is …”, “history of my city”, “what did you know about me on 5 March”, '
+            '“what’s new about me”, “memory check-up”, “memory eval”. When “my friend” could be several people I ask which one before answering. Only phone numbers the owner allowed can use the Twilio WhatsApp and voice lines.')
+
+
+def _n103_regression_rows():
+    rows = []
+
+    def add(name, fn):
+        try:
+            ok = bool(fn())
+        except Exception:
+            ok = False
+        rows.append({'name': 'v103-' + name, 'ok': ok, 'detail': 'pure contract check; no network, no AI, no order'})
+    add('version', lambda: float(VERSION) >= 103)
+    add('hooks-installed', lambda: handle is not _N103_HANDLE_PREV and _n83_memory_block is not _N103_MB_PREV and _n35_norm is not _N103_NORM_PREV and build_web_app is not _N103_BUILD_PREV)
+    add('script-comparison-text-not-empty', lambda: _n35_norm('ગૌતમ') != '' and _n35_norm('ગૌતમ') != _n35_norm('રાહુલ') and _n35_norm('hello World') == 'hello world')
+    add('translit', lambda: _n103_translit('गौतम') == 'gautam' and _n103_translit('ગૌતમ') == 'gautam' and _n103_translit('कमला') == 'kamla')
+    add('same-fact-three-languages', lambda: _n103_rel_of('भाई') == _n103_rel_of('ભાઈ') == _n103_rel_of('bhai') == _n103_rel_of('brother') == 'brother')
+    add('hybrid-finds-script', lambda: bool(_n103_search([('brother', 'Rahul', 'relation', 'x', .9, 1, 1.0, ''), ('city', 'Pune', 'identity', 'x', .9, 1, 1.0, '')], 'મારા ભાઈનું નામ શું છે')) and
+        _n103_search([('brother', 'Rahul', 'relation', 'x', .9, 1, 1.0, ''), ('city', 'Pune', 'identity', 'x', .9, 1, 1.0, '')], 'મારા ભાઈનું નામ શું છે')[0]['i'] == 0)
+    add('nothing-for-unrelated', lambda: _n103_search([('city', 'Pune', 'identity', 'x', .9, 1, 1.0, '')], 'tell me a joke') == [])
+    add('half-life', lambda: _n103_stale('current:trip', 'current', 1.0, 0, now=1.0 + 40 * 86400) and not _n103_stale('wife', 'relation', 1.0, 0, now=1.0 + 3000 * 86400))
+    add('door-default-deny', lambda: not _n103_allowed('') and _n103_digits('whatsapp:+91 98765 43210') == '919876543210')
+    add('time-parser', lambda: _n103_when('5 march 2025', now=1.8e9)[1] == '5 Mar 2025' and _n103_when('2 weeks ago', now=1.8e9)[0] == 1.8e9 - 14 * 86400)
+    add('forget-store-registered', lambda: 'mind103' in {s[0] for s in _N86_STORES})
+    add('no-orders', lambda: 'fyers_place' not in _n103_json.dumps(sorted(k for k in globals() if k.startswith('_n103_'))))
+    return rows
+
+
+_N103_REG_PREV = prime_regression_suite
+
+
+def prime_regression_suite():
+    r = _N103_REG_PREV()
+    extra = _n103_regression_rows()
+    if isinstance(r, dict):
+        r['tests'] = list(r.get('tests', [])) + extra
+        r['passed'] = sum(1 for x in r['tests'] if x.get('ok'))
+        r['failed'] = len(r['tests']) - r['passed']
+        r['verdict'] = 'PASS' if not r['failed'] else 'FAIL'
+        r['version'] = VERSION
+        return r
+    return {'id': 'RG103', 'version': VERSION, 'tests': extra, 'passed': sum(1 for x in extra if x['ok']), 'failed': sum(1 for x in extra if not x['ok'])}
+
+
+try:
+    _N40_COMMANDS.append(('mind103', 'Memory with proof, history and hybrid recall'))
+except Exception:
+    pass
+
+
+_N103_MAIN_PREV = main
+
+
+def main(*a, **k):
+    try:
+        _n103_conn().close()
+    except Exception:
+        _N103_STATS['errors'] += 1
+    return _N103_MAIN_PREV(*a, **k)
 
 
 if __name__ == '__main__':

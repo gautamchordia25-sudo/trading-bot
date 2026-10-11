@@ -302,7 +302,8 @@ class TestBizCommandsAndNaturalLanguage(BizCase):
             self.assertIn('PDF sent', self.run_cmd('invoice pdf ' + inv_id))
 
     def test_natural_language_becomes_a_card_that_writes_only_on_approval(self):
-        reply = {'name': 'Ramesh', 'item': '55 inch TV', 'quote': 62000, 'follow': '2026-10-09', 'note': 'wants exchange'}
+        follow = time.strftime('%Y-%m-%d', time.localtime(time.time() + 3 * 86400))              # (a fixed date went into the past and failed this test once the calendar moved on)
+        reply = {'name': 'Ramesh', 'item': '55 inch TV', 'quote': 62000, 'follow': follow, 'note': 'wants exchange'}
         self.fake.when(lambda r, t: 'Extract ONE lead record' in t, lambda r, t, msgs: json.dumps(reply))
         res = self.m._n85_nl_task(self.cid, 'lead', 'Ramesh wants a 55 inch TV, quoted 62000, call Friday, wants exchange')
         self.assertEqual(res['text'], '')
