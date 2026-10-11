@@ -90,7 +90,7 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 | ID | Feature | You get | Size / risk |
 |---|---|---|---|
 | C1 ★ | Write actions behind an approval card | Draft and send mail, create calendar events, add tasks, upload files, only on your tap, logged | M / medium |
-| C2 | More MCP tools by tier | Calendar, notes, maps, shopping lists; each read-only first | S per tool / medium |
+| C2 | More MCP tools by tier | Calendar, notes, maps, shopping lists; each read-only first | S per tool / medium. Many servers need a tool finder first: see `NEMO_STRATA_ANALYSIS.md` (native BM25 finder recommended; the Strata package is not) |
 | C3 | Smart home | "Turn off the showroom lights" through Home Assistant; confirm locks and heaters | M / medium |
 | C4 | Money, read-only | Bill and due-date reminders, invoice drafts, UPI link you tap yourself; **never** auto-payments, cards or OTPs | S / low |
 | C5 | People and business graph | Customer, vendor, relative with notes and last contact; "who owes me?", "who have I not called?" | M / low |
