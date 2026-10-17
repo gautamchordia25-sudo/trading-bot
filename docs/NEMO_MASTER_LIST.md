@@ -2,11 +2,11 @@
 
 One page that gathers everything: what exists (v83 to v101), everything planned or proposed, what is parked, what I would not build, a recommended build order, and what still needs a live check. The longer reasoning, evidence and sources stay in the research pages named in each section; this page is the list.
 
-Sizes: **S** = hours, **M** = a day or two, **L** = several days. **Risk** is to your money, privacy or server. **★** = I would build it first. Status of every item in sections 2 to 6 is **not built** unless it is marked BUILT or PART BUILT (v102 Hearth built O4; v103 Mind built M1, M2, F1 and parts of M3 and M5).
+Sizes: **S** = hours, **M** = a day or two, **L** = several days. **Risk** is to your money, privacy or server. **★** = I would build it first. Status of every item in sections 2 to 6 is **not built** unless it is marked BUILT or PART BUILT (v102 Hearth built O4; v103 Mind built M1, M2, F1 and parts of M3 and M5; v104 Autopilot built T1, R1, R2, R4, R6 and parts of T7, R5, C6, X5).
 
 ---
 
-## 1. What Nemo can do today (v83 to v101, all built, tested offline, pushed)
+## 1. What Nemo can do today (v83 to v104, all built, tested offline, pushed)
 
 | Area | What it does | Layer |
 |---|---|---|
@@ -28,6 +28,7 @@ Sizes: **S** = hours, **M** = a day or two, **L** = several days. **Risk** is to
 | **Trading: records** | Ledger of every trade the practice agent made (results before and after charges, worst dip, one trade in full, CSV); Lab: price paths, replay of 12 rules, "why not" log, weekly/monthly reports, losing-streak alerts, readiness checklist | Ledger 96, Lab 99 |
 | **World knowledge** | 17 exchanges with hours, sessions and holidays; world calendar (Fed dates, your events; Sigma will not sell premium into them); live world board and heat-map; overnight cues for India with an out-of-sample check; country cards; glossary; nine detailed pictures | Globe 101 |
 | **Safety backbone** | Owner lock, approval cards for anything consequential, trading-holiday guards, backups and rollback, no secrets in logs | throughout |
+| **Autopilot** | One list of everything that runs by itself (12 built-in jobs, `/every` and `/at` actions, the `/work` queue, new routines) with pause, resume, run now, receipts, "why did you do that" and Undo; routines in plain words from five safe kinds (saved question, dues and follow-ups with draft messages, mail triage, invoice drafts, repeated reminder); new routines start as practice and earn trust after five clean runs; the rule of two; read-only plans of up to eight steps that run only after your Go; "stop everything" (the trading agent is deliberately not touched) | Autopilot 104 |
 | **Self-development** | Nemo can build and test changes to himself, with your approval | Candor 86, Scholar 98 |
 
 **Limits today:** no typing, clicking or dictation on your own laptop or phone; no meaning-based memory; no streaming replies; mail and calendar are read-only; one Telegram door (the website and WhatsApp doors are weaker and two have a gap, see 3); Gujarati is weak; mood is read only from explicit words.
@@ -72,7 +73,7 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 | X2 | Expressive voice and reactions | Warm/calm/excited voice by situation; emoji or sticker where a person would | S-M / low |
 | X3 | Explain with a picture | Diagram, timeline or comparison table when it helps | S / low |
 | X4 | Teaching and story modes | Study mode, bedtime stories, "explain like I am new" | S / low |
-| X5 | "Why did you do that?" for actions | One-line reason and a receipt for every action | S / low |
+| X5 | **PART BUILT in v104.0 Autopilot** (for what Autopilot, the built-in jobs and scheduled actions send; chat answers keep their own "how did you get that answer"): "Why did you do that?" for actions | One-line reason and a receipt for every action | S / low |
 
 ### HEART: notice how you feel, never pretend to feel
 
@@ -94,7 +95,7 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 | C3 | Smart home | "Turn off the showroom lights" through Home Assistant; confirm locks and heaters | M / medium |
 | C4 | Money, read-only | Bill and due-date reminders, invoice drafts, UPI link you tap yourself; **never** auto-payments, cards or OTPs | S / low |
 | C5 | People and business graph | Customer, vendor, relative with notes and last contact; "who owes me?", "who have I not called?" | M / low |
-| C6 | Plain-words automations | "When a payment is 7 days late, remind me and draft a message" (shares the engine of T1) | M / low-medium |
+| C6 | **PART BUILT in v104.0 Autopilot** ("routine every weekday at 9:30 dues" covers late payments; free-form triggers such as "7 days late" are not built): Plain-words automations | "When a payment is 7 days late, remind me and draft a message" (shares the engine of T1) | M / low-medium |
 
 ### KNOWLEDGE: web search and facts
 
@@ -112,25 +113,25 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 
 | ID | Feature | You get | Size / risk |
 |---|---|---|---|
-| T1 ★ | Routines in plain words, with a log | List, pause, run now, edit and see each run's history in one place | M / low |
+| T1 ★ | **BUILT in v104.0 Autopilot** (see `NEMO_V104_AUTOPILOT.md`; to change a routine, say it again and delete the old one): Routines in plain words, with a log | List, pause, run now, edit and see each run's history in one place | M / low |
 | T2 ★ | Stronger browser agent on the server | Saved playbooks per site, allow-list, screenshots as receipts, resume after failure, repeat-test | M / medium |
 | T3 ★ | **Nemo Hands on your Windows laptop** | Types text, presses keys, opens apps, clicks named controls, fills forms, screenshot receipts. Safety: Go/Stop card, on-screen banner, stop hotkey, app allow-list, never passwords/OTPs, time limit. Four stages: dictation, type-into-this-box, open/click named controls, multi-step plans | L / medium-high |
 | T4 ★ | Dictation anywhere | Hold a hotkey, speak Hindi/Gujarati/English, Nemo types the cleaned-up text into the active field | M / low |
 | T5 | Typing on your phone (Android only) | "Send this on WhatsApp", with confirmation and manual takeover for logins | L / medium-high |
 | T6 | Form and document filling | GST invoices, quotations, forms from your saved profile, preview first | M / medium |
-| T7 | Plans that actually run | An up-to-eight-step project with tools, retries, rollback point and stop-on-surprise | L / medium |
+| T7 | **PART BUILT in v104.0 Autopilot** (read-only plans of up to eight steps, shown first, run only after your Go, stop on any surprise, ten-minute limit; no retries or write steps): Plans that actually run | An up-to-eight-step project with tools, retries, rollback point and stop-on-surprise | L / medium |
 | T8 | PC tidy-ups with a dry run | Organise Downloads, rename scans, back up a folder: list first, tap, undoable | M / medium |
 
 ### RULES: trust and safety that make the rest usable
 
 | ID | Feature | You get | Size / risk |
 |---|---|---|---|
-| R1 ★ | The rule of two | A run may combine at most two of: untrusted content, private data, acting outward; a third needs your tap | S / low |
-| R2 ★ | Receipts and undo | Every action: what, why, when, before/after, and an Undo where one exists | M / low |
+| R1 ★ | **BUILT in v104.0 Autopilot**: The rule of two | A run may combine at most two of: untrusted content, private data, acting outward; a third needs your tap | S / low |
+| R2 ★ | **BUILT in v104.0 Autopilot** (an Undo exists where a routine writes: invoice drafts): Receipts and undo | Every action: what, why, when, before/after, and an Undo where one exists | M / low |
 | R3 | Injection filter | Text from pages, mail and documents is data; instructions inside it are listed and ignored | M / low |
-| R4 ★ | Repeat-test before trust | Each automation passes five dry runs before it is called reliable | M / low |
-| R5 | Budgets and manners | Cost and time limit per task; heavy jobs one at a time when memory is free | S / low |
-| R6 ★ | Panic word | "Nemo stop everything" halts routines, laptop control, calls and pending sends and says what stopped | S / low |
+| R4 ★ | **BUILT in v104.0 Autopilot** (as five clean practice runs in a row plus your tap, not as scripted dry runs): Repeat-test before trust | Each automation passes five dry runs before it is called reliable | M / low |
+| R5 | **PART BUILT in v104.0 Autopilot** (AI routines wait for provider headroom and 400 MB free memory, one routine at a time; no cost limit per task): Budgets and manners | Cost and time limit per task; heavy jobs one at a time when memory is free | S / low |
+| R6 ★ | **BUILT in v104.0 Autopilot** (routines, plans, approvals, built-in jobs and the `/work` queue; the trading agent is deliberately not touched and `/panic` stays separate; laptop control and calls do not exist yet): Panic word | "Nemo stop everything" halts routines, laptop control, calls and pending sends and says what stopped | S / low |
 | R7 | Privacy walls and retention | Separate memory per family member, expiring old chats, export and delete | M / low |
 
 ### DOORS: Nemo outside Telegram
@@ -212,19 +213,19 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 
 ---
 
-## 4. Recommended build order (v102 Hearth and v103 Mind are built; the next version number is v104)
+## 4. Recommended build order (v102 Hearth, v103 Mind and v104 Autopilot are built; the next version number is v105)
 
 | Step | Name | Contents | Why here |
 |---|---|---|---|
 | 1 | **v103 Mind (BUILT)** | M1, M2, M3 (people), M5 (memory side), F1 built; M7 ("that one", "same as last time"), the rest of M3, and F2 not built | Everything else works better when Nemo understands you; the phone door is closed; low risk |
-| 2 | **v104 Voice** | V1, V2, V7, X1, X2, V6 | Nemo feels alive and the family can use it by voice |
-| 3 | **v105 App** | D0 foundation, D1 Nemo app, D2 Siri shortcut, S1 stable address | The "out of Telegram" step; needs the streaming and voice pieces from step 2 |
-| 4 | **v106 Heart** | H1 to H4, R6 panic word | Small, valuable; H4 protects money |
-| 5 | **v107 Routines** | T1, C1, R1, R2, R4, X5 | The safety base that makes any automation trustworthy |
-| 6 | **v108 Hands** | T2, then T4 dictation, then T3 in its four stages | The typing and clicking you asked for, on top of step 5 |
+| 2 | **v104 Autopilot (BUILT)** | T1, R1, R2, R4, R6, X5 built; T7, R5, C6 in part | The base that makes any automation trustworthy: see it, pause it, undo it, stop it, let it earn trust |
+| 3 | **v105 Hands** | T2 browser playbooks, T4 dictation, then T3 on your Windows laptop in four stages | The typing and clicking you asked for; every action through your tap and the stop word from step 2 |
+| 4 | **v106 Voice** | V1, V2, V7, X1, X2, V6 | Nemo feels alive and the family can use it by voice |
+| 5 | **v107 App** | D0 foundation, D1 Nemo app, D2 Siri shortcut, S1 stable address | The "out of Telegram" step; needs the streaming and voice pieces from step 4 |
+| 6 | **v108 Heart** | H1 to H4 | Small, valuable; H4 protects money (R6 is already built) |
 | 7 | **v109 Reach** | K1 to K4, K7, V4, C2, C5 | Breadth: research, topic watching, connections, drafts |
 | Any time | **Offline** | O1 to O3 | Independent |
-| Later / only if wanted | T5, V3, T7, M6, D3 to D12, S2 to S5, C3 | Higher risk, lower reliability or needs hardware |
+| Later / only if wanted | T5, V3, T7 (the rest), M6, D3 to D12, S2 to S5, C3 | Higher risk, lower reliability or needs hardware |
 | On request only | P1 to P10 | Each waits for evidence or your decision |
 
 You can reorder freely; each step stands alone.

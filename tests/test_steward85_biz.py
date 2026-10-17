@@ -265,13 +265,14 @@ class TestBizCommandsAndNaturalLanguage(BizCase):
         return self.m._n85_cmd_biz(self.cid, line)
 
     def test_explicit_commands_write_directly_and_validate_inputs(self):
-        out = self.run_cmd('lead name="Ramesh Jain" item="55 inch TV" quote=62000 follow=2026-10-12 phone=9825012345')
+        soon = (dt.date.today() + dt.timedelta(days=3)).isoformat()                  # relative: a fixed date goes stale and the lead check refuses a date in the past
+        out = self.run_cmd('lead name="Ramesh Jain" item="55 inch TV" quote=62000 follow=%s phone=9825012345' % soon)
         self.assertIn('Lead #1 saved for Ramesh Jain', out)
         self.assertIn('Ramesh Jain — 55 inch TV · quoted ₹62,000', self.run_cmd('leads'))
         self.assertIn('Saved LED bulb', self.run_cmd('stock set item="LED bulb" qty=40 reorder=10 price=120'))
         self.assertIn('LED bulb: -5 → 35 in stock', self.run_cmd('stock out item="LED bulb" qty=5'))
         self.assertIn('⚠️ at or below the reorder level 10', self.run_cmd('stock out item="LED bulb" qty=26'))
-        self.assertIn('Due #1 recorded: Suresh owes ₹15,000', self.run_cmd('due add name=Suresh amount=15000 due=2026-10-20'))
+        self.assertIn('Due #1 recorded: Suresh owes ₹15,000', self.run_cmd('due add name=Suresh amount=15000 due=%s' % soon))
         self.assertIn('Still to collect: ₹10,000', self.run_cmd('due paid 1 amount=5000'))
         self.assertIn('Fully paid', self.run_cmd('due paid 1'))
         self.assertIn('Lead #1 marked won', self.run_cmd('lead won 1'))
