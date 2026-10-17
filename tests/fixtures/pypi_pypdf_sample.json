@@ -1,0 +1,142 @@
+{
+ "info": {
+  "author": null,
+  "home_page": null,
+  "license": null,
+  "license_expression": "BSD-3-Clause",
+  "maintainer": "stefan6419846",
+  "name": "pypdf",
+  "package_url": "https://pypi.org/project/pypdf/",
+  "project_urls": {
+   "Bug Reports": "https://github.com/py-pdf/pypdf/issues",
+   "Changelog": "https://pypdf.readthedocs.io/en/latest/meta/CHANGELOG.html",
+   "Documentation": "https://pypdf.readthedocs.io/en/latest/",
+   "Source": "https://github.com/py-pdf/pypdf"
+  },
+  "requires_dist": [
+   "typing_extensions>=4.0; python_version < \"3.11\"",
+   "cryptography>3.0; extra == \"crypto\"",
+   "PyCryptodome; extra == \"cryptodome\"",
+   "flit; extra == \"dev\"",
+   "pip-tools; extra == \"dev\"",
+   "pre-commit; extra == \"dev\"",
+   "pytest-cov; extra == \"dev\"",
+   "pytest-socket; extra == \"dev\"",
+   "pytest-timeout; extra == \"dev\"",
+   "pytest-xdist; extra == \"dev\"",
+   "wheel; extra == \"dev\"",
+   "myst_parser; extra == \"docs\"",
+   "sphinx; extra == \"docs\"",
+   "sphinx_rtd_theme; extra == \"docs\"",
+   "fonttools; extra == \"fonts\"",
+   "arabic-reshaper; extra == \"full\"",
+   "cryptography>3.0; extra == \"full\"",
+   "fonttools; extra == \"full\"",
+   "Pillow>=8.0.0; extra == \"full\"",
+   "python-bidi; extra == \"full\"",
+   "Pillow>=8.0.0; extra == \"image\"",
+   "arabic-reshaper; extra == \"rtl-text\"",
+   "python-bidi; extra == \"rtl-text\""
+  ],
+  "requires_python": ">=3.9",
+  "summary": "A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files",
+  "version": "6.19.0",
+  "yanked": false,
+  "yanked_reason": null
+ },
+ "releases": {
+  "1.0": [],
+  "1.1": [],
+  "6.18.1": [
+   {
+    "digests": {
+     "blake2b_256": "5813645df3995075112cb3cce15e8797c205f0f88fb50acc11012b84b071bc22",
+     "md5": "b2b324677dd8b785be32b11baca33f63",
+     "sha256": "ee93a2665670ecf57ee81d197a4ca548f3dc15f9cefc56e59b8140866aaa3de5"
+    },
+    "filename": "pypdf-6.18.1-py3-none-any.whl",
+    "packagetype": "bdist_wheel",
+    "python_version": "py3",
+    "requires_python": ">=3.9",
+    "size": 394327,
+    "upload_time_iso_8601": "2026-09-11T10:10:06.103628Z",
+    "yanked": false
+   },
+   {
+    "digests": {
+     "blake2b_256": "4fc2e537e78a8282b51ed47031566be118debbc34c04782a9afd8739672eb07d",
+     "md5": "c9e3d75abd66e3b5b207e9abd9192b39",
+     "sha256": "2441fc839053745638d9b9ddb38ed66beed8d611f47a3036c9838fc4e3074dea"
+    },
+    "filename": "pypdf-6.18.1.tar.gz",
+    "packagetype": "sdist",
+    "python_version": "source",
+    "requires_python": ">=3.9",
+    "size": 7027577,
+    "upload_time_iso_8601": "2026-09-11T10:10:07.616593Z",
+    "yanked": false
+   }
+  ],
+  "6.19.0": [
+   {
+    "digests": {
+     "blake2b_256": "3c2cc43c03eaf630435f023f1dc61ec4a4a78951ad5530a62c71cc89bde307b7",
+     "md5": "68871f5ab365187619c8425da9383474",
+     "sha256": "7e5d6e730e7dae87d560a2cee218b852f6498c8be61966f3cd02ead971e48d14"
+    },
+    "filename": "pypdf-6.19.0-py3-none-any.whl",
+    "packagetype": "bdist_wheel",
+    "python_version": "py3",
+    "requires_python": ">=3.9",
+    "size": 395480,
+    "upload_time_iso_8601": "2026-09-16T09:32:04.087160Z",
+    "yanked": false
+   },
+   {
+    "digests": {
+     "blake2b_256": "1fac63d71aaedb59acbcdef491e6ca6469165e3771c9c74358204818fd9bc5a6",
+     "md5": "de97bcd5104430d9c30f55dd6e85641a",
+     "sha256": "bbc43aca292369ccc6cbc8a921991ecf2538a3587ab5a116eff06c321d647155"
+    },
+    "filename": "pypdf-6.19.0.tar.gz",
+    "packagetype": "sdist",
+    "python_version": "source",
+    "requires_python": ">=3.9",
+    "size": 7033266,
+    "upload_time_iso_8601": "2026-09-16T09:32:05.946618Z",
+    "yanked": false
+   }
+  ]
+ },
+ "urls": [
+  {
+   "digests": {
+    "blake2b_256": "3c2cc43c03eaf630435f023f1dc61ec4a4a78951ad5530a62c71cc89bde307b7",
+    "md5": "68871f5ab365187619c8425da9383474",
+    "sha256": "7e5d6e730e7dae87d560a2cee218b852f6498c8be61966f3cd02ead971e48d14"
+   },
+   "filename": "pypdf-6.19.0-py3-none-any.whl",
+   "packagetype": "bdist_wheel",
+   "python_version": "py3",
+   "requires_python": ">=3.9",
+   "size": 395480,
+   "upload_time_iso_8601": "2026-09-16T09:32:04.087160Z",
+   "yanked": false
+  },
+  {
+   "digests": {
+    "blake2b_256": "1fac63d71aaedb59acbcdef491e6ca6469165e3771c9c74358204818fd9bc5a6",
+    "md5": "de97bcd5104430d9c30f55dd6e85641a",
+    "sha256": "bbc43aca292369ccc6cbc8a921991ecf2538a3587ab5a116eff06c321d647155"
+   },
+   "filename": "pypdf-6.19.0.tar.gz",
+   "packagetype": "sdist",
+   "python_version": "source",
+   "requires_python": ">=3.9",
+   "size": 7033266,
+   "upload_time_iso_8601": "2026-09-16T09:32:05.946618Z",
+   "yanked": false
+  }
+ ],
+ "vulnerabilities": []
+}
