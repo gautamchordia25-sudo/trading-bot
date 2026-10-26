@@ -10,7 +10,9 @@ import json
 import os
 import re
 import time
+import gc
 import unittest
+import weakref
 from unittest import mock
 
 from tests import test_cortex83 as base
@@ -18,14 +20,31 @@ from tests.test_cortex83 import OWNER_ID
 from tests.test_steward85 import StewardCase
 
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
-REAL_SEND = None
+REAL_SEND = weakref.WeakKeyDictionary()     # bot module -> its own v104 send_text wrapper
+
+
+def real_send(m):
+    """The v104 send_text wrapper of THIS copy of the bot. test_cortex83 loads a fresh copy when it runs, and some older fixtures undo their patches in
+    the order they made them (so a patched send_text can outlive its test): look the wrapper up by what it is, not by what m.send_text holds now."""
+    f = REAL_SEND.get(m)
+    if f is None:
+        def is_wrapper(o):
+            return getattr(o, '__name__', '') == 'send_text' and getattr(o, '__globals__', None) is m.__dict__ and '_N104_SEND_PREV' in o.__code__.co_names
+        for cand in (getattr(m, '_N105_SEND_WRAP', None), m.send_text):
+            if is_wrapper(cand):
+                f = cand
+                break
+        else:
+            f = next((o for o in gc.get_objects() if callable(o) and is_wrapper(o)), None)
+        if f is not None:
+            REAL_SEND[m] = f
+    return f
 
 
 def setUpModule():
-    global REAL_SEND
     if base.m is None:
         base.setUpModule()
-    REAL_SEND = base.m.send_text            # the v104 wrapper (before any test patches it)
+    real_send(base.m)
 
 
 def ist(y, mo, d, h=0, mi=0):
@@ -55,7 +74,8 @@ class AutoCase(StewardCase):
         def rec(cid, text, kb=None):
             self.sent.append((cid, text))
             self.kbs.append((cid, kb))
-        for name, val in (('send_text', REAL_SEND), ('_N104_SEND_PREV', rec), ('_N104_HANDLE_PREV', lambda msg: self.passed.append(msg)), ('_n83_headroom', lambda: True),
+        self.swap('send_text', real_send(m))
+        for name, val in (('_N104_SEND_PREV', rec), ('_N104_HANDLE_PREV', lambda msg: self.passed.append(msg)), ('_n83_headroom', lambda: True),
                           ('_n91_meminfo', lambda: {'MemAvailable': 4 << 30}), ('SCHED_ACTIONS', self.sched), ('JOBS', []), ('WORK', {'busy': False, 'loaded': True, 'on': True}),
                           ('kv_set', lambda k, v: self.kv.__setitem__(k, v)), ('_N104_OFF', set()), ('_N104_SCHED_OFF', set()), ('_N104_LIST', {}), ('_N104_LAST_SENT', {}), ('_N104_PLAN_STOP', {})):
             p = mock.patch.object(m, name, val)
@@ -67,6 +87,16 @@ class AutoCase(StewardCase):
         for k in m._N104_STATS:
             m._N104_STATS[k] = 0
         m._n104_conn().close()
+
+    def swap(self, name, val):
+        """Patch an attribute a parent fixture already patched: undo the parent's patch first, so that both come off in the right order."""
+        for p in list(self.patches):
+            if getattr(p, 'attribute', None) == name:
+                p.stop()
+                self.patches.remove(p)
+        p = mock.patch.object(self.m, name, val)
+        p.start()
+        self.addCleanup(p.stop)
 
     # ---- helpers
     def said(self):
@@ -1742,7 +1772,7 @@ class TestDoors(AutoCase):
 # ======================================= structure and safety =======================================
 class TestStructure(AutoCase):
     def test_version(self):
-        self.assertEqual(self.m.VERSION, '104.0')
+        self.assertGreaterEqual(float(self.m.VERSION), 104.0)                # (later versions keep this layer)
 
     def test_the_layer_is_protected_from_live_self_edit(self):
         src = open(base.NEMO_FILE, encoding='utf-8').read()
@@ -1817,7 +1847,8 @@ class TestStructure(AutoCase):
         self.assertEqual(self.m._n104_routines(self.cid), [])
 
     def test_routine_kinds_are_a_fixed_list(self):
-        self.assertEqual(set(self.m._N104_KINDS), {'ask', 'remind', 'dues', 'mail', 'invoices'})
+        self.assertLessEqual(set(self.m._N104_KINDS), {'ask', 'remind', 'dues', 'mail', 'invoices', 'web'})        # v105 adds the web playbook kind
+        self.assertLessEqual({'ask', 'remind', 'dues', 'mail', 'invoices'}, set(self.m._N104_KINDS))
         self.assertEqual(set(self.m._N104_RUNNERS), set(self.m._N104_KINDS))
 
     def test_unknown_kind_cannot_be_stored(self):
