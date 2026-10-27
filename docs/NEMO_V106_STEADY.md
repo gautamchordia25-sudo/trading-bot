@@ -146,7 +146,7 @@ Alerts are now in plain words with "What to do". The old line "run /doctor … t
   * `/update cancel` was reported as "the server stopped the check (out of memory)" instead of "stopped by you";
   * the safety net would not have recognised an update saved with Windows line endings, so it would have stood down without acting.
 - **Pyflakes:** the same 158 messages as v105, none new.
-- **Whole suite:** see the line below (it is filled in when the full run on this exact file finishes).
+- **Whole suite on the exact file delivered (the slow gate switched on): 3,713 tests, 7 skipped, 1 failure, 0 errors; the failure is fixed.** It was v105's version test, which asked for exactly 105.0. It now asks for 105.0 or later, as v104's did last time, and the v105 test file passes again (84 tests). The file itself did not change.
 - Nothing here placed or changed an order, called a cloud AI, Google or Gemini, used a paid service, or touched a real systemd.
 
 ## 9. What changed in older code (everything else is in the new layer, marker `# NEMO 106 - STEADY`)
@@ -161,3 +161,4 @@ Alerts are now in plain words with "What to do". The old line "run /doctor … t
   * entry points: `handle`, `handle_callback`, `prime_regression_suite`, `main`.
 * **Redirected:** the names `_prime_ast`, `_v180_ast` and `_n52_ast` now point to a stand-in that uses the real parser for everything except a source over 1 MB.
 * **Still in the chain:** the v85 pre-flight and the v92 extra checks are behind the new `/update`. Their tests now call them there (two older test files changed for that).
+* **Older tests:** v105's version test now accepts later versions.

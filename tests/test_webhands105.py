@@ -844,7 +844,7 @@ def layer_source():
 
 class TestStructure(WebCase):
     def test_version(self):
-        self.assertEqual(self.m.VERSION, '105.0')
+        self.assertGreaterEqual(float(self.m.VERSION), 105.0)                # (later versions keep this layer)
 
     def test_regression_rows(self):
         rows = self.m._n105_regression_rows()
