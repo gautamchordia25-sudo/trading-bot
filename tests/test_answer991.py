@@ -592,7 +592,7 @@ class TestWiringAndStructure(AnswerCase):
 
     def test_version_and_docstring(self):
         self.assertGreaterEqual(float(self.m.VERSION), 99.1)
-        self.assertIn('v99.1 - ANSWER', bot_source()[:3000])
+        self.assertIn('v99.1 - ANSWER', bot_source()[:6000])                 # (later versions put their own line first)
         self.assertIn('v99.0 - LAB', bot_source()[:20000])
 
     def test_no_secret_shaped_text_in_the_layer(self):

@@ -1847,7 +1847,7 @@ class TestStructure(AutoCase):
         self.assertEqual(self.m._n104_routines(self.cid), [])
 
     def test_routine_kinds_are_a_fixed_list(self):
-        self.assertLessEqual(set(self.m._N104_KINDS), {'ask', 'remind', 'dues', 'mail', 'invoices', 'web'})        # v105 adds the web playbook kind
+        self.assertLessEqual(set(self.m._N104_KINDS), {'ask', 'remind', 'dues', 'mail', 'invoices', 'web', 'topic', 'feed'})   # v105 adds web playbooks, v107 topics and feeds (read-only)
         self.assertLessEqual({'ask', 'remind', 'dues', 'mail', 'invoices'}, set(self.m._N104_KINDS))
         self.assertEqual(set(self.m._N104_RUNNERS), set(self.m._N104_KINDS))
 
