@@ -114,6 +114,8 @@ Covered:
 * email, resend and an unconfirmed upload;
 * status, forgetting, self-development lock, and no orders or secrets in the layer.
 
+Whole suite (all test files, slow tests included, `NEMO_PINE_PY` set): **3823 tests, all pass** (7 skipped, the same 7 as in v107.0; v107.0 had 3771). pyflakes: 158 messages, the same set as v107.0.
+
 Mutation check: 31 deliberate bugs (the front door removed, a survival rule dropped, the square-off or daily loss limit switched off in the script, repainting, the card never expiring, other people served, a grammar parse claimed that did not run, …). **All 31 were caught**; one of them only by the real-grammar test.
 
 ## 6. Simple checks to run through Nemo (after installing)
