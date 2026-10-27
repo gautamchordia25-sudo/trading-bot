@@ -1,4 +1,4 @@
-"""nemotron_bot.py v107.0 - REACH: SEARCH WITH BACKUP ENGINES, FEEDS, TOPIC WATCH, LONG VIDEO AND AUDIO, FACT-CHECKS. + v106.0 - STEADY: UPDATES THAT ANSWER AT ONCE, CHECKS OUTSIDE THE BOT, A SAFETY NET, TRUTHFUL ALERTS. + v105.0 - WEB HANDS: NEMO WORKS ON WEBSITES WITH A HEADLESS BROWSER THAT CANNOT BE STEERED BY THE PAGE (THE MODEL THAT PICKS THE CLICKS NEVER SEES THE PAGE TEXT; A SEPARATE READER WITH NO TOOLS READS IT), TYPES ONLY THE OWNER'S WORDS, NEVER INTO PASSWORD OR OTP FIELDS, NEVER UPLOADS, OPENS ONLY THE RUN'S SITES, STOPS BEFORE ANY SUBMIT, PAY, SEND OR CONFIRM AND ASKS FOR A TAP; PRICE COMPARISON ACROSS SHOPS; FORM FILLING THAT STOPS BEFORE SUBMIT; PLAYBOOKS THAT REPLAY A JOB AND RUN AS AUTOPILOT ROUTINES (INCLUDING MONTHLY); THE OWNER'S OWN LOGIN FROM A COOKIES FILE; A SCREENSHOT RECEIPT FOR EVERY STEP. + v104.0 - AUTOPILOT: ONE PLACE FOR EVERYTHING NEMO DOES BY ITSELF (BUILT-IN JOBS, SCHEDULED ACTIONS, THE WORK QUEUE AND NEW ROUTINES MADE IN PLAIN WORDS) WITH PAUSE, RESUME, RUN NOW, RECEIPTS, WHY AND UNDO; THE RULE OF TWO; NEW ROUTINES EARN TRUST AFTER FIVE CLEAN PRACTICE RUNS; "STOP EVERYTHING"; AND PLANS OF UP TO EIGHT READ-ONLY STEPS THAT RUN ONLY AFTER THE OWNER'S GO. NOTHING HERE SENDS, BUYS, DELETES OR RUNS A COMMAND, AND THE TRADING AGENT, THE GUARDS AND THE OWNER LOCK ARE NOT TOUCHED. + v103.0 - MIND: THE MEMORY READS HINDI AND GUJARATI SCRIPT AND HINGLISH (A FACT SAID IN ONE IS FOUND BY A QUESTION IN ANOTHER), KEEPS THE OWNER'S OWN WORDS AS EVIDENCE FOR EVERY FACT, MARKS FACTS NOBODY HAS CONFIRMED FOR A LONG TIME AS POSSIBLY OUT OF DATE, ANSWERS "WHY DO YOU THINK...", "HISTORY OF MY...", "WHAT DID YOU KNOW ABOUT ME ON 5 MARCH", ASKS WHICH PERSON IS MEANT INSTEAD OF GUESSING, AND CLOSES THE TWILIO WHATSAPP/VOICE LINES TO EVERY NUMBER THE OWNER HAS NOT ALLOWED. NO ORDER, NO TRADING AGENT, NO GUARD, NO OWNER LOCK. + v102.0 - HEARTH: A LOCAL BRAIN. AN OPEN MODEL (LLAMA, QWEN, GEMMA OR ANOTHER) RUNNING ON YOUR OWN COMPUTER ANSWERS WHEN THE CLOUD BRAINS FAIL, ANSWERS "PRIVATE: ..." QUESTIONS WITHOUT ANY CLOUD AI SEEING THEM, AND CAN BE THE ONLY BRAIN IN OFFLINE MODE. IT CONNECTS BY A RELAY (THE COMPUTER ONLY MAKES OUTGOING CALLS; NOTHING TO OPEN ON THE ROUTER) OR BY A DIRECT ADDRESS. OWNER ONLY; NO ORDER, NO TRADING AGENT, NO GUARD, NO OWNER LOCK. + v101.0 - GLOBE: WORLD MARKETS AND MACRO KNOWLEDGE (17 EXCHANGES, SESSIONS AND HOLIDAYS, A WORLD CALENDAR, A LIVE WORLD BOARD, OVERNIGHT CUES FOR INDIA WITH AN OUT-OF-SAMPLE CHECK), NINE DETAILED CHARTS, SIGMA POLISH, AND THE FAMILY FIX (AN ABILITY SWITCHED ON FOR A FAMILY MEMBER NOW WORKS END TO END; FAMILY EVERYTHING GIVES THE FAMILY EVERYTHING THAT CAN SAFELY BE GIVEN). THE WORLD DESK IS READ-ONLY AND ADVISORY. + v100.0 - SIGMA: A SIGNAL DESK INSIDE NEMO: FIXED RULES FOR STOCKS AND NIFTY/BANKNIFTY, OPTION-CHAIN ANALYTICS, DEFINED-RISK OPTION STRUCTURES WITH ENTRY, STOP, EXIT, SIZE AND CHARGES, A BACKTEST WITH CHARGES, A SHORT-VOLATILITY PROXY STUDY AND A FORWARD SCOREBOARD. ADVISORY ONLY: NO ORDER, NO CHANGE TO THE TRADING AGENT, THE GUARDS OR THE OWNER LOCK. + v99.1 - ANSWER: A GENERAL TRADING QUESTION IS NO LONGER SENT TO THE PAPER-TRADING RESEARCH TOOL; WHEN THE MAIN AI GATEWAY FAILS THE OLDER BRAINS ANSWER INSTEAD OF THE REQUEST ENDING; A TRADE LAB DEAD END BECOMES AN ORDINARY ANSWER; AND "SUPPOSE YOU HAVE 20000 RUPEES FOR OPTIONS TRADING, HOW WILL YOU SURVIVE AND WHAT RETURN IN A YEAR" IS ANSWERED FROM THE PRACTICE RECORD AND A SIMULATION WITH NO AI. NO ORDER, NO CHANGE TO THE TRADING AGENT, THE GUARDS OR THE OWNER LOCK. + v99.0 - LAB: A READ-ONLY LABORATORY BESIDE THE STOCK-MARKET AGENT. IT KEEPS THE PRICE PATH OF EVERY TRADE (copying the quotes the agent already fetches), REPLAYS THE AGENT'S OWN RULE AND 11 OTHER EXIT AND ENTRY RULES OVER THOSE PATHS AFTER CHARGES (never calling a winner on too few trades), SHOWS WHY THE AGENT DID NOT TRADE, HOW FAR TRADES WENT, WHETHER THE DIRECTION CALLS WERE RIGHT, SENDS A WEEKLY AND MONTHLY REPORT, ALERTS ON A LOSING STREAK OR A DEEP DIP, AND GIVES AN ADVISORY LIVE-READINESS CHECKLIST (nothing is switched: no order, no change to the trading agent, the guards or the owner lock). + v98.0 - SCHOLAR: TELL NEMO WHAT HE IS WEAK AT AND HE RESEARCHES GITHUB AND PYPI, CHECKS THE BEST PROJECTS FOR SAFETY AND FIT WITH THIS SERVER, RECOMMENDS ONE WITH ITS LIMITS AND PUTS FORGE'S ONE-TAP APPROVAL CARD IN FRONT OF THE OWNER; AFTERWARDS HE OFFERS TO TEACH HIMSELF TO USE IT (nothing is installed without the owner's tap; no order, no change to the trading agent, the guards or the owner lock). + v97.0 - DESK: A FAMILY MEMBER (OR THE WHOLE FAMILY) CAN BE LET INTO THE TRADE DESK, VIEW ONLY: THE OPEN SCOUT IDEAS WITHOUT THE OWNER'S CAPITAL OR SIZING, A FRESH SCAN WITH SMALL DAILY LIMITS, HOW PAST IDEAS TURNED OUT AND THE PRACTICE AGENT'S VIRTUAL TRADES; REAL POSITIONS, MONEY, ORDERS, LIVE-MODE TRADES AND THE OWNER'S SETTINGS STAY PRIVATE AND NOTHING CAN BE CHANGED (no order, no change to the trading agent, the guards, Circle's locks or the owner lock). + v96.0 - LEDGER: THE FULL RECORD OF WHAT THE STOCK-MARKET AGENT HAS TRADED (every closed trade kept, results before and after estimated charges, worst dip, how far to trust it, day by day, one trade in full with its reason, CSV and a growth chart) AND A PLAIN-WORDS EXPLANATION OF HOW IT DECIDES (read-only: it never changes what the agent does, the trading guards or the owner lock; no order is placed). + v95.0 - DOORS + CARE + OFFICE: THE WEBSITE GETS TELEGRAM LOGIN, FAILED-ATTEMPT LIMITS AND SAFE HEADERS; "CARE" READS THE SERVER AND CLEANS NEMO'S OWN LEFTOVERS AND OLDER FAILURE MESSAGES GAIN A FIX-IT LINE; GSTIN/PAN CHECKS ON INVOICE DRAFTS AND A SPACED-REPETITION STUDY HELPER (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v94.0 - CLEAR + SCOUT INTEL + STUDIO PLUS: EVERY MARKET REPLY AND DATA DUMP IN PLAIN WORDS, NSE RESULTS/BAN/FLOW CHECKS AND A VOLATILITY FORECAST FOR SCOUT, AI UPSCALING, BACKGROUND REMOVAL AND CHARTS FOR PICTURES (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v93.2 - SCOUT: TRADE IDEAS FOR STOCKS AND NIFTY/BANKNIFTY OPTIONS FROM NEWS AND NEMO'S MARKET TOOLS, WITH THE WORKINGS SHOWN, THE SIZE AT THE OWNER'S RISK LIMIT AND AN HONEST TRACK RECORD (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v92.0 - WIRE: THE INSTALLED LIBRARIES BECOME CHAT COMMANDS, RUN SAFELY (tables from a PDF, text in a picture, clean article text, indicators on daily candles, a risk report of the journal, NSE history, local voice fallback, extra checks next to the update pre-flight; one heavy job at a time and only when memory is free; MCP servers stop together with Nemo). + v91.5 - FORGE: NEMO CAN USE GITHUB AND INSTALL WHAT HE NEEDS (search and inspect GitHub, a static scan of any repo, PyPI risk checks, hash-pinned wheel-only installs into isolated environments or additively into his own Python, owner approval cards, health checks with automatic rollback, an install ledger, upgrade from the owner's own GitHub repo through the existing update gate). + v90.2 - STUDIO: MORE IMAGE ENGINES AND TOOLS, EXACT DESIGN AND CHARTS, REPORTS WHOSE NUMBERS ARE CHECKED (verified image chain with nine engines, Pillow tools, posters/cards/logos with exact text, charts from your numbers, a numbers audit for researched reports, data reports from your own files). + v89.0 - CIRCLE: WHO ELSE MAY USE NEMO AND WHAT THEY MAY DO (one gate in front of every message, button and inline query that is not from the owner; default deny; abilities switched per person and role from a menu or in plain words; first-contact cards; limits; strangers on/off; a private read-only free/busy view for family). + v88.0 - ARGUS: NEMO CAN SEE (read-only eyes for mail, calendar, Drive, tasks, reminders, watchers, what Nemo did and when, server and errors, devices, positions; a live map of its own abilities; one "see" tool for conversation; a flight recorder; an inbox watch; exact reasons when something is not connected). + v87.0 - RELAY: MORE VIDEO SOURCES (yt-dlp with six client profiles, automatic yt-dlp update, Node/Deno runtime, your proxy; then pytubefix, YouTube.js, Piped and Invidious mirrors, Cobalt) in ONE verified, time-boxed chain with a per-source report + DRIVE LINKS YOU CAN OPEN (anyone with the link / one e-mail / private) + natural-language controls (download sources, test youtube download, set up download sources, share my last download). + v86.0 - CANDOR: NO SENSITIVE LOGGING (a rejected value is never stored; logs are masked) + COMPLETE FORGETTING (every recall store, rewritten copies, re-learning blocked, queued jobs cancelled, backup limits stated) + SAFER SELF-DEVELOPMENT (the _n79_feature hook is always offered, relevant bounded shortlist, vague "upgrade yourself ..." asks what you want before any AI call, failures name their stage) + RESEARCH ROUTING (current-information questions are researched, failure and thin evidence are stated) + ONE SHARED DEADLINE (planning, tools, answer, review and fallback; bounded search and background work) + HONEST CHECKS (completed / issues / skipped / failed). + v85.0 - STEWARD: DECISION INBOX (mail/calendar/open loops/showroom -> ranked, grounded proposals as approve/edit/skip cards; nothing runs without a tap; learns from your decisions) + VERIFIED RESEARCH (replans, reads full pages, keeps a claim only if its quote is in the page and its numbers are in the quote) + SANDBOX-TESTED UPDATES (candidate is imported and regression-tested in a network-less sandbox before Apply) + MCP PERMISSION TIERS (read runs, write needs a tap, dangerous blocked) + DOCUMENT INTELLIGENCE (page-cited answers, clause flags, version compare, tables) + SHOWROOM COPILOT (leads, dues, stock, GST invoice drafts) + PAGE WATCHERS (price/stock/keyword/change alerts). + v84.0 - ATLAS: FUTURES DESK (expiry calendar with holiday roll-back, cost-of-carry fair value/basis, roll cost, position sizing, pre-trade check, edge/Kelly/streak maths, owner-reported trade journal + stats, opt-in expiry alerts; advisory only, no orders) + SPEED (zero-model answers for pure arithmetic/date questions, router bypass for plain chat, parallel tool rounds, typing keep-alive, per-stage timings, p50/p95 in /cortex83) + weekday/date audit. + v83.0 - CORTEX: memory bridge (relevant stored facts + safe auto-learning from the owner's own messages, with /memory83 /forget83 controls), grounded IST date/time + exact date maths, bounded read-only tool loop for chat (search/recall/calculate/date, no tool can act), deterministic arithmetic audit + quote-verified critique, rolling conversation summaries, router fast-path for small talk, /why83 transparency, fix for undefined _n60_j in the media failure path. Additive layer over v82; any Cortex failure falls back to the v80 chat path. + v45.0 - YOUTUBE PER OFFICIAL 2026 GUIDE (--js-runtimes deno auto-installed, android_vr-first ladder needing no PO token/cookies, cookies only for tv/mweb, rotation detection, /ytfix) + MEDIA LIBRARY (/library instant resend, Drive) + v44.x RELIABILITY DOCTOR + v43.x YOUTUBE UNBLOCK + RESEARCH DIGEST + v42.0 MEDIA ENGINE + FAMILY MODE + v40.0 COMMAND CENTER + LEARN MODE + v39.0 FAST CORE + v38.0 ATTENTION + v37.0 PHOTO MEMORY + VOICE + v36.x DAY CARD + SELF-AUDIT + v35.0 UNIFIED MIND + v13.35 - PROVIDER DOCTOR + COMPUTER-USE 5.0 BATCH 3: adds diagnostic Groq/Gemini model discovery, non-destructive email/network doctor, browser computer-use sessions with DOM/accessibility/screenshot state, Guardian-protected external-page analysis, action verification and session telemetry. + v13.30 - KNOWLEDGE LAKE 2.0 + HYBRID SEMANTIC RAG + LEARNING CORE 2.0: adds local hybrid retrieval, workflow episode learning and automatic local grounding while retaining v13.29 evaluation/observability. + v13.29 - EVALUATION LAB 2.0 + OBSERVABILITY/FLIGHT RECORDER 2.0: adds request-level tracing, durable request metrics, tool/task correlation for reports/browser/media, percentile latency and failure dashboards, candidate-vs-current regression scoring, critical-function and credential-line integrity checks, evaluation history, and fail-closed deploy recommendations. Existing v13.28 NEMO PRIME FOUNDATION remains. + v13.28 - NEMO PRIME FOUNDATION: Unified Task OS, Central Policy Engine, Flight Recorder, Evaluation Lab, Knowledge Lake, Strategy Learning 2.0, Device Agent generator, Specialist Agent Governor, and Trade State Reconciliation 2.0. Existing v13.27 Publisher Godmode and all prior safety rails remain. + v13.27 - PUBLISHER GODMODE 5.0 / LAYOUT QA: rebuilds the professional artifact renderer around measured text layout instead of fixed-height guesses; filters fake KPI tiles and source/evidence metadata; dynamically wraps risk tables, scenario cards, executive cards and source cards; fixes appendix stripping with or without colons; adds Unicode font support when available; prevents heading/header collisions; strengthens publication QA for leaked metadata, clipping-risk patterns and malformed key-number panels; and keeps the v13.26 evidence/materiality pipeline intact. + v13.26 - CREATION ENGINE / PUBLISHER GODMODE 4.0: adds professional information architecture, materiality-first analysis, improved source authority ontology, cited-evidence grading, compact clickable source appendix, executive snapshot cards, key-number tiles, scenario dashboard, risk heatmap-style matrix, typography/mojibake sanitation, deterministic artifact integrity, and optional PDF visual QA. Analytical reports now fail closed when research/evidence/publication quality is weak. Existing v13.25 research Godmode, v13.24 renderer fixes and v13.23 Learning Core remain. + v13.25 - GODMODE RESEARCH + REPORT INTELLIGENCE 3.0: adds five coordinated upgrades: adaptive multi-query text+news research with retries, source-authority scoring and domain diversity, multi-brain analyst→verifier→editor synthesis, evidence/claim-quality gates that remove unsupported current claims, and a research audit manifest + professional evidence score on every report. /godreport forces the full pipeline; ordinary non-code reports use it automatically. Existing v13.24.2 renderer hotfix and v13.23 Learning Core remain. + v13.24.2 - PROFESSIONAL REPORT STUDIO 2.1 PDF RENDERER HOTFIX: upgrades PDF/report generation with fresh multi-query web research for time-sensitive reports, source-grounded drafting, executive summaries, risk/outlook structure, professional cover/header/footer, section hierarchy, key-takeaway callouts, source appendix, cleaner typography, and removal of random stock-art pages. Reports distinguish sourced facts from analysis and warn when fresh research is unavailable. Existing v13.23 Learning Core remains. + v13.23 - LEARNING CORE 1.0 + EXPERIENCE BRAIN: adds persistent outcome learning, model-performance scoring, experience/error fingerprints, semantic experience recall, feedback controls, lightweight anomaly learning, adaptive model route reordering, training-data export, and Cockpit learning telemetry. Learns from successful/failed AI calls and explicit owner feedback while redacting sensitive-looking text; never grants new money/security authority. Existing v13.22 Offline Mind/Speed/Systematic UI, Device Grid, Cockpit, Mind Core, Cyber Hands, trading rails and secrets are preserved. + v13.22 - OFFLINE MIND + SPEED ROUTER + SYSTEMATIC RESPONSE UI: adds an offline-first knowledge layer (built-in durable reference packs + existing indexed files/library/memory grounding), persistent evergreen answer cache, API-down offline fallback, instant local calculator, automatic FAST/BALANCED/QUALITY routing, reduced unnecessary multi-pass reasoning, and a Telegram-friendly response-format contract with consistent visual sections. New /offline, /speed and /format controls. Existing v13.21 Device Grid, v13.20 Cockpit, v13.19 Mind Core, Cyber Hands, trading/security rails and credentials are preserved. + v13.21 - NEMO DEVICE GRID + REMOTE HANDS 1.0: enrolled-device control plane with owner-created one-time enrollment tokens, per-device bearer secrets, heartbeat/online state, read-only system telemetry, opt-in location reporting, device revocation, audit trail, and Cockpit/API device inventory. No arbitrary-device discovery, covert tracking, credential dumping, or unauthorized remote access. + v13.20 - NEMO COCKPIT 1.0: adds a modern Telegram Mini App/PWA command-center over the existing secure web server: live system/brain/cyber/VPN/trading/task/media panels, responsive mobile-first glass UI, browser human-checkpoint status and latest screenshot, safe read-only quick actions, refreshable JSON telemetry, and an owner-only /cockpit command. When a secure HTTPS public_url is configured, Nemo automatically installs a Telegram Web App menu button that opens the cockpit inside Telegram; otherwise /cockpit gives the local/public dashboard link and /setdomain guidance. Consequential actions stay Telegram-gated; the cockpit does not bypass trading, lockdown, cyber scope, browser-auth or update confirmations. Existing v13.19 Mind Core, Browser Checkpoint 2.0, Cyber Hands, dependency isolation, secrets and trading rails remain. + v13.19 - MIND CORE 2.0 + BROWSER CHECKPOINT 2.0: adds a final-answer compiler that blocks scratchpad/thinking-aloud leakage, strips malformed provider tokens such as <unk>, detects repetition/non-answers, selectively re-verifies calculation/bill/image answers, and rewrites poor drafts before delivery; adds speech-specific sanitization so garbage tokens never become voice audio. Browser human checkpoints now parse natural replies (e.g. email plus “click next”) into a clean field value + action, use semantic page-state fingerprints instead of raw URL equality to detect stuck loops, and stop Google/YouTube automated-login loops early in favor of the user's authenticated session/cookie route. Passwords, OTP/2FA/recovery codes and private keys are no longer requested through Telegram browser checkpoints. Existing v13.18 Cyber Hands, v13.17 dependency isolation, trading rails, secrets, updater and all prior capabilities remain. + v13.18 - CYBER HANDS 1.0: adds an owner-only defensive security operations layer for THIS VPS and explicitly authorized/allowlisted assets: unified /cyber control center, local security audit + score, listening-port/firewall/SSH/log inspection, secret-exposure scan that never prints secret values, source-code static security checks, dependency CVE audit in an isolated tool environment, optional ClamAV scan, file-integrity baseline, continuous low-noise security monitoring, and conservative allowlisted Nmap inventory (top ports/version-light only; no exploitation/bruteforce/evasion). Autonomous agents gain READ-ONLY local cyberaudit/cyberports/cyberlogs hands. Remote scanning is never autonomous and requires an explicit --authorized scope entry. Consequential remediation remains owner-confirmed. + v13.17 - FOUNDATION HARDENING + HANDS 2.0: adds dependency protection/doctor, isolated tool virtual-environments, process control with confirmation, filesystem search/hash/tree, network diagnostics, system snapshots, and exposes these safe hands to the autonomous agent. Core trading/credentials/browser/media behavior is preserved. + v13.16 - VISION RESPONSE VALIDATION + MULTIMODAL FALLBACK: fixes the case where a screenshot successfully reached the vision model but Nemo returned only provider moderation metadata such as "User Safety: safe / Response Safety: safe" instead of analyzing the image. Vision replies are now validated for substantive visual content; safety-only/moderation-only outputs, refusal-shell metadata, empty multipart content and tiny non-answers are treated as a FAILED vision attempt and Nemo automatically tries the next multimodal route (Nano Omni -> openrouter/free) rather than delivering garbage. Image prompts explicitly request actual visual analysis rather than safety labels. ask_ai now detects and sends the real PNG/JPEG/WEBP/GIF/BMP MIME in its OpenRouter data URI (closing the remaining hard-coded JPEG path missed in v13.15). DEBUG records why a vision model was rejected. Text routing, trading, money, browser, VPN, downloader, persistence and secrets are unchanged. + v13.15 - UNIVERSAL IMAGE ATTACHMENTS: Telegram screenshots/images sent as Files/Documents now route into the same vision pipeline as compressed photos. Detects image/* MIME plus PNG/JPG/JPEG/WEBP/GIF/BMP extensions and magic bytes; preserves captions; supports scan/OCR/QR/bill/notes pending modes; and ask_ai now labels the data URI with the real image MIME instead of always claiming JPEG. No trading, money, VPN, browser, downloader, persistence, secrets, or safety behavior changed. + v13.14 - LIVE MODEL ROUTER HOTFIX: OpenRouter retired nvidia/nemotron-3-nano-30b-a3b:free on 24 Aug 2026, so Nemo no longer calls that dead slug. Text routing now uses Nemotron 3 Ultra free -> Super free -> openrouter/free for smart work, Super free -> openrouter/free for fast work, and vision uses ONLY multimodal-capable Nano Omni free -> openrouter/free (no text-only Super fallback on images). ask_ai now safely parses OpenRouter error/unexpected response bodies instead of crashing with KeyError choices, temporarily cools down unavailable/rate-limited models, de-duplicates routes, and keeps the dynamic free router as a resilience fallback. /brain reports the live route and cooldowns. No trading, secrets, browser, media, persistence or safety rails changed. + v13.12 - HONEST UPDATE LABELS (fixing two COSMETIC bugs in my own update-preview that made a perfectly good deploy look scary): when the Boss deployed v13.11, the /update preview said 'this file is v17.0' and 'CHANGES 1 (TOKEN)' - BOTH false alarms from my own code; the file was correct and booted clean as v13.11. Causes + fixes: (1) my version-reader grabbed the FIRST version-assignment string anywhere in the file, and my changelog PROSE happens to mention the 17.0 pattern when describing a ChatGPT file - so it read its own description instead of the real constant. Now it reads only a REAL top-level VERSION assignment (start of line). (2) my credential-change check matched ANY variable whose name merely contained 'TOKEN'/'KEY' - including the harmless 'TOKEN = os.environ.get(BOT_TOKEN)' line inside the downloader-bot template - so it falsely warned of a credential change. Now it checks only the actual named secrets (TELEGRAM_TOKEN, OPENROUTER_KEY, NVIDIA_KEY, ...). Future update previews now show the true version and warn only on a REAL key change. Your keys were never touched - the proof was the bot booting clean and healthy. Additive; all existing suites pass plus a new v13.12 test. + v13.11 - CLAIM LEDGER + LIVE INTEGRITY (from the ChatGPT v24 'five upgrade' file - notable because it was finally built on OUR v13.9 base with the Security Core intact, but its five new layers all crash on first use on the same missing 'uuid' import as v15/v18/v19, and its flagship 'v20 Task Orchestrator' is FAKE: the execute function performs nothing - it stamps every step done with a canned message pointing to a /nemorun24 command that does not exist anywhere in the file. Its other layers duplicate what we already run: structured memory = the v11 knowledge graph + /recall, brain router = ask_ai's existing routing, project manager = /plan + /taskgraph + PROJECTS, observability = /nemo + self_test). The TWO ideas worth keeping, built working: (1) CLAIM LEDGER - /claims [search words] is a persistent, dated audit trail of everything Nemo has fact-checked and researched: every /verify records verified-or-corrected (with the checker's notes) and every /nemoresearch records a research entry, capped at 400, surviving restarts, searchable, also in plain language ('what have you verified', 'claim history'). So 'what has my bot told me, and was it checked?' finally has an answer. (2) LIVE INTEGRITY - /security now also compile-checks the RUNNING source and shows its sha256 fingerprint, so tampering or corruption of the deployed file is visible on demand. Additive; all suites pass plus new v13.11 tests. + v13.10 - DOWNLOADER IN THE BOT FACTORY (Nemo creates the whole bot himself - no file to send): the Boss asked why Nemo can't just CREATE a downloader bot when given a token. He always could create bots (/newbot factory + /env for secrets) - his library just had no downloader type. Now it does: a verified 'ytdl' template (the corrected version of the ChatGPT blueprint, which as written would not run - missing asyncio import, wrong download() return handling, an undefined variable, a zip step that ignored Telegram's ~50MB cap). Create it entirely in chat: /newbot ytdl mydl (or just say 'make me a downloader bot') -> tap Ship -> /env mydl BOT_TOKEN=<fresh @BotFather token> OWNER_ID=<your id> -> the bot is LIVE. The generated bot: downloads a YouTube video or whole playlist (mp4, or mp3 with 'audio'), sends every file under Telegram's cap straight to chat, keeps bigger ones on the server with the path reported, caps items per playlist (MAX_VIDEOS), safe ASCII filenames, owner-locked via OWNER_ID, token ONLY from its locked env - never in code. Same supervised ship rails as every factory bot (compile-check, auto pip-install of requests+yt-dlp, tap-to-start, /app <name> logs|restart|stop|rm). Additive; all suites pass plus new v13.10 tests. + v13.9 - QUANT LENSES (the genuinely-new, working parts of the ChatGPT v19 quant file, rebuilt on our base - READ-ONLY, never places an order): the v19 code was real quant work but sat on the old base and crashed its event log on the same missing 'uuid' import; I kept the good math, dropped the crash and the bits we already have (its plain signal/option dumps duplicate /godmode and /optionchain). Three lenses we DIDN'T have, now added: (1) /regime <symbol> - classifies the market regime (TREND_UP/DOWN, EXPANSION, RANGE, LOW_VOL_RANGE, TRANSITION) from ADX + EMAs + ATR-ratio + slope, with a confidence. (2) /walkforward <symbol> - proper OUT-OF-SAMPLE validation: it picks the best EMA pair on a training window then scores it on the next, unseen window, and reports the average out-of-sample hit-rate (a robustness check, not a guarantee). (3) /quantbacktest <symbol> - an EMA-crossover backtest with profit factor + max-drawdown AND a Monte-Carlo stress test (bootstrapped terminal + drawdown percentiles). Plus /quant <symbol> - a consolidated regime + multi-factor signal + transparent setup-quality grade (explicitly 'NOT win probability'). All owner-only, read-only, honestly labelled; they use Nemo's real market data (get_history) and place no orders. Additive; all existing suites pass plus new v13.9 tests. + v13.8 - MEMORY 3.0 (granular forget) + NO INVENTED COMMANDS: (1) MEMORY - on inspection Nemo's memory was already strong (semantic /recall, durable /remember, the /memory 'second brain', /aboutme and the knowledge graph, all persisted and fed into his answers), so the genuinely missing piece was CONTROL: /forget <thing> now removes the SPECIFIC memories that match - from both the durable facts and the semantic vector store - and tells you exactly what it dropped, instead of the all-or-nothing /forgetme. /remember also dedups and keeps more durable facts (20 -> 60). (2) NO INVENTED COMMANDS - when you sent a command Nemo didn't recognise, his brain used to make up plausible-but-fake command names (exactly what happened with /nemo before it was deployed). Now an unrecognised /command gets a deterministic, HONEST reply listing only REAL commands and never reaches the brain. Additive; all existing suites pass plus new v13.8 tests. + v13.7 - TRADE STATE SURVIVES RESTART (closing the money-safety gap I flagged in v13.2 and deferred): the autonomous trader kept its open position only in memory, so a restart or update mid-trade FORGOT it - and for a plain (non-bracket) position that meant its stop-loss and target were no longer being managed, leaving real money exposed. Now the trader's live state (open position, today's trade count, running P&L, the day, and the daily-loss halt flag) is PERSISTED to memory and RESTORED on boot, so after any restart Nemo picks the position straight back up and keeps managing its stop / target / square-off. On boot, if a position is open, Nemo messages you that it resumed managing it. This pairs with v13.6 self-healing updates: a restart mid-trade no longer abandons your money. (Bracket positions were already protected on-exchange; this closes the gap for plain positions.) Owner-only, additive; all existing suites pass plus new v13.7 tests. + v13.6 - SELF-HEALING UPDATES (took the one real new idea from the ChatGPT v17 file - auto-recovery from a bad update - and built it safely; skipped the rest, which forced its VERSION to 17.0 and added a downgrade-block that would have LOCKED you out of updating to our clean files, and re-did the workflows our v13.4 already has): every /update is now TRANSACTIONAL. When you Apply an update, Nemo records a journal (a hash of the new build, plus a hash + path of the verified backup). On restart it checks that journal FIRST: a healthy boot (Telegram auth succeeds) is confirmed and stands recovery down - but if the new build keeps failing to reach a healthy boot (3 tries within 30 minutes) Nemo automatically RESTORES the previous version (only if that backup still compiles and its hash matches the recorded original) and restarts. So if you ever deploy a build that won't start, it heals itself back to the last working version without you touching the server. /updatecheck now also shows whether the last update auto-rolled-back or booted cleanly. HONEST LIMITS: this catches builds that start but then crash/exit during startup; a crash BEFORE main() even runs (e.g. an import-time error) can't be caught from inside the process - though compile-check already blocks the syntax errors behind most of those. Conservative by design (3 failures, 30-min window, hash+compile-verified backup) so a healthy long-running bot is never rolled back. The normal apply/backup/rollback path and everything else are unchanged; all existing suites pass plus new v13.6 tests. + v13.5 - SAFER UPDATES (took the one good idea from the ChatGPT v16 'updatefix' file - credential-preservation on update - and built it safely on our base; skipped the rest, which sat on the old v12.06 base, carried the broken v15 layer, and hard-overrode VERSION to '16.0' while requiring its own marker that would have BLOCKED updating to our clean files): (1) /updatecheck - preflight a new nemotron_bot.py you've attached WITHOUT applying it: shows its version, size, whether it looks like Nemo, the compile-check result, and - the key part - whether it would CHANGE or DROP any of your credential/config lines (compared by a HASH of each key line; values are NEVER shown). (2) /update now shows that same credential warning right in the Apply prompt, so you can't accidentally deploy a file that wipes your API keys without being told. It WARNS, it does not block - because a legitimate update (like moving keys into the secrets file) also changes those lines and you stay in control. (3) /version shows the running version cleanly. The critical apply/backup/rollback path is unchanged. Owner-only, additive; all existing suites pass plus new v13.5 tests. + v13.4 - ORCHESTRATION (added the genuinely-new capability from the ChatGPT v15 file, built CORRECTLY on our safe v13 base - the v15 code itself was BROKEN: I ran it and it crashed with 'uuid is not defined', plus a _n15_STATE typo and a call to a function that never existed, so its workflow / research / decision commands all failed at runtime). What's new and WORKING here: (1) /nemoworkflow <numbered plan> - runs a multi-step plan ONE checkpointed step at a time, feeding each step's result into the next and saving progress after every step, so it survives a restart; /nemoworkflows lists them and /nemoresume <id> continues from where one stopped. (2) /nemoresearch <question> - a research pass that separates FACTS / INFERENCES / UNKNOWN and refuses to fabricate sources. The REST of v15's command surface is wired to Nemo's EXISTING, more mature systems instead of broken parallel copies: /nemodecision -> the real decision journal (with expected-vs-actual tracking), /nemoevents -> the activity log, /nemoagents -> AGENTSTAT, /nemoarchitecture -> /abilities, /nemo3 -> the /nemo control center. Nothing duplicated, nothing dragged back onto the old insecure base. Owner-only, purely additive; all existing suites pass plus new v13.4 tests. + v13.3 - CONTROL CENTER + FACT-CHECK (folded in the two genuinely-good ideas from the ChatGPT v14 file, onto this safer v13 base - without its duplication or its security rollback): (1) /nemo CONTROL CENTER - one screen showing version, uptime, brains, security posture (are any keys still in source?), money-confirm + lockdown + auto-trade state, work-queue depth and recent activity - built on Nemo's REAL subsystems (secrets_status, MONEYCFG, mm_locked, JOBS/WORK, ACTLOG), not a parallel copy. (2) /verify - or 'double-check that' / 'any hallucinations?' - an explicit fact-check pass: it reviews an answer (the text you give, or my LAST answer) for hallucinations, unsupported claims, wrong numbers/names/dates, missing caveats and contradictions, and if it finds problems it rewrites the answer WITHOUT inventing new facts. Both work by command AND in plain language, owner-only, purely additive. Deliberately NOT copied from the ChatGPT file: its duplicate job-runner (Nemo already has the /work engine), its status-dump 'quant report', and - the important part - that file was built on the OLD v12.06 base, so it still carried the exposed API keys, the deadlock-prone lock, money-confirm OFF, and the lockdown/phantom-exit gaps that v13.0-13.2 fixed here. Behaviour-frozen elsewhere; all existing suites pass plus new v13.3 tests. + v13.2 - TRADING SAFETY (Phase 2 - I traced the real-money route end-to-end, then closed the gaps I found; nothing removed): GOOD NEWS first - the LLM is NOT the final authority on your money. The AI only PROPOSES a direction + a confidence score; ALL risk parameters (which instruments are allowed, position size, stop-loss, target, max-trades/day, daily-loss auto-halt, trading-hours window, buy-only, and shadow-vs-live) are enforced in deterministic code around it, and live autonomous trading is OFF by default. THREE real gaps found + fixed: (1) LOCKDOWN DIDN'T STOP EVERYTHING - the master /lockdown kill-switch blocked manual bracket/cover orders but NOT the autonomous trader and NOT a plain /order. Now lockdown blocks ALL new live entries (manual /order + the auto-agent); open positions still auto-manage and exit, so nothing is stranded. (2) PHANTOM EXIT - the auto-agent's exit SELL ignored its result: if a live exit failed, the bot booked the position as CLOSED while it was still open on the exchange, leaving real money unmanaged. Now a failed live exit keeps the position, alerts you, and retries each tick. (3) plain /order now respects /lockdown like the other order types do. HONESTLY REPORTED, not yet fixed (flagged for a later phase): the auto-agent's OPEN-position state isn't persisted, so a restart mid-trade forgets a plain position (bracket positions stay exchange-protected regardless). Behaviour-frozen for everything else; all existing suites pass plus new Phase-2 tests. + v13.1 - SAFETY CORE (Phase 1 of the audited v13 rebuild - two runtime-safety hardenings, nothing removed): (1) DEADLOCK-PROOF LOCK - Nemo's single global lock is used in 40+ places and locked functions call other locked functions; a plain threading.Lock is NOT re-entrant, so one locked path calling another would freeze him hard. Switched to threading.RLock (re-entrant): identical behaviour for normal use, but the same thread can safely re-acquire, so that entire class of hang is gone. (2) REAL MONEY DEFAULTS TO CONFIRM - manual live orders (/order, /bracket, /cover) now default to a one-tap confirm before they fire, and the setting is finally PERSISTED (before, turning it on was silently forgotten on the next restart - a genuine safety hole). The autonomous trader is unaffected - it keeps its own separate risk gates. Turn the tap off with /confirmtrades off, and now that choice sticks across restarts. CORRECTION to my own Phase-0 audit: the 'six main() functions' I flagged as dead code were a FALSE ALARM - five of them are bot-factory TEMPLATE strings (the source code of the mini-bots Nemo generates), not real definitions; I verified by reading before touching, so nothing was wrongly deleted. Behaviour-frozen elsewhere; all existing test suites still pass. + v13.0 - SECURITY CORE (Phase 0 of the audited v13 rebuild - security FIRST, nothing removed): the bot's API keys (Telegram, OpenRouter, NVIDIA, Gemini) were hard-coded in this source file. Now EVERY secret resolves from an environment variable first, then /root/bot_secrets.json, then the baked-in value only as a last resort - so secrets can live OUTSIDE the code. On boot Nemo AUTO-MIGRATES any still-baked key into the 600-permission secrets file, so the next version can delete those lines from the source and he still starts. New: /security (owner-only) reports exactly which keys are still in the source vs externalised, where each secret loads from, and the money-guard + owner-lock state (never showing any secret value); the weekly self-test gains a 'No API keys exposed in source' check that stays red until they're moved out; save_secret now chmods the secrets file to 600. IMPORTANT ACTION FOR YOU: because these keys sat in the code, treat them as LEAKED - generate new ones and put them in /root/bot_secrets.json (keys: telegram_token, openrouter_key, nvidia_key, gemini_key); v13.1 then removes them from source entirely. Behaviour-frozen: with no env var and no secrets-file entry every secret is exactly what it was, and all existing test suites pass unchanged. One safe phase at a time. + v12.06 - SELF-TEST TELLS THE TRUTH: the weekly report card was FALSE-FAILING on email. It tested email by logging into Gmail's SMTP (465) and IMAP (993) ports directly - but DigitalOcean BLOCKS those ports, so both always showed a red X even though email works perfectly over the Gmail API (HTTPS). Fixed: the drill now checks the REAL path - Gmail API reachable (profile + labels over HTTPS) first, SMTP/IMAP only as a fallback when there's no Google connection - and it runs whenever Google is connected OR an app password is set. So those two systems will now report green (as they should), and the report card reflects reality instead of scaring you with a port block. + v12.05 - RELIABILITY SWEEP (the same rigor, across his OTHER outputs): the invisible-char fix was for Pine; this applies the same 'make the outcome reliable' thinking to code and file outputs. (1) CODE OUTPUTS - /script now guards against the brain 'thinking out loud' (no more 'Let's craft:' / '... code ...' placeholder garbage), SYNTAX-CHECKS delivered Python (ast.parse, with one self-correction) so a .py actually parses, and tells you to use the attached FILE not the chat text (same copy-paste-corruption fix as Pine). (2) TEXT/CSV/MD files get the same scratchpad guard, so they contain the finished content, never the brain's notes. (3) Shared helpers (_looks_scratchpad, _clean_code) so every generator refuses to ship junk and retries. The theme: fewer 'bad results' by hardening the output paths, not adding more features. + v12.04 - THE REAL PINE BUG (invisible characters): the recurring 'Syntax error at input <name>' on code that looks perfect was NOT bad code - it was smart quotes and non-breaking spaces that sneak in when Pine is copied out of a chat message / PDF / phone into TradingView. TradingView can't parse them and throws that exact baffling error, the same on every version. Fixes: (1) _pine_sanitize forces every generated script to PURE ASCII (smart quotes -> straight, non-breaking/other unicode spaces -> normal, en/em dashes -> -, zero-width chars removed); (2) the linter now flags any non-ASCII character; (3) delivery now tells you to use the attached .pine FILE (not copy from the chat bubble), because the file is clean ASCII and the chat text can silently re-corrupt. This is the root cause behind the errors that kept coming back. + v12.03 - COMPLEX PINE: added a genuinely advanced, verified strategy to his library - 'Confluence Regime Rider' (EMA regime + ADX trend-strength + RSI momentum + higher-timeframe confirm + ATR target + ATR trailing stop + a live on-chart stats table), Pine v6 and lint-clean. It backtests automatically in TradingView's Strategy Tester (it is a strategy()), and its exact logic was verified in a Python backtest. So 'a unique pine with buy/sell/target/stop-loss that backtests' is now real, at real complexity, and part of his rotation. + v12.02 - PINE v6 + STAY-CURRENT (he moves with the times, on his own): (1) PINE v6 - TradingView's current version. His whole Pine engine now targets v6 by default: the generator prompt, the deep knowledge base and the 5 verified templates are v6 (correct bool strictness, no 'when=' on strategy.* , '1D'/'1W'/'1M' timeframes, no 'transp='), and the linter gained v6 checks (flags a leftover when=/transp=/'D' timeframe). v5 still compiles and is still accepted; /pinever 5|6 sets the target. (2) STAY-CURRENT WATCH - a weekly self-check (currency_watch) where he RESEARCHES what's changed in his fields (Pine version, SEBI rules, AI tooling), AUTO-applies safe settings himself (e.g. bumps his Pine target the moment a newer version ships), learns the rest into memory, and routes anything code-level to the supervised /selfgrow rail for your one-tap approval - so he keeps himself up to date automatically without ever rewriting himself unsupervised. /current runs it now, /current on|off, /pinever sets the version. This is the honest form of 'update automatically in all fields': safe things on his own, risky code changes proposed for approval. + v12.01 - CONTINUUM FIX (the flood + the garbage code file): the v12.0 work engine ran, but two bugs showed up. (1) DUPLICATE FLOOD - the agent re-called fire-and-forget tools (pdf/docx/chart/web) over and over, because make_pdf returns 'building...' immediately, so the agent never saw a finished file and kept re-making it (7+ identical PDFs per job, the same web search 5x). FIXED: the agent now makes each deliverable EXACTLY ONCE and skips any identical tool+arg repeat, and bails to the report if it gets stuck re-proposing the same step. (2) GARBAGE CODE FILE - '5 best Nifty option strategies' was mis-detected as a CODING request (the word 'strategies'), so it emitted a nonsense nemo_code_out.txt full of the brain's scratchpad instead of a clean report. FIXED: a strict code detector - a trading strategy/option/report/'best'/'top N' request is a REPORT, never code; only real programming asks (python/code/function/sql/pine...) make a code file. So a research job now produces ONE clean PDF, no junk. + v12.0 - CONTINUUM (the real deep upgrade: he KEEPS WORKING, and understands deeper): the honest gap all along was that Nemo ANSWERS, then stops - he never keeps grinding a task on his own. v12.0 fixes that at the core. (1) CONTINUOUS WORK ENGINE - /work <task> (or 'keep working on X', 'add to your work list') queues a job; a background worker wired into his scheduler picks up the next pending job, runs it to completion through his plan->act->verify agent, reports the result, then moves to the NEXT job - one after another, on its own, and the queue is PERSISTED so it survives restarts. Pile up ten jobs and he'll grind through them while you sleep. /jobs shows the queue and status, /stopwork pauses. (2) DEEPER UNDERSTANDING - the THINK loop's comprehension/clarify step now runs on the PREMIUM brain (not the fast free one), so he judges what you actually mean far better before acting; the agent's self-check already verifies on the premium brain. (3) FULL PICTURE - /abilities (or 'what can you do') lays out his entire capability set in one organized map, and everything is reachable in plain language. This is not a risky rewrite - the proven 34-test-suite core is intact; CONTINUUM is the capstone layer that turns a bot that replies into one that works. + v11.31 - PINE MASTER (deep, advanced, CREATIVE - not the same EMA crossover every time): the last fix made Pine error-free but repetitive - every request came back as an EMA crossover, because the one verified template WAS an EMA crossover and it anchored the brain. Now: (1) a DEEP Pine v5 knowledge base rides in the prompt (full ta.*/math.* catalog, request.security multi-timeframe, sessions/time for NIFTY intraday, strategy risk/trailing exits, drawing objects - tables/labels/lines/boxes, plot styles, dynamic alerts, anti-repaint and confluence best-practice) so the code is genuinely advanced; (2) a LIBRARY of FIVE hand-verified, lint-clean advanced strategies (EMA crossover, Supertrend trail, Opening-Range-Breakout for NIFTY, VWAP mean-reversion, RSI + higher-timeframe filter) plus a menu of 14 archetypes (Bollinger squeeze, MACD regime, Donchian, Ichimoku, multi-factor confluence...); (3) ROTATION - a generic 'make me a pine script' now round-robins through the archetypes so no two come out the same, while a NAMED method (supertrend/vwap/orb/rsi/macd...) is honoured; (4) the brain is pushed to be creative, combine 2-3 confluence factors and add a pro touch (stats table / trailing stop / dynamic alerts), and mirror a MATCHING verified reference's syntax - not the EMA one. Still linted + auto-repaired, with the matching verified template as the guaranteed-clean fallback. Storage is no constraint - the knowledge and template library are baked in. + v11.30 - DARK SIDE (edge + ruthless-but-LEGAL power, on the Boss's side): four things. (1) DARK MODE - /dark on (or 'go dark' / 'be brutal') flips his TONE to blunt, sharp and a little savage, built to put you ahead - no hand-holding, no hedging - while he still NEVER lies, fabricates, helps anything harmful/illegal, or targets people. /dark off restores the normal voice. Persisted. (2) RED TEAM - /redteam <plan/idea/trade/text> (or 'attack this', 'find every weakness') attacks it like your smartest enemy and exposes every hole, ending with BIGGEST RISK + FIX FIRST. (3) COMPETITIVE INTEL - /intel <competitor> (or 'dig up on X') builds a hardball brief from PUBLIC sources: what they offer, their weaknesses/complaints, and where to hit them to win. (4) NEGOTIATION + SCAM DEFENSE - /negotiate <situation> gives a hardball (ethical) play with leverage, BATNA, anchors, tactics and exact phrases; /scamcheck <message> flags manipulation tactics + a scam risk rating when someone runs dark tactics on YOU. Deliberately NOT built, and I told the Boss why: malware, hacking others, defeating security/CAPTCHA, fraud/fake docs, surveilling people, spam/fake-account armies, market manipulation, or removing his safety rails - all of it would make HIM the traceable, liable party on his own server, and the 'who sells that' path is scams and stings. This is the dark arts used ethically, for his side. + v11.29 - ERROR-FREE PINE SCRIPT (the real reason it kept failing): unlike Python, Pine can't be compiled on the server, so a small free brain's syntax errors sailed straight through. Now Pine gets a proper pipeline: (1) it's written by the PREMIUM brain (free nano brains are poor at niche languages) using a strict Pine-v5 system prompt; (2) a rule-based LINTER (pine_lint) checks the errors that actually break TradingView - missing //@version=5, more than one declaration, study() vs indicator(), the 'strategy function used in indicator' error, bare sma()/rsi()/atr()/input()/security() that must be ta.*/math.*/request.security()/input.*, unbalanced brackets, and plot/alert stuck inside an if-block; (3) a REPAIR LOOP feeds those errors back and fixes them, up to 3 passes; (4) if it still isn't clean, it falls back to a HAND-VERIFIED template that compiles zero-error (EMA crossover + volume filter + ATR take-profit + % stop-loss, buy/sell markers, alerts). Every 'pine script / tradingview' request (and /pine) now routes here, delivers a .pine file with an honest 'passed my checks' status, and can email it. So a pine-script ask returns code that actually compiles - not a broken brain dump. + v11.28 - CREATE+EMAIL ACTUALLY HAPPENS (the 'it talks about emailing instead of doing it' fix): the root cause was that 'generate a pine script and email it to X' matched NO deterministic route, so it fell to the chat brain - which tried to call a tool by PRINTING <function=...> as text; that leak wasn't recognised, so you got the generic 'tell me the exact thing you want' (and elsewhere, 'here's how to email it / I can send if you want' - talking, not doing). Two fixes: (1) a deterministic CREATE+EMAIL route - 'generate/make/write/build <X> ... and email/mail (it) to <address or my mail>' now ALWAYS builds the thing AND sends it (Word if you said 'word/document', else a PDF - which now contains real code for a pine-script/strategy request, plus the raw .pine file), never touching the chat brain. (2) the tool-leak guard now also HONOURS a leaked email/docx/xlsx/chart/script/code call by actually running it, instead of showing the fallback. Net effect: when you say 'do X and email it', X gets made and the email gets sent - consistently, regardless of which brain is on duty, because the ACTION is deterministic code now, not a brain's guess. + v11.27 - THINK (my way of working, in him): the operating loop that makes an assistant actually effective, not just full of features. /do <task> (or /handle, or 'handle this properly / thoroughly / the way you would') runs Nemo through the same method I use on every real job: UNDERSTAND (restate it, and resolve 'it/that/the file' from the recent chat so a follow-up like 'give me the pdf here' isn't misread) -> CLARIFY (only if ONE essential detail is genuinely missing, ask a single question and resume when you reply - never nitpick) -> GATHER (pull what he already knows: durable memory + your indexed files + a quick web look-up, the way I read before I edit) -> PLAN -> EXECUTE -> VERIFY (his agent self-checks against the goal before finishing) -> honest report. It reuses his autonomous agent for the execute+verify core; the new part is understanding and grounding the task BEFORE acting. A new 'handle' intent + a pending-question resume make it feel like a real back-and-forth. Honest limit: this gives him my METHOD, which makes even a smaller brain far more effective - but his raw reasoning ceiling is still his model's, so it's my way of working in mini form, not a clone. Purely additive; every existing command and the fast one-shot paths are untouched; rails intact. + v11.26 - EMAIL, FOR REAL (fixes the '/email test still fails though Google is connected' trap): the root cause was that Google was linked BEFORE the gmail.send permission existed, so the token can read Gmail but can't SEND - and two things hid this: (a) /email test only pinged the Gmail profile / fell back to the SMTP error (which ALWAYS fails on DigitalOcean), so it never proved SEND and blamed the wrong thing; and (b) /google, once connected, was a DEAD END - it only offered 'relink with client_id/secret' and never a way to re-approve the new permissions. Fixes: (1) /email test now does a REAL test send to your own address via the Gmail API and reports the TRUTH - '✅ works, check your inbox', or, if the token lacks send permission, '⚠️ connected but without Gmail SEND permission - re-authorize in one tap', never again the misleading SMTP 'check your password'. (2) /google, when already linked, now hands you a one-tap RE-AUTHORIZE link built from your ALREADY-SAVED Client ID (open -> Allow -> /gauth <code>) - no need to re-enter anything - so you can grant Gmail send in ~20 seconds. So the fix for you: send this update, then run /google, tap the link, Allow, and /gauth <code>. Email then works over HTTPS (port 443), unaffected by the SMTP block. Purely additive; rails intact. + v11.25 - FIX (the three real problems: email, understanding, and the final result): (1) EMAIL that actually sends - a PDF you ask to be emailed now goes out over the Gmail API (HTTPS/443, which works even though DigitalOcean blocks SMTP), is ATTEMPTED whether or not an SMTP app-password is set, and on failure tells you the REAL reason + 'run /google once to re-grant send permission' instead of the misleading 'check the app password'. (The most likely cause of your failure: your Google sign-in predates the gmail.send scope - one /google re-consent fixes it.) (2) UNDERSTANDING what you asked - the PDF topic is now cleaned properly: 'GENERATE A POWERFUL PINE SCRIPT NEW IN PDF AND EMAIL X' no longer becomes a document titled 'A Powerful Pine Script New In And' (the 'in pdf / and email X / address' tail is stripped cleanly), and 'give me the pdf file here' is understood as a FOLLOW-UP - I resend the last file, or turn my last answer into a PDF - instead of writing a bogus report titled 'Me The File Here'. (3) The FINAL RESULT matches the request - make_pdf no longer forces every PDF into a beginner 'course'. A code/script/strategy/indicator request (e.g. a Pine script) now produces the ACTUAL working code (TradingView Pine v5 for pine) with Overview / CODE / HOW IT WORKS / HOW TO USE, AND the raw .pine (or .txt) file is delivered too; a report request gets a real structured report; only a learn/teach/course request gets a course. Purely additive; rails intact. + v11.24 - MAKER (mini-me abilities: he plans, codes, charts, and hands you real files): the things you said he couldn't do like I can - now his, in mini form. (1) REAL DOCUMENTS - he builds and delivers actual files, not just chat text: a Word .docx ('make me a word doc about X', /doc), an Excel .xlsx spreadsheet with real headers + numeric cells ('put my expenses in a spreadsheet', /excel), and plain .txt / .md / .csv files (/txt). (Illustrated PDFs and PPT decks were already there.) (2) VISUALIZATIONS - /chart (or 'make a bar/line/pie chart of ...') turns data or a described dataset into a real matplotlib chart image and sends it. (3) CODE AS A FILE - /script (or 'write me a python script file') writes a program in the right language and delivers it as a downloadable code file (say 'run it' to execute); the existing /code still WRITES-AND-RUNS and returns the result. (4) VISIBLE PLANNING - /plan (or 'make a plan for ...' / 'break this down') turns a goal into a clear numbered step plan and shows it, then 'do it' hands it to his plan->act->verify agent. All reachable in plain language (fast-paths + the AI intent-router) AND given to the autonomous agent as new tools (docx/xlsx/chart/textfile), so mid-task he can produce a sheet or chart himself. Purely additive; rails intact. + v11.23 - CURIOSITY (he fills the gaps himself + learns from the world): you gave him the internet; now he USES it on his own. When a question needs current or factual knowledge he may not hold (latest/price/news/'who is <name>'/'when is <event>'/a named thing), he quietly looks it up on the web FIRST, grounds his answer in what he found, and then DISTILS 1-2 durable facts into his permanent memory - so next time he already knows it (compounding knowledge, surfaced automatically by mem_recall). No 'please search' needed; he just does it. His autonomous agent gets the same instinct: a RESOURCEFULNESS rule so it researches a missing detail itself (web/fetch/recall) instead of stalling to ask you. And a curiosity 'soul' line in his persona: naturally curious, resourceful, never fabricates. Controls: /curiosity on|off (default ON, persisted), /learned [word] shows exactly what he's taught himself and when. Conservative by design - it does NOT web-search greetings, code, math or timeless 'explain X' questions (no needless latency), and it's a silent no-op if the web is unreachable. Purely additive; rails intact (still never fabricates, owner-only, money/destructive/self-mod still need a tap). + v11.22 - ANY-SITE VIDEO + YOUR PROXY: (1) UNIVERSAL VIDEO DOWNLOAD - /video <url> (aliases /vdl /dlvideo) or just 'download the reel/clip/video from <url>' pulls a video (or 'audio'/'mp3' for just the sound) from ANY of the ~1800 sites yt-dlp supports - Instagram, X/Twitter, TikTok, Facebook, Reddit, Vimeo, Dailymotion, Twitch, news video, most embeds - and sends it over Telegram if it fits (50MB) else saves it on the server (+ your Drive). For sites where you must be logged in, it uses YOUR OWN cookies (export cookies.txt, send /browsercookies) - it uses your session, it does not defeat the login. DRM-locked paid streaming (Netflix, Prime, Hotstar, Disney+, Spotify...) is refused honestly: those streams are encrypted and can't be pulled. YouTube keeps its richer path (summary/notes/playlist). (2) YOUR OWN PROXY / VPN - /proxy set http://user:pass@host:port (or socks5://host:port), /proxy off, /proxy to show. A proxy YOU provide (your subscription or your own box) is then applied to video downloads and web fetches, so he can reach content the server's bare datacenter IP is geo-blocked from, or route privately. This is legitimate access through YOUR endpoint - deliberately NOT a rotating proxy-pool to evade IP bans. Two things you asked for that I did NOT build, and why: a system that DEFEATS a site's bot-check / CAPTCHA / human-verification (that's built to circumvent a security control and is the engine of scraping-abuse, fake-account and credential-stuffing fraud - so it's off the table); and a self-standing 'access everything' ban-evasion VPN/rotator (same reason). The honest path is already here: when the browser agent meets a login/OTP/CAPTCHA it screenshots it and asks YOU to solve it, then continues on your authority (v10.4 human-in-the-loop) - a human does the human-verification. Purely additive; all rails intact. + v11.21 - TALK (no commands, just tell him): you never NEED a slash command again - say what you want in plain words (any language) and he does it. His ~300 abilities are all still there, but plain language is now the front door to ALL of them, not just some. The regex fast-paths already caught the common phrasings ('run df -h', 'read /root/x.py'); v11.21 adds the missing abilities to his AI intent-router so the phrasings the regex MISSES still reach the REAL hand instead of a generic chat reply: new understood intents terminal (run any server command), fetch (read a page's data), download (save a file onto the box), readfile / listfiles (his own files), knowledge (search your indexed documents), api (call any REST endpoint), apex (maximum-power multi-step job), and a catch-all act (ANY imperative 'do this for me' order -> his autonomous plan->act->verify agent). So 'jara dekh to server ka disk kitna bhara hai', 'pull the numbers off that page for me', 'sort out my server and mail me a summary' now DO the thing. Nothing removed, every command still works; the same rails hold inside each (owner-only, audited, money/destructive/self-mod still need a tap). Purely additive. + v11.20 - REACH (longer hands): three big new capabilities that extend what he can touch. (1) UNIVERSAL CONNECTOR - /api <METHOD> <URL> [:: json] calls ANY REST API (GET/POST/PUT/DELETE), and /api save <name> ... stores a named endpoint + auth header so 'call my <name> api' works; the autonomous agent also gets an 'api' tool, so he can reach any external service you have a key for (CRMs, sheets, webhooks, IoT, other bots...). (2) SCHEDULED ACTIONS - /every <interval> <action> and /at HH:MM <action> run ANY of his abilities on a repeat or at a set time ('/every 1h run df -h', '/at 09:15 send me the premarket brief', '/every 1d market brief') - real actions, not just reminders - so his hands work while you sleep; /schedules lists them, /unschedule <id> cancels. Persisted in the kv store (survives updates), fired from the scheduler. (3) DOWNLOAD TO SERVER - /get <url> [name] (or 'download <url> to the server') pulls any web resource onto the box (60MB cap) so he can then /read, /index or send it. All owner-only, audited to the tamper-evident chain, and destructive/system paths still refused. Purely additive. + v11.19 - APEX / GODMODE (the capstone): maximum capability + UNBREAKABLE reliability, within the rails that keep him alive. (1) UNBREAKABLE: ask_ai now has a hard answer-deadline (~40-85s) so when every free brain is jammed it STOPS cycling and replies clearly ('my brains are all busy - try again in a minute, nothing is broken') instead of leaving you on 'Thinking...' for minutes - the exact freeze that just happened can't recur. (2) ONE MIND: the autonomous agent gains a 'recall' tool that searches your knowledge base (indexed files) + durable memory, so his execution draws on everything he knows about you. (3) APEX MODE: /apex <goal> - or just say 'full power', 'use everything', 'unleash', 'go all out', 'maximum power' - runs his MAXIMUM agent: more steps (18), the directive to use EVERY tool (shell, fetch, files, code, web, recall, quote, godmode, pdf...), be exhaustive, cross-check, and VERIFY before finishing. Honest limits kept by design: max ABILITY, but money / destructive shell / system writes / self-modification still need one tap or are refused - that is what stops him bricking himself or leaking your Dhan/Google/root keys. Power that survives. + v11.18 - TOOL-CALL LEAK FIX (the '<tool_call><function=pdf>...' bug): when you asked for a PDF report to your mail, a brain PRINTED the raw function-call markup as a chat message instead of building anything. Fixed two ways: (1) a deterministic route so 'give/make/send me a (complete) report/PDF of X [to my mail]' now ALWAYS builds the PDF via make_pdf and emails it to you - it never reaches the general brain; and (2) a universal guard (_tool_leak / _strip_tags) that catches any leaked <tool_call>/<function=..>/<parameter=..> markup on EVERY channel (chat, web, PWA) - if it recognises the intended ability (pdf/image/slides/web) it actually RUNS it, otherwise it strips the markup so internal syntax is never shown to you again. + v11.17 - DEPTH: reasoning + a knowledge brain + self-running + a visible command center. (1) SMARTER: hard questions (why/how/compare/analyse/plan/decide, long or multi-part) now trigger a private step-by-step REASONING pass before he answers, then the regulator self-checks it - so answers are deeper, not just faster; and a plain 'that's wrong / you missed it' now stores a lasting LESSON (fed into future answers) and redoes it in MAX mode, no /bad needed. (2) KNOWLEDGE BRAIN over your files: /index <path> full-text-indexes your files+PDFs (SQLite FTS5), then /know <question> - or 'search my files for X' - answers across everything with citations. (3) SELF-RUNNING watchdog: every ~10 min he checks each deployed app's service and AUTO-RESTARTS any that CRASHED (failed units only, rate-limited, audited + notified). (4) VISIBLE POWER: a real /dashboard command-center on his web server - live system + server health, apps, activity, what's coming up, and a command box - so the power is something you SEE and drive, not 290 commands to remember. Purely additive. + v11.16 - SMARTER + SAFER HANDS: (1) SECURED TERMINAL - every /shell command and file write is now logged to the v11 tamper-evident audit chain + activity ledger, there's a 25-cmd/min rate guard, and /shell readonly on blocks any command that changes something (reads still work). (2) AGENT GETS THE HANDS - the autonomous /agent (/solve) can now use shell, fetch, readfile, ls and writefile, so it does real end-to-end server work ('find why nemobot crashed and fix it' -> tails the log, reads it, diagnoses, patches, restarts) with its plan->act->VERIFY loop; destructive shell + system-path writes are refused (owner must do those manually). (3) CONVERSATION MEMORY - a short-term per-chat context (recent turns + actions) is injected into his brain so follow-ups resolve ('do it again for BankNifty', 'what did you just find'), and 'email/send that to me' now emails his LAST answer. (4) CHIEF-OF-STAFF PROACTIVITY - a ~30-min watch pings the owner UNPROMPTED but only on material things: server disk >88%, memory >92%, a reminder due within the hour, or to-dos piling up (deduped, cooldowns). Purely additive. + v11.15 - REAL HANDS (terminal + site-data + files) & plain-words routing: gives Nemo the hands people said he lacked, and makes plain language actually FIRE them instead of a chatbot reply. (1) TERMINAL: /shell <cmd> (aliases /sh /bash /terminal /exec) runs ANY command on the server and returns the live output - owner-only, persistent cwd (`cd` sticks), per-command timeout, and a confirm-tap guard on destructive commands (rm -rf /, mkfs, dd, shutdown...). (2) SITE-DATA GRABBER: /fetch <url> [what you want] pulls a page and hands back clean text/tables/JSON (BeautifulSoup when present), answering a question from it if you ask one, and falls back to the real browser agent for JS/login pages. (3) FILE ACCESS: /ls, /read (/cat), /download, /writefile <path> :: <content> - browse, read, receive and create files on the server (owner-only; system-path writes need a confirm tap). (4) PLAIN-WORDS ROUTING: nl_route now has deterministic fast-paths so 'run df -h', 'shell systemctl status nemobot', 'get me the data from <url>', 'read /root/x.py', 'list files in /root', 'download /var/log/syslog' hit the REAL tool every time - never the general brain. Purely additive; every existing command untouched. + v11.14 - EMAIL NO LONGER LIES: fixes the bug where 'email to someone@x.com <message>' got a fake 'Email dispatched...' reply while nothing was actually sent (the Sent box stayed empty). Root cause: only a handful of deterministic phrases were force-routed to the real send code; everything else was handed to an AI intent-classifier, and when it guessed wrong the message fell through to the general chat brain - whose own system prompt ('you send emails, so speak like it') then HALLUCINATED a success, even auto-'correcting' the address. Three fixes: (1) a deterministic fast-path in nl_route now catches any explicit 'email/mail <address> <message>' and ALWAYS runs the real send (nl_emailto) - the chat brain can never answer it, and the address is sent EXACTLY as typed (no silent correction); (2) nl_emailto now accepts the Gmail-API/HTTPS path (via /google) instead of demanding an app password, and on failure reports the REAL reason (LAST_EMAIL_ERR) + hands your draft back, instead of a fake confirmation; (3) the persona system prompt now carries a hard 'NEVER FAKE AN ACTION' rule - if Nemo is replying as plain text he must never claim he sent an email / placed a trade / made a call, across ALL abilities. Report/PDF-to-email requests are untouched. + v11.13 - PWA: FILE UPLOAD (PDF/Excel/CSV/text) alongside images: the \U0001F4CE attach button now also takes documents. A new /api/file endpoint decodes the upload, extracts its text (PDF via pypdf, Excel via openpyxl, CSV/TXT/MD/JSON etc. directly - the same formats handle_document reads), stores it as the loaded DOCS document (which ask_ai already injects into every answer), and replies with a summary - so you upload a quote/statement/report from phone or desktop and immediately ask questions about it, with follow-ups working automatically. Images still route to the vision path; the attach button branches by file type. + v11.12 - PWA: STOP + IMAGE UPLOAD: the web app now has a \U000023F9 STOP button (appears while Nemo is speaking or a request is in flight - cancels the voice AND aborts the request) and a \U0001F4CE ATTACH button to upload an IMAGE from the browser - it's downscaled client-side to 1280px JPEG and run through Nemo's real vision/OCR path (new /api/upload -> web_image -> ask_ai with the image), so you can photograph/attach a document or screenshot and ask about it from phone or desktop, exactly like sending a photo in Telegram. The uploaded image is also stashed as LAST_PHOTO so a follow-up 'ocr it' works. + v11.11 - NEMO EVERYWHERE (PWA): Nemo's built-in web chat is now an INSTALLABLE app - the first 'window' beyond Telegram, onto your phone home-screen AND desktop at once, sharing the same brain. His Flask web server now serves a real Progressive Web App: /manifest.json + /sw.js (service worker: offline app-shell cache, install) + generated /icon-192.png & /icon-512.png, and the chat page is upgraded with PWA meta tags, an Install button (beforeinstallprompt, with iPhone Share->Add-to-Home-Screen guidance), safe-area layout, persistent login (token from ?k= is saved to localStorage so the home-screen icon stays logged in), voice in/out, and a \U0001F4CA live-status glance via a new read-only /api/status endpoint (returns /status). Open it via /connect (public HTTPS URL + token over Cloudflare Tunnel) -> Add to Home Screen -> installed. Chat + read-only status only from the web channel (destructive commands stay Telegram-side, by design). Reuses the existing token auth; purely additive. + v11.10 - AUTONOMOUS SELF-GROWTH (safe by design): /selfgrow makes Nemo RESEARCH THE INTERNET (plus his own recent errors) for ways to improve himself, form ONE concrete low-risk improvement to a non-core function, and route it through his SUPERVISED self-editor - compile-check -> diff -> your one tap Apply -> backup -> /rollback. /selfgrow auto on runs it about weekly and only ever PROPOSES. He genuinely self-develops from the web; you stay the single tap that stops him from self-DESTROYING. Deliberately NOT built: unrestricted self-modification (rewriting/deploying code from the internet with no test/backup/approval) - that one change can permanently brick him or leak the Boss's Dhan/Google/Telegram/root credentials with no recovery, and it violates this project's own constitution (§22, 'never uncontrolled recursive self-modification' + rollback always preserved + user is final authority). Core stays _UNEDITABLE; money/security/secrets always need a human tap. + v11.9 - NEMO OS CORE COMPLETE (phases 2-10 working cores, one release): DECISION MEMORY (/decision journal with expected-vs-actual, /decisionreview calibration, /counterfactual with hindsight-bias guard, /biascheck challenges you); AI BOARD + RED TEAM (/board = 5 independent seats analyzed in parallel without seeing each other -> disagreement extraction -> red-team attack -> judge verdict with FOR/AGAINST/assumptions/fail-conditions); PREDICTION (/predict with probability+uncertainty, never presented as fact); ANOMALY watch (disk/memory/db baselines + jump detection); RADAR (/radar add|report - monitored topics, only MATERIAL items surfaced); OPPORTUNITY scan; SIMULATION (/businesssim - real Monte Carlo, 500 trials x BASE/OPT/PESS/STRESS, payback/ROI/P(loss)); CHIEF OF STAFF (/chief - reminders, open tasks, blocked work, open decisions, anomalies in one brief); TASK GRAPH (/taskgraph - dependencies, ready vs blocked); memory VERIFY + CONTRADICTIONS on the world model; GOVERNANCE (permission LEVELS 0-6 shown in /permissions, NEMO_CONSTITUTION inherited by agents, /why provenance chains, hash-CHAINED tamper-evident audit + /auditchain verifier); /status full OS dashboard; /agenthealth scores. Deferred honestly: web dashboard UI, desktop-app control, scheduled radar crawls, model-disagreement engine, memory decay (named in NEMO_V11_CHANGELOG.md). All additive - every v10.24 command untouched. + v11.0 - NEMO OS PHASE 1: WORLD MODEL / KNOWLEDGE GRAPH (start of the v11 'Personal AI Operating System' program - see NEMO_ARCHITECTURE_AUDIT.md for the full 11-phase plan). Nemo now keeps a persistent, TEMPORAL model of your world in his SQLite brain: entities (people, suppliers, projects, companies), typed relations between them, and DATED facts that carry SOURCE + CONFIDENCE (provenance) and are NEVER overwritten - so 'Supplier X quoted 10L' in March and '8.5L' in August both stay, each with its date. /fact <entity>: <fact> teaches him (free-form works too - AI extracts entity+fact), /world <entity> shows the full profile with provenance, /timeline <entity> replays the dated history, /relate A | rel | B links entities, /graph shows the model, /os shows v11 phase status. Every kg fact also feeds vector memory so /recall finds it semantically. Purely additive (new kg_* tables + one dispatcher; all 332 existing commands untouched). + v10.24 - PROJECT BUILDER (create 'vast things', not just scripts): /project <name>: <what to build> makes Nemo build a whole MULTI-FILE project by himself - he plans a file manifest, writes each file, installs the pip deps, RUNS the tests, and if they fail he reads the errors and fixes his own code (up to 2 repair rounds), then zips the project and sends it to you. /projects lists them, /project <name> zip re-downloads one. Files live in /root/nemo_projects/<name>. This is the generate->test->repair loop that turns 'one script' into real software. Owner + deploy-cap gated. + v10.23 - CRASH-SAFE MEMORY (durable-memory foundation): Nemo already saved his brain (facts, contacts, projects, todos, habits, history, the AI team...) to bot_memory.json from 67 places - but the write was NOT atomic, so a kill mid-save could corrupt the whole file and load_data would silently start BLANK with no backup (total amnesia). Fixed: saves are now atomic (temp -> fsync -> os.replace) and keep a .bak of the last good copy; load falls back to .bak if the main file is corrupt, so one bad crash can never wipe his memory again; a 150s autosave loop backs up state changed by paths that don't call save_data; and if he ever does recover from backup he tells you on boot. This is the safe foundation for growing him side by side. + v10.22 - SOLVES ON HIS OWN (plan -> act -> CHECK -> report): TRUE AGENT MODE now VERIFIES its own work before finishing instead of stopping at the first 'done'. When the agent tries to finish, Nemo strictly checks the proposed answer against the original objective; if a real part is missing/wrong/unverified, he names the gap and keeps working to fix exactly that (up to 2 self-corrections), then reports - so complex, multi-step jobs actually get completed, not half-answered. Step budget raised 8 -> 12 to leave room to adapt. New /solve alias (same as /agent), and saying 'solve ...' / 'figure out ...' in chat now triggers the autonomous agent directly. Uses his existing rich toolset (web, open, quote, code, pdf, email, remind, todo, finish). + v10.21 - EMAIL OVER HTTPS (fixes the DigitalOcean SMTP block): the real reason /email set failed with 'couldn't reach Gmail's mail server' is that DigitalOcean BLOCKS outbound SMTP ports - not the password. Nemo now SENDS via the Gmail API over HTTPS (port 443, never blocked), using the Google account you already connected with /google (it has the gmail.send scope). send_email tries the Gmail API first and only falls back to SMTP; /email test now reports which path works; the network-error message now names the SMTP-block cause and points to /google. So: run /google once (if not already), then email just works - no App Password needed. + v10.20 - EMAIL FIX + SELF-DIAGNOSIS: email 'sending failed' now tells you the REAL reason instead of a generic essay. Nemo captures the actual SMTP error (LAST_EMAIL_ERR) and translates it to a plain cause + fix (e.g. '535 = wrong/expired App Password or 2FA off'). New: connect Gmail from chat with /email set <gmail> <app password> (no file editing), and /email test does a LIVE Gmail login and reports exactly what's wrong. Best of all, asking 'why did email fail / email not working' now makes Nemo check HIMSELF (real SMTP test) rather than routing it to the general brain that wrote the SPF/DKIM essay. The root cause of your failure: the Gmail App Password is set but Gmail is rejecting the login - regenerate it (2FA must be on) and run /email set. + v10.19 - SELF-UPDATE (no more SSH): send Nemo a new nemotron_bot.py in Telegram, then /update - he verifies it's really my code (size + markers, so a random script can't nuke me), compile-checks it, backs the current me up to /root/nemo_backups, swaps himself in and restarts (you tap Apply first; /rollback undoes it). Reuses the proven /upgrade rails. When you send a .py that looks like a new me, he now offers /update automatically. From here, every future version installs by dropping a file in chat - no console, no scp. + v10.18 - BOT FACTORY LIBRARY (factory data): Nemo now carries a library of ready-made bot TYPES he can create on command and modify - the engine for a bot-building service. /templates lists them (FAQ/auto-reply, appointment booking, order+catalogue, subscribe+broadcast, feedback/rating); /newbot <type> <name> : <business> scaffolds a complete standalone Telegram bot from that template and ships it through the SAME supervised pipeline as /ship (compile-check -> bake env -> tap to start); then /env <name> BOT_TOKEN=... OWNER_ID=... turns it on, and /app <name> edit <change> lets Nemo customise it further. Each template is a real, working long-poll bot (owner-notify, JSON storage). Extensible - more types can be added to BOT_TEMPLATES. + v10.17 - GOOGLE MAPS: Nemo can now find any place/store/shop and show its address, live rating + top reviews, open/closed, phone, website and a map image (/place, /find, /reviews, /map); list ranked options nearby (/near cafes in Andheri); and compute real ROAD distance + time WITH live traffic between two places plus a route-map picture (/trip A to B, also /distance /route, and 'by walking/transit/bicycling'). Reuses the SAME Phase-2 Google Cloud key (/gcloud) and the same daily safety cap - you just enable Places + Directions + Geocoding + Static Maps in the Cloud console (up to 10,000 free calls per API per month, so personal use is effectively free). Raw REST via the Maps Platform, owner-only, threaded so it never blocks. + v10.16 - HINDI PDF FIX: reports in Hindi were coming out as '?????' because the Devanagari font never loaded on the server (the runtime GitHub download 403'd) so the text got mangled to Latin. _ensure_hindi_font() is now robust and self-healing: it finds any Devanagari font already on the box, else apt-installs one itself (Nemo is root - no fragile download), and guarantees the uharfbuzz shaping engine so conjuncts/matras place correctly. make_pdf() will now NEVER hand back a '?????' PDF - if no font can be loaded it sends readable Unicode text plus the one-line server fix instead. The AI was always writing correct Hindi; only the PDF drawing step was broken. + v10.15 - GOOGLE SUPER-LAYER (2 phases). Phase 1 (free, reuses his Google login - one re-consent for wider scopes): /backup his whole brain to Drive, Sheets as a LIVE database you can open on your phone (/log <sheet>: a, b, c  ·  /gsheet <sheet>), /gdoc <title>: <body> makes a Google Doc, /gtask + /gcontact + /findcontact. Phase 2 (needs a Google Cloud API key + billing, but big free tiers + a hard daily call cap): /gcloud <key> turns on Vision (/gsee reads/labels a photo), Translate (/gtranslate hi: text), Text-to-Speech (/gsay), Gemini (/gemini), and real Google Search (/gsearch). + v10.14 - ONE-STEP SECRET REFRESH: /env <app> KEY=VALUE now, if the app is already live, rewrites its locked .env and RESTARTS it on the spot - no re-ship. So refreshing a daily API token (e.g. Dhan's 24h token) is a single paste to Nemo. + v10.13 - APP EDITOR (Nemo patches apps he deployed): Nemo can now edit a running app's code himself, not just his own - same supervised rails (pick function -> rewrite -> compile-check -> diff -> you tap Apply -> back up -> restart just that app -> /app <name> rollback if needed). Just say 'add a /dhan self-test to signalbot' or run /app signalbot edit <change>. So he can fix and extend the bots he ships, on his own. + v10.12 - APP FACTORY + SECRETS: you can now hand Nemo a program's secrets in chat with /env <name> KEY=VALUE (bot tokens, API keys) and he bakes them into a locked-down 600 .env file the service reads - so you never edit the code file. Everything else as v10.11 (SHIP a .py as a live 24/7 systemd service, /build, /apps, /app manage). + v10.11 - APP FACTORY (real hands to SHIP a program): Nemo now takes a program - one he writes, or a .py you send him in chat - and actually RUNS it on your server as a managed 24/7 systemd service. He writes the file to /root/apps/<name>, installs its pip packages, safety compile-checks it, creates the service, and starts it (you tap Ship & start to confirm). /ship <name> deploys a .py you just sent; /build <name>: <what it does> has him write the program himself then ship it; /apps lists them; /app <name> logs|restart|stop|rm manages them. Owner-only, gated by the 'deploy' capability (/caps deploy on) + /lockdown, refuses to touch system units. This closes the gap where his 'mission' team only produced a REPORT - now he can hand you a running bot. + v10.10 - SELF-EVOLVING: Nemo reviews his OWN errors, system logs and rough edges, decides what to fix/improve, and DRAFTS the code changes himself - you just approve. /evolve makes him study himself and propose the 3-6 highest-value improvements (each targeting one real function, grounded in errors he actually hit); /evolve <n> hands that exact improvement to his supervised self-editor (compile-check + diff + tap-to-Apply + backup + /rollback), and /evolve auto on runs a weekly self-review that only ever PROPOSES (never auto-applies). Core control functions stay _UNEDITABLE. Just say 'improve yourself' / 'review your errors and get better'. + v10.9 - YOUTUBE+: turn a video into a STUDY-NOTES PDF (/ytnotes or 'notes'), and summarise a WHOLE PLAYLIST into a PDF study guide (/ytplaylist or paste a playlist link) - per-video bullets + an overall overview, Hindi-capable PDF. + v10.8 YOUTUBE: robust video SUMMARY (transcript via youtube-transcript-api -> yt-dlp auto-subs with cookies -> audio+Whisper, then an easy 'explain like to a friend' summary by Claude) and DOWNLOAD (/ytdl video, /ytmp3 audio, cookie-aware, sent over Telegram if it fits else saved/Drive). Just paste a YouTube link. + v10.7 SCANNER: send a photo and Nemo turns it into a clean, cropped, straightened PDF (document scanner), or extracts all its TEXT (OCR, Hindi too), or decodes a QR - via caption 'scan'/'ocr'/'qr' or the /scandoc /ocr /qr commands. + v10.6 STRONGER HANDS for the browser agent: VISION fallback (screenshots the page and acts from what it SEES when there's no readable HTML, via clickxy), new actions (key presses, coordinate click, back, file upload, structured extract->data), and SESSION/COOKIE import (/browsercookies loads a cookies.txt so Nemo is logged in on sites like YouTube - the reliable way past login walls). + v10.5.2 LOGIN HANDS hardening: the human-in-the-loop now fills the value ROBUSTLY (finds the real email/password/OTP input even if the AI's field index is off, verifies it landed, auto-submits) and has a loop-guard that stops re-asking and explains honestly when a site (e.g. Google/YouTube) is blocking the automated login. + v10.5 SELF-DEFENSE (blue-team, THIS SERVER ONLY): tamper tripwire (fingerprints his own code/secrets/SSH-keys and alerts + optional auto-lockdown on change), intruder watch (failed-SSH by IP), exposure/open-port self-scan, ClamAV malware scan, pip-audit CVE check, and a hardening pack (chmod/fail2ban/ufw keeping SSH open). NO target field anywhere - every check runs against this host only; owner + capability gated. Ask 'scan yourself for viruses / who is attacking me / am I exposed'. + v10.4 HANDS + HUMAN-IN-THE-LOOP: the browser agent can now pause on a login/password/OTP/2FA/CAPTCHA, send you a screenshot of what it sees, WAIT for your chat reply, type it into the field and continue - so you complete logins together and Nemo stays logged in (persistent profile). New 'ask' browser action; your reply is routed to the live session and the secret value is never logged. + v10.3 DYNAMIC TOOLS UPGRADE: /toolmake now builds reusable tools that use third-party packages (declared '# requires: yt-dlp ...', auto pip-installed + reinstalled after redeploy) and reach the internet (run on host; pure-stdlib tools keep --network=none isolation) - so you get a permanent /tool musicdl <song> instead of one-shot scripts; also run_code writes self-contained scripts (inputs hardcoded, no required argv/input). + v10.2 CODE AGENT FIX: generated Python no longer gets its dunders corrupted (clean_text was stripping __ and ** so __name__/__main__ became name/main); run_code now uses the RAW code path + the premium brain + a SELF-REPAIR loop (reads its own traceback and fixes the bug, up to 2 tries). Same raw fix applied to self-upgrade and dynamic tools. + v10.1 TRACK 3 BUILDER on top of the Mastermind Core: GitHub connect + AI code-review agent (issues/PRs/CI, auto-review PRs via webhook), dynamic tool creation (Nemo writes-tests-registers his own sandboxed tools), multi-agent swarm orchestration (parallel workers -> synthesis), and observability (/metrics, /logs, ERROR alerts). + v10.0 MASTERMIND CORE (Track 0+1+6): event-driven nervous system (SQLite state, durable event queue, stdlib HTTP webhook gateway + Nemo's own /api/v1, capability layer + audit log + /lockdown kill-switch), infra control (DigitalOcean create/reboot/snapshot/destroy, git self-deploy with pre-swap compile check + boot canary, Docker sandbox exec), and an autonomy layer (goal planner plan->act->report loop, condition triggers, reflection-to-memory). All owner-gated. + v9.8.3 land-records FULL FLOW from real screenshots: auto-ACCEPTS the 'सूचनार्थ नकल' confirm() dialog (Playwright was silently cancelling it), captures the Nakal HTML document (Edharti_A4_Nakal_village.aspx) as a PDF (it is NOT a file download), and the playbook now matches the exact 10-step Apna Khata flow (district/tehsil dropdowns -> alphabet+village row -> radios -> searchable khasra box -> नकल सूचनार्थ). + v9.8.2 IFRAME-AWARE browser: govt forms (Apna Khata) load inside an <iframe> so the top page looked blank; Nemo now finds and drives the real form frame + sends a text diagnostic on failure + never clicks top-nav tabs. + v9.8.1 land-records cascade fix (waits for the ASP.NET postback so तहसील/RI/village dropdowns fill before selecting; more steps; tells you which brain drove it) + Claude PREMIUM BRAIN on tap (Boss's Anthropic API key): auto-escalates the HARD jobs - drives the browser/land-records flow, /think deep answers, and a smart backup when free brains choke - while free Nemotron/Groq still handle everyday chat so credits last. Cost-aware (Haiku default, Sonnet for browser/think, running spend in /brain). + v8.8.2 Hindi/Unicode PDFs (Noto Devanagari, was: ?????) + report emails when you ask + mission progress/recipient fixes + activity audit log + confirm-on-money + FII/DII in the trading brain + IFSC/QR/short-links + v8.7 distinct mission team/chaining/maps/translate + v8.6 vector memory/TradingView/insights + v8.5 Google + v8.4 voice/backtester + v7.9 grounded market data + v7.8 identity + v7.5 live option chain + v7.4 natural-language brain + trading.
+"""nemotron_bot.py v107.1 - PINE: PINE SCRIPT REQUESTS GO STRAIGHT TO THE PINE ENGINE, NEMO'S OWN SURVIVAL STRATEGY, CHECKED SCRIPTS, TRADINGVIEW ERRORS FIXED. + v107.0 - REACH: SEARCH WITH BACKUP ENGINES, FEEDS, TOPIC WATCH, LONG VIDEO AND AUDIO, FACT-CHECKS. + v106.0 - STEADY: UPDATES THAT ANSWER AT ONCE, CHECKS OUTSIDE THE BOT, A SAFETY NET, TRUTHFUL ALERTS. + v105.0 - WEB HANDS: NEMO WORKS ON WEBSITES WITH A HEADLESS BROWSER THAT CANNOT BE STEERED BY THE PAGE (THE MODEL THAT PICKS THE CLICKS NEVER SEES THE PAGE TEXT; A SEPARATE READER WITH NO TOOLS READS IT), TYPES ONLY THE OWNER'S WORDS, NEVER INTO PASSWORD OR OTP FIELDS, NEVER UPLOADS, OPENS ONLY THE RUN'S SITES, STOPS BEFORE ANY SUBMIT, PAY, SEND OR CONFIRM AND ASKS FOR A TAP; PRICE COMPARISON ACROSS SHOPS; FORM FILLING THAT STOPS BEFORE SUBMIT; PLAYBOOKS THAT REPLAY A JOB AND RUN AS AUTOPILOT ROUTINES (INCLUDING MONTHLY); THE OWNER'S OWN LOGIN FROM A COOKIES FILE; A SCREENSHOT RECEIPT FOR EVERY STEP. + v104.0 - AUTOPILOT: ONE PLACE FOR EVERYTHING NEMO DOES BY ITSELF (BUILT-IN JOBS, SCHEDULED ACTIONS, THE WORK QUEUE AND NEW ROUTINES MADE IN PLAIN WORDS) WITH PAUSE, RESUME, RUN NOW, RECEIPTS, WHY AND UNDO; THE RULE OF TWO; NEW ROUTINES EARN TRUST AFTER FIVE CLEAN PRACTICE RUNS; "STOP EVERYTHING"; AND PLANS OF UP TO EIGHT READ-ONLY STEPS THAT RUN ONLY AFTER THE OWNER'S GO. NOTHING HERE SENDS, BUYS, DELETES OR RUNS A COMMAND, AND THE TRADING AGENT, THE GUARDS AND THE OWNER LOCK ARE NOT TOUCHED. + v103.0 - MIND: THE MEMORY READS HINDI AND GUJARATI SCRIPT AND HINGLISH (A FACT SAID IN ONE IS FOUND BY A QUESTION IN ANOTHER), KEEPS THE OWNER'S OWN WORDS AS EVIDENCE FOR EVERY FACT, MARKS FACTS NOBODY HAS CONFIRMED FOR A LONG TIME AS POSSIBLY OUT OF DATE, ANSWERS "WHY DO YOU THINK...", "HISTORY OF MY...", "WHAT DID YOU KNOW ABOUT ME ON 5 MARCH", ASKS WHICH PERSON IS MEANT INSTEAD OF GUESSING, AND CLOSES THE TWILIO WHATSAPP/VOICE LINES TO EVERY NUMBER THE OWNER HAS NOT ALLOWED. NO ORDER, NO TRADING AGENT, NO GUARD, NO OWNER LOCK. + v102.0 - HEARTH: A LOCAL BRAIN. AN OPEN MODEL (LLAMA, QWEN, GEMMA OR ANOTHER) RUNNING ON YOUR OWN COMPUTER ANSWERS WHEN THE CLOUD BRAINS FAIL, ANSWERS "PRIVATE: ..." QUESTIONS WITHOUT ANY CLOUD AI SEEING THEM, AND CAN BE THE ONLY BRAIN IN OFFLINE MODE. IT CONNECTS BY A RELAY (THE COMPUTER ONLY MAKES OUTGOING CALLS; NOTHING TO OPEN ON THE ROUTER) OR BY A DIRECT ADDRESS. OWNER ONLY; NO ORDER, NO TRADING AGENT, NO GUARD, NO OWNER LOCK. + v101.0 - GLOBE: WORLD MARKETS AND MACRO KNOWLEDGE (17 EXCHANGES, SESSIONS AND HOLIDAYS, A WORLD CALENDAR, A LIVE WORLD BOARD, OVERNIGHT CUES FOR INDIA WITH AN OUT-OF-SAMPLE CHECK), NINE DETAILED CHARTS, SIGMA POLISH, AND THE FAMILY FIX (AN ABILITY SWITCHED ON FOR A FAMILY MEMBER NOW WORKS END TO END; FAMILY EVERYTHING GIVES THE FAMILY EVERYTHING THAT CAN SAFELY BE GIVEN). THE WORLD DESK IS READ-ONLY AND ADVISORY. + v100.0 - SIGMA: A SIGNAL DESK INSIDE NEMO: FIXED RULES FOR STOCKS AND NIFTY/BANKNIFTY, OPTION-CHAIN ANALYTICS, DEFINED-RISK OPTION STRUCTURES WITH ENTRY, STOP, EXIT, SIZE AND CHARGES, A BACKTEST WITH CHARGES, A SHORT-VOLATILITY PROXY STUDY AND A FORWARD SCOREBOARD. ADVISORY ONLY: NO ORDER, NO CHANGE TO THE TRADING AGENT, THE GUARDS OR THE OWNER LOCK. + v99.1 - ANSWER: A GENERAL TRADING QUESTION IS NO LONGER SENT TO THE PAPER-TRADING RESEARCH TOOL; WHEN THE MAIN AI GATEWAY FAILS THE OLDER BRAINS ANSWER INSTEAD OF THE REQUEST ENDING; A TRADE LAB DEAD END BECOMES AN ORDINARY ANSWER; AND "SUPPOSE YOU HAVE 20000 RUPEES FOR OPTIONS TRADING, HOW WILL YOU SURVIVE AND WHAT RETURN IN A YEAR" IS ANSWERED FROM THE PRACTICE RECORD AND A SIMULATION WITH NO AI. NO ORDER, NO CHANGE TO THE TRADING AGENT, THE GUARDS OR THE OWNER LOCK. + v99.0 - LAB: A READ-ONLY LABORATORY BESIDE THE STOCK-MARKET AGENT. IT KEEPS THE PRICE PATH OF EVERY TRADE (copying the quotes the agent already fetches), REPLAYS THE AGENT'S OWN RULE AND 11 OTHER EXIT AND ENTRY RULES OVER THOSE PATHS AFTER CHARGES (never calling a winner on too few trades), SHOWS WHY THE AGENT DID NOT TRADE, HOW FAR TRADES WENT, WHETHER THE DIRECTION CALLS WERE RIGHT, SENDS A WEEKLY AND MONTHLY REPORT, ALERTS ON A LOSING STREAK OR A DEEP DIP, AND GIVES AN ADVISORY LIVE-READINESS CHECKLIST (nothing is switched: no order, no change to the trading agent, the guards or the owner lock). + v98.0 - SCHOLAR: TELL NEMO WHAT HE IS WEAK AT AND HE RESEARCHES GITHUB AND PYPI, CHECKS THE BEST PROJECTS FOR SAFETY AND FIT WITH THIS SERVER, RECOMMENDS ONE WITH ITS LIMITS AND PUTS FORGE'S ONE-TAP APPROVAL CARD IN FRONT OF THE OWNER; AFTERWARDS HE OFFERS TO TEACH HIMSELF TO USE IT (nothing is installed without the owner's tap; no order, no change to the trading agent, the guards or the owner lock). + v97.0 - DESK: A FAMILY MEMBER (OR THE WHOLE FAMILY) CAN BE LET INTO THE TRADE DESK, VIEW ONLY: THE OPEN SCOUT IDEAS WITHOUT THE OWNER'S CAPITAL OR SIZING, A FRESH SCAN WITH SMALL DAILY LIMITS, HOW PAST IDEAS TURNED OUT AND THE PRACTICE AGENT'S VIRTUAL TRADES; REAL POSITIONS, MONEY, ORDERS, LIVE-MODE TRADES AND THE OWNER'S SETTINGS STAY PRIVATE AND NOTHING CAN BE CHANGED (no order, no change to the trading agent, the guards, Circle's locks or the owner lock). + v96.0 - LEDGER: THE FULL RECORD OF WHAT THE STOCK-MARKET AGENT HAS TRADED (every closed trade kept, results before and after estimated charges, worst dip, how far to trust it, day by day, one trade in full with its reason, CSV and a growth chart) AND A PLAIN-WORDS EXPLANATION OF HOW IT DECIDES (read-only: it never changes what the agent does, the trading guards or the owner lock; no order is placed). + v95.0 - DOORS + CARE + OFFICE: THE WEBSITE GETS TELEGRAM LOGIN, FAILED-ATTEMPT LIMITS AND SAFE HEADERS; "CARE" READS THE SERVER AND CLEANS NEMO'S OWN LEFTOVERS AND OLDER FAILURE MESSAGES GAIN A FIX-IT LINE; GSTIN/PAN CHECKS ON INVOICE DRAFTS AND A SPACED-REPETITION STUDY HELPER (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v94.0 - CLEAR + SCOUT INTEL + STUDIO PLUS: EVERY MARKET REPLY AND DATA DUMP IN PLAIN WORDS, NSE RESULTS/BAN/FLOW CHECKS AND A VOLATILITY FORECAST FOR SCOUT, AI UPSCALING, BACKGROUND REMOVAL AND CHARTS FOR PICTURES (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v93.2 - SCOUT: TRADE IDEAS FOR STOCKS AND NIFTY/BANKNIFTY OPTIONS FROM NEWS AND NEMO'S MARKET TOOLS, WITH THE WORKINGS SHOWN, THE SIZE AT THE OWNER'S RISK LIMIT AND AN HONEST TRACK RECORD (advisory only: no order, no change to the trading agent, the guards or the owner lock). + v92.0 - WIRE: THE INSTALLED LIBRARIES BECOME CHAT COMMANDS, RUN SAFELY (tables from a PDF, text in a picture, clean article text, indicators on daily candles, a risk report of the journal, NSE history, local voice fallback, extra checks next to the update pre-flight; one heavy job at a time and only when memory is free; MCP servers stop together with Nemo). + v91.5 - FORGE: NEMO CAN USE GITHUB AND INSTALL WHAT HE NEEDS (search and inspect GitHub, a static scan of any repo, PyPI risk checks, hash-pinned wheel-only installs into isolated environments or additively into his own Python, owner approval cards, health checks with automatic rollback, an install ledger, upgrade from the owner's own GitHub repo through the existing update gate). + v90.2 - STUDIO: MORE IMAGE ENGINES AND TOOLS, EXACT DESIGN AND CHARTS, REPORTS WHOSE NUMBERS ARE CHECKED (verified image chain with nine engines, Pillow tools, posters/cards/logos with exact text, charts from your numbers, a numbers audit for researched reports, data reports from your own files). + v89.0 - CIRCLE: WHO ELSE MAY USE NEMO AND WHAT THEY MAY DO (one gate in front of every message, button and inline query that is not from the owner; default deny; abilities switched per person and role from a menu or in plain words; first-contact cards; limits; strangers on/off; a private read-only free/busy view for family). + v88.0 - ARGUS: NEMO CAN SEE (read-only eyes for mail, calendar, Drive, tasks, reminders, watchers, what Nemo did and when, server and errors, devices, positions; a live map of its own abilities; one "see" tool for conversation; a flight recorder; an inbox watch; exact reasons when something is not connected). + v87.0 - RELAY: MORE VIDEO SOURCES (yt-dlp with six client profiles, automatic yt-dlp update, Node/Deno runtime, your proxy; then pytubefix, YouTube.js, Piped and Invidious mirrors, Cobalt) in ONE verified, time-boxed chain with a per-source report + DRIVE LINKS YOU CAN OPEN (anyone with the link / one e-mail / private) + natural-language controls (download sources, test youtube download, set up download sources, share my last download). + v86.0 - CANDOR: NO SENSITIVE LOGGING (a rejected value is never stored; logs are masked) + COMPLETE FORGETTING (every recall store, rewritten copies, re-learning blocked, queued jobs cancelled, backup limits stated) + SAFER SELF-DEVELOPMENT (the _n79_feature hook is always offered, relevant bounded shortlist, vague "upgrade yourself ..." asks what you want before any AI call, failures name their stage) + RESEARCH ROUTING (current-information questions are researched, failure and thin evidence are stated) + ONE SHARED DEADLINE (planning, tools, answer, review and fallback; bounded search and background work) + HONEST CHECKS (completed / issues / skipped / failed). + v85.0 - STEWARD: DECISION INBOX (mail/calendar/open loops/showroom -> ranked, grounded proposals as approve/edit/skip cards; nothing runs without a tap; learns from your decisions) + VERIFIED RESEARCH (replans, reads full pages, keeps a claim only if its quote is in the page and its numbers are in the quote) + SANDBOX-TESTED UPDATES (candidate is imported and regression-tested in a network-less sandbox before Apply) + MCP PERMISSION TIERS (read runs, write needs a tap, dangerous blocked) + DOCUMENT INTELLIGENCE (page-cited answers, clause flags, version compare, tables) + SHOWROOM COPILOT (leads, dues, stock, GST invoice drafts) + PAGE WATCHERS (price/stock/keyword/change alerts). + v84.0 - ATLAS: FUTURES DESK (expiry calendar with holiday roll-back, cost-of-carry fair value/basis, roll cost, position sizing, pre-trade check, edge/Kelly/streak maths, owner-reported trade journal + stats, opt-in expiry alerts; advisory only, no orders) + SPEED (zero-model answers for pure arithmetic/date questions, router bypass for plain chat, parallel tool rounds, typing keep-alive, per-stage timings, p50/p95 in /cortex83) + weekday/date audit. + v83.0 - CORTEX: memory bridge (relevant stored facts + safe auto-learning from the owner's own messages, with /memory83 /forget83 controls), grounded IST date/time + exact date maths, bounded read-only tool loop for chat (search/recall/calculate/date, no tool can act), deterministic arithmetic audit + quote-verified critique, rolling conversation summaries, router fast-path for small talk, /why83 transparency, fix for undefined _n60_j in the media failure path. Additive layer over v82; any Cortex failure falls back to the v80 chat path. + v45.0 - YOUTUBE PER OFFICIAL 2026 GUIDE (--js-runtimes deno auto-installed, android_vr-first ladder needing no PO token/cookies, cookies only for tv/mweb, rotation detection, /ytfix) + MEDIA LIBRARY (/library instant resend, Drive) + v44.x RELIABILITY DOCTOR + v43.x YOUTUBE UNBLOCK + RESEARCH DIGEST + v42.0 MEDIA ENGINE + FAMILY MODE + v40.0 COMMAND CENTER + LEARN MODE + v39.0 FAST CORE + v38.0 ATTENTION + v37.0 PHOTO MEMORY + VOICE + v36.x DAY CARD + SELF-AUDIT + v35.0 UNIFIED MIND + v13.35 - PROVIDER DOCTOR + COMPUTER-USE 5.0 BATCH 3: adds diagnostic Groq/Gemini model discovery, non-destructive email/network doctor, browser computer-use sessions with DOM/accessibility/screenshot state, Guardian-protected external-page analysis, action verification and session telemetry. + v13.30 - KNOWLEDGE LAKE 2.0 + HYBRID SEMANTIC RAG + LEARNING CORE 2.0: adds local hybrid retrieval, workflow episode learning and automatic local grounding while retaining v13.29 evaluation/observability. + v13.29 - EVALUATION LAB 2.0 + OBSERVABILITY/FLIGHT RECORDER 2.0: adds request-level tracing, durable request metrics, tool/task correlation for reports/browser/media, percentile latency and failure dashboards, candidate-vs-current regression scoring, critical-function and credential-line integrity checks, evaluation history, and fail-closed deploy recommendations. Existing v13.28 NEMO PRIME FOUNDATION remains. + v13.28 - NEMO PRIME FOUNDATION: Unified Task OS, Central Policy Engine, Flight Recorder, Evaluation Lab, Knowledge Lake, Strategy Learning 2.0, Device Agent generator, Specialist Agent Governor, and Trade State Reconciliation 2.0. Existing v13.27 Publisher Godmode and all prior safety rails remain. + v13.27 - PUBLISHER GODMODE 5.0 / LAYOUT QA: rebuilds the professional artifact renderer around measured text layout instead of fixed-height guesses; filters fake KPI tiles and source/evidence metadata; dynamically wraps risk tables, scenario cards, executive cards and source cards; fixes appendix stripping with or without colons; adds Unicode font support when available; prevents heading/header collisions; strengthens publication QA for leaked metadata, clipping-risk patterns and malformed key-number panels; and keeps the v13.26 evidence/materiality pipeline intact. + v13.26 - CREATION ENGINE / PUBLISHER GODMODE 4.0: adds professional information architecture, materiality-first analysis, improved source authority ontology, cited-evidence grading, compact clickable source appendix, executive snapshot cards, key-number tiles, scenario dashboard, risk heatmap-style matrix, typography/mojibake sanitation, deterministic artifact integrity, and optional PDF visual QA. Analytical reports now fail closed when research/evidence/publication quality is weak. Existing v13.25 research Godmode, v13.24 renderer fixes and v13.23 Learning Core remain. + v13.25 - GODMODE RESEARCH + REPORT INTELLIGENCE 3.0: adds five coordinated upgrades: adaptive multi-query text+news research with retries, source-authority scoring and domain diversity, multi-brain analyst→verifier→editor synthesis, evidence/claim-quality gates that remove unsupported current claims, and a research audit manifest + professional evidence score on every report. /godreport forces the full pipeline; ordinary non-code reports use it automatically. Existing v13.24.2 renderer hotfix and v13.23 Learning Core remain. + v13.24.2 - PROFESSIONAL REPORT STUDIO 2.1 PDF RENDERER HOTFIX: upgrades PDF/report generation with fresh multi-query web research for time-sensitive reports, source-grounded drafting, executive summaries, risk/outlook structure, professional cover/header/footer, section hierarchy, key-takeaway callouts, source appendix, cleaner typography, and removal of random stock-art pages. Reports distinguish sourced facts from analysis and warn when fresh research is unavailable. Existing v13.23 Learning Core remains. + v13.23 - LEARNING CORE 1.0 + EXPERIENCE BRAIN: adds persistent outcome learning, model-performance scoring, experience/error fingerprints, semantic experience recall, feedback controls, lightweight anomaly learning, adaptive model route reordering, training-data export, and Cockpit learning telemetry. Learns from successful/failed AI calls and explicit owner feedback while redacting sensitive-looking text; never grants new money/security authority. Existing v13.22 Offline Mind/Speed/Systematic UI, Device Grid, Cockpit, Mind Core, Cyber Hands, trading rails and secrets are preserved. + v13.22 - OFFLINE MIND + SPEED ROUTER + SYSTEMATIC RESPONSE UI: adds an offline-first knowledge layer (built-in durable reference packs + existing indexed files/library/memory grounding), persistent evergreen answer cache, API-down offline fallback, instant local calculator, automatic FAST/BALANCED/QUALITY routing, reduced unnecessary multi-pass reasoning, and a Telegram-friendly response-format contract with consistent visual sections. New /offline, /speed and /format controls. Existing v13.21 Device Grid, v13.20 Cockpit, v13.19 Mind Core, Cyber Hands, trading/security rails and credentials are preserved. + v13.21 - NEMO DEVICE GRID + REMOTE HANDS 1.0: enrolled-device control plane with owner-created one-time enrollment tokens, per-device bearer secrets, heartbeat/online state, read-only system telemetry, opt-in location reporting, device revocation, audit trail, and Cockpit/API device inventory. No arbitrary-device discovery, covert tracking, credential dumping, or unauthorized remote access. + v13.20 - NEMO COCKPIT 1.0: adds a modern Telegram Mini App/PWA command-center over the existing secure web server: live system/brain/cyber/VPN/trading/task/media panels, responsive mobile-first glass UI, browser human-checkpoint status and latest screenshot, safe read-only quick actions, refreshable JSON telemetry, and an owner-only /cockpit command. When a secure HTTPS public_url is configured, Nemo automatically installs a Telegram Web App menu button that opens the cockpit inside Telegram; otherwise /cockpit gives the local/public dashboard link and /setdomain guidance. Consequential actions stay Telegram-gated; the cockpit does not bypass trading, lockdown, cyber scope, browser-auth or update confirmations. Existing v13.19 Mind Core, Browser Checkpoint 2.0, Cyber Hands, dependency isolation, secrets and trading rails remain. + v13.19 - MIND CORE 2.0 + BROWSER CHECKPOINT 2.0: adds a final-answer compiler that blocks scratchpad/thinking-aloud leakage, strips malformed provider tokens such as <unk>, detects repetition/non-answers, selectively re-verifies calculation/bill/image answers, and rewrites poor drafts before delivery; adds speech-specific sanitization so garbage tokens never become voice audio. Browser human checkpoints now parse natural replies (e.g. email plus “click next”) into a clean field value + action, use semantic page-state fingerprints instead of raw URL equality to detect stuck loops, and stop Google/YouTube automated-login loops early in favor of the user's authenticated session/cookie route. Passwords, OTP/2FA/recovery codes and private keys are no longer requested through Telegram browser checkpoints. Existing v13.18 Cyber Hands, v13.17 dependency isolation, trading rails, secrets, updater and all prior capabilities remain. + v13.18 - CYBER HANDS 1.0: adds an owner-only defensive security operations layer for THIS VPS and explicitly authorized/allowlisted assets: unified /cyber control center, local security audit + score, listening-port/firewall/SSH/log inspection, secret-exposure scan that never prints secret values, source-code static security checks, dependency CVE audit in an isolated tool environment, optional ClamAV scan, file-integrity baseline, continuous low-noise security monitoring, and conservative allowlisted Nmap inventory (top ports/version-light only; no exploitation/bruteforce/evasion). Autonomous agents gain READ-ONLY local cyberaudit/cyberports/cyberlogs hands. Remote scanning is never autonomous and requires an explicit --authorized scope entry. Consequential remediation remains owner-confirmed. + v13.17 - FOUNDATION HARDENING + HANDS 2.0: adds dependency protection/doctor, isolated tool virtual-environments, process control with confirmation, filesystem search/hash/tree, network diagnostics, system snapshots, and exposes these safe hands to the autonomous agent. Core trading/credentials/browser/media behavior is preserved. + v13.16 - VISION RESPONSE VALIDATION + MULTIMODAL FALLBACK: fixes the case where a screenshot successfully reached the vision model but Nemo returned only provider moderation metadata such as "User Safety: safe / Response Safety: safe" instead of analyzing the image. Vision replies are now validated for substantive visual content; safety-only/moderation-only outputs, refusal-shell metadata, empty multipart content and tiny non-answers are treated as a FAILED vision attempt and Nemo automatically tries the next multimodal route (Nano Omni -> openrouter/free) rather than delivering garbage. Image prompts explicitly request actual visual analysis rather than safety labels. ask_ai now detects and sends the real PNG/JPEG/WEBP/GIF/BMP MIME in its OpenRouter data URI (closing the remaining hard-coded JPEG path missed in v13.15). DEBUG records why a vision model was rejected. Text routing, trading, money, browser, VPN, downloader, persistence and secrets are unchanged. + v13.15 - UNIVERSAL IMAGE ATTACHMENTS: Telegram screenshots/images sent as Files/Documents now route into the same vision pipeline as compressed photos. Detects image/* MIME plus PNG/JPG/JPEG/WEBP/GIF/BMP extensions and magic bytes; preserves captions; supports scan/OCR/QR/bill/notes pending modes; and ask_ai now labels the data URI with the real image MIME instead of always claiming JPEG. No trading, money, VPN, browser, downloader, persistence, secrets, or safety behavior changed. + v13.14 - LIVE MODEL ROUTER HOTFIX: OpenRouter retired nvidia/nemotron-3-nano-30b-a3b:free on 24 Aug 2026, so Nemo no longer calls that dead slug. Text routing now uses Nemotron 3 Ultra free -> Super free -> openrouter/free for smart work, Super free -> openrouter/free for fast work, and vision uses ONLY multimodal-capable Nano Omni free -> openrouter/free (no text-only Super fallback on images). ask_ai now safely parses OpenRouter error/unexpected response bodies instead of crashing with KeyError choices, temporarily cools down unavailable/rate-limited models, de-duplicates routes, and keeps the dynamic free router as a resilience fallback. /brain reports the live route and cooldowns. No trading, secrets, browser, media, persistence or safety rails changed. + v13.12 - HONEST UPDATE LABELS (fixing two COSMETIC bugs in my own update-preview that made a perfectly good deploy look scary): when the Boss deployed v13.11, the /update preview said 'this file is v17.0' and 'CHANGES 1 (TOKEN)' - BOTH false alarms from my own code; the file was correct and booted clean as v13.11. Causes + fixes: (1) my version-reader grabbed the FIRST version-assignment string anywhere in the file, and my changelog PROSE happens to mention the 17.0 pattern when describing a ChatGPT file - so it read its own description instead of the real constant. Now it reads only a REAL top-level VERSION assignment (start of line). (2) my credential-change check matched ANY variable whose name merely contained 'TOKEN'/'KEY' - including the harmless 'TOKEN = os.environ.get(BOT_TOKEN)' line inside the downloader-bot template - so it falsely warned of a credential change. Now it checks only the actual named secrets (TELEGRAM_TOKEN, OPENROUTER_KEY, NVIDIA_KEY, ...). Future update previews now show the true version and warn only on a REAL key change. Your keys were never touched - the proof was the bot booting clean and healthy. Additive; all existing suites pass plus a new v13.12 test. + v13.11 - CLAIM LEDGER + LIVE INTEGRITY (from the ChatGPT v24 'five upgrade' file - notable because it was finally built on OUR v13.9 base with the Security Core intact, but its five new layers all crash on first use on the same missing 'uuid' import as v15/v18/v19, and its flagship 'v20 Task Orchestrator' is FAKE: the execute function performs nothing - it stamps every step done with a canned message pointing to a /nemorun24 command that does not exist anywhere in the file. Its other layers duplicate what we already run: structured memory = the v11 knowledge graph + /recall, brain router = ask_ai's existing routing, project manager = /plan + /taskgraph + PROJECTS, observability = /nemo + self_test). The TWO ideas worth keeping, built working: (1) CLAIM LEDGER - /claims [search words] is a persistent, dated audit trail of everything Nemo has fact-checked and researched: every /verify records verified-or-corrected (with the checker's notes) and every /nemoresearch records a research entry, capped at 400, surviving restarts, searchable, also in plain language ('what have you verified', 'claim history'). So 'what has my bot told me, and was it checked?' finally has an answer. (2) LIVE INTEGRITY - /security now also compile-checks the RUNNING source and shows its sha256 fingerprint, so tampering or corruption of the deployed file is visible on demand. Additive; all suites pass plus new v13.11 tests. + v13.10 - DOWNLOADER IN THE BOT FACTORY (Nemo creates the whole bot himself - no file to send): the Boss asked why Nemo can't just CREATE a downloader bot when given a token. He always could create bots (/newbot factory + /env for secrets) - his library just had no downloader type. Now it does: a verified 'ytdl' template (the corrected version of the ChatGPT blueprint, which as written would not run - missing asyncio import, wrong download() return handling, an undefined variable, a zip step that ignored Telegram's ~50MB cap). Create it entirely in chat: /newbot ytdl mydl (or just say 'make me a downloader bot') -> tap Ship -> /env mydl BOT_TOKEN=<fresh @BotFather token> OWNER_ID=<your id> -> the bot is LIVE. The generated bot: downloads a YouTube video or whole playlist (mp4, or mp3 with 'audio'), sends every file under Telegram's cap straight to chat, keeps bigger ones on the server with the path reported, caps items per playlist (MAX_VIDEOS), safe ASCII filenames, owner-locked via OWNER_ID, token ONLY from its locked env - never in code. Same supervised ship rails as every factory bot (compile-check, auto pip-install of requests+yt-dlp, tap-to-start, /app <name> logs|restart|stop|rm). Additive; all suites pass plus new v13.10 tests. + v13.9 - QUANT LENSES (the genuinely-new, working parts of the ChatGPT v19 quant file, rebuilt on our base - READ-ONLY, never places an order): the v19 code was real quant work but sat on the old base and crashed its event log on the same missing 'uuid' import; I kept the good math, dropped the crash and the bits we already have (its plain signal/option dumps duplicate /godmode and /optionchain). Three lenses we DIDN'T have, now added: (1) /regime <symbol> - classifies the market regime (TREND_UP/DOWN, EXPANSION, RANGE, LOW_VOL_RANGE, TRANSITION) from ADX + EMAs + ATR-ratio + slope, with a confidence. (2) /walkforward <symbol> - proper OUT-OF-SAMPLE validation: it picks the best EMA pair on a training window then scores it on the next, unseen window, and reports the average out-of-sample hit-rate (a robustness check, not a guarantee). (3) /quantbacktest <symbol> - an EMA-crossover backtest with profit factor + max-drawdown AND a Monte-Carlo stress test (bootstrapped terminal + drawdown percentiles). Plus /quant <symbol> - a consolidated regime + multi-factor signal + transparent setup-quality grade (explicitly 'NOT win probability'). All owner-only, read-only, honestly labelled; they use Nemo's real market data (get_history) and place no orders. Additive; all existing suites pass plus new v13.9 tests. + v13.8 - MEMORY 3.0 (granular forget) + NO INVENTED COMMANDS: (1) MEMORY - on inspection Nemo's memory was already strong (semantic /recall, durable /remember, the /memory 'second brain', /aboutme and the knowledge graph, all persisted and fed into his answers), so the genuinely missing piece was CONTROL: /forget <thing> now removes the SPECIFIC memories that match - from both the durable facts and the semantic vector store - and tells you exactly what it dropped, instead of the all-or-nothing /forgetme. /remember also dedups and keeps more durable facts (20 -> 60). (2) NO INVENTED COMMANDS - when you sent a command Nemo didn't recognise, his brain used to make up plausible-but-fake command names (exactly what happened with /nemo before it was deployed). Now an unrecognised /command gets a deterministic, HONEST reply listing only REAL commands and never reaches the brain. Additive; all existing suites pass plus new v13.8 tests. + v13.7 - TRADE STATE SURVIVES RESTART (closing the money-safety gap I flagged in v13.2 and deferred): the autonomous trader kept its open position only in memory, so a restart or update mid-trade FORGOT it - and for a plain (non-bracket) position that meant its stop-loss and target were no longer being managed, leaving real money exposed. Now the trader's live state (open position, today's trade count, running P&L, the day, and the daily-loss halt flag) is PERSISTED to memory and RESTORED on boot, so after any restart Nemo picks the position straight back up and keeps managing its stop / target / square-off. On boot, if a position is open, Nemo messages you that it resumed managing it. This pairs with v13.6 self-healing updates: a restart mid-trade no longer abandons your money. (Bracket positions were already protected on-exchange; this closes the gap for plain positions.) Owner-only, additive; all existing suites pass plus new v13.7 tests. + v13.6 - SELF-HEALING UPDATES (took the one real new idea from the ChatGPT v17 file - auto-recovery from a bad update - and built it safely; skipped the rest, which forced its VERSION to 17.0 and added a downgrade-block that would have LOCKED you out of updating to our clean files, and re-did the workflows our v13.4 already has): every /update is now TRANSACTIONAL. When you Apply an update, Nemo records a journal (a hash of the new build, plus a hash + path of the verified backup). On restart it checks that journal FIRST: a healthy boot (Telegram auth succeeds) is confirmed and stands recovery down - but if the new build keeps failing to reach a healthy boot (3 tries within 30 minutes) Nemo automatically RESTORES the previous version (only if that backup still compiles and its hash matches the recorded original) and restarts. So if you ever deploy a build that won't start, it heals itself back to the last working version without you touching the server. /updatecheck now also shows whether the last update auto-rolled-back or booted cleanly. HONEST LIMITS: this catches builds that start but then crash/exit during startup; a crash BEFORE main() even runs (e.g. an import-time error) can't be caught from inside the process - though compile-check already blocks the syntax errors behind most of those. Conservative by design (3 failures, 30-min window, hash+compile-verified backup) so a healthy long-running bot is never rolled back. The normal apply/backup/rollback path and everything else are unchanged; all existing suites pass plus new v13.6 tests. + v13.5 - SAFER UPDATES (took the one good idea from the ChatGPT v16 'updatefix' file - credential-preservation on update - and built it safely on our base; skipped the rest, which sat on the old v12.06 base, carried the broken v15 layer, and hard-overrode VERSION to '16.0' while requiring its own marker that would have BLOCKED updating to our clean files): (1) /updatecheck - preflight a new nemotron_bot.py you've attached WITHOUT applying it: shows its version, size, whether it looks like Nemo, the compile-check result, and - the key part - whether it would CHANGE or DROP any of your credential/config lines (compared by a HASH of each key line; values are NEVER shown). (2) /update now shows that same credential warning right in the Apply prompt, so you can't accidentally deploy a file that wipes your API keys without being told. It WARNS, it does not block - because a legitimate update (like moving keys into the secrets file) also changes those lines and you stay in control. (3) /version shows the running version cleanly. The critical apply/backup/rollback path is unchanged. Owner-only, additive; all existing suites pass plus new v13.5 tests. + v13.4 - ORCHESTRATION (added the genuinely-new capability from the ChatGPT v15 file, built CORRECTLY on our safe v13 base - the v15 code itself was BROKEN: I ran it and it crashed with 'uuid is not defined', plus a _n15_STATE typo and a call to a function that never existed, so its workflow / research / decision commands all failed at runtime). What's new and WORKING here: (1) /nemoworkflow <numbered plan> - runs a multi-step plan ONE checkpointed step at a time, feeding each step's result into the next and saving progress after every step, so it survives a restart; /nemoworkflows lists them and /nemoresume <id> continues from where one stopped. (2) /nemoresearch <question> - a research pass that separates FACTS / INFERENCES / UNKNOWN and refuses to fabricate sources. The REST of v15's command surface is wired to Nemo's EXISTING, more mature systems instead of broken parallel copies: /nemodecision -> the real decision journal (with expected-vs-actual tracking), /nemoevents -> the activity log, /nemoagents -> AGENTSTAT, /nemoarchitecture -> /abilities, /nemo3 -> the /nemo control center. Nothing duplicated, nothing dragged back onto the old insecure base. Owner-only, purely additive; all existing suites pass plus new v13.4 tests. + v13.3 - CONTROL CENTER + FACT-CHECK (folded in the two genuinely-good ideas from the ChatGPT v14 file, onto this safer v13 base - without its duplication or its security rollback): (1) /nemo CONTROL CENTER - one screen showing version, uptime, brains, security posture (are any keys still in source?), money-confirm + lockdown + auto-trade state, work-queue depth and recent activity - built on Nemo's REAL subsystems (secrets_status, MONEYCFG, mm_locked, JOBS/WORK, ACTLOG), not a parallel copy. (2) /verify - or 'double-check that' / 'any hallucinations?' - an explicit fact-check pass: it reviews an answer (the text you give, or my LAST answer) for hallucinations, unsupported claims, wrong numbers/names/dates, missing caveats and contradictions, and if it finds problems it rewrites the answer WITHOUT inventing new facts. Both work by command AND in plain language, owner-only, purely additive. Deliberately NOT copied from the ChatGPT file: its duplicate job-runner (Nemo already has the /work engine), its status-dump 'quant report', and - the important part - that file was built on the OLD v12.06 base, so it still carried the exposed API keys, the deadlock-prone lock, money-confirm OFF, and the lockdown/phantom-exit gaps that v13.0-13.2 fixed here. Behaviour-frozen elsewhere; all existing suites pass plus new v13.3 tests. + v13.2 - TRADING SAFETY (Phase 2 - I traced the real-money route end-to-end, then closed the gaps I found; nothing removed): GOOD NEWS first - the LLM is NOT the final authority on your money. The AI only PROPOSES a direction + a confidence score; ALL risk parameters (which instruments are allowed, position size, stop-loss, target, max-trades/day, daily-loss auto-halt, trading-hours window, buy-only, and shadow-vs-live) are enforced in deterministic code around it, and live autonomous trading is OFF by default. THREE real gaps found + fixed: (1) LOCKDOWN DIDN'T STOP EVERYTHING - the master /lockdown kill-switch blocked manual bracket/cover orders but NOT the autonomous trader and NOT a plain /order. Now lockdown blocks ALL new live entries (manual /order + the auto-agent); open positions still auto-manage and exit, so nothing is stranded. (2) PHANTOM EXIT - the auto-agent's exit SELL ignored its result: if a live exit failed, the bot booked the position as CLOSED while it was still open on the exchange, leaving real money unmanaged. Now a failed live exit keeps the position, alerts you, and retries each tick. (3) plain /order now respects /lockdown like the other order types do. HONESTLY REPORTED, not yet fixed (flagged for a later phase): the auto-agent's OPEN-position state isn't persisted, so a restart mid-trade forgets a plain position (bracket positions stay exchange-protected regardless). Behaviour-frozen for everything else; all existing suites pass plus new Phase-2 tests. + v13.1 - SAFETY CORE (Phase 1 of the audited v13 rebuild - two runtime-safety hardenings, nothing removed): (1) DEADLOCK-PROOF LOCK - Nemo's single global lock is used in 40+ places and locked functions call other locked functions; a plain threading.Lock is NOT re-entrant, so one locked path calling another would freeze him hard. Switched to threading.RLock (re-entrant): identical behaviour for normal use, but the same thread can safely re-acquire, so that entire class of hang is gone. (2) REAL MONEY DEFAULTS TO CONFIRM - manual live orders (/order, /bracket, /cover) now default to a one-tap confirm before they fire, and the setting is finally PERSISTED (before, turning it on was silently forgotten on the next restart - a genuine safety hole). The autonomous trader is unaffected - it keeps its own separate risk gates. Turn the tap off with /confirmtrades off, and now that choice sticks across restarts. CORRECTION to my own Phase-0 audit: the 'six main() functions' I flagged as dead code were a FALSE ALARM - five of them are bot-factory TEMPLATE strings (the source code of the mini-bots Nemo generates), not real definitions; I verified by reading before touching, so nothing was wrongly deleted. Behaviour-frozen elsewhere; all existing test suites still pass. + v13.0 - SECURITY CORE (Phase 0 of the audited v13 rebuild - security FIRST, nothing removed): the bot's API keys (Telegram, OpenRouter, NVIDIA, Gemini) were hard-coded in this source file. Now EVERY secret resolves from an environment variable first, then /root/bot_secrets.json, then the baked-in value only as a last resort - so secrets can live OUTSIDE the code. On boot Nemo AUTO-MIGRATES any still-baked key into the 600-permission secrets file, so the next version can delete those lines from the source and he still starts. New: /security (owner-only) reports exactly which keys are still in the source vs externalised, where each secret loads from, and the money-guard + owner-lock state (never showing any secret value); the weekly self-test gains a 'No API keys exposed in source' check that stays red until they're moved out; save_secret now chmods the secrets file to 600. IMPORTANT ACTION FOR YOU: because these keys sat in the code, treat them as LEAKED - generate new ones and put them in /root/bot_secrets.json (keys: telegram_token, openrouter_key, nvidia_key, gemini_key); v13.1 then removes them from source entirely. Behaviour-frozen: with no env var and no secrets-file entry every secret is exactly what it was, and all existing test suites pass unchanged. One safe phase at a time. + v12.06 - SELF-TEST TELLS THE TRUTH: the weekly report card was FALSE-FAILING on email. It tested email by logging into Gmail's SMTP (465) and IMAP (993) ports directly - but DigitalOcean BLOCKS those ports, so both always showed a red X even though email works perfectly over the Gmail API (HTTPS). Fixed: the drill now checks the REAL path - Gmail API reachable (profile + labels over HTTPS) first, SMTP/IMAP only as a fallback when there's no Google connection - and it runs whenever Google is connected OR an app password is set. So those two systems will now report green (as they should), and the report card reflects reality instead of scaring you with a port block. + v12.05 - RELIABILITY SWEEP (the same rigor, across his OTHER outputs): the invisible-char fix was for Pine; this applies the same 'make the outcome reliable' thinking to code and file outputs. (1) CODE OUTPUTS - /script now guards against the brain 'thinking out loud' (no more 'Let's craft:' / '... code ...' placeholder garbage), SYNTAX-CHECKS delivered Python (ast.parse, with one self-correction) so a .py actually parses, and tells you to use the attached FILE not the chat text (same copy-paste-corruption fix as Pine). (2) TEXT/CSV/MD files get the same scratchpad guard, so they contain the finished content, never the brain's notes. (3) Shared helpers (_looks_scratchpad, _clean_code) so every generator refuses to ship junk and retries. The theme: fewer 'bad results' by hardening the output paths, not adding more features. + v12.04 - THE REAL PINE BUG (invisible characters): the recurring 'Syntax error at input <name>' on code that looks perfect was NOT bad code - it was smart quotes and non-breaking spaces that sneak in when Pine is copied out of a chat message / PDF / phone into TradingView. TradingView can't parse them and throws that exact baffling error, the same on every version. Fixes: (1) _pine_sanitize forces every generated script to PURE ASCII (smart quotes -> straight, non-breaking/other unicode spaces -> normal, en/em dashes -> -, zero-width chars removed); (2) the linter now flags any non-ASCII character; (3) delivery now tells you to use the attached .pine FILE (not copy from the chat bubble), because the file is clean ASCII and the chat text can silently re-corrupt. This is the root cause behind the errors that kept coming back. + v12.03 - COMPLEX PINE: added a genuinely advanced, verified strategy to his library - 'Confluence Regime Rider' (EMA regime + ADX trend-strength + RSI momentum + higher-timeframe confirm + ATR target + ATR trailing stop + a live on-chart stats table), Pine v6 and lint-clean. It backtests automatically in TradingView's Strategy Tester (it is a strategy()), and its exact logic was verified in a Python backtest. So 'a unique pine with buy/sell/target/stop-loss that backtests' is now real, at real complexity, and part of his rotation. + v12.02 - PINE v6 + STAY-CURRENT (he moves with the times, on his own): (1) PINE v6 - TradingView's current version. His whole Pine engine now targets v6 by default: the generator prompt, the deep knowledge base and the 5 verified templates are v6 (correct bool strictness, no 'when=' on strategy.* , '1D'/'1W'/'1M' timeframes, no 'transp='), and the linter gained v6 checks (flags a leftover when=/transp=/'D' timeframe). v5 still compiles and is still accepted; /pinever 5|6 sets the target. (2) STAY-CURRENT WATCH - a weekly self-check (currency_watch) where he RESEARCHES what's changed in his fields (Pine version, SEBI rules, AI tooling), AUTO-applies safe settings himself (e.g. bumps his Pine target the moment a newer version ships), learns the rest into memory, and routes anything code-level to the supervised /selfgrow rail for your one-tap approval - so he keeps himself up to date automatically without ever rewriting himself unsupervised. /current runs it now, /current on|off, /pinever sets the version. This is the honest form of 'update automatically in all fields': safe things on his own, risky code changes proposed for approval. + v12.01 - CONTINUUM FIX (the flood + the garbage code file): the v12.0 work engine ran, but two bugs showed up. (1) DUPLICATE FLOOD - the agent re-called fire-and-forget tools (pdf/docx/chart/web) over and over, because make_pdf returns 'building...' immediately, so the agent never saw a finished file and kept re-making it (7+ identical PDFs per job, the same web search 5x). FIXED: the agent now makes each deliverable EXACTLY ONCE and skips any identical tool+arg repeat, and bails to the report if it gets stuck re-proposing the same step. (2) GARBAGE CODE FILE - '5 best Nifty option strategies' was mis-detected as a CODING request (the word 'strategies'), so it emitted a nonsense nemo_code_out.txt full of the brain's scratchpad instead of a clean report. FIXED: a strict code detector - a trading strategy/option/report/'best'/'top N' request is a REPORT, never code; only real programming asks (python/code/function/sql/pine...) make a code file. So a research job now produces ONE clean PDF, no junk. + v12.0 - CONTINUUM (the real deep upgrade: he KEEPS WORKING, and understands deeper): the honest gap all along was that Nemo ANSWERS, then stops - he never keeps grinding a task on his own. v12.0 fixes that at the core. (1) CONTINUOUS WORK ENGINE - /work <task> (or 'keep working on X', 'add to your work list') queues a job; a background worker wired into his scheduler picks up the next pending job, runs it to completion through his plan->act->verify agent, reports the result, then moves to the NEXT job - one after another, on its own, and the queue is PERSISTED so it survives restarts. Pile up ten jobs and he'll grind through them while you sleep. /jobs shows the queue and status, /stopwork pauses. (2) DEEPER UNDERSTANDING - the THINK loop's comprehension/clarify step now runs on the PREMIUM brain (not the fast free one), so he judges what you actually mean far better before acting; the agent's self-check already verifies on the premium brain. (3) FULL PICTURE - /abilities (or 'what can you do') lays out his entire capability set in one organized map, and everything is reachable in plain language. This is not a risky rewrite - the proven 34-test-suite core is intact; CONTINUUM is the capstone layer that turns a bot that replies into one that works. + v11.31 - PINE MASTER (deep, advanced, CREATIVE - not the same EMA crossover every time): the last fix made Pine error-free but repetitive - every request came back as an EMA crossover, because the one verified template WAS an EMA crossover and it anchored the brain. Now: (1) a DEEP Pine v5 knowledge base rides in the prompt (full ta.*/math.* catalog, request.security multi-timeframe, sessions/time for NIFTY intraday, strategy risk/trailing exits, drawing objects - tables/labels/lines/boxes, plot styles, dynamic alerts, anti-repaint and confluence best-practice) so the code is genuinely advanced; (2) a LIBRARY of FIVE hand-verified, lint-clean advanced strategies (EMA crossover, Supertrend trail, Opening-Range-Breakout for NIFTY, VWAP mean-reversion, RSI + higher-timeframe filter) plus a menu of 14 archetypes (Bollinger squeeze, MACD regime, Donchian, Ichimoku, multi-factor confluence...); (3) ROTATION - a generic 'make me a pine script' now round-robins through the archetypes so no two come out the same, while a NAMED method (supertrend/vwap/orb/rsi/macd...) is honoured; (4) the brain is pushed to be creative, combine 2-3 confluence factors and add a pro touch (stats table / trailing stop / dynamic alerts), and mirror a MATCHING verified reference's syntax - not the EMA one. Still linted + auto-repaired, with the matching verified template as the guaranteed-clean fallback. Storage is no constraint - the knowledge and template library are baked in. + v11.30 - DARK SIDE (edge + ruthless-but-LEGAL power, on the Boss's side): four things. (1) DARK MODE - /dark on (or 'go dark' / 'be brutal') flips his TONE to blunt, sharp and a little savage, built to put you ahead - no hand-holding, no hedging - while he still NEVER lies, fabricates, helps anything harmful/illegal, or targets people. /dark off restores the normal voice. Persisted. (2) RED TEAM - /redteam <plan/idea/trade/text> (or 'attack this', 'find every weakness') attacks it like your smartest enemy and exposes every hole, ending with BIGGEST RISK + FIX FIRST. (3) COMPETITIVE INTEL - /intel <competitor> (or 'dig up on X') builds a hardball brief from PUBLIC sources: what they offer, their weaknesses/complaints, and where to hit them to win. (4) NEGOTIATION + SCAM DEFENSE - /negotiate <situation> gives a hardball (ethical) play with leverage, BATNA, anchors, tactics and exact phrases; /scamcheck <message> flags manipulation tactics + a scam risk rating when someone runs dark tactics on YOU. Deliberately NOT built, and I told the Boss why: malware, hacking others, defeating security/CAPTCHA, fraud/fake docs, surveilling people, spam/fake-account armies, market manipulation, or removing his safety rails - all of it would make HIM the traceable, liable party on his own server, and the 'who sells that' path is scams and stings. This is the dark arts used ethically, for his side. + v11.29 - ERROR-FREE PINE SCRIPT (the real reason it kept failing): unlike Python, Pine can't be compiled on the server, so a small free brain's syntax errors sailed straight through. Now Pine gets a proper pipeline: (1) it's written by the PREMIUM brain (free nano brains are poor at niche languages) using a strict Pine-v5 system prompt; (2) a rule-based LINTER (pine_lint) checks the errors that actually break TradingView - missing //@version=5, more than one declaration, study() vs indicator(), the 'strategy function used in indicator' error, bare sma()/rsi()/atr()/input()/security() that must be ta.*/math.*/request.security()/input.*, unbalanced brackets, and plot/alert stuck inside an if-block; (3) a REPAIR LOOP feeds those errors back and fixes them, up to 3 passes; (4) if it still isn't clean, it falls back to a HAND-VERIFIED template that compiles zero-error (EMA crossover + volume filter + ATR take-profit + % stop-loss, buy/sell markers, alerts). Every 'pine script / tradingview' request (and /pine) now routes here, delivers a .pine file with an honest 'passed my checks' status, and can email it. So a pine-script ask returns code that actually compiles - not a broken brain dump. + v11.28 - CREATE+EMAIL ACTUALLY HAPPENS (the 'it talks about emailing instead of doing it' fix): the root cause was that 'generate a pine script and email it to X' matched NO deterministic route, so it fell to the chat brain - which tried to call a tool by PRINTING <function=...> as text; that leak wasn't recognised, so you got the generic 'tell me the exact thing you want' (and elsewhere, 'here's how to email it / I can send if you want' - talking, not doing). Two fixes: (1) a deterministic CREATE+EMAIL route - 'generate/make/write/build <X> ... and email/mail (it) to <address or my mail>' now ALWAYS builds the thing AND sends it (Word if you said 'word/document', else a PDF - which now contains real code for a pine-script/strategy request, plus the raw .pine file), never touching the chat brain. (2) the tool-leak guard now also HONOURS a leaked email/docx/xlsx/chart/script/code call by actually running it, instead of showing the fallback. Net effect: when you say 'do X and email it', X gets made and the email gets sent - consistently, regardless of which brain is on duty, because the ACTION is deterministic code now, not a brain's guess. + v11.27 - THINK (my way of working, in him): the operating loop that makes an assistant actually effective, not just full of features. /do <task> (or /handle, or 'handle this properly / thoroughly / the way you would') runs Nemo through the same method I use on every real job: UNDERSTAND (restate it, and resolve 'it/that/the file' from the recent chat so a follow-up like 'give me the pdf here' isn't misread) -> CLARIFY (only if ONE essential detail is genuinely missing, ask a single question and resume when you reply - never nitpick) -> GATHER (pull what he already knows: durable memory + your indexed files + a quick web look-up, the way I read before I edit) -> PLAN -> EXECUTE -> VERIFY (his agent self-checks against the goal before finishing) -> honest report. It reuses his autonomous agent for the execute+verify core; the new part is understanding and grounding the task BEFORE acting. A new 'handle' intent + a pending-question resume make it feel like a real back-and-forth. Honest limit: this gives him my METHOD, which makes even a smaller brain far more effective - but his raw reasoning ceiling is still his model's, so it's my way of working in mini form, not a clone. Purely additive; every existing command and the fast one-shot paths are untouched; rails intact. + v11.26 - EMAIL, FOR REAL (fixes the '/email test still fails though Google is connected' trap): the root cause was that Google was linked BEFORE the gmail.send permission existed, so the token can read Gmail but can't SEND - and two things hid this: (a) /email test only pinged the Gmail profile / fell back to the SMTP error (which ALWAYS fails on DigitalOcean), so it never proved SEND and blamed the wrong thing; and (b) /google, once connected, was a DEAD END - it only offered 'relink with client_id/secret' and never a way to re-approve the new permissions. Fixes: (1) /email test now does a REAL test send to your own address via the Gmail API and reports the TRUTH - '✅ works, check your inbox', or, if the token lacks send permission, '⚠️ connected but without Gmail SEND permission - re-authorize in one tap', never again the misleading SMTP 'check your password'. (2) /google, when already linked, now hands you a one-tap RE-AUTHORIZE link built from your ALREADY-SAVED Client ID (open -> Allow -> /gauth <code>) - no need to re-enter anything - so you can grant Gmail send in ~20 seconds. So the fix for you: send this update, then run /google, tap the link, Allow, and /gauth <code>. Email then works over HTTPS (port 443), unaffected by the SMTP block. Purely additive; rails intact. + v11.25 - FIX (the three real problems: email, understanding, and the final result): (1) EMAIL that actually sends - a PDF you ask to be emailed now goes out over the Gmail API (HTTPS/443, which works even though DigitalOcean blocks SMTP), is ATTEMPTED whether or not an SMTP app-password is set, and on failure tells you the REAL reason + 'run /google once to re-grant send permission' instead of the misleading 'check the app password'. (The most likely cause of your failure: your Google sign-in predates the gmail.send scope - one /google re-consent fixes it.) (2) UNDERSTANDING what you asked - the PDF topic is now cleaned properly: 'GENERATE A POWERFUL PINE SCRIPT NEW IN PDF AND EMAIL X' no longer becomes a document titled 'A Powerful Pine Script New In And' (the 'in pdf / and email X / address' tail is stripped cleanly), and 'give me the pdf file here' is understood as a FOLLOW-UP - I resend the last file, or turn my last answer into a PDF - instead of writing a bogus report titled 'Me The File Here'. (3) The FINAL RESULT matches the request - make_pdf no longer forces every PDF into a beginner 'course'. A code/script/strategy/indicator request (e.g. a Pine script) now produces the ACTUAL working code (TradingView Pine v5 for pine) with Overview / CODE / HOW IT WORKS / HOW TO USE, AND the raw .pine (or .txt) file is delivered too; a report request gets a real structured report; only a learn/teach/course request gets a course. Purely additive; rails intact. + v11.24 - MAKER (mini-me abilities: he plans, codes, charts, and hands you real files): the things you said he couldn't do like I can - now his, in mini form. (1) REAL DOCUMENTS - he builds and delivers actual files, not just chat text: a Word .docx ('make me a word doc about X', /doc), an Excel .xlsx spreadsheet with real headers + numeric cells ('put my expenses in a spreadsheet', /excel), and plain .txt / .md / .csv files (/txt). (Illustrated PDFs and PPT decks were already there.) (2) VISUALIZATIONS - /chart (or 'make a bar/line/pie chart of ...') turns data or a described dataset into a real matplotlib chart image and sends it. (3) CODE AS A FILE - /script (or 'write me a python script file') writes a program in the right language and delivers it as a downloadable code file (say 'run it' to execute); the existing /code still WRITES-AND-RUNS and returns the result. (4) VISIBLE PLANNING - /plan (or 'make a plan for ...' / 'break this down') turns a goal into a clear numbered step plan and shows it, then 'do it' hands it to his plan->act->verify agent. All reachable in plain language (fast-paths + the AI intent-router) AND given to the autonomous agent as new tools (docx/xlsx/chart/textfile), so mid-task he can produce a sheet or chart himself. Purely additive; rails intact. + v11.23 - CURIOSITY (he fills the gaps himself + learns from the world): you gave him the internet; now he USES it on his own. When a question needs current or factual knowledge he may not hold (latest/price/news/'who is <name>'/'when is <event>'/a named thing), he quietly looks it up on the web FIRST, grounds his answer in what he found, and then DISTILS 1-2 durable facts into his permanent memory - so next time he already knows it (compounding knowledge, surfaced automatically by mem_recall). No 'please search' needed; he just does it. His autonomous agent gets the same instinct: a RESOURCEFULNESS rule so it researches a missing detail itself (web/fetch/recall) instead of stalling to ask you. And a curiosity 'soul' line in his persona: naturally curious, resourceful, never fabricates. Controls: /curiosity on|off (default ON, persisted), /learned [word] shows exactly what he's taught himself and when. Conservative by design - it does NOT web-search greetings, code, math or timeless 'explain X' questions (no needless latency), and it's a silent no-op if the web is unreachable. Purely additive; rails intact (still never fabricates, owner-only, money/destructive/self-mod still need a tap). + v11.22 - ANY-SITE VIDEO + YOUR PROXY: (1) UNIVERSAL VIDEO DOWNLOAD - /video <url> (aliases /vdl /dlvideo) or just 'download the reel/clip/video from <url>' pulls a video (or 'audio'/'mp3' for just the sound) from ANY of the ~1800 sites yt-dlp supports - Instagram, X/Twitter, TikTok, Facebook, Reddit, Vimeo, Dailymotion, Twitch, news video, most embeds - and sends it over Telegram if it fits (50MB) else saves it on the server (+ your Drive). For sites where you must be logged in, it uses YOUR OWN cookies (export cookies.txt, send /browsercookies) - it uses your session, it does not defeat the login. DRM-locked paid streaming (Netflix, Prime, Hotstar, Disney+, Spotify...) is refused honestly: those streams are encrypted and can't be pulled. YouTube keeps its richer path (summary/notes/playlist). (2) YOUR OWN PROXY / VPN - /proxy set http://user:pass@host:port (or socks5://host:port), /proxy off, /proxy to show. A proxy YOU provide (your subscription or your own box) is then applied to video downloads and web fetches, so he can reach content the server's bare datacenter IP is geo-blocked from, or route privately. This is legitimate access through YOUR endpoint - deliberately NOT a rotating proxy-pool to evade IP bans. Two things you asked for that I did NOT build, and why: a system that DEFEATS a site's bot-check / CAPTCHA / human-verification (that's built to circumvent a security control and is the engine of scraping-abuse, fake-account and credential-stuffing fraud - so it's off the table); and a self-standing 'access everything' ban-evasion VPN/rotator (same reason). The honest path is already here: when the browser agent meets a login/OTP/CAPTCHA it screenshots it and asks YOU to solve it, then continues on your authority (v10.4 human-in-the-loop) - a human does the human-verification. Purely additive; all rails intact. + v11.21 - TALK (no commands, just tell him): you never NEED a slash command again - say what you want in plain words (any language) and he does it. His ~300 abilities are all still there, but plain language is now the front door to ALL of them, not just some. The regex fast-paths already caught the common phrasings ('run df -h', 'read /root/x.py'); v11.21 adds the missing abilities to his AI intent-router so the phrasings the regex MISSES still reach the REAL hand instead of a generic chat reply: new understood intents terminal (run any server command), fetch (read a page's data), download (save a file onto the box), readfile / listfiles (his own files), knowledge (search your indexed documents), api (call any REST endpoint), apex (maximum-power multi-step job), and a catch-all act (ANY imperative 'do this for me' order -> his autonomous plan->act->verify agent). So 'jara dekh to server ka disk kitna bhara hai', 'pull the numbers off that page for me', 'sort out my server and mail me a summary' now DO the thing. Nothing removed, every command still works; the same rails hold inside each (owner-only, audited, money/destructive/self-mod still need a tap). Purely additive. + v11.20 - REACH (longer hands): three big new capabilities that extend what he can touch. (1) UNIVERSAL CONNECTOR - /api <METHOD> <URL> [:: json] calls ANY REST API (GET/POST/PUT/DELETE), and /api save <name> ... stores a named endpoint + auth header so 'call my <name> api' works; the autonomous agent also gets an 'api' tool, so he can reach any external service you have a key for (CRMs, sheets, webhooks, IoT, other bots...). (2) SCHEDULED ACTIONS - /every <interval> <action> and /at HH:MM <action> run ANY of his abilities on a repeat or at a set time ('/every 1h run df -h', '/at 09:15 send me the premarket brief', '/every 1d market brief') - real actions, not just reminders - so his hands work while you sleep; /schedules lists them, /unschedule <id> cancels. Persisted in the kv store (survives updates), fired from the scheduler. (3) DOWNLOAD TO SERVER - /get <url> [name] (or 'download <url> to the server') pulls any web resource onto the box (60MB cap) so he can then /read, /index or send it. All owner-only, audited to the tamper-evident chain, and destructive/system paths still refused. Purely additive. + v11.19 - APEX / GODMODE (the capstone): maximum capability + UNBREAKABLE reliability, within the rails that keep him alive. (1) UNBREAKABLE: ask_ai now has a hard answer-deadline (~40-85s) so when every free brain is jammed it STOPS cycling and replies clearly ('my brains are all busy - try again in a minute, nothing is broken') instead of leaving you on 'Thinking...' for minutes - the exact freeze that just happened can't recur. (2) ONE MIND: the autonomous agent gains a 'recall' tool that searches your knowledge base (indexed files) + durable memory, so his execution draws on everything he knows about you. (3) APEX MODE: /apex <goal> - or just say 'full power', 'use everything', 'unleash', 'go all out', 'maximum power' - runs his MAXIMUM agent: more steps (18), the directive to use EVERY tool (shell, fetch, files, code, web, recall, quote, godmode, pdf...), be exhaustive, cross-check, and VERIFY before finishing. Honest limits kept by design: max ABILITY, but money / destructive shell / system writes / self-modification still need one tap or are refused - that is what stops him bricking himself or leaking your Dhan/Google/root keys. Power that survives. + v11.18 - TOOL-CALL LEAK FIX (the '<tool_call><function=pdf>...' bug): when you asked for a PDF report to your mail, a brain PRINTED the raw function-call markup as a chat message instead of building anything. Fixed two ways: (1) a deterministic route so 'give/make/send me a (complete) report/PDF of X [to my mail]' now ALWAYS builds the PDF via make_pdf and emails it to you - it never reaches the general brain; and (2) a universal guard (_tool_leak / _strip_tags) that catches any leaked <tool_call>/<function=..>/<parameter=..> markup on EVERY channel (chat, web, PWA) - if it recognises the intended ability (pdf/image/slides/web) it actually RUNS it, otherwise it strips the markup so internal syntax is never shown to you again. + v11.17 - DEPTH: reasoning + a knowledge brain + self-running + a visible command center. (1) SMARTER: hard questions (why/how/compare/analyse/plan/decide, long or multi-part) now trigger a private step-by-step REASONING pass before he answers, then the regulator self-checks it - so answers are deeper, not just faster; and a plain 'that's wrong / you missed it' now stores a lasting LESSON (fed into future answers) and redoes it in MAX mode, no /bad needed. (2) KNOWLEDGE BRAIN over your files: /index <path> full-text-indexes your files+PDFs (SQLite FTS5), then /know <question> - or 'search my files for X' - answers across everything with citations. (3) SELF-RUNNING watchdog: every ~10 min he checks each deployed app's service and AUTO-RESTARTS any that CRASHED (failed units only, rate-limited, audited + notified). (4) VISIBLE POWER: a real /dashboard command-center on his web server - live system + server health, apps, activity, what's coming up, and a command box - so the power is something you SEE and drive, not 290 commands to remember. Purely additive. + v11.16 - SMARTER + SAFER HANDS: (1) SECURED TERMINAL - every /shell command and file write is now logged to the v11 tamper-evident audit chain + activity ledger, there's a 25-cmd/min rate guard, and /shell readonly on blocks any command that changes something (reads still work). (2) AGENT GETS THE HANDS - the autonomous /agent (/solve) can now use shell, fetch, readfile, ls and writefile, so it does real end-to-end server work ('find why nemobot crashed and fix it' -> tails the log, reads it, diagnoses, patches, restarts) with its plan->act->VERIFY loop; destructive shell + system-path writes are refused (owner must do those manually). (3) CONVERSATION MEMORY - a short-term per-chat context (recent turns + actions) is injected into his brain so follow-ups resolve ('do it again for BankNifty', 'what did you just find'), and 'email/send that to me' now emails his LAST answer. (4) CHIEF-OF-STAFF PROACTIVITY - a ~30-min watch pings the owner UNPROMPTED but only on material things: server disk >88%, memory >92%, a reminder due within the hour, or to-dos piling up (deduped, cooldowns). Purely additive. + v11.15 - REAL HANDS (terminal + site-data + files) & plain-words routing: gives Nemo the hands people said he lacked, and makes plain language actually FIRE them instead of a chatbot reply. (1) TERMINAL: /shell <cmd> (aliases /sh /bash /terminal /exec) runs ANY command on the server and returns the live output - owner-only, persistent cwd (`cd` sticks), per-command timeout, and a confirm-tap guard on destructive commands (rm -rf /, mkfs, dd, shutdown...). (2) SITE-DATA GRABBER: /fetch <url> [what you want] pulls a page and hands back clean text/tables/JSON (BeautifulSoup when present), answering a question from it if you ask one, and falls back to the real browser agent for JS/login pages. (3) FILE ACCESS: /ls, /read (/cat), /download, /writefile <path> :: <content> - browse, read, receive and create files on the server (owner-only; system-path writes need a confirm tap). (4) PLAIN-WORDS ROUTING: nl_route now has deterministic fast-paths so 'run df -h', 'shell systemctl status nemobot', 'get me the data from <url>', 'read /root/x.py', 'list files in /root', 'download /var/log/syslog' hit the REAL tool every time - never the general brain. Purely additive; every existing command untouched. + v11.14 - EMAIL NO LONGER LIES: fixes the bug where 'email to someone@x.com <message>' got a fake 'Email dispatched...' reply while nothing was actually sent (the Sent box stayed empty). Root cause: only a handful of deterministic phrases were force-routed to the real send code; everything else was handed to an AI intent-classifier, and when it guessed wrong the message fell through to the general chat brain - whose own system prompt ('you send emails, so speak like it') then HALLUCINATED a success, even auto-'correcting' the address. Three fixes: (1) a deterministic fast-path in nl_route now catches any explicit 'email/mail <address> <message>' and ALWAYS runs the real send (nl_emailto) - the chat brain can never answer it, and the address is sent EXACTLY as typed (no silent correction); (2) nl_emailto now accepts the Gmail-API/HTTPS path (via /google) instead of demanding an app password, and on failure reports the REAL reason (LAST_EMAIL_ERR) + hands your draft back, instead of a fake confirmation; (3) the persona system prompt now carries a hard 'NEVER FAKE AN ACTION' rule - if Nemo is replying as plain text he must never claim he sent an email / placed a trade / made a call, across ALL abilities. Report/PDF-to-email requests are untouched. + v11.13 - PWA: FILE UPLOAD (PDF/Excel/CSV/text) alongside images: the \U0001F4CE attach button now also takes documents. A new /api/file endpoint decodes the upload, extracts its text (PDF via pypdf, Excel via openpyxl, CSV/TXT/MD/JSON etc. directly - the same formats handle_document reads), stores it as the loaded DOCS document (which ask_ai already injects into every answer), and replies with a summary - so you upload a quote/statement/report from phone or desktop and immediately ask questions about it, with follow-ups working automatically. Images still route to the vision path; the attach button branches by file type. + v11.12 - PWA: STOP + IMAGE UPLOAD: the web app now has a \U000023F9 STOP button (appears while Nemo is speaking or a request is in flight - cancels the voice AND aborts the request) and a \U0001F4CE ATTACH button to upload an IMAGE from the browser - it's downscaled client-side to 1280px JPEG and run through Nemo's real vision/OCR path (new /api/upload -> web_image -> ask_ai with the image), so you can photograph/attach a document or screenshot and ask about it from phone or desktop, exactly like sending a photo in Telegram. The uploaded image is also stashed as LAST_PHOTO so a follow-up 'ocr it' works. + v11.11 - NEMO EVERYWHERE (PWA): Nemo's built-in web chat is now an INSTALLABLE app - the first 'window' beyond Telegram, onto your phone home-screen AND desktop at once, sharing the same brain. His Flask web server now serves a real Progressive Web App: /manifest.json + /sw.js (service worker: offline app-shell cache, install) + generated /icon-192.png & /icon-512.png, and the chat page is upgraded with PWA meta tags, an Install button (beforeinstallprompt, with iPhone Share->Add-to-Home-Screen guidance), safe-area layout, persistent login (token from ?k= is saved to localStorage so the home-screen icon stays logged in), voice in/out, and a \U0001F4CA live-status glance via a new read-only /api/status endpoint (returns /status). Open it via /connect (public HTTPS URL + token over Cloudflare Tunnel) -> Add to Home Screen -> installed. Chat + read-only status only from the web channel (destructive commands stay Telegram-side, by design). Reuses the existing token auth; purely additive. + v11.10 - AUTONOMOUS SELF-GROWTH (safe by design): /selfgrow makes Nemo RESEARCH THE INTERNET (plus his own recent errors) for ways to improve himself, form ONE concrete low-risk improvement to a non-core function, and route it through his SUPERVISED self-editor - compile-check -> diff -> your one tap Apply -> backup -> /rollback. /selfgrow auto on runs it about weekly and only ever PROPOSES. He genuinely self-develops from the web; you stay the single tap that stops him from self-DESTROYING. Deliberately NOT built: unrestricted self-modification (rewriting/deploying code from the internet with no test/backup/approval) - that one change can permanently brick him or leak the Boss's Dhan/Google/Telegram/root credentials with no recovery, and it violates this project's own constitution (§22, 'never uncontrolled recursive self-modification' + rollback always preserved + user is final authority). Core stays _UNEDITABLE; money/security/secrets always need a human tap. + v11.9 - NEMO OS CORE COMPLETE (phases 2-10 working cores, one release): DECISION MEMORY (/decision journal with expected-vs-actual, /decisionreview calibration, /counterfactual with hindsight-bias guard, /biascheck challenges you); AI BOARD + RED TEAM (/board = 5 independent seats analyzed in parallel without seeing each other -> disagreement extraction -> red-team attack -> judge verdict with FOR/AGAINST/assumptions/fail-conditions); PREDICTION (/predict with probability+uncertainty, never presented as fact); ANOMALY watch (disk/memory/db baselines + jump detection); RADAR (/radar add|report - monitored topics, only MATERIAL items surfaced); OPPORTUNITY scan; SIMULATION (/businesssim - real Monte Carlo, 500 trials x BASE/OPT/PESS/STRESS, payback/ROI/P(loss)); CHIEF OF STAFF (/chief - reminders, open tasks, blocked work, open decisions, anomalies in one brief); TASK GRAPH (/taskgraph - dependencies, ready vs blocked); memory VERIFY + CONTRADICTIONS on the world model; GOVERNANCE (permission LEVELS 0-6 shown in /permissions, NEMO_CONSTITUTION inherited by agents, /why provenance chains, hash-CHAINED tamper-evident audit + /auditchain verifier); /status full OS dashboard; /agenthealth scores. Deferred honestly: web dashboard UI, desktop-app control, scheduled radar crawls, model-disagreement engine, memory decay (named in NEMO_V11_CHANGELOG.md). All additive - every v10.24 command untouched. + v11.0 - NEMO OS PHASE 1: WORLD MODEL / KNOWLEDGE GRAPH (start of the v11 'Personal AI Operating System' program - see NEMO_ARCHITECTURE_AUDIT.md for the full 11-phase plan). Nemo now keeps a persistent, TEMPORAL model of your world in his SQLite brain: entities (people, suppliers, projects, companies), typed relations between them, and DATED facts that carry SOURCE + CONFIDENCE (provenance) and are NEVER overwritten - so 'Supplier X quoted 10L' in March and '8.5L' in August both stay, each with its date. /fact <entity>: <fact> teaches him (free-form works too - AI extracts entity+fact), /world <entity> shows the full profile with provenance, /timeline <entity> replays the dated history, /relate A | rel | B links entities, /graph shows the model, /os shows v11 phase status. Every kg fact also feeds vector memory so /recall finds it semantically. Purely additive (new kg_* tables + one dispatcher; all 332 existing commands untouched). + v10.24 - PROJECT BUILDER (create 'vast things', not just scripts): /project <name>: <what to build> makes Nemo build a whole MULTI-FILE project by himself - he plans a file manifest, writes each file, installs the pip deps, RUNS the tests, and if they fail he reads the errors and fixes his own code (up to 2 repair rounds), then zips the project and sends it to you. /projects lists them, /project <name> zip re-downloads one. Files live in /root/nemo_projects/<name>. This is the generate->test->repair loop that turns 'one script' into real software. Owner + deploy-cap gated. + v10.23 - CRASH-SAFE MEMORY (durable-memory foundation): Nemo already saved his brain (facts, contacts, projects, todos, habits, history, the AI team...) to bot_memory.json from 67 places - but the write was NOT atomic, so a kill mid-save could corrupt the whole file and load_data would silently start BLANK with no backup (total amnesia). Fixed: saves are now atomic (temp -> fsync -> os.replace) and keep a .bak of the last good copy; load falls back to .bak if the main file is corrupt, so one bad crash can never wipe his memory again; a 150s autosave loop backs up state changed by paths that don't call save_data; and if he ever does recover from backup he tells you on boot. This is the safe foundation for growing him side by side. + v10.22 - SOLVES ON HIS OWN (plan -> act -> CHECK -> report): TRUE AGENT MODE now VERIFIES its own work before finishing instead of stopping at the first 'done'. When the agent tries to finish, Nemo strictly checks the proposed answer against the original objective; if a real part is missing/wrong/unverified, he names the gap and keeps working to fix exactly that (up to 2 self-corrections), then reports - so complex, multi-step jobs actually get completed, not half-answered. Step budget raised 8 -> 12 to leave room to adapt. New /solve alias (same as /agent), and saying 'solve ...' / 'figure out ...' in chat now triggers the autonomous agent directly. Uses his existing rich toolset (web, open, quote, code, pdf, email, remind, todo, finish). + v10.21 - EMAIL OVER HTTPS (fixes the DigitalOcean SMTP block): the real reason /email set failed with 'couldn't reach Gmail's mail server' is that DigitalOcean BLOCKS outbound SMTP ports - not the password. Nemo now SENDS via the Gmail API over HTTPS (port 443, never blocked), using the Google account you already connected with /google (it has the gmail.send scope). send_email tries the Gmail API first and only falls back to SMTP; /email test now reports which path works; the network-error message now names the SMTP-block cause and points to /google. So: run /google once (if not already), then email just works - no App Password needed. + v10.20 - EMAIL FIX + SELF-DIAGNOSIS: email 'sending failed' now tells you the REAL reason instead of a generic essay. Nemo captures the actual SMTP error (LAST_EMAIL_ERR) and translates it to a plain cause + fix (e.g. '535 = wrong/expired App Password or 2FA off'). New: connect Gmail from chat with /email set <gmail> <app password> (no file editing), and /email test does a LIVE Gmail login and reports exactly what's wrong. Best of all, asking 'why did email fail / email not working' now makes Nemo check HIMSELF (real SMTP test) rather than routing it to the general brain that wrote the SPF/DKIM essay. The root cause of your failure: the Gmail App Password is set but Gmail is rejecting the login - regenerate it (2FA must be on) and run /email set. + v10.19 - SELF-UPDATE (no more SSH): send Nemo a new nemotron_bot.py in Telegram, then /update - he verifies it's really my code (size + markers, so a random script can't nuke me), compile-checks it, backs the current me up to /root/nemo_backups, swaps himself in and restarts (you tap Apply first; /rollback undoes it). Reuses the proven /upgrade rails. When you send a .py that looks like a new me, he now offers /update automatically. From here, every future version installs by dropping a file in chat - no console, no scp. + v10.18 - BOT FACTORY LIBRARY (factory data): Nemo now carries a library of ready-made bot TYPES he can create on command and modify - the engine for a bot-building service. /templates lists them (FAQ/auto-reply, appointment booking, order+catalogue, subscribe+broadcast, feedback/rating); /newbot <type> <name> : <business> scaffolds a complete standalone Telegram bot from that template and ships it through the SAME supervised pipeline as /ship (compile-check -> bake env -> tap to start); then /env <name> BOT_TOKEN=... OWNER_ID=... turns it on, and /app <name> edit <change> lets Nemo customise it further. Each template is a real, working long-poll bot (owner-notify, JSON storage). Extensible - more types can be added to BOT_TEMPLATES. + v10.17 - GOOGLE MAPS: Nemo can now find any place/store/shop and show its address, live rating + top reviews, open/closed, phone, website and a map image (/place, /find, /reviews, /map); list ranked options nearby (/near cafes in Andheri); and compute real ROAD distance + time WITH live traffic between two places plus a route-map picture (/trip A to B, also /distance /route, and 'by walking/transit/bicycling'). Reuses the SAME Phase-2 Google Cloud key (/gcloud) and the same daily safety cap - you just enable Places + Directions + Geocoding + Static Maps in the Cloud console (up to 10,000 free calls per API per month, so personal use is effectively free). Raw REST via the Maps Platform, owner-only, threaded so it never blocks. + v10.16 - HINDI PDF FIX: reports in Hindi were coming out as '?????' because the Devanagari font never loaded on the server (the runtime GitHub download 403'd) so the text got mangled to Latin. _ensure_hindi_font() is now robust and self-healing: it finds any Devanagari font already on the box, else apt-installs one itself (Nemo is root - no fragile download), and guarantees the uharfbuzz shaping engine so conjuncts/matras place correctly. make_pdf() will now NEVER hand back a '?????' PDF - if no font can be loaded it sends readable Unicode text plus the one-line server fix instead. The AI was always writing correct Hindi; only the PDF drawing step was broken. + v10.15 - GOOGLE SUPER-LAYER (2 phases). Phase 1 (free, reuses his Google login - one re-consent for wider scopes): /backup his whole brain to Drive, Sheets as a LIVE database you can open on your phone (/log <sheet>: a, b, c  ·  /gsheet <sheet>), /gdoc <title>: <body> makes a Google Doc, /gtask + /gcontact + /findcontact. Phase 2 (needs a Google Cloud API key + billing, but big free tiers + a hard daily call cap): /gcloud <key> turns on Vision (/gsee reads/labels a photo), Translate (/gtranslate hi: text), Text-to-Speech (/gsay), Gemini (/gemini), and real Google Search (/gsearch). + v10.14 - ONE-STEP SECRET REFRESH: /env <app> KEY=VALUE now, if the app is already live, rewrites its locked .env and RESTARTS it on the spot - no re-ship. So refreshing a daily API token (e.g. Dhan's 24h token) is a single paste to Nemo. + v10.13 - APP EDITOR (Nemo patches apps he deployed): Nemo can now edit a running app's code himself, not just his own - same supervised rails (pick function -> rewrite -> compile-check -> diff -> you tap Apply -> back up -> restart just that app -> /app <name> rollback if needed). Just say 'add a /dhan self-test to signalbot' or run /app signalbot edit <change>. So he can fix and extend the bots he ships, on his own. + v10.12 - APP FACTORY + SECRETS: you can now hand Nemo a program's secrets in chat with /env <name> KEY=VALUE (bot tokens, API keys) and he bakes them into a locked-down 600 .env file the service reads - so you never edit the code file. Everything else as v10.11 (SHIP a .py as a live 24/7 systemd service, /build, /apps, /app manage). + v10.11 - APP FACTORY (real hands to SHIP a program): Nemo now takes a program - one he writes, or a .py you send him in chat - and actually RUNS it on your server as a managed 24/7 systemd service. He writes the file to /root/apps/<name>, installs its pip packages, safety compile-checks it, creates the service, and starts it (you tap Ship & start to confirm). /ship <name> deploys a .py you just sent; /build <name>: <what it does> has him write the program himself then ship it; /apps lists them; /app <name> logs|restart|stop|rm manages them. Owner-only, gated by the 'deploy' capability (/caps deploy on) + /lockdown, refuses to touch system units. This closes the gap where his 'mission' team only produced a REPORT - now he can hand you a running bot. + v10.10 - SELF-EVOLVING: Nemo reviews his OWN errors, system logs and rough edges, decides what to fix/improve, and DRAFTS the code changes himself - you just approve. /evolve makes him study himself and propose the 3-6 highest-value improvements (each targeting one real function, grounded in errors he actually hit); /evolve <n> hands that exact improvement to his supervised self-editor (compile-check + diff + tap-to-Apply + backup + /rollback), and /evolve auto on runs a weekly self-review that only ever PROPOSES (never auto-applies). Core control functions stay _UNEDITABLE. Just say 'improve yourself' / 'review your errors and get better'. + v10.9 - YOUTUBE+: turn a video into a STUDY-NOTES PDF (/ytnotes or 'notes'), and summarise a WHOLE PLAYLIST into a PDF study guide (/ytplaylist or paste a playlist link) - per-video bullets + an overall overview, Hindi-capable PDF. + v10.8 YOUTUBE: robust video SUMMARY (transcript via youtube-transcript-api -> yt-dlp auto-subs with cookies -> audio+Whisper, then an easy 'explain like to a friend' summary by Claude) and DOWNLOAD (/ytdl video, /ytmp3 audio, cookie-aware, sent over Telegram if it fits else saved/Drive). Just paste a YouTube link. + v10.7 SCANNER: send a photo and Nemo turns it into a clean, cropped, straightened PDF (document scanner), or extracts all its TEXT (OCR, Hindi too), or decodes a QR - via caption 'scan'/'ocr'/'qr' or the /scandoc /ocr /qr commands. + v10.6 STRONGER HANDS for the browser agent: VISION fallback (screenshots the page and acts from what it SEES when there's no readable HTML, via clickxy), new actions (key presses, coordinate click, back, file upload, structured extract->data), and SESSION/COOKIE import (/browsercookies loads a cookies.txt so Nemo is logged in on sites like YouTube - the reliable way past login walls). + v10.5.2 LOGIN HANDS hardening: the human-in-the-loop now fills the value ROBUSTLY (finds the real email/password/OTP input even if the AI's field index is off, verifies it landed, auto-submits) and has a loop-guard that stops re-asking and explains honestly when a site (e.g. Google/YouTube) is blocking the automated login. + v10.5 SELF-DEFENSE (blue-team, THIS SERVER ONLY): tamper tripwire (fingerprints his own code/secrets/SSH-keys and alerts + optional auto-lockdown on change), intruder watch (failed-SSH by IP), exposure/open-port self-scan, ClamAV malware scan, pip-audit CVE check, and a hardening pack (chmod/fail2ban/ufw keeping SSH open). NO target field anywhere - every check runs against this host only; owner + capability gated. Ask 'scan yourself for viruses / who is attacking me / am I exposed'. + v10.4 HANDS + HUMAN-IN-THE-LOOP: the browser agent can now pause on a login/password/OTP/2FA/CAPTCHA, send you a screenshot of what it sees, WAIT for your chat reply, type it into the field and continue - so you complete logins together and Nemo stays logged in (persistent profile). New 'ask' browser action; your reply is routed to the live session and the secret value is never logged. + v10.3 DYNAMIC TOOLS UPGRADE: /toolmake now builds reusable tools that use third-party packages (declared '# requires: yt-dlp ...', auto pip-installed + reinstalled after redeploy) and reach the internet (run on host; pure-stdlib tools keep --network=none isolation) - so you get a permanent /tool musicdl <song> instead of one-shot scripts; also run_code writes self-contained scripts (inputs hardcoded, no required argv/input). + v10.2 CODE AGENT FIX: generated Python no longer gets its dunders corrupted (clean_text was stripping __ and ** so __name__/__main__ became name/main); run_code now uses the RAW code path + the premium brain + a SELF-REPAIR loop (reads its own traceback and fixes the bug, up to 2 tries). Same raw fix applied to self-upgrade and dynamic tools. + v10.1 TRACK 3 BUILDER on top of the Mastermind Core: GitHub connect + AI code-review agent (issues/PRs/CI, auto-review PRs via webhook), dynamic tool creation (Nemo writes-tests-registers his own sandboxed tools), multi-agent swarm orchestration (parallel workers -> synthesis), and observability (/metrics, /logs, ERROR alerts). + v10.0 MASTERMIND CORE (Track 0+1+6): event-driven nervous system (SQLite state, durable event queue, stdlib HTTP webhook gateway + Nemo's own /api/v1, capability layer + audit log + /lockdown kill-switch), infra control (DigitalOcean create/reboot/snapshot/destroy, git self-deploy with pre-swap compile check + boot canary, Docker sandbox exec), and an autonomy layer (goal planner plan->act->report loop, condition triggers, reflection-to-memory). All owner-gated. + v9.8.3 land-records FULL FLOW from real screenshots: auto-ACCEPTS the 'सूचनार्थ नकल' confirm() dialog (Playwright was silently cancelling it), captures the Nakal HTML document (Edharti_A4_Nakal_village.aspx) as a PDF (it is NOT a file download), and the playbook now matches the exact 10-step Apna Khata flow (district/tehsil dropdowns -> alphabet+village row -> radios -> searchable khasra box -> नकल सूचनार्थ). + v9.8.2 IFRAME-AWARE browser: govt forms (Apna Khata) load inside an <iframe> so the top page looked blank; Nemo now finds and drives the real form frame + sends a text diagnostic on failure + never clicks top-nav tabs. + v9.8.1 land-records cascade fix (waits for the ASP.NET postback so तहसील/RI/village dropdowns fill before selecting; more steps; tells you which brain drove it) + Claude PREMIUM BRAIN on tap (Boss's Anthropic API key): auto-escalates the HARD jobs - drives the browser/land-records flow, /think deep answers, and a smart backup when free brains choke - while free Nemotron/Groq still handle everyday chat so credits last. Cost-aware (Haiku default, Sonnet for browser/think, running spend in /brain). + v8.8.2 Hindi/Unicode PDFs (Noto Devanagari, was: ?????) + report emails when you ask + mission progress/recipient fixes + activity audit log + confirm-on-money + FII/DII in the trading brain + IFSC/QR/short-links + v8.7 distinct mission team/chaining/maps/translate + v8.6 vector memory/TradingView/insights + v8.5 Google + v8.4 voice/backtester + v7.9 grounded market data + v7.8 identity + v7.5 live option chain + v7.4 natural-language brain + trading.
 # v13.33: Batch 1 - Continuum persistent research goals, Skills Engine, Guardian 2.0, command regression.
  + v13.13 - MEDIA + HUMAN BROWSER + NETWORK SECURITY: upgraded universal public-media downloader with interactive format selection, persistent download state, file-type/hash validation, safe cleanup, and task-scoped proxy/VPN support; browser human-in-the-loop checkpoints now explicitly ask what/when/what-to-write and persist pending input; added owner-only VPN manager with WARP/Proton guidance, imported WireGuard profiles, wg-quick lifecycle, route/IP/DNS checks, and protected-task abort when VPN verification fails. Does NOT bypass DRM, CAPTCHAs, authentication, or access controls. No VPN private keys are written to source.
 """
@@ -64100,7 +64100,7 @@ def _n79_redact(text):
 
 def _n79_editable(name):
     import re
-    if name.startswith(('_n81_','_n82_','_n83_','_n84_','_n85_','_n86_','_n87_','_n88_','_n89_','_n90_','_n91_','_n92_','_n93_','_n94_','_n95_','_n96_','_n97_','_n98_','_n99_','_n991_','_n100_','_n101_','_n102_','_n103_','_n104_','_n105_','_n106_','_n107_','_p75_')) or name in ('can_enter','must_square_off'):return False
+    if name.startswith(('_n81_','_n82_','_n83_','_n84_','_n85_','_n86_','_n87_','_n88_','_n89_','_n90_','_n91_','_n92_','_n93_','_n94_','_n95_','_n96_','_n97_','_n98_','_n99_','_n991_','_n100_','_n101_','_n102_','_n103_','_n104_','_n105_','_n106_','_n107_','_n1071_','_p75_')) or name in ('can_enter','must_square_off'):return False
     if name=='_n79_feature' or name.startswith('_nf79_'):return True
     if name.startswith('_n79_'):return False
     return not re.search(r'handle|main|owner|secret|token|auth|key|upgrade|update|rollback|txn|boot|repair|evolve|grow|guard|confirm|permission|shell|exec|broker|trade|order|payment|brain|_n7[234]|_n66|_n71',name,re.I)
@@ -115689,6 +115689,1296 @@ def main(*a, **k):
     except Exception:
         _N107_STATS['errors'] += 1
     return _N107_MAIN_PREV(*a, **k)
+
+
+
+# =============================================================================
+# NEMO 107.1 - PINE
+# What went wrong (the owner's screenshot): "create a pine script with your survival logics" reached the AI intent router, which handed it to the general work planner (W71). The planner
+# made a plan of research and drafting steps under a 3-minute budget, ran out of time after two steps and answered only "Error: WORK_BUDGET_REACHED". Nemo's own Pine engine
+# (v11.29: verified templates, a linter and a repair loop) was never asked, because its fixed route sits behind the router; and nothing in Nemo knew what "your survival logic" means
+# for a Pine Script.
+# This layer:
+#  * sends every request to make, change or fix a Pine Script straight to the Pine engine (the router and the work planner are not asked), and the planner hands one over if it still
+#    gets one;
+#  * "with your survival logic / your own rules / Nemo's strategy" builds Nemo's Survival Strategy without any AI: the GODMODE score of Nemo's trading agent on completed daily bars,
+#    and the survival rules Nemo states (strong signal only, one position, stop and target attached at entry, 1% risk per trade, a trade limit, stop after two losses, 3% daily and
+#    6% weekly loss limits, an IST entry window, a 15:10 square-off, no leverage). Its settings follow the owner's words ("risk 2%", "2 trades a day", "long only", "lot 65");
+#  * a request with no details gets a quick-choice card instead of a guessed script;
+#  * AI-written scripts are checked by the existing Pine checks and, when the pynescript parser is installed, by a real Pine grammar parse in a separate low-priority process;
+#  * a TradingView error pasted back is repaired against the last script delivered;
+#  * a work plan that runs out of time says so in plain words.
+# It never places or changes an order and never touches the trading agent, the guards, the owner lock or any credential.
+# =============================================================================
+VERSION = "107.1"
+import re as _n1071_re
+import os as _n1071_os
+import sys as _n1071_sys
+import json as _n1071_json
+import time as _n1071_time
+import glob as _n1071_glob
+import queue as _n1071_queue
+import signal as _n1071_signal
+import threading as _n1071_threading
+import subprocess as _n1071_sp
+
+_N1071_STATS = {k: 0 for k in ('requests', 'survival', 'custom', 'templates', 'cards', 'repairs', 'handover', 'grammar_ok', 'grammar_error', 'grammar_none', 'fallbacks',
+                               'resent', 'budget_plain', 'errors')}
+_N1071_SYNC = {'on': False}                       # tests run jobs inline
+_N1071_LIMITS = {'budget_s': 480, 'repair_left_s': 100, 'tries': 2, 'grammar_first_s': 150, 'grammar_s': 60, 'card_s': 900, 'last_days': 7}
+_N1071_PEND = {}                                  # cid -> {'t': when the choice card was sent, 'mid': its message id}
+_N1071_LAST = {}                                  # cid -> the last script delivered {'path', 'name', 'kind', 'spec', 't', 'opts'}
+_N1071_PY = {'t': 0.0, 'py': None}                # the interpreter that can import pynescript (None = none found), and when that was looked up
+_N1071_LOCK = _n1071_threading.RLock()
+
+
+def _n1071_bg(fn, *a):
+    if _N1071_SYNC['on']:
+        return fn(*a)
+    _n1071_threading.Thread(target=fn, args=a, daemon=True, name='nemo-pine1071').start()
+
+
+def _n1071_clip(s, n=200):
+    s = ' '.join(str(s or '').split())
+    return s if len(s) <= n else s[:n - 1].rstrip() + '…'
+
+
+# ------------------------------------------------ Nemo's Survival Strategy (Pine v6; no AI) ------------------------------------------------
+_N1071_SURVIVAL_PINE = '''//@version=6
+// Nemo Survival Strategy - written by Nemo from its own trading rules.
+// Signal: the GODMODE confluence score Nemo's trading agent uses (EMA20/EMA50 trend, EMA20 slope,
+// RSI(14), MACD histogram, nearness to the 3-month high/low), computed on completed bars of the
+// signal timeframe (daily by default), so the backtest does not repaint.
+// Survival rules: trade only a strong signal, one position at a time, never add to a loser, the stop
+// and target are attached when the order is placed, risk a small fixed share of equity per trade,
+// a trade limit per day, stop for the day after a number of losses, daily and weekly loss limits,
+// no new entries outside the entry window, square off before the close, and no leverage.
+// This is analysis and practice, not advice. Test it on paper before risking money.
+strategy("Nemo Survival Strategy", shorttitle="Nemo Survival", overlay=true, initial_capital={{CAPITAL}}, default_qty_type=strategy.fixed, default_qty_value=1, commission_type=strategy.commission.percent, commission_value=0.03, slippage=2, pyramiding=0)
+
+// ---- Inputs: signal ----
+grpS       = "Signal (Nemo GODMODE score)"
+sigTf      = input.timeframe("{{SIGTF}}", "Signal timeframe", group=grpS)
+minScore   = input.int({{MINSCORE}}, "Strong signal: score at least", minval=2, maxval=6, group=grpS)
+trendGap   = input.float(0.15, "EMA20/EMA50 gap that counts as a trend (%)", minval=0.0, step=0.05, group=grpS)
+hiLoLen    = input.int(80, "High/low look-back (bars, about 3 months of days)", minval=20, group=grpS)
+allowShort = input.bool({{SHORTS}}, "Also trade strong bearish signals (short)", group=grpS)
+
+// ---- Inputs: survival rules ----
+grpR        = "Survival rules"
+riskPct     = input.float({{RISK}}, "Risk per trade (% of equity)", minval=0.1, maxval=5.0, step=0.1, group=grpR)
+slAtr       = input.float({{SLATR}}, "Stop-loss (x ATR of the signal timeframe)", minval=0.5, step=0.1, group=grpR)
+tpAtr       = input.float({{TPATR}}, "Target (x ATR of the signal timeframe)", minval=0.5, step=0.1, group=grpR)
+maxTrades   = input.int({{MAXTRADES}}, "Max trades per day", minval=1, maxval=10, group=grpR)
+maxLosses   = input.int({{MAXLOSSES}}, "Stop for the day after this many losing trades", minval=1, maxval=10, group=grpR)
+dayLossPct  = input.float({{DAYLOSS}}, "Daily loss limit (% of equity at the day's start)", minval=0.5, maxval=20.0, step=0.5, group=grpR)
+weekLossPct = input.float({{WEEKLOSS}}, "Weekly loss limit (% of equity at the week's start)", minval=1.0, maxval=30.0, step=0.5, group=grpR)
+lotSize     = input.int({{LOT}}, "Units per lot (0 = any quantity)", minval=0, group=grpR)
+
+// ---- Inputs: session (intraday charts, India time) ----
+grpT      = "Session (IST, intraday charts only)"
+entrySess = input.session("{{SESSION}}", "New entries only between", group=grpT)
+sqHour    = input.int({{SQH}}, "Square off at hour", minval=9, maxval=15, group=grpT)
+sqMinute  = input.int({{SQM}}, "Square off at minute", minval=0, maxval=59, group=grpT)
+
+// ---- The GODMODE score (same rules as Nemo's agent) ----
+f_score(gapPct, lookback) =>
+    e20      = ta.ema(close, 20)
+    e50      = ta.ema(close, 50)
+    up       = math.max(nz(ta.change(close)), 0.0)
+    dn       = math.max(-nz(ta.change(close)), 0.0)
+    ag       = ta.sma(up, 14)
+    al       = ta.sma(dn, 14)
+    rsiS     = al == 0 ? 100.0 : 100.0 - 100.0 / (1.0 + ag / al)
+    macdLine = ta.ema(close, 12) - ta.ema(close, 26)
+    hist     = macdLine - ta.ema(macdLine, 9)
+    atrS     = ta.sma(ta.tr(true), 14)
+    hh       = ta.highest(high, lookback)
+    ll       = ta.lowest(low, lookback)
+    trending = math.abs(e20 - e50) / close > gapPct / 100.0
+    s = 0
+    s += trending and close > e20 and e20 > e50 ? 2 : trending and close < e20 and e20 < e50 ? -2 : 0
+    s += e20 > e20[5] ? 1 : e20 < e20[5] ? -1 : 0
+    s += rsiS >= 55 ? 1 : rsiS <= 45 ? -1 : 0
+    s += hist > 0 and hist > hist[1] ? 1 : hist < 0 and hist < hist[1] ? -1 : 0
+    s += close >= hh * 0.98 ? 1 : 0
+    s -= close <= ll * 1.02 ? 1 : 0
+    [s, atrS, rsiS]
+
+f_scorePrev(gapPct, lookback) =>
+    [s, a, r] = f_score(gapPct, lookback)
+    [s[1], a[1], r[1]]
+
+[sChart, aChart, rChart] = f_score(trendGap, hiLoLen)
+[sHtf, aHtf, rHtf] = request.security(syminfo.tickerid, sigTf, f_scorePrev(trendGap, hiLoLen), lookahead=barmerge.lookahead_on)
+useHtf = timeframe.in_seconds() < timeframe.in_seconds(sigTf)
+score  = useHtf ? sHtf : sChart
+atrSig = useHtf ? aHtf : aChart
+rsiSig = useHtf ? rHtf : rChart
+
+// ---- Survival bookkeeping ----
+var int   tradesToday = 0
+var int   lossesToday = 0
+var int   seenTrades  = 0
+var int   seenClosed  = 0
+var float dayStartEq  = strategy.initial_capital
+var float weekStartEq = strategy.initial_capital
+var int   stopTicks   = 1
+var int   tgtTicks    = 1
+
+if timeframe.change("1D")
+    tradesToday := 0
+    lossesToday := 0
+    dayStartEq  := strategy.equity
+if timeframe.change("1W")
+    weekStartEq := strategy.equity
+
+allTrades = strategy.closedtrades + strategy.opentrades
+if allTrades > seenTrades
+    tradesToday += allTrades - seenTrades
+    seenTrades  := allTrades
+if strategy.closedtrades > seenClosed
+    for i = seenClosed to strategy.closedtrades - 1
+        if strategy.closedtrades.profit(i) < 0
+            lossesToday += 1
+    seenClosed := strategy.closedtrades
+
+dayPnlPct  = dayStartEq > 0 ? (strategy.equity - dayStartEq) / dayStartEq * 100.0 : 0.0
+weekPnlPct = weekStartEq > 0 ? (strategy.equity - weekStartEq) / weekStartEq * 100.0 : 0.0
+dayLossHit  = dayPnlPct <= -dayLossPct
+weekLossHit = weekPnlPct <= -weekLossPct
+
+haltWhy = tradesToday >= maxTrades ? "Trade limit for today used" : lossesToday >= maxLosses ? "Too many losses today" : dayLossHit ? "Daily loss limit hit" : weekLossHit ? "Weekly loss limit hit" : ""
+halted  = haltWhy != ""
+lossHalt = lossesToday >= maxLosses or dayLossHit or weekLossHit
+
+// ---- Session (India time) ----
+istMins    = hour(time, "Asia/Kolkata") * 60 + minute(time, "Asia/Kolkata")
+inEntry    = not timeframe.isintraday or not na(time(timeframe.period, entrySess, "Asia/Kolkata"))
+squareTime = timeframe.isintraday and istMins >= sqHour * 60 + sqMinute
+
+// ---- Position size: risk a fixed share of equity, whole lots, no leverage ----
+stopDist = slAtr * atrSig
+tgtDist  = tpAtr * atrSig
+riskAmt  = strategy.equity * riskPct / 100.0
+unitsRaw = stopDist > 0 ? riskAmt / (stopDist * syminfo.pointvalue) : 0.0
+maxUnits = close > 0 ? strategy.equity / (close * syminfo.pointvalue) : 0.0
+units    = math.min(unitsRaw, maxUnits)
+qty      = lotSize > 0 ? math.floor(units / lotSize) * lotSize : math.floor(units)
+
+// ---- Entries: strong signal only, flat only, stop and target attached at once ----
+flat     = strategy.position_size == 0
+canEnter = flat and not halted and inEntry and not squareTime and qty > 0 and not na(score) and not na(atrSig)
+goLong   = canEnter and score >= minScore
+goShort  = canEnter and allowShort and score <= -minScore and not goLong
+
+if goLong or goShort
+    stopTicks := math.max(1, math.round(stopDist / syminfo.mintick))
+    tgtTicks  := math.max(1, math.round(tgtDist / syminfo.mintick))
+if goLong
+    strategy.entry("Long", strategy.long, qty=qty, comment="Nemo strong bullish")
+if goShort
+    strategy.entry("Short", strategy.short, qty=qty, comment="Nemo strong bearish")
+strategy.exit("Long exit", from_entry="Long", loss=stopTicks, profit=tgtTicks)
+strategy.exit("Short exit", from_entry="Short", loss=stopTicks, profit=tgtTicks)
+
+if squareTime and strategy.position_size != 0
+    strategy.close_all(comment="Square off before the close")
+
+// ---- Chart ----
+inLong  = strategy.position_size > 0
+inShort = strategy.position_size < 0
+stopLvl = inLong ? strategy.position_avg_price - stopTicks * syminfo.mintick : inShort ? strategy.position_avg_price + stopTicks * syminfo.mintick : na
+tgtLvl  = inLong ? strategy.position_avg_price + tgtTicks * syminfo.mintick : inShort ? strategy.position_avg_price - tgtTicks * syminfo.mintick : na
+plot(stopLvl, "Stop-loss", color=color.new(color.red, 0), style=plot.style_linebr, linewidth=2)
+plot(tgtLvl, "Target", color=color.new(color.green, 0), style=plot.style_linebr, linewidth=2)
+plotshape(goLong, "Strong bullish entry", shape.triangleup, location.belowbar, color.new(color.green, 0), size=size.small)
+plotshape(goShort, "Strong bearish entry", shape.triangledown, location.abovebar, color.new(color.red, 0), size=size.small)
+bgcolor(lossHalt ? color.new(color.red, 92) : na, title="Survival halt (loss limits)")
+
+sigText = score >= 4 ? "STRONG BULLISH" : score >= 2 ? "BULLISH" : score <= -4 ? "STRONG BEARISH" : score <= -2 ? "BEARISH" : "NEUTRAL"
+var table panel = table.new(position.top_right, 2, 7, bgcolor=color.new(color.black, 80), border_width=1)
+if barstate.islast
+    table.cell(panel, 0, 0, "Nemo score", text_color=color.white)
+    table.cell(panel, 1, 0, str.tostring(score) + " " + sigText, text_color=score >= minScore ? color.lime : score <= -minScore ? color.red : color.white)
+    table.cell(panel, 0, 1, "RSI (signal TF)", text_color=color.white)
+    table.cell(panel, 1, 1, str.tostring(rsiSig, "#.0"), text_color=color.white)
+    table.cell(panel, 0, 2, "Trades today", text_color=color.white)
+    table.cell(panel, 1, 2, str.tostring(tradesToday) + " of " + str.tostring(maxTrades), text_color=color.white)
+    table.cell(panel, 0, 3, "Losses today", text_color=color.white)
+    table.cell(panel, 1, 3, str.tostring(lossesToday) + " of " + str.tostring(maxLosses), text_color=color.white)
+    table.cell(panel, 0, 4, "Day P/L", text_color=color.white)
+    table.cell(panel, 1, 4, str.tostring(dayPnlPct, "#.##") + "% (limit -" + str.tostring(dayLossPct) + "%)", text_color=dayPnlPct < 0 ? color.red : color.lime)
+    table.cell(panel, 0, 5, "Week P/L", text_color=color.white)
+    table.cell(panel, 1, 5, str.tostring(weekPnlPct, "#.##") + "% (limit -" + str.tostring(weekLossPct) + "%)", text_color=weekPnlPct < 0 ? color.red : color.lime)
+    table.cell(panel, 0, 6, "Status", text_color=color.white)
+    table.cell(panel, 1, 6, halted ? haltWhy : "Trading allowed", text_color=halted ? color.red : color.lime)
+
+// ---- Alerts ----
+alertcondition(goLong, "Nemo strong bullish", "Nemo Survival: strong bullish signal, entry with stop and target attached")
+alertcondition(goShort, "Nemo strong bearish", "Nemo Survival: strong bearish signal, entry with stop and target attached")
+alertcondition(lossHalt and not lossHalt[1], "Nemo survival halt", "Nemo Survival: a loss limit stopped new trades for now")
+'''
+# The parts an AI change must keep when it starts from the survival strategy.
+_N1071_SURVIVAL_KEEP = ('riskPct', 'maxTrades', 'maxLosses', 'dayLossPct', 'weekLossPct', 'squareTime', 'strategy.exit(', 'pyramiding=0')
+_N1071_NUMWORDS = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10, 'ek': 1, 'do': 2, 'teen': 3}
+_N1071_TF = {'daily': '1D', 'day': '1D', 'weekly': '1W', 'week': '1W', 'hourly': '60', 'hour': '60', '1h': '60', '60m': '60', '4h': '240', '4 hour': '240', '15m': '15', '15 min': '15',
+             '15min': '15', '15 minute': '15', '5m': '5', '5 min': '5', '5min': '5', '5 minute': '5'}
+
+
+def _n1071_survival_defaults():
+    try:
+        trades = max(1, min(10, int(AUTO.get('maxtrades') or 1)))
+    except (TypeError, ValueError, NameError):
+        trades = 1
+    return {'capital': 100000, 'risk': 1.0, 'max_trades': trades, 'max_losses': 2, 'day_loss': 3.0, 'week_loss': 6.0, 'sl_atr': 1.5, 'tp_atr': 3.0, 'min_score': 4,
+            'shorts': True, 'lot': 0, 'tf': '1D', 'session': '0920-1430', 'sq': (15, 10)}
+
+
+def _n1071_num(word):
+    w = str(word or '').lower()
+    if w.isdigit():
+        return int(w)
+    return _N1071_NUMWORDS.get(w)
+
+
+def _n1071_clamp(v, lo, hi):
+    return max(lo, min(hi, v))
+
+
+def _n1071_base_opts(base):
+    """Settings saved with an earlier survival script, checked key by key (a bad or missing value falls back to Nemo's own rule)."""
+    o = _n1071_survival_defaults()
+    if not isinstance(base, dict):
+        return o
+    for k, lo, hi in (('capital', 10000, 1e9), ('risk', 0.1, 5.0), ('max_trades', 1, 10), ('max_losses', 1, 10), ('day_loss', 0.5, 20.0), ('week_loss', 1.0, 30.0),
+                      ('sl_atr', 0.5, 10.0), ('tp_atr', 0.5, 20.0), ('min_score', 2, 6), ('lot', 0, 100000)):
+        v = base.get(k)
+        if isinstance(v, (int, float)) and not isinstance(v, bool) and lo <= v <= hi:
+            o[k] = type(o[k])(v)
+    if isinstance(base.get('shorts'), bool):
+        o['shorts'] = base['shorts']
+    if base.get('tf') in ('1D', '1W', '60', '240', '15', '5'):
+        o['tf'] = base['tf']
+    if isinstance(base.get('session'), str) and _n1071_re.fullmatch(r'\d{4}-\d{4}', base['session']):
+        o['session'] = base['session']
+    sq = base.get('sq')
+    if isinstance(sq, (list, tuple)) and len(sq) == 2 and all(isinstance(x, int) for x in sq) and 9 <= sq[0] <= 15 and 0 <= sq[1] <= 59:
+        o['sq'] = (sq[0], sq[1])
+    return o
+
+
+def _n1071_opts(text, base=None):
+    """The survival strategy's settings, from Nemo's own rules (or the last script's settings when base is given), changed only where the words say so.
+    Returns (opts, changes): changes is the list of settings the words changed, in words."""
+    o = _n1071_base_opts(base)
+    t = ' '.join(str(text or '').lower().replace(',', '').split())
+    said = []
+    m = _n1071_re.search(r'\b(?:risk(?:ing)?|risk per trade)\s*(?:of\s*|at\s*|=\s*)?(\d+(?:\.\d+)?)\s*%|(\d+(?:\.\d+)?)\s*%\s*(?:risk|per trade|of (?:the )?(?:capital|equity) per trade)', t)
+    if m:
+        o['risk'] = round(_n1071_clamp(float(m.group(1) or m.group(2)), 0.1, 5.0), 1)
+        said.append('risk %s%% per trade' % ('%g' % o['risk']))
+    m = (_n1071_re.search(r'\b(\d+|one|two|three|four|five|six|seven|eight|nine|ten)\s*trades?\s*(?:a|per|each|every|in a)\s*day\b', t) or
+         _n1071_re.search(r'\b(?:max(?:imum)?|at most|only|upto|up to)\s*(\d+|one|two|three|four|five|six|seven|eight|nine|ten)\s*trades?\b', t))
+    if m and _n1071_num(m.group(1)):
+        o['max_trades'] = _n1071_clamp(_n1071_num(m.group(1)), 1, 10)
+        said.append('%d trade%s a day' % (o['max_trades'], '' if o['max_trades'] == 1 else 's'))
+    m = _n1071_re.search(r'\b(?:stop|halt|quit|pause)\w*\s+(?:for the day\s+)?after\s+(\d+|one|two|three|four|five)\s+(?:losing trades|losses|loss(?:es)?|losers)\b', t)
+    if m and _n1071_num(m.group(1)):
+        o['max_losses'] = _n1071_clamp(_n1071_num(m.group(1)), 1, 10)
+        said.append('stop after %d loss%s' % (o['max_losses'], '' if o['max_losses'] == 1 else 'es'))
+    m = (_n1071_re.search(r'\b(?:daily|day|per day|a day)\s+loss(?: limit)?\s*(?:of\s*|at\s*|=\s*)?(\d+(?:\.\d+)?)\s*%', t) or
+         _n1071_re.search(r'\b(\d+(?:\.\d+)?)\s*%\s*(?:daily|a day|per day)\s+loss', t))
+    if m:
+        o['day_loss'] = _n1071_clamp(round(float(m.group(1)) * 2) / 2.0, 0.5, 20.0)
+        said.append('daily loss limit %g%%' % o['day_loss'])
+    m = (_n1071_re.search(r'\b(?:weekly|week|per week|a week)\s+loss(?: limit)?\s*(?:of\s*|at\s*|=\s*)?(\d+(?:\.\d+)?)\s*%', t) or
+         _n1071_re.search(r'\b(\d+(?:\.\d+)?)\s*%\s*(?:weekly|a week|per week)\s+loss', t))
+    if m:
+        o['week_loss'] = _n1071_clamp(round(float(m.group(1)) * 2) / 2.0, 1.0, 30.0)
+        said.append('weekly loss limit %g%%' % o['week_loss'])
+    if _n1071_re.search(r'\b(?:long[- ]only|only long|buy[- ]only|only buy(?:s|ing)?|no shorts?|no short(?:ing| selling)?|without shorts?|without short(?:ing| selling))\b', t):
+        o['shorts'] = False
+        said.append('long trades only')
+    m = _n1071_re.search(r'\blot(?:\s*size)?\s*(?:of\s*|=\s*|is\s*)?(\d{1,6})\b', t) or _n1071_re.search(r'\b(\d{1,6})\s*(?:units|qty|quantity)\s*(?:per|a|in a|in one)\s*lot\b', t)
+    if m:
+        o['lot'] = _n1071_clamp(int(m.group(1)), 0, 100000)
+        said.append('lots of %d units' % o['lot'] if o['lot'] else 'any quantity')
+    cap = None
+    m = _n1071_re.search(r'\b(?:capital|account|equity|starting with|start with)\s*(?:of\s*|=\s*|is\s*)?(?:₹|rs\.?|inr)?\s*(\d+(?:\.\d+)?)\s*(k|thousand|lakhs?|lacs?|l|crores?|cr)?\b', t)
+    if m:
+        cap = float(m.group(1)) * _N991_UNITS.get(m.group(2) or '', 1.0)
+    if cap is None:
+        try:
+            cap = _n991_amount(t)
+        except Exception:
+            cap = None
+    if cap:
+        o['capital'] = int(_n1071_clamp(cap, 10000, 1e9))
+        said.append('capital ₹{:,}'.format(o['capital']))
+    m = (_n1071_re.search(r'\b(?:stop(?:[- ]?loss)?|sl)\s*(?:of\s*|at\s*|=\s*)?(\d+(?:\.\d+)?)\s*(?:x\s*)?atr\b', t) or
+         _n1071_re.search(r'\b(\d+(?:\.\d+)?)\s*(?:x\s*)?atr\s*(?:stop|sl)\b', t))
+    if m:
+        o['sl_atr'] = round(_n1071_clamp(float(m.group(1)), 0.5, 10.0), 1)
+        said.append('stop %g x ATR' % o['sl_atr'])
+    m = (_n1071_re.search(r'\b(?:target|take[- ]?profit|tp)\s*(?:of\s*|at\s*|=\s*)?(\d+(?:\.\d+)?)\s*(?:x\s*)?atr\b', t) or
+         _n1071_re.search(r'\b(\d+(?:\.\d+)?)\s*(?:x\s*)?atr\s*(?:target|tp)\b', t))
+    if m:
+        o['tp_atr'] = round(_n1071_clamp(float(m.group(1)), 0.5, 20.0), 1)
+        said.append('target %g x ATR' % o['tp_atr'])
+    m = _n1071_re.search(r'\bscore\s*(?:of\s*)?(?:at least\s*|>=?\s*|above\s*)?\+?([2-6])\b', t)
+    if m:
+        o['min_score'] = int(m.group(1))
+        said.append('signal score at least %d' % o['min_score'])
+    m = _n1071_re.search(r'\b(?:signals?|score|timeframe|time frame)\s+(?:on|from|of|using)?\s*(?:the\s+)?(daily|weekly|hourly|1h|60m|4h|4 hour|15m|15 ?min(?:ute)?|5m|5 ?min(?:ute)?)\b', t) or \
+        _n1071_re.search(r'\b(?:on|use|using)\s+(?:the\s+)?(daily|weekly|hourly|4 hour|15 minute|5 minute)\s+(?:candles|bars|chart|timeframe|signals?)\b', t)
+    if m:
+        key = m.group(1).replace('minute', 'min').replace('  ', ' ')
+        tf = _N1071_TF.get(key) or _N1071_TF.get(key.replace(' ', '')) or _N1071_TF.get(m.group(1))
+        if tf:
+            o['tf'] = tf
+            said.append('signal timeframe %s' % {'1D': 'daily', '1W': 'weekly', '60': '1 hour', '240': '4 hours', '15': '15 minutes', '5': '5 minutes'}[tf])
+    m = _n1071_re.search(r'\b(?:entr(?:y|ies)|trade|trading)\s+(?:only\s+)?(?:between|from)\s+(\d{1,2})[:.](\d{2})\s*(?:and|to|-|till|until)\s*(\d{1,2})[:.](\d{2})\b', t)
+    if m:
+        a, b = int(m.group(1)) * 60 + int(m.group(2)), int(m.group(3)) * 60 + int(m.group(4))
+        if 555 <= a < b <= 930:
+            o['session'] = '%02d%02d-%02d%02d' % (a // 60, a % 60, b // 60, b % 60)
+            said.append('entries %02d:%02d to %02d:%02d IST' % (a // 60, a % 60, b // 60, b % 60))
+    m = _n1071_re.search(r'\bsquare[- ]?off\s*(?:at|by|from)?\s*(\d{1,2})[:.](\d{2})\b', t)
+    if m:
+        hh, mm = int(m.group(1)), int(m.group(2))
+        if 9 <= hh <= 15 and 0 <= mm <= 59 and hh * 60 + mm <= 930:
+            o['sq'] = (hh, mm)
+            said.append('square off at %02d:%02d IST' % (hh, mm))
+    return o, said
+
+
+def _n1071_survival_code(o):
+    """The Survival Strategy with these settings, as plain ASCII Pine v6."""
+    subs = {'CAPITAL': str(int(o['capital'])), 'SIGTF': o['tf'], 'MINSCORE': str(int(o['min_score'])), 'SHORTS': 'true' if o['shorts'] else 'false',
+            'RISK': '%.1f' % o['risk'], 'SLATR': '%.1f' % o['sl_atr'], 'TPATR': '%.1f' % o['tp_atr'], 'MAXTRADES': str(int(o['max_trades'])),
+            'MAXLOSSES': str(int(o['max_losses'])), 'DAYLOSS': '%.1f' % o['day_loss'], 'WEEKLOSS': '%.1f' % o['week_loss'], 'LOT': str(int(o['lot'])),
+            'SESSION': o['session'], 'SQH': str(int(o['sq'][0])), 'SQM': str(int(o['sq'][1]))}
+    code = _N1071_SURVIVAL_PINE
+    for k, v in subs.items():
+        code = code.replace('{{' + k + '}}', v)
+    if '{{' in code or not _n1071_re.fullmatch(r'\d{4}-\d{4}', o['session']) or o['tf'] not in ('1D', '1W', '60', '240', '15', '5'):
+        raise ValueError('survival settings')
+    return _pine_sanitize(code)
+
+
+def _n1071_survival_text(o, said):
+    sh, sm = o['sq']
+    sess = '%s:%s to %s:%s' % (o['session'][:2], o['session'][2:4], o['session'][5:7], o['session'][7:9])
+    tfw = {'1D': 'completed daily bars', '1W': 'completed weekly bars', '60': 'completed 1-hour bars', '240': 'completed 4-hour bars', '15': 'completed 15-minute bars',
+           '5': 'completed 5-minute bars'}[o['tf']]
+    lines = ['🛡 Nemo Survival Strategy (Pine Script v6). The file is attached.', '',
+             'My own rules, built in:',
+             '• Signal: my GODMODE score on %s (EMA20 above/below EMA50 in a real trend ±2, EMA20 slope ±1, RSI above 55 or below 45 ±1, MACD histogram growing ±1, '
+             'near the 3-month high or low ±1). It trades only a strong signal: %+d or more to buy%s.' % (tfw, o['min_score'], ', %+d or less to sell short' % -o['min_score'] if o['shorts'] else ' (long trades only)'),
+             '• Stop %g x ATR and target %g x ATR, attached the moment the order is placed.' % (o['sl_atr'], o['tp_atr']),
+             '• Size: risk %g%% of equity per trade%s, never more than the equity (no leverage). One position at a time, never adds to a loser.' % (
+                 o['risk'], ', in whole lots of %d' % o['lot'] if o['lot'] else ''),
+             '• At most %d trade%s a day; stops for the day after %d losing trade%s; no new trades once the day is down %g%% or the week down %g%%.' % (
+                 o['max_trades'], '' if o['max_trades'] == 1 else 's', o['max_losses'], '' if o['max_losses'] == 1 else 's', o['day_loss'], o['week_loss']),
+             '• Intraday charts: new entries only %s IST, square-off from %02d:%02d.' % (sess, sh, sm),
+             '• Starting capital in the backtest: ₹{:,}.'.format(int(o['capital']))]
+    if said:
+        lines += ['', 'Changed from your words: ' + '; '.join(said) + '.']
+    lines += ['', 'How to use it: TradingView → Pine Editor → paste the file\'s contents → Save → Add to chart → Strategy Tester. Copy from the attached file, not from this chat.',
+              'On a NIFTY chart it trades the index itself as a stand-in. My agent buys an at-the-money CE or PE on the same signal, and option prices are not on that chart.',
+              '', 'Checked: my Pine checks passed (version line, one strategy(), v6 names, balanced brackets, no plots inside blocks, plain ASCII), and this layout passed a full Pine '
+              'grammar parse when this version of me was built. I have not compiled it inside TradingView myself: if TradingView shows an error, send me the error text and I will fix the script.',
+              '', 'Change it in words, for example: “survival pine script with 2% risk and 2 trades a day”, “long only”, “lot 65”, “capital 50000”.',
+              'This is practice and analysis, not advice. Try it on paper first.']
+    return '\n'.join(lines)
+
+
+# ------------------------------------------------ a real Pine grammar parse (pynescript), in a separate low-priority process ------------------------------------------------
+_N1071_PARSE_CHILD = r'''
+import sys, os, json, time
+try:
+    with open('/proc/self/oom_score_adj', 'w') as f:
+        f.write('1000')
+except Exception:
+    pass
+try:
+    os.nice(19)
+except Exception:
+    pass
+try:
+    from antlr4 import CommonTokenStream, InputStream
+    from antlr4.atn.PredictionMode import PredictionMode
+    from antlr4.error.ErrorStrategy import BailErrorStrategy
+    from antlr4.error.Errors import ParseCancellationException
+    from pynescript.ast.grammar.antlr4.lexer import PinescriptLexer
+    from pynescript.ast.grammar.antlr4.parser import PinescriptParser
+    from pynescript.ast.grammar.antlr4.error_listener import PinescriptErrorListener
+    from pynescript.ast.error import SyntaxError as PineSyntaxError
+except Exception as e:
+    sys.stdout.write(json.dumps({'ready': False, 'why': type(e).__name__}) + '\n')
+    sys.stdout.flush()
+    sys.exit(0)
+sys.setrecursionlimit(20000)
+
+
+def parser_for(src, fast):
+    lexer = PinescriptLexer(InputStream(src))
+    lexer.removeErrorListeners()
+    lexer.addErrorListener(PinescriptErrorListener.INSTANCE)
+    p = PinescriptParser(CommonTokenStream(lexer))
+    p.removeErrorListeners()
+    if fast:
+        p._interp.predictionMode = PredictionMode.SLL
+        p._errHandler = BailErrorStrategy()
+    else:
+        p.addErrorListener(PinescriptErrorListener.INSTANCE)
+    return p
+
+
+def check(src):
+    try:
+        parser_for(src, True).start_script()
+        return
+    except ParseCancellationException:
+        pass
+    parser_for(src, False).start_script()
+
+
+sys.stdout.write(json.dumps({'ready': True}) + '\n')
+sys.stdout.flush()
+for line in sys.stdin:
+    try:
+        req = json.loads(line)
+    except ValueError:
+        continue
+    t0 = time.time()
+    try:
+        check(str(req.get('code') or ''))
+        r = {'state': 'ok'}
+    except PineSyntaxError as e:
+        d = getattr(e, 'details', None)
+        r = {'state': 'error', 'line': getattr(d, 'lineno', None), 'error': str(getattr(e, 'message', '') or 'syntax error')[:300], 'text': str(getattr(d, 'text', '') or '').strip()[:160]}
+    except SyntaxError as e:
+        r = {'state': 'error', 'line': e.lineno, 'error': str(e.msg or e)[:300], 'text': (e.text or '').strip()[:160]}
+    except RecursionError:
+        r = {'state': 'unavailable', 'error': 'too deeply nested for the parser'}
+    except Exception as e:
+        r = {'state': 'unavailable', 'error': type(e).__name__}
+    r['id'] = req.get('id')
+    r['s'] = round(time.time() - t0, 2)
+    sys.stdout.write(json.dumps(r) + '\n')
+    sys.stdout.flush()
+'''
+
+
+def _n1071_has_parser(py):
+    try:
+        r = _n1071_sp.run([py, '-I', '-c', 'import pynescript, antlr4'], stdin=_n1071_sp.DEVNULL, stdout=_n1071_sp.DEVNULL, stderr=_n1071_sp.DEVNULL, timeout=30)
+        return r.returncode == 0
+    except Exception:
+        return False
+
+
+def _n1071_parser_python(refresh=False):
+    """The Python that can import pynescript: Nemo's own, or one of the isolated tool environments. Looked up at most every 10 minutes; None when there is none."""
+    now = _n1071_time.time()
+    with _N1071_LOCK:
+        if not refresh and now - _N1071_PY['t'] < 600:
+            return _N1071_PY['py']
+    found = None
+    root = globals().get('TOOL_ENV_ROOT', '/root/nemo_envs')
+    for py in [_n1071_sys.executable] + sorted(_n1071_glob.glob(_n1071_os.path.join(root, '*', 'bin', 'python3')) + _n1071_glob.glob(_n1071_os.path.join(root, '*', 'bin', 'python'))):
+        if py and _n1071_os.path.exists(py) and _n1071_has_parser(py):
+            found = py
+            break
+    with _N1071_LOCK:
+        _N1071_PY.update(t=now, py=found)
+    return found
+
+
+class _N1071Grammar(object):
+    """One parser process for one job. It starts at once and warms up (its first parse is slow: about half a minute on a small server) while the AI writes; later parses take
+    well under a second. state: 'unavailable' (no parser installed, or it failed), 'ready'. check() returns {'state': 'ok'|'error'|'unavailable', ...}."""
+
+    def __init__(self, warm=(), py=None, child=None):
+        self.p = None
+        self.q = _n1071_queue.Queue()
+        self.n = 0
+        self.first = True
+        self.state = 'unavailable'
+        self.why = ''
+        py = py or _n1071_parser_python()
+        if not py:
+            self.why = 'pynescript is not installed'
+            return
+        try:
+            self.p = _n1071_sp.Popen([py, '-I', '-c', child or _N1071_PARSE_CHILD], stdin=_n1071_sp.PIPE, stdout=_n1071_sp.PIPE, stderr=_n1071_sp.DEVNULL,
+                                     text=True, bufsize=1, start_new_session=True)
+        except Exception as exc:
+            self.p = None
+            self.why = 'the parser could not start (%s)' % type(exc).__name__
+            return
+        _n1071_threading.Thread(target=self._read, daemon=True, name='nemo-pine1071-parse').start()
+        self.state = 'starting'
+        for code in warm:
+            self._send('w%d' % self.n, code)
+            self.n += 1
+
+    def _read(self):
+        try:
+            for line in self.p.stdout:
+                try:
+                    self.q.put(_n1071_json.loads(line))
+                except ValueError:
+                    continue
+        except Exception:
+            pass
+        self.q.put(None)
+
+    def _send(self, rid, code):
+        try:
+            self.p.stdin.write(_n1071_json.dumps({'id': rid, 'code': code}) + '\n')
+            self.p.stdin.flush()
+            return True
+        except Exception:
+            return False
+
+    def check(self, code, timeout=None):
+        if self.p is None or self.state == 'unavailable':
+            return {'state': 'unavailable', 'error': self.why or 'no parser'}
+        rid = 'c%d' % self.n
+        self.n += 1
+        if not self._send(rid, code):
+            self.state, self.why = 'unavailable', 'the parser stopped'
+            return {'state': 'unavailable', 'error': self.why}
+        limit = timeout or (_N1071_LIMITS['grammar_first_s'] if self.first else _N1071_LIMITS['grammar_s'])
+        end = _n1071_time.time() + limit
+        while True:
+            left = end - _n1071_time.time()
+            if left <= 0:
+                self.close()
+                self.why = 'the grammar check took longer than %d seconds' % int(limit)
+                return {'state': 'unavailable', 'error': self.why}
+            try:
+                r = self.q.get(timeout=min(1.0, left))
+            except _n1071_queue.Empty:
+                continue
+            if r is None:
+                self.close()
+                self.why = 'the parser stopped'
+                return {'state': 'unavailable', 'error': self.why}
+            if 'ready' in r:
+                if not r['ready']:
+                    self.close()
+                    self.why = 'pynescript could not be loaded (%s)' % r.get('why', '?')
+                    return {'state': 'unavailable', 'error': self.why}
+                self.state = 'ready'
+                continue
+            if r.get('id') == rid:
+                self.first = False
+                return r
+
+    def close(self):
+        p, self.p = self.p, None
+        self.state = 'unavailable'
+        if p is not None:
+            try:
+                _n1071_os.killpg(p.pid, _n1071_signal.SIGKILL)
+            except Exception:
+                try:
+                    p.kill()
+                except Exception:
+                    pass
+            try:
+                p.wait(timeout=5)
+            except Exception:
+                pass
+            for pipe in (p.stdin, p.stdout):
+                try:
+                    pipe.close()
+                except Exception:
+                    pass
+
+
+def _n1071_problems(code, grammar=None, keep=()):
+    """What is wrong with a script, in words, from the regex checks, the grammar parse (when there is one) and the survival parts that must stay. ([], grammar_state)."""
+    if not code or not code.strip():
+        return ['no code was produced'], 'none'
+    errs = list(pine_lint(code))
+    missing = [k for k in keep if k not in code]
+    if missing:
+        errs.append('The survival rules were removed or renamed (%s): keep every survival rule exactly as in the original.' % ', '.join(missing))
+    state = 'none'
+    if grammar is not None and not errs:
+        r = grammar.check(code)
+        state = r.get('state', 'unavailable')
+        if state == 'error':
+            errs.append('Pine grammar error at line %s: %s%s' % (r.get('line') or '?', r.get('error') or 'syntax error', (' (in: %s)' % r['text']) if r.get('text') else ''))
+    return errs, state
+
+
+# ------------------------------------------------ files, delivery, the last script ------------------------------------------------
+def _n1071_out_dir():
+    d = '/root/nemo_code'
+    _n1071_os.makedirs(d, exist_ok=True)
+    return d
+
+
+def _n1071_slug(text, default='pine_strategy'):
+    s = _n1071_re.sub(r'(?i)\b(?:please|pls|can you|could you|create|make|write|build|generate|give me|a|an|the|new|pine ?script|pinescript|pine|code|for me|with|your|my|me)\b', ' ', str(text or ''))
+    s = _n1071_re.sub(r'[^A-Za-z0-9]+', '_', s).strip('_').lower()[:36].strip('_')
+    return s or default
+
+
+def _n1071_save(cid, name, code, kind, spec, opts=None):
+    path = _n1071_os.path.join(_n1071_out_dir(), name)
+    with open(path, 'w', encoding='ascii', errors='replace', newline='\n') as f:
+        f.write(code)
+    rec = {'path': path, 'name': name, 'kind': kind, 'spec': str(spec or '')[:300], 't': _n1071_time.time(), 'opts': opts}
+    with _N1071_LOCK:
+        _N1071_LAST[cid] = rec
+    try:
+        _n106_kv_set('n1071_last_%s' % cid, _n1071_json.dumps(rec))
+    except Exception:
+        pass
+    return path
+
+
+def _n1071_last(cid):
+    """The last script delivered in this chat (within a week), with its code read back from the file; or None."""
+    with _N1071_LOCK:
+        rec = _N1071_LAST.get(cid)
+    if rec is None:
+        try:
+            raw = _n106_kv_get('n1071_last_%s' % cid, '')
+            rec = _n1071_json.loads(raw) if raw else None
+        except (ValueError, TypeError):
+            rec = None
+    if not isinstance(rec, dict) or _n1071_time.time() - float(rec.get('t') or 0) > _N1071_LIMITS['last_days'] * 86400:
+        return None
+    try:
+        with open(rec['path'], encoding='ascii', errors='replace') as f:
+            rec = dict(rec, code=f.read())
+    except (OSError, KeyError, TypeError):
+        return None
+    return rec
+
+
+def _n1071_send_file(cid, path, name):
+    try:
+        return bool(send_document(cid, path, name, 'text/plain'))
+    except Exception:
+        return False
+
+
+def _n1071_email_to(text):
+    """The address to email the script to, when the words ask for it ("… and email it to x@y.com", "mail it to me"); else ''."""
+    t = str(text or '')
+    m = _n1071_re.search(r'[\w.+-]+@[\w-]+(?:\.[\w-]+)+', t)
+    if m:
+        return m.group(0)
+    if _n1071_re.search(r'(?i)\b(?:e-?mail|mail)\b.{0,20}\b(?:me|it|to my|inbox)\b|\b(?:to|on|in) my (?:e-?mail|mail|inbox)\b', t):
+        return globals().get('OWNER_EMAIL') or ''
+    return ''
+
+
+def _n1071_deliver(cid, path, name, note, email_to=''):
+    """The note, then the file (and an email when one was asked for). If Telegram does not confirm the file, say so and where it is kept."""
+    send_text(cid, note[:3900])
+    ok = _n1071_send_file(cid, path, name)
+    if not ok:
+        send_text(cid, 'Telegram did not confirm the file %s. It is saved on the server at %s; say “send the pine file again” and I will try once more.' % (name, path))
+    if email_to:
+        try:
+            with open(path, encoding='ascii', errors='replace') as f:
+                body = 'Your Pine Script is attached and pasted below.\n\n' + f.read()
+            sent = send_email(email_to, 'Your Pine Script: ' + name, body, path)
+        except Exception:
+            sent = False
+        send_text(cid, ('📧 Emailed it to %s.' % email_to) if sent else ('📧 I could not email it: %s.' % (globals().get('LAST_EMAIL_ERR') or 'the mail service did not confirm')))
+    return ok
+
+
+def _n1071_remember(cid, user_text, reply):
+    """Keep the exchange in the chat history so follow-ups ("make it long only") have context."""
+    try:
+        with LOCK:
+            h = HISTORY.setdefault(cid, [])
+            h.extend([{'role': 'user', 'content': _n79_redact(str(user_text))[:2000]}, {'role': 'assistant', 'content': str(reply)[:600]}])
+            del h[:-72]
+    except Exception:
+        pass
+
+
+def _n1071_status_msg(cid, text):
+    try:
+        r = tg('sendMessage', chat_id=cid, text=text)
+        return (r or {}).get('result', {}).get('message_id')
+    except Exception:
+        return None
+
+
+def _n1071_edit(cid, mid, text):
+    if not mid:
+        return
+    try:
+        tg('editMessageText', chat_id=cid, message_id=mid, text=text)
+    except Exception:
+        pass
+
+
+# ------------------------------------------------ the jobs ------------------------------------------------
+def _n1071_survival_job(cid, text, base=None):
+    try:
+        o, said = _n1071_opts(text, base)
+        code = _n1071_survival_code(o)
+        errs = pine_lint(code)
+        if errs:                                                        # cannot happen with the fixed layout; never deliver a script that fails the checks
+            _N1071_STATS['errors'] += 1
+            send_text(cid, 'My survival script failed my own checks (%s), so I did not send it. This is a fault in me; nothing was changed.' % _n1071_clip('; '.join(errs), 200))
+            return
+        name = 'nemo_survival_strategy.pine'
+        path = _n1071_save(cid, name, code, 'survival', text, o)
+        note = _n1071_survival_text(o, said)
+        _n1071_deliver(cid, path, name, note, _n1071_email_to(text))
+        _n1071_remember(cid, text, 'I sent the Pine Script file %s: Nemo Survival Strategy (my GODMODE score plus my survival rules)%s.' % (name, (' with ' + '; '.join(said)) if said else ''))
+        _N1071_STATS['survival'] += 1
+    except Exception as exc:
+        _N1071_STATS['errors'] += 1
+        send_text(cid, 'I could not build the survival script (%s). Nothing was changed; ask me again.' % type(exc).__name__)
+
+
+_N1071_TEMPLATES = {'ema': ('EMA crossover with a volume filter and ATR target / % stop', 'PINE_TEMPLATE', 'ema_crossover'),
+                    'supertrend': ('Supertrend trend-rider with an ATR trailing stop', 'PINE_T_SUPERTREND', 'supertrend'),
+                    'orb': ('Opening range breakout for NIFTY intraday', 'PINE_T_ORB', 'opening_range_breakout'),
+                    'vwap': ('VWAP mean reversion with standard-deviation bands', 'PINE_T_VWAP', 'vwap_reversion'),
+                    'rsi': ('RSI momentum with a higher-timeframe trend filter', 'PINE_T_RSI_HTF', 'rsi_trend'),
+                    'confluence': ('Trend + momentum + volume confluence', 'PINE_T_CONFLUENCE', 'confluence')}
+
+
+def _n1071_template_job(cid, key):
+    try:
+        title, var, base = _N1071_TEMPLATES[key]
+        code = _pine_sanitize(globals()[var])
+        if pine_lint(code):
+            _N1071_STATS['errors'] += 1
+            send_text(cid, 'That ready-made script failed my checks, so I did not send it. Describe the rules and I will write one.')
+            return
+        name = base + '.pine'
+        path = _n1071_save(cid, name, code, 'template', key)
+        note = ('📈 %s (Pine Script v6), a ready-made script from my library. The file is attached.\n\n'
+                'Checked: my Pine checks passed, and it passed a full Pine grammar parse when this version of me was built. I have not compiled it inside TradingView myself: '
+                'if TradingView shows an error, send me the error text and I will fix it.\n\n'
+                'Want changes? Say them in words (“add an RSI filter”, “only long trades”, “use my survival rules with it”). This is practice, not advice.' % title)
+        _n1071_deliver(cid, path, name, note)
+        _n1071_remember(cid, 'pine script: ' + title, 'I sent the Pine Script file %s (%s).' % (name, title))
+        _N1071_STATS['templates'] += 1
+    except Exception as exc:
+        _N1071_STATS['errors'] += 1
+        send_text(cid, 'I could not send that script (%s). Nothing was changed.' % type(exc).__name__)
+
+
+def _n1071_ai_loop(cid, mid, first_prompt, fallback, keep, label, deadline):
+    """AI writes, the checks judge, the AI repairs (twice at most, while time allows). Returns (code, used_fallback, errs, grammar_state, tries, why the grammar did not run)."""
+    grammar = _N1071Grammar(warm=[fallback])
+    try:
+        code = _pine_sanitize(_pine_ask(first_prompt) or '')
+        errs, gstate = _n1071_problems(code, grammar, keep)
+        tries = 0
+        while errs and tries < _N1071_LIMITS['tries'] and deadline - _n1071_time.time() > _N1071_LIMITS['repair_left_s']:
+            tries += 1
+            _n1071_edit(cid, mid, '🔧 %s: found %d problem%s, fixing them myself (pass %d of %d)…' % (label, len(errs), '' if len(errs) == 1 else 's', tries, _N1071_LIMITS['tries']))
+            code = _pine_sanitize(_pine_ask('This Pine Script v6 has these problems. FIX them and return ONLY the full corrected script, with the same logic:\nPROBLEMS:\n- ' +
+                                            '\n- '.join(errs) + '\n\nSCRIPT:\n' + code) or '')
+            errs, gstate = _n1071_problems(code, grammar, keep)
+        if errs:
+            return _pine_sanitize(fallback), True, errs, gstate, tries, grammar.why
+        return code, False, [], gstate, tries, grammar.why
+    finally:
+        grammar.close()
+
+
+def _n1071_check_words(gstate, why=''):
+    if gstate == 'ok':
+        _N1071_STATS['grammar_ok'] += 1
+        return 'my Pine checks passed and a full Pine grammar parse found no syntax error'
+    _N1071_STATS['grammar_none'] += 1
+    why = why or 'pynescript is not installed'
+    return ('my Pine checks passed (version line, one declaration, v6 names, balanced brackets, no plots inside blocks, plain ASCII). The full grammar parse did not run (%s%s)' % (
+        why, '; say “install pynescript” to add it' if 'not installed' in why else ''))
+
+
+def _n1071_custom_job(cid, spec, survival_base=False, base=None):
+    """The AI writes a script (survival_base: Nemo's survival strategy changed as asked; base: a change to the last script, whose record it is)."""
+    t0 = _n1071_time.time()
+    deadline = t0 + _N1071_LIMITS['budget_s']
+    try:
+        if base:
+            fallback = base['code']
+            o = base.get('opts')
+            survival_base = str(base.get('kind') or '').startswith('survival')
+            approach, keep = 'a change to your last script (%s)' % base.get('name'), (_N1071_SURVIVAL_KEEP if survival_base else ())
+        elif survival_base:
+            o, said = _n1071_opts(spec)
+            fallback = _n1071_survival_code(o)
+            approach, keep = "Nemo's survival rules with the changes you asked for", _N1071_SURVIVAL_KEEP
+        else:
+            approach, fallback, _rot = _pine_pick(spec)
+            keep, o = (), None
+        want_ind = bool(_n1071_re.search(r'\bindicator\b', spec.lower()) and not _n1071_re.search(r'\bstrateg', spec.lower())) and not survival_base
+        mid = _n1071_status_msg(cid, '📈 Writing your Pine Script v6…\nApproach: %s\nThen I check it before sending.' % _n1071_clip(approach, 90))
+        if base:
+            prompt = ('Change this Pine Script v6 as the request asks and keep everything else as it is' +
+                      (', including EVERY survival rule (risk-per-trade sizing, trade limit, losses per day, daily and weekly loss limits, entry window, square-off, stop and target '
+                       'attached at entry, pyramiding=0)' if survival_base else '') + '. Return ONLY the complete script, no prose, no fences.\nREQUEST: ' + spec + '\n\nSCRIPT:\n' + fallback)
+        elif survival_base:
+            prompt = ('Start from Nemo\'s Survival Strategy below and change it as the request asks. Keep EVERY survival rule exactly as it is: the risk-per-trade sizing, the trade limit '
+                      'per day, the losses per day, the daily and weekly loss limits, the entry window, the square-off, the stop and target attached at entry, one position at a time '
+                      '(pyramiding=0). Change only what the request asks (for example the entry signal). Return ONLY the complete Pine Script v6, no prose, no fences.\n'
+                      'REQUEST: ' + spec + '\n\nNEMO SURVIVAL STRATEGY:\n' + fallback)
+        else:
+            prompt = ('Write a COMPLETE, genuinely useful Pine Script v6 ' + ('indicator' if want_ind else 'strategy') + ' for this request:\n' + spec +
+                      '\n\nAPPROACH to build: ' + approach + '. Expose real inputs, include a take-profit and a stop-loss' + ('' if want_ind else ' (strategy.exit with limit/stop or profit/loss)') +
+                      ', buy/sell markers and alertcondition() alerts. Mirror the correct SYNTAX of this verified reference, but build the request, not this exact logic:\n' + fallback)
+        code, used_fallback, errs, gstate, tries, gwhy = _n1071_ai_loop(cid, mid, prompt, fallback, keep, 'Pine Script', deadline)
+        if base and (used_fallback or code.strip() == fallback.strip()):
+            _n1071_edit(cid, mid, 'Change attempt finished.')
+            send_text(cid, 'I could not make that change pass my checks%s, so your last script (%s) stays as it was and I did not send a new file. Say the change again in other words, '
+                           'or ask for a fresh script.' % ((' (%s)' % _n1071_clip('; '.join(errs), 200)) if errs else '', base.get('name')))
+            return
+        if base:
+            stem = _n1071_os.path.splitext(str(base.get('name') or 'pine'))[0]
+            name = (stem if stem.endswith('_changed') else stem + '_changed')[:48] + '.pine'
+        else:
+            name = (('nemo_survival_' + _n1071_slug(spec, 'custom')) if survival_base else _n1071_slug(spec))[:48].strip('_') + '.pine'
+        path = _n1071_save(cid, name, code, 'survival_custom' if survival_base else 'custom', spec, o)
+        if used_fallback:
+            _N1071_STATS['fallbacks'] += 1
+            note = ('⚠️ The version the AI wrote still had problems after %d fix%s (%s), so I am sending %s instead: it passes my checks. Tell me the exact change again and I will retry.' % (
+                tries, '' if tries == 1 else 'es', _n1071_clip('; '.join(errs), 300),
+                'my Survival Strategy without that change' if survival_base else 'my hand-checked script for this approach (%s)' % approach))
+        else:
+            note = '✅ Your Pine Script v6 is attached (%s). Checked: %s.' % (_n1071_clip(approach, 90), _n1071_check_words(gstate, gwhy))
+        note += ('\n\nI have not compiled it inside TradingView myself: if TradingView shows an error, send me the error text and I will fix it. Copy from the attached file, not from this chat. '
+                 'This is practice, not advice; test it on paper first.')
+        _n1071_edit(cid, mid, '📈 Pine Script ready (%d s).' % int(_n1071_time.time() - t0))
+        _n1071_deliver(cid, path, name, note, _n1071_email_to(spec))
+        _n1071_remember(cid, spec, 'I sent the Pine Script file %s (%s)%s.' % (name, approach, ', a checked fallback because the AI version had problems' if used_fallback else ''))
+        _N1071_STATS['custom'] += 1
+    except Exception as exc:
+        _N1071_STATS['errors'] += 1
+        send_text(cid, 'I could not write that Pine Script (%s). Nothing was changed; ask me again, or say “pine script with your survival logic” for my own strategy.' % type(exc).__name__)
+
+
+def _n1071_repair_job(cid, error_text, pasted=None):
+    t0 = _n1071_time.time()
+    try:
+        last = None if pasted else _n1071_last(cid)
+        code = pasted or (last or {}).get('code')
+        if not code:
+            send_text(cid, 'Which script? Paste the script together with the TradingView error, or ask me to make the script again.')
+            return
+        keep = _N1071_SURVIVAL_KEEP if last and str(last.get('kind', '')).startswith('survival') else ()
+        name = (last or {}).get('name') or 'fixed_script.pine'
+        if not name.startswith('fixed_'):
+            name = 'fixed_' + name
+        mid = _n1071_status_msg(cid, '🔧 Reading the TradingView error and fixing the script…')
+        prompt = ('TradingView reports this error for the Pine Script below. Find the cause, fix it, and return ONLY the full corrected Pine Script v6 with the same logic. '
+                  'No prose, no fences.\nTRADINGVIEW ERROR:\n' + _n1071_clip(error_text, 1500) + '\n\nSCRIPT:\n' + _pine_sanitize(code))
+        fixed, failed, errs, gstate, tries, gwhy = _n1071_ai_loop(cid, mid, prompt, code, keep, 'Fix', t0 + _N1071_LIMITS['budget_s'])
+        if failed or fixed.strip() == _pine_sanitize(code).strip():
+            _n1071_edit(cid, mid, 'Fix attempt finished.')
+            send_text(cid, 'I could not produce a fixed version that passes my checks%s, so I did not send a new file. Send me the exact error line from TradingView '
+                           '(it starts with “line N:”), or ask me for my survival script again.' % ((' (%s)' % _n1071_clip('; '.join(errs), 200)) if errs else ''))
+            return
+        path = _n1071_save(cid, name, fixed, (last or {}).get('kind') or 'repaired', error_text, (last or {}).get('opts'))
+        note = ('🔧 Fixed script attached (%s). Checked: %s.\nI have not compiled it inside TradingView myself; if it still shows an error, send it to me again.' % (name, _n1071_check_words(gstate, gwhy)))
+        _n1071_edit(cid, mid, '🔧 Fixed (%d s).' % int(_n1071_time.time() - t0))
+        _n1071_deliver(cid, path, name, note)
+        _n1071_remember(cid, 'TradingView error: ' + _n1071_clip(error_text, 300), 'I sent the fixed Pine Script file %s.' % name)
+        _N1071_STATS['repairs'] += 1
+    except Exception as exc:
+        _N1071_STATS['errors'] += 1
+        send_text(cid, 'I could not fix the script (%s). Nothing was changed.' % type(exc).__name__)
+
+
+def _n1071_resend(cid):
+    last = _n1071_last(cid)
+    if not last:
+        send_text(cid, 'I have no Pine Script from this week to send again. Ask me to make one.')
+        return
+    if _n1071_send_file(cid, last['path'], last['name']):
+        _N1071_STATS['resent'] += 1
+    else:
+        send_text(cid, 'Telegram did not confirm the file again. It is on the server at %s.' % last['path'])
+
+
+def _n1071_card(cid, user_text='pine script'):
+    kb = {'inline_keyboard': [[{'text': '🛡 My survival strategy (my own rules)', 'callback_data': 'pn1071:s'}],
+                              [{'text': 'EMA crossover', 'callback_data': 'pn1071:t:ema'}, {'text': 'Supertrend', 'callback_data': 'pn1071:t:supertrend'}],
+                              [{'text': 'Opening range breakout', 'callback_data': 'pn1071:t:orb'}, {'text': 'VWAP reversion', 'callback_data': 'pn1071:t:vwap'}],
+                              [{'text': 'RSI + trend filter', 'callback_data': 'pn1071:t:rsi'}, {'text': 'Confluence', 'callback_data': 'pn1071:t:confluence'}]]}
+    text = ('Which Pine Script should I write? Tap one, or tell me your own entry and exit rules in words '
+            '(for example “buy when RSI crosses 30 above the 200 EMA, stop 1%, target 2%”).')
+    try:
+        r = tg('sendMessage', chat_id=cid, text=text, reply_markup=_n1071_json.dumps(kb))
+        mid = (r or {}).get('result', {}).get('message_id')
+    except Exception:
+        mid = None
+    with _N1071_LOCK:
+        _N1071_PEND[cid] = {'t': _n1071_time.time(), 'mid': mid}
+    _n1071_remember(cid, user_text, text)
+    _N1071_STATS['cards'] += 1
+
+
+# ------------------------------------------------ understanding the request ------------------------------------------------
+_N1071_PINE = _n1071_re.compile(r"\bpine[\s-]*(?:script|code|strateg\w*|indicator)s?\b|\bpinescript\b|\btrading\s*view\s+(?:script|strateg\w*|indicator|code|alert script)s?\b|\bpine\s+v?[56]\b", _n1071_re.I)
+_N1071_MAKE = _n1071_re.compile(r"\b(?:create|make|write|build|generate|give|code|design|prepare|draft|convert|turn|need|want|send|update|change|modify|improve|edit|add|remove|redo|rewrite|"
+                                r"banao|banado|bana\s*do|bana\s*ke|bana\s*dijiye|likho|likh\s*do|chahiye|chaiye)\b", _n1071_re.I)
+_N1071_QUESTION = _n1071_re.compile(r"^(?:what|why|explain|tell me (?:about|what)|is|are|does|do you know|kya|which|how (?:do|does|can|should|to|is|are) (?:i|we)?\s*(?:use|add|apply|install|paste|load|backtest|"
+                                    r"read|learn|work|start|run|import|open|set|test|understand)\b)", _n1071_re.I)
+_N1071_SURV = _n1071_re.compile(r"\bsurviv\w*|\b(?:your|nemo'?s?|apni|apna|tumhari|tumhara|aapki|aapka|teri|tera)\s+(?:own\s+)?(?:survival\s+)?(?:logic|logics|rules?|strateg\w*|system|setup|method|style|"
+                                r"way of trading|trading)\b|\bgod\s?mode\b|\brisk[- ]first\b|\bcapital (?:protection|preservation|safety)\b|\bprotect (?:my |the )?capital\b|\bthe way you trade\b|"
+                                r"\b(?:agent|bot)'?s? (?:logic|rules?|strateg\w*)\b", _n1071_re.I)
+_N1071_RULES = _n1071_re.compile(r"\b(?:surviv\w*|logic|logics|rules?|strateg\w*|indicator|ema|sma|wma|hma|vwap|rsi|macd|supertrend|super trend|bollinger|atr|adx|stoch\w*|ichimoku|donchian|"
+                                 r"keltner|pivot|fibonacci|breakout|break out|crossover|cross|trend|momentum|scalp\w*|intraday|swing|entry|entries|exit|stop[- ]?loss|sl|target|take[- ]?profit|"
+                                 r"trailing|candle\w*|engulfing|volume|orb|opening range|long|short|buy|sell|nifty|bank ?nifty|sensex|options?|risk|lots?)\b", _n1071_re.I)
+_N1071_EXTRA_LOGIC = _n1071_re.compile(r"\b(?:supertrend|super trend|vwap|bollinger|adx|stoch\w*|ichimoku|donchian|keltner|pivot|fibonacci|orb|opening range|engulfing|candle\w* patterns?|"
+                                       r"trailing|scalp\w*|heikin|renko|order block|smc|fair value gap|fvg|divergence|cci|mfi|obv|hma|wma|sma|crossover)\b|"
+                                       r"\b(?:indicator|alert)s? only\b|\bas an indicator\b|\binstead of\b|\breplace\b", _n1071_re.I)
+_N1071_FILLER = frozenset(('a', 'an', 'the', 'me', 'for', 'my', 'please', 'pls', 'plz', 'can', 'could', 'would', 'you', 'new', 'one', 'some', 'any', 'good', 'best', 'nice', 'great', 'simple',
+                           'strategy', 'pine', 'script', 'pinescript', 'code', 'tradingview', 'trading', 'view', 'nemo', 'hey', 'hi', 'ok', 'okay', 'i', 'want', 'need', 'to', 'create', 'make',
+                           'write', 'build', 'generate', 'give', 'design', 'prepare', 'draft', 'send', 'banao', 'banado', 'bana', 'do', 'dijiye', 'chahiye', 'chaiye', 'ek', 'koi', 'nayi', 'naya',
+                           'nifty', 'banknifty', 'bank', 'sensex', 'stocks', 'stock', 'v6', 'v5', 'version', '6', '5', 'of', 'in', 'on', 'and', 'it', 'us', 'now', 'today', 'kindly', 'just', 'another',
+                           'more', 'likho', 'likh', 'mujhe', 'muje', 'ke', 'liye'))
+# TradingView's own compile-error wording (strong: safe to act on even without the word "pine"), and looser wording that needs "pine"/"tradingview" or pasted code with it.
+_N1071_TVERR = _n1071_re.compile(r"(?i)\b(?:syntax error at input|undeclared identifier|could not find (?:function|variable|method)(?: or function reference)?|mismatched input|"
+                                 r"no viable alternative at|script could not be translated|cannot determine the referencing length|cannot use a mutable variable|"
+                                 r"cannot call '[^']{1,60}' with|cannot modify global variable)\b|(?:^|\n)\s*(?:compilation error\.?\s*)?line \d{1,4}:\s*\S")
+_N1071_TVERR_LOOSE = _n1071_re.compile(r"(?i)\b(?:invalid argument|incorrect argument|value with na type|loop is too long|cannot (?:assign|modify|call|use)|compil\w+ error|"
+                                       r"the '[^']{1,40}' (?:function|argument|parameter|identifier)|line \d{1,4}\b)")
+_N1071_FIXWORDS = _n1071_re.compile(r"(?i)\b(?:error|errors|not working|doesn'?t work|does not work|won'?t compile|not compiling|doesn'?t compile|fails?|failed|broken|bug|wrong|"
+                                    r"problem|issue|red line)\b")
+_N1071_CHANGE = _n1071_re.compile(r"(?i)\b(?:update|change|modify|edit|tweak|adjust|improve|add|remove|switch)\b.*\b(?:it|the|that|this|my|last|previous|same)\b|"
+                                  r"\bmake (?:it|that|this|the (?:script|strategy|pine))\b|\b(?:that|this|the last|the previous|the same) (?:script|pine(?: script)?|one|strategy)\b|"
+                                  r"^(?:now|also|and|ab|aur)\b")
+
+
+def _n1071_words(text):
+    return _n1071_re.findall(r"[a-z0-9']+", str(text or '').lower())
+
+
+def _n1071_is_generic(text):
+    left = [w for w in _n1071_words(text) if w not in _N1071_FILLER]
+    return not left
+
+
+def _n1071_kind(text):
+    """'survival' (Nemo's own strategy, no AI), 'survival_custom' (Nemo's strategy changed by the AI), 'generic' (no details: show the choices) or 'custom' (the AI writes it)."""
+    if _N1071_SURV.search(text):
+        return 'survival_custom' if _N1071_EXTRA_LOGIC.search(text) else 'survival'
+    if _n1071_is_generic(text):
+        return 'generic'
+    return 'custom'
+
+
+def _n1071_wants_pine(text):
+    """A request to make or change a Pine Script (not a question about Pine, and not a report of an error)."""
+    t = ' '.join(str(text or '').split())
+    if not t or len(t) > 3000 or not _N1071_PINE.search(t):
+        return False
+    if _N1071_QUESTION.match(t) and not _n1071_re.search(r'\b(?:for me|can you|could you|please)\b', t, _n1071_re.I):
+        return False
+    if _N1071_FIXWORDS.search(t) and not _N1071_SURV.search(t):
+        return False
+    return bool(_N1071_MAKE.search(t) or _N1071_SURV.search(t)) or (len(t) < 60 and _n1071_is_generic(t))
+
+
+def _n1071_after_pine_question(cid):
+    """True for 15 minutes after Nemo asked which Pine Script to write (its choice card, or the router's clarifying question about a Pine Script)."""
+    with _N1071_LOCK:
+        pend = _N1071_PEND.get(cid)
+        return bool(pend and _n1071_time.time() - pend['t'] < _N1071_LIMITS['card_s'])
+
+
+def _n1071_just_delivered(cid, within=1800):
+    """The last script, when it was delivered in the last half hour and nothing else has been said since (the last reply in the chat history is its delivery)."""
+    last = _n1071_last(cid)
+    if not last or _n1071_time.time() - float(last.get('t') or 0) > within:
+        return None
+    try:
+        with LOCK:
+            rows = [r for r in HISTORY.get(cid, []) if isinstance(r, dict) and r.get('role') in ('user', 'assistant')]
+    except Exception:
+        return None
+    if rows and rows[-1].get('role') == 'assistant' and 'Pine Script file' in str(rows[-1].get('content') or ''):
+        return last
+    return None
+
+
+_N1071_CLARIFY_PREV = _n80_clarify
+
+
+def _n80_clarify(cid, text, question):
+    """The router's clarifying question, unchanged; when it is about a Pine Script, the answer that follows goes to the Pine engine."""
+    r = _N1071_CLARIFY_PREV(cid, text, question)
+    try:
+        if _N1071_PINE.search(str(question or '') + ' ' + str(text or '')):
+            with _N1071_LOCK:
+                _N1071_PEND[cid] = {'t': _n1071_time.time(), 'mid': None}
+    except Exception:
+        pass
+    return r
+
+
+def _n1071_start(cid, text, kind=None):
+    kind = kind or _n1071_kind(text)
+    _N1071_STATS['requests'] += 1
+    with _N1071_LOCK:
+        _N1071_PEND.pop(cid, None)
+    last = _n1071_last(cid) if _N1071_CHANGE.search(text) and kind != 'generic' else None
+    if last and str(last.get('kind') or '').startswith('survival') and kind in ('survival', 'custom') and not _N1071_EXTRA_LOGIC.search(text) and _n1071_opts(text)[1]:
+        _n1071_bg(_n1071_survival_job, cid, text, last.get('opts'))          # "make it long only", "change the risk to 2%": the same survival script with new settings, no AI
+    elif last and kind in ('custom', 'survival_custom'):
+        _n1071_bg(_n1071_custom_job, cid, text, False, last)                  # "add a trailing stop to that script": the AI changes the last script
+    elif kind == 'generic':
+        _n1071_card(cid, text)
+    elif kind == 'survival':
+        _n1071_bg(_n1071_survival_job, cid, text)
+    elif kind == 'survival_custom':
+        _n1071_bg(_n1071_custom_job, cid, text, True)
+    else:
+        _n1071_bg(_n1071_custom_job, cid, text, False)
+    return True
+
+
+def _n1071_route(cid, text, msg):
+    t = ' '.join(str(text or '').split())
+    low = t.lower().strip(' .!?')
+    m = _n1071_re.match(r'(?is)^/pine(?:script)?(?:@\w+)?(?:\s+(.*))?$', t)
+    if m:
+        spec = (m.group(1) or '').strip()
+        return _n1071_start(cid, spec, None if spec else 'generic')
+    if t.startswith('/'):
+        return False
+    if low in ('pine status', 'pine script status', 'pinescript status'):
+        send_text(cid, _n1071_status_text(cid))
+        return True
+    if _n1071_re.match(r'(?i)^(?:please\s+)?(?:re)?send (?:me )?(?:the |my )?(?:pine(?: ?script)?|\.pine) (?:file )?again$|^(?:please\s+)?send (?:the |my )?pine file again$', low):
+        _n1071_bg(_n1071_resend, cid)
+        return True
+    raw = str(text or '')
+    if 'Traceback (most recent call last)' not in raw and not _n1071_re.search(r'File "[^"]+", line \d+', raw):
+        at = raw.find('//@version')
+        pasted = raw[at:] if at >= 0 else None
+        words = raw[:at] if at >= 0 else raw
+        pine_said = bool(_n1071_re.search(r'(?i)\btrading\s*view\b|\bpine\b', raw))
+        strong, loose = bool(_N1071_TVERR.search(words)), bool(_N1071_TVERR_LOOSE.search(words))
+        if (pasted and (strong or loose or _N1071_FIXWORDS.search(words))) or (pine_said and (strong or loose)) or (strong and _n1071_last(cid)):
+            _n1071_bg(_n1071_repair_job, cid, words.strip() or 'TradingView shows an error for this script.', pasted)
+            return True
+        if pine_said and _N1071_FIXWORDS.search(raw) and not _N1071_SURV.search(raw) and _N1071_PINE.search(raw):
+            last = _n1071_last(cid)
+            send_text(cid, 'Paste the exact error text from TradingView (it starts with “line N:” in the Pine Editor) and I will fix %s. You can also paste the script together with the error.' % (
+                'your last script, %s' % last['name'] if last else 'the script'))
+            return True
+    if _n1071_wants_pine(t):
+        return _n1071_start(cid, t)
+    reply = msg.get('reply_to_message') or {}
+    with _N1071_LOCK:
+        pend = _N1071_PEND.get(cid)
+    replying_to_card = bool(pend and pend.get('mid') and reply.get('message_id') == pend.get('mid'))
+    if len(t) <= 800 and (replying_to_card or (_n1071_after_pine_question(cid) and _N1071_RULES.search(t))):
+        return _n1071_start(cid, 'Pine Script: ' + t)
+    if len(t) <= 400 and _n1071_just_delivered(cid) and _N1071_CHANGE.search(t) and _N1071_RULES.search(t):
+        return _n1071_start(cid, 'Pine Script: ' + t)                       # "make it long only" right after the script arrived
+    return False
+
+
+def _n1071_front(msg):
+    cid = _n92_owner(msg)
+    if cid is None or msg.get('photo') or msg.get('document'):
+        return False
+    text = str(msg.get('text') or '').strip()
+    if not text:
+        return False
+    return _n1071_route(cid, text, msg)
+
+
+_N1071_HANDLE_PREV = handle
+
+
+def handle(msg):
+    try:
+        if _n1071_front(msg):
+            return None
+    except Exception:
+        _N1071_STATS['errors'] += 1
+    return _N1071_HANDLE_PREV(msg)
+
+
+_N1071_CALLBACK_PREV = handle_callback
+
+
+def handle_callback(cq):
+    try:
+        data = str(cq.get('data') or '')
+        if data.startswith('pn1071:'):
+            owner = OWNER.get('id')
+            sender = (cq.get('from') or {}).get('id')
+            chat = ((cq.get('message') or {}).get('chat') or {}).get('id')
+            try:
+                tg('answerCallbackQuery', callback_query_id=cq.get('id'))
+            except Exception:
+                pass
+            if owner is None or sender != owner or chat != owner:
+                return None
+            with _N1071_LOCK:
+                _N1071_PEND.pop(owner, None)
+            if data == 'pn1071:s':
+                _N1071_STATS['requests'] += 1
+                _n1071_bg(_n1071_survival_job, owner, 'pine script with your survival logic')
+            else:
+                m = _n1071_re.match(r'^pn1071:t:([a-z]+)$', data)
+                if m and m.group(1) in _N1071_TEMPLATES:
+                    _N1071_STATS['requests'] += 1
+                    _n1071_bg(_n1071_template_job, owner, m.group(1))
+            return None
+    except Exception:
+        _N1071_STATS['errors'] += 1
+        return None
+    return _N1071_CALLBACK_PREV(cq)
+
+
+# ------------------------------------------------ the work planner: hand Pine over, and say "out of time" in plain words ------------------------------------------------
+def _n1071_budget_text(rid, text):
+    done = None
+    m = _n1071_re.search(r'Completed (\d+) planned steps', str(text or ''))
+    if m:
+        done = int(m.group(1))
+    steps = []
+    try:
+        c = _n35_conn()
+        try:
+            row = c.execute('SELECT plan FROM work71_run WHERE id=?', (rid,)).fetchone()
+        finally:
+            c.close()
+        steps = [str(s.get('tool')) for s in _n1071_json.loads(row[0] or '[]')] if row and row[0] else []
+    except Exception:
+        steps = []
+    total = len(steps)
+    part = ('%d of %d steps (%s)' % (done, total, ', '.join(steps[:done]) or 'none')) if done is not None and total else ('%d step%s' % (done, '' if done == 1 else 's')) if done is not None else 'part of the plan'
+    return ('Work %s stopped: it ran out of its 3-minute limit after %s. Nothing was sent anywhere and nothing was changed. '
+            'Ask “how is %s going” to see what finished, or ask again with a narrower request.' % (rid, part, rid))
+
+
+_N1071_N71_EXECUTE_PREV = _n71_execute
+
+
+def _n71_execute(cid, rid, goal, context):
+    g = str(goal or '')
+    if cid == OWNER.get('id') and _n1071_wants_pine(g) and not _n1071_re.search(r'(?i)\b(?:research|investigate|compare|analy[sz]e|report|pdf|document|csv|markdown)\b', g):
+        try:
+            _n71_update(rid, 'COMPLETE', 'Handed to the Pine engine (Nemo 107.1).')
+        except Exception:
+            pass
+        _N1071_STATS['handover'] += 1
+        kind = _n1071_kind(g)
+        if kind == 'generic':
+            _n1071_card(cid, g)
+        elif kind == 'survival':
+            _n1071_survival_job(cid, g)
+        else:
+            _n1071_custom_job(cid, g, kind == 'survival_custom')
+        return {'ok': True, 'text': '', 'evidence': {'run_id': rid, 'handed_to': 'pine'}, 'verified': True}
+    r = _N1071_N71_EXECUTE_PREV(cid, rid, goal, context)
+    if isinstance(r, dict) and r.get('error') == 'WORK_BUDGET_REACHED':
+        r = dict(r, text=_n1071_budget_text(rid, r.get('text')))
+        _N1071_STATS['budget_plain'] += 1
+    return r
+
+
+# ------------------------------------------------ status, forgetting, capabilities, regression rows ------------------------------------------------
+def _n1071_status_text(cid):
+    last = _n1071_last(cid)
+    with _N1071_LOCK:
+        py = _N1071_PY['py'] if _n1071_time.time() - _N1071_PY['t'] < 600 else 'unknown'
+    s = _N1071_STATS
+    lines = ['📈 Pine Script engine (Nemo %s)' % VERSION,
+             'Last script: %s' % ('%s (%s), %s' % (last['name'], last['kind'], _n1071_time.strftime('%d %b %H:%M', _n1071_time.localtime(last['t']))) if last else 'none this week'),
+             'Grammar parser (pynescript): %s' % ('installed' if py and py != 'unknown' else 'not checked yet' if py == 'unknown' else 'not installed (say “install pynescript” to add it)'),
+             'Since start: %d requests · %d survival · %d custom · %d ready-made · %d fixes · %d choice cards · %d handed over by the work planner · %d checked fallbacks' % (
+                 s['requests'], s['survival'], s['custom'], s['templates'], s['repairs'], s['cards'], s['handover'], s['fallbacks']),
+             'Say: “pine script with your survival logic”, “pine script: <your rules>”, paste a TradingView error to fix it, or “send the pine file again”.']
+    return '\n'.join(lines)
+
+
+def _n1071_st_pine(cid, m, apply):
+    last = _n1071_last(cid)
+    if not last or not m(str(last.get('spec') or '') + ' ' + str(last.get('name') or '')):
+        return 0
+    if apply:
+        with _N1071_LOCK:
+            _N1071_LAST.pop(cid, None)
+        try:
+            _n106_kv_set('n1071_last_%s' % cid, '')
+        except Exception:
+            pass
+    return 1
+
+
+_N86_STORES = _N86_STORES + (('pine1071', 'the words of your last Pine Script request', _n1071_st_pine, ('topic', 'conversation', 'everything')),)
+_N1071_CAPS_PREV = _n82_capabilities
+
+
+def _n82_capabilities():
+    return (_N1071_CAPS_PREV() + '\nPine 107.1: Pine Script requests go straight to the Pine engine; “with your survival logic” builds my own Survival Strategy (GODMODE score + survival rules) '
+            'without AI; other scripts are AI-written and checked (and grammar-parsed when pynescript is installed); TradingView errors pasted back are fixed (pine status).')
+
+
+def _n1071_regression_rows():
+    rows = []
+
+    def add(name, fn):
+        try:
+            ok = bool(fn())
+        except Exception:
+            ok = False
+        rows.append({'name': 'v1071-' + name, 'ok': ok, 'detail': 'pure contract check; no network, no AI'})
+    add('version', lambda: float(VERSION) >= 107.1)
+    add('hooks-installed', lambda: handle is not _N1071_HANDLE_PREV and handle_callback is not _N1071_CALLBACK_PREV and _n71_execute is not _N1071_N71_EXECUTE_PREV)
+    add('survival-lint-clean', lambda: pine_lint(_n1071_survival_code(_n1071_survival_defaults())) == [])
+    add('survival-keeps-rules', lambda: all(k in _n1071_survival_code(_n1071_survival_defaults()) for k in _N1071_SURVIVAL_KEEP))
+    add('survival-ascii', lambda: _n1071_survival_code(_n1071_opts('risk 2% per trade, 2 trades a day, long only, lot 65')[0]).isascii())
+    add('routes-survival', lambda: _n1071_wants_pine('create a pine script with your survival logics') and _n1071_kind('create a pine script with your survival logics') == 'survival')
+    add('routes-generic', lambda: _n1071_kind('create a new pine script') == 'generic')
+    add('question-passes', lambda: not _n1071_wants_pine('what is pine script?'))
+    add('opts-words', lambda: _n1071_opts('risk 2% per trade, 2 trades a day, long only, lot 65')[0]['risk'] == 2.0 and _n1071_opts('long only')[0]['shorts'] is False)
+    add('forget-store-registered', lambda: 'pine1071' in {s[0] for s in _N86_STORES})
+    return rows
+
+
+_N1071_REG_PREV = prime_regression_suite
+
+
+def prime_regression_suite():
+    r = _N1071_REG_PREV()
+    extra = _n1071_regression_rows()
+    if isinstance(r, dict):
+        r['tests'] = list(r.get('tests', [])) + extra
+        r['passed'] = sum(1 for x in r['tests'] if x.get('ok'))
+        r['failed'] = len(r['tests']) - r['passed']
+        r['verdict'] = 'PASS' if not r['failed'] else 'FAIL'
+        r['version'] = VERSION
+        return r
+    return {'id': 'RG1071', 'version': VERSION, 'tests': extra, 'passed': sum(1 for x in extra if x['ok']), 'failed': sum(1 for x in extra if not x['ok'])}
+
+
+try:
+    _N40_COMMANDS.append(('pine', 'Pine Script: my survival strategy, your own rules, ready-made scripts, fixes for TradingView errors'))
+except Exception:
+    pass
 
 
 if __name__ == '__main__':

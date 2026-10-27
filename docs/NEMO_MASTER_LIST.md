@@ -2,11 +2,11 @@
 
 One page that gathers everything: what exists (v83 to v101), everything planned or proposed, what is parked, what I would not build, a recommended build order, and what still needs a live check. The longer reasoning, evidence and sources stay in the research pages named in each section; this page is the list.
 
-Sizes: **S** = hours, **M** = a day or two, **L** = several days. **Risk** is to your money, privacy or server. **★** = I would build it first. Status of every item in sections 2 to 6 is **not built** unless it is marked BUILT or PART BUILT (v102 Hearth built O4; v103 Mind built M1, M2, F1 and parts of M3 and M5; v104 Autopilot built T1, R1, R2, R4, R6 and parts of T7, R5, C6, X5; v105 Web Hands built T2 and parts of T6, R3, C4; v106 Steady was a fix release: light, talkative updates with a safety net, and honest health checks, see `NEMO_V106_STEADY.md`; v107 Reach built K1 (dated sources added to v85's research), K2, K3, K4, K6 and part of K7).
+Sizes: **S** = hours, **M** = a day or two, **L** = several days. **Risk** is to your money, privacy or server. **★** = I would build it first. Status of every item in sections 2 to 6 is **not built** unless it is marked BUILT or PART BUILT (v102 Hearth built O4; v103 Mind built M1, M2, F1 and parts of M3 and M5; v104 Autopilot built T1, R1, R2, R4, R6 and parts of T7, R5, C6, X5; v105 Web Hands built T2 and parts of T6, R3, C4; v106 Steady was a fix release: light, talkative updates with a safety net, and honest health checks, see `NEMO_V106_STEADY.md`; v107 Reach built K1 (dated sources added to v85's research), K2, K3, K4, K6 and part of K7; v107.1 Pine was a fix release: Pine Script requests go straight to the Pine engine, and "with your survival logic" builds Nemo's own Survival Strategy, see `NEMO_V107_1_PINE.md`).
 
 ---
 
-## 1. What Nemo can do today (v83 to v107, all built, tested offline, pushed)
+## 1. What Nemo can do today (v83 to v107.1, all built, tested offline, pushed)
 
 | Area | What it does | Layer |
 |---|---|---|
