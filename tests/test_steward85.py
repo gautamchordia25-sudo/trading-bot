@@ -1165,6 +1165,8 @@ class TestSelfUpdateWrapper(StewardCase):
         q.start()
         self.patches.append(q)
         m._N85_FORCE.clear()
+        # v106 put a lighter /update in front for Nemo files; these tests drive the v85 pre-flight that is still in the chain behind it
+        self.update = getattr(m, '_N106_SELF_UPDATE_PREV', m.self_update)
 
     def tearDown(self):
         self.m.LAST_CODE.pop(self.cid, None)
@@ -1175,13 +1177,13 @@ class TestSelfUpdateWrapper(StewardCase):
         for v in ('PASS', 'WARN'):
             self.verdict = {'verdict': v, 'lines': ['detail'], 'sandboxed': True}
             self.prev_calls.clear()
-            self.m.self_update(self.cid)
+            self.update(self.cid)
             self.assertEqual(self.prev_calls, [self.cid], v)
         self.assertIn('UPDATE PRE-FLIGHT: WARN', self.sent[-1][1])
 
     def test_fail_withholds_apply(self):
         self.verdict = {'verdict': 'FAIL', 'lines': ['the new file crashed during import: boom'], 'sandboxed': True}
-        self.assertIsNone(self.m.self_update(self.cid))
+        self.assertIsNone(self.update(self.cid))
         self.assertEqual(self.prev_calls, [])
         texts = ' '.join(t for _, t in self.sent)
         self.assertIn('PRE-FLIGHT: FAIL', texts)
@@ -1191,26 +1193,26 @@ class TestSelfUpdateWrapper(StewardCase):
     def test_force_is_one_shot(self):
         self.verdict = {'verdict': 'FAIL', 'lines': ['x'], 'sandboxed': True}
         self.m._N85_FORCE[self.cid] = True
-        self.m.self_update(self.cid)
+        self.update(self.cid)
         self.assertEqual(self.prev_calls, [self.cid])
         self.assertEqual(self.gate_calls, [])
         self.prev_calls.clear()
-        self.assertIsNone(self.m.self_update(self.cid))
+        self.assertIsNone(self.update(self.cid))
         self.assertEqual(self.prev_calls, [])
 
     def test_gate_off_and_missing_code_defer_to_the_original_handler(self):
         self.m._n83_set_flag(self.cid, 'updategate', False)
-        self.m.self_update(self.cid)
+        self.update(self.cid)
         self.assertEqual((self.prev_calls, self.gate_calls), ([self.cid], []))
         self.m._n83_set_flag(self.cid, 'updategate', True)
         self.prev_calls.clear()
         self.m.LAST_CODE[self.cid] = {'code': 'tiny'}
-        self.m.self_update(self.cid)
+        self.update(self.cid)
         self.assertEqual((self.prev_calls, self.gate_calls), ([self.cid], []))
 
     def test_gate_crash_falls_back_to_the_old_check_instead_of_blocking_updates(self):
         with mock.patch.object(self.m, '_n85_gate', side_effect=RuntimeError('boom')):
-            self.m.self_update(self.cid)
+            self.update(self.cid)
         self.assertEqual(self.prev_calls, [self.cid])
         self.assertIn('could not run', ' '.join(t for _, t in self.sent))
 

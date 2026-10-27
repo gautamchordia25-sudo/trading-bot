@@ -739,12 +739,13 @@ class TestUpdateChecks(WireCase):
         self.assertIn('ruff: could not run', '\n'.join(self.m._n92_update_checks('x' * 100001)))
 
     def test_the_wrapper_sends_the_checks_first_and_then_runs_the_normal_update_exactly_once(self):
+        # (v106 put a lighter /update in front for Nemo files; these tests drive the v92 extra checks that are still in the chain behind it)
         self.install_fake_tools()
         calls = []
         self.start(self.m, '_N92_SELF_UPDATE_PREV', lambda chat_id: calls.append(('prev', len(self.sent))))
         self.m.LAST_CODE[self.cid] = {'name': 'x.py', 'code': 'x' * 100001}
         n = len(self.sent)
-        self.m.self_update(self.cid)
+        getattr(self.m, '_N106_SELF_UPDATE_PREV', self.m.self_update)(self.cid)
         self.assertEqual(len(calls), 1)
         self.assertGreater(calls[0][1], n, 'the extra-checks message went out before the normal update flow')
         self.assertIn('EXTRA CHECKS', self.texts_to_owner(n))
@@ -755,13 +756,13 @@ class TestUpdateChecks(WireCase):
         self.start(self.m, '_N92_SELF_UPDATE_PREV', lambda chat_id: calls.append(chat_id))
         self.m.LAST_CODE[self.cid] = {'name': 'x.py', 'code': 'short'}
         n = len(self.sent)
-        self.m.self_update(self.cid)
+        getattr(self.m, '_N106_SELF_UPDATE_PREV', self.m.self_update)(self.cid)
         self.assertEqual((calls, len(self.sent)), ([self.cid], n))
         self.m.LAST_CODE[self.cid] = {'name': 'x.py', 'code': 'x' * 100001}
-        self.m.self_update(5552)
+        getattr(self.m, '_N106_SELF_UPDATE_PREV', self.m.self_update)(5552)
         self.assertEqual(len(self.sent), n, 'only the owner gets the extra message')
         self.start(self.m, '_n92_update_checks', lambda code: (_ for _ in ()).throw(RuntimeError('boom')))
-        self.m.self_update(self.cid)
+        getattr(self.m, '_N106_SELF_UPDATE_PREV', self.m.self_update)(self.cid)
         self.assertEqual(len(calls), 3, 'a crash in the extra checks never blocks the update flow')
         self.assertEqual(self.m._N92_STATS['errors'], 1)
 
