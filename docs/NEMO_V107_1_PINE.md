@@ -96,9 +96,9 @@ On the chart:
 
 ## 5. Tests (offline)
 
-`tests/test_pine1071.py`: **50 tests**.
-* With no parser installed: **49 run, all pass; the real-grammar test is skipped**.
-* With `NEMO_PINE_PY` set to a python that has pynescript: **all 50 pass**. The survival script in three settings and all six library scripts parse; a broken line is reported at the right line number.
+`tests/test_pine1071.py`: **52 tests**.
+* With no parser installed: **51 run, all pass; the real-grammar test is skipped**.
+* With `NEMO_PINE_PY` set to a python that has pynescript: **all 52 pass**. The survival script in three settings and all six library scripts parse; a broken line is reported at the right line number.
 
 Covered:
 * the screenshot message;
@@ -114,7 +114,7 @@ Covered:
 * email, resend and an unconfirmed upload;
 * status, forgetting, self-development lock, and no orders or secrets in the layer.
 
-Mutation check: 31 deliberate bugs, each run against the tests (results in the commit message).
+Mutation check: 31 deliberate bugs (the front door removed, a survival rule dropped, the square-off or daily loss limit switched off in the script, repainting, the card never expiring, other people served, a grammar parse claimed that did not run, …). **All 31 were caught**; one of them only by the real-grammar test.
 
 ## 6. Simple checks to run through Nemo (after installing)
 
