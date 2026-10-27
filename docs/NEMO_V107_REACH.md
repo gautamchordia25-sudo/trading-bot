@@ -127,7 +127,7 @@ The transcript is read in parts of about 11,000 characters, up to 16 parts (abou
 - **Planted bugs:** I broke the new rules on purpose 31 times, one at a time, and **the tests failed for every one**. The first round let four through (a reworded headline, impossible timestamps, the stop after two failed parts, a key-less fact-check call). I made those tests stricter. Doing that exposed a real flaw, which I fixed: "cuts rates to 18 percent" and "cuts rates to 28 percent" were treated as the same story. Headlines with different numbers are now different news.
 - **Bugs found while building, fixed:** a reworded headline ("18 per cent" vs "18 percent", "rate" vs "rates") counted as a new story; a fact-check started on any message beginning "check it"; the search cache could be pruned while another thread wrote to it.
 - **Pyflakes:** the same 158 messages as v106, none new. A scan of the added code for keys, tokens or passwords found none.
-- **Whole suite:** see the line below (filled in when the full run on this exact file finishes).
+- **Whole suite on the exact file delivered (the slow gate switched on): 3,771 tests, 7 skipped, 0 failures, 0 errors.**
 - Nothing here placed an order, called a real AI, search engine, feed, YouTube or Google, or used a paid service.
 
 ## 9. What changed in older code (everything else is in the new layer, marker `# NEMO 107 - REACH`)
