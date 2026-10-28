@@ -90,7 +90,7 @@ Details:
 * **Mutation check:** 41 deliberate bugs put into the layer one at a time. The tests catch all 41.
 * **pyflakes:** the same 158 messages as v108.0, none new.
 * **Nemo's own regression suite:** 1093 pass. The same 3 fail as before, because this machine has no internet or bot config.
-* **Full test suite:** still running when this was committed; the result follows in the next commit.
+* **Full test suite:** 3927 tests, 0 failures, 0 errors, 7 skipped.
 
 ## 7. Sources
 
