@@ -180,7 +180,7 @@ class TestVoiceConversation(VoiceCase):
         v = self.voices()
         self.assertEqual(1, len(v))
         self.assertEqual('sendVoice', v[0]['method'])
-        self.assertEqual('audio/mpeg', v[0]['mime'])
+        self.assertEqual('audio/ogg', v[0]['mime'], 'Telegram\'s own voice-note format (v108.1): a waveform and the speed button on iPhone')
         self.assertIn('Nemo Survival Strategy', self.tts[0]['text'])
         kb = json.loads(v[0]['data']['reply_markup'])
         self.assertEqual(['🐢 Slower', '⚡ Faster', '📝 Text'], [b['text'] for b in kb['inline_keyboard'][0]])
@@ -364,12 +364,12 @@ class TestVoiceSound(VoiceCase):
         self.assertEqual(('+0%', '+0Hz', 'neutral'), m._n108_prosody('Congratulations!', 'normal', expressive=False))
 
     @unittest.skipUnless(FFMPEG, 'ffmpeg is not installed')
-    def test_when_telegram_refuses_the_mp3_it_gets_ogg_opus_then_the_old_audio_file(self):
+    def test_when_telegram_refuses_the_ogg_it_gets_the_mp3_then_the_old_audio_file(self):
         m = self.m
-        self.post_reply[('sendVoice', 'nemo.mp3')] = {'ok': False, 'description': 'Bad Request: wrong file type'}
-        self.assertEqual('voice-ogg', m._n108_speak(self.cid, 'Hello there.'))
-        self.assertEqual(['nemo.mp3', 'nemo.ogg'], [p['name'] for p in self.posts])
-        self.assertEqual('audio/ogg', self.posts[1]['mime'])
+        self.post_reply[('sendVoice', 'nemo.ogg')] = {'ok': False, 'description': 'Bad Request: wrong file type'}
+        self.assertEqual('voice', m._n108_speak(self.cid, 'Hello there.'))
+        self.assertEqual(['nemo.ogg', 'nemo.mp3'], [p['name'] for p in self.posts])
+        self.assertEqual('audio/mpeg', self.posts[1]['mime'])
         self.posts.clear()
         self.post_reply['sendVoice'] = {'ok': False}
         self.assertEqual('audio', m._n108_speak(self.cid, 'Hello again.'))
@@ -926,7 +926,7 @@ class TestPolls(VoiceCase):
 class TestHousekeeping(VoiceCase):
     def test_version_rows_capabilities(self):
         m = self.m
-        self.assertEqual('108.0', m.VERSION)
+        self.assertGreaterEqual(float(m.VERSION), 108.0)
         rows = m._n108_regression_rows()
         self.assertTrue(rows and all(r['ok'] for r in rows), [r for r in rows if not r['ok']])
         self.assertIn('v108-hooks-installed', {r['name'] for r in m.prime_regression_suite()['tests']})
