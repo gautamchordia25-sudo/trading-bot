@@ -183,7 +183,9 @@ Other checks:
 * **Mutation check:** 55 deliberate bugs put into the layer one at a time; the tests catch all 55.
 * **pyflakes:** the same 158 messages as v107.1, none new.
 * **Nemo's own regression suite:** 1087 pass; the same 3 fail as on v107.1, because this machine has no internet and no bot config.
-* **Full test suite:** the first run found 6 problems (5 caused by v108, now fixed: voice notes skipped Argus and Scout, and a broken stream rested the model). A rerun on this file was still going when this was written.
+* **Full test suite:** 3889 tests, 0 failures, 7 skipped, 1 error.
+  * The first run found 6 problems. 5 were caused by v108 and are fixed: voice notes skipped Argus and Scout, and a broken stream rested the model.
+  * The 1 error is not a failed test. After a test passes, its temporary folder sometimes cannot be deleted ("Directory not empty"). It hits a different test each run and was already in the v93, v103 and v104 full runs. This time it was `test_wire92`, which passes when run on its own.
 
 ## 9. Sources
 
