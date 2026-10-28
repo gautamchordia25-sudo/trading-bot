@@ -2,11 +2,11 @@
 
 One page that gathers everything: what exists (v83 to v101), everything planned or proposed, what is parked, what I would not build, a recommended build order, and what still needs a live check. The longer reasoning, evidence and sources stay in the research pages named in each section; this page is the list.
 
-Sizes: **S** = hours, **M** = a day or two, **L** = several days. **Risk** is to your money, privacy or server. **★** = I would build it first. Status of every item in sections 2 to 6 is **not built** unless it is marked BUILT or PART BUILT (v102 Hearth built O4; v103 Mind built M1, M2, F1 and parts of M3 and M5; v104 Autopilot built T1, R1, R2, R4, R6 and parts of T7, R5, C6, X5; v105 Web Hands built T2 and parts of T6, R3, C4; v106 Steady was a fix release: light, talkative updates with a safety net, and honest health checks, see `NEMO_V106_STEADY.md`; v107 Reach built K1 (dated sources added to v85's research), K2, K3, K4, K6 and part of K7; v107.1 Pine was a fix release: Pine Script requests go straight to the Pine engine, and "with your survival logic" builds Nemo's own Survival Strategy, see `NEMO_V107_1_PINE.md`).
+Sizes: **S** = hours, **M** = a day or two, **L** = several days. **Risk** is to your money, privacy or server. **★** = I would build it first. Status of every item in sections 2 to 6 is **not built** unless it is marked BUILT or PART BUILT (v102 Hearth built O4; v103 Mind built M1, M2, F1 and parts of M3 and M5; v104 Autopilot built T1, R1, R2, R4, R6 and parts of T7, R5, C6, X5; v105 Web Hands built T2 and parts of T6, R3, C4; v106 Steady was a fix release: light, talkative updates with a safety net, and honest health checks, see `NEMO_V106_STEADY.md`; v107 Reach built K1 (dated sources added to v85's research), K2, K3, K4, K6 and part of K7; v107.1 Pine was a fix release: Pine Script requests go straight to the Pine engine, and "with your survival logic" builds Nemo's own Survival Strategy, see `NEMO_V107_1_PINE.md`; v108 Voice built V1, V2, V7, X1, X2 and most of V6, see `NEMO_V108_VOICE.md`).
 
 ---
 
-## 1. What Nemo can do today (v83 to v107.1, all built, tested offline, pushed)
+## 1. What Nemo can do today (v83 to v108, all built, tested offline, pushed)
 
 | Area | What it does | Layer |
 |---|---|---|
@@ -60,20 +60,20 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 
 | ID | Feature | You get | Size / risk |
 |---|---|---|---|
-| V1 ★ | Streaming replies | Text appears as it is written; stop a wrong answer early | S-M / low |
-| V2 ★ | Voice-note conversation | A real voice-note bubble back, in your language, with speed and tone; text twin on request | M / low |
+| V1 ★ | **BUILT in v108.0 Voice** (live drafts with a stop button; Anthropic and OpenRouter answers): Streaming replies | Text appears as it is written; stop a wrong answer early | S-M / low |
+| V2 ★ | **BUILT in v108.0 Voice** (voice notes go through the whole of Nemo; voice-note replies in English, Hindi, Gujarati; family too): Voice-note conversation | A real voice-note bubble back, in your language, with speed and tone; text twin on request | M / low |
 | V3 | Phone calls on your behalf | "Call the plumber and ask the price"; says it is an AI, your approval first, no payments or OTPs | L / **high** |
 | V4 | Draft replies, send after your tap | Mail and WhatsApp drafts; "triage my inbox" | M / medium |
 | V5 | Interpreter mode | Live Hindi / Gujarati / English, text and voice | M / low |
-| V6 | Richer Telegram messages | Polls, buttons, only-you messages in groups, video notes | S / low |
-| V7 ★ | Notification manners | Quiet hours, urgent vs digest, one daily digest, "snooze Nemo 2 hours" | S / low |
+| V6 | **PART BUILT in v108.0 Voice** (polls, quiz polls, round video notes, buttons on voice notes; only-you messages in groups not built): Richer Telegram messages | Polls, buttons, only-you messages in groups, video notes | S / low |
+| V7 ★ | **BUILT in v108.0 Voice** (quiet hours, snooze, daily digest; urgent and replies never held; off until turned on): Notification manners | Quiet hours, urgent vs digest, one daily digest, "snooze Nemo 2 hours" | S / low |
 
 ### EXPRESSION
 
 | ID | Feature | You get | Size / risk |
 |---|---|---|---|
-| X1 | Tone dials | "Shorter", "more formal with customers", remembered per person and situation | S / low |
-| X2 | Expressive voice and reactions | Warm/calm/excited voice by situation; emoji or sticker where a person would | S-M / low |
+| X1 | **BUILT in v108.0 Voice** (per person and situation, given to the answer model and the family chat): Tone dials | "Shorter", "more formal with customers", remembered per person and situation | S / low |
+| X2 | **BUILT in v108.0 Voice** (calm/warm/excited/serious delivery; reactions instead of "you are welcome"): Expressive voice and reactions | Warm/calm/excited voice by situation; emoji or sticker where a person would | S-M / low |
 | X3 | Explain with a picture | Diagram, timeline or comparison table when it helps | S / low |
 | X4 | Teaching and story modes | Study mode, bedtime stories, "explain like I am new" | S / low |
 | X5 | **PART BUILT in v104.0 Autopilot** (for what Autopilot, the built-in jobs and scheduled actions send; chat answers keep their own "how did you get that answer"): "Why did you do that?" for actions | One-line reason and a receipt for every action | S / low |
@@ -216,7 +216,7 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 
 ---
 
-## 4. Recommended build order (v102 Hearth, v103 Mind, v104 Autopilot and v105 Web Hands are built; v106 went to Steady, a fix release, so the numbers below moved up by one; v107 Reach is built and the next one is v108)
+## 4. Recommended build order (v102 Hearth, v103 Mind, v104 Autopilot and v105 Web Hands are built; v106 went to Steady, a fix release, so the numbers below moved up by one; v107 Reach and v108 Voice are built and the next one is v109)
 
 | Step | Name | Contents | Why here |
 |---|---|---|---|
@@ -226,7 +226,7 @@ Reasons, evidence and sources for each: `NEMO_ADVANCED_AI_FEATURES.md` (A to H g
 | 3a | **v106 Steady (BUILT, fix release)** | No list items: `/update` that answers at once and checks in separate processes, a safety net outside Nemo's service, honest voice/Gemini/Gmail checks, a Nemo file no longer sent with every question | Your update went silent on a small server; it had to come first |
 | 3b | **v107 Reach (BUILT)** | K1 (dates), K2, K3, K4, K6 built; K7 in part | The second web step |
 | 3c | **Laptop hands** | T4 dictation, then T3 on your Windows laptop in four stages (through the Hearth relay) | The typing and clicking on your own computer; every action through your tap and the stop word |
-| 4 | **v108 Voice** | V1, V2, V7, X1, X2, V6 | Nemo feels alive and the family can use it by voice |
+| 4 | **v108 Voice (BUILT)** | V1, V2, V7, X1, X2 built; V6 in part | Nemo feels alive and the family can use it by voice |
 | 5 | **v109 App** | D0 foundation, D1 Nemo app, D2 Siri shortcut, S1 stable address | The "out of Telegram" step; needs the streaming and voice pieces from step 4 |
 | 6 | **v110 Heart** | H1 to H4 | Small, valuable; H4 protects money (R6 is already built) |
 | 7 | **Reach, the rest** | V4, C2, C5 | Breadth: connections, drafts |

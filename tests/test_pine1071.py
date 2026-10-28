@@ -632,7 +632,7 @@ class TestRealPineGrammar(PineCase):
 class TestHousekeeping(PineCase):
     def test_version_and_regression_rows(self):
         m = self.m
-        self.assertEqual('107.1', m.VERSION)
+        self.assertGreaterEqual(float(m.VERSION), 107.1)
         rows = m._n1071_regression_rows()
         self.assertTrue(rows and all(r['ok'] for r in rows), [r for r in rows if not r['ok']])
         names = {r['name'] for r in m.prime_regression_suite()['tests']}
