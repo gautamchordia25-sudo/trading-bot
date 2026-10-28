@@ -117496,6 +117496,9 @@ def _n108_stream_sse(provider, response, deadline, sink, stopped):
     return text, clean, served
 
 
+_N108_STREAM_ONLY_ERRORS = frozenset({'transport_or_response_error', 'invalid_json'})   # a broken stream, not a broken model: the unchanged gateway may try the same model
+
+
 def _n108_stream_once(cid, role, messages, timeout, sink, stopped):
     """The first configured answer model, streamed (Anthropic or OpenRouter only). Returns the gateway's result dict, None when this turn cannot stream (the caller then uses the
     unchanged gateway), or raises _N73Error for a refusal, a stop or an exhausted budget."""
@@ -117542,9 +117545,20 @@ def _n108_stream_once(cid, role, messages, timeout, sink, stopped):
                     duration = 3600 if code in (401, 403) else 900 if code in (400, 404) else 60
                     _N73_COOLDOWN[(provider, '*' if code in (401, 403) else model)] = _b73_time.monotonic() + duration
                 raise _N73Error(error)
-            text, usage, served = _n108_stream_sse(provider, response, t0 + budget, sink, stopped)
+            hdrs = getattr(response, 'headers', None) or {}
+            ctype = next((str(v).lower() for k, v in hdrs.items() if str(k).lower() == 'content-type'), '')
+            if 'json' in ctype:                       # a whole answer instead of a stream (a proxy, an older endpoint): read it exactly as the gateway does
+                if len(response.content) > 2_000_000:
+                    raise _N73Error('response_too_large')
+                body = response.json()
+                text, usage = _n73_parse(provider, body)
+                served = body.get('model') if isinstance(body, dict) else None
+                sink(text)
+            else:
+                text, usage, served = _n108_stream_sse(provider, response, t0 + budget, sink, stopped)
             if served and provider == 'openrouter' and _n74_valid_model('openrouter', served):
                 usage['served_model'] = served
+            _n73_validate_output(role, text)
         finally:
             response.close()
         tid = getattr(globals().get('_N71_TLS'), 'task_id', None)
@@ -117561,8 +117575,9 @@ def _n108_stream_once(cid, role, messages, timeout, sink, stopped):
     _n73_record(cid, role, provider, model, False, _b73_time.monotonic() - t0, usage, error)
     if terminal or error in ('time_budget_exhausted',):
         raise _N73Error(error, terminal)
-    with _N73_LOCK:
-        _N73_COOLDOWN[(provider, model)] = max(_N73_COOLDOWN.get((provider, model), 0), _b73_time.monotonic() + 45)
+    if error not in _N108_STREAM_ONLY_ERRORS:      # the model's own answer failed: cool it as the gateway would, so the fallback moves on to the next model
+        with _N73_LOCK:
+            _N73_COOLDOWN[(provider, model)] = max(_N73_COOLDOWN.get((provider, model), 0), _b73_time.monotonic() + 45)
     _N108_STATS['stream_fallbacks'] += 1
     return None
 
@@ -118493,8 +118508,8 @@ def _n108_front(msg):
     if cid != owner:
         return False
     if msg.get('voice') and not str(msg.get('caption') or '').strip():
-        _n108_bg(_n108_voice_job, msg)
-        return True
+        _n108_note_voice(msg)                                 # the older layers still see it (Argus records it); the voice reader below takes it
+        return False
     if msg.get('photo') or msg.get('document') or msg.get('audio') or msg.get('video'):
         return False
     text = str(msg.get('text') or '').strip()
@@ -118505,6 +118520,41 @@ def _n108_front(msg):
     if not msg.get('_n108_voice') and _n108_reaction_route(cid, text, msg):
         return True
     return False
+
+
+_N108_VOICE_MSG = {}                                   # file_id -> the owner's voice note, from the front door to the voice reader
+
+
+def _n108_note_voice(msg):
+    fid = (msg.get('voice') or {}).get('file_id')
+    if not fid:
+        return
+    with _N108_LOCK:
+        _N108_VOICE_MSG[fid] = msg
+        while len(_N108_VOICE_MSG) > 50:                   # a note some older layer took for itself is not kept for ever
+            _N108_VOICE_MSG.pop(next(iter(_N108_VOICE_MSG)))
+
+
+_N108_HANDLE_VOICE_PREV = handle_voice
+
+
+def handle_voice(chat_id, v):
+    """The voice reader. The owner's private voice note without words goes to today's Nemo (heard, then answered as a typed message); a /talk session, captions,
+    audio files, groups and everyone else keep the older readers."""
+    msg = None
+    try:
+        fid = (v or {}).get('file_id')
+        with _N108_LOCK:
+            msg = _N108_VOICE_MSG.pop(fid, None) if fid else None
+        if msg is not None and (chat_id != OWNER.get('id') or (msg.get('chat') or {}).get('id') != chat_id or _n37_talk_on(chat_id)):
+            msg = None
+    except Exception:
+        _N108_STATS['errors'] += 1
+        msg = None
+    if msg is None:
+        return _N108_HANDLE_VOICE_PREV(chat_id, v)
+    _n108_bg(_n108_voice_job, msg)
+    return None
 
 
 _N108_HANDLE_PREV = handle
@@ -118634,7 +118684,7 @@ def _n108_regression_rows():
         rows.append({'name': 'v108-' + name, 'ok': ok, 'detail': 'pure contract check; no network, no AI'})
     add('version', lambda: float(VERSION) >= 108)
     add('hooks-installed', lambda: handle is not _N108_HANDLE_PREV and send_text is not _N108_SEND_PREV and _n73_request is not _N108_REQ_PREV and _n86_turn is not _N108_TURN_PREV
-        and _n83_system is not _N108_SYSTEM_PREV and handle_callback is not _N108_CALLBACK_PREV)
+        and _n83_system is not _N108_SYSTEM_PREV and handle_callback is not _N108_CALLBACK_PREV and handle_voice is not _N108_HANDLE_VOICE_PREV)
     add('lang', lambda: _n108_lang('કેમ છો') == 'gu' and _n108_lang('नमस्ते') == 'hi' and _n108_lang('hello') == 'en')
     add('speech-text', lambda: 'http' not in _n108_speech_text('See https://x.example/a **now**')[0] and '*' not in _n108_speech_text('**bold**')[0])
     add('mood', lambda: _n108_mood('Congratulations on the order!') == 'excited' and _n108_mood('Sorry to hear she is not well') == 'calm')

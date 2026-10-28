@@ -50,7 +50,12 @@ Evidence tags: **[code]** = read in Nemo's code; **[tested]** = covered by the o
 * **Only the answer call streams** [tested]:
   * helper calls (scout, memory clerk, critic), repairs after the check, other providers, and the local brain (v102 Hearth, when it answers first or Nemo is offline) are unchanged;
   * streaming covers **Anthropic and OpenRouter**, the first two answer models in Nemo's list.
-* **Any fault falls back.** If a stream fails (HTTP error, cut-off answer), the model rests for 45 seconds exactly as before and the **unchanged gateway** answers. A refusal or a stop inside the stream is handled exactly as Nemo's non-streaming check handles it [tested].
+* **Any fault falls back** to the **unchanged gateway** [tested]:
+  * if the model's own answer fails (HTTP error, cut-off or rejected answer), that model rests for 45 seconds exactly as before;
+  * if only the stream broke (a dropped connection, garbled events), nothing rests and the gateway may ask the same model again;
+  * if the reply comes back whole instead of streamed, it is read exactly as the gateway reads it;
+  * a streamed answer goes through the same output check as before;
+  * a refusal or a stop inside the stream is handled exactly as Nemo's non-streaming check handles it.
 * `streaming off` / `streaming on`.
 
 ## 3. V2: voice-note conversation
@@ -59,6 +64,7 @@ Evidence tags: **[code]** = read in Nemo's code; **[tested]** = covered by the o
   * it is transcribed (Groq Whisper, then the local model);
   * you see "🎤 *what you said*";
   * then it goes through exactly the same path as typed text: memory, router, Pine, Reach, reminders, everything.
+* **The voice note itself still passes every older layer first** [tested], as before: Argus logs it in the activity record and Scout passes it on. Today's voice reader takes it only at the end, where the old reader used to.
 
   The test sends a voice note saying "create a pine script with your survival logic" and gets the `.pine` file and a spoken reply.
 * **The reply comes back as a real voice-note bubble** in the reply's language:
@@ -73,7 +79,7 @@ Evidence tags: **[code]** = read in Nemo's code; **[tested]** = covered by the o
 
   Tap 📝 Text to read it.
 * **Family members** who send Nemo a voice note get a voice note back (`family voice off` stops that).
-* **`/talk` sessions** now go through the whole of Nemo too, and are spoken.
+* **`/talk` sessions** now go through the whole of Nemo too, and are spoken. Voice notes inside a `/talk` session keep the session's own reader, so "bye" still ends it [tested]. Audio files and captioned voice notes also keep the older readers.
 * Settings in words:
   * `voice replies on/off`;
   * `always reply in voice` (while you are talking to it);
@@ -151,9 +157,10 @@ Evidence tags: **[code]** = read in Nemo's code; **[tested]** = covered by the o
 
 ## 8. Tests (offline)
 
-`tests/test_voice108.py`, **61 tests, all pass**. Covered:
+`tests/test_voice108.py`, **66 tests, all pass**. Covered:
 * a voice note reaching the Pine engine and the voice reply;
 * the voice mark on the transcript, progress not spoken, a voice turn expiring, voice off, always, and voice only;
+* the older layers seeing the voice note first; `/talk`, audio files and unseen notes keeping the older readers; the note list never growing past 50;
 * too long or unclear notes, captioned notes, family voice, the old `/talk` path and its loop guard;
 * languages, voices, the spoken text, mood and speed;
 * the MP3 → OGG → audio fallback (real ffmpeg), no voice engine, buttons, settings in words, read-it-out, a real video note, and the no-ffmpeg message;
@@ -161,6 +168,7 @@ Evidence tags: **[code]** = read in Nemo's code; **[tested]** = covered by the o
   * Anthropic and OpenRouter;
   * helpers not streaming;
   * a refusal in the stream, a cut-off stream and an HTTP error each falling back;
+  * a whole (non-streamed) reply, a broken stream that leaves the model usable, and the output check on a streamed answer;
   * the stop button, and someone else's stop;
   * Telegram refusing drafts;
   * streaming off, groups and the local brain;
@@ -170,6 +178,12 @@ Evidence tags: **[code]** = read in Nemo's code; **[tested]** = covered by the o
 * reactions: thanks, ok after a question, pending confirmations, good and sad news, reactions off or refused, a spoken thanks;
 * polls in words, native polls, group polls by the owner only, quiz polls including the older field, and no cards;
 * version, regression rows, forgetting, the sender's contract, and no orders or secrets in the layer.
+
+Other checks:
+* **Mutation check:** 55 deliberate bugs put into the layer one at a time; the tests catch all 55.
+* **pyflakes:** the same 158 messages as v107.1, none new.
+* **Nemo's own regression suite:** 1087 pass; the same 3 fail as on v107.1, because this machine has no internet and no bot config.
+* **Full test suite:** the first run found 6 problems (5 caused by v108, now fixed: voice notes skipped Argus and Scout, and a broken stream rested the model). A rerun on this file was still going when this was written.
 
 ## 9. Sources
 

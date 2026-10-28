@@ -55,6 +55,7 @@ class FakeStream(object):
     def __init__(self, lines, status=200, on_line=None):
         self.lines, self.status_code, self.on_line, self.closed = list(lines), status, on_line, False
         self.content = b'{}'
+        self.headers = {'Content-Type': 'text/event-stream; charset=utf-8'}
 
     def iter_lines(self, decode_unicode=False):
         for i, ln in enumerate(self.lines):
@@ -85,7 +86,7 @@ class VoiceCase(SteadyCase):
         m = self.m
         m._N108_SYNC['on'] = True
         self.addCleanup(m._N108_SYNC.__setitem__, 'on', False)
-        for name in ('_N108_VOICE_TURN', '_N108_INBOUND', '_N108_LAST_REPLY', '_N108_SAID', '_N108_STOPPED'):
+        for name in ('_N108_VOICE_TURN', '_N108_INBOUND', '_N108_LAST_REPLY', '_N108_SAID', '_N108_STOPPED', '_N108_VOICE_MSG'):
             d = getattr(m, name)
             saved = dict(d)
             d.clear()
@@ -131,9 +132,17 @@ class VoiceCase(SteadyCase):
             self.sent2.append((cid, text, kb))
         self.put('send_text', m._n108_send_text)
         self.put('_N108_SEND_PREV', base_send)
-        self.prev = mock.Mock(return_value=None)
+        self.prev = mock.Mock(side_effect=self.older_layers)
+        self.voice_prev = mock.Mock(return_value=None)
+        self.put('_N108_HANDLE_VOICE_PREV', self.voice_prev)
         self.put('_n36_kv_get', lambda k, d=None: self.kv.get(k, d))         # the older settings store needs the main database, which tests do not start
         self.put('_n36_kv_set', lambda k, v: self.kv.__setitem__(k, v) or True)
+
+    def older_layers(self, msg):
+        """The older layers, faked as far as voice goes: as in the real chain, a voice note ends at the voice reader."""
+        if msg.get('voice') or msg.get('audio'):
+            return self.m.handle_voice(msg['chat']['id'], msg.get('voice') or msg.get('audio'))
+        return None
 
     def msg(self, text='', **extra):
         d = super().msg(text, **extra)
@@ -182,11 +191,38 @@ class TestVoiceConversation(VoiceCase):
         self.put('_N108_HANDLE_PREV', self.prev)
         self.put('_n108_transcribe', lambda v: 'what is on my calendar today')
         m.handle(self.msg(voice={'file_id': 'F1', 'duration': 3}, message_id=77))
-        passed = self.prev.call_args[0][0]
+        first, passed = [c[0][0] for c in self.prev.call_args_list]
+        self.assertEqual('F1', first['voice']['file_id'], 'the older layers see the voice note itself first (Argus records it, Scout passes it on)')
         self.assertEqual('what is on my calendar today', passed['text'])
         self.assertTrue(passed['_n108_voice'])
         self.assertEqual(77, passed['message_id'])
         self.assertIn(self.cid, m._N108_VOICE_TURN)
+        self.voice_prev.assert_not_called()
+        self.assertEqual({}, m._N108_VOICE_MSG)
+
+    def test_a_talk_session_audio_files_and_other_chats_keep_the_older_voice_readers(self):
+        m = self.m
+        self.put('_n108_transcribe', lambda v: self.fail('today\'s voice reader should not run'))
+        self.put('_n37_talk_on', lambda cid: True)
+        m.handle(self.msg(voice={'file_id': 'T1', 'duration': 3}))
+        self.assertEqual('T1', self.voice_prev.call_args[0][1]['file_id'], 'a /talk session keeps its own reader (and its “bye”)')
+        self.put('_n37_talk_on', lambda cid: False)
+        m.handle(self.msg(audio={'file_id': 'A1', 'duration': 30}))
+        self.assertEqual('A1', self.voice_prev.call_args[0][1]['file_id'])
+        m.handle_voice(self.cid, {'file_id': 'NEVER-SEEN'})
+        self.assertEqual('NEVER-SEEN', self.voice_prev.call_args[0][1]['file_id'], 'a voice note the front door did not see')
+        self.assertEqual(3, self.voice_prev.call_count)
+        self.assertEqual([], self.voices())
+
+    def test_voice_notes_some_older_layer_kept_are_not_remembered_for_ever(self):
+        m = self.m
+        self.put('_N108_HANDLE_PREV', mock.Mock(return_value=True))
+        for i in range(80):
+            m.handle(self.msg(voice={'file_id': 'K%d' % i, 'duration': 3}))
+        self.assertEqual(50, len(m._N108_VOICE_MSG))
+        self.assertNotIn('K0', m._N108_VOICE_MSG)
+        self.assertIn('K79', m._N108_VOICE_MSG)
+        m._N108_VOICE_MSG.clear()
 
     def test_progress_messages_are_not_spoken_the_answer_is(self):
         m = self.m
@@ -212,7 +248,7 @@ class TestVoiceConversation(VoiceCase):
         self.put('_N108_HANDLE_PREV', self.prev)
         self.put('_n108_transcribe', lambda v: 'hello')
         m.handle(self.msg(voice={'file_id': 'F1', 'duration': 3}))
-        self.prev.assert_called_once()
+        self.assertEqual('hello', self.prev.call_args[0][0]['text'])
         m.send_text(self.cid, 'Hello! How can I help?')
         self.assertEqual([], self.voices())
 
@@ -254,6 +290,8 @@ class TestVoiceConversation(VoiceCase):
         self.put('_N108_HANDLE_PREV', self.prev)
         m.handle(self.msg(voice={'file_id': 'F1', 'duration': 3}, caption='transcribe'))
         self.prev.assert_called_once()
+        self.voice_prev.assert_called_once()
+        self.assertEqual([], self.texts2(), 'no “🎤 …” transcript from this layer')
 
     def test_family_voice_notes_get_voice_back(self):
         m = self.m
@@ -494,6 +532,43 @@ class TestStreaming(VoiceCase):
         self.assertEqual('from the unchanged gateway', out['text'])
         self.assertIn(('anthropic', 'claude-sonnet-5-5'), m._N73_COOLDOWN)
         self.assertEqual(1, m._N108_STATS['stream_fallbacks'])
+
+    def test_a_whole_answer_instead_of_a_stream_is_read_as_the_gateway_reads_it(self):
+        m = self.m
+        body = {'stop_reason': 'end_turn', 'content': [{'type': 'text', 'text': 'A whole answer.'}], 'usage': {'input_tokens': 10, 'output_tokens': 4}}
+        resp = FakeStream([])
+        resp.headers = {'content-type': 'application/json'}
+        resp.content = json.dumps(body).encode()
+        resp.json = lambda: body
+        self.next_stream = resp
+        out = self.turn(self.answer_inner())
+        self.assertEqual('A whole answer.', out['text'])
+        self.req_prev.assert_not_called()
+        self.assertEqual({}, dict(m._N73_COOLDOWN))
+
+    def test_a_broken_stream_lets_the_gateway_try_the_same_model_again(self):
+        m = self.m
+
+        def broken(*a, **kw):
+            raise ConnectionError('reset by peer')
+        self.put('post', broken, obj=m.requests)
+        out = self.turn(self.answer_inner())
+        self.assertEqual('from the unchanged gateway', out['text'])
+        self.assertEqual({}, dict(m._N73_COOLDOWN), 'a broken stream is not a broken model: no cooldown')
+        self.assertEqual(1, m._N108_STATS['stream_fallbacks'])
+        self.put('post', lambda *a, **kw: self.next_stream, obj=m.requests)
+        self.next_stream = FakeStream(['data: {not json'])                 # garbled events
+        self.assertEqual('from the unchanged gateway', self.turn(self.answer_inner())['text'])
+        self.assertEqual({}, dict(m._N73_COOLDOWN))
+
+    def test_an_answer_the_gateway_would_reject_is_rejected_when_streamed_too(self):
+        m = self.m
+        seen = []
+        self.put('_n73_validate_output', lambda role, text: seen.append(text) or (_ for _ in ()).throw(m._N73Error('invalid_output')))
+        self.next_stream = FakeStream(anthropic_sse(['A streamed answer.']))
+        self.assertEqual('from the unchanged gateway', self.turn(self.answer_inner())['text'])
+        self.assertEqual(['A streamed answer.'], seen)
+        self.assertIn(('anthropic', 'claude-sonnet-5-5'), m._N73_COOLDOWN, 'the model\'s own answer failed: cooled as the gateway would')
 
     def test_an_http_error_falls_back_and_cools_the_model(self):
         m = self.m
@@ -817,13 +892,16 @@ class TestPolls(VoiceCase):
         m = self.m
         for front, back in (('Capital of Gujarat?', 'Gandhinagar'), ('Capital of Rajasthan?', 'Jaipur'), ('Capital of Kerala?', 'Thiruvananthapuram')):
             m._n95_card_add(self.cid, front, back, 'states')
-        m.handle(self.msg('quiz poll'))
-        sp = self.calls('sendPoll')[-1]
-        self.assertEqual('quiz', sp['type'])
-        options = [o['text'] for o in sp['options']]
         card = m._n95_q('SELECT front, back FROM study95_card WHERE chat_id=? ORDER BY due LIMIT 1', (str(self.cid),))[0]
-        self.assertEqual(card[0], sp['question'])
-        self.assertEqual(card[1], options[sp['correct_option_ids'][0]])
+        with mock.patch.object(m._n108_random, 'shuffle', lambda x: None):        # unshuffled, the right answer is the last choice, never the first by luck
+            m.handle(self.msg('quiz poll'))
+        m.handle(self.msg('quiz poll'))                                           # and shuffled
+        for sp in self.calls('sendPoll')[-2:]:
+            self.assertEqual('quiz', sp['type'])
+            options = [o['text'] for o in sp['options']]
+            self.assertEqual(card[0], sp['question'])
+            self.assertEqual(card[1], options[sp['correct_option_ids'][0]])
+        self.assertEqual(len(self.calls('sendPoll')[-2]['options']) - 1, self.calls('sendPoll')[-2]['correct_option_ids'][0])
 
     def test_quiz_poll_falls_back_to_the_older_field(self):
         m = self.m
